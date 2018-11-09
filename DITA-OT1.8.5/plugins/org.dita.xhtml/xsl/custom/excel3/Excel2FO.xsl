@@ -29,8 +29,6 @@
     xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format" version="2.0">
 
-    <xsl:import href="../../attrs/tables-attr.xsl"/>
-
     <xsl:key name="key_styles" match="ss:Style" use="@ss:ID"/>
 
     <xsl:variable name="style-map">
@@ -74,71 +72,40 @@
     </xsl:template>
 
     <xsl:template match="ss:Table[child::ss:Row/child::ss:Cell/ss:NamedCell/@ss:Name='Print_Area']" mode="excel">
-        <fo:block xsl:use-attribute-sets="table">
-            <fo:table table-layout="fixed" width="100%" space-before="5pt" space-after="5pt"
-                hyphenate="true" border-top-style="solid" border-top-width="thin"
-                border-top-color="#cccccc" border-bottom-style="solid" border-bottom-width="thin"
-                border-bottom-color="#cccccc" border-end-style="solid" border-end-width="1pt"
-                border-end-color="black" border-start-style="solid" border-start-width="1pt"
-                border-start-color="black" border-left-style="solid" border-left-width="thin"
-                border-left-color="#cccccc" border-right-style="solid" border-right-width="thin"
-                border-right-color="#cccccc">
+        <div class="tablenoborder" >
+            <table>
                 <!--<xsl:call-template name="select.style">
                     <xsl:with-param name="styleid">
                         <xsl:text>Default</xsl:text>
                     </xsl:with-param>
                 </xsl:call-template>-->
                 <xsl:for-each select="ss:Column">
-                    <fo:table-column>
+                    <table-column>
                         <xsl:attribute name="column-width">
                             <xsl:value-of
                                 select="concat('proportional-column-width(', @ss:Width, ')')"/>
                         </xsl:attribute>
-                    </fo:table-column>
+                    </table-column>
                 </xsl:for-each>
-                <xsl:if test="count(ss:Column) &lt; count(ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']])">
-                    <xsl:comment><xsl:value-of select="count(ss:Column)"/>:<xsl:value-of select="count(ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']])"/></xsl:comment> 
-                    <xsl:call-template name="create-missing-colspecs">
-                        <xsl:with-param name="number-missing" select="count(ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']]) - count(ss:Column)"/>
-                    </xsl:call-template>
-                </xsl:if>
                 <!-- TODO: Implement Table Header -->
                 <xsl:if test="ss:Row/ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'">
-                    <fo:table-header xsl:use-attribute-sets="tgroup.thead" hyphenate="true"
-                        border-bottom-style="solid" border-bottom-width="thin"
-                        border-bottom-color="#cccccc">
+                    <thead>
                         <xsl:apply-templates
                             select="
                             ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'] | 
                             ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']]"
                             mode="excel"/>
-                    </fo:table-header>
+                    </thead>
                 </xsl:if>
-                <fo:table-body xsl:use-attribute-sets="tgroup.tbody">
+                <tbody>
                     <xsl:apply-templates
                         select="ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][not(following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'])]
                         [not(self::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'])]"
                         mode="excel"/>
-                </fo:table-body>
-            </fo:table>
-        </fo:block>
+                </tbody>
+            </table>
+        </div>
     </xsl:template>
-
-<xsl:template name="create-missing-colspecs">
-    <xsl:param name="number-missing" select="0"/>
-    <xsl:variable name="average-width" select="sum(ss:Column/@ss:Width) / count(ss:Column[@ss:Width]"/>
-    <xsl:choose>
-        <xsl:when test="$number-missing = 0"></xsl:when>
-        <xsl:otherwise>
-            <fo:table-column>
-                <xsl:attribute name="column-width">
-                    <xsl:value-of
-                        select="concat('proportional-column-width(', $average-width, ')')"/>
-                </xsl:attribute>
-            </fo:table-column>
-        </xsl:otherwise>
-    </xsl:choose>
-</xsl:template>
 
     <!-- Ignore Tables not set as the Print Area -->
     <xsl:template match="ss:Table" mode="excel"/>
@@ -148,112 +115,108 @@
         <xsl:choose>
             <xsl:when
                 test="following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']">
-                <fo:table-row xsl:use-attribute-sets="thead.row">
+                <tr>
                     <xsl:apply-templates mode="excel-header"/>
-                </fo:table-row>
+                </tr>
             </xsl:when>
             <xsl:when test="ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'"/>
             <xsl:otherwise>
-                <fo:table-row xsl:use-attribute-sets="tbody.row">
+                <tr>
                     <xsl:apply-templates mode="excel"/>
-                </fo:table-row>
+                </tr>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
     <xsl:template match="ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']" mode="excel"
         priority="100">
-        <fo:table-row xsl:use-attribute-sets="tbody.row">
+        <tr>
             <xsl:apply-templates mode="excel-header"/>
-        </fo:table-row>
+        </tr>
     </xsl:template>
 
     <!-- Ignore Rows not in the Print Area, but grab the rows in front of the Print Titles row -->
     <xsl:template match="ss:Row" mode="excel">
         <xsl:if
             test="following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']">
-            <fo:table-row xsl:use-attribute-sets="thead.row">
+            <tr>
                 <xsl:apply-templates mode="excel-header"/>
-            </fo:table-row>
+            </tr>
         </xsl:if>
     </xsl:template>
 
     <xsl:template match="ss:Cell" mode="excel-header">
-        <fo:table-cell xsl:use-attribute-sets="thead.row.entry">
+        <th>
             <xsl:call-template name="select.style.header">
                 <xsl:with-param name="styleid">
                     <xsl:value-of select="@ss:StyleID"/>
                 </xsl:with-param>
             </xsl:call-template>
             <xsl:if test="@ss:MergeAcross">
-                <xsl:attribute name="number-columns-spanned">
+                <xsl:attribute name="colspan">
                     <xsl:value-of select="@ss:MergeAcross + 1"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:if test="@ss:MergeDown">
-                <xsl:attribute name="number-rows-spanned">
+                <xsl:attribute name="rowspan">
                     <xsl:value-of select="@ss:MergeDown + 1"/>
                 </xsl:attribute>
             </xsl:if>
             <!-- Add a block container (for rotated blocks) -->
-            <fo:block-container>
-                <fo:block space-before="3pt" space-before.conditionality="retain" space-after="3pt"
-                    space-after.conditionality="retain" start-indent="3pt" end-indent="3pt"
-                    font-weight="bold" line-height="10pt" margin="3pt 3pt 0pt 3pt" hyphenate="true">
+            <div>
+                <p>
                     <xsl:call-template name="select.style.header">
                         <xsl:with-param name="styleid">
                             <xsl:value-of select="@ss:StyleID"/>
                         </xsl:with-param>
                     </xsl:call-template>
                     <xsl:apply-templates mode="excel"/>
-                </fo:block>
-            </fo:block-container>
-        </fo:table-cell>
+                </p>
+            </div>
+        </th>
     </xsl:template>
 
     <xsl:template match="ss:Cell" mode="excel">
-        <fo:table-cell xsl:use-attribute-sets="tbody.row.entry">
+        <td>
             <xsl:call-template name="select.style">
                 <xsl:with-param name="styleid">
                     <xsl:value-of select="@ss:StyleID"/>
                 </xsl:with-param>
             </xsl:call-template>
             <xsl:if test="@ss:MergeAcross">
-                <xsl:attribute name="number-columns-spanned">
+                <xsl:attribute name="colspan">
                     <xsl:value-of select="@ss:MergeAcross + 1"/>
                 </xsl:attribute>
             </xsl:if>
             <xsl:if test="@ss:MergeDown">
-                <xsl:attribute name="number-rows-spanned">
+                <xsl:attribute name="rowspan">
                     <xsl:value-of select="@ss:MergeDown + 1"/>
                 </xsl:attribute>
             </xsl:if>
             <!-- Add a block container (for rotated blocks) -->
-            <fo:block-container>
-                <fo:block space-before="3pt" space-before.conditionality="retain" space-after="3pt"
-                    space-after.conditionality="retain" start-indent="3pt" end-indent="3pt"
-                    line-height="10pt" margin="3pt 3pt 0pt 3pt" hyphenate="true">
+            <div>
+                <p>
                     <xsl:call-template name="select.style">
                         <xsl:with-param name="styleid">
                             <xsl:value-of select="@ss:StyleID"/>
                         </xsl:with-param>
                     </xsl:call-template>
                     <xsl:apply-templates mode="excel"/>
-                </fo:block>
-            </fo:block-container>
-        </fo:table-cell>
+                </p>
+            </div>
+        </td>
     </xsl:template>
 
     <xsl:template match="html:Sub | *:Sub" mode="excel">
-        <fo:inline baseline-shift="sub" font-size="75%">
+        <sub>
             <xsl:apply-templates mode="excel"/>
-        </fo:inline>
+        </sub>
     </xsl:template>
 
     <xsl:template match="html:Sup | *:Sup" mode="excel">
-        <fo:inline baseline-shift="sup" font-size="75%">
+        <sup>
             <xsl:apply-templates mode="excel"/>
-        </fo:inline>
+        </sup>
     </xsl:template>
 
     <xsl:template match="ss:Font | *:Font" mode="excel">
@@ -262,25 +225,22 @@
 
     <xsl:template match="ss:Data" mode="excel">
         <!-- check for a URL template and set a link if needed -->
-        <fo:block>
+        <p>
             <xsl:choose>
                 <xsl:when test="parent::ss:Cell/@ss:HRef">
-                    <fo:basic-link>
-                        <xsl:attribute name="external-destination">
-                            <xsl:text>url('</xsl:text>
+                    <a>
+                        <xsl:attribute name="href">                            
                             <xsl:value-of select="parent::ss:Cell/@ss:HRef"/>
-                            <xsl:text>')</xsl:text>
                         </xsl:attribute>
-                        <fo:inline>[3]</fo:inline>
-                        <xsl:value-of select="."/>
+                       <xsl:value-of select="."/>
                         <!-- <xsl:call-template name="format-data"/> -->
-                    </fo:basic-link>
+                    </a>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates mode="excel"/>
                 </xsl:otherwise>
             </xsl:choose>
-        </fo:block>
+        </p>
     </xsl:template>
 
     <xsl:template name="format-data">
@@ -532,7 +492,7 @@
 
     <xsl:template match="text()" mode="excel">
         <xsl:if test="ancestor-or-self::ss:Cell/ss:NamedCell/@ss:Name='Print_Area'">
-            <xsl:value-of select="."/>
+           <xsl:value-of disable-output-escaping="yes" select="."/>
         </xsl:if>
     </xsl:template>
 

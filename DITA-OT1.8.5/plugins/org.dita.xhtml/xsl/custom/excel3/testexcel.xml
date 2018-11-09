@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <para>This is our newest "Cool Tool". This tool can process Microsoft Excel XML (2003) files to
+        XSL FO tables. To use the tool, just set the "Print Area" in Excel to the table you are
+        interested in, You can also set the "Print Titles" for the table to have repeating
+        headers.</para>
+    <spreadsheet src="myspreadsheet.xml"/>
+    <para>This was developed by Kevin Brown and Karl Stubsjoen from RenderX. If you have any
+        questions or have any updates, please contact us!</para>
+</document>

@@ -124,7 +124,7 @@
             <fo:list-item>
                 <fo:list-item-label end-indent="label-end()" text-align="start">
                     <fo:block>
-                        <xsl:if test="$level &lt; (number($topicTitle.numLevel) + number(1))">
+                        <xsl:if test="number($level) &lt; (number($topicTitle.numLevel) + number(1))">
                             <xsl:apply-templates select="$mapTopics[1]" mode="topicTitleNumber"/>
                         </xsl:if>
                     </fo:block>
@@ -144,7 +144,7 @@
         <xsl:variable name="id" select="$topic/@id"/>
         <xsl:variable name="mapTopics" select="key('map-id', $id)"/>
         <fo:inline>
-            <xsl:if test="$level &lt; (number($topicTitle.numLevel) + number(1))">
+            <xsl:if test="number($level) &lt; (number($topicTitle.numLevel) + number(1))">
                 <xsl:apply-templates select="$mapTopics[1]" mode="topicTitleNumber"/>
             </xsl:if>           
         </fo:inline>

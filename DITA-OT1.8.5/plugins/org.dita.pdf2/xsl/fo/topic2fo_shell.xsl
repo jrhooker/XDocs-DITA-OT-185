@@ -32,8 +32,8 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:import href="topic2fo.xsl"></xsl:import>
     
     
-<xsl:import href="../../../com.oxygenxml.highlight/pdfHighlight.xsl"/>
 <xsl:import href="../../../org.dita-community.common.xslt/xsl/commonXsltExtensionSupport.xsl"/>
+<xsl:import href="../../../com.oxygenxml.highlight/pdfHighlight.xsl"/>
 
     <xsl:import href="cfg:fo/attrs/custom.xsl"></xsl:import>
     <xsl:import href="cfg:fo/xsl/custom.xsl"></xsl:import>

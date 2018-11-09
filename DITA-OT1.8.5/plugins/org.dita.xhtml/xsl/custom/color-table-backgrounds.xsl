@@ -62,9 +62,9 @@
                         <xsl:variable name="namest" select="$dataset[$position]/@namest"/>
                         <xsl:variable name="nameend" select="$dataset[$position]/@nameend"/>
                         <xsl:variable name="starting_colpec"
-                            select="ancestor::*[contains(@class, ' topic/tgroup ')]/*[contains(@class, ' topic/colspec ')][@colname = $namest]/position()"/>
+                            select="ancestor::*[contains(@class, ' topic/tgroup ')]/*[contains(@class, ' topic/colspec ')][1][@colname = $namest]/position()"/>
                         <xsl:variable name="ending_colspec"
-                            select="ancestor::*[contains(@class, ' topic/tgroup ')]/*[contains(@class, ' topic/colspec ')][@colname = $nameend]/position()"/>
+                            select="ancestor::*[contains(@class, ' topic/tgroup ')]/*[contains(@class, ' topic/colspec ')][1][@colname = $nameend]/position()"/>
                         <xsl:call-template name="determine-current-cell">
                             <xsl:with-param name="dataset" select="$dataset"/>
                             <xsl:with-param name="running_count"

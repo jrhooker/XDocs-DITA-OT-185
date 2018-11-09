@@ -1,0 +1,7 @@
+:lang(ar), :lang(he){
+    #searchform {    
+        input.submit {
+            margin-right: 5px;
+        }
+    }
+}

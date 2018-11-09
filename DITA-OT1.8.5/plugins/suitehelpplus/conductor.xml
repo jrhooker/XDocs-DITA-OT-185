@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project>
+    <target name="create-search-index" depends="suitehelp-set-plus-permissions">
+	<echo level="info"/>
+	<echo level="info">***************** SUITEHELPPLUS *****************</echo>  
+        <exec executable="${dita.dir}${file.separator}plugins${file.separator}suitehelpplus${file.separator}exe${file.separator}create-index" failonerror="true">
+            <arg value="${output.dir}${file.separator}search-index.sqlite"/>
+            <arg value="${output.dir}${file.separator}searchinfo.xml"/>
+        </exec>
+    </target>
+  <target name="suitehelp-set-plus-permissions" unless="suitehelp-is-windows">
+	<echo level="info"/>
+        <echo level="info">***************** SUITEHELP-SET-PLUS-PERMISSIONS *****************</echo>  
+        <chmod file="${dita.dir}/plugins/suitehelpplus/exe/create-index" perm="755"/>
+        <chmod file="${dita.dir}/plugins/suitehelpplus/exe/linux/SuiteHelpServer" perm="755"/>
+        <chmod file="${dita.dir}/plugins/suitehelpplus/exe/macosx/SuiteHelpServer" perm="755" os="mac"/>
+  </target>
+</project>

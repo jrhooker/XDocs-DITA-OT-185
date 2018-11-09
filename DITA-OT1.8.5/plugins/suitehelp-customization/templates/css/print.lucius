@@ -1,0 +1,11 @@
+#logo-link {
+	display: none;
+}
+article {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#leftbar, header, #dragger {
+    display: none;
+}

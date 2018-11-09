@@ -1,0 +1,89 @@
+#import: classmap2.yaml
+classes:
+    topic/xref:            { render: standard-xref }
+    topic/image:           { render: standard-image }
+    topic/table:           { render: standard-table, renderTitle: "standard-table" }
+    topic/tgroup:          { render: standard-tgroup }
+    topic/simpletable:     { render: standard-simpletable }
+    topic/fig:             { render: standard-figure-html5, renderTitle: "standard-figure" }
+    topic/tm:              { render: standard-tm }
+    ui-d/menucascade:      { render: standard-menucascade, separator: " → " }
+    topic/note:            { render: standard-note }
+    topic/sthead:          { render: standard-sthead }
+    topic/object:          { render: standard-object }
+
+    sw-d/msgph:            { tag: span,     class: msgph }
+    pr-d/option:           { tag: i,        class: option }
+    topic/lines:           { tag: pre,      class: lines }
+    topic/fn:              { tag: span,     class: footnote, renderTitle: "standard-footnote" }
+    ui-d/uicontrol:        { tag: span,     class: uicontrol }
+    ui-d/wintitle:         { tag: span,     class: wintitle }
+    pr-d/parml:            { tag: dl,       class: parml }
+    ui-d/shortcut:         { tag: b,        class: shortcut }
+    pr-d/apiname:          { tag: dfn,      class: apiname }
+    sw-d/filepath:         { tag: span,     class: filepath }
+    topic/figgroup:        { tag: div,      class: figgroup }
+    topic/example:         { tag: div,      class: example, renderTitle: "standard-task-heading" }
+    pr-d/codeblock:        { tag: pre,      class: codeblock }
+    sw-d/cmdname:          { tag: span,     class: cmdname }
+    task/steps:            { tag: ol,       class: steps,   renderTitle: "standard-task-heading" }
+    topic/section:         { tag: div,      class: section }
+    task/context:          { tag: div,      class: context, renderTitle: "standard-task-heading" }
+    task/postreq:          { tag: div,      class: postreq, renderTitle: "standard-task-heading" }
+    task/prereq:           { tag: div,      class: prereq,  renderTitle: "standard-task-heading" }
+    topic/dlhead:          { tag: tr,       class: head }
+    topic/dd:              { tag: td,       class: dd }
+
+    topic/shortdesc:       { tag: p }
+    topic/p:               { tag: p }
+    task/cmd:              { tag: p }
+    topic/ol:              { tag: ol }
+    topic/ul:              { tag: ul }
+    topic/sl:              { tag: ul }
+    topic/li:              { tag: li }
+    topic/sli:             { tag: li }
+    task/step:             { tag: li }
+    task/substep:          { tag: li }
+    task/substeps:         { tag: ol }
+    task/steps-unordered:  { tag: ul }
+    hi-d/b:                { tag: b }
+    hi-d/i:                { tag: i }
+    hi-d/sup:              { tag: sup }
+    hi-d/sub:              { tag: sub }
+    pr-d/pt:               { tag: dt }
+    pr-d/pd:               { tag: dd }
+    topic/title:           { tag: h1 }
+    topic/thead:           { tag: thead }
+    topic/tbody:           { tag: tbody }
+    topic/dl:              { tag: table }
+    topic/dlentry:         { tag: tr }
+    topic/dt:              { tag: th }
+    topic/dthd:            { tag: th }
+    topic/ddhd:            { tag: th }
+    sw-d/varname:          { tag: var }
+    topic/q:               { tag: q }
+    topic/cite:            { tag: cite }
+    sw-d/userinput:        { tag: kbd }
+    topic/lq:              { tag: blockquote }
+    topic/stentry:         { tag: td }
+    topic/strow:           { tag: tr }
+    topic/pre:             { tag: pre }
+    pr-d/codeph:           { tag: code }
+    topic/desc:            { tag: h2 }
+    topic/term:            { tag: dfn }
+    topic/param:           { tag: param,    renderAttrs: "name,value"}
+    ui-d/wintitle:          { tag: span, class: "wintitle" } 
+
+    topic/ph:              { render: strip }
+    pr-d/plentry:          { render: strip }
+    topic/keyword:         { render: strip }
+    topic/itemgroup:       { render: strip }
+    task/tutorialinfo:     { render: strip }
+    task/info:             { render: strip }
+    task/stepresult:       { render: strip }
+    topic/linktext:        { render: strip }
+
+    topic/colspec:         { render: delete }
+    topic/indexterm:       { render: delete }
+    topic/draft-comment:   { render: delete } 
+    topic/data:            { render: delete }

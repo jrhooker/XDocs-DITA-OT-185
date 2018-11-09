@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<plugin id="com.suite-sol.suitehelp">
+    <!--<require plugin="com.suite-sol.suitehelp-libs"/>-->
+    <template file="conductor_template.xml"/>
+    <feature extension="dita.conductor.transtype.check" value="suitehelp" type="txt"/>
+    <feature extension="dita.conductor.target.relative" value="shell.xml" type="file"/>
+    <extension-point id="suitehelp-init" name="suitehelp-init"/>
+    <extension-point id="suitehelp-preprocess" name="suitehelp-preprocess"/>    
+    <extension-point id="suitehelp-postcore" name="suitehelp-postcore"/>
+    <extension-point id="suitehelp-precore" name="suitehelp-precore"/>
+    <extension-point id="suitehelp-postprocess" name="suitehelp-postprocess"/>
+</plugin>

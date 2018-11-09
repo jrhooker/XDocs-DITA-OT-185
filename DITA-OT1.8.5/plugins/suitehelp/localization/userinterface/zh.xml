@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings xml:lang="zh">
+    <str name="Back">上一页</str>
+    <str name="Forward">下一页</str>
+    <str name="Hide Navigation">隐藏导航</str>
+    <str name="Show Navigation">显示导航</str>
+    <str name="Toggle Highlighting">切换高亮显示</str>
+    <str name="Print">打印页面</str>
+    <str name="Print All">全部打印</str>
+    <str name="PDF Link">PDF</str>
+    <str name="Email">发送电子邮件给我们</str>
+    <str name="Email Address">solutions@suite-sol.com</str>
+    <str name="Home">主页</str>
+    <str name="TOC Pane">目录</str>
+    <str name="Index Pane">索引</str>
+    <str name="Glossary Pane">词汇表</str>
+    <str name="Search Pane">搜索结果</str>
+    <str name="Search">搜索结果</str>
+    <str name="No Search Performed">未执行搜索。</str>
+    <str name="No Search Results">未找到任何内容。</str>
+    <str name="Search Results">显示搜索结果</str>
+    <str name="Searched for">搜索内容</str>
+    <str name="Go">转到</str>
+    <str name="BreadcrumbSymbol">&gt;</str>
+    <str name="See">请参阅 </str>
+    <str name="See also">另请参阅 </str>
+</strings>

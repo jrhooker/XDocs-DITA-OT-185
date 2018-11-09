@@ -1,0 +1,44 @@
+<suitehelp>
+    <nextConf>suitehelp-conf-prereqs.xml</nextConf>
+    <cssfiles>
+        <file>templates/css/normalize.lucius</file>
+        <file>templates/css/jquery-ui-1.9.2.custom.min.css</file>
+        <file>templates/css/screen.lucius</file>
+        <file>templates/css/screen-rtl.lucius</file>
+    </cssfiles>
+    <cssprintfiles>
+        <file>templates/css/print.lucius</file>
+    </cssprintfiles>
+    <jsfiles>
+        <file>templates/js/suitehelp.helpers.js</file>    
+        <file>templates/js/suitehelp.js</file>        
+    </jsfiles>
+    <staticdir>static</staticdir>
+    <body-template>templates/html/body.hamlet</body-template>
+
+    <stringsdir>localization/userinterface</stringsdir>
+
+    <cssvar name="topHeight">60px</cssvar>
+    <cssvar name="draggerTopHeight">150px</cssvar>
+    <cssvar name="leftWidth">295px</cssvar>
+    <cssvar name="centerLeftMargin">310px</cssvar>
+    <cssvar name="bottomHeight">45px</cssvar>
+    <cssvar name="logoWidth">150px</cssvar>
+    <cssvar name="topNavHeight">60px</cssvar>
+    <cssvar name="mobileWidth">600px</cssvar>
+
+    <search-ignored-class>related-links</search-ignored-class>
+
+    <search-keyword-weight>1.4</search-keyword-weight>
+    <search-title-weight>1.8</search-title-weight>
+    <search-double-count>true</search-double-count>
+    
+    <mapmetadata element="othermeta" nameattributevalue="PDF_link" contentattributename="content">PDFLink</mapmetadata>
+    
+    <media-format>gif</media-format>
+    <media-format>jpg</media-format>
+    <media-format>jpeg</media-format>
+    <media-format>svg</media-format>
+    <media-format>bmp</media-format>
+    <media-format>png</media-format>
+</suitehelp>

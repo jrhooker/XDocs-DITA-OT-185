@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings xml:lang="ko">
+    <str name="Back">이전</str>
+    <str name="Forward">다음</str>
+    <str name="Hide Navigation">네비게이션 감추기</str>
+    <str name="Show Navigation">탐색 표시</str>
+    <str name="Toggle Highlighting">강조 표시 전환</str>
+    <str name="Print">페이지 인쇄</str>
+    <str name="Print All">모두 인쇄</str>
+    <str name="PDF Link">PDF</str>
+    <str name="Email">이메일 보내기</str>
+    <str name="Email Address">solutions@suite-sol.com</str>
+    <str name="Home">홈</str>
+    <str name="TOC Pane">컨텐츠</str>
+    <str name="Index Pane">색인</str>
+    <str name="Glossary Pane">용어</str>
+    <str name="Search Pane">검색 결과</str>
+    <str name="Search">검색 결과</str>
+    <str name="No Search Performed">검색이 수행되지 않았습니다.</str>
+    <str name="No Search Results">아무 것도 찾지 못했습니다.</str>
+    <str name="Search Results">검색 결과 표시</str>
+    <str name="Searched for">검색</str>
+    <str name="Go">이동</str>
+    <str name="BreadcrumbSymbol">&gt;</str>
+    <str name="See">참고 항목: </str>
+    <str name="See also">참고 항목: </str>
+</strings>

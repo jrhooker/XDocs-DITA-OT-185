@@ -1,0 +1,17 @@
+<!-- 
+  Plugin descriptor for the DITA4Publishers math domain HTML extensions
+  
+  Copyright (c) 2012 DITA For Publishers
+  
+  Implements HTML rendering for the math domain.
+  -->
+<plugin id="org.dita4publishers.math-d.html">
+  <require plugin="org.dita4publishers.common.html"/> 
+  
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="ekimber@contrext.com"/>
+  
+  <feature extension="dita.xsl.xhtml"
+      value="xsl/math-d2html.xsl" type="file"/>
+      
+</plugin>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?><project>
+    <target name="dita2suitehelp" depends="build-init,suitesol-init,suitehelp-vars,suitehelp-set-permissions,suitehelp-configuration,suitehelp-yaml,suitehelp-copy-libs,suitehelp-parse-dita,suitehelp-html-to-suitehelp,create-search-index,suitehelp-wrapup"></target>
+    
+    <!-- Java library for creating configuration files on the fly -->
+    <taskdef name="echo-to" classname="com.suitesol.EchoTo" classpath="${dita.dir}/plugins/suitehelp/lib/echo-to.jar"></taskdef> 
+    
+    <!-- Configure variables used in processing. -->
+    <target name="suitehelp-vars">
+        <property name="out.ext" value=".html"></property>
+        <property name="dita.ext" value=".xml"></property>
+        
+        <!--args.input-final -->
+        <condition property="args.input-final" value="${args.input-override}" else="${args.input}">
+            <isset property="args.input-override"></isset>
+        </condition>
+               
+        <!-- suitehelp-conf-final -->
+        <condition property="suitehelp-conf-final" value="${suitehelp-conf}" else="${dita.dir}\plugins\suitehelp\suitehelp-conf.xml">
+            <isset property="suitehelp-conf"></isset>
+        </condition>        
+               
+        <!-- suitehelp-conf-dir-final -->
+        <condition property="suitehelp-conf-dir-final" value="${suitehelp-conf-dir}" else="${dita.dir}\plugins\suitehelp-customization">
+            <isset property="suitehelp-conf-dir"></isset>
+        </condition>
+      
+        <!-- contextclass-final -->
+        <condition property="contextclass-final" value="${contextclass}" else="ignored/ignored">
+            <isset property="contextclass"></isset>
+        </condition>
+       
+        <!-- contextname-final -->
+        <condition property="contextname-final" value="${contextname}" else="TopicAlias">
+            <isset property="contextname"></isset>
+        </condition>
+        
+        <!-- suitehelp-synchronousJS-final -->
+        <condition property="suitehelp-synchronousJS-final" value="${suitehelp.synchronousjs}" else="true">
+            <isset property="suitehelp.synchronousjs"></isset>
+        </condition>
+              
+        <!-- suitehelp-showindex-final -->
+        <condition property="suitehelp-showindex-final" value="${suitehelp.showindex}" else="true">
+            <isset property="suitehelp.showindex"></isset>
+        </condition>
+       
+        <!-- suitehelp-classmap-final -->
+        <condition property="suitehelp-classmap-final" value="${suitehelp-classmap}" else="${suitehelp-conf-dir-final}\classmap.yaml">
+            <isset property="suitehelp-classmap"></isset>
+        </condition>
+               
+        <!-- suitehelp-dita-output-type -->
+        <condition property="suitehelp-dita-output-type" value="suitehelp" else="ditaot-xml">
+            <isset property="suitehelp-nativemode"></isset>
+        </condition>
+             
+        <!-- suitehelp-dita-output-dir -->
+        <condition property="suitehelp-dita-output-dir" value="${output.dir}" else="${dita.temp.dir}">
+            <isset property="suitehelp-nativemode"></isset>
+        </condition>
+        
+        <!-- suitehelp-tokenization -->
+        <condition property="suitehelp-tokenization-final" value="${suitehelp.tokenization}" else="standard">
+            <isset property="suitehelp.tokenization"></isset>
+        </condition>
+        
+        <!-- suitehelp-media-to-param.  Ensure files are copied over when input type is dita -->
+        <property name="media-out-directory" location="${output.dir}"></property>              
+        <condition property="suitehelp-media-to" value="${media-out-directory}">
+            <not>
+                <isset property="suitehelp-nativemode"></isset>
+            </not>
+        </condition>
+        
+        
+        <condition property="suitehelp-is-windows">
+            <os family="windows"></os>
+        </condition>
+        
+        <condition property="suitehelp-is-mac">
+            <os family="mac"></os>
+        </condition>
+      
+        <!--Sets the property to the absolute filename of the given file. 
+                If the value of this attribute is an absolute path, it is left unchanged 
+                (with / and \ characters converted to the current platforms conventions).
+                Otherwise it is taken as a path relative to the project's basedir and expanded.-->
+        
+        <property name="absolute-temp-path" location="${dita.temp.dir}"></property>
+        
+        
+        <property name="suitehelp.dir" value="${dita.dir}${file.separator}plugins${file.separator}suitehelp"></property>
+        <basename property="suitehelp.mapname" file="${args.input}" suffix=".ditamap"></basename>
+        
+        <echo level="info"></echo>
+        <echo level="info">***************** SUITEHELP-VARS *****************</echo>
+        <echo level="info"> *** args.input-final: ${args.input-final}</echo>
+        <echo level="info"> *** suitehelp-conf-final: ${suitehelp-conf-final}</echo>
+        <echo level="info"> *** suitehelp-conf-dir-final: ${suitehelp-conf-dir-final}</echo>
+        <echo level="info"> *** suitehelp-synchronousJS-final: ${suitehelp-synchronousJS-final}</echo>
+        <echo level="info"> *** suitehelp-showindex-final: ${suitehelp-showindex-final}</echo>
+        <echo level="info"> *** suitehelp.classmap-final: ${suitehelp-classmap-final}</echo>
+        <echo level="info"> *** suitehelp-dita-output-type: ${suitehelp-dita-output-type}</echo>
+        <echo level="info"> *** suitehelp-dita-output-dir: ${suitehelp-dita-output-dir}</echo>
+        <echo level="info"> *** suitehelp-media-to: ${suitehelp-media-to}</echo>
+        <echo level="info"> *** dita.temp.dir: ${dita.temp.dir}</echo>
+        <echo level="info"> *** suitehelp-is-windows: ${suitehelp-is-windows}</echo>
+        <echo level="info"> *** suitehelp-is-mac: ${suitehelp-is-mac}</echo>
+        <echo level="info"> *** absolute-temp-path: ${absolute-temp-path}</echo>
+        <echo level="info"> *** args.draft: ${args.draft}</echo>
+        <echo level="info">***************** SUITEHELP-VARS *****************</echo>
+        <echo level="info"></echo>
+    </target>
+
+    <target name="suitehelp-set-permissions" unless="suitehelp-is-windows">
+        <echo level="info">***************** SUITEHELP-SET-PERMISSIONS *****************</echo>  
+        <chmod file="${dita.dir}/plugins/suitehelp/exe/suitehelp" perm="755"></chmod>
+        <echo level="info">***************** SUITEHELP-SET-PERMISSIONS *****************</echo>  
+    </target>
+
+    <!-- Copy the prerequisite DLL files to the exe folder on Windows. -->
+    <target name="suitehelp-copy-libs" depends="suitehelp-copy-libs-windows, suitehelp-copy-libs-mac"></target>
+    
+    <target name="suitehelp-copy-libs-windows" if="suitehelp-is-windows">
+        <copy todir="${dita.dir}/plugins/suitehelp/exe">
+            <fileset dir="${dita.dir}/plugins/suitehelp-libs/">
+                <include name="*.dll"></include>
+            </fileset>
+        </copy>
+    </target>
+
+    <!-- Copy the prerequisite dylib files to the exe folder on Mac OS X. -->
+  
+    <target name="suitehelp-copy-libs-mac" if="suitehelp-is-mac">
+        <copy todir="${dita.dir}/plugins/suitehelp/exe">
+            <fileset dir="${dita.dir}/plugins/suitehelp-libs/">
+                <include name="*.dylib"></include>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="suitehelp-configuration">
+        <echo level="info"></echo>
+        <echo level="info">***************** SUITEHELP-CONFIGURATION *****************</echo>
+        <echo level="info">--suitehelp-nativemode: ${suitehelp-nativemode}</echo>
+        <echo level="info">--extname: ${dita.ext}</echo> 
+        <echo level="info">--contextclass: ${contextclass-final}</echo> 
+        <echo level="info">--contextname: ${contextname-final}</echo> 
+        <echo level="info">--synchronousJS: ${suitehelp-synchronousJS-final}</echo>
+        <echo level="info">--showindex: ${suitehelp-showindex-final}</echo>
+        <echo level="info">--listfile: topiclist.txt</echo>    
+        <echo level="info">--suitehelp-homepage ${suitehelp-homepage}</echo>
+        <echo level="info">***************** SUITEHELP-CONFIGURATION *****************</echo>
+        <echo level="info"></echo>
+        
+        
+        <mkdir dir="${dita.temp.dir}/configfiles"></mkdir>
+        <!-- classmap-temp.yaml is only included for native mode -->
+        <condition property="classmap-entry" value="⌠classmap⌡${absolute-temp-path}/configfiles/classmap-temp.yaml⌠/classmap⌡" else="">
+            <isset property="suitehelp-nativemode"></isset>
+        </condition>     
+        
+        <!-- Specifies the Homepage in the configuration file by providing a reference to an existing dita-topic IN the ditamap -->     
+        <condition property="suitehelp-homepage-dita" value="⌠homepage-dita⌡${homepage-dita}⌠/homepage-dita⌡" else="">  
+            <isset property="homepage-dita"></isset>
+        </condition> 
+        
+        <!-- Specifies the HomePage as a new html file created by the user -->
+        <condition property="suitehelp-homepage-html" value="⌠homepage-html⌡${homepage-html}⌠/homepage-html⌡" else="">  
+            <isset property="homepage-html"></isset>
+        </condition> 
+        
+        <condition property="suitehelp-homepage-html-output" value="⌠homepage-html-output⌡${suitehelp.mapname}-homepage.html⌠/homepage-html-output⌡" else="">  
+            <isset property="homepage-html"></isset>
+        </condition> 
+        
+        <!--Provide an alternative style name, to be used when selectively applying CSS files in the configuration file. -->
+        <condition property="suitehelp-style-entry" value="⌠nextConf⌡${suitehelp-conf-dir-final}\${suitehelp-style}-conf.xml⌠/nextConf⌡" else="">  
+            <isset property="suitehelp-style"></isset>
+        </condition> 
+        
+        <!--suitehelp media-to entry
+        Specifies if and where images should be copied to:
+        For native mode (which has no temporary output directory):
+        media-to should not be populated, and the images will be copied to the output directory supplied to this call of suitehelp
+        For dita-ot: 
+        For the first call, media-to should be populated with the final output directory supplied to the second call of suitehelp,
+        and the images will be copied to the path specified
+        If image copying is not required, media-to should be populated with the word NONE-->
+        
+        <condition property="suitehelp-media-to-entry" value="⌠media-to⌡${suitehelp-media-to}⌠/media-to⌡" else="">
+            <isset property="suitehelp-media-to"></isset>
+        </condition>
+        
+        <echo-to outputFilePath="${absolute-temp-path}/configfiles/suitehelp-conf-temp.xml" text="⌠suitehelp⌡\n             ⌠nextConf⌡${suitehelp-conf-final}⌠/nextConf⌡\n             ${suitehelp-style-entry}\n             ${classmap-entry}\n             ⌠extname⌡${dita.ext}⌠/extname⌡\n             ⌠contextclass⌡${contextclass-final}⌠/contextclass⌡\n             ⌠contextname⌡${contextname-final}⌠/contextname⌡\n             ⌠synchronous-javascript⌡${suitehelp-synchronousJS-final}⌠/synchronous-javascript⌡\n             ⌠showindex⌡${suitehelp-showindex-final}⌠/showindex⌡\n             ⌠listfile⌡topiclist.txt⌠/listfile⌡\n             ${suitehelp-media-to-entry}\n             ${suitehelp-homepage-dita}\n             ${suitehelp-homepage-html}\n             ${suitehelp-homepage-html-output}\n             ⌠searchTokenization⌡${suitehelp-tokenization-final}⌠/searchTokenization⌡\n             ⌠/suitehelp⌡"></echo-to>
+            
+     </target>
+    
+    <target name="suitehelp-yaml" if="suitehelp-nativemode">
+                   
+        <!-- suitehelp-draftcomment-final Native Mode Parameter-->
+        <condition property="suitehelp-draftcomment-final" value="${suitehelp-draftcomment}" else="${args.draft}">
+            <isset property="suitehelp-draftcomment"></isset>
+        </condition>
+            
+        <condition property="draft-comment" value="${suitehelp-conf-dir-final}\classmap-draft.yaml" else="">
+            <equals arg1="${suitehelp-draftcomment-final}" arg2="yes"></equals>
+        </condition>
+        
+        <condition property="yaml-list" value="${suitehelp-yaml-list}" else="">
+            <isset property="suitehelp-yaml-list"></isset>
+        </condition>
+
+        
+        <echo level="info"></echo>
+        <echo level="info">***************** SUITEHELP-YAML *****************</echo>
+        <echo level="info"> *** args.draft: ${args.draft}</echo>
+        <echo level="info"> *** suitehelp-draftcomment-final: ${suitehelp-draftcomment-final}</echo>
+        <echo level="info"> *** draft-comment: ${draft-comment}</echo>
+        <echo level="info"> *** yaml-list: ${yaml-list}</echo>
+        <echo level="info">***************** SUITEHELP-YAML *****************</echo>
+        <echo level="info"></echo>
+        
+       <echo-to outputFilePath="${absolute-temp-path}/configfiles/classmap-temp.yaml" text="import: ${draft-comment}\n             ${yaml-list}\n             ${suitehelp-classmap-final}"></echo-to>
+        
+    </target>
+        
+    <!-- Parse the DITA content and place the parsed files in the temp folder.
+         -->
+    <target name="suitehelp-parse-dita">
+        <echo level="info"></echo>
+        <echo level="info">*********** SUITEHELP-PARSE-DITA ***********</echo>
+        <echo level="info">${dita.dir}/plugins/suitehelp/exe/suitehelp</echo>
+        <echo level="info">--input-type: dita</echo>        
+        <echo level="info">--output-type: ${suitehelp-dita-output-type}</echo>        
+        <echo level="info">--source: ${args.input-final}</echo>
+        <echo level="info">--outdir: ${suitehelp-dita-output-dir}</echo>    
+        <echo level="info">--suitehelp-conf: ${suitehelp-conf-final}</echo>
+        <echo level="info">--ditaval: ${dita.input.valfile}</echo>        
+        <echo level="info">*********** SUITEHELP-PARSE-DITA ***********</echo>
+        <echo level="info"></echo>
+        
+        <exec executable="${dita.dir}\plugins\suitehelp\exe\suitehelp" failonerror="true">
+            <arg value="--input-type"></arg>
+            <arg value="dita"></arg>
+            <arg value="--output-type"></arg>
+            <arg value="${suitehelp-dita-output-type}"></arg>
+            <arg value="--source"></arg>
+            <arg path="${args.input-final}"></arg>
+            <arg value="--outdir"></arg>
+            <arg path="${suitehelp-dita-output-dir}"></arg>
+            <arg value="--suitehelp-conf"></arg>
+            <arg path="${absolute-temp-path}\configfiles\suitehelp-conf-temp.xml"></arg>
+            <arg value="--ditaval"></arg>
+            <arg path="${dita.input.valfile}"></arg>
+       </exec>
+    </target>
+
+    <!-- Convert the temp folder XML files to output folder XHTML files, using
+         the DITA-OT's build in xhtml output. -->
+    <target name="suitehelp-xml2xhtml-dita-ot" unless="suitehelp-nativemode">
+        
+        <echo level="info"></echo>
+        <echo level="info">*********** SUITEHELP-XML2XHTML-DITA-OT ***********</echo> 
+        <!-- args.xsl -->
+        <condition property="args.xsl" value="${dita.script.dir}${file.separator}dita2xhtml.xsl" else="${dita.plugin.org.dita.xhtml.dir}${file.separator}xsl${file.separator}dita2xhtml.xsl">
+            <isset property="dita.script.dir"></isset>
+        </condition>        
+        <echo level="info">ARGS.XSL: ${args.xsl}</echo> 
+        <echo level="info">*********** SUITEHELP-XML2XHTML-DITA-OT ***********</echo> 
+        
+       <!--Change path of ${dita.input.valfile} into url-->
+        <makeurl file="${dita.input.valfile}" property="dita.input.valfile.url" validate="no"></makeurl>
+      
+        <xslt processor="trax" basedir="${dita.temp.dir}" includesfile="${dita.temp.dir}${file.separator}topiclist.txt" destdir="${dita.temp.dir}\ditaot" reloadstylesheet="${dita.xhtml.reloadstylesheet}" classpathref="dost.class.path" extension="${out.ext}" style="${args.xsl}" filenameparameter="FILENAME" filedirparameter="FILEDIR">
+            <excludesfile name="${dita.temp.dir}${file.separator}resourceonly.list"></excludesfile>
+
+            <param name="TRANSTYPE" expression="${transtype}"></param>
+            <param name="DITAEXT" expression="${dita.ext}" if="dita.ext"></param>
+            <param name="FILTERFILE" expression="${dita.input.valfile.url}" if="dita.input.valfile"></param>
+            <param name="CSS" expression="${args.css.file}" if="args.css.file"></param>
+            <param name="CSSPATH" expression="${user.csspath}" if="user.csspath"></param>
+            <param name="HDF" expression="${args.hdf}" if="args.hdf"></param>
+            <param name="HDR" expression="${args.hdr}" if="args.hdr"></param>
+            <param name="FTR" expression="${args.ftr}" if="args.ftr"></param>
+            <param name="DRAFT" expression="${args.draft}" if="args.draft"></param>
+            <param name="ARTLBL" expression="${args.artlbl}" if="args.artlbl"></param>
+            <param name="GENERATE-TASK-LABELS" expression="${args.gen.task.lbl}" if="args.gen.task.lbl"></param>
+            <param name="PRESERVE-DITA-CLASS" expression="${args.xhtml.classattr}" if="args.xhtml.classattr"></param>
+            <param name="NOPARENTLINK" expression="${args.hide.parent.link}" if="args.hide.parent.link"></param>
+            <param name="BREADCRUMBS" expression="${args.breadcrumbs}" if="args.breadcrumbs"></param>
+            <param name="INDEXSHOW" expression="${args.indexshow}" if="args.indexshow"></param>
+            <param name="genDefMeta" expression="${args.gen.default.meta}" if="args.gen.default.meta"></param>
+            <param name="OUTEXT" expression="${out.ext}" if="out.ext"></param>
+            <!-- added by William on 2009-09-03 for keyref bug #2849078 start -->
+            <param name="BASEDIR" expression="${basedir}"></param>
+            <param name="OUTPUTDIR" expression="${output.dir}"></param>
+            <!-- added by William on 2009-09-03 for keyref bug #2849078 end -->
+            <param name="DBG" expression="${args.debug}" if="args.debug"></param>
+
+        </xslt>
+    </target>
+
+    <!-- Target for having the DITA-OT create HTML from XML before 
+         SuiteHelp adds the GUI. -->
+    <target name="suitehelp-html-to-suitehelp" unless="suitehelp-nativemode" depends="suitehelp-xml2xhtml-dita-ot,suitehelp-addgui">
+    </target> 
+    
+    <target name="suitehelp-addgui" unless="suitehelp-nativemode">
+        <echo level="info"></echo>
+        <echo level="info">*********** SUITEHELP-HTML-TO-SUITEHELP ***********</echo>
+        <echo level="info">${dita.dir}\plugins\suitehelp\exe\suitehelp</echo>
+        <echo level="info">--input-type: html</echo>        
+        <echo level="info">--output-type: suitehelp</echo>        
+        <echo level="info">--source: ${absolute-temp-path}\ditaot</echo>
+        <echo level="info">--outdir: ${output.dir}</echo>    
+        <echo level="info">--suitehelp-conf: ${absolute-temp-path}\configfiles\suitehelp-conf-temp.xml</echo>
+        <echo level="info">*********** SUITEHELP-HTML-TO-SUITEHELP ***********</echo>
+        <echo level="info"></echo>
+        
+        
+        <!-- topiclist.txt is a text files with a list of the relative paths of all
+            the topics in the publication -->
+        <move file="${absolute-temp-path}\topiclist.txt" todir="${absolute-temp-path}\ditaot"></move>
+        <!-- resourceonly.list is a text files with a list of the relative paths of all
+        the resource-only topics in the publication which should not be included in the output -->
+        <move file="${absolute-temp-path}\resourceonly.list" todir="${absolute-temp-path}\ditaot"></move>
+        
+        <!-- docinfo.txt is a SuiteHelp internal file used to bridge the gap between 
+		the two runs of suitehelp.  This file should not be altered. -->
+        <move file="${absolute-temp-path}\docinfo.txt" todir="${absolute-temp-path}\ditaot"></move>
+        
+        <exec executable="${dita.dir}\plugins\suitehelp\exe\suitehelp" failonerror="true">
+            <arg value="--input-type"></arg>
+            <arg value="html"></arg>
+            <arg value="--output-type"></arg>
+            <arg value="suitehelp"></arg>
+            <arg value="--source"></arg>
+            <arg path="${absolute-temp-path}\ditaot"></arg>
+            <arg value="--outdir"></arg>
+            <arg path="${output.dir}"></arg>
+            <arg value="--suitehelp-conf"></arg>
+            <arg path="${absolute-temp-path}\configfiles\suitehelp-conf-temp.xml"></arg>
+        </exec>
+    </target>
+    
+    <target name="suitehelp-wrapup">        
+        <move file="${output.dir}\searchinfo.xml" todir="${absolute-temp-path}"></move>
+    </target>    
+        
+        
+</project>

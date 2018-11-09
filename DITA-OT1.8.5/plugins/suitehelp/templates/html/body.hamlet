@@ -1,0 +1,74 @@
+$newline never
+$doctype 5
+<html lang=#{lang}>
+    <head>
+        \<!-- saved from url=(0014)about:internet -->#{newline}
+        <meta charset=utf-8 />
+        <meta name=viewport content=width=device-width />
+        \#{metadata}
+        <title>#{title}
+        <link rel=prev href=#{approot}#{prev} />
+        <link rel=next href=#{approot}#{next} />
+        \#{csslinks}
+        \#{extrahead}
+        <script src="#{approot}static/head.js?#{jsheadhash}">
+          
+    <body id=#{bodyid} data-approot=#{approot}>
+        <header>
+            <a href=#{approot}index.html id=logo-link>
+                <img id=logo src=#{approot}#{logo} alt=Logo />
+            <h1>#{pubtitle}
+
+        <section #center>
+            <article>
+                <noscript>
+                    <p>JavaScript must be enabled in order to use this site.
+                    <p>Please enable JavaScript in your browser and refresh the page.
+                #{body}
+            <nav #topnav>
+                <div #breadcrumbs>
+                <div #topbuttons>
+                    <a #button-hide-navigation href=# title="_{Hide Navigation}">
+                        <span>_{Hide Navigation}
+                    <a #button-back href=# title="_{Back}">
+                        <span>_{Back}
+                    <a #button-forward href=# title="_{Forward}">
+                        <span>_{Forward}
+                    <a #button-highlighting href=# title="_{Toggle Highlighting}">
+                        <span>_{Toggle Highlighting}
+                    <a #button-pdflink href=#{PDFLink} title="_{PDF Link}">
+                        <span>_{PDF Link}
+                    <a #button-email href="mailto:_{Email Address}" title="_{Email Address}">
+                        <span>_{Email}
+                    <a #button-print href=# title="_{Print}">
+                        <span>_{Print}
+                    <a #button-print-all title="_{Print All}">
+                        <span>_{Print All}
+
+        <div id=leftbar>
+            <ul .tabs>
+                <li .currentli>
+                    <a .current .toc href=#>
+                        <span>_{TOC Pane}
+                <li>
+                    <a .index href=#>
+                        <span>_{Index Pane}
+                <li>
+                    <a .glossary href=#>
+                        <span>_{Glossary Pane}
+                <li>
+                    <a .search href=#>
+                        <span>_{Search Pane}
+            <nav .toc .current>
+                <div .loader>
+                    <img src=#{approot}static/loader.gif alt=Loading />
+            <nav .index>
+            <nav .glossary>
+            <nav .search>
+                <div .results>
+                    <span>_{No Search Performed}
+
+        <form id="searchform">
+            <input type="search" placeholder="Search" class="search" />
+            <input type="submit" value="Go" class="submit" />
+        <script src="#{approot}static/body.js?#{jsbodyhash}">

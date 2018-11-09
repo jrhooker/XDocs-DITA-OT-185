@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapdriven:collected-data xmlns:applicability="http://dita4publishers.org/applicability"
+                          xmlns:mapdriven="http://dita4publishers.org/mapdriven"
+                          xmlns:index-terms="http://dita4publishers.org/index-terms"
+                          xmlns:enum="http://dita4publishers.org/enumerables">
+   <enum:enumerables>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="- map/topicref "
+                sourceId="id-6023--topicref-2-0-140"
+                xml:lang="en-us"
+                xtrc="topicref:1;6:28"
+                docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                topicID="topic_sxn_ls5_js">
+         <title>Simple Map Adjust-Copy-To Test</title>
+         <topicref class="- map/topicref "
+                   sourceId="id-9611--topicref-5-12-32"
+                   xml:lang="en-us"
+                   xtrc="topicref:2;9:25"
+                   docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                   topicID="topic_bsb_rs5_js">
+            <title>Topic 01</title>
+            <topicref class="- map/topicref "
+                      sourceId="id-49334--topicref-8-12-16"
+                      xml:lang="en-us"
+                      xtrc="topicref:3;12:27"
+                      docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                      topicID="topic_ozc_ts5_js">
+               <title>Topic 03</title>
+            </topicref>
+         </topicref>
+         <topicref class="- map/topicref "
+                   sourceId="id-53947--topicref-13-0-48"
+                   xml:lang="en-us"
+                   xtrc="topicref:4;16:25"
+                   docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                   topicID="topic_wtd_ss5_js">
+            <title>Topic 02</title>
+            <topicref class="- map/topicref "
+                      sourceId="id-57791--topicref-16-4-16"
+                      xml:lang="en-us"
+                      xtrc="topicref:5;19:27"
+                      docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                      topicID="topic_rcb_vs5_js">
+               <title>Topic 04</title>
+            </topicref>
+            <topicref class="- map/topicref "
+                      sourceId="id-54970--topicref-20-0-16"
+                      xml:lang="en-us"
+                      xtrc="topicref:6;22:27"
+                      docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/simple-map/temp/html2/simple-map.ditamap"
+                      topicID="topic_ozc_ts5_js">
+               <title>Topic 03</title>
+            </topicref>
+         </topicref>
+      </topicref>
+   </enum:enumerables>
+   <glossdata:glossary-entries xmlns:glossdata="http://dita4publishers.org/glossdata"/>
+</mapdriven:collected-data>

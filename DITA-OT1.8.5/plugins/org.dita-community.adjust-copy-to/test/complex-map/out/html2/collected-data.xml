@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapdriven:collected-data xmlns:applicability="http://dita4publishers.org/applicability"
+                          xmlns:mapdriven="http://dita4publishers.org/mapdriven"
+                          xmlns:index-terms="http://dita4publishers.org/index-terms"
+                          xmlns:enum="http://dita4publishers.org/enumerables">
+   <enum:enumerables>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="- map/topicref "
+                sourceId="id-2080--topicref-5-3-8"
+                xml:lang="en-us"
+                xtrc="topicref:1;12:23"
+                docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/complex-map/temp/html2/complex-map-01.ditamap"
+                topicID="topic_pys_vvs_js">
+         <topicref class="- map/topicref "
+                   sourceId="id-5924--topicref-5-3-0"
+                   xml:lang="en-us"
+                   xtrc="topicref:2;15:26"
+                   docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/complex-map/temp/html2/complex-map-01.ditamap"
+                   topicID="topic_tfx_gws_js"/>
+      </topicref>
+      <topicref xmlns="http://dita4publishers.org/enumerables"
+                class="- map/topicref "
+                sourceId="id-10537--topicref-7-0-13"
+                xml:lang="en-us"
+                xtrc="topicref:3;19:23"
+                docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/complex-map/temp/html2/complex-map-01.ditamap"
+                topicID="topic_scz_yvs_js">
+         <topicref class="- map/topicref "
+                   sourceId="id-7716--topicref-7-1-0"
+                   xml:lang="en-us"
+                   xtrc="topicref:4;22:26"
+                   docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/complex-map/temp/html2/complex-map-01.ditamap"
+                   topicID="topic_wgy_3ws_js"/>
+         <topicref class="- map/topicref "
+                   sourceId="id-11560--topicref-8-0-0"
+                   xml:lang="en-us"
+                   xtrc="topicref:5;25:26"
+                   docUri="file:/Users/ekimber/workspace-d4p/dita4publishers/toolkit_plugins/org.dita-community.adjust-copy-to/test/complex-map/temp/html2/complex-map-01.ditamap"
+                   topicID="topic_tfx_gws_js"/>
+      </topicref>
+   </enum:enumerables>
+   <glossdata:glossary-entries xmlns:glossdata="http://dita4publishers.org/glossdata"/>
+</mapdriven:collected-data>

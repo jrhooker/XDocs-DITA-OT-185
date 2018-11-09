@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings xml:lang="ja">
+    <str name="Back">戻る</str>
+    <str name="Forward">次へ</str>
+    <str name="Hide Navigation">ナビゲーションの非表示</str>
+    <str name="Show Navigation">ナビゲーションを表示</str>
+    <str name="Toggle Highlighting">強調表示の切り替え</str>
+    <str name="Print">ページを印刷</str>
+    <str name="Print All">すべて印刷</str>
+    <str name="PDF Link">PDF</str>
+    <str name="Email">電子メール送信先</str>
+    <str name="Email Address">solutions@suite-sol.com</str>
+    <str name="Home">ホーム</str>
+    <str name="TOC Pane">目次</str>
+    <str name="Index Pane">索引</str>
+    <str name="Glossary Pane">用語集</str>
+    <str name="Search Pane">検索結果</str>
+    <str name="Search">検索結果</str>
+    <str name="No Search Performed">検索は行われませんでした。</str>
+    <str name="No Search Results">見つかりません。</str>
+    <str name="Search Results">検索結果を表示</str>
+    <str name="Searched for">検索したもの</str>
+    <str name="Go">検索</str>
+    <str name="BreadcrumbSymbol">&gt;</str>
+    <str name="See">、参照: </str>
+    <str name="See also">参照: </str>
+</strings>

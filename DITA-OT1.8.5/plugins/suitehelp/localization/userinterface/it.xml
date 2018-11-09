@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings xml:lang="it">
+    <str name="Back">Precedente</str>
+    <str name="Forward">Successiva</str>
+    <str name="Hide Navigation">Nascondi spostamento</str>
+    <str name="Show Navigation">Mostra navigazione</str>
+    <str name="Toggle Highlighting">Attiva/Disattiva evidenziazione</str>
+    <str name="Print">Stampa pagina</str>
+    <str name="Print All">Stampa tutto</str>
+    <str name="PDF Link">PDF</str>
+    <str name="Email">Invia e-mail a</str>
+    <str name="Email Address">solutions@suite-sol.com</str>
+    <str name="Home">Inizio</str>
+    <str name="TOC Pane">Contenuto</str>
+    <str name="Index Pane">Indice</str>
+    <str name="Glossary Pane">Glossario</str>
+    <str name="Search Pane">Ricerca</str>
+    <str name="Search">Ricerca</str>
+    <str name="No Search Performed">Nessuna ricerca effettuata.</str>
+    <str name="No Search Results">Nessun risultato.</str>
+    <str name="Search Results">Mostra i risultati della ricerca</str>
+    <str name="Search Result">Mostra i risult della ricerca</str>
+    <str name="Searched for">Eseguita ricerca di</str>
+    <str name="Go">VAI</str>
+    <str name="BreadcrumbSymbol">&gt;</str>
+    <str name="See">vedere </str>
+    <str name="See also">vedere anche </str>
+</strings>

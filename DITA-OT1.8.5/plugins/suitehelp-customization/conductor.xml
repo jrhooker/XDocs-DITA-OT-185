@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<project>
+    
+    <target name="suitesol-init">
+        <property name="suitehelp-conf-dir" location="${dita.dir}\plugins\suitehelp-customization"/>
+        <property name="suitehelp-conf" location="${suitehelp-conf-dir}\suitehelp-conf.xml"/>
+        
+        <!-- Uncomment the following line to use Native
+        Dita Accelerator formatting -->
+        <!--<property name="suitehelp-nativemode" value="true"/>-->
+        
+        <!--The default for SuiteHelpPlus tokenization is the standard algorithm,
+        there is an option for Porter tokenization as well-->
+        <!--<property name="suitehelp.tokenization" value="porter"/>-->
+        
+        <property name="homepage-html" location="${dita.temp.dir}\SuiteHelpHomepage.html"/>
+        <xslt in="${args.input}" 
+              out="${homepage-html}"
+              style="${dita.dir}\plugins\suitehelp-customization\xsl\make-homepage.xsl"
+              force="true"
+        />      
+    </target>
+    
+ </project>

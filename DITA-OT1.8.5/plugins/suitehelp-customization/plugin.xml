@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<plugin id="com.suite-sol.suitehelp-customization">
+
+    <require plugin="com.suite-sol.suitehelp"/>
+    
+    <feature extension="dita.conductor.target.relative" value="conductor.xml" type="file"/>
+    
+    <feature extension="suitehelp-init" value="suitesol-init" type="txt"/>
+
+    </plugin>

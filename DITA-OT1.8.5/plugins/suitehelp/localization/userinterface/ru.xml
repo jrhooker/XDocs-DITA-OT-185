@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings xml:lang="ru">
+    <str name="Back">Предыдущий раздел</str>
+    <str name="Forward">Следующий раздел</str>
+    <str name="Hide Navigation">Убрать навигацию</str>
+    <str name="Show Navigation">Показать навигацию</str>
+    <str name="Toggle Highlighting">Переключить выделение</str>
+    <str name="Print">Печать раздела</str>
+    <str name="Print All">Напечатать все</str>
+    <str name="PDF Link">PDF</str>
+    <str name="Email">Напишите нам</str>
+    <str name="Email Address">solutions@suite-sol.com</str>
+    <str name="Home">Главная страница</str>
+    <str name="TOC Pane">Содержание</str>
+    <str name="Index Pane">Предметный указатель</str>
+    <str name="Glossary Pane">Глоссарий</str>
+    <str name="Search Pane">поиска</str>
+    <str name="Search">поиска</str>
+    <str name="No Search Performed">Поиск не был выполнен.</str>
+    <str name="No Search Results">Ваш поиск не дал результатов.</str>
+    <str name="Search Results">Результаты поиска</str>
+    <str name="Search Result">В результате поиска</str>    
+    <str name="Searched for">Выполнен поиск</str>
+    <str name="Go">Поиск</str>
+    <str name="BreadcrumbSymbol">&gt;</str>
+    <str name="See">см. </str>
+    <str name="See also">см. также </str>
+</strings>

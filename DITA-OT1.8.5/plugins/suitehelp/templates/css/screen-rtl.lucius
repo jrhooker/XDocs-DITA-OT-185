@@ -1,0 +1,118 @@
+:lang(ar), :lang(he){
+    Direction: rtl;
+    
+    header {
+        #logo-link {
+            float: none;
+        }
+    
+        h1 {
+            margin-right: #{logoWidth};
+        }
+    }
+    
+    #topbuttons {
+        left: 30px;
+        right: auto;
+        
+        #button-back {
+            background-image: url(forward.png);
+        }
+        
+        #button-forward {
+            background-image: url(back.png);
+        }
+    }
+    
+    #leftbar {
+        .tabs li {
+            text-align: right;
+        
+            span {
+                margin-right: 26px;
+                margin-left: 0;
+            }
+        }
+    
+        nav.toc {
+            > nav {
+                padding: 10px 0px 0 10px;
+                
+                > ul {
+                    margin-right: 10px;
+                }
+            
+                ul {
+                    padding-right: 10px;
+                }
+                
+                li {
+                    padding-right: 23px;
+                    padding-left: 10px;
+                    background-position: top right;
+                }
+                
+                li.open {
+                    > ul {
+                        margin-right: -15px;
+                    }
+                }
+                
+                li.closed {
+                    background-image: url(toc-closed-rtl.png);
+                    margin-right: 0px;
+                }
+            }
+        }
+        
+        nav.search {
+            .results {
+                margin-right: 10px;
+            }
+        }
+        
+        nav.index {
+            ul, ol {
+                padding: 0 40px 0 10px;
+            }
+        
+            .active > .popup {
+                padding-right: 5px;
+                margin-right: 0;
+            }
+        }
+        
+        nav.glossary {
+            ul, ol {
+                padding: 0 40px 0 10px;
+            }
+        }
+    }
+    
+    #breadcrumbs {
+        right: 0;
+        
+        a:first-child {
+            margin-left: 0px;
+            margin-right: 26px;
+        }
+    }
+    
+    #center {
+        bottom: #{bottomHeight};
+        right: #{centerLeftMargin};
+        left: 0;
+    }
+    
+    #dragger {
+        right: #{leftWidth};
+        left: auto;
+    }
+    
+    .hide-nav {
+        article {
+            right: 5px !important;
+            left: 0px !important;
+        }
+    }
+}

@@ -1,0 +1,3 @@
+<plugin id="org.mscc.pdf-parameters">
+    <feature extension="dita.conductor.pdf2.param" file="parameters.xml"/>
+</plugin>

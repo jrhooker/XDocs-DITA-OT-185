@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<plugin id="com.suite-sol.suitehelpplus">
+    <require plugin="com.suite-sol.suitehelp"/>
+    <feature extension="dita.conductor.target.relative" value="conductor.xml" type="file"/>
+    <feature extension="suitehelp-postcore" value="create-search-index" type="text"/>
+</plugin>

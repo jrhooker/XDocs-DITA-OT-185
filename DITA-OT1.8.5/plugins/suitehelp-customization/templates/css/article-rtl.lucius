@@ -1,0 +1,15 @@
+:lang(ar), :lang(he){
+    article {
+        right: 305px;
+        left: 0px;
+        margin-left: 0px;
+        padding: 20px;
+        
+        ul, ol {
+            padding: 0 40px 0 10px;
+        }
+        dd{
+            margin-right: 40px;
+        }
+    }
+}

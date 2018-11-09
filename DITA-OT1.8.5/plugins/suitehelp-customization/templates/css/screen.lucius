@@ -1,0 +1,289 @@
+html, body {
+    font-family: Verdana, Calibri, Helvetica, "Droid Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #0073ac;
+}
+
+#leftbar {
+    background-color: #f2f2f2;
+    top: 150px;
+}
+
+#breadcrumbs {
+    color: white;
+    right: 0;
+    width: auto;
+    margin-right: 0;
+
+    background: #005390;
+    background: -moz-linear-gradient(left, #005390, #0069a8);
+    background: -webkit-gradient(linear, left top, right top, from(#005390), to(#0069a8));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#005390', EndColorStr='#0069a8', GradientType=1);
+    
+    .arrow {
+        padding-right:4px;
+        display: inline-block;
+        width: 15.5px;
+        height: 15.5px;
+        background: url(GreaterThan.png) no-repeat;
+     }
+}
+
+#breadcrumbs a, #breadcrumbs a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+#tocpane a.current, #tocpane a.current:visited,
+#indexpane a.current, #indexpane a.current:visited,
+#glossarypane a.current, #glossarypane a.current:visited {
+    color: #600;
+}
+
+nav.index {
+    span.index-see {
+        font-size: 0.8em;
+        color: #333;
+    }
+    span.index-see-also {
+        font-size: 0.8em;
+        color: #333;
+    }
+}
+
+#leftbuttons a {
+    font-weight: bold;
+}
+
+header #logo-link {
+    background: url(top-gradient.png) no-repeat center bottom;
+    display: block;
+    float: none;
+    margin-top: 0.3em;
+    margin-left: 26px;
+}
+
+#searchform {
+    top: 75px;
+    left: 26px;
+    font-size: 0.9em;
+    input.search {
+        width: 250px;
+    }
+    input.submit {
+        background: #666;
+        border: 1px solid #e5e5e5;
+        margin-left: 5px;
+        border-left: 0;
+        color: #fff;
+    }
+}
+
+#center, #topnav {
+    position: static;
+}
+
+#breadcrumbs {
+    position: absolute;
+    top: 102px;
+    height: 33px;
+    width: 100%;
+    left: 0;
+    padding-top: 5px;
+    a:first-child {
+        margin-left: 26px;
+    }
+}
+
+.ui-dialog-titlebar { 
+    background:#005390; 
+ }
+ 
+.ui-widget-overlay {
+    background:#666; opacity:.7;
+}
+
+footer {
+	font-weight: bold;
+	text-align: center;
+	border-top: 3px solid #ccc;
+}
+
+#collapse-toc {
+    font-family: "Arial Narrow";
+}
+
+#tocpane > nav > ul > li > a {
+    color: #003472;
+    font-size: 1.2em;
+    font-family: "Arial Narrow", Cambria, Georgia, "Droid Serif", "DejaVu Serif", serif;
+    font-weight: bold;
+}
+#tocpane > nav > ul > li > ul > li > a {
+    color: #003472;
+    font-family: "Arial Narrow", Cambria, Georgia, "Droid Serif", "DejaVu Serif", serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+#tocpane a {
+    color: #231f20;
+    font-size: 0.9em;
+}
+/* remember, numbering is zero-indexed, so odd starts with the *second* element */
+nav.toc li.odd {
+    background-color: #e5e5e5;
+}
+
+#breadcrumbs a {
+    font-size: 0.9em;
+}
+
+header h1 {
+    display: none;
+}
+
+#topbuttons {
+    top: 70px;
+    z-index: 1;
+}
+
+#leftbar > nav {
+    top: 0;
+    bottom: #{tabsHeight};
+}
+
+.tabs {
+	bottom: 0;
+}
+
+#leftbar .tabs {
+    height: #{tabsHeight};
+}
+.searchtitle {
+    margin-left: 10px;
+}
+#leftbar .tabs li {
+    display: block;
+    width: auto;
+    text-align: left;
+    padding-top: 1px;
+    font-size: 0.9em;
+
+    span {
+    	margin-left: 26px;
+    }
+
+    a, a:visited {
+    	color: white;
+    	font-weight: bold;
+    	display: block;
+    	background: #005390;
+        background: -moz-linear-gradient(left, #005390, #0069a8);
+        background: -webkit-gradient(linear, left top, right top, from(#005390), to(#0069a8));
+        filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#005390', EndColorStr='#0069a8', GradientType=1);
+    }
+
+    a:hover {
+        background: #006dbd;
+        background: -moz-linear-gradient(left, #006dbd, #0069a8);
+        background: -webkit-gradient(linear, left top, right top, from(#006dbd), to(#0069a8));
+        filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#006dbd', EndColorStr='#0069a8', GradientType=1);
+    }
+
+    a.odd, a.odd:visited, a.odd:hover {
+        background: #0069a8;
+        background: -moz-linear-gradient(right, #005390, #0069a8);
+        background: -webkit-gradient(linear, right top, left top, from(#005390), to(#0069a8));
+        filter: progid:DXImageTransform.Microsoft.Gradient(EndColorStr='#005390', StartColorStr='#0069a8', GradientType=1);
+    }
+
+    a.odd:hover {
+        background: #006dbd;
+        background: -moz-linear-gradient(right, #006dbd, #0069a8);
+        background: -webkit-gradient(linear, right top, left top, from(#006dbd), to(#0069a8));
+        filter: progid:DXImageTransform.Microsoft.Gradient(EndColorStr='#006dbd', StartColorStr='#0069a8', GradientType=1);
+    }
+
+    a.current, a.current:visited {
+        background: #003c77;
+        background: -moz-linear-gradient(left, #003c77, #006dbd);
+        background: -webkit-gradient(linear, left top, right top, from(#003c77), to(#006dbd));
+        filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#003c77', EndColorStr='#006dbd', GradientType=1);
+    }
+
+    a.current.odd, a.current.odd:visited {
+        background: #003c77;
+        background: -moz-linear-gradient(right, #003c77, #006dbd);
+        background: -webkit-gradient(linear, right top, left top, from(#003c77), to(#006dbd));
+        filter: progid:DXImageTransform.Microsoft.Gradient(EndColorStr='#003c77', StartColorStr='#006dbd', GradientType=1);
+    }
+}
+a#button-email {
+    display:inline-block;
+}
+a#button-pdflink {
+    display:inline-block;
+}
+@media (max-width: #{mobileWidth}) {
+    #breadcrumbs, #topbuttons, #dragger {
+    	display: none;
+    }
+    article {
+    	position: static;
+    }
+    #leftbar {
+    	width: auto;
+    }
+    header {
+    	height: 68px;
+    }
+}
+
+/* Search term highlighting */
+.search-term {
+    background-color: yellow;
+}
+.no-highlighting .search-term {
+    background-color: transparent;
+}
+.searchtotal {
+    display: inline;
+}
+.searchedfor {
+    display:block;
+    margin-left:10px;
+}
+
+.searchtitle {
+    margin-left:10px;
+} 
+
+.searchmsg {
+    margin-left:10px;
+}
+#audience-selector {
+    vertical-align:bottom;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#audience-selector.hideaudience {
+    display:none;
+}
+
+nav.toc li.hideaudience { 
+    display:none;
+}
+
+
+nav.toc .open.tempLeaf {
+    background: none;
+}
+nav.toc .closed.tempLeaf {
+    background:none;
+}

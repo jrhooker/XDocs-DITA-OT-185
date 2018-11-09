@@ -1,0 +1,47 @@
+<suitehelp>
+    <nextConf>../suitehelp/suitehelp-conf.xml</nextConf>
+
+    <nextConf>html-conf.xml</nextConf>
+    
+    <license>license.txt</license>
+
+    <cssfiles>
+        <file>templates/css/screen.lucius</file>
+        <file>templates/css/screen-rtl.lucius</file>
+        <file>templates/css/article.lucius</file>
+        <file>templates/css/article-rtl.lucius</file>
+    </cssfiles>
+    <cssprintfiles>
+        <file>templates/css/print.lucius</file>
+    </cssprintfiles>
+    <jsfiles>
+        <file>templates/js/body.js</file>
+    </jsfiles>
+    <staticdir>static</staticdir>
+
+    <stringsdir>localization/userinterface</stringsdir>
+
+    <body-template>templates/html/body-customization.hamlet</body-template>
+
+    <cssvar name="topHeight">133px</cssvar>
+    <cssvar name="tabsHeight">80px</cssvar>
+    <cssvar name="bottomHeight">0</cssvar>
+
+    <!-- Uncomment and modify to cause topicrefs whose @format
+         attribute has the given values to be completely ignored, as
+         if they and all of their children have been commented out in
+         the ditamap. This configuration parameter may appear
+         multiple times.
+    <ignore-format>chm</ignore-format>
+    <ignore-format>hlp</ignore-format>
+    -->
+
+    <!-- Change to false to suppress warnings for DITA that is illegal
+         due to duplicate IDs.
+    -->
+    <warn-dup-topic-id>true</warn-dup-topic-id>
+    <warn-dup-elem-id>true</warn-dup-elem-id>
+    
+    <mapmetadata element="othermeta" nameattributevalue="leftBarWidth"
+        contentattributename="content">leftWidth</mapmetadata>
+</suitehelp>

@@ -1,0 +1,2 @@
+classes:
+    topic/draft-comment: { tag: div, class: draft-comment }

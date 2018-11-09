@@ -1,0 +1,6 @@
+<dummy>
+    <!-- Any Ant code allowed in xslt task is possible. Common example: -->
+    <param name="topicTitle.numLevel" expression="${Title.numLevel}" if="Title.numLevel"/>
+    <param name="SHOWCOMMENTS-NUM" expression="${SHOWCOMMENTS-NUM}" if="SHOWCOMMENTS-NUM"/>
+    <param name="SHOWCOMMENTS" expression="${SHOWCOMMENTS}" if="SHOWCOMMENTS"/>
+</dummy>

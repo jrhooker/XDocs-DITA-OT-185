@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\08_Functional_Timing\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/08_Functional_Timing/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Fabric_Control_Interface_FCI_Functional__1rhngfz9hy" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="topic:1;2:145">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="title:1;3:10">Fabric Control Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:1;6:8">The FCI_DATA is clocked externally with a 19.44 MHz
+    clock frequency locked to the 125MHz device input reference clock
+    (REFCLK_P/N).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:2;10:8">A complete serial transfer on FCI_DATA consists
+    of:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="ul:1;13:9">
+      <li id="d1e1295" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="li:1;14:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:3;14:27">4b FPDL list
+      select, from LSB to MSB</p></li>
+
+      <li id="d1e1301" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="li:2;17:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:4;17:27">190b channel
+      enables, from slot 0 to 189</p></li>
+
+      <li id="d1e1313" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="li:3;20:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:5;20:27">1b
+      toggle</p></li>
+
+      <li id="d1e1319" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="li:4;23:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:6;23:27">1b
+      parity</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:7;27:8">When the 196 serial bits have been captured, the
+    CFIC waits for the next FCI_START pulse before sampling any new bits.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:8;30:8">The sampling position allows great setup and hold
+    time margin. The FCI functional timing is shown below.</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="p:9;33:32">Source: PDOX 422639, tab
+    TxFciFunc</p>
+
+    <fig id="Fabric_Control_Interface_FCI_Functional__1shngfz9hz" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="fig:1;36:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="title:2;37:14">Fabric Control Interface (FCI) Functional
+      Timing</title>
+
+      <image href="../Graphics/cfic_tsb_fci_if.svg" placement="break" width="650px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Fabric_Control_Interface_FCI_Functional__1rhngfz9hy.xml" xtrc="image:1;40:86"/>
+    </fig>
+  </body>
+</topic>

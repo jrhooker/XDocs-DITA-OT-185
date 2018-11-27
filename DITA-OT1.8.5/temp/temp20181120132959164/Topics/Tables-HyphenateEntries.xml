@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181120132959164\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181120132959164/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7f25" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="title:1;3:10">Hyphenate Table Entries</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:1;6:8"><table id="table_This_is_the_title_of_the_hyphenation_tab_1j5o4cw07" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="table:1;6:77">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="title:2;7:16">This is the title of the hyphenation table</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="tgroup:1;9:26">
+          <colspec colname="col1" colwidth="117*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:1;10:37"/>
+
+          <colspec colname="col2" colwidth="109*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:2;12:37"/>
+
+          <colspec colname="col3" colwidth="774*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:3;14:37"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="thead:1;16:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="row:1;17:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:1;18:22">Hyphenate</entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:2;20:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:2;20:25"> Heading</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:3;22:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:3;22:25">Heading </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="tbody:1;26:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="row:2;27:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:4;28:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:4;28:25">THIS_IS_1234_HARD</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:5;30:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:5;30:25">Cell </p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:6;32:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:6;32:25">Cell </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="row:3;35:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:7;36:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:7;36:25">THISISALONGER_PNAME</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:8;38:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:8;38:25">Cell </p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="entry:9;40:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:9;40:25">Cell </p><note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="note:1;40:40"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-HyphenateEntries.xml" xtrc="p:10;40:43">This is a note in a table. This
+              makes this a notable table indeed.</p></note></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p>
+  </body>
+</topic>

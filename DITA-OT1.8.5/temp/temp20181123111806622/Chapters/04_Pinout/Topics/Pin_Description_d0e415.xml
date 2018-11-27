@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Pin_Description_d0e415" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="title:1;3:10">Pin Description</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:1;6:8">The following sections describe each device pin. Unless stated
+    otherwise, all control signals are active-high logic. All unused SERDES
+    from the P56 and M10 SERDES cell sets <xref href="../../02_References/a_02_references.xml#a_02_references/Int_ref_40nm_SERDES_RAPTR" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="xref:1;8:139" type="li"><?ditaot gentext?>1</xref>
+    can be left unconnected. The P56 SERDES cell set supports high speed
+    SERDES signals ranging from 25Gbps to 56Gbps, while the M10 SERDES cell
+    set supports the multimode SERDES from 1Gbps to 11Gbps. <ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="ph:1;11:65"><ph audience="DIGIG5_NOKIA" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="ph:2;11:93">For the SERDES serial to parallel bit ordering,
+    see <xref href="../../14_High_Speed_IO_Characteristics/Topics/SERDES_Serial_to_Parallel_Bit_Ordering_0h5u2nwbx.xml#SERDES_Serial_to_Parallel_Bit_Ordering_0h5u2nwbx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="xref:2;12:171" type="topic"><?ditaot gentext?>SERDES Serial to Parallel Bit Ordering</xref>
+    . </ph>A subset of device digital LVCMOS outputs have integrated series
+    termination resistors.</ph><ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="ph:3;14:36"><ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="ph:4;14:40"> Refer to the IBIS models <xref href="../../02_References/a_02_references.xml#a_02_references/ref_digi_ibis_model" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="xref:3;14:156" type="li"><?ditaot gentext?>13</xref></ph>
+    </ph>.</p>
+
+    <table id="IO_definition_d0e423" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="table:1;17:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="title:2;18:14">Device I/O Definition</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="tgroup:1;20:24">
+        <colspec colname="col1" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="colspec:1;21:49"/>
+
+        <colspec colname="col2" colwidth="4.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="colspec:2;23:49"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="thead:1;25:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:1;26:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:1;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:2;27:23">Type</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:2;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:3;29:23">Definition</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="tbody:1;33:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:2;34:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:3;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:4;35:23">Input</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:4;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:5;37:23">Pin always functions as an input.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:3;40:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:5;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:6;41:23">Output</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:6;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:7;43:23">Pin is always driven.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:4;46:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:7;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:8;47:23">Three-State Output</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:8;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:9;49:23">Pin is either driven or held in
+            high-impedance.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:5;53:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:9;54:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:10;54:23">BiDir</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:10;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:11;56:23">Pin may be either an input or a three-state output
+            (Bi-directional).</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="row:6;60:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:11;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:12;61:23">Open Drain</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="entry:12;63:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Pin_Description_d0e415.xml" xtrc="p:13;63:23">Pin is either driven low or held in
+            high-impedance.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

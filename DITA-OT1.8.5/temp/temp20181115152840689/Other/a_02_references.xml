@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181115152840689\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181115152840689/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-US" id="a_02_references" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="topic:1;2:219">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="title:1;3:121">References</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="body:1;4:119">
+      <p status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:1;5:136"/>
+      <p status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:2;6:135">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:1;7:119">Device Documentation</b>
+      </p>
+      <ol outputclass="continue" status="unchanged" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:1;9:160">
+         <li id="PMC_ref_po_pm6010" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:1;10:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:3;11:122">ESC-2161506, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:1;11:255">
+                  <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:2;12:128">Product Overview</i> DIGI-G5 OTN Processor</i>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:4;14:146">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=425920" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:1;15:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=425920</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_po_meta600g" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:2;18:170">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:5;19:122">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:3;19:255">META-600G Product Overview</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:6;21:146">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:2;22:222"><?ditaot gentext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_ballmap_pm5990" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:3;25:173">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:7;26:122">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:4;26:255">DIGI-G5 Ball Map</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:8;28:146">
+               <xref format="xlsx" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381982" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:3;29:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxxx</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_ballmap_pm5990_ALU" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:4;32:177">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:9;33:122">ESC-XXXXXXX, Microsemi,<i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:5;33:254"> PM6017 DIGI-G5 Ball Map</i> for Nokia</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:10;34:147">
+               <xref format="xlsx" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381982" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:4;35:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_ballmap_meta200g" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:5;38:175">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:11;39:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:6;39:256">PM6012/PM6013 META-500G Ball Map</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:12;41:147">
+               <xref format="xlsx" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=390034" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:5;42:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_rd_infocenter_pm5990" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:6;45:179">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:13;46:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:7;46:256">DIGI-G5 Register Descriptions Infocenter</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:14;48:147">
+               <xref format="zip" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=395292" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:6;49:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_rd_pm5990" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:7;52:168">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:15;53:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:8;53:256">DIGI-G5 Register Descriptions (PDF)</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:16;55:147">
+               <xref href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=395022" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:7;56:208"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_hwdg_pm6010" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:8;59:170">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:17;60:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:9;60:256">DIGI-G5 Hardware Design Guide</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:18;62:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:8;63:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_ref_hwdg_meta600" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:9;66:171">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:19;67:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:10;67:257">META-500G Family Hardware Design Guide</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:20;69:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:9;70:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="pm5440_all_ref_prog_manual" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:10;73:178">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:21;74:123">PMC-2120045, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:11;74:257">DIGI Device Family Programmer's Manual</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:22;76:147">
+               <xref format="doc" href="http://bby1dms01/DocMgmt/getfile.cfm?file_id=334360" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:10;77:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/getfile.cfm?file_id=334360</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="digi_cbri_util_calc" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:11;80:171">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:23;81:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:12;81:257">CBRI Utilization Calculator</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:24;83:147">
+               <xref format="xls" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=323821" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:11;84:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="ref_digi_ibis_model" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:12;87:171">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:25;88:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:13;88:257">PM6010 IBIS Model</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:26;90:147">
+               <xref href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=394493" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:12;91:209"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="ref_crypotn_spi_interface" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:13;94:177">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:27;95:123">PMC-2152094, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:14;95:257">CrypOTN SPI Interface Key Regdoc</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:28;97:147">
+               <xref format="ibs" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=396567" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:13;98:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=396567</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="d1e288" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:14;101:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:29;102:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:15;102:257">DIGI-G5 Interrupt Hierarchy Document</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:30;104:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=414557" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:14;105:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+      </ol>
+      <p otherprops="pagebreak" status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:31;109:159">
+         <draft-comment author="hookerje" time="Sun 10/30/2016 09:48 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="draft-comment:1;110:207">This pagebreak has been added here so that readers will never link to a page that has more than two of the same number referencing a specific standard. </draft-comment>
+      </p>
+      <p status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:32;112:136">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:2;113:119">Other Microsemi References</b>
+      </p>
+      <ol outputclass="continue" status="unchanged" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:2;115:160">
+         <li id="Int_ref_40nm_SERDES_RAPTR" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:15;116:153">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:33;117:123">ESC-2161981, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:16;117:257">16nm RAPTR SERDES Specifications for DIGI-G5 Family of Devices</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:34;119:147">
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=TBD" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:15;120:219"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=TBD</xref>
+            </p>
+         </li>
+         <li id="Int_ref_reflow" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:16;123:142">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:35;124:123">PMC-2040933, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:17;124:257">Moisture Sensitivity Levels and Recommended Reflow Profiles for Microsemi Devices</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:36;126:147">
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=272443" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:16;127:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=272443</xref>
+            </p>
+         </li>
+         <li id="Int_ref_heat_sinks" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:17;130:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:37;131:123">PMC-2020246, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:18;131:257">Attaching Passive Heat Sinks to Organic Flip Chip Packages</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:38;133:147">
+               <xref format="docm" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=265467" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:17;134:223"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=265467</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_pmcPTP" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:18;137:166">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:39;138:123">PMC-2101547, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:19;138:257">Precision Timing Protocol (PTP) Implementation on Microsemi Devices</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:40;140:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=304174" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:18;141:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=304174</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_pmcRCP" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:19;144:166">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:41;145:123">ESC-XXXXXXX, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:20;145:257">ODU RCP Engineering Document</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:42;147:147">
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=323734" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:19;148:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=XXXXXXX</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_peCharPlan" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:20;151:170">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:43;152:123">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:21;152:257">PM6010 DIGI-G5 RevA Characterization Report</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:44;154:147">URL</p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_int_hier_pm5440_int" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:21;156:179">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:45;157:123">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:22;157:257">PM6010 DIGI-G5 Internal Interrupt Hierarchy</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:46;159:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=395337" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:20;160:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_oduk_buff_size" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:22;163:174">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:47;164:123">ESC-xxxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:23;164:258">DIGI-G5 ODUk Switch Buffer Size Calculator</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:48;166:147">
+               <xref format="xls" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=371748" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:21;167:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_cpb_buff_size" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:23;170:173">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:49;171:123">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:24;171:257">DIGI-G5 Buffer Size Calculator</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:50;173:147">
+               <xref format="xls" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=371749" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:22;174:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Int_ref_raptr_clk" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:24;177:169">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:51;178:123">ESC-xxxxxxx, Microsemi, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:25;178:257">16nm RAPTR SERDES Clocking Spreadsheet</i> 
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:52;180:147">
+               <xref format="xls" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=380639" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:23;181:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+      </ol>
+      <p otherprops="pagebreak" status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:53;185:159">
+         <draft-comment author="hookerje" time="Sun 10/30/2016 09:48 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="draft-comment:2;186:207">This pagebreak has been added here so that readers will never link to a page that has more than two of the same number referencing a specific standard. </draft-comment>
+      </p>
+      <p status="unchanged" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:54;188:136">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:3;189:119">Standards References</b>
+      </p>
+      <ol outputclass="continue" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:3;191:141">
+         <li id="Ext_ref_nebs" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:25;192:159">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:55;193:123">Telcordia Technologies, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:26;193:257">Network Equipment-Building System (NEBS) Requirements: Physical Protection: Telcordia Technologies Generic Requirements GR-63-CORE</i>, Issue 4, April 2012.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:56;194:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426436" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:24;195:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426436</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_eia_jesd518" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:26;198:166">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:57;199:123">Electronic Industries Alliance, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:27;199:265">Integrated Circuit Thermal Test Method Environmental Conditions -Junction-to-Board: JESD51-8</i>, October 1999.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:58;200:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427155" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:25;201:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427155</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_1149_1" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:27;204:161">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:59;205:123">IEEE 1149.1-2001, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:28;205:251">IEEE Standard Test Access Port and Boundary Scan</i>, June 2001.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:60;206:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312926" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:26;207:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312926</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_1149_6" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:28;210:161">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:61;211:123">IEEE 1149.6-2003, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:29;211:251">IEEE Standard for Boundary-Scan Testing of Advanced Digital Networks</i>, April 2003.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:62;212:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312928" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:27;213:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312928</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_1588" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:29;216:159">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:63;217:123">IEEE 1588-2008, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:30;217:249">IEEE Standard for a Precision Clock Synchronization Protocol for Networked Measurement and Control Systems</i>, July 2008.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:64;218:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305311" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:28;219:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305311</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_802.3" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:30;222:160">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:65;223:123">IEEE 802.3-2015, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:31;223:250">IEEE Standard for Local and Metropolitan Area Networks: Carrier sense multiple access with Collision Detection (CSMA/CD) Access Method and Physical Layer Specifications</i>, Sept 2015.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:66;224:147"> 
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:32;225:126">Section 1:</i> 
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426623" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:29;226:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426623</xref>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:67;228:147"> 
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:33;229:126">Section 2:</i> 
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426624" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:30;230:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426624</xref>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:68;232:147"> 
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:34;233:126">Section 3:</i> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305300" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:31;234:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426625</xref>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:69;236:147"> 
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:35;237:126">Section 4: </i>
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426626" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:32;238:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426626</xref>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:70;240:147"> 
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:36;241:126">Section 5:</i> 
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426627" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:33;242:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426627</xref>
+            </p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:71;244:147">
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:37;245:126">Section 6:</i> 
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426628" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:34;246:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426628</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_802.3by" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:31;249:162">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:72;250:123">IEEE P802.3by-2016, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:38;250:253">IEEE Standard for Ethernet - Amendment 2: Media Access Control Parameters, Physical Layers, and Management Parameters for 25 Gb/s Operation</i>, July 2016.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:73;251:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305761" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:35;252:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305761</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Ext_ref_802.3bs" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:32;255:186">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:74;256:123">IEEE P802.3bs, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:39;256:249"/>, Future.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:75;257:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=425792" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:36;258:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=425792</xref>
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="Ext_ref_802.3cd" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:33;261:186">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:76;262:123">IEEE P802.3cd, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:40;262:249"/>, Future.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:77;263:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=??????" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:37;264:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=??????</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_interlaken_protocol" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:34;267:174">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:78;268:123">Interlaken Alliance, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:41;268:254">Interlaken Protocol Definition</i>, Revision 1.2, October 2008.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:79;269:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305969" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:38;270:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=305969</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_interlaken_interop" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:35;273:173">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:80;274:123">Interlaken Alliance, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:42;274:254">Interlaken Interoperability Recommendations</i>, Revision 1.9, May, 2016.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:81;275:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/getfile.cfm?file_id=329538" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:39;276:221"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=417995</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_Gsup43" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:36;279:161">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:82;280:123">ITU-T Recommendation Series G Supplement 43, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:43;280:278">Transport of IEEE 10GBASE-R in optical transport networks (OTN)</i>, Feb 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:83;281:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=325358" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:40;282:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=325358</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G709" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:37;285:159">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:84;286:123">ITU-T Recommendation G.709/Y.1331, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:44;286:268">Interfaces for the Optical Transport Network (OTN)</i>, June 2016.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:85;287:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426598" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:41;288:222"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426598</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G7041" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:38;291:160">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:86;292:123">ITU-T Recommendation G.7041/Y.1303, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:45;292:269">Generic Framing Procedure</i>, April, 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:87;293:147">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304775" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:42;294:222"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304775</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G798" status="unchanged" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:39;297:159">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:88;298:123">ITU-T Recommendation G.798, <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:46;298:261">Characteristics of optical transport network hierarchy equipment functional blocks</i>, Dec, 2012.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:89;299:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/index.cfm?folder=121170" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:43;300:218"><?ditaot usertext?>http://bby1dms01/DocMgmt/index.cfm?folder=121170</xref>
+            </p>
+         </li>
+         <li id="d1e591" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:40;303:134">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:90;304:123"> 
+               <xref href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=369431" scope="external" rev="deltaxml-delete" status="deleted" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:44;305:248"><?ditaot usertext?>ITU-T Recommendation G.798.1</xref>
+               <ph status="new" rev="deltaxml-add" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ph:1;306:52">ITU-T Recommendation G.798.1</ph>, “Types and characteristics of optical transport network equipment”, January 2013.</p>
+            <p rev="deltaxml-add" status="new" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:91;307:155">
+               <xref href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=369431" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:45;308:209"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=369431</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8021" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:41;311:141">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:92;312:123">ITU-T Recommendation G.8021/Y.1341, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:47;312:288">Characteristics of Ethernet transport network equipment functional blocks</i>, October 2010.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:93;313:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426538" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:46;314:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426538</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G805" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:42;317:140">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:94;318:123">ITU-T Recommendation G.805, Generic functional architecture of transport networks, March, 2000.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:95;319:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/index.cfm?folder=121193" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:47;320:237"><?ditaot usertext?>http://bby1dms01/DocMgmt/index.cfm?folder=121193</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G806" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:43;323:140">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:96;324:123">ITU-T Recommendation G.806, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:48;324:280">Characteristics of transport equipment – Description methodology and generic functionality</i>, Feb, 2012.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:97;325:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/index.cfm?folder=121193" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:48;326:237"><?ditaot usertext?>http://bby1dms01/DocMgmt/index.cfm?folder=121193</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G812" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:44;329:140">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:98;330:123">ITU-T Recommendation G.812, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:49;330:280">Timing requirements of slave clocks suitable for use as node clocks in synchronization networks</i>, June 2004.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:99;331:147">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427244" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:49;332:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427244</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8261" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:45;335:141">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:100;336:124">ITU-T Recommendation G.8261/Y.1361, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:50;336:289">Timing and synchronization aspects in packet networks</i>, April 2008.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:101;337:148">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304749" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:50;338:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304749</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8262" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:46;341:141">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:102;342:124">ITU-T Recommendation G.8262/Y.1362, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:51;342:289">Timing characteristics of synchronous Ethernet Equipment Slave Clock (EEC)</i>, Jan 2015.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:103;343:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427248" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:51;344:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427248</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8264_Y1364" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:47;347:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:104;348:124">ITU-T Recommendation G.8264/Y.1364, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:52;348:289">Distribution of timing information through packet networks,</i> May 2014.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:105;349:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427249" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:52;350:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427249</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8251" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:48;353:141">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:106;354:124">ITU-T Recommendation G.8251, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:53;354:282">Control of Jitter and wander within the OTN</i>, September 2010.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:107;355:148">
+               <xref format="docx" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=314344" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:53;356:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=314344</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G8251_Amendment_1" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:49;359:153">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:108;360:124">ITU-T Recommendation G.8251, Amendment 1 <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:54;360:294">Control of Jitter and wander within the OTN, Amendment 1</i>, April 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:109;361:148">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=325305" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:54;362:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=325305</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_G7044_y1347" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:50;365:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:110;366:124">ITU-T Recommendation G.7044/Y.1347, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:55;366:289">Hitless Adjustment of ODUflex(GFP) (HAO)</i>, February 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:111;367:148">
+               <xref format="docx" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=314341" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:55;368:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=314341</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_pcie31a" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:51;371:143">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:112;372:124">PCI-SIG, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:56;372:262">PCI Express Base Specification</i>, Revision 3.1a, December 2015.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:113;373:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=424902" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:56;374:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=424902</xref>
+            </p>
+         </li>
+         <li id="Ext_ref_irig_200_04" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:52;377:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:114;378:124">RCC, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:57;378:258">IRIG Standard 200-04: IRIG Serial Time Code Formats</i>, September 2004.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:115;379:148">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=306772" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:57;380:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=306772</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_cei-3.1" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:53;383:143">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:116;384:124">OIF, OIF-CEI-03.1, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:58;384:272">Common Electrical I/O (CEI) - Electrical and Jitter Interoperability agreements for 6G+ bps, 11G+ bps and 25G+ bps I/O</i>, Feb 2014.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:117;385:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=422464" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:58;386:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=422464</xref> 
+            </p>
+         </li>
+         <li id="Ref_ext_xfp" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:54;389:139">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:118;390:124">SFF Committee, INF-8077i, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:59;390:279">10 Gigabit Small Form Factor Pluggable Module</i>, Revision 4.5, August 2005.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:119;391:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313644" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:59;392:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313644</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_sfp_plus" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:55;395:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:120;396:124">SFF Committee, SFF-8431, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:60;396:278">Specifications for Enhanced 8.5 and 10 Gigabit Small Form Factor Pluggable Module SFP+</i>, Revision 2.1, August 2007.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:121;397:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313643" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:60;398:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313643</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_qsfp" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:56;401:140">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:122;402:124">SFF Committee, INF-8438i, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:61;402:279">Specification for QSFP (Quad Small Form factor Pluggable) Transceiver,</i> Rev 1.0, November 2006.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:123;403:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=323315" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:61;404:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=323315</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_qsfp_plus" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:57;407:145">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:124;408:124">SFF Committee, SFF-8436, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:62;408:278">Specification for QSFP+ COPPER AND OPTICAL MODULES</i>, Rev 3.6, February 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:125;409:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313645" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:62;410:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=313645</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_qsfp28" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:58;413:142">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:126;414:124">SFF Committee, SFF-8665, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:63;414:278">QSFP+ 28 Gb/s 4X Pluggable Transceiver Solution (QSFP28)</i>, Rev 1.8, May 10, 2013.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:127;415:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381704" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:63;416:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381704</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_cfp_msa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:59;419:143">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:128;420:124">CFP MSA, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:64;420:262">CFP MSA Hardware Specification</i>, Revision 1.4, June 2010.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:129;421:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=302153" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:64;422:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=302153</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_cfp2_msa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:60;425:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:130;426:124">CFP MSA, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:65;426:262">CFP2 Hardware Specification</i>, Revision 1.0, July 31, 2013.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:131;427:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381705" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:65;428:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381705</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_168pin_msa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:61;431:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:132;432:124">OIF, OIF-MSA-100GLH-EM-01.0, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:66;432:282">Multisource Agreement for 100G Long-Haul DWDM Transmission Module – Electromechanical</i>, June 2010.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:133;433:148">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=302154" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:66;434:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=302154</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_OPF_CBRI" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:62;437:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:134;438:124">OIF, OIF-OFP-01.0 <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:67;438:271">OTN Over Packet Fabric Protocol (OFP) Implementation Agreement</i>, November 2011.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:135;439:148">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=346849" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:67;440:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=346849</xref>
+            </p>
+         </li>
+         <li id="Ref_ext_OPF_CBRI" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:63;443:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:136;444:124">OIF, OIF-FLEXE-01.0, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:68;444:274">Flex Ethernet Implementation Agreement</i>, March 2016.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:137;445:148">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=346849" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:68;446:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=346849</xref>
+            </p>
+         </li>
+      </ol>
+      <p audience="MSCCInternal" otherprops="pagebreak" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:138;450:165">
+         <draft-comment author="hookerje" time="Sun 10/30/2016 09:48 PM" translate="no" status="unchanged" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="draft-comment:3;451:226">This pagebreak has been added here so that readers will never link to a page that has more than two of the same number referencing a specific standard. </draft-comment>
+      </p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:139;453:142">
+         <b status="unchanged" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:4;454:138">Internal Microsemi References</b>
+      </p>
+      <ol audience="MSCCInternal" outputclass="continue" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:4;456:165">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:140;457:121">Note: It is not feasible to track incremental document updates. For this reason, only major release Issue numbers are used in this section. Draft documents that have not yet been approved have been assigned an initial Issue number of "1".</p>
+         <li id="reference_AMBA3_AHBLite" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:64;458:151">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:141;459:124">ARM, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:69;459:258">AMBA 3 AHB-Lite Protocol Specification</i>, Version 1.0, June 2006.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:142;460:148"> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=308910" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:69;461:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=308910</xref> 
+            </p>
+         </li>
+         <li id="reference_NIC301_Technical_Reference_Manual" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:65;464:171">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:143;465:124">ARM, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:70;465:258">CoreLink ™ Network Interconnect NIC-301 Revision: r2p2 Technical Reference Manual</i>, Revision r2p2, August 2010.</p>
+            <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:144;466:148"> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312867" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:70;467:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312867</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="d1e905" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:66;470:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:145;471:124">ESC-xxxxxxx, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:71;471:277">DIGI-G5 Bump and Ball-out Worksheet</i>", Issue x</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:146;472:124"> 
+               <xref format="xlsm" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=326829" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:71;473:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=xxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="d1e914" audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:67;476:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:147;477:124">TBD, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:72;477:269">DIGI-G5 Product Engineering Requirements</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:148;478:124"> 
+               <xref format="xls" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=306749" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:72;479:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=421282</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="d1e923" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:68;482:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:149;483:124">PMC-2152424, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:73;483:277">DIGI-G5 Device Verification Document</i>, Issue 2.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:150;484:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302369" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:73;485:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=2152424</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="d1e932" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:69;488:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:151;489:124">ESC-2161828, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:74;489:277">DIGI-G5 Implementation Description Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:152;490:124"> 
+               <xref format="docm" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=331362" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:74;491:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=427523</xref> 
+            </p>
+         </li>
+         <li id="ref_int_test_vector_design_notes" audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:70;494:184">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:153;495:124">PMC-XXXXXXX, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:75;495:277">DIGI-G5 Test Vectors and Design Notes</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:154;496:124"> 
+               <xref format="docm" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=330852" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:75;497:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=xxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="d1e950" audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:71;500:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:155;501:124">PMC-xxxxxxx, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:76;501:277">PM6010 DIGI_G4 RevA Timing Closure Document</i>, Issue TBD.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:156;502:124"> 
+               <xref format="docm" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=382298" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:76;503:242"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="d1e968" audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:72;506:158">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:157;507:124">PMC-1950617, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:77;507:277">Cost Model for CMOS Integrated Circuits</i>, Issue 32.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:158;508:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=251864" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:77;509:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=251864</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_int_ref_dci" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:73;512:167">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:159;513:124">PMC-2101603, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:78;513:277">DIGI CBR Interface Specification</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:160;514:124"> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302440" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:78;515:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302440</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_int_ref_dpi" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:74;518:167">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:161;519:124">PMC-2101065, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:79;519:277">DPI Specification</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:162;520:124"> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=301508" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:79;521:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=301508</xref> 
+            </p>
+         </li>
+         <li audience="MSCCInternal" id="PMC_int_ref_dsi" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:75;524:167">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:163;525:124">PMC-2101754, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:80;525:277">DSI Specification</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:164;526:124"> 
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304003" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:80;527:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=304003</xref> 
+            </p>
+         </li>
+         <li id="PMC_int_ref_lvcmos" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:76;530:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:165;531:124">PMC-xxxxxxx, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:81;531:277">16nm 1.8V Drive LVCMOS I/O Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:166;532:124"> 
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=357681" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:81;533:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="PMC_int_ref_lvds_rx" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:77;536:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:167;537:124">PMC-xxxxxxx, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:82;537:277">16nm 1.8V LVDS RX Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:168;538:124"> 
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=357967" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:82;539:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="PMC_int_ref_lvds_tx" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:78;542:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:169;543:124">PMC-xxxxxxx, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:83;543:277">16nm 1.8V LVDS TX Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:170;544:124"> 
+               <xref format="docm" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=363025" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:83;545:242"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref> 
+            </p>
+         </li>
+         <li id="PMC_int_ref_jtag_app_note" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:79;548:153">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:171;549:124">PMC-2021518, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:84;549:277">JTAG Test Features Description</i>, Issue 2.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:172;550:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=267200" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:84;551:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=267200</xref> 
+            </p>
+         </li>
+         <li id="d1e1050" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:80;554:135">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:173;555:124">PMC-2110258, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:85;555:277">XIP_SPI TSB Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:174;556:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312254" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:85;557:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=312254</xref> 
+            </p>
+         </li>
+         <li id="d1e1059" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:81;560:135">
+            <p id="refBusArchitecture" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:175;561:148">PMC-2111263, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:86;561:301">DIGI Configuration Bus Architecture For Fast Device Reconfiguration</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:176;562:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=313566" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:86;563:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=313566</xref> 
+            </p>
+         </li>
+         <li id="Proj_OHFS_INSERT_Engdoc" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:82;566:151">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:177;567:124">PMC-2102270, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:87;567:277">OHFS_INSERT LW Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:178;568:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=306974" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:87;569:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=306974</xref> 
+            </p>
+         </li>
+         <li id="tsb_ref_ohfs_insert" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:83;572:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:179;573:124">PMC-2122695, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:88;573:277">LW55_60_24_A [OHFS_INSERT] Overhead and Fixed Stuff Insert Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:180;574:124"> 
+               <xref format="doc" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=313183" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:88;575:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=313183</xref> 
+            </p>
+         </li>
+         <li id="pmcInt_ref_cpl" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:84;578:142">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:181;579:124">PMC-2132063, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:89;579:277">DIGI-G4 Chip Planner</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:182;580:124"> 
+               <xref format="xlsm" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=374472" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:89;581:242"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=374472</xref> 
+            </p>
+         </li>
+         <li id="pmc_int_ref_digi_disablementPlan" audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:85;584:184">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:183;585:124">DIGI_G5 Family IP/Feature Disablement Plan</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:184;586:124"> 
+               <xref format="xlsx" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426887" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:90;587:242"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=426887</xref> 
+            </p>
+         </li>
+      </ol>
+      <p audience="MSCCInternal" otherprops="pagebreak" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:185;591:165">
+         <draft-comment author="hookerje" time="Sun 10/30/2016 09:48 PM" translate="no" status="unchanged" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="draft-comment:4;592:226">This pagebreak has been added here so that readers will never link to a page that has more than two of the same number referencing a specific standard. </draft-comment>
+      </p>
+      <p audience="MCSSInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:186;594:142">
+         <b status="unchanged" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:5;595:138">Device Subsystems</b>
+      </p>
+      <ol audience="MSCCInternal" outputclass="continue" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:5;597:165">
+         <li id="PMC_int_ref_cpb" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:86;598:143">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:187;599:124">ESC-2160592, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:90;599:277">CPB_G5 Subsystem Eng Doc</i>, Issue x</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:188;600:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=378993" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:91;601:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=422284</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_cpu34k" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:87;604:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:189;605:124">ESC-2161036, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:91;605:277">CPU_G5 Subsystem Engineering Document</i>, Issue x</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:190;606:124">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=380584" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:92;607:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=424307</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_enet" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:88;610:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:191;611:124">PMC-2153215, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:92;611:277">ENET_G5 Subsystem Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:192;612:124">
+               <xref format="pdf" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=381070" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:93;613:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=418942</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_mapotn" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:89;616:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:193;617:124">ESC-2160406, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:93;617:277">MAPOTN_G5 Subsystem Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:194;618:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=300401" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:94;619:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=421642</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_coreotn" audience="MCSSInternal DIGIG5_ROW DIGIG4_HW DIGIG4_Ciena META200G_ROW" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:90;622:218">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:195;623:124">ESC-2161183, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:94;623:277">COREOTN_G5 Subsystem Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:196;624:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=383023" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:95;625:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=424779</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_lineotn" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:91;628:147">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:197;629:124">PMC-2153418, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:95;629:277">LINEOTN_G5 Subsystem Engineering Document</i>, Issue 1.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:198;630:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=379340" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:96;631:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=419771</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_opsa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:92;634:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:199;635:124">ESC-2160584, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:96;635:277">OPSA_G5 Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:200;636:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302454" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:97;637:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=422247</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_opsa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:93;640:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:201;641:124">ESC-2161416, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:97;641:277">Combined OTN and Packet Interface (COPI) 500G Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:202;642:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302454" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:98;643:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=421879</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_opsa" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:94;646:144">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:203;647:124">ESC-2161353, Microsemi, Integrated Test Set (ITS_PKT500G) Engineering Document, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:204;648:124">
+               <xref format="pdf" href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=302454" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:99;649:241"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=2161353</xref>
+            </p>
+         </li>
+      </ol>
+      <p audience="MSCCInternal" otherprops="pagebreak" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:205;653:165">
+         <draft-comment author="hookerje" time="Sun 10/30/2016 09:48 PM" translate="no" status="unchanged" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="draft-comment:5;654:226">This pagebreak has been added here so that readers will never link to a page that has more than two of the same number referencing a specific standard. </draft-comment>
+      </p>
+      <p audience="MCSSInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:206;656:142">
+         <b status="unchanged" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="b:6;657:138">Device SERDES</b>
+      </p>
+      <ol audience="MCSSInternal" outputclass="continue" class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="ol:6;659:165">
+         <li id="PMC_int_ref_c8_csu" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:95;660:146">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:207;661:124">ESC-XXXXXXX, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:98;661:277">AB_7CSU_WRAPPER/PM26_82_10 (MTSB wrapper for Analog Bits 7CSU MABC)</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:208;662:124">
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=350268" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:100;663:241"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_c8_txrx_serdes" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:96;666:154">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:209;667:124">ESC-2161771, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:99;667:277">SERDES Low-Speed Wrapper for DIGI-G5 (SLW_G5) TSB Engineering Document</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:210;668:124">
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=348037" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:101;669:242"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427113</xref>
+            </p>
+         </li>
+         <li id="PMC_int_ref_c8_txrx_serdes" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="li:97;672:154">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:211;673:124">ESC-XXXXXXX, Microsemi, <i status="unchanged" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="i:100;673:278">PM55_82_88_A/SHW (Single lane TX,RX and CSU MTSB for Credo 56G LR PAM4 SERDES)</i>, Issue x.</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="p:212;674:124">
+               <xref format="doc" href="http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=348037" scope="external" status="unchanged" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Other\a_02_references.xml" xtrc="xref:102;675:242"><?ditaot usertext?>http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=xxxxxxx</xref>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

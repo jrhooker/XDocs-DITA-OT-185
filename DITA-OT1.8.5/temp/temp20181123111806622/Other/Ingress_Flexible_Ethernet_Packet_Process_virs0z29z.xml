@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Ingress_Flexible_Ethernet_Packet_Process_virs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="title:1;3:10">Ingress Flexible Ethernet Packet Processor (FEPP_I)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:1;6:8">The Ingress Flexible Ethernet Packet Processor (FEPP_I) block features
+    are listed below.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="ul:1;9:9">
+      <li id="d1e3040" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:1;10:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:2;10:27">Supports up to 60 independent Ethernet channels,
+      with an aggregate data rate of up to 600 Gbps.</p></li>
+
+      <li id="d1e3046" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:2;13:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:3;13:27">Supports rates of 10G, 40G and N*25G per
+      channel.</p></li>
+
+      <li id="d1e3052" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:3;16:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:4;16:27">Supports packet classification, via the Flexible
+      Ethernet Packet Classifier (FECLASS).</p><ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="ul:2;17:76">
+          <li id="d1e3059" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:4;18:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:5;18:31">LLDP</p></li>
+
+          <li id="d1e3065" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:5;20:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:6;20:31">Ethernet Link-OAM</p></li>
+
+          <li id="d1e3071" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:6;22:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:7;22:31">Ethernet SyncE ESMC</p></li>
+
+          <li id="d1e3077" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:7;24:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:8;24:31">Ethernet LACP</p></li>
+
+          <li id="d1e3083" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:8;26:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:9;26:31">Ethernet LAMP</p></li>
+
+          <li id="d1e3090" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:9;28:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:10;28:31">Service OAM</p></li>
+
+          <li id="d1e3096" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:10;30:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:11;30:31">Single and (Q-in-Q) VLAN</p></li>
+
+          <li id="d1e3102" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:11;32:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:12;32:31">Management VLAN</p></li>
+
+          <li id="d1e3108" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:12;34:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:13;34:31">MPLS</p></li>
+
+          <li id="d1e3114" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:13;36:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:14;36:31">PTP over Ethernet</p></li>
+
+          <li id="d1e3120" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:14;38:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:15;38:31">PTP over UDP over IPv4 over Ethernet</p></li>
+
+          <li id="d1e3127" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:15;40:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:16;40:31">PTP over UDP over IPV6 over Ethernet</p></li>
+
+          <li id="d1e3133" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:16;42:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:17;42:31">ARP</p></li>
+
+          <li id="d1e3139" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:17;44:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:18;44:31">NDP</p></li>
+        </ul></li>
+
+      <li id="d1e3147" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:18;47:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:19;47:27">Classifies the destination of packets received over
+      the line as follows:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="ul:3;48:35">
+          <li id="d1e3154" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:19;49:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:20;49:31">maintained in-band (Data Packet Buffer)</p></li>
+
+          <li id="d1e3160" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:20;51:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:21;51:31">extracted to the management interface
+          (Management Packet Buffer)</p></li>
+
+          <li id="d1e3166" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:21;54:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:22;54:31">extracted and maintained in-band (snoop
+          function)</p></li>
+
+          <li id="d1e3172" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:22;57:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:23;57:31">dropped<i audience="MSCCInternal" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="i:1;57:65">(forwarded to
+          Data/Mapping Packet Buffer with drop indication)</i></p></li>
+        </ul></li>
+
+      <li audience="MSCCInternal" id="d1e3180" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:23;61:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:24;61:51">Support for discarding all
+      in-band packets when operating in non-intrusive monitoring.</p></li>
+
+      <li id="d1e3187" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:24;64:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:25;64:27">Supports embedding of the ingress timestamp in PTP
+      event packets. For PTP event packets belonging to a transparent clock,
+      the packets continue in-band. For PTP event packets belonging to a
+      boundary clock, the packets are extracted to be processed
+      externally.</p></li>
+
+      <li id="d1e3193" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:25;70:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:26;70:27">Supports transmission of packets to the Management
+      Packet Buffer via the Ingress Extract interface. Packet encapsulation is
+      performed to add a custom header to the extracted packet. The custom
+      header consists of a VLAN tag, a classification tag and an optional time
+      stamp.</p></li>
+
+      <li id="d1e3199" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:26;76:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:27;76:27">Supports insertion of management packets into the
+      main system data path via the Ingress Insert interface. The custom
+      internal header is removed from the packets. The custom header consists
+      of a VLAN tag and PTP timestamp fields.</p></li>
+
+      <li audience="MSCCInternal" id="d1e3211" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="li:27;81:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ingress_Flexible_Ethernet_Packet_Process_virs0z29z.xml" xtrc="p:28;81:51">Supports indirect, per
+      channel, transmit flow control by processing the channel buffer fill
+      level information from the Data and Mapping Packet Buffer into PAUSE
+      frame triggers towards the TxMAC.</p></li>
+    </ul>
+  </body>
+</topic>

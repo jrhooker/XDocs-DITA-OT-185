@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Generic_Ethernet_Frame_5iz0dsmxi" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="title:1;3:10">Generic Ethernet Frame</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="body:1;5:9">
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="note:1;6:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:1;6:38">The figure below is sourced from the
+    Ethernet Frame (802.3) layer of
+    http://bby1dms01/DocMgmt/getfile.cfm?file_id=428395&amp;file_version_id=685806</p></note>
+
+    <fig id="RCP_Generic_Ethernet_Frame_6iz0dsmxi" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="fig:1;10:52">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="title:2;11:14">RCP Generic Ethernet Frame</title>
+
+      <image href="RCP_Generic_Ethernet_Frame.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="image:1;13:83"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:2;16:8">The Generic Ethernet Format is used by both the RI_RCP and DI_RCP
+    interfaces:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="ul:1;19:9">
+      <li id="d1e200" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:1;20:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:3;20:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:1;20:53">Preamble:</i> standard
+      Ethernet preamble</p></li>
+
+      <li id="d1e208" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:2;23:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:4;23:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:2;23:53">SFD:</i> standard Ethernet
+      SFD</p></li>
+
+      <li id="d1e216" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:3;26:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:5;26:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:3;26:53">DA:</i> user
+      programmable</p></li>
+
+      <li id="d1e224" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:4;29:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:6;29:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:4;29:53">SA:</i> user
+      programmable</p></li>
+
+      <li id="d1e232" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:5;32:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:7;32:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:5;32:53">Ethertype:</i> user
+      programmable</p></li>
+
+      <li id="d1e241" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:6;35:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:8;35:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:6;35:53">PDU:</i> X bytes (variable
+      length depending on PDU type indicated by Ethertype)</p></li>
+
+      <li id="d1e249" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:7;38:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:9;38:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:7;38:53">FCS:</i> standard Ethernet
+      FCS</p></li>
+
+      <li id="d1e257" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:8;41:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:10;41:26"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="i:8;41:53">IPG:</i> standard Ethernet
+      IPG</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:11;45:8">The RI_RCP uses the same 3-byte user configured value for both the
+    SA/DA OUI subfields. Its SA/DA NIC subfield is further subdivided in order
+    to indicate the Device ID, Framer Stage, and Channel ID with 1-byte
+    assigned to each. The Device ID is user configurable for both SA/DA where
+    the SA is configured with the Source Device ID and the DA is configured
+    with the Destination Device ID. For example if there is a single DIGI on a
+    line card, the Device ID would simply be the Line Card Identification
+    number. For both SA/DA, the Framer Stage indicates the Source/Destination
+    Framer Stage (1, 2, 3A, 3B, 4, N) and the Channel ID indicates the
+    Source/Destination Channel ID (0-189). The Framer Stages 1, 2, 3A, 3B, 4,
+    and N are numbered 0, 1, 2, 3, 4, and 5 respectively. Note that the SA
+    Framer Stage and Channel ID are automatically set based off of their
+    source whereas the DA Framer Stage and Channel ID are user configurable on
+    a per framer stage and per channel basis.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:12;60:8">The DI_RCP does not further subdivide the SA/DA fields and is simply a
+    6 byte user programmable field which can be used to indicate the
+    Source/Destination Device ID. The SA and DA fields use separate 6-byte
+    configurations for a total of 12 configurable bytes. All DI_RCP packets
+    will have the same SA/DA. Note that the DI_RCP uses different PDU TYPE
+    values to indicate the different defect sources and it uses the position
+    within the PDU to indicate Channel or Pool ID.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:13;68:8">The value of Ethertype is used to indicate the PDU (TYPE=0-56):</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="ul:2;70:9">
+      <li id="d1e332" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:9;71:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:14;71:26">The RCP will only use values above 1536 to indicate
+      the PDU type and can be set to anything that isn’t already a
+      standardized Ethertype value</p></li>
+
+      <li id="d1e338" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:10;75:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:15;75:26">Ethertype is set by adding the PDU TYPE value to the
+      set base Ethertype value (e.g. for PDU TYPE=3, the value of the
+      Ethertype = Ethertype Base + 3)</p></li>
+
+      <li id="d1e344" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:11;79:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:16;79:26">PDU TYPE is found by subtracting the set base
+      Ethertype from the Ethertype value (e.g. TYPE = Ethertype - Ethertype
+      Base)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:17;84:8">RI_RCP PDU:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="ul:3;86:9">
+      <li id="d1e357" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:12;87:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:18;87:26">A single PDU is used (TYPE=0)</p></li>
+
+      <li id="d1e363" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:13;89:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:19;89:26">PDU is 61 bytes</p></li>
+
+      <li id="d1e369" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:14;91:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:20;91:26">PDU is unchanged from DIGI120 / DIGI-G4 to ensure
+      backwards compatibility</p></li>
+
+      <li id="d1e375" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:15;94:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:21;94:26">The PDU used by the RI_RCP is fully defined in
+      Section <xref href="PDU_TYPE_0__diz0dsmxj.xml#PDU_TYPE_0__diz0dsmxj" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="xref:1;95:77" type="topic"><?ditaot gentext?>PDU (TYPE=0)</xref>
+      </p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:22;99:8">DI_RCP PDU’s:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:23;101:8">Ethernet Frame transmission order:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="ul:4;103:9">
+      <li id="d1e302" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:16;104:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:24;104:26">Bytes are sent from left-to-right with the least
+      significant bit in each byte sent first byte 0 bit 0, byte 0 bit 1, …,
+      byte 0 bit 7, byte 1 bit 0, …, etc.</p></li>
+
+      <li id="d1e308" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:17;108:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:25;108:26">All diagrams within this document are shown with this
+      transmission order</p></li>
+    </ul>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="ul:5;112:9">
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:18;113:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:26;113:26">A total of 37 PDU’s are used (TYPE=1-56)</p></li>
+
+      <li id="d1e394" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:19;115:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:27;115:26">Note that the following PDU types are reserved:
+      TYPE=27,29-32,39-52</p></li>
+
+      <li id="d1e400" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:20;118:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:28;118:26">PDU sizes vary from 48 to 1288 bytes
+      (min/max)</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:21;121:11">PDU’s have changed from DIGI120 / DIGI-G4 and are not backwards
+      compatible</li>
+
+      <li id="d1e406" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="li:22;124:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="p:29;124:26">The PDU’s used by the DI_RCP are fully defined in the
+      subsections of Section <xref href="PDU_Formats_niz0dsmxm.xml#PDU_Formats_niz0dsmxm" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Generic_Ethernet_Frame_5iz0dsmxi.xml" xtrc="xref:2;125:92" type="topic"><?ditaot gentext?>PDU Formats</xref>.</p></li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="title:1;3:10">Buffering for Asynchronous Signal Recovery</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="p:1;6:8">Datapath hysteresis buffers allocated in the DCPB/ECPB/OCPB are a major
+    contributor to the overall datapath latency. Understanding the system
+    interactions that motivate the hysteresis buffer sizing for each type of
+    DCPB/ECPB/OCPB connection provides justification for the latency
+    contribution of datapath buffers, and how the hysteresis buffer sizing
+    might be optimized depending on operational requirements.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="p:2;13:8">The buffer allocation for asynchronous signals requires particular
+    attention to the PLLs involved in the rate recovery of the signal,
+    especially if rate transitions must occur cleanly without underflowing or
+    overflowing internal buffers. The following sections describe the
+    hysteresis buffer allocation applicable to the datapaths segments involved
+    in the rate capture and recovery of asynchronous signals. The buffer
+    allocation applicable to other types of traffic flow control is discussed
+    in <xref href="Storage_and_Flow_Control_Buffering_8iu327oir.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="xref:1;20:71" type="topic"><?ditaot gentext?>Storage and Flow Control Buffering</xref>.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="p:3;22:8">The buffers and PLLs used in the system operations for the rate capture
+    and recovery of asynchronous signals are summarized in <xref href="Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml#Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3/Buffer_and_PLLs_involved_in_asynchronous_riu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="xref:2;23:231" type="fig"><?ditaot gentext?>Figure 1</xref>
+    .</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="note:1;26:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="xref:3;26:137"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198
+    </xref> Buffer and PLLs tab</note>
+
+    <fig id="Buffer_and_PLLs_involved_in_asynchronous_riu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="fig:1;30:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="title:2;31:14">Buffer and PLLs Involved in Asynchronous Signal Rate Capture and
+      Recovery</title>
+
+      <image href="Buffer_and_PLLs_involved_in_asynchronous_signal_rate_capture.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffering_for_Asynchronous_Signal_Recove_qiu8j35d3.xml" xtrc="image:1;34:119"/>
+    </fig>
+  </body>
+</topic>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\06_Noncompliances\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/06_Noncompliances/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="title:1;3:10">Early or Late Assertion of dDEG during dIAE
+  for the OTUk_TT_Sk Function</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="body:1;6:9">
+    <p id="bridgehead_d1e105" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:1;7:31">Description</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:2;9:8">The device dDEG declaration logic for the OTUk_TT_Sk
+    function does not suppress the near-end errored block count (pN_EBC)
+    correctly during dIAE for the following scenarios:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="ul:1;13:9">
+      <li id="d1e110" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:1;14:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:3;14:26">Scenario 1: if
+      dDEG = 0 and pIAE = 1, and pN_EBC &gt; DEGTHR, the monitored degraded
+      defect 1- second errored block count (DEGM) will increment and it is
+      possible for a dDEG to be declared earlier than expected unless dIAE
+      occurs during the errored second where DEGM = DEGTHR.</p></li>
+
+      <li id="d1e113" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:2;20:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:4;20:26">Scenario 2: If
+      dDEG = 1 and pIAE = 1, and dDEG was activated at the start of the
+      current interval, and pN_EBC &gt; DEGTHR, the dDEG will be set to 0, but
+      the DEGM count at the end of the period will be 1 rather than 0. It will
+      take only DEGM – 1 intervals for dDEG to be declared again.</p></li>
+
+      <li id="d1e116" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:3;26:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:5;26:26">Scenario 3: If
+      dDEG = 1 and pIAE = 1 and pN_EBC &gt; DEGTHR, the DEGM count will be
+      reset to 0 and the OTUk will stay in the dDEG state for longer than
+      expected.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:6;32:8">The dDEG defect can be declared earlier or later
+    than expected when dIAE is present. Only the OTUk dDEG implemented in the
+    line OTN subsystem is impacted. ODU and TCM layer dDEG are computed
+    correctly during dIAE in the core OTN subsystem.</p>
+
+    <p id="bridgehead_d1e121" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:7;37:31">Workaround</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:8;39:8">The workaround requires setting the dDEG interval to
+    one second and performing the dIAE defect correlation in system
+    software.</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="ol:1;43:9">
+      <li id="d1e126" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:4;44:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:9;44:26">Set the dDEG
+      interval to one (DEGM = 1). Implement the persistence check in software
+      to create dDEG after M intervals (dDEG_SW).</p></li>
+
+      <li id="d1e129" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:5;48:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:10;48:26">Disable the
+      propagation of SD to COREOTN only when dDEG_SW is deasserted. This will
+      ensure the correct client signal indication (CSI) value in the OTN
+      packet fabric header for OTN packets sent over the Interlaken
+      interface.</p></li>
+
+      <li id="d1e132" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:6;54:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:11;54:26">Use the
+      hardware dDEG interrupt to determine in software when pN_EBC &gt;
+      DEGTHR. DEGM is configured to 1. The hardware dDEG interrupt will fire
+      for any interval where pN_EBC &gt; DEGTHR.</p></li>
+
+      <li id="d1e135" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:7;59:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:12;59:26">Implement a
+      software counter to declare dDEG_SW when dDEG is asserted for DEGM
+      intervals, or, clear dDEG_SW when dDEG is not asserted for DEGM
+      intervals.</p></li>
+
+      <li id="d1e138" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="li:8;64:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:13;64:26">When dDEG_SW =
+      1, set the SD output enable to zero and set the DEGTHR to zero for the
+      associated channel. For every one second interval, read the dDEG and
+      pIAE interrupts to maintain an interval DEGM count. When "M" number of
+      good intervals are found, set dDEG_SW = 0. Go to step 2.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\06_Noncompliances\Topics\Early_or_Late_Assertion_of_dDEG_during_d_6hhcghvxc.xml" xtrc="p:14;71:8">Implement the same workaround in hardware (e.g.
+    FPGA) for dDEG reported to the defect indication ring control port.</p>
+  </body>
+</topic>

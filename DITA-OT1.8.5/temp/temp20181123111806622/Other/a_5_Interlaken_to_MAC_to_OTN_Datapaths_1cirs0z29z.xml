@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="topic:1;2:143">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="title:1;3:10">Interlaken &lt;-&gt; MAC &lt;-&gt; OTN Datapaths</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="ul:1;6:9">
+      <li id="d1e5827" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:1;7:27">10-100G frames via Ethernet MAC and adapted for GFP
+      Clause 6.2 mapping into OTN without preamble (5a).</p></li>
+
+      <li id="d1e5833" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="li:2;10:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:2;10:27">10G (5b), 25G (5c), 50G (5d), 200G (5f), 400G (5g)
+      frames via Ethernet MAC and adapted for BMP mapping into OTN.</p></li>
+
+      <li id="d1e5839" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="li:3;13:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:3;13:27">100G frames via Ethernet MAC and adapted for GMP
+      mapping into OTN (5e).</p></li>
+
+      <li id="d1e5845" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="li:4;16:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:4;16:27">Flexible rate frames via Ethernet MAC using IMP
+      adaption for BMP mapping into OTN (5h).</p> <fig id="-_Interlaken_to_MAC_to_OTN_Datapaths_1dirs0z29z" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="fig:1;17:109">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="title:2;18:18">Interlaken &lt;-&gt; MAC &lt;-&gt; OTN Datapaths</title>
+
+          <image href="InterlakentoMACtoOTNDatapaths.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="image:1;20:90"/>
+        </fig> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:5;21:19">On the receive path, packets are received over the
+      Interlaken interface, go through the COPI subsystem and get stored in
+      the DCPB packet buffer. The MAC provides full PMON while the FEPP_E
+      provides packet insertion and extraction capabilities. The MAC adds the
+      preamble, idles and ordered sets. Finally, the MAC encodes the data into
+      66b code words. The rate of the TX MAC is provided by a virtual and
+      nominal rate SERDES. The resulting code word stream can be CBR mapped
+      into OTN using BMP, GMP or IMP. Alternatively, it could be GFP mapped
+      into OTN.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:6;29:23">For BMP and GMP, the FEMP assembles the code words and
+      forwards them into the ECPB mapping buffer. The MAPOTN subsystem then
+      retrieves the code words and maps them into BMP for 10GE/25GE/50GE/400GE
+      or GMP for 100GE. The BMP traffic is nominal rate, while the GMP traffic
+      is mapped with a nominal Cn. The rate information is given to the MAPOTN
+      outside of the ENET subsystem.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:7;34:44">For ODUflex IMP mapping, all idles
+      are deleted by the FEMP and packets are sent to the ECPB buffer. The
+      IMP_MAP block within the MAPOTN then inserts idles to create a nominal
+      rate stream by listening to the ECPB buffer FIFO zone. The nominal rate
+      information is given to the MAPOTN subsystem outside of the
+      ENET.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:8;39:19">For GFP mapping, the FEMP performs packet delineation,
+      stripping all idles and ordered sets. Packets are then sent across the
+      ECPB mapping buffer. The MAPOTN extract these packets and performs the
+      GFP map.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:9;42:22">On the transmit path, the MAPOTN subsystem demaps the
+      traffic from BMP, GMP, IMP or GFP.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:10;43:48">The MAPOTN demaps the
+      10GE/25GE/50GE/400GE from BMP or the 100GE from GMP and stores the code
+      words in the ECPB demapping buffer. Data then goes through the FEDP that
+      performs demapping adaptation functions. The traffic then passes through
+      the MAC which delineates Ethernet packets, deleting preamble, all idles
+      and O/S. These packets are forwarded and stored in the DCPB packet
+      buffer. The MAC provides full PMON while the FEPP_I provides packet
+      insertion and extraction capabilities. The packets are then extracted
+      from DCPB packet buffer, go through the COPI subsystem and are delivered
+      over the Interlaken interface.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:11;52:44">When demapping from ODUflex IMP,
+      the IMP_DEMAP block within the MAPOTN deletes all idles and stores
+      packets in the ECPB demapping buffer. Data then goes to the FEDP which
+      performs demapping adaptation functions. The FEDP then creates as many
+      idles as required to create a nominal rate stream. A virtual SERDES
+      provides information to the FEDP to create that nominal rate stream. The
+      traffic then passes through the MAC which delineates Ethernet packets,
+      deleting preamble, all idles and ordered sets. These packets are
+      forwarded and stored in the DCPB packet buffer. The MAC provides full
+      PMON while the FEPP_I provides packet insertion and extraction
+      capabilities. The packets are then extracted from the DCPB packet
+      buffer, go through the COPI subsystem and are delivered over the
+      Interlaken interface.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_5_Interlaken_to_MAC_to_OTN_Datapaths_1cirs0z29z.xml" xtrc="p:12;64:35">For GFP, the MAPOTN extracts the packets and
+      stores them in the ECPB. The FEDP extracts these packets, adds the
+      preamble, idles and ordered sets. The traffic then passes through the RX
+      MAC which delineates Ethernet packets, deleting preamble, all idles and
+      ordered sets. These packets are forwarded and stored in the DCPB packet
+      buffer. The MAC provides full PMON while the FEPP_I provides packet
+      insertion and extraction capabilities. The packets are then extracted
+      from DCPB packet buffer, go through the COPI subsystem and are delivered
+      over the Interlaken interface.</p></li>
+    </ul>
+  </body>
+</topic>

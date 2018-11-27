@@ -1,0 +1,15 @@
+data_proc_subsystem/ingress_dpu/interrupts.xml
+data_proc_subsystem/ingress_dpu/introduction/data_stream.xml
+data_proc_subsystem/ingress_dpu/registers/ig_regdef.xml
+data_proc_subsystem/ingress_dpu/introduction/pi.xml
+data_proc_subsystem/ingress_dpu/message_queues.xml
+data_proc_subsystem/ingress_dpu/registers/ig_regdef_reg.xml
+data_proc_subsystem/ingress_dpu/messages/ingressdpureq.xml
+data_proc_subsystem/ingress_dpu/messages/ingressdpucpl.xml
+data_proc_subsystem/ingress_dpu/introduction/encryption.xml
+data_proc_subsystem/ingress_dpu/chapter.xml
+data_proc_subsystem/ingress_dpu/introduction/hash.xml
+data_proc_subsystem/ingress_dpu/messages/ingressdpuprotectionreq.xml
+data_proc_subsystem/ingress_dpu/introduction/introduction.xml
+data_proc_subsystem/ingress_dpu/messages/ingressdpucompessreq.xml
+data_proc_subsystem/ingress_dpu/introduction/compression.xml

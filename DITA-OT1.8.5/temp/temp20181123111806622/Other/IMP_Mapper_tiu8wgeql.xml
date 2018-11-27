@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="IMP_Mapper_tiu8wgeql" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="topic:1;2:114">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="title:1;3:10">IMP Mapper</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="ul:1;6:9">
+      <li id="d1e2084" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:1;7:27">Provides PCS-encoding for IMP Mapped packet
+      traffic</p></li>
+
+      <li id="d1e2090" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:2;10:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:2;10:27">Provides Idle/error insertion capabilities for IMP
+      mapped traffic</p></li>
+
+      <li id="d1e2096" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:3;13:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:3;13:27">Provides RF/LF Ordered-Set insertion for IMP mapped
+      traffic</p></li>
+
+      <li id="d1e2108" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:4;16:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:4;16:27">Provides Scrambling except for Alignment Marker code
+      words and Sync Header bits</p></li>
+
+      <li id="d1e2115" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:5;19:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:5;19:27">Provides BIP calculation and insertion with optional
+      BIP error transparency capabilities for 100G GMP nominal rate
+      paths</p></li>
+
+      <li id="d1e2121" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:6;23:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:6;23:27">Inserts FAS and MFAS into the ODUk frame</p></li>
+
+      <li id="d1e2127" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:7;25:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:7;25:27">Optionally inserts CSF into the OPUk OH PSI
+      bytes.</p></li>
+
+      <li id="d1e2133" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:8;28:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:8;28:27">Supports PT byte insertion of 0x1D.</p></li>
+
+      <li id="d1e2139" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="li:9;30:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\IMP_Mapper_tiu8wgeql.xml" xtrc="p:9;30:27">Inserts all-0s into the RES bytes and reserved bits
+      of JC bytes.</p></li>
+    </ul>
+  </body>
+</topic>

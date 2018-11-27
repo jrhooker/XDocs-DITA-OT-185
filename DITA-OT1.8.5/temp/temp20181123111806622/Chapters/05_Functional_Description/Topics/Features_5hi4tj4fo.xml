@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Features_5hi4tj4fo" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="topic:1;2:112">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="title:1;3:10">Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:1;6:8">The device's G.HAO protocol implementation complies with ITU-T G.7044
+    for protocol definition and ITU-T G.798 for atomic function realization.
+    The features supported by the implementation include:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="ul:1;10:9">
+      <li id="d1e81883" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:1;11:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:2;11:28">Support for ramp up and down of ODUflex GFP into HO
+      ODU4. Only in GMP MUXed High Orders.</p></li>
+
+      <li id="d1e81889" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:2;14:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:3;14:28">Ramp up from flex.[&gt;=1] to flex.[&lt;= Max]
+      hitlessly into HO ODUk.</p></li>
+
+      <li id="d1e81895" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:3;17:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:4;17:28">Ramp down from flex.[&lt;= Max] to flex.[&gt;=1]
+      hitlessly into HO ODUk.</p></li>
+
+      <li id="d1e81901" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:4;20:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:5;20:28">Full support for Link Connection Resize (LCR)
+      protocol as recommended by ITU-T G.7044.</p></li>
+
+      <li id="d1e81907" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:5;23:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:6;23:28">Full support for Bandwidth Resize (BWR) protocol as
+      recommended by ITU-T G.7044.</p></li>
+
+      <li id="d1e81914" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:6;26:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:7;26:28">Support for performing reconfiguration
+      (provisioning/deprovisioning) on another channel while running hitless
+      ODUflex resizing.</p></li>
+
+      <li id="d1e81920" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:7;30:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:8;30:28">Overhead insertion of G.HAO control plane overhead
+      (RCOH) in both the HO ODUk and ODUflex, including CRC
+      generation.</p></li>
+
+      <li id="d1e81926" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:8;34:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:9;34:28">Overhead extraction and interrupt mechanisms of
+      G.HAO control plane overhead (RCOH) in both the HO ODUk and ODUflex,
+      including CRC checking.</p></li>
+
+      <li id="d1e81932" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:9;38:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:10;38:28">Maintenance of 1 <ph otherprops="symbolfont" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="ph:1;38:73">µ</ph>s latency variation during the ramp up or
+      down of the ODUflex within the system as per G.7044.</p></li>
+
+      <li id="d1e81941" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:10;41:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:11;41:28">Support for hitless overhead insertion via the
+      device’s OHP and RCP ports during the ramp.</p></li>
+
+      <li id="d1e81947" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:11;44:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:12;44:28">Support for multiple ramps as an intermediate node
+      datapath. Includes doing one LCR acknowledgement at a time, but multiple
+      BWR simultaneously.</p></li>
+
+      <li id="d1e81954" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:12;48:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:13;48:28">Support for only a single active ramp as a source
+      or sink node datapath. The ramp must complete before another ramp
+      starts.</p></li>
+
+      <li id="d1e81960" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:13;52:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:14;52:28">Consequential action handling as per G.7044 during
+      the ramp or before the ramp.</p></li>
+
+      <li id="d1e81966" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:14;55:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:15;55:28">Ability to use or reduce the ODUflex (GFP)
+      bandwidth as resizing is occurring.</p></li>
+
+      <li id="d1e81972" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="li:15;58:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:16;58:28">Ability to automatically terminate the ramp after
+      target rate is achieved (that is, no upstream BWR_IND de-assertion
+      required).</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Features_5hi4tj4fo.xml" xtrc="p:17;63:8">The following subsections highlight the details of the features
+    mentioned above.</p>
+  </body>
+</topic>

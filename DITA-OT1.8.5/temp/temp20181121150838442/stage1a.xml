@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.2" domains="(map bookmap)                          (topic delay-d)                          (map mapgroup-d)                          (topic indexing-d)                           (topic xnal-d)                          (topic hi-d)                           (topic ut-d)                           (topic hazard-d)                          (topic abbrev-d)                          (topic pr-d)                           (topic sw-d)                          (topic ui-d)                                                   (topic pmcrevhis-d)                          (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)                         " id="xd_a2f6d6a64a24a8c0--30977bca-166121544dd--7f64" xml:lang="en-US" xtrc="bookmap:1;2:143" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><opentopic:map xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder">
+  <title class="- topic/title " xtrc="title:1;3:10" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Excel Test</title>
+
+  <bookmeta class="- map/topicmeta bookmap/bookmeta " xtrc="bookmeta:1;5:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+    <pmc_iso audience="PMCInternal" class="+ bookmap/bookchangehistory pmciso-d/pmc_iso " xtrc="pmc_iso:1;6:37" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+      <pmc_title class="+ topic/p pmciso-d/pmc_title " xtrc="pmc_title:1;7:18" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Excel Test</pmc_title>
+
+      <pmc_subtitle class="+ topic/p pmciso-d/pmc_subtitle " xtrc="pmc_subtitle:1;9:22" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+
+      <pmc_abstract class="+ topic/section pmciso-d/pmc_abstract " xtrc="pmc_abstract:1;11:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:1;12:12" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">This is the [ ] for the [ ] device.</p>
+      </pmc_abstract>
+
+      <pmc_productnumber class="+ topic/ph pmciso-d/pmc_productnumber " xtrc="pmc_productnumber:1;15:26" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[PMxxxx]</pmc_productnumber>
+
+      <pmc_document_id class="+ topic/ph pmciso-d/pmc_document_id " xtrc="pmc_document_id:1;17:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[PMC-xxxxxxx]</pmc_document_id>
+
+      <pmc_issue_date class="+ topic/ph pmciso-d/pmc_issue_date " xtrc="pmc_issue_date:1;19:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+
+      <pmc_dev_status class="+ topic/ph pmciso-d/pmc_dev_status " dev_status="Preliminary" xtrc="pmc_dev_status:1;21:49" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+
+      <pmc_doc_status class="+ topic/ph pmciso-d/pmc_doc_status " doc_status="Draft" xtrc="pmc_doc_status:1;23:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+
+      <pmc_issuenum class="+ topic/ph pmciso-d/pmc_issuenum " xtrc="pmc_issuenum:1;25:22" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+
+      <pmc_footertext class="+ topic/p pmciso-d/pmc_footertext " xtrc="pmc_footertext:1;27:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:2;28:12" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Proprietary and Confidential to PMC-Sierra, Inc.</p>
+      </pmc_footertext>
+
+      <pmc_patents class="+ topic/p pmciso-d/pmc_patents " xtrc="pmc_patents:1;31:20" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:3;32:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/>
+      </pmc_patents>
+
+      <pmc_revhistory class="+ topic/section pmciso-d/pmc_revhistory " xtrc="pmc_revhistory:1;35:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <pmc_revision class="+ pmciso-d/pmc_revision " xtrc="pmc_revision:1;36:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+          <pmc_rev_number class="+ topic/ph topic/prognum pmciso-d/pmc_rev_number " xtrc="pmc_rev_number:1;37:27" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[x]</pmc_rev_number>
+
+          <pmc_date class="+ topic/ph pmciso-d/pmc_date " xtrc="pmc_date:1;39:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Month Year]</pmc_date>
+
+          <pmc_name class="+ topic/p pmciso-d/pmc_name " xtrc="pmc_name:1;41:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Author Name]</pmc_name>
+
+          <pmc_revdescription class="+ topic/section pmciso-d/pmc_revdescription " xtrc="pmc_revdescription:1;43:31" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+            <p class="- topic/p " xtrc="p:4;44:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Revision Details]</p>
+          </pmc_revdescription>
+        </pmc_revision>
+      </pmc_revhistory>
+    </pmc_iso>
+  </bookmeta>
+
+  <frontmatter class="- map/topicref bookmap/frontmatter " id="d2e75" xtrc="frontmatter:1;51:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><booklists class="- map/topicref bookmap/booklists " id="d2e76" xtrc="booklists:1;52:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><toc class="- map/topicref bookmap/toc " id="d2e77" xtrc="toc:1;53:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"/></booklists></frontmatter>
+
+  <chapter class="- map/topicref bookmap/chapter " first_topic_id="#unique_1" href="#unique_1" id="unique_1" ohref="ExcelTest.xml" type="topic" xtrc="chapter:1;57:34" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><topicmeta class="- map/topicmeta " resourceid="xd_a2f6d6a64a24a8c0--30977bca-166121544dd--7fa8"><navtitle class="- topic/navtitle ">Excel Test</navtitle><?ditaot gentext?><linktext class="- map/linktext ">Excel Test</linktext></topicmeta></chapter>
+</opentopic:map><ot-placeholder:toc xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" id="d2e77"/><topic base="base" class="- topic/topic " ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " id="unique_1" oid="xd_a2f6d6a64a24a8c0--30977bca-166121544dd--7fa8" xml:lang="en-US" xtrc="topic:1;2:153" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+  <title class="- topic/title " xtrc="title:1;3:10" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">Excel Test</title>
+
+  <body class="- topic/body " xtrc="body:1;5:9" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+    <p class="- topic/p " xtrc="p:1;6:8" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446157</p>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_table._0jordmb5k" xtrc="table:1;8:52" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:2;9:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the table.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PolarFire-Electrical-Specs_Version1.xml" otherprops="spreadsheet:Sheet2" scope="external" xtrc="xref:1;11:134" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PolarFire-Electrical-Specs_Version1.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_table2._1jordmb5k" xtrc="table:2;14:53" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:3;15:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the table2.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PolarFire-Electrical-Specs_Version2.xml" otherprops="spreadsheet:Sheet3" scope="external" xtrc="xref:2;17:134" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PolarFire-Electrical-Specs_Version2.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack0_LED_table_from_PDOX._2jordmb5k" xtrc="table:3;20:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:4;21:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack0_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack0_LED" scope="external" xtrc="xref:3;23:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack1_LED_table_from_PDOX._3jordmb5k" xtrc="table:4;26:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:5;27:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack1_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack1_LED" scope="external" xtrc="xref:4;29:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack2_LED_table_from_PDOX._4jordmb5k" xtrc="table:5;32:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:6;33:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack2_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack2_LED" scope="external" xtrc="xref:5;35:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack3_LED_table_from_PDOX._5jordmb5k" xtrc="table:6;38:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:7;39:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack3_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack3_LED" scope="external" xtrc="xref:6;41:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack4_LED_table_from_PDOX._6jordmb5k" xtrc="table:7;44:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:8;45:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack4_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack4_LED" scope="external" xtrc="xref:7;47:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack5_LED_table_from_PDOX._7jordmb5l" xtrc="table:8;50:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:9;51:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack5_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack5_LED" scope="external" xtrc="xref:8;53:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack6_LED_table_from_PDOX._8jordmb5l" xtrc="table:9;56:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:10;57:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack6_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946" otherprops="spreadsheet:Stack6_LED" scope="external" xtrc="xref:9;59:146" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446946</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_table_from_PDOX_0jornkznt" xtrc="table:10;62:61" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:11;63:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the table from PDOX</title>
+
+      <xref class="- topic/xref " href="http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446157" otherprops="spreadsheet:Sheet2" scope="external" xtrc="xref:10;65:142" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/docmgmt/getfile.cfm?file_id=446157</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack0_LED_table_from_PDOX._2jordmb5k_d2e203a1310" xtrc="table:11;68:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:12;69:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack0_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack0_LED" scope="external" xtrc="xref:11;71:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack1_LED_table_from_PDOX._1jornkznt" xtrc="table:12;74:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:13;75:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack1_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack1_LED" scope="external" xtrc="xref:12;77:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack2_LED_table_from_PDOX._2jornkznt" xtrc="table:13;80:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:14;81:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack2_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack2_LED" scope="external" xtrc="xref:13;83:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack3_LED_table_from_PDOX._3jornkznt" xtrc="table:14;86:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:15;87:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack3_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack3_LED" scope="external" xtrc="xref:14;89:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack4_LED_table_from_PDOX._4jornkznt" xtrc="table:15;92:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:16;93:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack4_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack4_LED" scope="external" xtrc="xref:15;95:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack5_LED_table_from_PDOX._5jornkznt" xtrc="table:16;98:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:17;99:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack5_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack5_LED" scope="external" xtrc="xref:16;101:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+
+    <table class="- topic/table " id="unique_1_Connect_42_table_This_is_the_Stack6_LED_table_from_PDOX._6jornkznt" xtrc="table:17;104:73" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">
+      <title class="- topic/title " xtrc="title:18;105:14" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml">This is the Stack6_ LED table from PDOX.</title>
+
+      <xref class="- topic/xref " href="http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml" otherprops="spreadsheet:Stack6_LED" scope="external" xtrc="xref:17;107:125" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\ExcelTest.xml"><?ditaot gentext?>http://pmc-cms/ConExcel/PM42100_StackedLEDs_UG.xml</xref>
+    </table>
+  </body>
+</topic><opentopic-index:index.groups/></bookmap>

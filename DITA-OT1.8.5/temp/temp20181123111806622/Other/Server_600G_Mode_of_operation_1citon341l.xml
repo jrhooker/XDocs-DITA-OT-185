@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Server_600G_Mode_of_operation_1citon341l" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="topic:1;2:134">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="title:1;3:10">Multiplexing capabilities</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:1;6:8">The block diagram of the Server side in this mode of operation is shown
+    in the figure below (Note the LINEOTN interface can run up to 600G of
+    operation):</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="note:1;10:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:2;10:38">[DDD/HWS] <xref href="http://bby1dms01/DocMgmt/getfile.cfm?file_id=416475" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="xref:1;10:130"><?ditaot usertext?>http://bby1dms01/DocMgmt/getfile.cfm?file_id=416475</xref>
+    Tab : COREOTN Functional Multiplexing . (layer ROW on, layer MSCCInternal
+    off)</p></note>
+
+    <fig id="a_600G_Server_Mode_1diton341l" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="fig:1;14:45">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="title:2;15:14">Multiplexing operation</title>
+
+      <image href="COREOTN-FUNCTIONAL-SERVER2.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="image:1;17:85"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:3;20:8">The following ODUCn (n=1-6), ODUk (k=4/4+), ODU4 transponder or
+    regeneration (up to 6 channels) and ODUCn regeneration (n=1-6) datapath
+    are supported. Note any mix of ODUCn and ODU4 datapath types is supported.
+    For example, 1 x ODUC1 &lt;&gt; ODUj datapath, 1 x
+    ODUC1&lt;&gt;ODUk&lt;&gt;ODUj datapath, 1 x ODU4&lt;&gt; ODUj datapath, 1
+    x ODU4 &lt;&gt; ODUk &lt;&gt; ODUj datapath, and ODUC1 regenerator are
+    supported.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="ul:1;28:9">
+      <li id="d1e2814" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:1;29:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:4;29:27">ODUCn (n=1-6) &lt;&gt; ODUj (up to 60 channels)</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="ul:2;30:11">
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:2;31:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:5;31:31">HO MUX is configured as ODTUCn.ts.</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:3;33:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:6;33:31">LO MUX is bypassed.</p></li>
+        </ul></li>
+
+      <li id="d1e2814" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:4;36:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:7;36:27">ODUCn (n=1-6) &lt;&gt; ODUk (up to 60 channels)
+      &lt;&gt; ODUj (up to 190 channels).</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="ul:3;37:51">
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:5;38:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:8;38:31">HO MUX is configured as ODTUCn.ts.</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:6;40:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:9;40:31">LO MUX is configured as ODTUjk.ts.</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:7;42:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:10;42:31">Note: refer to section <xref href="Modes_of_operation_1biton341l.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="xref:2;42:102" type="topic"><?ditaot gentext?>Modes of Operation, Capabilities, and Limitations</xref>
+          for additional details on ODUjk mutiplexing capacities and
+          restrictions.</p></li>
+        </ul></li>
+
+      <li id="d1e2814" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:8;47:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:11;47:27">ODUk (k=4/4+) (up to 6 channels) &lt;&gt; ODUj (up
+      to 190 channels)</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="ul:4;48:32">
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:9;49:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:12;49:31">HO MUX is configured as ODTUjk.ts (k=4)</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:10;51:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:13;51:31">LO MUX is bypassed.</p></li>
+        </ul></li>
+
+      <li id="d1e2814" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:11;54:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:14;54:27">ODU4 (up to 5 channels) &lt;&gt; ODUk (100G, up to
+      40 channels) &lt;&gt; ODUj (up to 190 channels)</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="ul:5;55:63">
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:12;56:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:15;56:31">400G of muxing configured as ODU4 &lt;&gt;
+          ODUj</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:13;59:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:16;59:31">100G of muxing configured as ODU4 &lt;&gt; ODUk
+          &lt;&gt; ODUj</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:14;62:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:17;62:31">HO MUX is configured as ODTUjk.ts (k=4)</p></li>
+
+          <li id="d1e2821" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:15;64:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:18;64:31">LO MUX is configured as ODTUjk.ts (up to
+          100G)</p></li>
+        </ul></li>
+
+      <li id="d1e2835" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:16;68:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:19;68:27">ODU4 Transponder or Regeneration (up to 6
+      channels)</p></li>
+
+      <li id="d1e2841" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:17;71:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:20;71:27">ODUCn Regeneration (n=1-6). Note ODUCn traffic
+      cannot go towards the fabric, they are only supported towards the SYSOTN
+      and LINEOTN interfaces.</p></li>
+
+      <li id="d1e2841" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="li:18;75:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Server_600G_Mode_of_operation_1citon341l.xml" xtrc="p:21;75:27">The COPI (Backplane I/F is limited to 500G up to 190
+      channels)</p></li>
+    </ul>
+  </body>
+</topic>

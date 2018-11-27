@@ -27,7 +27,7 @@
     <dita-ot-fail id="DOTA001F">
       <condition>
         <and>
-          <not><equals arg1="${transtype}" arg2="eclipsecontent" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="xhtml" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="eclipsehelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf2" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf5" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="docbook" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="short-pdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="htmlhelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-mobile" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-feedback" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-feedback-mobile" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="javahelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="troff" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="suitehelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="odt" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="tocjs" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="wordrtf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="epub" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="legacypdf" casesensitive="false"/></not>
+          <not><equals arg1="${transtype}" arg2="xhtml" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="eclipsehelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="troff" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="eclipsecontent" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="legacypdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="wordrtf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf5" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="htmlhelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="suitehelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="tocjs" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="javahelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="epub" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="odt" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf2" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="mchp-pdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="pdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="short-pdf" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-mobile" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-feedback" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="webhelp-feedback-mobile" casesensitive="false"/></not><not><equals arg1="${transtype}" arg2="docbook" casesensitive="false"/></not>
         </and>
       </condition>
       <param name="1" value="${transtype}"></param>
@@ -47,142 +47,8 @@
     </antcall>
   </target>
   
-  <property name='dita.plugin.org.dita.eclipsecontent.dir' location='${dita.dir}/plugins/org.dita.eclipsecontent'/><property name='dita.plugin.com.oxygenxml.highlight.dir' location='${dita.dir}/plugins/com.oxygenxml.highlight'/><property name='dita.plugin.org.dita.eclipsehelp.dir' location='${dita.dir}/plugins/org.dita.eclipsehelp'/><property name='dita.plugin.org.dita.pdf2.dir' location='${dita.dir}/plugins/org.dita.pdf2'/><property name='dita.plugin.org.dita-community.preprocess-extensions.dir' location='${dita.dir}/plugins/org.dita-community.preprocess-extensions'/><property name='dita.plugin.com.antennahouse.pdf5.dir' location='${dita.dir}/plugins/com.antennahouse.pdf5'/><property name='dita.plugin.org.dita.docbook.dir' location='${dita.dir}/plugins/org.dita.docbook'/><property name='dita.plugin.com.example.short-pdf.dir' location='${dita.dir}/plugins/org.mscc.short.pdf'/><property name='dita.plugin.org.dita.specialization.h2d.dir' location='${dita.dir}/plugins/h2d'/><property name='dita.plugin.org.dita-community.common.xslt.dir' location='${dita.dir}/plugins/org.dita-community.common.xslt'/><property name='dita.plugin.org.dita.specialization.eclipsemap.dir' location='${dita.dir}/plugins/org.dita.specialization.eclipsemap'/><property name='dita.plugin.org.dita.htmlhelp.dir' location='${dita.dir}/plugins/org.dita.htmlhelp'/><property name='dita.plugin.org.dita.base.dir' location='${dita.dir}'/><property name='dita.plugin.org.dita4publishers.common.mapdriven.dir' location='${dita.dir}/plugins/org.dita4publishers.common.mapdriven'/><property name='dita.plugin.org.mscc.pdf-parameters.dir' location='${dita.dir}/plugins/org.mscc.pdf.parameters'/><property name='dita.plugin.org.dita.pdf.dir' location='${dita.dir}/plugins/org.dita.pdf'/><property name='dita.plugin.com.oxygenxml.dita-ot.plugin.webhelp.dir' location='${dita.dir}/plugins/com.oxygenxml.webhelp'/><property name='dita.plugin.org.dita-community.adjust-copy-to.dir' location='${dita.dir}/plugins/org.dita-community.adjust-copy-to'/><property name='dita.plugin.org.dita.javahelp.dir' location='${dita.dir}/plugins/org.dita.javahelp'/><property name='dita.plugin.org.dita.troff.dir' location='${dita.dir}/plugins/org.dita.troff'/><property name='dita.plugin.com.suite-sol.suitehelp.dir' location='${dita.dir}/plugins/suitehelp'/><property name='dita.plugin.org.dita4publishers.math-d.html.dir' location='${dita.dir}/plugins/org.dita4publishers.math-d.html'/><property name='dita.plugin.org.dita.specialization.dita11.dir' location='${dita.dir}/plugins/org.dita.specialization.dita11'/><property name='dita.plugin.org.dita.xhtml.dir' location='${dita.dir}/plugins/org.dita.xhtml'/><property name='dita.plugin.org.dita4publishers.common.xslt.dir' location='${dita.dir}/plugins/org.dita4publishers.common.xslt'/><property name='dita.plugin.org.dita4publishers.common.html.dir' location='${dita.dir}/plugins/org.dita4publishers.common.html'/><property name='dita.plugin.org.dita.odt.dir' location='${dita.dir}/plugins/org.dita.odt'/><property name='dita.plugin.com.suite-sol.suitehelpplus.dir' location='${dita.dir}/plugins/suitehelpplus'/><property name='dita.plugin.org.dita.specialization.dita132.dir' location='${dita.dir}/plugins/org.dita.specialization.dita132'/><property name='dita.plugin.com.sophos.tocjs.dir' location='${dita.dir}/plugins/com.sophos.tocjs'/><property name='dita.plugin.org.dita.wordrtf.dir' location='${dita.dir}/plugins/org.dita.wordrtf'/><property name='dita.plugin.com.suite-sol.suitehelp-customization.dir' location='${dita.dir}/plugins/suitehelp-customization'/><property name='dita.plugin.org.dita4publishers.media-d.html.dir' location='${dita.dir}/plugins/org.dita4publishers.media-d.html'/><property name='dita.plugin.org.dita4publishers.epub.dir' location='${dita.dir}/plugins/org.dita4publishers.epub'/><property name='dita.plugin.org.dita.legacypdf.dir' location='${dita.dir}/plugins/legacypdf'/>
+  <property name='dita.plugin.org.dita.base.dir' location='${dita.dir}'/><property name='dita.plugin.org.dita.specialization.h2d.dir' location='${dita.dir}\plugins/h2d'/><property name='dita.plugin.org.dita4publishers.common.mapdriven.dir' location='${dita.dir}\plugins/org.dita4publishers.common.mapdriven'/><property name='dita.plugin.org.dita.eclipsehelp.dir' location='${dita.dir}\plugins/org.dita.eclipsehelp'/><property name='dita.plugin.com.oxygenxml.highlight.dir' location='${dita.dir}\plugins/com.oxygenxml.highlight'/><property name='dita.plugin.org.dita.specialization.dita11.dir' location='${dita.dir}\plugins/org.dita.specialization.dita11'/><property name='dita.plugin.org.dita.troff.dir' location='${dita.dir}\plugins/org.dita.troff'/><property name='dita.plugin.org.dita.eclipsecontent.dir' location='${dita.dir}\plugins/org.dita.eclipsecontent'/><property name='dita.plugin.org.mscc.pdf-parameters.dir' location='${dita.dir}\plugins/org.mscc.pdf.parameters'/><property name='dita.plugin.org.dita.legacypdf.dir' location='${dita.dir}\plugins/legacypdf'/><property name='dita.plugin.org.dita.specialization.eclipsemap.dir' location='${dita.dir}\plugins/org.dita.specialization.eclipsemap'/><property name='dita.plugin.org.dita.wordrtf.dir' location='${dita.dir}\plugins/org.dita.wordrtf'/><property name='dita.plugin.org.dita.xhtml.dir' location='${dita.dir}\plugins/org.dita.xhtml'/><property name='dita.plugin.org.dita.specialization.dita132.dir' location='${dita.dir}\plugins/org.dita.specialization.dita132'/><property name='dita.plugin.org.dita-community.common.xslt.dir' location='${dita.dir}\plugins/org.dita-community.common.xslt'/><property name='dita.plugin.org.dita-community.preprocess-extensions.dir' location='${dita.dir}\plugins/org.dita-community.preprocess-extensions'/><property name='dita.plugin.org.dita-community.adjust-copy-to.dir' location='${dita.dir}\plugins/org.dita-community.adjust-copy-to'/><property name='dita.plugin.org.dita4publishers.common.xslt.dir' location='${dita.dir}\plugins/org.dita4publishers.common.xslt'/><property name='dita.plugin.com.antennahouse.pdf5.dir' location='${dita.dir}\plugins/com.antennahouse.pdf5'/><property name='dita.plugin.org.dita.htmlhelp.dir' location='${dita.dir}\plugins/org.dita.htmlhelp'/><property name='dita.plugin.com.suite-sol.suitehelp.dir' location='${dita.dir}\plugins/suitehelp'/><property name='dita.plugin.com.suite-sol.suitehelpplus.dir' location='${dita.dir}\plugins/suitehelpplus'/><property name='dita.plugin.com.sophos.tocjs.dir' location='${dita.dir}\plugins/com.sophos.tocjs'/><property name='dita.plugin.org.dita4publishers.media-d.html.dir' location='${dita.dir}\plugins/org.dita4publishers.media-d.html'/><property name='dita.plugin.org.dita4publishers.math-d.html.dir' location='${dita.dir}\plugins/org.dita4publishers.math-d.html'/><property name='dita.plugin.org.dita.javahelp.dir' location='${dita.dir}\plugins/org.dita.javahelp'/><property name='dita.plugin.org.dita4publishers.epub.dir' location='${dita.dir}\plugins/org.dita4publishers.epub'/><property name='dita.plugin.org.dita.odt.dir' location='${dita.dir}\plugins/org.dita.odt'/><property name='dita.plugin.com.example.mchp-pdf.dir' location='${dita.dir}\plugins/org.mchp.pdf'/><property name='dita.plugin.org.dita.pdf.dir' location='${dita.dir}\plugins/org.dita.pdf'/><property name='dita.plugin.com.example.short-pdf.dir' location='${dita.dir}\plugins/org.mscc.short.pdf'/><property name='dita.plugin.com.oxygenxml.dita-ot.plugin.webhelp.dir' location='${dita.dir}\plugins/com.oxygenxml.webhelp'/><property name='dita.plugin.org.dita.docbook.dir' location='${dita.dir}\plugins/org.dita.docbook'/><property name='dita.plugin.org.dita.pdf2.dir' location='${dita.dir}\plugins/org.dita.pdf2'/><property name='dita.plugin.com.suite-sol.suitehelp-customization.dir' location='${dita.dir}\plugins/suitehelp-customization'/><property name='dita.plugin.org.dita4publishers.common.html.dir' location='${dita.dir}\plugins/org.dita4publishers.common.html'/>
   <!-- This file is part of the DITA Open Toolkit project hosted on 
-    Sourceforge.net. See the accompanying license.txt file for 
-    applicable licenses.--><!--
-    | (C) Copyright IBM Corporation 2006. All Rights Reserved.
-    *-->
-  
-  <!--property name="dita.eclipse.plugin" value="no"/-->
-    
-<!-- 
-  This file is part of the DITA Open Toolkit project hosted on
-  Sourceforge.net. See the accompanying license.txt file for
-  applicable licenses.
-  
-  (C) Copyright Shawn McKenzie, 2007. All Rights Reserved.
-
-  UPDATES:
-    20110817 RDA: Several changes:
-        * Use property dita.plugin.com.sophos.tocjs.dir (remove hard-coded demo/ dir)
-        * Original design only works if $output.file is set in an Ant file, and
-          if XHTML is created independently. Refactoring to use that original
-          processing when $output.file is specified; otherwise:
-          1) Return HTML files along with navigation
-          2) Return default frameset (with name based on map name)
-          3) Set $output.file to a default value of toctree.js
-          4) Return supporting JS and CSS files for the default frameset
-  *-->
-
-  
-<target name="dita2tocjs" depends="build-init, preprocess, tocjsInit, map2tocjs, topic2tocjs, tocjsDefaultOutput">
-  </target>
-
-  
-<target name="tocjsInit">
-      
-<condition property="dita.plugin.com.sophos.tocjs.copydefaults" value="true">
-          
-<not>
-              
-<isset property="output.file"></isset>
-          </not>
-      </condition>
-      
-<condition property="output.file" value="${output.dir}${file.separator}toctree.js">
-          
-<not>
-              
-<isset property="output.file"></isset>
-          </not>
-      </condition>
-  </target>
-
-  
-<target name="topic2tocjs" if="noMap">
-    
-<antcall target="dita.map.tocjs">
-      <!-- No real support for tocjs on a single topic, only for map -->
-    </antcall>
-    
-<echo>The TocJS output type only supports ditamap files as input.</echo>
-  </target>
-
-  
-<target name="map2tocjs" unless="noMap">
-    
-<antcall target="dita.map.tocjs">
-      
-<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"></param>
-    </antcall>
-  </target>
-
-  
-<target name="dita.map.tocjs" description="generate merged for tocjs">
-    
-<xslt in="${input}" out="${output.file}" style="${dita.plugin.com.sophos.tocjs.dir}/xsl/tocjs.xsl">
-      
-<param name="contentwin" expression="${content.frame}" if="content.frame"></param>
-      
-<param name="ditaext" expression="${dita.ext}" if="dita.ext"></param>
-      
-<param name="htmlext" expression="${out.ext}"></param>
-      
-<xmlcatalog refid="dita.catalog"></xmlcatalog>
-    </xslt>
-  </target>
-
-  
-<target name="tocjsDefaultOutput" if="dita.plugin.com.sophos.tocjs.copydefaults">
-      <!-- Create usable output for people trying tocjs for the first time -->
-      
-<antcall target="tocjsDefaultXhtmlOutput"></antcall>
-      
-<antcall target="tocjsDefaultFrameset"></antcall>
-      <!-- Copy default JS and related files -->
-      
-<copy todir="${output.dir}">
-<fileset dir="${dita.plugin.com.sophos.tocjs.dir}${file.separator}basefiles">
-<include name="**/*"></include></fileset></copy>
-  </target>
-
-  
-<target name="tocjsDefaultXhtmlOutput" depends="dita.map.xhtml, copy-revflag, copy-css , dita.topics.xhtml, dita.inner.topics.xhtml, dita.outer.topics.xhtml">
-      <!-- Preprocess has already completed based on original dependencies;
-           this target continues to XHTML for default output. Seems very 
-           indirect way to create the XHTML, so would like something better,
-           but do not want to add new XHTML processing for people using
-           the original dita2tocjs target. -->
-  </target>
-
-  
-<target name="tocjsDefaultFrameset" if="dita.plugin.com.sophos.tocjs.copydefaults">
-      <!-- Create the default frameset itself -->
-      
-<condition property="out.ext" value=".html">
-          
-<not>
-              
-<isset property="out.ext"></isset>
-          </not>
-      </condition>
-      
-<xslt basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" extension="${out.ext}" style="${dita.plugin.com.sophos.tocjs.dir}${file.separator}xsl${file.separator}frameset.xsl">
-  	    
-<excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"></excludesfile>
-        
-<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"></param>
-        
-<param name="OUTEXT" expression="${out.ext}" if="out.ext"></param>
-        
-<param name="CSSPATH" expression="${CSSPATH}" if="csspath"></param>
-        
-<xmlcatalog refid="dita.catalog"></xmlcatalog>
-      </xslt>
-  </target>
-
-<!-- This file is part of the DITA Open Toolkit project hosted on 
     Sourceforge.net. See the accompanying license.txt file for 
     applicable licenses.--><!-- (c) Copyright IBM Corp. 2006 All Rights Reserved. -->
         
@@ -362,13 +228,152 @@
             </xslt>
         </target>
         
+    <!-- This file is part of the DITA Open Toolkit project hosted on 
+    Sourceforge.net. See the accompanying license.txt file for 
+    applicable licenses.--><!--
+    | (C) Copyright IBM Corporation 2006. All Rights Reserved.
+    *-->
+  
+  <!--property name="dita.eclipse.plugin" value="no"/-->
     
+<!-- 
+  This file is part of the DITA Open Toolkit project hosted on
+  Sourceforge.net. See the accompanying license.txt file for
+  applicable licenses.
+  
+  (C) Copyright Shawn McKenzie, 2007. All Rights Reserved.
+
+  UPDATES:
+    20110817 RDA: Several changes:
+        * Use property dita.plugin.com.sophos.tocjs.dir (remove hard-coded demo/ dir)
+        * Original design only works if $output.file is set in an Ant file, and
+          if XHTML is created independently. Refactoring to use that original
+          processing when $output.file is specified; otherwise:
+          1) Return HTML files along with navigation
+          2) Return default frameset (with name based on map name)
+          3) Set $output.file to a default value of toctree.js
+          4) Return supporting JS and CSS files for the default frameset
+  *-->
+
+  
+<target name="dita2tocjs" depends="build-init, preprocess, tocjsInit, map2tocjs, topic2tocjs, tocjsDefaultOutput">
+  </target>
+
+  
+<target name="tocjsInit">
+      
+<condition property="dita.plugin.com.sophos.tocjs.copydefaults" value="true">
+          
+<not>
+              
+<isset property="output.file"></isset>
+          </not>
+      </condition>
+      
+<condition property="output.file" value="${output.dir}${file.separator}toctree.js">
+          
+<not>
+              
+<isset property="output.file"></isset>
+          </not>
+      </condition>
+  </target>
+
+  
+<target name="topic2tocjs" if="noMap">
+    
+<antcall target="dita.map.tocjs">
+      <!-- No real support for tocjs on a single topic, only for map -->
+    </antcall>
+    
+<echo>The TocJS output type only supports ditamap files as input.</echo>
+  </target>
+
+  
+<target name="map2tocjs" unless="noMap">
+    
+<antcall target="dita.map.tocjs">
+      
+<param name="input" value="${dita.temp.dir}${file.separator}${user.input.file}"></param>
+    </antcall>
+  </target>
+
+  
+<target name="dita.map.tocjs" description="generate merged for tocjs">
+    
+<xslt in="${input}" out="${output.file}" style="${dita.plugin.com.sophos.tocjs.dir}/xsl/tocjs.xsl">
+      
+<param name="contentwin" expression="${content.frame}" if="content.frame"></param>
+      
+<param name="ditaext" expression="${dita.ext}" if="dita.ext"></param>
+      
+<param name="htmlext" expression="${out.ext}"></param>
+      
+<xmlcatalog refid="dita.catalog"></xmlcatalog>
+    </xslt>
+  </target>
+
+  
+<target name="tocjsDefaultOutput" if="dita.plugin.com.sophos.tocjs.copydefaults">
+      <!-- Create usable output for people trying tocjs for the first time -->
+      
+<antcall target="tocjsDefaultXhtmlOutput"></antcall>
+      
+<antcall target="tocjsDefaultFrameset"></antcall>
+      <!-- Copy default JS and related files -->
+      
+<copy todir="${output.dir}">
+<fileset dir="${dita.plugin.com.sophos.tocjs.dir}${file.separator}basefiles">
+<include name="**/*"></include></fileset></copy>
+  </target>
+
+  
+<target name="tocjsDefaultXhtmlOutput" depends="dita.map.xhtml, copy-revflag, copy-css , dita.topics.xhtml, dita.inner.topics.xhtml, dita.outer.topics.xhtml">
+      <!-- Preprocess has already completed based on original dependencies;
+           this target continues to XHTML for default output. Seems very 
+           indirect way to create the XHTML, so would like something better,
+           but do not want to add new XHTML processing for people using
+           the original dita2tocjs target. -->
+  </target>
+
+  
+<target name="tocjsDefaultFrameset" if="dita.plugin.com.sophos.tocjs.copydefaults">
+      <!-- Create the default frameset itself -->
+      
+<condition property="out.ext" value=".html">
+          
+<not>
+              
+<isset property="out.ext"></isset>
+          </not>
+      </condition>
+      
+<xslt basedir="${dita.temp.dir}" destdir="${output.dir}" includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}" extension="${out.ext}" style="${dita.plugin.com.sophos.tocjs.dir}${file.separator}xsl${file.separator}frameset.xsl">
+  	    
+<excludesfile name="${dita.temp.dir}${file.separator}${resourceonlyfile}" if="resourceonlyfile"></excludesfile>
+        
+<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"></param>
+        
+<param name="OUTEXT" expression="${out.ext}" if="out.ext"></param>
+        
+<param name="CSSPATH" expression="${CSSPATH}" if="csspath"></param>
+        
+<xmlcatalog refid="dita.catalog"></xmlcatalog>
+      </xslt>
+  </target>
+
+
   <!--
   This file is part of the DITA Open Toolkit project.
   See the accompanying license.txt file for applicable licenses.
 -->
   
-<import file="plugins/org.dita.eclipsecontent/build_dita2eclipsecontent.xml"></import>
+<import file="plugins/org.dita.base/build_init.xml"></import>
+  
+<import file="plugins/org.dita.base/build_preprocess.xml"></import>
+
+  
+<import file="plugins/org.dita4publishers.common.mapdriven/build_common_mapdriven.xml"></import>
 <!--
   This file is part of the DITA Open Toolkit project.
   See the accompanying license.txt file for applicable licenses.
@@ -383,11 +388,24 @@
 -->
   
 <import file="plugins/org.dita.eclipsehelp/build_dita2eclipsehelp.xml"></import>
-
-
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
   
-<import file="plugins/org.dita.pdf2/build.xml"></import>
-
+<import file="plugins/org.dita.troff/build_dita2troff.xml"></import>
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+  
+<import file="plugins/org.dita.eclipsecontent/build_dita2eclipsecontent.xml"></import>
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+  
+<import file="plugins/org.dita.wordrtf/build_dita2wordrtf.xml"></import>
 
   <!-- DITA Community preprocessing extensions -->
   
@@ -464,65 +482,10 @@
   See the accompanying license.txt file for applicable licenses.
 -->
   
-<import file="plugins/org.dita.docbook/build_dita2docbook.xml"></import>
-
-    
-<target name="dita2print-pdf.init">
-        
-<property name="customization.dir" location="plugins/org.mscc.short.pdf/cfg"></property>
-    </target>
-    
-<target name="dita2short-pdf" depends="dita2print-pdf.init, dita2pdf2"></target>
-<!--
-  This file is part of the DITA Open Toolkit project.
-  See the accompanying license.txt file for applicable licenses.
--->
-  
 <import file="plugins/org.dita.htmlhelp/build_dita2htmlhelp.xml"></import>
-<!--
-  This file is part of the DITA Open Toolkit project.
-  See the accompanying license.txt file for applicable licenses.
--->
-  
-<import file="plugins/org.dita.base/build_init.xml"></import>
-  
-<import file="plugins/org.dita.base/build_preprocess.xml"></import>
-
-  
-<import file="plugins/org.dita4publishers.common.mapdriven/build_common_mapdriven.xml"></import>
-<!--
-    
-Oxygen Webhelp plugin
-Copyright (c) 1998-2015 Syncro Soft SRL, Romania.  All rights reserved.
-Licensed under the terms stated in the license file EULA_Webhelp.txt 
-available in the base directory of this Oxygen Webhelp plugin.
-
--->
-    
-  
-<import file="plugins/com.oxygenxml.webhelp/build_dita.xml"></import>
-    
-<!--
-  This file is part of the DITA Open Toolkit project.
-  See the accompanying license.txt file for applicable licenses.
--->
-  
-<import file="plugins/org.dita.javahelp/build_dita2javahelp.xml"></import>
-<!--
-  This file is part of the DITA Open Toolkit project.
-  See the accompanying license.txt file for applicable licenses.
--->
-  
-<import file="plugins/org.dita.troff/build_dita2troff.xml"></import>
 
     
 <import file="plugins/suitehelp/conductor.xml"></import>
-<!--
-  This file is part of the DITA Open Toolkit project.
-  See the accompanying license.txt file for applicable licenses.
--->
-  
-<import file="plugins/org.dita.odt/build_dita2odt.xml"></import>
 
     
 <target name="create-search-index" depends="suitehelp-set-plus-permissions">
@@ -556,7 +519,55 @@ available in the base directory of this Oxygen Webhelp plugin.
   See the accompanying license.txt file for applicable licenses.
 -->
   
-<import file="plugins/org.dita.wordrtf/build_dita2wordrtf.xml"></import>
+<import file="plugins/org.dita.javahelp/build_dita2javahelp.xml"></import>
+
+  
+<import file="plugins/org.dita4publishers.epub/build_transtype-epub.xml"></import>
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+  
+<import file="plugins/org.dita.odt/build_dita2odt.xml"></import>
+
+
+  
+<import file="plugins/org.dita.pdf2/build.xml"></import>
+
+
+    
+<target name="dita2mchp-pdf.init">
+        
+<property name="customization.dir" location="plugins/org.mchp.pdf/cfg"></property>
+    </target>
+    
+<target name="dita2mchp-pdf" depends="dita2mchp-pdf.init, dita2pdf2"></target>
+
+    
+<target name="dita2print-pdf.init">
+        
+<property name="customization.dir" location="plugins/org.mscc.short.pdf/cfg"></property>
+    </target>
+    
+<target name="dita2short-pdf" depends="dita2print-pdf.init, dita2pdf2"></target>
+<!--
+    
+Oxygen Webhelp plugin
+Copyright (c) 1998-2015 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
+
+-->
+    
+  
+<import file="plugins/com.oxygenxml.webhelp/build_dita.xml"></import>
+    
+<!--
+  This file is part of the DITA Open Toolkit project.
+  See the accompanying license.txt file for applicable licenses.
+-->
+  
+<import file="plugins/org.dita.docbook/build_dita2docbook.xml"></import>
 
     
     
@@ -582,16 +593,13 @@ available in the base directory of this Oxygen Webhelp plugin.
     
  
   
-<import file="plugins/org.dita4publishers.epub/build_transtype-epub.xml"></import>
-
-  
   <target name="help">
     <echo level="info">Mandatory properties:</echo>
     <echo level="info"></echo>
     <echo level="info">  args.input=&lt;file&gt;</echo>
     <echo level="info">    Path and name of the input file.</echo>
     <echo level="info"></echo>
-    <echo level="info">  transtype={docbook|eclipsecontent|eclipsehelp|epub|htmlhelp|javahelp|legacypdf|odt|pdf|pdf2|pdf5|short-pdf|suitehelp|tocjs|troff|webhelp|webhelp-feedback|webhelp-feedback-mobile|webhelp-mobile|wordrtf|xhtml}</echo>
+    <echo level="info">  transtype={docbook|eclipsecontent|eclipsehelp|epub|htmlhelp|javahelp|legacypdf|mchp-pdf|odt|pdf|pdf2|pdf5|short-pdf|suitehelp|tocjs|troff|webhelp|webhelp-feedback|webhelp-feedback-mobile|webhelp-mobile|wordrtf|xhtml}</echo>
     <echo level="info">    Transformation type.</echo>
     <echo level="info"></echo>
     <echo level="info">Optional properties:</echo>

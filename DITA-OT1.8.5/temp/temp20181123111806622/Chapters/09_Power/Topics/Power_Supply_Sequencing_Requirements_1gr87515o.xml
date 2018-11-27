@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\09_Power\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/09_Power/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Power_Supply_Sequencing_Requirements_1gr87515o" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="topic:1;2:140">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="title:1;3:10">Power Supply Sequencing Requirements</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="p:1;6:8">VDD should be brought up and must be stable for 10
+    µs before AVD_1v8, to ensure that SERDES Bank A, B and C remain in a low
+    power state during bring up. The ramp of all power supplies should be
+    greater than 100 µs.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="p:2;11:8">There are no power sequencing requirements for the
+    device when power supplies are powered down.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="p:3;14:8">There is no power sequencing requirement between VDD
+    and I/O power (VDDO).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="p:4;17:8">Unless otherwise noted, signal inputs should only be
+    driven after both VDD and VDDO power supplies are turned on, to avoid
+    reliability concerns.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\09_Power\Topics\Power_Supply_Sequencing_Requirements_1gr87515o.xml" xtrc="p:5;21:9"/>
+  </body>
+</topic>

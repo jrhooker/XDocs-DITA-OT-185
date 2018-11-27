@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Terminology_6horj1i82" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="topic:1;2:115">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="title:1;3:11">Terminology</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="body:1;4:10">
+        
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="p:1;7:12">The following notation is used in this section to describe the
+        GCC Subsystem:</p>
+
+        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="ul:1;10:13">
+          <li id="d1e225" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="li:1;11:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="p:2;12:16">
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="i:1;13:19">GCC Link </i> is defined as a GCC channel
+            within an OTU/ODU channel. There are three GCC Links per OTU/ODU
+            (GCC0, GCC1 and GCC2). Each Framer has 6 OTU/ODU channels, for a
+            total of 18 GCC links per framer stage.</p>
+          </li>
+
+          <li audience="DIGIG4_ROW META200G_ROW" id="d1e233" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="li:2;19:62">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="p:3;20:16">
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="i:2;21:19">Link Mapping Number </i> is defined as the
+            identifier within Ethernet Frame that maps to a GCC Link. The
+            extract path (ODU_OHP RX/Ethernet TX) is always 1:1. The insert
+            path (ODU_OHP TX/Ethernet RX) connects Link Mapping Number to GCC
+            Link with from 1:N where N is 1 to 32.</p>
+          </li>
+
+          <li audience="DIGIG4_ALU" id="d1e241" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="li:3;28:49">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="p:4;29:16">
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="i:3;30:19">ECC ID</i> is defined as the identifier
+            within Ethernet Frame that maps to a GCC Link. The extract path
+            (OTU/ODU RX/Ethernet TX) is always 1:1. The insert path (OTU/ODU
+            TX/Ethernet RX) connects Link Mapping Number to GCC Link with from
+            1:N where N is 1 to 32.</p>
+          </li>
+
+          <li id="d1e249" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="li:4;37:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="p:5;38:16">
+               <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Terminology_6horj1i82.xml" xtrc="i:4;39:19">ODU_OHP Port </i> is defined as the
+            interface signals connecting the insert and extract paths to/from
+            the GCC TRANS through to/from the ODU_OHP to the OTN Framers. Four
+            ports exist; each contains an extract and insert set of
+            signals.</p>
+          </li>
+        </ul>
+      </body>
+</topic>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\15_AC_Timing_Characteristics\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/15_AC_Timing_Characteristics/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="PMON_SYNC_O_9gqlmr3w9" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="topic:1;2:115">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="title:1;3:10">PMON_SYNC_O</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:1;6:8">PMON_SYNC_O is considered an asynchronous signal,
+    pulse width requirements are specified below in <xref href="#PMON_SYNC_O_9gqlmr3w9/Performance_Monitor_Output_Synchronizati_8gqlmnupx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="xref:1;7:141" type="fig"><?ditaot gentext?>Figure 1</xref>
+    and <xref href="#PMON_SYNC_O_9gqlmr3w9/Performance_Monitor_Output_Synchronizati_6gkftvtns" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="xref:2;8:97" type="table"><?ditaot gentext?>Table 1</xref>.</p>
+
+    <fig id="Performance_Monitor_Output_Synchronizati_8gqlmnupx" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="fig:1;10:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="title:2;11:14">PMON_SYNC_O AC Timing (Output)</title>
+
+      <image href="../Graphics/AC_Timing__pmon_sync_o.svg" placement="break" width="360px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="image:1;13:93"/>
+    </fig>
+
+    <table id="Performance_Monitor_Output_Synchronizati_6gkftvtns" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="table:1;16:68">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="title:3;17:14">PMON_SYNC_O AC Timing Parameters
+      (Output)</title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="tgroup:1;20:24">
+        <colspec colname="col1" colnum="1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:1;21:57"/>
+
+        <colspec colname="col2" colnum="2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:2;23:45"/>
+
+        <colspec colname="col3" colnum="3" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:3;25:46"/>
+
+        <colspec colname="col4" colnum="4" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:4;27:46"/>
+
+        <colspec colname="col5" colnum="5" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:5;29:46"/>
+
+        <colspec colname="col6" colnum="6" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="colspec:6;31:58"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="thead:1;33:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="row:1;34:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:1;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:2;35:23">Symbol</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:2;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:3;37:23">Description</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:3;39:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:4;39:23">Min</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:4;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:5;41:23">Typ</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:5;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:6;43:23">Max</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:6;45:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:7;45:23">Units</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="tbody:1;49:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="row:2;50:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:7;51:20">T<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="sub:1;51:26">PMON_SYNC_O</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:8;53:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:8;53:23">PMON_SYNC_O
+            Period</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:9;56:20">20.84<ph otherprops="symbolfont" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="ph:1;56:53">µ</ph>s</entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:10;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:9;58:24"/></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:11;60:20">2.048s</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:12;62:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="row:3;65:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:13;66:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:10;66:23">tHO<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="sub:2;66:31">PMON_SYNC_O</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:14;68:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:11;68:23">PMON_SYNC_O
+            High Pulse Width</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:15;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:12;71:23">44</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:16;73:20">48.23</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:17;75:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="entry:18;77:20">ns</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="note:1;83:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="ol:1;83:15">
+        <li id="d1e801" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="li:1;84:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:13;84:28">PMON_SYNC_O
+        support Type1 board topology as specified in <xref href="Board_Topologies_for_LVCMOS_Outputs_9ig00px26.xml#Board_Topologies_for_LVCMOS_Outputs_9ig00px26/Supported_Board_Topologies_for_LVCMOS_outputs" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="xref:3;85:210" type="table"><?ditaot gentext?>Table 1</xref>.</p></li>
+
+        <li audience="DIGIG5_ROW" id="d1e806" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="li:2;87:47"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:14;87:50">In bypass mode, the period is equal to that of the
+        incoming PMON_SYNC_I pulse.</p></li>
+
+        <li audience="DIGIG5_NOKIA" id="d1e809" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="li:3;90:49"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:15;90:52">In bypass mode, the period is equal to that of the
+        incoming PMON_SYNC_I or the ALU_BKP_SYNC_I pulse.</p></li>
+
+        <li id="d1e812" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="li:4;93:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\PMON_SYNC_O_9gqlmr3w9.xml" xtrc="p:16;93:28">In bypass
+        mode, the minimum pulse width is 9ns.</p></li>
+      </ol></note>
+  </body>
+</topic>

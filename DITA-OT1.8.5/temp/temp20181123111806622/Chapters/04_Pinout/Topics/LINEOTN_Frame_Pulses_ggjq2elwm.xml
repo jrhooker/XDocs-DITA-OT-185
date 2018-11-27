@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="LINEOTN_Frame_Pulses_ggjq2elwm" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="topic:1;2:124">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="title:1;3:10">OTN/FlexE Frame Pulse Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:1;6:8">The device supports inserting PTP time stamps over OTN overhead based
+    on the OTN frame provided by the OTU RX/TX multi-frame pulse outputs (for
+    example, at the start of a multi-frame). <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="ph:1;8:74">See
+    <xref href="../../05_Functional_Description/Topics/OTN_Frame_Pulse_Interface_0hif1nugi.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="xref:1;9:98" type="topic"><?ditaot gentext?>PTP Over OTN</xref>
+    for details. <draft-comment audience="MSCCInternal" author="hookerje" time="Fri 10/28/2016 12:06 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="draft-comment:1;10:106"> the PTP Over OTN topic linked to above has
+    been removed from the DDD and HWS.</draft-comment></ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:2;13:8"><ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="ph:2;13:12">This interface is shared between the LINEOTN and SYSOTN subsystems
+    using a channelized mux.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:3;16:8">For the functional timing and AC timing characteristics of this
+    interface, see <xref href="../../08_Functional_Timing/Topics/OTN_Frame_Pulse_Interface_4hoqq7n2o.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="xref:2;17:108" type="topic"><?ditaot gentext?>OTN Frame Pulse Interface</xref>
+    and <xref href="../../15_AC_Timing_Characteristics/Topics/OTN_Frame_Pulse_Interface_4gqlmlsgb.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="xref:3;18:105" type="topic"><?ditaot gentext?>OTN Frame Pulse Interface</xref>.</p>
+
+    <draft-comment translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="draft-comment:2;20:20">Frame pulse interface
+    requirement from PREPID 403483</draft-comment>
+
+    <table id="LINEOTN_Frame_Pulse_Pin_Description_hgjq2elwm" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="table:1;23:63">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="title:2;24:14">OTN Frame Pulse Interface Pin Description</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="tgroup:1;26:24">
+        <colspec colname="col1" colwidth="1.65in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="colspec:1;27:49"/>
+
+        <colspec colname="col2" colwidth="0.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="colspec:2;29:49"/>
+
+        <colspec colname="col3" colwidth="3.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="colspec:3;31:49"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="thead:1;33:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:1;34:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:1;35:20">Pin Name</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:2;37:20">Type</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:3;39:20">Function</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="tbody:1;43:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:2;44:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:4;45:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:4;45:23"> OTN_FP_CLK</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:5;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:5;47:23"> Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:6;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:6;49:23">125 MHz clock used to generate OTN_FP_EVNT, OTN_MFP_VAL,
+            OTN_FP_VAL, and OTN_FP_TIME_OFFSET[6:0] .</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:7;50:62">1.8 V LVCMOS18
+            low-speed signal.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:3;54:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:7;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:8;55:23"> OTN_FP_EVNT</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:8;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:9;57:23"> Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:9;59:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:10;59:23">The rising edge of OTN_FP_EVNT can be time stamped by
+            the external FPGA. This time stamp will be the reference time that
+            the FPGA uses to find the actual time of the per-channel FP/MFP
+            events. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:11;62:29">OTN_FP_EVNT asserts high once every 64 OTN_FP_CLK
+            cycles to indicate the start of the FP/MPF multiplexing calendar
+            cycle. It remains high for four OTN_FP_CLK cycles to guarantee
+            that it can be sampled and time stamped by an unsynchronized FPGA
+            clock running at 250MHz.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:12;66:45">OTN_FP_EVNT is generated on the
+            rising edge of OTN_FP_CLK. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:13;67:48">1.8 V LVCMOS18 low-speed
+            signal.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:4;71:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:10;72:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:14;72:23"> OTN_MFP_VAL</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:11;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:15;74:23"> Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:12;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:16;76:23">OTN_MFP_VAL will be logic 1 during the corresponding OTN
+            channel’s multiplexing calendar cycle if it had a MFP event in the
+            previous multiplexing calendar period. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:17;78:60">Note that
+            OTN_FP_VAL should always be asserted when OTN_MFP_VAL is asserted.
+            However, the opposite is not true. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:18;80:56">OTN_MFP_VAL is
+            generated on the rising edge of OTN_FP_CLK. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:19;81:65">1.8 V LVCMOS18
+            low-speed signal.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:5;85:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:13;86:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:20;86:23"> OTN_FP_VAL</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:14;88:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:21;88:23"> Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:15;90:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:22;90:23">OTN_FP_VAL will be logic 1 during the corresponding OTN
+            channel’s multiplexing calendar cycle if it had a FP event in the
+            previous multiplexing calendar period. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:23;92:60">OTN_FP_VAL is
+            generated on the rising edge of OTN_FP_CLK. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:24;93:65">1.8 V LVCMOS18
+            low-speed signal.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="row:6;97:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:16;98:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:25;98:23">OTN_FP_TIME_OFFSET[6:0]</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:17;100:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:26;100:23">Output </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="entry:18;102:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:27;102:23">OTN_FP_TIME_OFFSET indicates when, relative to previous
+            OTN_FP_EVNT, the actual FP/MFP event took place for an individual
+            channel. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:28;104:30">OTN_FP_TIME_OFFSET is only valid when OTN_FP_VAL
+            is logic 1. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:29;105:33">OTN_FP_TIME_OFFSET is generated on the rising
+            edge of OTN_FP_CLK. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\LINEOTN_Frame_Pulses_ggjq2elwm.xml" xtrc="p:30;106:41">1.8 V LVCMOS18 low-speed
+            signal.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

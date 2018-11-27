@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="End_to_End_Datapath_Latency_Examples_4hiddt4pf" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="topic:1;2:140">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="title:1;3:10">End to End Datapath Latency Examples</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:1;6:8">Datapath latencies were measured after initial provisioning and
+    settling of timing control loops. Absolute maximum and minimum latencies
+    are expected to be higher or lower prior to settling of the control loop
+    and FIFO depths. The primary contributor to the additional latency is the
+    ODUk Switch and CPB due to their store and forward architecture, and in
+    the case of the ODUk Switch, centering mechanisms used as part of the ODUk
+    timing recovery loop.</p>
+
+    <table id="End_to_End_Datpath_Round_Trip_Latency_Ex_5hiddt4pf" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="table:1;14:68">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="title:2;15:14">End to End Datapath Round Trip Latency Examples</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="tgroup:1;17:24">
+        <colspec colname="col1" colwidth="4in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="colspec:1;18:46"/>
+
+        <colspec colname="col2" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="colspec:2;20:46"/>
+
+        <colspec colname="col3" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="colspec:3;22:46"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="thead:1;24:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:1;25:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:1;26:20">Datapath</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:2;28:20">Typ (<ph otherprops="symbolfont" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="ph:1;28:53">µ</ph>s)</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:3;30:20">Notes</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="tbody:1;34:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:2;35:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:4;36:20">OTU4 Line &lt;&gt; OTL4.4 &lt;&gt; OTU4 &lt;&gt; ODU4
+            &lt;&gt; ODU2 &lt;&gt; &lt;&gt; ODU0 &lt;&gt; ODUk Switch &lt;&gt;
+            ILKN</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:5;40:20">16.1</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:6;42:20">4,5</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:3;45:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:7;46:20">100GE Line (CAUI-4) &lt;&gt; 100GE Transparent (ENET_LINE)
+            &lt;&gt; MAPOTN (GMP) &lt;&gt; ODUk Switch &lt;&gt; ODU4 &lt;&gt;
+            OTU4 &lt;&gt; OTL4.4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:8;50:20">18.7</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:9;52:20">4</entry>
+          </row>
+
+          <row audience="DIGIG5_ROW DIGIG5_NOKIA" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:4;55:51">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:10;56:20">100GE Line (CAUI-4) &lt;&gt; 100GE Transparent &lt;&gt;
+            MAPOTN (GMP) ODUk Switch &lt;&gt; ODU4 (CBRI COPI0 or
+            COPI1)&lt;&gt; 100G ILKN (CBRI) &lt;&gt; CLIENT SERDES</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:11;60:20">12.5</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:12;62:20">5</entry>
+          </row>
+
+          <row audience="DIGIG5_ROW DIGIG5_NOKIA" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:5;65:51">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:13;66:20">2 x 100GE (CAUI-4) Line (CAUI-4) &lt;&gt; 100GE Transparent
+            (ENET_LINE) &lt;&gt; MAPOTN (GMP) &lt;&gt; 2 x ODUk Switch
+            &lt;&gt; 2 x ODU4 (CBRI-COPI0) &lt;&gt; 200G ILKN (CBRI) &lt;&gt;
+            CLIENT SERDES</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:14;71:20">12.5</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:15;73:20">5</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:6;76:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:16;77:20">10GE Line &lt;&gt; ENET (EPMM) &lt;&gt; CPB &lt;&gt; MAPOTN
+            (BMP ODU2e) &lt;&gt; ODUk Switch &lt;&gt; ILKN</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:17;80:20">16.6</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:18;82:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:7;85:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:19;86:20">10GE Line &lt;&gt; MAC terminated &lt;&gt; CPB &lt;&gt;
+            GFP-F &lt;&gt; ODUk Switch &lt;&gt; ILKN</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:20;89:20">8.1</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:21;91:20">2</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="row:8;94:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:22;95:20">10GE Line &lt;&gt; MAC terminated &lt;&gt; CPB &lt;&gt;
+            GFP-F &lt;&gt; ODUk Switch &lt;&gt; ILKN</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:23;98:20">24.0</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="entry:24;100:20">3</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="note:1;106:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="ol:1;106:15">
+        <li id="d1e75505" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="li:1;107:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:2;107:30">Software version 2.05.</p></li>
+
+        <li id="d1e75511" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="li:2;109:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:3;109:30">64-byte packets.</p></li>
+
+        <li id="d1e75517" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="li:3;111:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:4;111:30">9600-byte packets.</p></li>
+
+        <li id="d1e75523" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="li:4;113:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:5;113:30">FEC encoders and decoders bypassed. </p></li>
+
+        <li id="d1e75538" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="li:5;115:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\End_to_End_Datapath_Latency_Examples_4hiddt4pf.xml" xtrc="p:6;115:30">256-byte packets</p></li>
+      </ol></note>
+  </body>
+</topic>

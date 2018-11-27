@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\OHP_10GE\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/OHP_10GE/Topics/?><?path2project ..\..\..\..\?><?path2project-uri ../../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Insertion_Packet_Structure_27jhb5zqks" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="topic:1;2:131">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="title:1;3:10"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:1;3:13">Insertion Packet Structure</b></title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:1;6:8">When the external overhead processor receives a request for overhead
+    data for a given channel, it assembles 8 (ODU or FlexO) or 4 (FlexE)
+    frames of overhead data for that particular channel and transmits it over
+    the 10 Gbps Ethernet link. The structure of the insertion overhead data
+    packet is shown in the below figure. For ODU and FlexO overhead, each
+    frame of insertion data is limited to 10 Dwords (40 bytes). Each byte of
+    the frame is qualified by a corresponding mask bit. There are 45 bytes per
+    frame in the payload. The addition of one prepended byte containing a
+    TX_MFAS value results in a total payload size of 361 bytes. For FlexE
+    overhead, each codeword of insertion data is qualified by a corresponding
+    mask bit. The five codewords of a FlexE frame occupy 41¼ bytes and a
+    further 5 bits are needed for the masks. A field of 6 bits is used for the
+    mask bits with the MSB set to zero so that the total payload used by a
+    FlexE frame is 42 bytes. 192 bytes of padding are added to the end of each
+    packet to make the payload length the same as for ODU and FlexO.</p>
+
+    <fig id="Ethernet_Packet_with_Overhead_Data_for_I_28jhb5zqks" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="fig:1;22:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="title:2;23:14">Ethernet Packet with Overhead Data for Insertion</title>
+
+      <image href="../Graphics/OHP_10GE_Ethernet_Insertion.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="image:1;25:98"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="note:1;28:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:2;28:38">http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=442326
+    Tab : ins frame (TX Frmr)</p></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:3;31:8">The various fields in the payload are as follows:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:4;33:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:2;33:29">TX_MFAS[7:0]: </b>This is the TX_MFAS value of the
+    first frame of insertion overhead data and must be same as the TX_FI_REQ
+    in the <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="i:1;35:15">Request-Only</i> or <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="i:2;35:38">Data+Request</i> packet received by the
+    external overhead processor.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:5;38:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:3;38:29">TX_INS_EN&lt;n&gt;:</b> This field contains the
+    mask bits for the TX_INS_DATA&lt;n&gt; field. For ODU and FlexO overhead
+    it is 5 <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:4;40:34">bytes</b> wide, containing 1 mask bit per
+    byte of overhead data. For FlexE overhead it is 6 <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:5;41:76">bits</b> wide, containing 1 mask bit per codeword of
+    overhead data with the MSB ignored.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="p:6;44:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:6;44:29">TX_INS_DATA&lt;n&gt;:</b> This field contains the
+    overhead data for one frame. For ODU and FlexO overhead it is 40 <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:7;45:91">bytes</b> wide. For FlexE overhead it is 330 <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\OHP_10GE\Topics\Insertion_Packet_Structure_27jhb5zqks.xml" xtrc="b:8;45:157">bits</b> wide, containing five 66-bit codewords.</p>
+  </body>
+</topic>

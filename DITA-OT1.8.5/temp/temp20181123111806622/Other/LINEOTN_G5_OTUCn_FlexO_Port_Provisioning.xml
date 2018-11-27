@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Provisioning_and_De-provisioning_2lirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="topic:1;2:137">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="title:1;3:10">OTUCn and FlexO Interface Group Datapath Segment Provisioning</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:1;6:8">OTUCn and FlexO Groups are provisioned following the API sequence
+    below.</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="ol:1;9:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="li:1;10:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:2;10:14">OTUCn or FlexO group configuration options are defined with the
+      g5_api_otucn_group_prov() API. </p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="li:2;13:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:3;13:14">N x OTUCn or FlexO PHYs are added to the group with the
+      g5_api_otucn_port_add() API. N = 1 to 6. </p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="li:3;16:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:4;16:14">Provisioning and activation of the OTUCn or FlexO group defined
+      with steps 1 and 2 above is done with the g5_api_otucn_group_config()
+      API. </p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:5;21:8"><xref href="#Provisioning_and_De-provisioning_2lirs0z29z/fig_OTUCn_or_FlexO_Group_Segment_Provision_S_bjekjhi46" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="xref:1;21:121" type="fig"><?ditaot gentext?>Figure 1</xref> shows the datapath segment provisioning for an OTUCn or FlexO
+    Group from the SERDES interface passing through the LINEOTN subsystem to
+    the COREOTN subsystem. For channelized mode the OTUCn or FlexO group is
+    initially provisioned from the SERDES interface(A) to the OCPB block(C),
+    bypassing the High Order and Low Order multiplexer blocks. If a High Order
+    multiplexer datapath segment provisioning API is called to configure the
+    High Order multiplexer then the High Order ODUk from the OTUk on the line
+    will terminate at the first ODUk framer(B) in the COREOTN.</p>
+
+    <fig id="fig_OTUCn_or_FlexO_Group_Segment_Provision_S_bjekjhi46" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="fig:1;31:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="title:2;32:14">OTUCn or FlexO Group Segment Provision: Serdes Interface to OTU
+      Framer Block of LINEOTN</title>
+
+      <image href="g5_api_otucn_group_prov_LOTN.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="image:1;35:69"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="p:6;38:8"><xref href="#Provisioning_and_De-provisioning_2lirs0z29z/fig_OTUCn_or_FlexO_Group_Segment_Provision_S_cjekjhi46" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="xref:2;38:121" type="fig"><?ditaot gentext?>Figure 2</xref>shows the datapath segment provisioning for an OTUCn or FlexO Group
+    passing through the SYSOTN subsystem to the COREOTN subsystem. The
+    datapath segment will connect the High Order ODUk of the OTUk from the
+    SERDES interface(A) to the OCPB block(B).</p>
+
+    <fig id="fig_OTUCn_or_FlexO_Group_Segment_Provision_S_cjekjhi46" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="fig:2;44:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="title:3;45:14">OTUCn or FlexO Group Segment Provision: Serdes Interface to OTU
+      Framer Block of SYSOTN</title>
+
+      <image href="g5_api_otucn_group_prov_SOTN.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTUCn_FlexO_Port_Provisioning.xml" xtrc="image:2;48:69"/>
+    </fig>
+  </body>
+</topic>

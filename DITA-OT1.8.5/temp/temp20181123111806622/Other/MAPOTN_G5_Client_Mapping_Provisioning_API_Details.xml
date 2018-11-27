@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="topic:1;2:141">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:1;3:10">Client Mapping Datapath Segment Provisioning API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:1;6:8">The flowchart for provisioning client mapping into OTN is shown in
+    <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/fig_Client_Mapping_Datapath_Provisioning_Flo_8jkud487a" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:1;7:122" type="fig"><?ditaot gentext?>Figure 1</xref> below and uses the g5_api_client_map_cfg() API.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="note:1;10:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:2;10:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "Client_MAP")</p></note>
+
+    <fig id="fig_Client_Mapping_Datapath_Provisioning_Flo_8jkud487a" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="fig:1;15:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:2;16:14">Client Mapping Datapath Provisioning Flowchart</title>
+
+      <image href="Client_Map_Provision_Flowchart.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="image:1;18:57"/>
+    </fig>
+
+    <section id="section_Client_Mapping_Datapath_Segment_Provisio_1jepvu55i" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="section:1;21:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:3;21:85">g5_api_client_map_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:3;21:119">The
+    g5_api_client_map_cfg() API provisions MAPOTN segment, CoreOTN FO2 as well
+    as any other segments and mapping connections to ECPB and DCPB data paths
+    based on the provided mode and channel ID. The API parameters are shown
+    below with any associated enumerated types.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:1;25:56">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:1;26:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:4;26:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:2;28:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:5;28:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:3;30:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:6;30:16">mode - g5_client_adaptation_mode_t </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:4;32:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:7;32:16">client_num_incr</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:5;34:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:8;34:16">gfp_slice - g5_gfp_slice_cfg_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:9;35:15">The device_id parameter is the device instance. For transparent
+    Ethernet segment provisioning, the matching Ethernet channel from the
+    g5_api_enet_prov() API is used for the chnl_id. For terminated Ethernet
+    segment provisioning, the matching Ethernet channel from the
+    g5_api_enet_prov() API is used for the chnl_id of g5_api_client_map_cfg()
+    API.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:10;40:16">The client mapping mode is specified by the parameter mode of
+    the g5_api_client_map_cfg() API uses the g5_client_adaptation_mode_t
+    enumeration. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:11;42:25">Transparent Ethernet mapping modes of
+    g5_client_adaptation_mode_t are shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/table_Transparent_Ethernet_Mapping_Modes_via_g_6jd25e4r4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:2;43:165" type="table"><?ditaot gentext?>Table 1</xref> below. </p><table id="table_Transparent_Ethernet_Mapping_Modes_via_g_6jd25e4r4" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="table:1;44:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:4;45:16">Transparent Ethernet Mapping Modes of the
+        g5_client_adaptation_mode_t Enumeration</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tgroup:1;48:26">
+          <colspec colname="col1" colwidth="1.875in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:1;49:40"/>
+
+          <colspec colname="col2" colwidth="1.375in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:2;51:40"/>
+
+          <colspec colname="col3" colwidth="2.25in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:3;53:39"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="thead:1;55:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:1;56:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:1;57:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:12;57:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:2;59:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:13;59:25"> chnl_id Source</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:3;61:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:14;61:25">Provisioned Segment</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tbody:1;65:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:2;66:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:4;67:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:15;67:25">G5_MAP_ODU4_100GE_GMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:5;69:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:16;69:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:6;71:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:17;71:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:3;75:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:7;76:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:18;76:25">G5_MAP_ODU2E_10GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:8;78:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:19;78:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:9;80:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:20;80:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:4;84:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:10;85:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:21;85:25">G5_MAP_ODU1E_10GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:11;87:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:22;87:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:12;89:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:23;89:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:5;93:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:13;94:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:24;94:25">G5_MAP_ODUFLEX_25GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:14;96:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:25;96:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:15;98:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:26;98:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:6;102:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:16;103:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:27;103:25">G5_MAP_ODUFLEX_50GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:17;105:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:28;105:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:18;107:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:29;107:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:7;111:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:19;112:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:30;112:25">G5_MAP_ODUFLEX_200GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:20;114:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:31;114:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:21;116:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:32;116:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:8;120:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:22;121:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:33;121:25">G5_MAP_ODUFLEX_400GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:23;123:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:34;123:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:24;125:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:35;125:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:36;130:18">Terminated Ethernet mapping modes of
+    g5_client_adaptation_mode_t are shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/table_Terminated_Ethernet_Mapping_Modes_via_g5_8jd25e4r4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:3;131:165" type="table"><?ditaot gentext?>Table 2</xref> below. </p><table id="table_Terminated_Ethernet_Mapping_Modes_via_g5_8jd25e4r4" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="table:2;132:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:5;133:16">Terminated Ethernet Mapping Modes of the
+        g5_client_adaptation_mode_t Enumeration</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tgroup:2;136:26">
+          <colspec colname="col1" colwidth="1.875in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:4;137:40"/>
+
+          <colspec colname="col2" colwidth="1.375in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:5;139:40"/>
+
+          <colspec colname="col3" colwidth="2.25in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:6;141:39"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="thead:2;143:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:9;144:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:25;145:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:37;145:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:26;147:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:38;147:25"> chnl_id Source</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:27;149:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:39;149:25">Provisioned Segment</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tbody:2;153:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:10;154:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:28;155:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:40;155:25">G5_MAP_ODU2_10GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:29;157:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:41;157:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:30;159:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:42;159:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:11;163:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:31;164:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:43;164:25">G5_MAP_ODU4_100GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:32;166:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:44;166:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:33;168:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:45;168:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:12;172:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:34;173:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:46;173:25">G5_MAP_ODUFLEX_25GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:35;175:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:47;175:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:36;177:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:48;177:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:13;181:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:37;182:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:49;182:25">G5_MAP_ODUFLEX_50GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:38;184:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:50;184:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:39;186:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:51;186:25">ENET &lt;-&gt; MOTN &lt;-&gt; OCPB non-FlexE path
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:52;191:18">Interlaken sourced terminated Ethernet mapping modes of
+    g5_client_adaptation_mode_t are shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/table_Interlaken_Sourced_Ethernet_Mapping_Mode_ajd25e4r4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:4;192:165" type="table"><?ditaot gentext?>Table 3</xref> below. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:53;193:27"><table id="table_Interlaken_Sourced_Ethernet_Mapping_Mode_ajd25e4r4" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="table:3;193:96">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:6;194:16">Interlaken Sourced Ethernet Mapping Modes of the
+        g5_client_adaptation_mode_t Enumeration</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tgroup:3;197:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="thead:3;198:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:14;199:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:40;200:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:54;200:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:41;202:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:55;202:25"> chnl_id Source</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:42;204:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:56;204:25">Provisioned Segment</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tbody:3;208:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:15;209:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:43;210:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:57;210:25">G5_MAP_ODU4_100GE_GMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:44;212:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:58;212:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:45;214:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:59;214:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:16;218:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:46;219:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:60;219:25">G5_MAP_ODU2E_10GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:47;221:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:61;221:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:48;223:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:62;223:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:17;227:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:49;228:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:63;228:25">G5_MAP_ODU1E_10GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:50;230:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:64;230:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:51;232:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:65;232:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:18;236:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:52;237:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:66;237:25">G5_MAP_ODUFLEX_25GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:53;239:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:67;239:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:54;241:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:68;241:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:19;245:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:55;246:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:69;246:25">G5_MAP_ODUFLEX_50GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:56;248:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:70;248:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:57;250:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:71;250:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:20;254:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:58;255:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:72;255:25">G5_MAP_ODUFLEX_200GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:59;257:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:73;257:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:60;259:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:74;259:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:21;263:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:61;264:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:75;264:25">G5_MAP_ODUFLEX_400GE_BMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:62;266:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:76;266:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:63;268:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:77;268:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:22;272:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:64;273:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:78;273:25">G5_MAP_ODU2_10GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:65;275:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:79;275:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:66;277:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:80;277:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:23;281:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:67;282:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:81;282:25">G5_MAP_ODU3_40GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:68;284:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:82;284:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:69;286:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:83;286:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:24;290:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:70;291:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:84;291:25">G5_MAP_ODU4_100GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:71;293:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:85;293:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:72;295:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:86;295:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:25;299:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:73;300:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:87;300:25">G5_MAP_ODUFLEX_25GE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:74;302:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:88;302:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:75;304:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:89;304:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:26;308:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:76;309:22">G5_MAP_ODUFLEX_50GE_GFP</entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:77;311:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:90;311:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:78;313:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:91;313:25">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; OCPB
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:92;318:22">Interlaken sourced packet mapping modes of
+    g5_client_adaptation_mode_t are shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/table_Terminated_Packet_Mapping_Modes_via_g5_c_cjd25e4r4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:5;319:165" type="table"><?ditaot gentext?>Table 4</xref> below. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:93;320:27"><table id="table_Terminated_Packet_Mapping_Modes_via_g5_c_cjd25e4r4" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="table:4;320:96">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:7;321:16">Terminated Packet Mapping Modes of the
+        g5_client_adaptation_mode_t Enumeration</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tgroup:4;324:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="thead:4;325:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:27;326:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:79;327:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:94;327:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:80;329:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:95;329:25"> chnl_id Source</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:81;331:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:96;331:25">Provisioned Segment</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tbody:4;335:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:28;336:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:82;337:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:97;337:25">G5_MAP_ODUFLEX_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:83;339:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:98;339:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:84;341:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:99;341:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:29;344:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:85;345:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:100;345:25">G5_MAP_ODU4_100G_PKT_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:86;347:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:101;347:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:87;349:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:102;349:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:30;352:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:88;353:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:103;353:25">G5_MAP_ODU3_40G_PKT_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:89;355:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:104;355:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:90;357:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:105;357:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:31;360:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:91;361:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:106;361:25">G5_MAP_ODU2_10G_PKT_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:92;363:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:107;363:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:93;365:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:108;365:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:32;368:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:94;369:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:109;369:25">G5_MAP_ODU1_2G5_PKT_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:95;371:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:110;371:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:96;373:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:111;373:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:33;376:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:97;377:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:112;377:25">G5_MAP_ODU0_1G25_PKT_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:98;379:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:113;379:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:99;381:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:114;381:25">ILKN &lt;-&gt; MOTN &lt;-&gt; OCPB</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:115;385:22">FlexE sourced mapping modes of
+    g5_client_adaptation_mode_t are shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79dc/table_FlexE_Mapping_Modes_via_g5_client_adapta_2jepvu55q" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="xref:6;386:165" type="table"><?ditaot gentext?>Table 5</xref> below. </p><table id="table_FlexE_Mapping_Modes_via_g5_client_adapta_2jepvu55q" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="table:5;387:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="title:8;388:16">FlexE Mapping Modes of the g5_client_adaptation_mode_t
+        Enumeration</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tgroup:5;391:26">
+          <colspec colname="col1" colwidth="203*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:7;392:37"/>
+
+          <colspec colname="col2" colwidth="113*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:8;394:37"/>
+
+          <colspec colname="col3" colwidth="684*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="colspec:9;396:37"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="thead:5;398:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:34;399:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:100;400:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:116;400:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:101;402:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:117;402:25"> chnl_id Source</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:102;404:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:118;404:25">Provisioned Segment</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="tbody:5;408:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:35;409:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:103;410:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:119;410:25">G5_MAP_ODUFLEX_FLEXE_BGMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:104;412:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:120;412:25">ENET</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:105;414:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:121;414:25">FlexE Aware G709 17.12 format. </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:2;414:64">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:6;415:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:122;415:26">ENET(FlexE Group) &lt;-&gt; MOTN &lt;-&gt; ODUKSW.
+                  </p></li>
+                </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:123;417:25"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="b:1;417:28">Note: Not supported through client map config
+              </b></p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:36;421:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:106;422:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:124;422:25">G5_MAP_ODUFLEX_10GE_CW_IMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:107;424:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:125;424:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:108;426:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:126;426:25">G709 17.11 format FlexE terminated ODUFlex. </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:3;426:77">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:7;427:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:127;427:26">ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; ODUKSW.
+                  </p></li>
+                </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:128;429:25">G709 17.11 format FlexE ODUFlex transported over 10GE
+              </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:4;430:23">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:8;431:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:129;431:26"> PHY ENET &lt;-&gt; MOTN &lt;-&gt; ODUKSW FlexE
+                  format ODUFlex </p></li>
+                </ul></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:37;436:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:109;437:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:130;437:25">G5_MAP_ODUFLEX_40GE_CW_IMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:110;439:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:131;439:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:111;441:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:132;441:25">G709 17.11 format FlexE terminated ODUFlex </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:5;441:76">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:9;442:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:133;442:26"> ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; ODUKSW
+                  </p></li>
+                </ul></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="row:38;447:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:112;448:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:134;448:25">G5_MAP_ODUFLEX_NX25GE_CW_IMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:113;450:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:135;450:25">ILKN</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="entry:114;452:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:136;452:25">G709 17.11 format FlexE terminated ODUFlex </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:6;452:76">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:10;453:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:137;453:26"> ILKN &lt;-&gt; ENET &lt;-&gt; MOTN &lt;-&gt; ODUKSW
+                  </p></li>
+                </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:138;455:25">G709 17.11 format FlexE ODUFlex transported over
+              25/50/100/200/400GE </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="ul:7;456:43">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="li:11;457:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:139;457:26"> PHY (N =1,2,4,8,16) ENET &lt;-&gt; MOTN &lt;-&gt;
+                  ODUKSW FlexE format ODUFlex </p></li>
+                </ul></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:140;463:18">The parameter client_num_incr of the g5_api_client_map_cfg()
+    API specifies the number of 1.25G tributary slots required to transport
+    the GFP client in ODUflex(GFP) or 25G bit rate increments required to
+    transport the FlexE client in ODUflex.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Provisioning_API_Details.xml" xtrc="p:141;466:50">The parameter gfp_slice of
+    the g5_api_client_map_cfg() API specifies the explicit GFP slice
+    assignment or automatic slice assignment. This is used for GFP modes only.
+    </p></section>
+  </body>
+</topic>

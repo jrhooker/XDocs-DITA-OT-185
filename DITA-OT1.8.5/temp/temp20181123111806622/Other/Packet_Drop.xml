@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Packet_Drop" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="topic:1;2:105">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="title:1;3:10">Packet Drop</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:1;6:8">Depending on configuration, some defects may result in 66b code words
+    overwrite. When 66b code words are overwritten, packets are silently
+    dropped (not counted) locally within the ENET Subsystem for traffic going
+    to the DCPB/ECPB Subsystems:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:1;11:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:1;12:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:2;12:14"> dLOS-Sig</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:2;14:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:3;14:14"> dFDI (LF)</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:3;16:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:4;16:14"> dRDI (RF)</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:4;18:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:5;18:14"> dLOBLLANE</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:5;20:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:6;20:14"> dLOBL</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:6;22:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:7;22:38"> dLCS</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:7;24:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:8;24:14"> dLOMLANE</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:8;26:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:9;26:14"> dLOAM</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:9;28:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:10;28:38"> dLOPS</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:10;30:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:11;30:14"> dLOL</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:11;32:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:12;32:14"> dHIBER</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:12;34:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:13;34:14"> dHISER</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:13;36:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:14;36:14"> dFLEXE_OOF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:14;38:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:15;38:14"> dFLEXE_LOF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:15;40:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:16;40:14"> dFLEXE_OOM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:16;42:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:17;42:14"> dFLEXE_LOM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:17;44:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:18;44:14"> dFLEXE_LOL</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:18;46:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:19;46:14"> dFLEXE_GIDM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:19;48:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:20;48:14"> dFLEXE_PIDM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:20;50:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:21;50:14"> dFLEXE_PMM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:21;52:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:22;52:14"> dFLEXE_CSUM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:22;54:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:23;54:14"> dFLEXE_CCM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:23;56:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:24;56:14"> dFLEXE_RDI</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:24;58:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:25;58:14"> dFLEXE_RSVD_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:25;60:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:26;60:38"> dFLEXE_PCCC_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:26;62:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:27;62:38"> dFLEXE_GCCC_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:27;64:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:28;64:38"> dFLEXE_SHDERR</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:28;66:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:29;66:38"> dFLEXE_GOMF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:29;68:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:30;68:14"> dFLEXE_FRM_AIS</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:31;71:8">Depending on configuration, some defects may result in 66b code words
+    overwrite. When 66b code words are overwritten, packets are silently
+    dropped (not counted) locally within the ENET Subsystem for traffic coming
+    from the ECPB Subsystem:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:2;76:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:30;77:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:32;77:14"> dLOS-Sync</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:31;79:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:33;79:14"> dLOS-Sig</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:32;81:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:34;81:14"> dFDI (LF)</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:33;83:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:35;83:14"> dRDI (RF)</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:34;85:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:36;85:14"> dLOBL</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:35;87:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:37;87:14"> dLCS</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:36;89:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:38;89:14"> dLOAM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:37;91:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:39;91:14"> dLOPS</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:38;93:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:40;93:14"> dFLEXE_OOF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:39;95:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:41;95:14"> dFLEXE_LOF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:40;97:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:42;97:14"> dFLEXE_OOM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:41;99:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:43;99:14"> dFLEXE_LOM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:42;101:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:44;101:14"> dFLEXE_LOL</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:43;103:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:45;103:14"> dFLEXE_GIDM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:44;105:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:46;105:14"> dFLEXE_PIDM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:45;107:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:47;107:14"> dFLEXE_PMM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:46;109:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:48;109:14"> dFLEXE_CSUM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:47;111:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:49;111:14"> dFLEXE_CCM</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:48;113:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:50;113:14"> dFLEXE_RDI</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:49;115:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:51;115:14"> dFLEXE_RSVD_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:50;117:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:52;117:38"> dFLEXE_PCCC_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:51;119:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:53;119:38"> dFLEXE_GCCC_M</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:52;121:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:54;121:38"> dFLEXE_SHDERR</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:53;123:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:55;123:38"> dFLEXE_GOMF</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:54;125:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:56;125:14"> dFLEXE_FRM_AIS</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:57;128:8">When occurring within a packet range, the following errors will results
+    into packet FCS errors or packet delineation errors. Depending on
+    configuration, these errors may trigger packet drop indication toward the
+    downstream block (DCPB)</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:3;133:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:55;134:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:58;134:14"> Receive PHY FEC uncorrected errors</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:56;136:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:59;136:14"> Receive PHY Sync header errors</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:57;138:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:60;138:14"> Receive PHY Block errors</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:61;141:8">Depending on configuration, these errors may trigger packet drop
+    indication toward the downstream block (DCPB). Dropped packets are counted
+    within Receive MAC, FEMP and FEPP_I.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:4;145:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:58;146:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:62;146:14"> Receive MAC FCS errors</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:59;148:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:63;148:14"> Receive MAC packet too long </p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:60;150:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:64;150:38"> Receive MAC packet drop </p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:61;152:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:65;152:38"> Receive MAC packet jabber</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:62;154:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:66;154:38"> Receive MAC packet fragments</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:63;156:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:67;156:38"> Receive MAC packet length
+      errors</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:64;159:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:68;159:38"> Receive MAC VLAN filtering</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:65;161:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:69;161:38"> Receive MAC multicast filtering</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:66;163:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:70;163:38"> Receive MAC unicast filtering</p></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:67;165:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:71;165:38"> Receive MAC broadcast filtering</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:68;167:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:72;167:14"> Receive MAC pause frames</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:69;169:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:73;169:14"> FEMP small packet discard</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:70;171:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:74;171:14"> FEPP_I/FECLASS packet filtering</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:75;174:8">Depending on configuration, these errors may trigger packet drop
+    indication toward the downstream block (MCPB). Dropped packets are counted
+    within FEPP_I and FEPP_E.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:5;178:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:71;179:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:76;179:14"> FEPP_I/FECLASS extract packet filtering</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:72;181:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:77;181:14"> FEPP_E/FECLASS extract packet filtering</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:78;184:8">Depending on configuration, these errors may trigger packet drop and
+    count within the FEPP_E.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="ul:6;187:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:73;188:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:79;188:14"> FEPP_E/FECLASS packet filtering</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="li:74;190:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Drop.xml" xtrc="p:80;190:14"> Transmit MAC packet drained when overwriting with maintenance
+      signal (LF or other)</p></li>
+    </ul>
+  </body>
+</topic>

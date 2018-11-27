@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Provisioning_and_De-provisioning_2lirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="topic:1;2:137">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="title:1;3:10">OTN Port Datapath API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:1;6:8">The flow chart for provisioning an OTN port is shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/fig_OTN_Provision_Flow_Chart_4jkub6thn" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="xref:1;6:161" type="fig"><?ditaot gentext?>Figure 1</xref> below and only requires a call to the g5_api_otn_prov() API.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="note:1;9:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:2;9:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "OTN_Provision")</p></note>
+
+    <fig id="fig_OTN_Provision_Flow_Chart_4jkub6thn" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="fig:1;14:54">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="title:2;15:14">OTN Provision Flow Chart</title>
+
+      <image href="OTN_Provision.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="image:1;17:40"/>
+    </fig>
+
+    <section id="section_g5_api_otn_prov__5jkub6thn" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="section:1;20:54"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="title:3;20:61">g5_api_otn_prov()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:3;20:89">The
+    g5_api_otn_prov() API provisions an OTN datapath between the SERDES and
+    COREOTN High Order framer using the LINEOTN or SYSOTN Subsystems. The API
+    provisions the LINEOTN or SYSOTN subsystems for an OTUk signal and creates
+    an unchannelized High Order ODU container with an ODU-OCI payload. After
+    this API is called, the datapath is provisioned but not activated at the
+    ODUk mapping buffer. The g5_api_otn_prov() API parameters are shown below
+    with any associated enumerated types.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="ul:1;27:50">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:1;28:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:4;28:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:2;30:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:5;30:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:3;32:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:6;32:16">serdes_port_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:4;34:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:7;34:16">pin_mode - g5_serdes_pin_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:5;36:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:8;36:16">prov_mode - g5_otn_prov_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:6;38:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:9;38:16">rate - g5_otuk_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="li:7;40:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:10;40:16">gfec_mode - g5_otn_fec_mode_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:11;41:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user defined High Order ODU channel. The serdes_port_id
+    parameter is the SERDES port ID for this OTN channel.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:12;43:65">The SERDES
+    port selection options are provided by the pin_mode parameter from the
+    enumeration g5_serdes_pin_mode_t of the g5_api_otn_prov() API. The
+    enumerator G5_SERDES_PIN_MODE_NRZ configures the SERDES port for rates up
+    to 28 Gbps. The enumerator G5_SERDES_PIN_MODE_PAM4_ADJ configures the
+    SERDES port for 56 Gbps.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:13;48:36">The OTN provisioning mode is specified by
+    the parameter prov_mode of the g5_api_otn_prov() API has the
+    g5_otn_prov_mode_t enumeration that has the enumerators shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_otn_prov_mode_t_enumeration_parameter_5jek9xe6l" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="xref:2;50:185" type="table"><?ditaot gentext?>Table 1</xref> below.</p><table id="table_g5_otn_prov_mode_t_enumeration_parameter_5jek9xe6l" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="table:1;51:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="title:4;52:16">g5_otn_prov_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="tgroup:1;54:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="thead:1;55:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:1;56:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:1;57:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:14;57:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:2;59:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:15;59:25"> OTN Port Provisioning Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="tbody:1;63:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:2;64:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:3;65:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:16;65:25"> G5_OTN_PROV_MODE_LINEOTN</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:4;67:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:17;67:25">Normal datapath provisioning of LINEOTN up to the
+              Ingress OCPB block </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:3;71:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:5;72:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:18;72:25"> G5_OTN_PROV_MODE_SYSOTN</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:6;74:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:19;74:25">Normal datapath provisioning of SYSOTN up to the
+              Ingress OCPB block </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:4;78:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:7;79:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:20;79:25">G5_OTN_PROV_MODE_PORT_ONLY</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:8;81:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:21;81:25">SERDES port provisioning only to generate and receive
+              PRBS signals. Applies to both LINEOTN and SYSOTN. LINEOTN and
+              SYSOTN resources are not allocated in this mode. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:5;86:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:9;87:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:22;87:25">G5_OTN_PROV_MODE_SYSOTN_RX_MONITOR</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:10;89:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:23;89:25">OTN Working/Protection mode. Only applies to a SYSOTN
+              channel. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:24;94:18">The OTN port rate for the modes above is chosen by the rate
+    parameter of of the g5_api_otn_prov() API with the g5_otuk_rate_t
+    enumeration. When the enumerators G5_OTUK_OTU4 or G5_OTUK_OTU4_PLUS of
+    g5_otuk_rate_t are selected, the OTU4 or OTU4+ is connected directly to
+    the SERDES. When the enumerator G5_OTUK_OTUC of g5_otuk_rate_t is
+    selected, an OTUCn group or groups must be created by the
+    g5_api_otucn_group_prov() API.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:25;100:42">The last parameter of the
+    g5_api_otn_prov() API is gfec_mode and its options are provided by the
+    enumeration g5_otn_fec_mode_t. The mode choices are shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_otn_fec_mode_t_Enumeration_Parameter__9jekaplo6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="xref:3;102:181" type="table"><?ditaot gentext?>Table 2</xref> below.</p><table id="table_g5_otn_fec_mode_t_Enumeration_Parameter__9jekaplo6" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="table:2;103:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="title:5;104:16">g5_otn_fec_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="tgroup:2;106:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="thead:2;107:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:6;108:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:11;109:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:26;109:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:12;111:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:27;111:25">FEC Mode </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="tbody:2;115:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:7;116:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:13;117:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:28;117:25"> G5_OTN_FEC_MODE_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:14;119:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:29;119:25">FEC is disabled and no processing is done.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:8;123:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:15;124:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:30;124:25"> G5_OTN_FEC_MODE_CORRECTION</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:16;126:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:31;126:25">FEC is enabled and any forward correction done in the
+              FEC correction module is performed. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:9;130:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:17;131:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:32;131:25">G5_OTN_FEC_MODE_PASSTHRU</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:18;133:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:33;133:25">FEC is enabled and it is simply passed through with no
+              FEC correction made. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="row:10;137:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:19;138:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:34;138:25">G5_OTN_FEC_MODE_DEFER</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="entry:20;140:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_OTN_Port_Provisioning_API_Details.xml" xtrc="p:35;140:25">In a restart case specifying this value results in the
+              channel retaining its current FEC value without having to
+              specify the value. On a cold startup or new channel provisioning
+              this value has the same affect as G5_OTN_FEC_MODE_NONE
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+  </body>
+</topic>

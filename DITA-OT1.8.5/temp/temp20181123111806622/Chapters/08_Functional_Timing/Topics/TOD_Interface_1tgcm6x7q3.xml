@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\08_Functional_Timing\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/08_Functional_Timing/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="TOD_Interface_1tgcm6x7q3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="topic:1;2:118">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="title:1;3:10">TOD Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:1;6:8">Each of the ingress and egress TOD interfaces
+    present a 1PPS signal, a serial TOD data stream, and a clock that enables
+    sampling of the TOD data stream. This protocol of this interface is shown
+    in <xref href="#TOD_Interface_1tgcm6x7q3/TODInputInterfaceFunctionalWaveforms" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="xref:1;9:85" type="fig"><?ditaot gentext?>Figure 1</xref>
+    and <xref href="#TOD_Interface_1tgcm6x7q3/TODOutputInterfaceFunctionalWaveforms" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="xref:2;10:87" type="fig"><?ditaot gentext?>Figure 2</xref>.</p>
+
+    <fig id="TODInputInterfaceFunctionalWaveforms" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="fig:1;12:52">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="title:2;13:14">TOD Input Interface Functional
+      Timing</title>
+
+      <image href="tod_input_wave.png" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="image:1;16:73"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:2;19:8">The ONE_PPS_I signal is expected to toggle at a
+    frequency of 1 Hz and its 0 to 1 transition is expected to align with the
+    moment when the integer seconds field of the timing master's TOD changes.
+    When ONE_PPS_I transitions to logic 1, a TSTMPR block dedicated to the
+    timing interface functions will capture the TOD value from the local
+    TSTMP_CNTR block.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:3;26:8">The rising edge of ONE_PPS_I indicates the
+    transition from one integer second to the next. The TOD that corresponds
+    to that rising edge is given in the following IRIG_DATI data stream. Note
+    that after the ONE_PPS_I falling edge, IRIG_DATI is logic 0. Then,
+    IRIG_DATI is set high for two IRIG_CLKI cycles. After these two clock
+    cycles, the integer seconds field of the corresponding TOD is given,
+    starting with the most-significant bit. For PTP, the integer seconds field
+    of the TOD is 48 bits long. Extra bits after the 48 valid IRIG_DATI bits
+    give no information and should be set to logic 0. IRIG_CLKI is normally
+    100 Hz, but higher clock rates can be accommodated.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:4;37:8">While the interface is tolerant to many combinations
+    of the IRIG_CLK frequency, the ONE_PPS_I pulse width, and the position of
+    the start-of-data event on IRIG_DATI relative to ONE_PPS_I, it is not
+    possible to test every combination. So, unless there is a special reason
+    not to, it is recommended that the nominal values shown in these waveforms
+    be used.</p>
+
+    <fig id="TODOutputInterfaceFunctionalWaveforms" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="fig:2;44:53">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="title:3;45:14">TOD Output Interface Functional
+      Timing</title>
+
+      <image href="tod_output_wave.png" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="image:2;48:74"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:5;51:8">The IRIG_DATO output gives the TOD that was true at
+    the previous rising edge of ONE_PPS_O. ONE_PPS_O will toggle at a nominal
+    frequency of 1 Hz, based on the local clock and transitions from 0 to 1 at
+    the moment when the integer seconds field of the local TOD changes.
+    ONE_PPS_O is an asynchronous input signal and its capture resolution is
+    nominally 8 ns (one clock cycle of the internal 125 MHz clock).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:6;58:8">The IRIG_DATO format is identical to that of
+    IRIG_DATI of the IRIGI component. After ONE_PPS_O transitions from 1 to 0,
+    the IRIG_DATO output will be logic 0. Then, IRIG_DATO will be logic 1 for
+    two consecutive IRIG_CLKO intervals. After this, two-period pulse on
+    IRIG_DATO, the next 48 bits give the integer seconds field of the local
+    PTP time stamp counter that was true at the previous ONE_PPS_O rising
+    edge. The most-significant bit of the time stamp value is output
+    first.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\TOD_Interface_1tgcm6x7q3.xml" xtrc="p:7;67:8">The output clock, IRIG_CLKO, is a ~100 Hz clock
+    derived from the local PTP_CLK. IRIG_CLKO is generated from the local
+    PTP_CLK.</p>
+  </body>
+</topic>

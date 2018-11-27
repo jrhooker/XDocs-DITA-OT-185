@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="FEC_Features_misge2eun" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="title:1;3:10">FEC Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:1;6:8">LINEOTN supports the following FEC features:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="ul:1;8:9">
+      <li id="d1e796" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:1;9:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:2;9:26">OTSiG/OTUk_A_So FEC encoder function according to the
+      12/2017 version of G.798 standards 16.3.1.</p></li>
+
+      <li id="d1e796" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:2;12:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:3;12:26">OTSiG/OTUk_A_Sk FEC decoder function according to the
+      12/2017 version of G.798 standards 16.3.2.</p></li>
+
+      <li id="d1e796" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:3;15:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:4;15:26">GFEC capable of processing 6x100G OTU4/OTUC
+      streams.</p></li>
+
+      <li audience="MSCCInternal" id="d1e796" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:4;18:47"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:5;18:50">GFEC capable of processing
+      12x 10G OTU2/OTU2e/OTU1e streams.</p></li>
+
+      <li id="d1e808" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:5;21:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:6;21:26">GFEC supports stream-based (OTUk/OTUC) FEC statistics
+      reporting through software.</p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:7;25:32"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="b:1;25:35">Rev B Changes</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:8;27:8"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="ul:2;27:12">
+        <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:6;28:37"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:9;28:40">Support for OTU2/OTU2e/OTU1e is
+        added</p></li>
+      </ul></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:10;32:8">The g5_api_otn_fec_mode_set() API sets the FEC mode for the specified
+    OTN channel. The FEC mode is set on the OTU channel referenced from the
+    channel id used in the g5_api_otn_traffic_prov function. The FEC operation
+    applies to GFEC as defined in the G.709 standard. FEC can be either
+    disabled, or enabled. If the latter then the it can be enabled to pass the
+    FEC through untouched or perform FEC error correction. The API has the
+    following parameters and associated enumerations:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="ul:3;40:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:7;41:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:11;41:14">device_id</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:8;43:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:12;43:14">chnl_id</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:9;45:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:13;45:14">mode - g5_otn_fec_mode_t</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:14;48:8">The device_id parameter is the device instance. The chnl_id parameter
+    is the user defined High Order ODU channel and it applies to the OTU side
+    of the segment.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:15;52:8">The mode parameter the g5_api_otn_prov() API is defined by the
+    enumeration g5_otn_fec_mode_t. The mode choices are shown in <xref href="#FEC_Features_misge2eun/table_g5_otn_fec_mode_t_Enumeration_Parameter__2jet4ub5c" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="xref:1;53:160" type="table"><?ditaot gentext?>Table 1</xref> below.</p>
+
+    <table id="table_g5_otn_fec_mode_t_Enumeration_Parameter__2jet4ub5c" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="table:1;56:74">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="title:2;57:14">g5_otn_fec_mode_t Enumeration</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="tgroup:1;59:24">
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="thead:1;60:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="row:1;61:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:1;62:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:16;62:23"> Enumerator</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:2;64:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:17;64:23">FEC Mode </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="tbody:1;68:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="row:2;69:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:3;70:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:18;70:23"> G5_OTN_FEC_MODE_NONE</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:4;72:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:19;72:23">FEC is disabled and no processing is done. </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="row:3;75:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:5;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:20;76:23"> G5_OTN_FEC_MODE_CORRECTION</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:6;78:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:21;78:23">FEC is enabled and any forward correction done in the
+            FEC correction module is performed. </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="row:4;82:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:7;83:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:22;83:23">G5_OTN_FEC_MODE_PASSTHRU</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:8;85:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:23;85:23">FEC is enabled and it is simply passed through with no
+            FEC correction made. </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="row:5;89:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:9;90:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:24;90:23">G5_OTN_FEC_MODE_DEFER</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="entry:10;92:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:25;92:23">In a restart case specifying this value results in the
+            channel retaining its current FEC value without having to specify
+            the value. On a cold startup or new channel provisioning this
+            value has the same affect as G5_OTN_FEC_MODE_NONE </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:26;101:32"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="b:2;101:35">Rev B Changes</b></p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="ul:4;103:9">
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="li:10;104:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\FEC_Features_misge2eun.xml" xtrc="p:27;104:38">Support for OTU2/OTU2e/OTU1e is
+      added</p></li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GMP_PMONs_1hiu8wgeqm" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="topic:1;2:114">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="title:1;3:10">GMP PMONs</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="body:1;5:9">
+    <table id="Supported_PMONs_for_GMP_RX__1iiu8wgeqm" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="table:1;6:56">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="title:2;7:14">Supported PMONs for GMP (RX)</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="tgroup:1;9:24">
+        <colspec colname="col1" colwidth="316*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="colspec:1;10:48"/>
+
+        <colspec colname="col2" colwidth="684*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="colspec:2;12:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="thead:1;14:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="row:1;15:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="entry:1;16:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="p:1;16:23">Statistic counters</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="entry:2;18:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="p:2;18:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="tbody:1;22:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="row:2;23:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="entry:3;24:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="p:3;24:23">SYNC_LOSS_CNT</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="entry:4;26:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="p:4;26:23">This counter is for demapper. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_PMONs_1hiu8wgeqm.xml" xtrc="p:5;26:61">GMP state machine
+            out of sync counter. This counter can only be used on a single
+            channel.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

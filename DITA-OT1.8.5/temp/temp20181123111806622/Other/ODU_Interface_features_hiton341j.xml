@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ODU_Interface_features_hiton341j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="title:1;3:10">ODU Interface features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:1;6:8">OTN is bi-directional so in each of the 4 interfaces, transmit channels
+    have the same type of receive channels.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:2;9:8">The LINEOTN<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="ph:1;9:58"> and SYSOTN</ph>
+    interface carries framed ODU data that is ready to be adapted to/from the
+    OTU layer. Optionally, the OTU overhead can be inserted/extracted through
+    the overhead insertion/extraction port. The following container rates are
+    supported:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="ul:1;15:9">
+      <li id="d1e763" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:1;16:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:3;16:26">100G: ODU4, ODU4+ and ODUC (nxODUC's will make an
+      ODUCn)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:4;20:8">The MAPOTN interface carries terminated ODU layer (PM) with valid OPU
+    bytes, the frame size is ODU frame size in this interface. The MAPOTN
+    supports 600G bandwidth. The following container rates are supported:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="ul:2;24:9">
+      <li id="d1e776" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:2;25:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:5;25:26">ODUflex: GFP, BMP, IMP types (rate 1.25G –
+      600G)</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e782" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:3;28:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:6;28:61">1.25G:
+      ODU0</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e788" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:4;31:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:7;31:61">2.5G:
+      ODU1</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e794" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:5;34:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:8;34:61">10G: ODU1e, ODU2,
+      ODU2e</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e800" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:6;37:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:9;37:61">40G: ODU3</p></li>
+
+      <li id="d1e807" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="li:7;39:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:10;39:26">100G: ODU4</p></li>
+    </ul>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Interface_features_hiton341j.xml" xtrc="p:11;42:43">The backplane interface is provided
+    through the COPI subsystem to the CBRI/Fabric interface. The ODU
+    containers supported are everything supported in the MAPOTN interface,
+    plus the following additional rates: ODU2f, ODU1f, ODU3e1, ODU3e2. Note
+    that ODUCn and ODU4+ are not fabric connected containers, i.e. they do not
+    go through the COPI. The aggregate bandwidth of this interface is
+    500G.</p>
+  </body>
+</topic>

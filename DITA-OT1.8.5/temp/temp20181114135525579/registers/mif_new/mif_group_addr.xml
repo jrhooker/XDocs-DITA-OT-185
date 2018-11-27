@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181114135525579\registers\mif_new?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181114135525579/registers/mif_new/?><?path2project ..\..\morristown\pdf\?><?path2project-uri ../../morristown/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="queue_addr" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="title:1;3:10">MIF Group CSR Addresses</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:1;6:9"/>
+
+    <table id="table_MIF_CSR_Address_Table_fitltbioq" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="table:1;8:55">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="title:2;9:14">MIF Group CSR Addresses</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="tgroup:1;11:24">
+        <colspec colname="col1" colwidth="148*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="colspec:1;12:35"/>
+
+        <colspec colname="col2" colwidth="218*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="colspec:2;14:35"/>
+
+        <colspec colname="col3" colwidth="634*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="colspec:3;16:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="thead:1;18:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="row:1;19:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="entry:1;20:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:2;20:23">Offset Address</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="entry:2;22:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:3;22:23">Register Mnemonic </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="entry:3;24:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:4;24:23">Register Description </p></entry>
+          </row>
+        </thead>
+
+        <address-map xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" class="- topic/tbody m-software-d/address-map " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-map:1;28:87">
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:1;29:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:1;30:22">0x0000</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:1;32:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:1;33:30">QGCTL</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:1;36:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:5;37:18"><xref href="mif_registers.xml#register/table_QGCTL_-_Queue_Group_Control_6j6ph2x3u" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:1;37:103" type="table"><?ditaot gentext?>Table 1</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:2;41:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:2;42:22">0x0004</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:2;44:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:2;45:30">QGSTS</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:2;48:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:6;49:18"><xref href="mif_registers.xml#register/table_QGSTS_-_Queue_Group_Status_1j6pgjgjp" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:2;49:102" type="table"><?ditaot gentext?>Table 2</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:3;53:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:3;54:22">0x0008</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:3;56:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:3;57:30">MIFEC</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:3;60:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:7;61:18"><xref href="mif_registers.xml#register/table_MIFEC-_MIF_Error_Control_0j13zdu7s" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:3;61:100" type="table"><?ditaot gentext?>Table 3</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:4;65:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:4;66:22">0x000C</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:4;68:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:4;69:30">QGCTL2</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:4;72:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:8;73:18"><xref href="mif_registers.xml#register/table_QGCTL2_-_Queue_Group_Control_2_2j6pglbov" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:4;73:106" type="table"><?ditaot gentext?>Table 4</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:5;77:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:5;78:22">0x0010</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:5;80:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:5;81:30">QMEMAPROP</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:5;84:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:9;85:18"><xref href="mif_registers.xml#register/table_QMEMAPROP_-_Queue_Memory_Access_Properti_3j6pgnkw2" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:5;85:116" type="table"><?ditaot gentext?>Table 5</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:6;89:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:6;90:22">0x0014</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:6;92:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:6;93:30">QMEMAPROT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:6;96:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:10;97:18"><xref href="mif_registers.xml#register/table_QMEMAPROT_-_Queue_Memory_Access_Protecti_4j6pgolln" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:6;97:116" type="table"><?ditaot gentext?>Table 6</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:7;101:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:7;102:22">0x0018</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:7;104:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:7;105:30">RWMEMPROPT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:7;108:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:11;109:18"><xref href="mif_registers.xml#register/table_RWMEMPROPT_-_Register_Write_Memory_Prope_5j6pgpved" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:7;109:116" type="table"><?ditaot gentext?>Table 7</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:8;113:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:8;114:22">0x0080</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:8;116:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:8;117:30">ILRTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:8;120:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:12;121:18"><xref href="mif_registers.xml#register/table_ILRTCNT_Inbound_Line_Read_Total_Count_2ivtywm2b" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:8;121:113" type="table"><?ditaot gentext?>Table 8</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:9;125:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:9;126:22">0x0084</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:9;128:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:9;129:30">IMRTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:9;132:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:13;133:18"><xref href="mif_registers.xml#register/table_IMRTCNT_Inbound_Message_Read_Total_Count_2itpd9yhl" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:9;133:116" type="table"><?ditaot gentext?>Table 9</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:10;137:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:10;138:22">0x0088</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:10;140:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:10;141:30">IRWTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:10;144:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:14;145:18"><xref href="mif_registers.xml#register/table_IRWTCNT_Inbound_Register_Write_Total_Cou_3itpd9yhl" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:10;145:116" type="table"><?ditaot gentext?>Table 10</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:11;149:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:11;150:22">0x008C</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:11;152:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:11;153:30">OLWTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:11;156:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:15;157:18"><xref href="mif_registers.xml#register/table_OLWTCNT_Outbound_Line_Write_Total_Count_3ivtyxy03" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:11;157:115" type="table"><?ditaot gentext?>Table 11</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:12;161:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:12;162:22">0x0090</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:12;164:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:12;165:30">OMWTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:12;168:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:16;169:18"><xref href="mif_registers.xml#register/table_OMWTCNT_Outbound_Message_Write_Total_Cou_5itpd9yhl" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:12;169:116" type="table"><?ditaot gentext?>Table 12</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:13;173:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:13;174:22">0x0094</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:13;176:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:13;177:30">ORWTCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:13;180:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:17;181:18"><xref href="mif_registers.xml#register/table_ORWTCNT_Outbound_Register_Write_Total_Co_6itpd9yhl" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:13;181:116" type="table"><?ditaot gentext?>Table 13</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:14;185:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:14;186:22">0x0098</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:14;188:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:14;189:30">QDBGCFG</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:14;192:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:18;193:18"><xref href="mif_registers.xml#register/table_QDBGCFG_-_Queue_Debug_Configuration_7itpd9yhl" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:14;193:111" type="table"><?ditaot gentext?>Table 14</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:15;197:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:15;198:22">0x009C</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:15;200:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:15;201:30">ARBP</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:15;204:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:19;205:18"><xref href="mif_registers.xml#register/table_ARBP_-_ACEL_Read_Back_pressure_1j2ti4hwf" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:15;205:106" type="table"><?ditaot gentext?>Table 15</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:16;209:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:16;210:22">0x00A0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:16;212:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:16;213:30">AWBP</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:16;216:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:20;217:18"><xref href="mif_registers.xml#register/table_AWBP_-_ACEL_Write_Back_pressure_3j2ti543k" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:16;217:107" type="table"><?ditaot gentext?>Table 16</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:17;221:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:17;222:22">0x00A4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:17;224:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:17;225:30">IRQCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:17;228:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:21;229:18"><xref href="mif_registers.xml#register/table_IRQCNT_-_Inbound_Read_Queue_Count_0j2ti42fb" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:17;229:109" type="table"><?ditaot gentext?>Table 17</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:18;233:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:18;234:22">0x00A8</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:18;236:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:18;237:30">OWQCNT</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:18;240:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:22;241:18"><xref href="mif_registers.xml#register/table_OWQCNT_-_Outbound_Line_Write_Queue_Count_2j2ti4qdt" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:18;241:116" type="table"><?ditaot gentext?>Table 18</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:19;245:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:19;246:22">0x00B0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:19;248:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:19;249:30">IMQEMPTY</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:19;252:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:23;253:18"><xref href="mif_registers.xml#register/table_IMQEMPTY_Inbound_Message_Queue_Empty_0ivr7x1fq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:19;253:112" type="table"><?ditaot gentext?>Table 19</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:20;257:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:20;258:22">0x00B4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:20;260:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:20;261:30">OMQFULL</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:20;264:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:24;265:18"><xref href="mif_registers.xml#register/table_OMQFULL_Outbound_Message_Queue_Full_1ivr7x1fq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:20;265:111" type="table"><?ditaot gentext?>Table 20</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:21;269:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:21;270:22">0x00C0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:21;272:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:21;273:30">MIFDBG</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:21;276:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:25;277:18"><xref href="mif_registers.xml#register/table_MIFDBG_1izysdoyr" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:21;277:82" type="table"><?ditaot gentext?>Table 21</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:22;281:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:22;282:22">0x00C4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:22;284:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:22;285:30">INDBGINFO</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:22;288:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:26;289:18"><xref href="mif_registers.xml#register/table_INDBG_Inbound_Debug_Info_0j0muct2b" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:22;289:100" type="table"><?ditaot gentext?>Table 22</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:23;293:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:23;294:22">0x00C8</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:23;296:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:23;297:30">OUTDBGINFO</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:23;300:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:27;301:18"><xref href="mif_registers.xml#register/table_OUTDBG_Outbound_Debug_Info_1j0muct2b" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:23;301:102" type="table"><?ditaot gentext?>Table 23</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:24;305:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:24;306:22">0x00CC</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:24;308:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:24;309:30">QGSTS2</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:24;312:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:28;313:18"><xref href="mif_registers.xml#register/table_MQGSTS2_-_Message_Queue_Group_Status_2_0j147iinu" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:24;313:114" type="table"><?ditaot gentext?>Table 24</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:25;317:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:25;318:22">0x00D0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:25;320:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:25;321:30">MRAMSBESTS</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:25;324:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:29;325:18"><xref href="mif_registers.xml#register/table_MRAMSBESTS_-_MIF_Ram_Single_Bit_Error_St_8j16wjpwq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:25;325:116" type="table"><?ditaot gentext?>Table 25</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:26;329:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:26;330:22">0x00D4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:26;332:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:26;333:30">MRAMDBESTS</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:26;336:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:30;337:18"><xref href="mif_registers.xml#register/table_MRAMDBESTS_-_MIF_Ram_Double_Bit_Error_St_9j16wlna0" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:26;337:116" type="table"><?ditaot gentext?>Table 26</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:27;341:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:27;342:22">0x00D8</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:27;344:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:27;345:30">MRAMECTL</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:27;348:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:31;349:18"><xref href="mif_registers.xml#register/table_MRAMECTL_-_MIF_Embedded_RAM_Error_Contro_aj16wmy4y" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:27;349:116" type="table"><?ditaot gentext?>Table 27</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:28;353:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:28;354:22">0x00E0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:28;356:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:28;357:30">MCERRSTS</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:28;360:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:32;361:18"><xref href="mif_registers.xml#register/table_MCERRSTS_-_MIF_Correctable_Error_Status_bj16wsaq2" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:28;361:115" type="table"><?ditaot gentext?>Table 28</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:29;365:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:29;366:22">0x00E4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:29;368:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:29;369:30">MCERRMSK</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:29;372:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:33;373:18"><xref href="mif_registers.xml#register/table_MCERRMSK_-_MIF_Corrected_Error_Mask_cj16wt3q8" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:29;373:111" type="table"><?ditaot gentext?>Table 29</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:30;377:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:30;378:22">0x00E8</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:30;380:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:30;381:30">MCERRSWTGR</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:30;384:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:34;385:18"><xref href="mif_registers.xml#register/table_MCERRSWTGR_-_MIF_Corrected_Error_Softwar_dj16wtxm6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:30;385:116" type="table"><?ditaot gentext?>Table 30</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:31;389:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:31;390:22">0x00F0</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:31;392:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:31;393:30">MUERRSTS</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:31;396:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:35;397:18"><xref href="mif_registers.xml#register/table_MUERRSTS_-_MIF_UNCorrectable_Error_Statu_gj16wzz49" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:31;397:116" type="table"><?ditaot gentext?>Table 31</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:32;401:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:32;402:22">0x00F4</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:32;404:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:32;405:30">MUCERRMSK</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:32;408:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:36;409:18"><xref href="mif_registers.xml#register/table_MUCERRMSK_-_MIF_UNCorrected_Error_Mask_fj16wzk67" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:32;409:114" type="table"><?ditaot gentext?>Table 32</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:33;413:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:33;414:22">0x00F8</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:33;416:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:33;417:30">MUCERRSWTGR</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:33;420:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:37;421:18"><xref href="mif_registers.xml#register/table_MUCERRSWTGR_-_MIF_Corrected_Error_Softwa_hj16x2rgm" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:33;421:116" type="table"><?ditaot gentext?>Table 33</xref></p>
+            </address-details>
+          </register-reference>
+
+          <register-reference audience="MSCCInternal" class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="register-reference:34;425:55">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address:34;426:22">0x1FFC</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-element:34;428:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="addr-mnemonic:34;429:30">RESERVED</addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="address-details:34;432:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:38;433:18"><xref href="mif_registers.xml#register/table_RESERVED_-_RESERVED_0j366tkl9" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="xref:34;433:95" type="table"><?ditaot gentext?>Table 49</xref></p>
+            </address-details>
+          </register-reference>
+        </address-map>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\registers\mif_new\mif_group_addr.xml" xtrc="p:39;440:9"/>
+  </body>
+</topic>

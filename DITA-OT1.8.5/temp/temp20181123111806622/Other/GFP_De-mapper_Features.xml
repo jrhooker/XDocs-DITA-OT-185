@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="GFP_De-mapper_Features" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="topic:1;2:128">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="title:1;3:10">GFP De-mapper</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:1;6:9">
+      <li id="d1e2564" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:1;7:27">Supports 5 slices of GFP demapper.<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ph:1;7:100"> With each slice supporting upto 96
+      channels. Maximum number of channel supported through all slice is 120.
+      Maximum combined bandwidth supported through all the slices is 500G. Per
+      slice bandwidth limited to 120G.</ph></p></li>
+
+      <li id="d1e2716" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:2;12:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:2;12:27">Extracts GFP frames from an incoming OPUk frame
+      based on different OPUk mappings used and provides extracted GFP frames
+      to the GFP-F de-mapper engine.</p></li>
+
+      <li id="d1e2722" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:3;16:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:3;16:27">De-encapsulation of incoming GFP-F frame payload as
+      described in ITU-T G.7041// Y.1303 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_G7041" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="xref:1;17:132" type="li"><?ditaot gentext?>14</xref>
+      </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:2;18:15">
+          <li id="d1e2731" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:4;19:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:4;19:31">Core, type and extension headers are decoded by
+          this block.</p></li>
+        </ul></li>
+
+      <li id="d1e2739" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:5;23:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:5;23:27">Provides received GFP frame synchronization with a
+      user-programmable number of consecutively detected good core
+      headers.</p></li>
+
+      <li id="d1e2745" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:6;27:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:6;27:27">Performs multi-bit error detection with optional
+      single-bit error correction on the GFP frame core header only in the
+      “SYNC” state. Uncorrected cHEC errors results in all the frame data to
+      be dropped in de-mapper.</p></li>
+
+      <li id="d1e2751" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:7;32:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:7;32:27">Optionally removes DC-balancing Barker-like code
+      from the core header.</p></li>
+
+      <li id="d1e2758" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:8;35:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:8;35:27">Provides multi-bit error detection with optional
+      single-bit error correction on the GFP frame type header. Uncorrected
+      frames are discarded. Type header fields (PTI, PFI, EXI and UPI) are
+      accepted only after type check is complete.</p></li>
+
+      <li id="d1e2764" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:9;40:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:9;40:27">Provides multi-bit error detection and single-bit
+      error correction on the GFP frame linear Extension Header. Single bit
+      error correction is not supported for ring extension header. Corrupt
+      frames are discarded and counted.</p></li>
+
+      <li id="d1e2770" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:10;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:10;45:27">Optionally de-scrambles the GFP payload area
+      according to the generating polynomial G(x) = x^43+1.</p></li>
+
+      <li id="d1e2776" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:11;48:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:11;48:27">Supports discarding of GFP client data frames with
+      client payload area greater than programmed maximum length.</p></li>
+
+      <li id="d1e2782" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:12;51:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:12;51:27">Supports discarding of GFP client data frames with
+      client payload area less than programmed minimum length.</p></li>
+
+      <li id="d1e2788" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:13;54:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:13;54:27">Supports monitoring of client frame length in
+      user-defined ranges. This monitoring is done after GFP de-encapsulation
+      process.</p></li>
+
+      <li id="d1e2795" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:14;58:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:14;58:27">Terminates and discards GFP Idle frames (PLI =
+      0).</p></li>
+
+      <li id="d1e2801" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:15;61:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:15;61:27">Terminates and discards GFP Control frames with PLI
+      = 1, 2, and 3, which are assumed to be composed of 4 bytes always (that
+      is only core header). When the frames with PLI =1, 2 and 3 are received
+      the interrupt is raised for that channel.</p></li>
+
+      <li id="d1e2807" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:16;66:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:16;66:27">Extracts the UPI field from the extracted GFP
+      frame.</p></li>
+
+      <li id="d1e2813" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:17;69:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:17;69:27">Provides programmable extension header size
+      definitions (0 to 60 bytes) based on EXI values, with per channel
+      interrupt generation upon mismatch.</p></li>
+
+      <li id="d1e2819" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:18;73:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:18;73:27">Provides programmable type header matching filters
+      with programmable frame disposition options to discard or forward frames
+      to egress interface or CPU FIFO or CSF FIFO.</p></li>
+
+      <li id="d1e2825" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:19;77:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:19;77:27">Provides extension header type filter with
+      programmable disposition options to discard the frame, forward to CPU or
+      pass for further processing.</p></li>
+
+      <li id="d1e2832" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:20;81:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:20;81:27">Offers one programmable index (range from 0 to 64)
+      and maskable 4-byte window generic filter with programmable frame
+      disposition options to discard or forward frames to either egress
+      interface or CPU.</p></li>
+
+      <li id="d1e2838" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:21;86:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:21;86:27">Provides a status register to report PTI/UPI and
+      Extension header type filter failure. It captures the type header and
+      channel ID for which the filter has failed. It is a global status
+      register which can be configured to capture filter failure for a
+      particular channel or any channel.</p></li>
+
+      <li id="d1e2844" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:22;92:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:22;92:27">Optionally checks the incoming payload for CRC/FCS
+      errors (GFP FCS/Ethernet FCS) and either drop the frame or report error.
+      Checking of FCS and reporting error is supported irrespective of whether
+      stripping of FCS is enabled or disabled. To strip the FCS bytes,
+      checking of FCS should be enabled.</p></li>
+
+      <li id="d1e2850" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:23;98:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:23;98:27">Supports a separate programming option to remove
+      Ethernet FCS or GFP frame pFCS. pFCS check is performed only if the PFI
+      bit is set in incoming GFP frame</p></li>
+
+      <li id="d1e2856" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:24;102:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:24;102:27">Core headers for de-mapped GFP frames are always
+      removed. Programmable options for the removal of the Type Header and the
+      Extension Header from GFP frames are available. Two configurable bits
+      per channel will be used to control the header removal.</p></li>
+
+      <li id="d1e2862" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:25;107:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:25;107:27">Implements programmable definition of GFP Client
+      Signal Failure (CSF) frames with CPU interrupt upon reception. The UPI
+      of the received GFP CMF frame is used for the identification of CSF
+      frames for the purpose of forwarding trunk to client consequential
+      actions <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_Gsup43" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="xref:2;111:106" type="li"><?ditaot gentext?>12</xref>
+      .</p></li>
+
+      <li audience="MSCCInternal" id="d1e2871" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:26;114:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:26;114:51">Provides dedicated hardware
+      support to check CSF frame/defect indication and capture their UPI into
+      FIFO, which can be read out through a microprocessor interface. The CSF
+      Status FIFO is common for all channels and has a depth of 96. Each entry
+      has only extracted UPI and corresponding channel ID. (Note that if the
+      status FIFO is used to capture MCF frames, then it is not possible to
+      distinguish MCF from CMF).</p></li>
+
+      <li audience="MSCCInternal" id="d1e2877" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:27;122:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:27;122:51">Provides a dedicated
+      interrupt output for PAUSE / CMF / CSF clear interrupts. This dedicated
+      interrupt output is intended to be used by firmware. Whenever the client
+      management frame is received, a change interrupt will be asserted and
+      the extracted UPI field along with the channel number is pushed in
+      dedicated CSF Status FIFO.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2883" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:28;129:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:28;129:51">Supports per channel
+      back-pressure from the GFP-F de-mapper to the ODUk receive
+      framer.</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e2889" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:29;133:59"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:29;133:62">Supports G.Sup43
+      6.2 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_Gsup43" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="xref:3;134:102" type="li"><?ditaot gentext?>12</xref>
+      de-mapping from ODU2.</p></li>
+
+      <li id="d1e2897" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:30;137:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:30;137:27">Supports <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ph:2;137:75">40GE
+      and </ph>100GE GFP-F de-mapping from<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ph:3;138:82"> OPU3 and</ph> OPU4<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ph:4;138:140"> respectively</ph>.</p></li>
+
+      <li id="d1e2910" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:31;140:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:31;140:27">Provides GFP defects (dLFD, dUPM, dEXM and dCSF) on
+      a per channel basis at the egress interface. Each of these defects can
+      be masked on a per channel basis.</p></li>
+
+      <li id="d1e2916" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:32;144:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:32;144:27">Supports extraction of OPUflex RCOH header.</p></li>
+
+      <li id="d1e2922" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:33;146:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:33;146:27">Provides per-channel configuration, control, status
+      and performance monitoring registers.</p></li>
+
+      <li id="d1e2928" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:34;149:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:34;149:27">Provides performance monitor status counters per
+      channel. All the counters saturate after reaching their maximum
+      value.</p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:35;154:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:1;154:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:1;154:57"> <i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:2;154:84">[DDD/HWS] </i>At this point, we should add sections
+    from the G4 HWS to clarify additional features that a customer will need
+    to know about when configuring the device, and for which there will be
+    associated APIs. I think the sections from G4 hardware specification that
+    are important are</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:36;160:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:2;160:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:3;160:57"> <i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:4;160:84">[DDD/HWS]</i> Please add following sections from
+    PMC-2133222</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:37;163:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:3;163:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:5;163:57">GFP Mapper</i>
+    </b></p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:3;166:33">
+      <li id="d1e2960" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:35;167:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:38;167:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:4;167:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:6;167:53">Management Frame
+      Insertion</i> </b> </p></li>
+
+      <li id="d1e2968" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:36;170:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:39;170:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:5;170:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:7;170:53">FCS generation logic</i>
+      </b> </p></li>
+
+      <li id="d1e2976" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:37;173:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:40;173:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:6;173:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:8;173:53">Type Header UPI Insertion
+      Logic</i> </b> </p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:41;177:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:7;177:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:9;177:57">GFP Demapper</i>
+    </b></p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:4;180:33">
+      <li id="d1e2992" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:38;181:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:42;181:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:8;181:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:10;181:53">Signal Fail Handling (with
+      implementation detail removed)</i> </b> </p></li>
+
+      <li id="d1e3000" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:39;184:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:43;184:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:9;184:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:11;184:53">GFP Header Extractor and
+      Filter Block</i> </b> </p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:5;185:38">
+          <li id="d1e3009" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:40;186:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:44;186:31"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:10;186:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:12;186:57">In this case, we have
+          had a lot of difficulty explaining the configuration of these
+          filters to customers. </i> </b> </p></li>
+
+          <li id="d1e3017" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:41;190:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:45;190:31"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:11;190:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:13;190:57">The G4 programmers
+          guide (PMC-2142802) has good introductory material:</i> </b>
+          </p></li>
+        </ul></li>
+
+      <li id="d1e3027" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:42;195:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:46;195:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:12;195:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:14;195:53">CSF Status FIFO</i> </b>
+      </p></li>
+
+      <li id="d1e3035" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:43;198:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:47;198:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:13;198:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:15;198:53">CPU Data FIFO</i> </b>
+      <draft-comment author="hookerje" time="Wed 10/19/2016 05:02 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="draft-comment:1;199:71">I've
+      added the GFP mapper and demapper sections from the old G4 DDD, but the
+      remainder of the content will need to be determined by someone with more
+      expertise.</draft-comment></p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:48;205:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:14;205:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:16;205:57">GFP-F User Specific
+    Filtering Content Recommendation</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:49;208:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:15;208:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:17;208:57"> <i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:18;208:84">[DDD/HWS]</i> Following Information is to added
+    from PMC-2102151</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:50;211:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:16;211:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:19;211:57">MAPOTN GFP De-mapper
+    can perform user specific GFP-F filter configuration. The basic GFP-F
+    filtering configuration described in section TBD will exclude all client
+    frames with PTI not matching Data frames (PTI=0), CMF frames (PTI=4), and
+    MCF frames (PTI=5). For CMF frames some UPI values will have been excluded
+    based on the CMF UPI range selection configuration. These excluded data
+    streams are internally dropped. Filtered frames can be forwarded or sent
+    to the device CSF status FIFO or sent to the device CPU data FIFO for
+    implementing trunk to client consequential actions.</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:51;221:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:17;221:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:20;221:57">The classification and
+    action may occur prior to the basic filter operation or after it. If there
+    are not sufficient filter resources available in the GFP filter block for
+    the requested filtering the software API to configure it will return an
+    error</i> </b><draft-comment author="hookerje" time="Wed 10/19/2016 05:06 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="draft-comment:2;225:98">I've added the previous to
+    paragraph as the intro to the GFP mapper section.</draft-comment></p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:6;228:33">
+      <li id="d1e3069" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:44;229:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:52;229:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:18;229:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:21;229:53">Add section
+      5.6.2.1/5.6.2.1.1, 5.6.2.1/5.6.2.1.2 from the RGFP F TSB document to the
+      hardware specification</i> </b> </p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:53;234:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:19;234:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:22;234:57">For the example,
+    replace the figure and table examples in the TSB eng doc. with the
+    following examples from the G4 programmers guide (APIs cannot be included
+    in G5 HWS at the current time as the APIs may change).</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:54;239:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:20;239:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:23;239:57">Example 1:</i>
+    </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:55;242:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:21;242:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:24;242:57">To send client frames
+    to the egress and management frames to the CPU:</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:56;245:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:22;245:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:25;245:57">result =
+    digi_mapper_gfp_client_classify_prov( digi_handle, mapper_chnl_ptr,
+    MAPOTN_CPU_FIFO, MAPOTN_FORWARD_ALL_UPI 0,0,0,0);</i> </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:57;249:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:23;249:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:26;249:57">Example 2:</i>
+    </b></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:58;252:32"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:24;252:53"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:27;252:57">To configure filters
+    to perform the following:</i> </b></p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="ul:7;255:33">
+      <li id="d1e3112" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:45;256:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:59;256:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:25;256:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:28;256:53">Send Management frames to
+      the CPU for FW processing</i> </b> </p></li>
+
+      <li id="d1e3120" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:46;259:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:60;259:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:26;259:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:29;259:53">Drop frames which an
+      extension header indicator not equal to 0 and trigger a defect
+      (dEXM)</i> </b> </p></li>
+
+      <li id="d1e3128" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:47;263:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:61;263:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:27;263:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:30;263:53">Send Client frames with a
+      UPI value=1 to the egress. </i> </b> </p></li>
+
+      <li id="d1e3136" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:48;266:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:62;266:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:28;266:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:31;266:53">Drop client frames with
+      UPI != 1 and trigger a defect (dUPM).</i> </b> </p></li>
+
+      <li id="d1e3144" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="li:49;269:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:63;269:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:29;269:49"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="i:32;269:53">Drop remaining frames</i>
+      </b> </p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="p:64;273:8"><codeblock audience="MSCCInternal" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="codeblock:1;273:43">/* Send management frames to CPU */ 
+ result = digi_mapper_gfp_user_client_classify_prov( 
+  digi_handle, 
+  mapper_chnl_ptr, 
+  0x1, /* Check PTI */ 
+  MAPOTN_FLD_EQ, 4, /* PTI = 4 */ 
+  MAPOTN_FLD_EQ, 0, /* UPI = don’t care*/ 
+  MAPOTN_FLD_EQ, 0, /* EXI = don’t care*/ 
+  MAPOTN_FLD_EQ, 0, /* PFI = don’t care*/ 
+  MAPOTN_ACTION_CPU, MAPOTN_PRE_CLASSIFY); 
+  /* Drop frames that don’t have an EXI=0 + trigger a dEXM */ 
+  result = digi_mapper_gfp_user_client_classify_prov( 
+  digi_handle, 
+  mapper_chnl_ptr, 
+  0x4, /* Check EXI */ 
+  MAPOTN_FLD_EQ, 0, /* PTI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* UPI = don’t care*/ 
+  MAPOTN_FLD_NQ, 0, /* EXI != 0 =&gt; drop*/ 
+  MAPOTN_FLD_EQ, 0, /* PFI = don’t care*/ 
+  MAPOTN_ACTION_DROP, MAPOTN_PRE_CLASSIFY);  
+  /* Send Client frames with UPI=1 to egress */ 
+  result = digi_mapper_gfp_user_client_classify_prov( 
+  digi_handle, 
+  mapper_chnl_ptr, 
+  0x3, /* Check EXI */ 
+  MAPOTN_FLD_EQ, 0, /* PTI = 0 */ 
+  MAPOTN_FLD_EQ, 1, /* UPI = 1 */ 
+  MAPOTN_FLD_EQ, 0, /* EXI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* PFI = don’t care*/ 
+  MAPOTN_ACTION_EGRESS, MAPOTN_PRE_CLASSIFY); 
+  /* Drop remaining client frames + trigger a dUPM */ 
+  result = digi_mapper_gfp_user_client_classify_prov( 
+  digi_handle, 
+  mapper_chnl_ptr, 
+  0x1, /* Check PTI */ 
+  MAPOTN_FLD_EQ, 0, /* PTI = 0 */ 
+  MAPOTN_FLD_EQ, 0, /* UPI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* EXI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* PFI = don’t care*/ 
+  MAPOTN_ACTION_DROP, MAPOTN_PRE_CLASSIFY); 
+  /* Drop remaining frames */ 
+  result = digi_mapper_gfp_user_client_classify_prov( 
+  digi_handle, 
+  mapper_chnl_ptr, 
+  0x0, /* Don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* PTI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* UPI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* EXI = don’t care */ 
+  MAPOTN_FLD_EQ, 0, /* PFI = don’t care*/ 
+  MAPOTN_ACTION_DROP, MAPOTN_PRE_CLASSIFY); </codeblock><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_De-mapper_Features.xml" xtrc="b:30;322:78">
+    </b></p>
+  </body>
+</topic>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\12_Absolute_Maximum_Ratings?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/12_Absolute_Maximum_Ratings/?><?path2project ..\..\?><?path2project-uri ../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="a_12_absolute_maximum_ratings" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="title:1;3:10">Absolute Maximum Ratings</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="body:1;5:9">
+    <table id="Absolute_Maximum_Ratings_d0e3075" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="table:1;6:50">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="title:2;7:14">Device Absolute Maximum Ratings</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="tgroup:1;9:24">
+        <colspec colname="col1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="colspec:1;10:32"/>
+
+        <colspec colname="col2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="colspec:2;12:32"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="thead:1;14:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:1;15:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:1;16:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:1;16:23">Parameter</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:2;18:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:2;18:23">Min/Max Value</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="tbody:1;22:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:2;23:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:3;24:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:3;24:23">Storage Temperature</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:4;26:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:4;26:23">-40 °C to +105 °C</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:3;29:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:5;30:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:5;30:23">Shipping Temperature</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:6;32:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:6;32:23">-40 °C to +105 °C</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:4;35:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:7;36:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:7;36:23">Reflow Temperature</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:8;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:8;38:23">This is a function of the package type. For more
+            information please see <xref href="../02_References/a_02_references.xml#a_02_references/Int_ref_reflow" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="xref:1;39:118" type="li"><?ditaot gentext?>2</xref>.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:5;42:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:9;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:9;43:23">Absolute Maximum Junction Temperature
+            (T<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="sub:1;44:20">J</sub>)</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:10;46:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:10;46:23">+125 °C</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:6;49:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:11;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:11;50:23">0.8 V Supply Voltage (VDD, AVD_0V8)</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:12;52:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:12;52:23">-0.3 V to 1.2 V</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:7;55:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:13;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:13;56:23">1.8 V Supply Voltage (VDDO_1V8, AVD_1V8)</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:14;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:14;58:23">-0.3 V to 2.2 V</p></entry>
+          </row>
+
+          <row audience="MSCCInternal" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:8;61:40">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:15;62:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:15;62:23">Latch-up Current </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:16;64:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:16;64:23"> <ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="ph:1;64:28">±100 mA</ph> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:9;67:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:17;68:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:17;68:23">Input Current</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:18;70:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:18;70:23">±20 mA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:10;73:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:19;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:19;74:23">Input Pad Tolerance</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:20;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:20;76:23">-1.5 V &lt; Vpin &lt; VDD (1.8 V) + 1.5 V</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:21;76:72">For 100
+            ns, 100 mA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:11;80:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:21;81:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:22;81:23">Output Pad Overshoot Limits</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:22;83:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:23;83:23">-1.5 V &lt; Vpin &lt; VDD (1.8 V) + 1.5 V </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:24;83:73">For
+            100 ns, 100 mA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:12;87:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:23;88:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:25;88:23">Voltage on any Digital Pin</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:24;90:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:26;90:23"> -0.5 V to VDD (1.8 V) + 0.5 V</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="row:13;93:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:25;94:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:27;94:23">ESD Protection </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="entry:26;96:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:28;96:23">500 V HBM and 125 V CDM for all I/O</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="note:1;102:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="ol:1;102:15">
+        <li id="note_1_Absolute_Maximum_Ratings_are_not_intended" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="li:1;103:67"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:29;103:70">Absolute
+        Maximum Ratings are not intended for normal device operation. Absolute
+        Maximums are values beyond which permanent damage to the device is
+        likely to occur. Sustained operation of a device at conditions in
+        excess of the recommended operating conditions (given in <xref href="../09_Power/Topics/a_09_power.xml#a_09_power" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="xref:2;107:125" type="topic"><?ditaot gentext?>Power</xref>
+        and <xref href="../10_Thermal_Information/Topics/a_10_thermal_information.xml#a_10_thermal_information" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="xref:3;108:114" type="topic"><?ditaot gentext?>Thermal Information</xref>),
+        even though within Absolute Maximum Ratings, may also result in
+        permanent device damage or loss of reliability. Functionality is not
+        guaranteed at conditions exceeding recommended operating conditions.
+        The absolute maximum rating is meant to cover transient voltage
+        conditions only, it is not meant for DC voltage levels.</p></li>
+
+        <li audience="MSCCInternal" id="abs_max_ratings_esd_limit" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="li:2;115:68"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\12_Absolute_Maximum_Ratings\a_12_absolute_maximum_ratings.xml" xtrc="p:30;115:71">For
+        revB, the ESD Protection will meet 1kV HBM and 200V CDM. See PREP
+        456882.</p></li>
+      </ol></note>
+  </body>
+</topic>

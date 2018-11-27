@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Supported_GMP_Mappings_iiu8wgeql" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="title:1;3:10">Supported GMP Mappings</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:1;6:8">MAPOTN supports up to 6x100G of GMP mapped clients. <xref href="Supported_GMP_Mappings_iiu8wgeql.xml#Supported_GMP_Mappings_iiu8wgeql/Supported_GMP_Mappings_jiu8wgeql" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="xref:1;6:177" type="table"><?ditaot gentext?>Table 1</xref>
+    lists the GMP mappings supported by MAPOTN.</p>
+
+    <table id="Supported_GMP_Mappings_jiu8wgeql" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="table:1;9:50">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="title:2;10:14">Supported GMP Mappings</title>
+
+      <tgroup cols="7" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="tgroup:1;12:24">
+        <colspec colname="col1" colwidth="6*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:1;13:46"/>
+
+        <colspec colname="col2" colwidth="15*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:2;15:47"/>
+
+        <colspec colname="col3" colwidth="11*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:3;17:47"/>
+
+        <colspec colname="col4" colwidth="11*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:4;19:47"/>
+
+        <colspec colname="col5" colwidth="11*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:5;21:47"/>
+
+        <colspec colname="col6" colwidth="21*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:6;23:47"/>
+
+        <colspec colname="col7" colwidth="24*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="colspec:7;25:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="thead:1;27:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="row:1;28:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:1;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:2;29:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:1;29:45">Sr. No.</b> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:2;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:3;31:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:2;31:45">Client Data</b> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:3;33:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:4;33:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:3;33:45">Mapped Into</b> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:4;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:5;35:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:4;35:45">OPUk Mapping Scheme</b>
+            </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:5;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:6;38:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:5;38:45">Mapping rate </b> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:6;40:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:7;40:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:6;40:44">Standard Reference</b> </p></entry>
+
+            <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:7;42:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:8;42:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="b:7;42:45">Comments</b> </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="tbody:1;46:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="row:2;47:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:8;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:9;48:23">1</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:9;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:10;50:23">100GE</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:10;52:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:11;52:23">OPU4</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:11;54:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:12;54:23">GMP</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:12;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:13;56:23">Client</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:13;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:14;58:23">G.709: 17.7.5 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_G709" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="xref:2;58:126" type="li"><?ditaot gentext?>13</xref>
+            </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:15;59:21">G.798: 14.3.8 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_G798" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="xref:3;59:124" type="li"><?ditaot gentext?>15</xref>
+            </p></entry>
+
+            <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:14;62:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="row:3;65:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:15;66:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:16;66:23">2</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:16;68:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:17;68:23">FlexE(n*100G) Unaware</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:17;70:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:18;70:23">OPU4</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:18;72:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:19;72:23">GMP</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:19;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:20;74:23">Client</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:20;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:21;76:23">G.709: 17.7.5 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_G709" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="xref:4;76:126" type="li"><?ditaot gentext?>13</xref></p></entry>
+
+            <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="entry:21;78:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Supported_GMP_Mappings_iiu8wgeql.xml" xtrc="p:22;78:23">1&lt;=n&lt;=6</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

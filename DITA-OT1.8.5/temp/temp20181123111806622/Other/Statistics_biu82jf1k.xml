@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Statistics_biu82jf1k" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="topic:1;2:114">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="title:1;3:11">Statistics</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="body:1;4:10">
+        
+
+        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="ul:1;7:13">
+          <li id="d1e559" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:1;8:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:1;9:16">Provides counters and interrupts for all packet error
+            conditions</p>
+          </li>
+
+          <li id="d1e565" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:2;13:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:2;14:16">The counters that count byte level statistics are 56-bits
+            wide, the counters that count packet level statistics are 48-bits
+            wide, and counters that count error events are 24-bits
+            wide.</p>
+          </li>
+
+          <li id="d1e571" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:3;20:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:3;21:16">The following counters are provided for each channel in the
+            test packet generator:</p>
+
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="ul:2;24:17">
+              <li id="d1e578" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:4;25:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:4;26:22">Tx Packet Counter</p>
+              </li>
+
+              <li id="d1e584" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:5;29:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:5;30:22">Tx Byte Counter</p>
+              </li>
+            </ul>
+          </li>
+
+          <li id="d1e592" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:6;35:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:6;36:16">The following counters are provided for each channel in the
+            test packet monitor:</p>
+
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="ul:3;39:17">
+              <li id="d1e599" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:7;40:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:7;41:22">Rx Packet Counter</p>
+              </li>
+
+              <li id="d1e605" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:8;44:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:8;45:22">Rx Byte Counter</p>
+              </li>
+
+              <li id="d1e611" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:9;48:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:9;49:22">Rx FCS Error Packet Counter</p>
+              </li>
+
+              <li id="d1e617" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:10;52:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:10;53:22">Rx Flow Identifier Error Packet Counter</p>
+              </li>
+
+              <li id="d1e623" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:11;56:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:11;57:22">Rx Sequence Number Error Counter</p>
+              </li>
+
+              <li id="d1e630" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:12;60:31">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:12;61:22">Rx Packets Dropped Counter</p>
+              </li>
+            </ul>
+          </li>
+
+          <li id="d1e638" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:13;66:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:13;67:16">Supports capture and reset of statistics for channels
+            individually and for all channels simultaneously</p>
+          </li>
+
+          <li id="d1e645" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="li:14;71:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_biu82jf1k.xml" xtrc="p:14;72:16">Only one error counter increments per packet (Static Flow ID
+            Error, else FCS error, else Sequence Number Error), however the
+            error interrupts will still assert for all unexpected
+            values</p>
+          </li>
+        </ul>
+      </body>
+</topic>

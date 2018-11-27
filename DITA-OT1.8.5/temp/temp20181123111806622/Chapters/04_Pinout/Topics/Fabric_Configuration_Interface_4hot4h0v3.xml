@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Fabric_Configuration_Interface_4hot4h0v3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="topic:1;2:134">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="title:1;3:10">Fabric Control Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:1;6:8">The Fabric Control interface is used to configure the Ciena Fabric
+    Interface Chip blocks (CFIC) in the device.</p>
+
+    <table id="FCI_PinDescription" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="table:1;9:36">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="title:2;10:14">Fabric Control Interface Pin Descriptions</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="tgroup:1;12:24">
+        <colspec colname="col1" colnum="1" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="colspec:1;13:47"/>
+
+        <colspec colname="col2" colnum="2" colwidth=".75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="colspec:2;15:47"/>
+
+        <colspec colname="col3" colnum="3" colwidth="3.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="colspec:3;17:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="thead:1;19:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="row:1;20:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:1;21:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:2;21:23">Pin Name</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:2;23:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:3;23:23">Type</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:3;25:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:4;25:23">Function</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="tbody:1;29:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="row:2;30:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:4;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:5;31:23">FCI_DATA</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:5;33:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:6;33:23">Input</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:6;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:7;35:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="b:1;35:45">Fabric Control Interface Data</b>
+            </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:8;36:21">The fabric control interface data can be used to quickly
+            program the ingress channel enable of each of the 190 channels and
+            to select which of the 10 fabric path distribution lists should be
+            selected as the next active page. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:9;39:55">The FCI_DATA is clocked
+            externally with a 19.44 MHz clock frequency locked to the REFCLK
+            input. </p> <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:10;41:52">The COPI500 uses an edge
+            detect circuit on FCI_START and a 0-15 counter running on the
+            311.04 MHz clock to sample the FCI_DATA around the middle point of
+            its transition (50% setup margin, 50% hold margin). </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:11;44:73">A
+            complete serial transfer on FCI_DATA consists of: </p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="ul:1;45:72">
+                <li id="d1e5083" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="li:1;46:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:12;46:37">4b FPDL list select, from LSB to
+                MSB</p></li>
+
+                <li id="d1e5089" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="li:2;49:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:13;49:37">190b channel enable for slice 0, from slot
+                0 to 189</p></li>
+
+                <li id="d1e5101" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="li:3;52:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:14;52:37">1b toggle</p></li>
+
+                <li id="d1e5107" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="li:4;54:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:15;54:37">1b parity</p></li>
+              </ul> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:16;55:24">This signal is expected to be skew matched with its
+            corresponding FCI_START.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:17;56:45">1.8 V LVCMOS18 low-speed
+            signal.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="row:3;60:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:7;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:18;61:23">FCI_START</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:8;63:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:19;63:23">Input</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="entry:9;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:20;65:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="b:2;65:45">Fabric Control Interface Start</b>
+            </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:21;66:21">The fabric control interface data can be used to quickly
+            program the ingress channel enable of each of the 190 channels and
+            to select which of the 10 fabric path distribution lists should be
+            selected as the next active page. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:22;69:55">The FCI_START is clocked
+            externally with a 19.44 MHz clock frequency locked to the REFCLK
+            input. </p> <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:23;71:52">The COPI500 uses an edge
+            detect circuit on FCI_START and a 0-15 counter running on the
+            311.04 MHz clock to sample the FCI_DATA around the middle point of
+            its transition (50% setup margin, 50% hold margin). </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:24;74:73">The
+            FCI_START signal identifies the first bit of the serial data
+            transfer on FCI_DATA. </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:25;76:43">This signal is expected to be skew
+            matched with its corresponding FCI_DATA.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Fabric_Configuration_Interface_4hot4h0v3.xml" xtrc="p:26;77:61">1.8 V LVCMOS18
+            low-speed signal.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

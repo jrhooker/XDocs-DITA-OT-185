@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Master_and_Slave_Channel_Identifier_Reus_3iuim06v6" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="title:1;3:10">Master and Slave Channel Identifier Reuse Scenarios</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="p:1;6:8">In many datapath scenarios there will be master and slave channel id
+    assignments. Depending on the required configuration, the host application
+    will need to reuse the channel identifier from a datapath segment
+    provisioning call to achieve an end to end datapath. <xref href="#Master_and_Slave_Channel_Identifier_Reus_3iuim06v6/Master_Slave_Channel_ID_Relationships_fo_4iuim06v6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:1;9:175" type="fig"><?ditaot gentext?>Figure 1</xref>
+    illustrates master and slave channel identifier reuse scenarios for client
+    and line interfaces.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="note:1;13:35">Source for <xref href="Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml#Master_and_Slave_Channel_Identifier_Reus_3iuim06v6/Master_Slave_Channel_ID_Relationships_fo_4iuim06v6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:2;13:217" type="fig"><?ditaot gentext?>Figure 1</xref>
+    can be found at <xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=427967" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:3;14:104"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=427967</xref></note>
+
+    <fig id="Master_Slave_Channel_ID_Relationships_fo_4iuim06v6" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="fig:1;17:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="title:2;18:14">Master Slave Channel ID Relationships for Client and Line
+      Interfaces</title>
+
+      <image href="Master_Slave_Channel_ID_Relationships.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="image:1;21:94"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="p:2;24:8"><xref href="#Master_and_Slave_Channel_Identifier_Reus_3iuim06v6/Master_Slave_Channel_ID_Relationships_fo_4iuim06v6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:4;24:125" type="fig"><?ditaot gentext?>Figure 1</xref>
+    illustrates the master slave channel identifier reuse scenarios for the
+    Interlaken interface. The datapath segment for the Interlaken packet
+    interface (PIF) is configured using the g5_api_traffic_ilkn_pkt_prov()
+    API<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="ph:1;28:47"> and the datapath segment for
+    the Interlaken ODUk interface (CBRI) is configured using the
+    g5_api_traffic_ilkn_cbr_prov() API</ph>. For Interlaken, the user defined
+    channel identifier is always the master. The Interlaken burst control word
+    (BCW) channel number is assigned to the user defined channel identifier
+    when g5_api_traffic_ilkn_pkt_prov()<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="ph:2;33:79">
+    or g5_api_traffic_ilkn_cbr_prov()</ph> is called. Note that the APIs allow
+    for provisioning of the fabric ingress (MSCC device to external fabric –
+    Interlaken transmit), egress (external fabric to MSCC device – Interlaken
+    receive), or both directions. The BCW channel numbers do not need to be
+    unique in the ingress and egress directions. The channel provisioning
+    properties configured per channel identifier using the
+    g5_api_traffic_ilkn_pkt_prov()<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="ph:3;40:74"> and
+    g5_api_traffic_ilkn_cbr_prov()</ph> APIs can be different in the ingress
+    and egress directions. Likewise, the provisioning order is independent in
+    the ingress and egress directions. A SerDes port identifier defines the
+    Interlaken lanes that are used.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="p:3;46:43">As stated above, unique 32-bit user
+    defined channel identifier is associated with the channel specified in the
+    Interlaken BCW for PIF traffic. In addition to the Interlaken burst
+    control word, the CBRI interface optionally supports using a 2 byte,
+    4byte, or 2 + 4 byte header for looking up 16-bit channel identifier
+    referred to by the CAM mnemonic (content addressable memory) in the mode
+    parameters used when provisioning an Interlaken channel. The BCW channel
+    ID does not need to be unique per CBRI channel in the fabric ingress
+    direction when the optional [2B, 4B, or 2+4B] header is used. Similarly,
+    the BCW channel ID does not need to be unique in the fabric egress
+    direction when the optional header is used but only if CAM mode is
+    selected for the interface when it is configured. The indexes in the
+    optional headers that are used for CAM look up do not need to be unique in
+    the ingress and egress directions (i.e. the same index could be used in
+    both directions). Refer to the transmit controller and receive controller
+    sections of the COPI functional description for flow charts that provide
+    additional detail on the optional header processing.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="p:4;64:43">The 32-bit per channel user defined
+    identifier for a CBRI interface can be associated with either the result
+    of the optional header lookup or the channel number from the burst control
+    word. Mixing the lookup methods is not supported for a CBRI interface as
+    the optional header modes are enabled at the time the Interlaken interface
+    is provisioned.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="p:5;71:8">Interlaken PIF<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="ph:4;71:61"> and Interlaken
+    CBR</ph> channel identifiers, like all SDK channel identifiers, are global
+    and must be unique for a specific device.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="note:2;75:35">Source for <xref href="Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml#Master_and_Slave_Channel_Identifier_Reus_3iuim06v6/Master_Slave_Channel_ID_Relationship_for_5iuim06v6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:5;75:217" type="fig"><?ditaot gentext?>Figure 3</xref>
+    can be found at <xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=427985" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="xref:6;76:104"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=427985</xref></note>
+
+    <fig audience="META-600G" id="fig_META_600G_Master_Slave_Channel_ID_Relati_2j4gkv3xm" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="fig:2;79:91">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="title:3;80:14"><ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="ph:5;80:42">META 600G </ph>Master Slave Channel
+      ID Relationship for the Interlaken Interface</title>
+
+      <image height="6in" href="sdk_identifiers_master_slave_ilkn_chnl_ids_fig2_meta600g.svg" placement="break" width="5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="image:2;83:126"/>
+    </fig>
+
+    <fig audience="DIGIG5_NOKIA DIGIG5_ROW" id="Master_Slave_Channel_ID_Relationship_for_5iuim06v6" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="fig:3;86:101">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="title:4;87:14">Master Slave Channel ID Relationship for the Interlaken
+      Interface</title>
+
+      <image height="6in" href="sdk_identifiers_master_slave_ilkn_chnl_ids_fig2.svg" placement="break" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Master_and_Slave_Channel_Identifier_Reus_3iuim06v6.xml" xtrc="image:3;90:105"/>
+    </fig>
+  </body>
+</topic>

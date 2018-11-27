@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Buffer_Status_1hiu8j35d4" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="topic:1;2:118">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="title:1;3:10">Buffer Status</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:1;6:8">DCPB buffer status can be used to ensure that the system is configured
+    correctly for latency compensation. The following interrupts signal buffer
+    overruns/underruns causing data corruption.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:2;10:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:1;10:29">MPMO_DP500 : FIFO_UDR_I</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:3;12:8">The buffer has underrun. This interrupt strobes until traffic resumes
+    at the ODUkSW egress.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:4;15:8">Buffer underruns can be a sign that the external latency compensation
+    (i.e. via the latency_s parameter of <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:2;16:63">
+    g5_api_traffic_ilkn_cbr_prov() </b>) is not large enough.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:5;19:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:3;19:29">MPMO_DP500 : PKT_DROP_I</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:6;21:8">Indicates that one packet has been dropped. This packet could be
+    dropped in the device DCPB (as distinguished by CH_DROP_FULL_I) or in the
+    packet fabric. Persistent assertion of this interrupt usually indicates
+    that the buffer has overrun.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:7;26:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:4;26:29">MPMO_DP500 : PKT_LOSS_I</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:8;28:8">Indicates that more than one packet has been dropped. These packets
+    could be dropped in the device DCPB or in the packet fabric. Persistent
+    assertion of this interrupt usually indicates that the buffer has
+    overrun.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:9;33:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:5;33:29">MPMO_DP500 : ZONE_FULL</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:10;35:8">Indicates that that the virtual hysteresis buffer ‘almost full’
+    threshold has been hit. This prompts centering of the hysteresis
+    buffer.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:11;39:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:6;39:29">DEPTH_MON : ZONE_FULL</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:12;41:8">Indicates that that the physical DCPB hysteresis buffer ‘almost full’
+    threshold has been hit. This prompts centering of the hysteresis
+    buffer.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:13;45:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:7;45:29">MPMO_DP500: ZONE_EMPTY</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:14;47:8">Indicates that that the virtual hysteresis buffer ‘almost empty’
+    threshold has been hit. This prompts centering of the buffer.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:15;50:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:8;50:29">DEPTH_MON : ZONE_EMPTY</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:16;52:8">Indicates that that the physical DCPB hysteresis buffer ‘almost empty’
+    threshold has been hit. This prompts centering of the buffer.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:17;55:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:9;55:29">DCPB/ECPB/OCPB : CH_DROP_FULL_I</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:18;57:8">The DCPB/ECPB/OCPB has dropped one or more packets.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:19;59:8">Buffer overruns of the DCPB can be a sign that the external latency
+    compensation (i.e. via the latency_s parameter of <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:10;60:76">
+    g5_api_traffic_ilkn_cbr_prov() </b>) is too large and/or that there is
+    insufficient PDV buffer capacity (i.e. via the halt_buffer parameter of <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:11;62:98"> g5_api_traffic_ilkn_cbr_prov() </b>).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:20;64:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:12;64:29">MPMO_DP500 : PKT_AGE</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:21;66:8">The current latency observed by the MPMO_DP500.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:22;68:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:13;68:29">MPMO_DP500 : AGE_MIN / AGE_MAX</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:23;70:8">The minimum and maximum latency observed over triggered observation
+    window.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:24;73:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="b:14;73:29">DCPB/ECPB/OCPB : FILL</b></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Buffer_Status_1hiu8j35d4.xml" xtrc="p:25;75:8">The current depth of the DCPB/ECPB/OCPB. Also supports minimum and
+    maximum depth observed over trigger observation window. This could be used
+    to determine how the virtual hysteresis buffer is positioned within the
+    physical DCPB buffer with external latency compensation.</p>
+  </body>
+</topic>

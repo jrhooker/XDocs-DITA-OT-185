@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ITS_PKT500_Overview_6iu82jf1j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ITS_PKT500_Overview_6iu82jf1j.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ITS_PKT500_Overview_6iu82jf1j.xml" xtrc="title:1;3:10">ITS_PKT500 Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ITS_PKT500_Overview_6iu82jf1j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ITS_PKT500_Overview_6iu82jf1j.xml" xtrc="p:1;6:8">The Integrated Test Set 500G Packet Tester (ITS_PKT500) generates and
+    monitors up to 500 Gbps of packet traffic carried over up to 120 channels.
+    The ITS_PKT500 generates packets with programmable payloads and
+    programmable sequences of packet lengths for each channel. Each generated
+    channel can be configured to include optional packet overhead fields
+    including an incrementing packet sequence number for packet order
+    validation, a timestamp for path latency testing, and a static field per
+    channel for channel differentiation. The generator inserts an optional FCS
+    over a selected portion of the payload to enable data validation. The
+    ITS_PKT500 monitors each channel as it checks the packet sequence fields
+    for continuity, checks the static field against the expected value, and
+    checks the FCS in the packet against its own FCS calculated over the
+    selected portion of the payload. The packet monitor can extract the
+    timestamp from a selected channel and compare it to the internal timestamp
+    counter to calculate end to end path latency for the channel. The packet
+    generators and monitors provide per channel counters and interrupts for
+    packets and bytes sent and received, and for flow control status and data
+    errors detected in the monitor. The ITS_PKT500 uses channelized XOFF flow
+    control backpressure, and channel level credit-based rate limiters to
+    produce controlled channel data rate profiles.</p>
+  </body>
+</topic>

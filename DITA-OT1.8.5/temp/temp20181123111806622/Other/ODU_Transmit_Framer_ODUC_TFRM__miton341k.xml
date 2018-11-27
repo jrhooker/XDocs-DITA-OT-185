@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ODU_Transmit_Framer_ODUC_TFRM__miton341k" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="topic:1;2:134">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="title:1;3:10">ODU Transmit Framer (ODUC_TFRM)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:1;6:8">The atomics represented in the ODUC_TFRM are shown in the figure
+    below.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="note:1;9:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:2;9:38"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="b:1;9:59"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="i:1;9:63">[DDD/HWS] </i>
+    </b> <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=426454" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="xref:1;10:112"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=426454
+    </xref> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="b:2;12:34"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="i:2;12:38"> tab ODUC_TFRM</i> </b></p></note>
+
+    <fig id="ODUC_TFRM_Atomic_niton341k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="fig:1;14:42">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="title:2;15:14">ODUC_TFRM Atomic</title>
+
+      <image href="ODUC-TFRM-Atomic.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="image:1;17:75"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:3;20:8">As shown in the above diagram, the maintenance signals, OCI/AIS/LCK can
+    be forced through the TFRM.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:4;23:8">These are the following features of the ODUP_TT So layer:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="ul:1;25:9">
+      <li id="d1e1261" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:1;26:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:5;26:27">Inserts a PM-STAT, TTI, APS/PCC and BIP8
+      calculation</p></li>
+
+      <li id="d1e1267" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:2;29:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:6;29:27">Inserts BDI/BEI from ODUP_TT sink from the RFRM
+      atomics</p></li>
+
+      <li id="d1e1273" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:3;32:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:7;32:27">Supports delay measurement</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:8;35:8">These are the following features of the ODUT_TT So layer and ODUkT/ODUk
+    adaptation source functions:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="ul:2;38:9">
+      <li id="d1e1285" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:4;39:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:9;39:27">Ability to force LCK/OCI/AIS at the adaptation
+      source</p></li>
+
+      <li id="d1e1291" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:5;42:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:10;42:27">Inserts TCMi- STAT, TTI, APS/PCC and BIP8
+      calculations</p></li>
+
+      <li id="d1e1297" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:6;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:11;45:27">Detects and inserts STAT-IAE if the incoming frame
+      alignment is mismatched (this is after a maintenance signal insertion).
+      The STAT-IAE is inserted in TFRM when the SOF pulse is off from its
+      expected location, which is determined by a fly-wheeling frame pulse
+      signal captured in the TFRM based on the previous frame pulses.</p></li>
+
+      <li id="d1e1303" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:7;51:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:12;51:27">Inserts BDI/BEI from the ODUT_TT Sink from the RFRM
+      atomics</p></li>
+
+      <li id="d1e1309" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="li:8;54:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:13;54:27">Performs delay measurement test as per section
+      below</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="p:14;58:8">The TCMs are assigned from a pool that is shared among all channels for
+    a particular framer stage. Stage 1<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="ph:1;59:78">
+    and Stage N</ph> have 72 pool elements. Stages 2, <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Transmit_Framer_ODUC_TFRM__miton341k.xml" xtrc="ph:2;60:94">3A, 3B, </ph>and 4 have 570 pool
+    elements.</p>
+  </body>
+</topic>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="CPU_Subsystem_Overview_8iu913pm6" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="title:1;3:10">CPU Subsystem Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="p:1;6:8">The CPU subsystem enables configuration and control of the <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="ph:1;6:106">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="ph:2;6:143">META-600G</ph> device. Included is an embedded ARM
+    Cortex-A9 MPCore dual-core processor system with L1 and L2 caches, support
+    peripherals, as well as a PCI Express (PCIe) Gen2 x1 lane endpoint
+    interface for connectivity to the external host CPU to support the
+    software programming model required to use the device. The subsystem also
+    includes hardware assist features for firmware-based processing of
+    management packet traffic such as Link OAM, LLDP, Ethernet management,
+    PTP/1588v2 and SyncE.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="p:2;15:8">The available L3 memory system is comprised of on-chip RAM, and a Quad
+    Serial Peripheral Interface (SPI) Memory Controller which provides a
+    memory-mapped interface to off-chip NOR flash memory device. An SPI slave
+    interface is included to simplify the initial programming of external
+    flash device with bootloader code.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="p:3;21:8">Firmware startup of the device is a two stage process utilizing a
+    bootloader executed from external SPI flash memory to initialize PCIe,
+    followed by runtime application firmware downloaded from the external host
+    over PCIe to on-chip RAM and/or external SPI flash memory.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="p:4;26:8">The embedded processor serves as an application processor and runs a
+    significant portion of the SDK as firmware. This software processing
+    architecture offloads the external host CPU from long duration and I/O
+    intensive tasks, reducing host software optimization efforts to achieve
+    high performance and significantly reduces the processing requirements on
+    the host CPU. Device register accesses are generated from the embedded
+    processor, significantly reducing PCIe traffic between the host CPU and
+    the device. As a result, the host CPU performance does not need to
+    scale-up linearly when multiple <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="ph:3;34:76">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="ph:4;34:113">META-600G</ph> devices are used on a single-line
+    card. Firmware executed on the embedded Cortex-A9 processor performs
+    various functions such as device configuration, interrupt
+    gathering/channelizing for the host CPU, consequential actions, and PMON
+    transfers. The SDK software on the external host communicates with the
+    embedded processor firmware at run-time using message passing over the
+    PCIe link.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Overview_8iu913pm6.xml" xtrc="p:5;42:8">The CPU subsystem aggregates interrupt sources from the entire device
+    for generation of the device interrupt output pin, as well as the
+    signaling of interrupts over PCIe, and to the embedded processor.</p>
+  </body>
+</topic>

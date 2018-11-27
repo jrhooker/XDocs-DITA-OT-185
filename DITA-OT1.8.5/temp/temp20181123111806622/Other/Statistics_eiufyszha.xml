@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Statistics_eiufyszha" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="topic:1;2:114">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="title:1;3:10">Statistics</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:1;6:8">The <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ph:1;6:51">COPI</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ph:2;6:85">PIF</ph> subsystem allows statistics to be collected
+    on each Interlaken interface. The Interlaken statistics collection is
+    implemented in the ILKN500 blocks. The counters that count byte level
+    statistics are 56-bits wide, the counters that count packet level
+    statistics are 48-bits wide, and counters that count error events are
+    24-bits wide.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:1;13:9">
+      <li id="d1e865" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:1;14:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:2;14:26">Statistics collected per Interlaken interface
+      are:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:2;15:20">
+          <li id="d1e872" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:2;16:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:3;16:30">Number of packets received</p></li>
+
+          <li id="d1e878" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:3;18:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:4;18:30">Number of bytes received</p></li>
+
+          <li id="d1e884" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:4;20:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:5;20:30">Number of packets transmitted</p></li>
+
+          <li id="d1e890" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:5;22:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:6;22:30">Number of bytes transmitted</p></li>
+
+          <li id="d1e896" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:6;24:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:7;24:30">Number of packets that are errored (i.e. Bad CRC,
+          FIFO overflow, ERR bit set, etc.)</p></li>
+
+          <li id="d1e903" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:7;27:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:8;27:30">Number of bursts with a detected CRC24
+          error</p></li>
+
+          <li id="d1e909" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:8;30:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:9;30:30">Number of errors in in-band flow control calendar
+          length or alignment</p></li>
+
+          <li id="d1e915" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:9;33:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:10;33:30">Number of bursts received longer than the
+          BurstMax parameter</p></li>
+
+          <li id="d1e921" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:10;36:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:11;36:30">Number of bursts smaller than the programmed
+          BurstShort parameter</p></li>
+
+          <li id="d1e927" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:11;39:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:12;39:30">Number of times a protocol error related to burst
+          delineation occurred</p></li>
+
+          <li id="d1e933" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:12;42:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:13;42:30">Number of alignment sequences received in error
+          (i.e., those that violate the current alignment)</p></li>
+
+          <li id="d1e940" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:13;45:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:14;45:30">Number of times alignment was lost (after four
+          consecutive alignment sequence errors)</p></li>
+
+          <li id="d1e946" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:14;48:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:15;48:30">Number of words received with Control Word
+          framing that don't match one of the defined Control Words</p></li>
+        </ul></li>
+
+      <li id="d1e954" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:15;52:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:16;52:26">Statistics optionally collected on a configurable
+      pre-selected Interlaken channel instead of per Interlaken interface (Rx
+      path only) are:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:3;54:31">
+          <li id="d1e961" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:16;55:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:17;55:30">Number of packets received</p></li>
+
+          <li id="d1e967" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:17;57:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:18;57:30">Number of bytes received</p></li>
+
+          <li id="d1e973" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:18;59:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:19;59:30">Number of packets that are errored (i.e. Bad CRC,
+          FIFO overflow, ERR bit set, etc.)</p></li>
+        </ul></li>
+
+      <li id="d1e981" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:19;63:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:20;63:26">Statistics collected on each SERDES lane of the
+      Interlaken interfaces are:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:4;64:42">
+          <li id="d1e988" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:20;65:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:21;65:30">Number of times a lane lost word boundary
+          synchronization</p></li>
+
+          <li id="d1e994" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:21;68:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:22;68:30">Number of times a lane lost
+          clock-data-recovery</p></li>
+
+          <li id="d1e1000" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:22;71:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:23;71:31">Number of errors in the lane CRC32</p></li>
+        </ul></li>
+
+      <li audience="MSCCInternal" id="d1e1008" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:23;74:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:24;74:51">The COPI500 block also
+      collects the following diagnostic statistics in 32-bit counters:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:5;75:80">
+          <li id="d1e1015" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:24;76:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:25;76:31">Diagnostic counters for the internal bus after
+          the receive controller and before the transmit controller that can
+          be configured to count:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="ul:6;78:43">
+              <li id="d1e1022" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:25;79:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:26;79:35">Packets, bursts, or data words transferred
+              over the bus</p></li>
+
+              <li id="d1e1028" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:26;82:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:27;82:35">Bytes transferred over the bus</p></li>
+
+              <li id="d1e1034" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:27;84:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:28;84:35">These diagnostic counters can be configured
+              to count the units transferred for a single selected channel, or
+              to provide the cumulative count for all traffic on the
+              bus.</p></li>
+            </ul></li>
+
+          <li id="d1e1042" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:28;90:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:29;90:31">Diagnostic 755 MHz core clock cycle counter,
+          which can be used to track time between PMON_UPDATE events, for
+          example to aid in data rate computations using other diagnostic
+          counters.</p></li>
+
+          <li id="d1e1048" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:29;95:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:30;95:31">Receive path protocol violation counter for each
+          Interlaken interface</p></li>
+
+          <li id="d1e1054" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="li:30;98:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Statistics_eiufyszha.xml" xtrc="p:31;98:31">Transmit path protocol violation counters for
+          the internal data bus</p></li>
+        </ul></li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\15_AC_Timing_Characteristics\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/15_AC_Timing_Characteristics/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="JTAG_mghs4ix6t" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="topic:1;2:108">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="title:1;3:10">JTAG Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="body:1;5:9">
+    <fig id="JTAG_AC_Timing" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="fig:1;6:30">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="title:2;7:14">JTAG AC Timing</title>
+
+      <image href="../Graphics/AC_Timing__jtag.svg" placement="break" width="324px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="image:1;9:86"/>
+    </fig>
+
+    <table id="JTAG_Port_Interface_AC_Timing_nghs4ix6t" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="table:1;12:57">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="title:3;13:14">JTAG Port Interface AC Timing
+      Parameters</title>
+
+      <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="tgroup:1;16:24">
+        <colspec colname="col1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:1;17:47"/>
+
+        <colspec colname="col2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:2;19:47"/>
+
+        <colspec colname="col3" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:3;21:48"/>
+
+        <colspec colname="col4" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:4;23:48"/>
+
+        <colspec colname="col5" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:5;25:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="thead:1;27:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:1;28:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:1;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:1;29:23">Symbol</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:2;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:2;31:23">Description</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:3;33:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:3;33:23">Min</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:4;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:4;35:23">Max</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:5;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:5;37:23">Units</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="tbody:1;41:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:2;42:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:6;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:6;43:23">F<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:1;43:29">TCK</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:7;45:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:7;45:23">TCK Frequency
+            </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:8;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:8;48:23">-</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:9;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:9;50:23">5</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:10;52:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:10;52:23">MHz</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:3;55:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:11;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:11;56:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:2;56:29">LW</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:12;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:12;58:23">TCK Low Pulse
+            Width </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:13;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:13;61:23">100</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:14;63:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:14;63:23">-</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:15;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:15;65:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:4;68:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:16;69:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:16;69:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:3;69:29">HW</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:17;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:17;71:23">TCK High Pulse
+            Width </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:18;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:18;74:23">100</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:19;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:19;76:23">-</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:20;78:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:20;78:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:5;81:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:21;82:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:21;82:23">tS<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:4;82:30">TMS</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:22;84:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:22;84:23">TMS Setup Time
+            to TCK </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:23;87:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:23;87:23">35</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:24;89:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:24;89:23">–</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:25;91:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:25;91:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:6;94:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:26;95:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:26;95:23">tH<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:5;95:30">TMS</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:27;97:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:27;97:23">TMS Hold Time
+            to TCK </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:28;100:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:28;100:23">35</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:29;102:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:29;102:23">–</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:30;104:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:30;104:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:7;107:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:31;108:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:31;108:23">tS<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:6;108:30">TDI</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:32;110:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:32;110:23">TDI Setup Time
+            to TCK </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:33;113:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:33;113:23">35</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:34;115:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:34;115:23">-</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:35;117:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:35;117:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:8;120:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:36;121:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:36;121:23">tH<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:7;121:30">TDI</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:37;123:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:37;123:23">TDI Hold Time
+            to TCK </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:38;126:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:38;126:23">35</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:39;128:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:39;128:23">-</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:40;130:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:40;130:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:9;133:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:41;134:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:41;134:23">tNP<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:8;134:31">TDO</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:42;136:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:42;136:23">TCK Falling to
+            TDO Valid </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:43;139:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:43;139:23">2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:44;141:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:44;141:23">50</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:45;143:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:45;143:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:10;146:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:46;147:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:46;147:23">tNZ<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:9;147:31">TDO</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:47;149:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:47;149:23">TCK Falling to
+            TDO High-Impedance </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:48;152:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:48;152:23">2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:49;154:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:49;154:23">50</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:50;156:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:50;156:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:11;159:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:51;160:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:51;160:23">tNZB<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:10;160:32">TDO</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:52;162:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:52;162:23">TCK Falling to
+            TDO Driven </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:53;165:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:53;165:23">2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:54;167:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:54;167:23">50</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:55;169:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:55;169:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:12;172:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:56;173:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:56;173:23">tV<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:11;173:30">TRSTB</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:57;175:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:57;175:23">TRSTB Pulse
+            Width </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:58;178:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:58;178:23">200</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:59;180:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:59;180:23">–</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:60;182:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:60;182:23">ns</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="note:1;188:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="ol:1;188:15">
+        <li id="d1e3279" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="li:1;189:26"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:61;189:29">TDO has an
+        output load of 30pF.</p></li>
+
+        <li audience="MSCCInternal" id="d1e3282" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="li:2;192:50"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:62;192:53">These parameters are valid when TAP_SEL[1:0] =
+        00.</p></li>
+      </ol></note>
+
+    <table audience="MSCCInternal" id="MIPS4KCoreEJTAGPortInterface" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="table:2;196:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="title:4;197:14">ARM JTAG and MIPS4K Core EJTAG Port
+      Interface AC Timing Parameters</title>
+
+      <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="tgroup:2;200:24">
+        <colspec colname="col1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:6;201:47"/>
+
+        <colspec colname="col2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:7;203:47"/>
+
+        <colspec colname="col3" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:8;205:48"/>
+
+        <colspec colname="col4" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:9;207:48"/>
+
+        <colspec colname="col5" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="colspec:10;209:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="thead:2;211:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:13;212:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:61;213:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:63;213:23">Symbol</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:62;215:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:64;215:23">Description</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:63;217:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:65;217:23">Min</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:64;219:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:66;219:23">Max</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:65;221:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:67;221:23">Units</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="tbody:2;225:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:14;226:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:66;227:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:68;227:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:12;227:29">LW</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:67;229:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:69;229:23">TCK Low Pulse
+            Width</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:68;232:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:70;232:23">33.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:69;234:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:71;234:24"/></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:70;236:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:72;236:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:15;239:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:71;240:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:73;240:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:13;240:29">HW</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:72;242:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:74;242:23">TCK High Pulse
+            Width</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:73;245:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:75;245:23">33.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:74;247:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:76;247:24"/></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:75;249:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:77;249:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:16;252:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:76;253:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:78;253:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:14;253:29">S</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:77;255:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:79;255:23">TDI, TMS
+            Set-up Time to TCK Rising Edge</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:78;258:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:80;258:23">5</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:79;260:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:81;260:24"/></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:80;262:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:82;262:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:17;265:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:81;266:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:83;266:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:15;266:29">H</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:82;268:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:84;268:23">TDI, TMS Hold
+            Time to TCK Rising Edge</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:83;271:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:85;271:23">3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:84;273:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:86;273:24"/></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:85;275:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:87;275:23">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="row:18;278:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:86;279:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:88;279:23">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="sub:16;279:29">NP</sub> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:87;281:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:89;281:23">TCK Falling
+            Edge to TDO Valid</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:88;284:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:90;284:23">0</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:89;286:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:91;286:23">15</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="entry:90;288:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:92;288:23">ns</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="note:2;294:35"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="ol:2;294:39">
+        <li id="d1e3515" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="li:3;295:26"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:93;295:29">TDO has an
+        output load of 30pF.</p></li>
+
+        <li id="d1e3518" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="li:4;298:26"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:94;298:29">These
+        parameters are valid when TAP_SEL[1:0] = X1.</p></li>
+
+        <li id="d1e3518" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="li:5;301:26"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:95;301:29">The MIPs
+        EJTAG and ARM JTAG interface maximum frequency was reduced from 20Mhz
+        to 15Mhz via PREPID 451426</p></li>
+      </ol></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="p:96;306:8">The pin description for this interface can be seen
+    in <xref href="../../04_Pinout/Topics/JTAG_Interface_wgjq2ely5.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\JTAG_mghs4ix6t.xml" xtrc="xref:1;307:74" type="topic"><?ditaot gentext?>JTAG Interface</xref>.</p>
+  </body>
+</topic>

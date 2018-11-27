@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--720b" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="title:1;3:10">Interlaken 3x200G Mode API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:1;6:8">As stated above there are three additional APIs required for N x 200G
+    Interlaken interface mode.</p>
+
+    <section id="section_g5_api_ilkn_chnl_id_bcw_set__wjoq3q758" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="section:1;9:66"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="title:2;9:73">g5_api_ilkn_chnl_id_bcw_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:2;9:113">The
+    first API g5_api_ilkn_chnl_id_bcw_set(), is used in N x 200G Interlaken
+    mode to set the Fabric Egress BCW channel ID for a common DPI channel to
+    the DCPB. The API has the following parameters and associated
+    enumerations: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="ul:1;13:27">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:1;14:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:3;14:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:2;16:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:4;16:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:3;18:13">ilkn_intf - g5_ilkn_intf_t</li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:4;20:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:5;20:16">ilkn_bcw_chnl</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:6;21:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user specified Interlaken channel ID for the datapath
+    channel. The info ilkn_intf is defined by the enumeration g5_ilkn_intf_t
+    that is shown above. The parameter ilkn_bcw_chnl is a Fabric egress BCW
+    channel ID for the DPI channel specified by the parameter
+    chnl_id.</p></section>
+
+    <section id="section_g5_api_ilkn_fabric_egress_select__xjoq3q758" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="section:2;28:71"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="title:3;28:78">g5_api_ilkn_fabric_egress_select()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:7;28:123">The
+    second API g5_api_ilkn_fabric_egress_select(), selects which fabric egress
+    N x Interlaken interface channel to transfer to DCPB. The API has the
+    following parameters and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="ul:2;31:62">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:5;32:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:8;32:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:6;34:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:9;34:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:7;36:13">ilkn_intf - g5_ilkn_intf_t</li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:10;37:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user specified Interlaken channel ID for the datapath
+    channel. The info ilkn_intf is defined by the enumeration g5_ilkn_intf_t
+    that is shown above. </p></section>
+
+    <section id="section_g5_api_ilkn_fabric_ingress_chnl_activate_yjoq3q758" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="section:3;42:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="title:4;42:85">g5_api_ilkn_fabric_ingress_chnl_activate()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:11;42:138">The
+    third API g5_api_ilkn_fabric_ingress_chnl_activate(), selects an
+    Interlaken interface that the provisioned channel id is to transfer DCPB
+    data to. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="ul:3;46:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:8;47:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:12;47:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:9;49:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:13;49:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:10;51:13">ilkn_intf - g5_ilkn_intf_t</li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="li:11;53:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:14;53:16">activate - g5_ilkn_ingress_activate_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_3x200G_API_Details.xml" xtrc="p:15;54:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user specified Interlaken channel ID for the datapath
+    channel. The info ilkn_intf is defined by the enumeration g5_ilkn_intf_t
+    that is shown above. The parameter activate is defined by the enumeration
+    g5_ilkn_ingress_activate_t has has the enumerators
+    G5_ILKN_INGRESS_ACTIVATE_ENABLE and G5_ILKN_INGRESS_ACTIVATE_DISABLE that
+    enable or disable the ingress data towards the interface specified with
+    ilkn_intf. </p></section>
+  </body>
+</topic>

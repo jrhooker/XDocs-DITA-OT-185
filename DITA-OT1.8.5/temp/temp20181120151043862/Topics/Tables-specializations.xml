@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181120151043862\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181120151043862/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:1;3:10">Table Specializations</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:1;6:8"><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="xref:1;6:151" type="table"><?ditaot gentext?>Table 2</xref>
+    </p>
+
+    <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:1;9:12">
+      <?guidance Use this table to define the series of registers to be included in a header file. ?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:2;12:15"/>
+
+      <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:1;14:24">
+        <colspec colname="col1" colwidth="14*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:1;15:46"/>
+
+        <colspec colname="col2" colwidth="14*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:2;17:46"/>
+
+        <colspec colname="col3" colwidth="23*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:3;19:46"/>
+
+        <colspec colname="col4" colwidth="49*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:4;21:46"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:1;23:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:1;24:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:1;25:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:2;25:23">Address</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:2;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:3;27:23">Size</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:3;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:4;29:23">Name</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:4;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:5;31:23">Details</p></entry>
+          </row>
+        </thead>
+
+        <reg-references xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" class="- topic/tbody firmware-d/reg-references " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-references:1;35:90">
+          <reg-reference class="- topic/row firmware-d/reg-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-reference:1;36:26">
+            <reg-address colname="col1" deltaxml:phrase-container="true" class="- topic/entry firmware-d/reg-address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-address:1;37:26">0x2000</reg-address>
+
+            <reg-size colname="col2" deltaxml:phrase-container="true" class="- topic/entry firmware-d/reg-size " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-size:1;39:23">4</reg-size>
+
+            <reg-name colname="col3" deltaxml:phrase-container="true" class="- topic/entry firmware-d/reg-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-name:1;41:23">Name</reg-name>
+
+            <reg-details colname="col4" class="- topic/entry firmware-d/reg-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-details:1;43:26">
+              <xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="xref:2;44:157" type="table"><?ditaot usertext?>Message
+              Dword TableMSG-DESCRIPTION</xref>
+            </reg-details>
+          </reg-reference>
+        </reg-references>
+      </tgroup>
+    </table>
+
+    <table id="table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:2;52:71">
+      <?guidance Use this table to define a single message. You can define multiple dwords by incrementing the value of the Dword column. You can define
+ a Dword Array using the Dword column to define the number of dwords in the array (e.g. 1:15) and using the "double" element in the 
+ Position column to define the width of each dword in the array (usually 31:0). ?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:3;57:14"><msg-name-main xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph struct-d/msg-name-main " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="msg-name-main:1;57:94">Message Dword Table</msg-name-main> -
+      <msg-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph struct-d/msg-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="msg-desc:1;58:82">MSG-DESCRIPTION</msg-desc></title>
+
+      <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:2;60:24">
+        <colspec colname="col1" colwidth="14*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:5;61:46"/>
+
+        <colspec colname="col2" colwidth="13*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:6;63:46"/>
+
+        <colspec colname="col3" colwidth="13*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:7;65:46"/>
+
+        <colspec colname="col4" colwidth="60*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:8;67:46"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:2;69:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:2;70:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:5;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:6;71:23"> Dword</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:6;73:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:7;73:23">Position</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:7;75:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:8;75:23">Name</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:8;77:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:9;77:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <struct structure="msg" class="- topic/tbody struct-d/struct " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="struct:1;81:17">
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="dword:1;82:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="value:1;83:20">1</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="position:1;85:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="single:1;86:24"/>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="name:1;89:19">Name</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="description:1;91:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="desc-title:1;92:92">Title</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:10;94:19"/>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-list:1;96:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum:1;97:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-value:1;98:102">VALUE</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-def:1;100:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-name:1;101:103">NAME</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-desc:1;103:103">Definition.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="dword:2;110:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="value:2;111:20">2</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="position:2;113:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="single:2;114:23">4</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="name:2;117:19">Name2</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="description:2;119:26">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:11;120:18">Description</p>
+            </description>
+          </dword>
+        </struct>
+      </tgroup>
+    </table>
+
+    <table id="table_Includes_2j5mybk8z" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:3;127:42">
+      <?guidance The following table defines the includes that are added to the generated .h file.?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:4;130:14">Includes</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:3;132:24">
+        <colspec colname="col1" colwidth="31*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:9;133:49"/>
+
+        <colspec colname="col2" colwidth="69*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:10;135:34"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:3;137:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:3;138:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:9;139:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:12;139:23"> Name</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:10;141:20">Description</entry>
+          </row>
+        </thead>
+
+        <includeslist class="- topic/tbody struct-d/includeslist " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="includeslist:1;145:23">
+          <include class="- topic/row struct-d/include " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="include:1;146:20">
+            <name colname="col1" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="name:3;147:19">stdtypes.h</name>
+
+            <description colname="col2" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="description:3;149:26">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:13;150:18">Type definitions required for auto header generation.</p>
+            </description>
+          </include>
+        </includeslist>
+      </tgroup>
+    </table>
+
+    <table id="table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:4;157:70">
+      <?guidance Use this table to define a single register. The largest bit goes in the top row (on the left, in the event that the top row defines a bit range.
+ of a bit range) and the fields descend from there.?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:5;161:14"><reg-name-main xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/reg-name-main " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-name-main:1;161:94">REGISTER-NAME</reg-name-main> -
+      <reg-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/reg-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-desc:1;162:82">REGISTER-DESCRIPTION</reg-desc></title>
+
+      <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:4;164:24">
+        <colspec colname="col1" colwidth="111*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:11;165:47"/>
+
+        <colspec colname="col2" colwidth="144*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:12;167:47"/>
+
+        <colspec colname="col3" colwidth="101*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:13;169:47"/>
+
+        <colspec colname="col4" colwidth="87*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:14;171:46"/>
+
+        <colspec colname="col5" colwidth="557*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:15;173:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:4;175:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:4;176:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:11;177:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:14;177:23">Bit Field</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:12;179:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:15;179:23">Field Name</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:13;181:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:16;181:23">Type</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:14;183:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:17;183:23">Default Value</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:15;185:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:18;185:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <reg-def class="- topic/tbody m-software-d/reg-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="reg-def:1;189:18">
+          <field class="- topic/row m-software-d/field " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field:1;190:18">
+            <field-bits colname="col1" class="- topic/entry m-software-d/field-bits " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-bits:1;191:25">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="double:1;192:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="msb:1;193:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="lsb:1;195:22">1</lsb>
+              </double>
+            </field-bits>
+
+            <field-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col2" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-name:1;199:90">FieldName</field-name>
+
+            <field-type xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col3" sticky="yes" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-type:1;201:103">RW1C</field-type>
+
+            <field-default xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col4" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-default " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-default:1;203:93">0x12</field-default>
+
+            <field-desc colname="col5" class="- topic/entry m-software-d/field-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-desc:1;205:25">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="desc-title:2;206:92">Title</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:19;208:19"/>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-list:2;210:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum:2;211:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-value:2;212:102">VALUE</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-def:2;214:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-name:2;215:103">NAME</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-enum-desc:2;217:103">Definition.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </field-desc>
+          </field>
+
+          <field class="- topic/row m-software-d/field " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field:2;224:18">
+            <field-bits colname="col1" class="- topic/entry m-software-d/field-bits " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-bits:2;225:25">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="single:3;226:23">0</single>
+            </field-bits>
+
+            <field-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col2" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-name:2;229:90">FieldName2</field-name>
+
+            <field-type xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col3" sticky="yes" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-type:2;231:103">RW1C</field-type>
+
+            <field-default xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" colname="col4" deltaxml:phrase-container="true" class="- topic/entry m-software-d/field-default " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-default:2;233:93">0x0</field-default>
+
+            <field-desc colname="col5" class="- topic/entry m-software-d/field-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="field-desc:2;235:25">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:20;236:19"/>
+            </field-desc>
+          </field>
+        </reg-def>
+      </tgroup>
+    </table>
+
+    <table id="table_Device_Table_4j5mybk8z" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:5;243:46">
+      <?guidance Define the location first. Define the mnemonic and link to the register in the Mnemonic column. 
+In the Description column add a second link to the register table and add any extra detail. ?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:6;247:14">Device Table</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:5;249:24">
+        <colspec colname="col1" colwidth="260*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:16;250:35"/>
+
+        <colspec colname="col2" colwidth="247*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:17;252:35"/>
+
+        <colspec colname="col3" colwidth="493*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:18;254:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:5;256:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:5;257:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:16;258:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:21;258:23">Offset Address</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:17;260:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:22;260:23">Mnemonic/Prefix </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:18;262:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:23;262:23">Register/Device Description </p></entry>
+          </row>
+        </thead>
+
+        <address-map xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" class="- topic/tbody m-software-d/address-map " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address-map:1;266:87">
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="register-reference:1;267:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address:1;268:22">0x2000</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="addr-element:1;270:27">
+              <addr-mnemonic class="- topic/p m-software-d/addr-mnemonic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="addr-mnemonic:1;271:30"><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="xref:3;271:171" type="table"><?ditaot usertext?>REGISTER-NAME</xref></addr-mnemonic>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address-details:1;274:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:24;275:18">This is the description</p>
+            </address-details>
+          </register-reference>
+
+          <register-reference class="- topic/row m-software-d/register-reference " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="register-reference:2;279:31">
+            <address colname="col1" class="- topic/entry m-software-d/address " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address:2;280:22">0x2000</address>
+
+            <addr-element colname="col2" class="- topic/entry m-software-d/addr-element " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="addr-element:2;282:27">
+              <address-prefix class="- topic/p m-software-d/address-prefix " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address-prefix:1;283:31"><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="xref:4;283:172" type="table"><?ditaot usertext?>REGISTER-NAME</xref></address-prefix>
+            </addr-element>
+
+            <address-details colname="col3" class="- topic/entry m-software-d/address-details " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="address-details:2;286:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:25;287:18">This is the description</p>
+            </address-details>
+          </register-reference>
+        </address-map>
+      </tgroup>
+    </table>
+
+    <table id="table_Testnameshort_-_Testnamelong_5j5mybk8z" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:6;294:62">
+      <?guidance Use this table to define a single test scenerio. ?>
+
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:7;297:14"><test-name-short xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph firmtest-d/test-name-short " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-name-short:1;297:96">Testnameshort </test-name-short> -
+      <test-name-long xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph firmtest-d/test-name-long " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-name-long:1;298:88"> Testnamelong</test-name-long></title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:6;300:24">
+        <colspec colname="col1" colwidth="190*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:19;301:35"/>
+
+        <colspec colname="col2" colwidth="810*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="colspec:20;303:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:6;305:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:6;306:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:19;307:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:26;307:42"> Category</p></entry>
+
+            <entry colname="col2" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:20;309:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:27;309:42">Content</p></entry>
+          </row>
+        </thead>
+
+        <test class="- topic/tbody firmtest-d/test " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test:1;313:15">
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:1;314:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:1;315:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:28;316:18">Owner</p>
+            </test-row-type>
+
+            <test-owner colname="col2" class="- topic/entry firmtest-d/test-owner " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-owner:1;319:25">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:29;320:18">Owner</p>
+            </test-owner>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:2;324:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:2;325:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:30;326:18">Priority</p>
+            </test-row-type>
+
+            <test-pri colname="col2" class="- topic/entry firmtest-d/test-pri " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-pri:1;329:23">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:31;330:18">Priority</p>
+            </test-pri>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:3;334:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:3;335:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:32;336:18">Description</p>
+            </test-row-type>
+
+            <test-desc colname="col2" class="- topic/entry firmtest-d/test-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-desc:1;339:24">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:33;340:18">Description</p>
+            </test-desc>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:4;344:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:4;345:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:34;346:18">Procedure</p>
+            </test-row-type>
+
+            <test-proc colname="col2" class="- topic/entry firmtest-d/test-proc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-proc:1;349:24">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:35;350:18">Procedure</p>
+            </test-proc>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:5;354:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:5;355:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:36;356:18">Expected Results</p>
+            </test-row-type>
+
+            <test-exp-rslt colname="col2" class="- topic/entry firmtest-d/test-exp-rslt " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-exp-rslt:1;359:28">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:37;360:18">Expected Results</p>
+            </test-exp-rslt>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:6;364:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:6;365:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:38;366:18">Schedule Estimate</p>
+            </test-row-type>
+
+            <test-sched-est colname="col2" class="- topic/entry firmtest-d/test-sched-est " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-sched-est:1;369:29">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:39;370:18">Schedule Estimate</p>
+            </test-sched-est>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:7;374:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:7;375:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:40;376:18">Schedule Actual</p>
+            </test-row-type>
+
+            <test-sched-act colname="col2" class="- topic/entry firmtest-d/test-sched-act " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-sched-act:1;379:29">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:41;380:18">Schedule Actual</p>
+            </test-sched-act>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:8;384:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:8;385:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:42;386:18">Result</p>
+            </test-row-type>
+
+            <test-result colname="col2" class="- topic/entry firmtest-d/test-result " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-result:1;389:26">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:43;390:18">Result</p>
+            </test-result>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:9;394:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:9;395:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:44;396:18">Firmware</p>
+            </test-row-type>
+
+            <test-fw colname="col2" class="- topic/entry firmtest-d/test-fw " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-fw:1;399:22">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:45;400:18">Firmware</p>
+            </test-fw>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:10;404:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:10;405:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:46;406:18">Hardware</p>
+            </test-row-type>
+
+            <test-hw colname="col2" class="- topic/entry firmtest-d/test-hw " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-hw:1;409:22">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:47;410:18">Hardware</p>
+            </test-hw>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:11;414:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:11;415:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:48;416:18">Notes</p>
+            </test-row-type>
+
+            <test-notes colname="col2" class="- topic/entry firmtest-d/test-notes " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-notes:1;419:25">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:49;420:18">Notes</p>
+            </test-notes>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:12;424:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:12;425:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:50;426:18">Requirements</p>
+            </test-row-type>
+
+            <test-req colname="col2" class="- topic/entry firmtest-d/test-req " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-req:1;429:23">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:51;430:18">Requirements</p>
+            </test-req>
+          </test-row>
+
+          <test-row class="- topic/row firmtest-d/test-row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row:13;434:21">
+            <test-row-type colname="col1" bg_color="#D3D3D3" class="- topic/entry firmtest-d/test-row-type " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-row-type:13;435:47">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:52;436:18">Misc.</p>
+            </test-row-type>
+
+            <test-misc colname="col2" class="- topic/entry firmtest-d/test-misc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-misc:1;439:24">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:53;440:18">Misc.</p>
+            </test-misc>
+          </test-row>
+        </test>
+      </tgroup>
+    </table>
+
+    <table id="table_-__6j5mybk8z" otherprops="test-matrix" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="table:7;447:61">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="title:8;448:14"><test-matrix-nm-short xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph firmtest-d/test-matrix-nm-short " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-matrix-nm-short:1;448:101"> </test-matrix-nm-short> -
+      <test-matrix-nm-long xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph firmtest-d/test-matrix-nm-long " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="test-matrix-nm-long:1;449:93"> </test-matrix-nm-long></title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tgroup:7;451:24">
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="thead:7;452:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:7;453:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:21;454:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:54;454:23"> this/that</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:22;456:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:55;456:23"> that</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:23;458:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:56;458:23"> that</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:24;460:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:57;460:23"> that</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:25;462:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:58;462:23"> that</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:26;464:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:59;464:23"> that</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="tbody:1;468:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:8;469:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:27;470:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:60;470:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:28;472:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:61;472:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:29;474:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:62;474:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:30;476:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:63;476:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:31;478:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:64;478:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:32;480:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:65;480:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:9;483:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:33;484:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:66;484:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:34;486:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:67;486:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:35;488:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:68;488:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:36;490:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:69;490:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:37;492:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:70;492:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:38;494:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:71;494:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:10;497:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:39;498:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:72;498:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:40;500:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:73;500:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:41;502:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:74;502:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:42;504:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:75;504:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:43;506:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:76;506:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:44;508:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:77;508:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:11;511:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:45;512:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:78;512:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:46;514:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:79;514:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:47;516:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:80;516:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:48;518:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:81;518:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:49;520:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:82;520:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:50;522:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:83;522:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:12;525:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:51;526:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:84;526:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:52;528:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:85;528:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:53;530:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:86;530:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:54;532:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:87;532:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:55;534:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:88;534:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:56;536:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:89;536:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="row:13;539:16">
+            <entry colname="col1" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:57;540:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:90;540:42"> this</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:58;542:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:91;542:23"> </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:59;544:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:92;544:23"> </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:60;546:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:93;546:23"> </p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:61;548:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:94;548:23"> </p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="entry:62;550:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PublishTest\Topics\Tables-specializations.xml" xtrc="p:95;550:23"> </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

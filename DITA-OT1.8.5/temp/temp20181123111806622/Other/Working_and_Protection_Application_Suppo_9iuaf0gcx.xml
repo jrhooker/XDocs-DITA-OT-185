@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Working_and_Protection_Application_Suppo_9iuaf0gcx" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="title:1;3:10">Working and Protection Application Support using the DSIS</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:1;6:8">This section outlines working and protection application and how it is
+    supported with DSIS. There are 4 supported schemes:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="ol:1;9:9">
+      <li id="d1e172" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:1;10:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:2;10:26">Support protection switching between OTU4 via
+      DSIS.</p></li>
+
+      <li id="d1e178" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:2;13:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:3;13:26">Support protection switching between OTUCn via
+      DSIS.</p></li>
+
+      <li id="d1e184" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:3;16:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:4;16:26">Support bridging (replication) of OTU4 via
+      DSIS.</p></li>
+
+      <li id="d1e190" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:4;19:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:5;19:26">Support bridging (replication) of OTUCn via
+      DSIS.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:6;23:8"><xref href="Working_and_Protection_Application_Suppo_9iuaf0gcx.xml#Working_and_Protection_Application_Suppo_9iuaf0gcx/Demonstrating_the_DSIS_working_switch_ap_aiuaf0gcx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="xref:1;23:179" type="fig"><?ditaot gentext?>Figure 1</xref>
+    shows the working and protection applications in both the RX and TX
+    direction as described above.</p>
+
+    <fig id="Demonstrating_the_DSIS_working_switch_ap_aiuaf0gcx" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="fig:1;27:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="title:2;28:14">Demonstrating the DSIS Working Switch Application</title>
+
+      <image height="6in" href="working_switch_application.svg" placement="break" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="image:1;30:84"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:7;33:8">The first diagram in <xref href="Working_and_Protection_Application_Suppo_9iuaf0gcx.xml#Working_and_Protection_Application_Suppo_9iuaf0gcx/Demonstrating_the_DSIS_working_switch_ap_aiuaf0gcx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="xref:2;33:200" type="fig"><?ditaot gentext?>Figure 1</xref>
+    shows the OTN Egress protection switching. In the TX direction, it can be
+    seen that the bridging is achieved by duplicating the Tx signal from
+    LINEOTN to bank B from the signal going into bank A. In this application,
+    SYSOTN is set up in a special monitor-only mode as the SYSOTN channel just
+    needs to monitor the signal (e.g. PRBS patterns from the SERDES). The
+    SYSOTN channel is only provisioned up to the first Stage framers of
+    COREOTN. Also only the LINEOTN subsystem can broadcast its Tx data. The
+    SYSOTN subsystem is not able to provide the same feature.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:8;43:8">The second and third diagrams in <xref href="Working_and_Protection_Application_Suppo_9iuaf0gcx.xml#Working_and_Protection_Application_Suppo_9iuaf0gcx/Demonstrating_the_DSIS_working_switch_ap_aiuaf0gcx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="xref:3;43:212" type="fig"><?ditaot gentext?>Figure 1</xref>
+    shows the OTN Ingress protection switching. In the RX direction, the
+    working and protection switch is demonstrated where the signal would swap
+    over to another bank. The channel from LINEOTN is set up to listen to the
+    SERDES port used for the SYSOTN channel. Then the SYSOTN channel can be
+    set up to listen to the SERDES port used for the LINEOTN channel. In the
+    case of OTUCn group, it is likely that all SERDES ports within the OTUCn
+    group will be remapped to the different set of SERDES ports for another
+    OTUCn group. When this remapping occurs, the relative order of the OTUCs
+    within the appropriate OTUCn group is fixed. That is, the SERDES port of
+    first OTUC in the LINEOTN OTUCn group will be swapped with the SERDES port
+    of the first OTUC in the SYSOTN OTUCn group. The SERDES port of the second
+    OTUC in the LINEOTN OTUCn group will be swapped with the SERDES port of
+    the second OTUC in the SYSOTN OTUCn group, and so on. The device is able
+    to monitor 2xOTUC6 and pick the best one and switch to that path.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:9;59:8">The Rx DSIS switching can also be used to internally connect two ENET
+    SERDES ports when IPTS is used as an internal test source. Two independent
+    paths can be set up initially as follows:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="ol:2;63:9">
+      <li id="d1e226" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:5;64:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:10;64:26">Serdes port #0 &lt;-&gt; DSIS &lt;-&gt; ENET port #0
+      &lt;-&gt; ENET MAC &lt;-&gt; ILKN_PKT (IPTS)</p></li>
+
+      <li id="d1e232" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="li:6;67:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:11;67:26">Serdes port #1 &lt;-&gt; DSIS &lt;-&gt; ENET port #1
+      &lt;-&gt; MAPOTN &lt;-&gt; COREOTN &lt;-&gt; OTN port #2</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Working_and_Protection_Application_Suppo_9iuaf0gcx.xml" xtrc="p:12;71:8">Each SERDES port can be put into loopback mode then the ENET channel on
+    ENET port #0 can be switched to connect to the ENET port #1. The ENET
+    channel on ENET port #1 then can be remap to ENET port #0. This will
+    create a full data path to ring out the device from ILKN &lt;-&gt; ENET
+    &lt;-&gt; MAPOTN &lt;-&gt; COREOTN &lt;-&gt; LINEOTN.</p>
+  </body>
+</topic>

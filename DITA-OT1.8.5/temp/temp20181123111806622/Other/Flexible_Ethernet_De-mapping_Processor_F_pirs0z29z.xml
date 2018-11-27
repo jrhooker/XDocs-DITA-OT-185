@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="title:1;3:10">Flexible Ethernet De-mapping Processor (FEDP)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:1;6:8">The Flexible Ethernet Demapping Processor (FEDP) block features are
+    listed below.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="ul:1;9:9">
+      <li audience="MSCCInternal" id="d1e2394" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:1;10:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:2;10:51">Provides clock-domain
+      crossing (CDC) from the core clock domain to the Ethernet clock
+      domain.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2400" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:2;14:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:3;14:51">Converts packet payload into
+      a C82 or C49 encoded 66b code word stream.</p></li>
+
+      <li id="d1e2406" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:3;17:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:4;17:27">Supports up to 60 channels with a minimum per
+      channel bandwidth of 10 Gbps and total aggregate bandwidth of 600
+      Gbps.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2412" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:4;21:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:5;21:51">Responds to backpressure on
+      the code word interface.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2418" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:5;24:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:6;24:51">Generates backpressure on
+      the packet interface.</p></li>
+
+      <li id="d1e2425" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:6;27:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:7;27:27">Provides a decoded packet stream for performance
+      monitoring on all non FlexE aware or unaware paths. The performance
+      monitoring path is configurable per channel.</p></li>
+
+      <li id="d1e2431" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:7;31:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:8;31:27">To provide test capability for IMP channels, idle
+      insertion can be enabled with error generation at rates down to one
+      bit-error every 1012 bits.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:9;36:8">Features for the ODUflex-IMP datapath:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="ul:2;38:9">
+      <li id="d1e2443" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:8;39:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:10;39:27">Encodes packets into C82 or C49 code words.</p></li>
+
+      <li id="d1e2449" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:9;41:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:11;41:27">Provides per channel configurable target encoding
+      (C49 or C82).</p></li>
+
+      <li id="d1e2455" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:10;44:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:12;44:27">Fills packet streams with idle characters.</p></li>
+
+      <li id="d1e2461" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:11;46:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:13;46:27">Fills empty packet stream with idle code words based
+      on downstream consumption rate.</p></li>
+
+      <li id="d1e2467" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:12;49:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:14;49:27">Creates C49/C82 compliant IPG and decreases nominal
+      IPG as needed to compensate for clock rate PPM differences.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2474" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:13;52:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:15;52:51">Optionally inserts alignment
+      markers on up to six 100GE channels.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2480" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:14;55:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:16;55:51">Provides a packet-based
+      output interface for performance monitoring.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:17;59:8">Features for the ODU2e-BMP and ODUflex-CBR datapath.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="ul:3;61:9">
+      <li id="d1e2493" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:15;62:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:18;62:27">Transmits C82 encoded CBR traffic for packets in
+      Flex-E Aware transport mapping without any modification.</p></li>
+
+      <li id="d1e2499" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:16;65:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:19;65:27">Optionally performs C49 to C82 PCS clause
+      modification for G.709 17.2.4 (10GE BMP OPU2e)</p></li>
+
+      <li id="d1e2505" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:17;68:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:20;68:27">Provides idle compensation from zone information to
+      ensure a constant data consumption rate when not operating transparently
+      (FlexE clients only).</p></li>
+
+      <li audience="MSCCInternal" id="d1e2511" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:18;72:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:21;72:51">Provides a packet-based
+      output interface for performance monitoring for non-FlexE Aware traffic
+      (400GE, 10GE).</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:22;77:8">Features for the ODU4-GMP datapath:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="ul:4;79:9">
+      <li audience="MSCCInternal" id="d1e2523" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:19;80:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:23;80:51">Uses a 60-channel calendar
+      provided by an external scheduler to drive all datapaths.</p></li>
+
+      <li audience="MSCCInternal" id="d1e2529" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:20;83:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:24;83:51">Receives 132B code word
+      aligned data in an n * 66b format.</p></li>
+
+      <li id="d1e2535" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:21;86:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:25;86:27">Optionally aligns to the alignment markers on the
+      100 Gbps streams.</p></li>
+
+      <li id="d1e2541" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:22;89:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:26;89:27">Optionally deletes all alignment markers.</p></li>
+
+      <li id="d1e2547" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:23;91:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:27;91:27">Provides idle compensation from zone information to
+      ensure a constant data consumption rate when not operating transparently
+      (FlexE clients only).</p></li>
+
+      <li audience="MSCCInternal" id="d1e2554" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:24;95:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:28;95:51">Removes alignment markers
+      for performance monitoring. FlexE unaware paths will not be sent for
+      performance monitoring.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:29;100:8">Features for the Gsup43 Clause 6.2 datapath:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="ul:5;102:9">
+      <li id="d1e2566" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:25;103:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:30;103:27">Converts packets into PCS clause <i audience="MSCCInternal" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="i:1;103:87">C49 or </i>C82 encoded code words. The code word
+      format is configurable per channel.</p></li>
+
+      <li id="d1e2572" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:26;106:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:31;106:27">Inserts an 8-byte preamble to every GFP packet. This
+      option is configurable per channel.</p></li>
+
+      <li id="d1e2578" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:27;109:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:32;109:27">Fills empty packet stream with idle code words based
+      on downstream consumption rate.</p></li>
+
+      <li id="d1e2584" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:28;112:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:33;112:27">Creates C49/C82 compliant IPG, monitors the zone
+      information and decreases nominal IPG to reduce backpressure when
+      overflow conditions are detected.</p></li>
+
+      <li id="d1e2590" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="li:29;116:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_De-mapping_Processor_F_pirs0z29z.xml" xtrc="p:34;116:27">Removes the preamble for performance
+      monitoring.</p></li>
+    </ul>
+  </body>
+</topic>

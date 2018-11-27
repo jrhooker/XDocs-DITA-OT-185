@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="topic:1;2:174">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:1;3:10">Ethernet Client SERDES Selection Options for NMS Managed ENET PHY
+  Channel Assignment</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="body:1;6:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:1;7:8">The NMS managed approach to assigning Ethernet PHY channels to Ethernet
+    clients offers additional flexibility in selecting SERDES ports for each
+    Ethernet client compared to the route 0 and route 1 options when using the
+    SDK to assign Ethernet PHY channels to Ethernet clients. Clients can be
+    sourced from different SERDES banks when using the NMS managed approach
+    which may simplify layout of a printed circuit board. Examples of
+    additional flexibility include support for assigning 400GE MLDs to SERDES
+    ports that can be offset from the top or bottom of a bank provided they
+    are aligned on SHI boundaries and 200GE MLDs can be assigned to any SHI
+    block.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:2;18:8">Both the SERDES_PORT_ID of <xref href="User_Interface_convention_for_Defining_S_6iuaf0gcw.xml#User_Interface_convention_for_Defining_S_6iuaf0gcw/Serdes_Pin_to_Port_ID_Numbering_Scheme_7iuaf0gcx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:1;18:204" type="fig"><?ditaot gentext?>Figure 1</xref>and
+    the master Ethernet PHY channel of <xref href="Ethernet_Client_PHY_Channel_Assignment_and_Related_SERDES_Selection_Rules.xml#Ethernet_Client_PHY_Channel_Assignment_and_Related_SERDES_Selection_Rules/fig_Ethernet_PHY_Channel_Number_Assignments__1ji6k55g8" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:2;19:261" type="fig"><?ditaot gentext?>Figure 1</xref>
+    are specified by system software when using the NMS managed approach to
+    assign Ethernet PHY channels to an Ethernet client. The SERDES_PORT_ID is
+    a unique identifier that specifies a SERDES instance and the lowest
+    Ethernet PHY channel that is used for a Ethernet client is the base
+    Ethernet PHY address (base ENET_PHY address). Additional Ethernet PHY
+    addresses are blocked for use by other Ethernet clients when an Ethernet
+    client is provisioned (blocked ENET_PHY addresses). For example, the base
+    ENET_PHY address for 400GE is 0 and the blocked ENET_PHY addresses are
+    [15:1].</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:3;30:8"><xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Supported_400GE_GAUI-16_SERDES_Lanes_whe_5jiafdnsq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:3;30:158" type="fig"><?ditaot gentext?>Figure 1</xref> illustrates the supported SERDES ports and ENET_PHY channels for a
+    400GE GAUI-16 interface. 400GAUI-16 uses any 4 adjacent SHI blocks from
+    the same SERDES bank. Refer to the notes column for additional
+    guidelines.</p>
+
+    <fig id="fig_Supported_400GE_GAUI-16_SERDES_Lanes_whe_5jiafdnsq" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:1;36:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:2;37:14">Supported 400GE GAUI-16 SERDES Lanes when using NMS Managed ENET
+      PHY Channel Assignment</title>
+
+      <image href="400GAU16_SHI_ENETPHY_Mapping.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:1;40:67"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:1;43:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=442996" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:4;43:118"><?ditaot usertext?> http://bby1dms01/docmgmt/fileinfo.cfm?file_id=442996
+    </xref></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:4;46:8"><xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Supported_400GE_GAUI-8_and_200GE_GAUI-4__6jiahjr36" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:5;46:158" type="fig"><?ditaot gentext?>Figure 2</xref> illustrates the supported SERDES port and ENET_PHY channels for
+    400GE GAUI-8 and 200GE GAUI-4 interfaces. 400GE GAUI-8 uses any two
+    adjacent SHI blocks on the same bank. 200GE GAUI-4 connects to one SHI
+    block of any bank. Refer to the notes column for additional
+    guidelines.</p>
+
+    <fig id="fig_Supported_400GE_GAUI-8_and_200GE_GAUI-4__6jiahjr36" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:2;53:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:3;54:14">Supported 400GE GAUI-8 and 200GE GAUI-4 SERDES Lanes when using
+      NMS Managed ENET PHY Channel Assignment</title>
+
+      <image href="400GAU8_200GAUI4_SHI_ENETPHY_Mapping.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:2;57:75"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:2;60:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443003" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:6;60:118"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443003</xref></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:5;63:8"><xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Supported_100GE_50GE_25GE_and_10GE_SERDE_7jiapy6r2" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:7;63:158" type="fig"><?ditaot gentext?>Figure 3</xref> illustrates the supported SERDES port and ENET_PHY channels for
+    100GE CAUI-4, 100GE GAUI-2, 50GE GAUI, 25GE GAUI, and 10GE SFI. Refer to
+    the notes column in the figure for additional guidelines. Refer to the
+    notes column for additional guidelines</p>
+
+    <fig id="fig_Supported_100GE_50GE_25GE_and_10GE_SERDE_7jiapy6r2" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:3;69:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:4;70:14">Supported 100GE, 50GE, 25GE, and 10GE SERDES Lanes when using NMS
+      Managed ENET PHY Channel Assignment</title>
+
+      <image href="CAUI_SHI_ENETPHY_Mapping.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:3;73:63"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:3;76:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443012" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:8;76:118"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443012</xref></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:6;79:8">It may be desirable to use SERDES locations for Ethernet clients that
+    are not supported by the route 0 and route 1 options of the SDK managed
+    approach to Ethernet PHY channel assignment while using a schema that
+    simplifies the rules used by the NMS to assign a Ethernet PHY channel to
+    Ethernet clients. For example, supporting Ethernet clients on multiple
+    banks and supporting 200GE on alternate route 1 SERDES locations. <xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Suggested_Mapping_for_NMS_Managed_ENET_P_9jiatzzbi" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:9;84:221" type="fig"><?ditaot gentext?>Figure 4</xref> and <xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Mirrored_Version_of_a_Suggested_Mapping__ajiatzzbi" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:10;85:167" type="fig"><?ditaot gentext?>Figure 5</xref> illustrate one such schema (many others are possible). All lower
+    rate Ethernet clients are "shadowed" by their higher rate client such that
+    the NMS can allocate the Ethernet PHY channel based on the SERDES port
+    that is used provided SERDES ports that are used for Ethernet client
+    optics cages do no overlap between banks. For a example, a 200GE GAUI-4
+    cage would not be connected to SHI 0 on two different banks since the NMS
+    rule would be to assign Ethenet PHY channel 0 to the 200GE client on SHI0
+    but this would only work if SHI0 is not used for a 200GE client on a
+    different bank. The NMS, and by inference the optics population guidelines
+    that are published in end user documentation, would require the lower rate
+    clients be de-provisioned to provision the higher rate Ethernet client
+    that requires the same Ethernet PHY channels as per <xref href="Ethernet_Client_PHY_Channel_Assignment_and_Related_SERDES_Selection_Rules.xml#Ethernet_Client_PHY_Channel_Assignment_and_Related_SERDES_Selection_Rules/fig_Ethernet_PHY_Channel_Number_Assignments__1ji6k55g8" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:11;97:278" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    The locations for OTL4, FOIC, and OTUC members of n OTUCn group are on
+    100G boundaries (the locations highlighted in green).</p>
+
+    <fig id="fig_Suggested_Mapping_for_NMS_Managed_ENET_P_9jiatzzbi" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:4;101:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:5;102:14">Suggested Mapping for NMS Managed ENET PHY Channel
+      Assignment</title>
+
+      <image href="Serdes_Port_ID_Supported_Usage_Types.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:4;105:75"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:4;108:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443018" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:12;108:118"><?ditaot usertext?> http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443018
+    </xref> To create SVG file, print spreadsheet as PDF, convert PDF to SVG
+    using https://image.online-convert.com/convert-to-svg, read SVG in Visio,
+    fit to page to remove white space, and use save-as in Visio to save as a
+    SVG file.</note>
+
+    <fig id="fig_Mirrored_Version_of_a_Suggested_Mapping__ajiatzzbi" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:5;114:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:6;115:14">Mirrored Version of a Suggested Mapping for NMS Managed ENET PHY
+      Channel Assignment</title>
+
+      <image href="Serdes_Port_ID_Supported_Usage_Types_Mirrored.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:5;118:84"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:5;121:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443019" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:13;121:118"><?ditaot usertext?> http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443019
+    </xref> To create SVG file, print spreadsheet as PDF, convert PDF to SVG
+    using https://image.online-convert.com/convert-to-svg, read SVG in Visio,
+    fit to page to remove white space, and use save-as in Visio to save as a
+    SVG file.</note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:7;127:8"><xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Common_LIne_Card_Design_Example_Supporti_bjiavbskv" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:14;127:158" type="fig"><?ditaot gentext?>Figure 6</xref> illustrates a line card application that uses the NMS managed
+    approach to assigning Ethernet PHY channels to Ethernet clients and the
+    suggested mirrored mapping of <xref href="#ENET_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment/fig_Mirrored_Version_of_a_Suggested_Mapping__ajiatzzbi" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:15;130:185" type="fig"><?ditaot gentext?>Figure 5</xref>. The example uses a QSFP-DD cage to support 400GE GAUI-8, three
+    SFP56/28 cages and a QSFP56 cage.</p>
+
+    <fig id="fig_Common_LIne_Card_Design_Example_Supporti_bjiavbskv" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="fig:6;134:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="title:7;135:14">Common Line Card Design Example Supporting 400GE GAUI-8 and
+      SFP56/SFP28</title>
+
+      <image href="cage_scenario_400GE_QSFPDD_SFP.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="image:6;138:69"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="note:6;141:35"><xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443021" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="xref:16;141:118"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=443021</xref> To create SVG
+    file, print spreadsheet as PDF, convert PDF to SVG using
+    https://image.online-convert.com/convert-to-svg, read SVG in Visio, fit to
+    page to remove white space, and use save-as in Visio to save as a SVG
+    file.</note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Ethernet_Client_SERDES_Selection_Options_for_NMS_Managed_ENET_PHY_Channel_Assignment.xml" xtrc="p:8;148:8">The NMS managed approach to assignment of Ethernet PHY channels to
+    Ethernet clients is currently not supported by the SDK. Information on
+    APIs to support the NMS managed approach will be added to a future issue
+    of this document.</p>
+  </body>
+</topic>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7cb2" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="topic:1;2:141">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:1;3:10">ODUCn / ODUjk MUX / DMX Datapath Provisioning API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:1;6:8">The flowchart for provisioning one or two stages of ODUCn and/or ODUjk
+    multiplexing is shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7cb2/fig_ODUCn_ODUjk_MUX_DMX_Datapath_Provisionin_6jkuc8vlj" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="xref:1;7:147" type="fig"><?ditaot gentext?>Figure 1</xref> and uses the g5_api_odu_mux_cfg() API.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="note:1;10:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:2;10:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "ODUjk_Mux")</p></note>
+
+    <fig id="fig_ODUCn_ODUjk_MUX_DMX_Datapath_Provisionin_6jkuc8vlj" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="fig:1;15:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:2;16:14">ODUCn / ODUjk MUX / DMX Datapath Provisioning Flowchart</title>
+
+      <image href="OTUCn_ODTUjk_Mux_Provision_Flowchart.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="image:1;18:63"/>
+    </fig>
+
+    <section id="section_g5_api_odu_mux_cfg__7jkuc8vlj" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="section:1;21:57"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:3;21:64">g5_api_odu_mux_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:3;21:95">The
+    API provisions ODUjk or ODUCn multiplexing sub-containers ODUjk
+    multiplexing is available for a High Order configured with
+    g5_api_otn_prov() or a sub-container created by calling this API. If this
+    API is used for 2nd stage ODUjk multiplexing, then the LINEOTN Subsystem
+    may have up to 500G of SERDES Ports provisioned against it. If 600G of
+    SERDES Ports provisioned against the LINEOTN subsystem, resources for 2nd
+    stage ODUjk multiplexing are not available. ODUCn multiplexing is
+    available for an ODUCn group configured with g5_api_otucn_group_prov().
+    2nd stage ODUjk multiplexing is not allowed on ODUCn multiplexing Low
+    Order ODUk channels. The g5_api_odu_mux_cfg() API parameters are shown
+    below with any associated structures.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="ul:1;32:50">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:1;33:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:4;33:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:2;35:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:5;35:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:3;37:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:6;37:16">parent_chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:4;39:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:7;39:16">info - g5_odu_lo_data_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:8;40:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user defined unique channel ID for ODUj/ODUflex
+    sub-container channel.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:9;42:34">The High Order ODUC / ODUk framer channel ID
+    is used for the parent_chnl_id of the API g5_api_odu_mux_cfg() for the 1
+    stage of ODUjk or and for ODUCn multiplexing. The Mid Order ODUk framer
+    channel ID is used for the parent_chnl_id of the API g5_api_odu_mux_cfg()
+    for the 2nd stage of 2 stage ODUjk multiplexing. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:10;46:61">The structure
+    g5_odu_lo_data_t of the API g5_api_odu_mux_cfg() API parameter, info, is
+    used to specify the remaining parameters and options for ODUC / High Order
+    ODUCjk and Low Order ODUjk multiplexing.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:11;49:52">The g5_odu_lo_data_t
+    structure's members and associated enumerations are shown below.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="ul:2;50:77">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:5;51:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:12;51:16">oduk_type - g5_oduk_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:6;53:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:13;53:16">client_bitrate</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:7;55:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:14;55:16">client_num_incr</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:8;57:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:15;57:16">payload_mode - g5_odu_line_payload_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:9;59:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:16;59:16">tx_tribslot_data - g5_odu_tribslot_data_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:10;61:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:17;61:16">rx_tribslot_data - g5_odu_tribslot_data_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="li:11;63:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:18;63:16">jk_logical_slice - g5_cn_mux_jk_mux_instance_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:19;64:15">The structure member oduk_type uses the enumerated type
+    g5_oduk_t with the values defined in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7cb2/table_Enumerator_g5_oduk_t_ojoq24a8j" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="xref:2;65:141" type="table"><?ditaot gentext?>Table 1</xref> below.</p><table id="table_Enumerator_g5_oduk_t_ojoq24a8j" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="table:1;66:72">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:4;67:16">Enumerator g5_oduk_t</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tgroup:1;69:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="thead:1;70:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:1;71:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:1;72:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:20;72:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:2;74:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:21;74:25"> ODUk Rate</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tbody:1;78:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:2;79:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:3;80:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:22;80:25"> G5_ODUK_ODU0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:4;82:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:23;82:25"> ODU0</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:3;85:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:5;86:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:24;86:25"> G5_ODUK_ODU1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:6;88:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:25;88:25"> ODU1</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:4;91:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:7;92:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:26;92:25"> G5_ODUK_ODU1E</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:8;94:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:27;94:25"> ODU1E</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:5;97:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:9;98:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:28;98:25"> G5_ODUK_ODU1F</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:10;100:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:29;100:25"> ODU1F</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:6;103:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:11;104:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:30;104:25"> G5_ODUK_ODU2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:12;106:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:31;106:25"> ODU2</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:7;109:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:13;110:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:32;110:25"> G5_ODUK_ODU2E</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:14;112:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:33;112:25"> ODU2E</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:8;115:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:15;116:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:34;116:25"> G5_ODUK_ODU2F</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:16;118:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:35;118:25"> ODU2F</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:9;121:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:17;122:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:36;122:25"> G5_ODUK_ODU3</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:18;124:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:37;124:25"> ODU3</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:10;127:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:19;128:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:38;128:25"> G5_ODUK_ODU3E1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:20;130:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:39;130:25"> ODU3E1</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:11;133:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:21;134:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:40;134:25"> G5_ODUK_ODU3E2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:22;136:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:41;136:25"> ODU3E2</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:12;139:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:23;140:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:42;140:25"> G5_ODUK_ODU4</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:24;142:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:43;142:25"> ODU4</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:13;145:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:25;146:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:44;146:25"> G5_ODUK_ODU4_PLUS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:26;148:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:45;148:25"> ODU4+</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:14;151:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:27;152:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:46;152:25"> G5_ODUK_ODUFLEX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:28;154:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:47;154:25">ODUflex-CBR, ODUflex-IMP, ODUflex-FlexE Aware, PRBS,
+              NULL</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:15;158:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:29;159:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:48;159:25"> G5_ODUK_ODUFLEX_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:30;161:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:49;161:25"> ODUflex-GFP</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:16;164:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:31;165:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:50;165:25"> G5_ODUC</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:32;167:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:51;167:25"> ODUC</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:52;171:18">For non-GFP ODUflex rates, the client_bitrate member of the
+    structure g5_odu_lo_data_t of the API g5_api_odu_mux_cfg() must be
+    specified.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:53;173:22">The next structure member, client_num_incr, specifies the
+    number of 1.25G tributary slots required to transport the GFP client in
+    ODUflex(GFP). This member is only applicable if oduk_type ==
+    G5_ODUK_ODUFLEX_GFP and payload_mode == G5_ODU_LINE_5G_TS. This is
+    required to properly identify the size of the ODUflex(GFP) as a 5G slot
+    can transfer 3 unique ODUFlex(GFP) sizes. For example if the ODUFlex_GFP
+    is 3.75G rate, client_num_incr == 3.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:54;179:48">The payload_mode structure
+    member uses the g5_odu_line_payload_t enumeration with the values shown in
+    <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7cb2/table_Enumerator_g5_odu_line_payload_t_pjoq24a8j" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="xref:3;181:116" type="table"><?ditaot gentext?>Table 2</xref> below.</p><table id="table_Enumerator_g5_odu_line_payload_t_pjoq24a8j" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="table:2;182:84">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:5;183:16">Enumerator g5_odu_line_payload_t</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tgroup:2;185:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="thead:2;186:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:17;187:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:33;188:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:55;188:25">Enumerator </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:34;190:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:56;190:25">Size </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tbody:2;194:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:18;195:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:35;196:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:57;196:25"> G5_ODU_LINE_UNCHANNELIZED</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:36;198:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:58;198:25"> Unchannelized High Order Payload</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:19;201:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:37;202:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:59;202:25"> G5_ODU_LINE_1G25_TS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:38;204:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:60;204:25"> 1.25G Tributary slots </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:20;207:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:39;208:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:61;208:25"> G5_ODU_LINE_2G5_TS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:40;210:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:62;210:25"> 2.5G Tributary slots </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:21;213:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:41;214:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:63;214:25"> G5_ODU_LINE_5G_TS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:42;216:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:64;216:25"> 5G Tributary slots </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:65;220:18">The members tx_tribslot_data and rx_tribslot_data of the
+    structure g5_odu_lo_data_t use another data structure,
+    g5_odu_tribslot_data_t. This structure defines tributary port number and
+    tributary slot assignment for a, ODUCn, FlexO or Low Order ODUk channel.
+    The structure g5_odu_tribslot_data_t has two members, trib_port_number and
+    trib_slot_mask. The member trib_port_number is the transmit port number
+    for the MSI overhead bytes. For ODUjk multiplexing the structure member
+    trib_slot_mask uses its first 80 bits of the first 3 words. In those 80
+    bits trib_slot_mask[0] 31:0 is used for timeslots 31:0, trib_slot_mask[1]
+    31:0 is used for timeslots 63:32 and trib_slot_mask[2] 15:0 is used for
+    for timeslots 79:64. For ODUCn multiplexing an array of six 20-bit masks
+    is used to describe which of the 5G tributary slots are being used by the
+    transmit ODUk channel that is being added to the High Order ODUCn group.
+    tx_trib_slot_mask[n] is defined as an index for each ODUC #(n+1) or for
+    each FlexO Interface (100G Port). The 20 bits mask defines bit 0 as 5G
+    time slot 0 and bit 19 as 5G time slot 19.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:66;235:54">The last member of the
+    structure g5_odu_lo_data_t is jk_logical_slice. The values for
+    jk_logical_slice are provided by the enumerator
+    g5_cn_mux_jk_mux_instance_t that defines if the ODTUjk MUX/DMX slice
+    selection is explicitly specified or automatically selected using a
+    software algorithm. When assigning the ODUjk MUX slice manually, this
+    enumeration represents logical ODUjkm MUX/DMX slice indexing within a
+    single ODUCn group channel. For example, for ODUC3 &lt;-&gt; ODU2
+    &lt;-&gt; ODU1 application, this enumeration can be used to assign 1 of
+    the 3 possible ODUjk slices that are available for the ODUC3 group
+    channel. In this case, only G5_CN_MUX_1ST_JK_MUX, G5_CN_MUX_2ND_JK_MUX,
+    G5_CN_MUX_3RD_JK_MUX are the valid options for the Low Order ODU1 to be
+    multiplexing in to the MO ODU2 channel. The logical indexing of a JK_MUX
+    slice cannot exceed "n" of an ODUCn group channel. See<xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7cb2/table_Enumerator_g5_cn_mux_jk_mux_instance_t_qjoq24a8j" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="xref:4;248:176" type="table"><?ditaot gentext?>Table 3</xref> below for all the values.</p><table id="table_Enumerator_g5_cn_mux_jk_mux_instance_t_qjoq24a8j" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="table:3;249:109">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="title:6;250:16">Enumerator g5_cn_mux_jk_mux_instance_t</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tgroup:3;252:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="thead:3;253:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:22;254:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:43;255:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:67;255:25"> Enumerator </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:44;257:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:68;257:25"> Option</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="tbody:3;261:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:23;262:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:45;263:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:69;263:25"> G5_CN_MUX_JK_MUX_AUTO</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:46;265:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:70;265:25"> SW Automatically assigns ODUjk resources.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:24;269:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:47;270:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:71;270:25"> G5_CN_MUX_1ST_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:48;272:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:72;272:25"> Logical 1st ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:25;276:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:49;277:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:73;277:25"> G5_CN_MUX_2ND_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:50;279:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:74;279:25"> Logical 2nd ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:26;283:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:51;284:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:75;284:25"> G5_CN_MUX_3RD_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:52;286:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:76;286:25"> Logical 3rd ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:27;290:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:53;291:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:77;291:25"> G5_CN_MUX_4TH_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:54;293:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:78;293:25"> Logical 4th ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:28;297:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:55;298:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:79;298:25"> G5_CN_MUX_5TH_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:56;300:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:80;300:25"> Logical 5th ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="row:29;304:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:57;305:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:81;305:25"> G5_CN_MUX_6TH_JK_MUX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="entry:58;307:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_HO_LO_ODTUjk_Mux_Provisioning_API_Details.xml" xtrc="p:82;307:25"> Logical 6th ODUjk instance within the ODUCn group
+              channel. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+  </body>
+</topic>

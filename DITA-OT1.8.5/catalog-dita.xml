@@ -4,7 +4,7 @@
 		licenses.
 	--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"><!-- Catalog for DITA -->
 
-  <rewriteURI uriStartString='plugin:org.dita.eclipsecontent:' rewritePrefix='plugins/org.dita.eclipsecontent/'/><rewriteURI uriStartString='plugin:com.oxygenxml.highlight:' rewritePrefix='plugins/com.oxygenxml.highlight/'/><rewriteURI uriStartString='plugin:org.dita.eclipsehelp:' rewritePrefix='plugins/org.dita.eclipsehelp/'/><rewriteURI uriStartString='plugin:org.dita.pdf2:' rewritePrefix='plugins/org.dita.pdf2/'/><rewriteURI uriStartString='plugin:org.dita-community.preprocess-extensions:' rewritePrefix='plugins/org.dita-community.preprocess-extensions/'/><rewriteURI uriStartString='plugin:com.antennahouse.pdf5:' rewritePrefix='plugins/com.antennahouse.pdf5/'/><rewriteURI uriStartString='plugin:org.dita.docbook:' rewritePrefix='plugins/org.dita.docbook/'/><rewriteURI uriStartString='plugin:com.example.short-pdf:' rewritePrefix='plugins/org.mscc.short.pdf/'/><rewriteURI uriStartString='plugin:org.dita.specialization.h2d:' rewritePrefix='plugins/h2d/'/><rewriteURI uriStartString='plugin:org.dita-community.common.xslt:' rewritePrefix='plugins/org.dita-community.common.xslt/'/><rewriteURI uriStartString='plugin:org.dita.specialization.eclipsemap:' rewritePrefix='plugins/org.dita.specialization.eclipsemap/'/><rewriteURI uriStartString='plugin:org.dita.htmlhelp:' rewritePrefix='plugins/org.dita.htmlhelp/'/><rewriteURI uriStartString='plugin:org.dita.base:' rewritePrefix='./'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.mapdriven:' rewritePrefix='plugins/org.dita4publishers.common.mapdriven/'/><rewriteURI uriStartString='plugin:org.mscc.pdf-parameters:' rewritePrefix='plugins/org.mscc.pdf.parameters/'/><rewriteURI uriStartString='plugin:org.dita.pdf:' rewritePrefix='plugins/org.dita.pdf/'/><rewriteURI uriStartString='plugin:com.oxygenxml.dita-ot.plugin.webhelp:' rewritePrefix='plugins/com.oxygenxml.webhelp/'/><rewriteURI uriStartString='plugin:org.dita-community.adjust-copy-to:' rewritePrefix='plugins/org.dita-community.adjust-copy-to/'/><rewriteURI uriStartString='plugin:org.dita.javahelp:' rewritePrefix='plugins/org.dita.javahelp/'/><rewriteURI uriStartString='plugin:org.dita.troff:' rewritePrefix='plugins/org.dita.troff/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelp:' rewritePrefix='plugins/suitehelp/'/><rewriteURI uriStartString='plugin:org.dita4publishers.math-d.html:' rewritePrefix='plugins/org.dita4publishers.math-d.html/'/><rewriteURI uriStartString='plugin:org.dita.specialization.dita11:' rewritePrefix='plugins/org.dita.specialization.dita11/'/><rewriteURI uriStartString='plugin:org.dita.xhtml:' rewritePrefix='plugins/org.dita.xhtml/'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.xslt:' rewritePrefix='plugins/org.dita4publishers.common.xslt/'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.html:' rewritePrefix='plugins/org.dita4publishers.common.html/'/><rewriteURI uriStartString='plugin:org.dita.odt:' rewritePrefix='plugins/org.dita.odt/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelpplus:' rewritePrefix='plugins/suitehelpplus/'/><rewriteURI uriStartString='plugin:org.dita.specialization.dita132:' rewritePrefix='plugins/org.dita.specialization.dita132/'/><rewriteURI uriStartString='plugin:com.sophos.tocjs:' rewritePrefix='plugins/com.sophos.tocjs/'/><rewriteURI uriStartString='plugin:org.dita.wordrtf:' rewritePrefix='plugins/org.dita.wordrtf/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelp-customization:' rewritePrefix='plugins/suitehelp-customization/'/><rewriteURI uriStartString='plugin:org.dita4publishers.media-d.html:' rewritePrefix='plugins/org.dita4publishers.media-d.html/'/><rewriteURI uriStartString='plugin:org.dita4publishers.epub:' rewritePrefix='plugins/org.dita4publishers.epub/'/><rewriteURI uriStartString='plugin:org.dita.legacypdf:' rewritePrefix='plugins/legacypdf/'/>
+  <rewriteURI uriStartString='plugin:org.dita.base:' rewritePrefix='./'/><rewriteURI uriStartString='plugin:org.dita.specialization.h2d:' rewritePrefix='plugins/h2d/'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.mapdriven:' rewritePrefix='plugins/org.dita4publishers.common.mapdriven/'/><rewriteURI uriStartString='plugin:org.dita.eclipsehelp:' rewritePrefix='plugins/org.dita.eclipsehelp/'/><rewriteURI uriStartString='plugin:com.oxygenxml.highlight:' rewritePrefix='plugins/com.oxygenxml.highlight/'/><rewriteURI uriStartString='plugin:org.dita.specialization.dita11:' rewritePrefix='plugins/org.dita.specialization.dita11/'/><rewriteURI uriStartString='plugin:org.dita.troff:' rewritePrefix='plugins/org.dita.troff/'/><rewriteURI uriStartString='plugin:org.dita.eclipsecontent:' rewritePrefix='plugins/org.dita.eclipsecontent/'/><rewriteURI uriStartString='plugin:org.mscc.pdf-parameters:' rewritePrefix='plugins/org.mscc.pdf.parameters/'/><rewriteURI uriStartString='plugin:org.dita.legacypdf:' rewritePrefix='plugins/legacypdf/'/><rewriteURI uriStartString='plugin:org.dita.specialization.eclipsemap:' rewritePrefix='plugins/org.dita.specialization.eclipsemap/'/><rewriteURI uriStartString='plugin:org.dita.wordrtf:' rewritePrefix='plugins/org.dita.wordrtf/'/><rewriteURI uriStartString='plugin:org.dita.xhtml:' rewritePrefix='plugins/org.dita.xhtml/'/><rewriteURI uriStartString='plugin:org.dita.specialization.dita132:' rewritePrefix='plugins/org.dita.specialization.dita132/'/><rewriteURI uriStartString='plugin:org.dita-community.common.xslt:' rewritePrefix='plugins/org.dita-community.common.xslt/'/><rewriteURI uriStartString='plugin:org.dita-community.preprocess-extensions:' rewritePrefix='plugins/org.dita-community.preprocess-extensions/'/><rewriteURI uriStartString='plugin:org.dita-community.adjust-copy-to:' rewritePrefix='plugins/org.dita-community.adjust-copy-to/'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.xslt:' rewritePrefix='plugins/org.dita4publishers.common.xslt/'/><rewriteURI uriStartString='plugin:com.antennahouse.pdf5:' rewritePrefix='plugins/com.antennahouse.pdf5/'/><rewriteURI uriStartString='plugin:org.dita.htmlhelp:' rewritePrefix='plugins/org.dita.htmlhelp/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelp:' rewritePrefix='plugins/suitehelp/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelpplus:' rewritePrefix='plugins/suitehelpplus/'/><rewriteURI uriStartString='plugin:com.sophos.tocjs:' rewritePrefix='plugins/com.sophos.tocjs/'/><rewriteURI uriStartString='plugin:org.dita4publishers.media-d.html:' rewritePrefix='plugins/org.dita4publishers.media-d.html/'/><rewriteURI uriStartString='plugin:org.dita4publishers.math-d.html:' rewritePrefix='plugins/org.dita4publishers.math-d.html/'/><rewriteURI uriStartString='plugin:org.dita.javahelp:' rewritePrefix='plugins/org.dita.javahelp/'/><rewriteURI uriStartString='plugin:org.dita4publishers.epub:' rewritePrefix='plugins/org.dita4publishers.epub/'/><rewriteURI uriStartString='plugin:org.dita.odt:' rewritePrefix='plugins/org.dita.odt/'/><rewriteURI uriStartString='plugin:com.example.mchp-pdf:' rewritePrefix='plugins/org.mchp.pdf/'/><rewriteURI uriStartString='plugin:org.dita.pdf:' rewritePrefix='plugins/org.dita.pdf/'/><rewriteURI uriStartString='plugin:com.example.short-pdf:' rewritePrefix='plugins/org.mscc.short.pdf/'/><rewriteURI uriStartString='plugin:com.oxygenxml.dita-ot.plugin.webhelp:' rewritePrefix='plugins/com.oxygenxml.webhelp/'/><rewriteURI uriStartString='plugin:org.dita.docbook:' rewritePrefix='plugins/org.dita.docbook/'/><rewriteURI uriStartString='plugin:org.dita.pdf2:' rewritePrefix='plugins/org.dita.pdf2/'/><rewriteURI uriStartString='plugin:com.suite-sol.suitehelp-customization:' rewritePrefix='plugins/suitehelp-customization/'/><rewriteURI uriStartString='plugin:org.dita4publishers.common.html:' rewritePrefix='plugins/org.dita4publishers.common.html/'/>
 
     <!-- DITA 1.2 DTD -->
     
@@ -1302,21 +1302,6 @@
     
 <public publicId="-//W3C//ENTITIES Special for XHTML//EN" xml:base="plugins/h2d/dtd/" uri="xhtml-special.ent"/>
   
-<!-- This file is part of the DITA Open Toolkit project hosted on 
-  Sourceforge.net. See the accompanying license.txt file for 
-  applicable licenses.--><!--
-    | (C) Copyright IBM Corporation 2006. All Rights Reserved.
-    *-->
-  
-  
-<public publicId="-//IBM//DTD DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="eclipsemap.dtd"/>
-      
-  
-<public publicId="-//IBM//ELEMENTS DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="plugin.mod"/>
-  
-  
-<public publicId="-//IBM//ENTITIES DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="plugin.ent"/>
-  
 <!--             (C) Copyright OASIS Open 2005, 2008.              --><!--             (C) Copyright IBM Corporation 2001, 2004.         --><!--             All Rights Reserved.                              -->
 
 
@@ -1489,6 +1474,21 @@
 	
 <system systemId="urn:oasis:names:tc:dita:xsd:xml.xsd:1.1" xml:base="plugins/org.dita.specialization.dita11/schema/" uri="xml.xsd"/>
 
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+  Sourceforge.net. See the accompanying license.txt file for 
+  applicable licenses.--><!--
+    | (C) Copyright IBM Corporation 2006. All Rights Reserved.
+    *-->
+  
+  
+<public publicId="-//IBM//DTD DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="eclipsemap.dtd"/>
+      
+  
+<public publicId="-//IBM//ELEMENTS DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="plugin.mod"/>
+  
+  
+<public publicId="-//IBM//ENTITIES DITA Eclipse Map Collection//EN" xml:base="plugins/org.dita.specialization.eclipsemap/dtd/" uri="plugin.ent"/>
+  
 <!-- (c) Copyright IBM Corp. 2004, 2008 All Rights Reserved. -->
     
     <!-- DITA DTDs -->

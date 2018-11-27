@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Diagnostic_Counters_miu5w8oov" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="title:1;3:10">Diagnostic Counters</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:1;6:8">Each subsystem push interface has a set of four diagnostic counters
+    that can be independently configured to count either bytes or packets.
+    When counting bytes, the counter increments by the length of the packet,
+    in bytes, when the end of the packet is received. When counting packets,
+    the counter increments by one when the end of packet is received.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:2;12:8">Packets are classified into one of four mutually exclusive
+    categories.</p>
+
+    <table id="-_ECPB_Diagnostic_Counters_niu5w8oov" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="table:1;15:54">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="title:2;16:14">ECPB Diagnostic Counters</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="tgroup:1;18:24">
+        <colspec colname="col1" colwidth="22*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="colspec:1;19:47"/>
+
+        <colspec colname="col2" colwidth="78*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="colspec:2;21:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="thead:1;23:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="row:1;24:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:1;25:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:3;25:23">Label</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:2;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:4;27:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="tbody:1;31:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="row:2;32:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:3;33:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:5;33:23">Drop</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:4;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:6;35:23">Packet was marked for dropping by the upstream
+            subsystem.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="row:3;39:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:5;40:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:7;40:23">Error</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:6;42:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:8;42:23">Packet NOT marked for dropping.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:9;42:62">AND</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:10;42:73">Packet
+            marked as errored.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="row:4;46:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:7;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:11;47:23">Oversize</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:8;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:12;49:23">Packet NOT marked for dropping.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:13;49:62">AND</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:14;49:73">Packet
+            NOT errored.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:15;50:33">AND</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:16;50:44">Packet length exceeds 14336
+            bytes.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="row:5;54:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:9;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:17;55:23">Good</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="entry:10;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:18;57:23">Packet NOT marked for dropping.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:19;57:62">AND</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:20;57:73">Packet
+            NOT errored.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:21;58:33">AND</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:22;58:44">Packet NOT oversized.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:23;64:8">By default, all packet categories are counted. However, each counter
+    may be configured independently to exclude any of the above packet
+    categories. For example, counter #0 can be configured to count only
+    dropped packets while counter #1 can be configured to count only good
+    packets.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Diagnostic_Counters_miu5w8oov.xml" xtrc="p:24;70:8">Each channel has a set of four enables that let it contribute to each
+    of the counters. The enables allow the counters to spotlight one channel,
+    a group of channels, or all channels in a push interface.</p>
+  </body>
+</topic>

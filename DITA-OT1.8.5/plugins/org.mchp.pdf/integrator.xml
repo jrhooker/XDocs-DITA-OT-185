@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="com.mchp-pdf">
+    <target name="dita2mchp-pdf.init">
+        <property name="customization.dir" location="plugins/org.mchp.pdf/cfg"/>
+    </target>
+    <target name="dita2mchp-pdf" depends="dita2mchp-pdf.init, dita2pdf2"/>
+</project>
+

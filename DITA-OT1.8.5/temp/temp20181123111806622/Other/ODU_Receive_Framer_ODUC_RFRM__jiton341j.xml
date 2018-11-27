@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ODU_Receive_Framer_ODUC_RFRM__jiton341j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="topic:1;2:133">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="title:1;3:10">ODU Receive Framer (ODUC_RFRM)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:1;6:8">The atomics represented in the ODUC_RFRM are shown in <xref href="ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml#ODU_Receive_Framer_ODUC_RFRM__jiton341j/ODUC_RFRM_Atomics_kiton341k" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="xref:1;6:188" type="fig"><?ditaot gentext?>Figure 1</xref>
+    below.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="note:1;9:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:2;9:38"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="b:1;9:59"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="i:1;9:86">[DDD/HWS] </i> </b> <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=426454" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="xref:2;9:208"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=426454
+    </xref> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="b:2;11:34"> <i otherprops="underline" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="i:2;11:61"> tab ODUC_RFRM</i>
+    </b></p></note>
+
+    <fig id="ODUC_RFRM_Atomics_kiton341k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="fig:1;14:43">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="title:2;15:14">ODUC_RFRM Atomics</title>
+
+      <image href="ODUC_RFRM-Atomics.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="image:1;17:76"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:3;20:8">During Stage 1 and Stage N instantiation, the ODUk Frame Alignment Unit
+    (FAU) is disabled since the incoming traffic is already framed from the
+    OTU layer. In the other stage framers, the FAU is enabled and contributes
+    to dLOFLOM, which optionally contributes to aAIS (as shown above).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:4;25:8">In the ODUC_RFRM, the ODUT_TT sinks and ODUT/ODU adaptation sink
+    function supports the following (including ODUTm floating TCM NIM):</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ul:1;28:9">
+      <li id="d1e954" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:1;29:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:5;29:26">Defect detection per G.798 for: dTIM, dOCI, dAIS,
+      dLTC, dLCK, dIAE, dBIAE, dDEG, dBDI and interrupt registers that can be
+      polled on a regular basis with current status and event occurrence
+      'sticky' bits. The method that is used to retrieve the defects out of
+      RFRM is via a defect LCLK.</p></li>
+
+      <li id="d1e960" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:2;35:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:6;35:26">Performance and output of the following consequential
+      actions per G.798: aAIS, aTSF, aTSD, aBDI, aBEI, and aBIAE. With
+      channelized disable of dTIM and dLTC contributing to the appropriate
+      consequential actions. A global disable for each defect contributing to
+      each respective consequential action (i.e., dOCI can be disabled
+      globally for all channels to contribute to aAIS). A channelized disable
+      per consequential action is also supported.</p></li>
+
+      <li id="d1e966" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:3;43:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:7;43:26">During aAIS, replacement of the stream to 'at-rate'
+      ODUk-AIS is supported. The aTSF adapts to the CI_SSF to the next layer
+      (TCM or PM) to be processed.</p></li>
+
+      <li id="d1e972" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:4;47:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:8;47:26">Transmission of aBDI, aBIAE and aBEI as per standard
+      to the source (ODUC_TFRM)</p></li>
+
+      <li id="d1e978" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:5;50:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:9;50:26">Along with the defects and consequential actions, the
+      following accepted values can be read from the ODUC_RFRM: accepted TTI,
+      accepted STAT, accepted APS/PCC levels</p></li>
+
+      <li id="d1e985" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:6;54:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:10;54:26">Both pN_EBC and pF_EBC as per standard are captured
+      and the counters are sized to saturate at a little over 1 second
+      interval</p></li>
+
+      <li id="d1e991" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:7;58:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:11;58:26">dDEG is declared based on 'bursty mode' operation
+      with programmable DEGM thresholds</p></li>
+
+      <li id="d1e997" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:8;61:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:12;61:26">Defect seconds for pN_DS, pF_DS, pBIAE, pIAE are also
+      captured in registers</p></li>
+
+      <li id="d1e1003" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:9;64:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:13;64:27">Pass delay measurement bit for the ODUC_TFRM to
+      perform/start delay measurement</p></li>
+
+      <li id="d1e1009" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:10;67:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:14;67:27">Defects are correlated with CI_SSF and dAIS in
+      hardware by setting the defect to false during CI_SSF and dAIS as
+      required in G.798. All other defect correlations need to be performed in
+      system level software as they are not performed in the device driver or
+      hardware.</p></li>
+
+      <li id="d1e1015" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:11;73:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:15;73:27">In total there are seven resources, six of which can
+      be configured as NIM/Operational/Monitored/Transparent and one
+      additional resource of same level that is in the NIM.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:16;78:8">After the TCM has been processed, the ODUC_RFRM can optionally
+    terminate the ODUP_TT (PM layer). Along with a PM ODUP_TT resource, there
+    is an additional ODUPm (NIM - floating)) resource that can be placed
+    anywhere between the various TCM and PM sinks. The features of this atomic
+    resource are as follows:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ul:2;84:9">
+      <li id="d1e1027" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:12;85:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:17;85:27">Defect detection per G.798 for: dTIM, dOCI, dAIS,
+      dLCK, dDEG, dBDI and interrupt registers that can be polled on a regular
+      basis with current status and event occurrence 'sticky' bits. Method
+      used to retrieve the defects out of RFRM is via a defect LCLK.</p></li>
+
+      <li id="d1e1033" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:13;90:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:18;90:27">Performance and output of the following
+      consequential actions per G.798: aTSF, aTSD, aBDI, aBEI. With
+      channelized disable of dTIM contributing to the appropriate
+      consequential actions. A global disable for each defect contributing to
+      each respective consequential action (i.e. dOCI can be disabled globally
+      for all channels to contribute to aTSF). A channelized disable per
+      consequential action is also supported.</p></li>
+
+      <li id="d1e1039" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:14;98:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:19;98:27">Transmission of aBDI, aBIAE and aBEI as per standard
+      to the source (ODU_TFRM)</p></li>
+
+      <li id="d1e1045" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:15;101:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:20;101:27">Along with the defects and consequential actions,
+      the following accepted values can be read from the ODU_RFRM: accepted
+      TTI, accepted STAT, accepted APS/PCC levels</p></li>
+
+      <li id="d1e1051" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:16;105:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:21;105:27">Both pN_EBC and pF_EBC as per standard is captured
+      and the counters are sized to saturate at a little over 1 second
+      interval.</p></li>
+
+      <li id="d1e1058" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:17;109:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:22;109:27">dDEG is declared based on 'bursty mode' operation
+      with programmable DEGM thresholds.</p></li>
+
+      <li id="d1e1064" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:18;112:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:23;112:27">Defect seconds for pN_DS, pF_DS are also captured in
+      registers</p></li>
+
+      <li id="d1e1070" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:19;115:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:24;115:27">Pass Delay measurement bit for the ODU_TFRM to
+      perform/start delay measurement.</p></li>
+
+      <li id="d1e1076" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:20;118:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:25;118:27">Defects are correlated with CI_SSF and dAIS in
+      hardware by setting the defect to false during CI_SSF and dAIS, as
+      required in G.798. All other defect correlations are performed in
+      software.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:26;124:8">The ODUT_TT, ODUTm and ODUPm resources (up to eight per channel) are
+    picked up from shared pool resource among all channels. Stage 1<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ph:1;125:107"> and Stage N</ph> framers have 72
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="i:3;126:8">pool</i> resources that are shared among all active channels. Stage 2,
+    <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ph:2;127:44">3A, 3B, </ph>4 framers have 570
+    pool resources that are shared among all active channels. The ODUP_TT
+    function is a dedicated resource so hence there is one resource per
+    channel, which can either operate in termination or non-intrusive (NIM)
+    mode.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:27;133:8">Within the ODUC_RFRM, these are the other optional features
+    supported:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ul:3;136:9">
+      <li id="d1e1095" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:21;137:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:28;137:27">Overhead extraction via OHP port</p></li>
+
+      <li id="d1e1101" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:22;139:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:29;139:27">Single register access for generic ODU overheads
+      (RES, APS, EXP ..)</p></li>
+
+      <li id="d1e1107" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:23;142:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:30;142:27">Legacy FTFL mode of operation support</p></li>
+
+      <li id="d1e1113" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:24;144:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:31;144:27">12 channels PRBS monitoring (PN-11, PN-31 and
+      inverted)</p></li>
+
+      <li id="d1e1119" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:25;147:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:32;147:27">OPU CSF detection and optional consequential
+      actions</p></li>
+
+      <li id="d1e1126" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:26;150:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:33;150:27">PT extraction into registers.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:34;153:8">ODUCN channels are only supported in the 12 channel framers. Features
+    associated with ODUCN are as follows:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="ul:4;156:9">
+      <li id="d1e1138" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:27;157:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:35;157:27">ODUCn channels are processed individually (master+
+      slaves) on their own channels</p></li>
+
+      <li id="d1e1144" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:28;160:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:36;160:27">Inserts the ODU-AIS maintenance signal in all
+      channels of an ODUCn based on the aAIS consequential action from the
+      last provisioned TCM layer of ODUCn #1.</p></li>
+
+      <li id="d1e1150" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:29;164:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:37;164:27">Inserts the ODU-AIS, ODU-LCK or ODU-OCI maintenance
+      signal in all channels of an ODUCn based on the maintenance forcing
+      state from the last provisioned TCM layer of ODUCn #1.</p></li>
+
+      <li id="d1e1156" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:30;168:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:38;168:27">Forms the aBIAE output on the RCP of each channel of
+      an ODUCn from the dIAE defect of the corresponding layer of ODUCn
+      #1.</p></li>
+
+      <li id="d1e1162" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:31;172:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:39;172:27">All defects other than dDEG are suppressed in the
+      ODUCn’s sub-channels #2 thru #n.</p></li>
+
+      <li id="d1e1169" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:32;175:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:40;175:27">All consequential actions other than aTSD, aBIAE and
+      aBEI are suppressed in the ODUCn’s sub-channels #2 through #n.</p></li>
+
+      <li id="d1e1175" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:33;178:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:41;178:27">The dDEG defect is declared if the conditions for
+      declaration are satisfied for any one or more of the sub-channels #1
+      thru #n of the ODUCn channel.</p></li>
+
+      <li id="d1e1181" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="li:34;182:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:42;182:27">In an ODUCn channel, the dBDI defect is declared if
+      the BDI bit is set in 15 consecutive frames rather than 5. New values of
+      STAT are accepted if a consistent value is observed in 15 consecutive
+      frames rather than 3.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:43;188:8"><xref href="ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml#ODU_Receive_Framer_ODUC_RFRM__jiton341j/ODUCN_RX_Atomic_liton341k" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="xref:3;188:132" type="fig"><?ditaot gentext?>Figure 2</xref>
+    below illustrates the defect and consequential action relationships
+    between the TCM and PM layers of an ODUCn channel. It shows an example of
+    an ODUC2 with two TCM and one PM layer provisioned.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="note:2;193:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="p:44;193:38"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="b:3;193:59"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="i:4;193:63">[DDD/HWS] </i>
+    </b> <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=416475" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="xref:4;194:112"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=416475
+    </xref> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="b:4;196:34"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="i:5;196:38"> Tab RX Framer OTUCN_Atomic</i>
+    </b></p></note>
+
+    <fig id="ODUCN_RX_Atomic_liton341k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="fig:2;199:41">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="title:3;200:14">ODUCN RX Atomic</title>
+
+      <image href="ODUCN-RX-Atomic.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Receive_Framer_ODUC_RFRM__jiton341j.xml" xtrc="image:2;202:74"/>
+    </fig>
+  </body>
+</topic>

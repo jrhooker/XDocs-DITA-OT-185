@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181114135639593\data_proc_subsystem\ingress_dpu\introduction?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181114135639593/data_proc_subsystem/ingress_dpu/introduction/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="CompressionEngine" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:1;3:10">Compression Engine</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="ul:1;6:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="li:1;7:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:1;7:14"> Compression engine in ingress data processing unit performs data
+      compression operation on the input data stream from upstream data
+      processing engine (PI1, PI2 or Hash) in the ingress data processing
+      unit, and the output data stream generated from the compression engine
+      is the compressed data stream and it is sent to downstream data
+      processing engine (encryption engine) in the ingress processing unit or
+      directly sent out to BRAM or SDRAM. <xref href="#CompressionEngine/fig_compression_block_diag" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:1;13:103" type="fig"><?ditaot gentext?>Figure 1</xref> shows the top
+      level block diagram. The data structures are denoted with data structure
+      numbers which are defined in <xref href="#CompressionEngine/fig_compression_data_struc" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:2;15:96" type="fig"><?ditaot gentext?>Figure 3</xref>
+      </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:2;16:14">Compression engine consists 8 slices. Each slice consists one
+      compression core, decompression core and one packing function. The
+      compression core supports zlib compression with static Huffman encoding
+      scheme and a history buffer of 2048B. The decompression core is used for
+      data integrity check which decompresses compressed data and then
+      compares the decompressed data with input uncompressed data. Packing
+      function packs compressed data, meta data, CRC into compressed data
+      blocks. </p><fig id="fig_compression_block_diag" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="fig:1;23:56">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:2;24:18">Compression Engine Block</title>
+
+          <image href="../figures/idpucompblk.svg" width="602" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="image:1;26:65"/>
+        </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:3;27:19"/></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="li:2;29:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:4;29:14">The compression engine supports block based compression operation
+      only. For block based compression, the compression engine compresses
+      every input uncompressed data block atomically starting with default
+      history buffer, the output compressed data for each input uncompressed
+      data block, together together with compression meta data and CRC, is
+      packed into a compressed data block group with integral number of the
+      compressed data blocks, the last compressed data block in the group may
+      include padding if there is no enough data to fill one compressed data
+      block. The input uncompressed data block size is set by CompUDblkSize
+      field in request message, and the output compressed data block size is
+      set by CompDblkSize field in request message as well. The input data
+      stream to compression engine consists multiple uncompressed data blocks,
+      and similarly the output data stream from the compression engine
+      consists multiple compressed blocks. The input data stream to the
+      compression engine may include partial block data at beginning
+      (CompDataOffset &gt; 0) or at end ( &lt; CompUDBlkSize). Those partial
+      block data shall bypass compression operation and moves directly from
+      input data stream to output data stream, see <xref href="#CompressionEngine/fig_compression_block_op" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:3;46:110" type="fig"><?ditaot gentext?>Figure 2</xref>. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:5;46:119">The
+      compressed data length and total compressed data block numbers per input
+      uncompressed data block are captured in 4 byte compression meta data
+      which shall be included in completion message and optionally inserted at
+      the beginning of the compressed data before packing. CRC (Adler32 /
+      GZIP-CRC32) over the compressed data is optionally inserted at the back
+      of the compressed data stream before packing. Bit CompMetaDataIns and
+      bit CompCRCIns are used to enable or disable (0 for no insertion, 1 for
+      insertion) compression meta data and CRC insertion respectively.
+      </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:6;55:14">In case of incompressible data block, the data after compression
+      is larger or equal to uncompressed data, either original data or the
+      compressed data (inflated in fact in this case) will be used for packing
+      depending on the control bit CompInCompOut in the request message.
+      Compression meta data includes compressed data block type (CDBT) to
+      indicate which data type is packed. </p><fig id="fig_compression_block_op" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="fig:2;60:82">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:3;61:18">Block Based Compression Operation</title>
+
+          <image href="../figures/idpu_compress_data_op.svg" width="605" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="image:2;63:75"/>
+        </fig></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="li:3;66:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:7;66:14">There are several data structures defined for compression
+      operations, see <xref href="#CompressionEngine/fig_compression_data_struc" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:4;67:83" type="fig"><?ditaot gentext?>Figure 3</xref>.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:8;67:91">Data
+      Structure 0 is the raw uncompressed data block, the size of data block
+      is set by CompUDBlkSize field in the request message. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:9;69:68">Data
+      Structure 1 is the compressed data from compression core appended 32-bit
+      CRC in the end. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:10;71:30">Data Structure 2 is the compressed data block
+      group after packing the compressed data of data structure 1. The data
+      structure 2 includes integer number of compressed data block. The size
+      of the compressed data block is set by CompDBlkSize. The first data
+      block includes compression meta data appended in beginning. The last
+      data block may include padding zeros the compressed data size plus
+      compression meta data is not aligned to compressed block size.
+      </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:11;78:14">Data Structure 3 is the same as the compressed data block group
+      except uncompressed data, instead of compressed data, used for packing.
+      </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:12;80:14">Compression meta data is 32-bit wide, includes compressed block
+      number, compressed data length, and data type (uncomrpessed or
+      compressed) as defined in <xref href="#CompressionEngine/tab_comp_meta_data" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:5;82:85" type="table"><?ditaot gentext?>Table 1</xref> </p><fig id="fig_compression_data_struc" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="fig:3;82:127">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:4;83:18">Block Based Compression</title>
+
+          <image href="../figures/idpu_compress_data_struc.svg" width="597" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="image:3;85:78"/>
+        </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:13;86:18"><table id="tab_comp_meta_data" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="table:1;86:49">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:5;87:18">Compression Meta Data</title>
+
+          <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="tgroup:1;89:28">
+            <colspec colname="col1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="colspec:1;90:52"/>
+
+            <colspec colname="col2" colwidth="0.6in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="colspec:2;92:52"/>
+
+            <colspec colname="col3" colwidth="1.25in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="colspec:3;94:53"/>
+
+            <colspec colname="col4" colwidth="3.4in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="colspec:4;96:52"/>
+
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="thead:1;98:20">
+              <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="row:1;99:20">
+                <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="entry:1;100:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:14;100:27"> Dword</p></entry>
+
+                <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="entry:2;102:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:15;102:27"> Position</p></entry>
+
+                <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="entry:3;104:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:16;104:27"> Name</p></entry>
+
+                <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="entry:4;106:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:17;106:27"> Description</p></entry>
+              </row>
+            </thead>
+
+            <struct structure="msg" class="- topic/tbody struct-d/struct " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="struct:1;110:37">
+              <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="dword:1;111:22">
+                <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="value:1;112:24">0</value>
+
+                <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="position:1;114:27">
+                  <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="double:1;115:27">
+                    <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="msb:1;116:26">14</msb>
+
+                    <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="lsb:1;118:26">0</lsb>
+                  </double>
+                </position>
+
+                <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="name:1;122:23">CDBC</name>
+
+                <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="description:1;124:30">
+                  <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="desc-title:1;125:96">Compressed Data Block Counter</desc-title>
+
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:18;127:22">This field contains compressed data block counter in the
+                  compressed data block group which is compressed from one
+                  uncompressed data block.</p>
+                </description>
+              </dword>
+
+              <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="dword:2;133:22">
+                <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="value:2;134:24">0</value>
+
+                <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="position:2;136:27">
+                  <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="single:1;137:27">15</single>
+                </position>
+
+                <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="name:2;140:23">CDBT</name>
+
+                <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="description:2;142:30">
+                  <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="desc-title:2;143:96">Compressed Data Block Type</desc-title>
+
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:19;145:22">This bit indicates the data type in the compressed data
+                  block group.</p>
+
+                  <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-list:1;148:36">
+                    <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum:1;149:33">
+                      <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-value:1;150:106">0</field-enum-value>
+
+                      <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-def:1;152:39">
+                        <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-name:1;153:107">CD</field-enum-name>
+
+                        <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-desc:1;155:107">Compressed data and compression CRC
+                        field</field-enum-desc>
+                      </field-enum-def>
+                    </field-enum>
+
+                    <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum:2;160:33">
+                      <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-value:2;161:106">1</field-enum-value>
+
+                      <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-def:2;163:39">
+                        <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-name:2;164:107">UCD</field-enum-name>
+
+                        <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="field-enum-desc:2;166:107">Uncompressed data
+                        only</field-enum-desc>
+                      </field-enum-def>
+                    </field-enum>
+                  </field-enum-list>
+                </description>
+              </dword>
+
+              <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="dword:3;174:22">
+                <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="value:3;175:24">0</value>
+
+                <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="position:3;177:27">
+                  <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="double:2;178:27">
+                    <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="msb:2;179:26">31</msb>
+
+                    <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="lsb:2;181:26">16</lsb>
+                  </double>
+                </position>
+
+                <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="name:3;185:23">CDL</name>
+
+                <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="description:3;187:30">
+                  <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="desc-title:3;188:96">Compressed Data Length</desc-title>
+
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:20;190:22">This field contains data length compressed data (exclude
+                  compression CRC) which is compressed from one uncompressed
+                  data block.</p>
+                </description>
+              </dword>
+            </struct>
+          </tgroup>
+        </table></p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="li:4;199:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:21;199:14">Each of 8 slices can support up to 1.25GB/S throughput
+      (uncompressed data), total compression engine throughput is up to
+      10GB/S. Each slice performs compression operation for each uncompressed
+      data block atomically, hence an uncompressed data block can not
+      intervening between two slices. To saturate 10GB/S, at least 8 input
+      uncompressed data blocks shall be compressed in parallel at any given
+      time. Those uncompressed data blocks compressed in parallel may come
+      from the same request or multiple requests. The order of output
+      compressed data blocks from different slices shall be maintained as if
+      there is only one compression slice performs compression operations: For
+      the same request, the output compressed data blocks in the output data
+      stream shall be in order as input uncompressed data blocks in input data
+      stream; The compressed data streams from different requests shall not
+      interleaving in between, and shall be in order of the same as
+      corresponding request messages.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:22;213:46"/></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="li:5;215:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:23;215:14">The 4 byte compression meta data for each input uncompressed data
+      block is always captured in the completion message. If there is no hash
+      digest in completion message, then the completion message supports up to
+      73 compression meta data field and with format as shown in <xref href="#CompressionEngine/fig_comp_md_format" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:6;218:118" type="fig"><?ditaot gentext?>Figure 4</xref>. When there is/are hash
+      digest(s) in completion message, completion message supports up to 9
+      compression meta data field and with format as shown in <xref href="hash.xml#idpu_hash/fig_hash_digest_format" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:7;220:119" type="fig"><?ditaot gentext?>Figure 4</xref> and <xref href="hash.xml#idpu_hash/fig_hash_digest_format_512" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:8;220:184" type="fig"><?ditaot gentext?>Figure 5</xref>. Meta data field
+      number limitation and format are also defined in compression message
+      section <xref href="../../../Other/UnResolved_xref.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="xref:9;222:64" type="topic"><?ditaot gentext?>Unresolved xref<?ditaot genshortdesc?><desc class="- topic/desc ">Unresolved xref placeholder.</desc></xref> </p><fig id="fig_comp_md_format" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="fig:4;222:98">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="title:6;223:18">Compression Meta Data Format (without Hash Digest)</title>
+
+          <image href="../figures/idpucompmdfmt.svg" width="625" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="image:4;225:67"/>
+        </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\compression.xml" xtrc="p:24;226:19"/></li>
+    </ul>
+  </body>
+</topic>

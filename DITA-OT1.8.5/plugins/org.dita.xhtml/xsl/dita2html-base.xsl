@@ -37,10 +37,10 @@
 <xsl:import href="xslhtml/abbrev-d.xsl"></xsl:import>
 
 
-<xsl:import href="../../com.oxygenxml.highlight/xhtmlHighlight.xsl"/>
 <xsl:import href="../../org.dita-community.common.xslt/xsl/commonXsltExtensionSupport.xsl"/>
-<xsl:import href="../../org.dita4publishers.math-d.html/xsl/math-d2html.xsl"/>
+<xsl:import href="../../com.oxygenxml.highlight/xhtmlHighlight.xsl"/>
 <xsl:import href="../../org.dita4publishers.media-d.html/xsl/media-d2html.xsl"/>
+<xsl:import href="../../org.dita4publishers.math-d.html/xsl/math-d2html.xsl"/>
 
 <!-- the dita to xhtml converter for element reference documents - not used now -->
 <!--<xsl:import href="elementrefdisp.xsl"/>-->

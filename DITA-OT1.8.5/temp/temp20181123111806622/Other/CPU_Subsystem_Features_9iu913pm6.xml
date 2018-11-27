@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="CPU_Subsystem_Features_9iu913pm6" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="title:1;3:10">CPU Subsystem Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ul:1;6:9">
+      <li id="d1e164" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:1;7:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:1;7:26">Interfaces:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ul:2;7:46">
+          <li id="d1e171" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:2;8:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:2;8:30">PCI Express Gen 2 x1 lane interface, compatible
+          with Gen1 x1 lane.</p></li>
+
+          <li id="d1e180" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:3;11:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:3;11:30">Quad-I/O SPI master interface to a memory-mapped
+          external SPI NOR flash device</p></li>
+
+          <li id="d1e186" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:4;14:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:4;14:30">SPI slave interface for initial SPI flash
+          programming</p></li>
+
+          <li id="d1e192" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:5;17:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:5;17:30">Device interrupt output</p></li>
+
+          <li id="d1e211" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:6;19:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:6;19:30">Internal Device Configuration Bus</p></li>
+        </ul></li>
+
+      <li id="d1e219" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:7;22:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:7;22:26">Dual-core Cortex-A9 MPCore embedded processor with L1
+      and L2 caches.</p></li>
+
+      <li audience="MSCCInternal" id="d1e225" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:8;25:47"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:8;25:50">A high-performance
+      multi-protocol multi-clock-domain AMBA network interconnect for
+      multi-master and multi-slave inter-working.</p></li>
+
+      <li id="d1e231" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:9;29:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:9;29:26">On-chip RAM for high performance L3 memory.</p></li>
+
+      <li id="d1e237" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:10;31:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:10;31:26">Provides interrupt aggregation of device interrupt
+      sources towards the embedded processor, the device interrupt output pin,
+      and for generation of PCIe INTx, MSI, or MSIx notifications.</p></li>
+
+      <li id="d1e244" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:11;35:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:11;35:26">Quad SPI Memory Controller Features:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ul:3;35:71">
+          <li id="d1e251" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:12;36:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:12;36:30">Supports Extended SPI single-IO and quad-IO
+          modes.</p></li>
+
+          <li id="d1e257" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:13;39:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:13;39:30">Supports one external SPI NOR flash
+          device.</p></li>
+
+          <li id="d1e263" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:14;42:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:14;42:30">Supports sending the SPI flash SOFT RESET
+          sequence upon SPI controller reset removal.</p></li>
+
+          <li id="d1e269" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:15;45:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:15;45:30">Operates with SPI clock rate of 25 MHz at
+          power-on/reset using quad-IO mode for initial accesses to boot
+          loader code.</p></li>
+
+          <li id="d1e275" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:16;49:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:16;49:30">Supports a configurable SPI clock rate.</p></li>
+        </ul></li>
+
+      <li id="d1e283" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:17;52:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:17;52:26">SPI Slave to Master Direct Pass-through Features</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ul:4;53:11">
+          <li id="d1e290" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:18;54:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:18;54:30">Provides the capability to perform initial
+          programming of external SPI flash while the device is held in reset
+          by using a single-IO mode 4-wire SPI connection from an External SPI
+          master through <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ph:1;57:65">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ph:2;57:102">META-600G</ph> to the SPI flash via direct
+          connect of the SPI Slave interface pins to/from the SPI Master
+          interface pins.</p></li>
+
+          <li id="d1e296" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:19;61:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:19;61:30">A device input pin controls the SPI slave to
+          master direct pass-through while <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ph:3;62:83">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ph:4;62:120">META-600G</ph> is held in reset.</p></li>
+        </ul></li>
+
+      <li id="d1e310" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:20;65:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:20;65:26">PCIe Endpoint Features:</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="ul:5;65:58">
+          <li id="d1e317" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:21;66:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:21;66:30">Supports a Gen2 (5.0 GT/s) or Gen1 (2.5 GT/s) x1
+          link.</p></li>
+
+          <li id="d1e326" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:22;69:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:22;69:30">Supports test pattern generation and monitoring
+          capable of PRBS7, PRBS11, PRBS15, PRBS23, PRBS31 and a user
+          customizable 80-bit pattern.</p></li>
+
+          <li id="d1e332" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:23;73:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:23;73:30">Supports transaction data payload size and
+          request size ranging from a minimum 4 bytes and in multiples of 4
+          bytes up to 256 Bytes.</p></li>
+
+          <li id="d1e338" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:24;77:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:24;77:30">Supports Advanced Error Reporting (AER) (single
+          header error logging).</p></li>
+
+          <li audience="MSCCInternal" id="d1e344" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:25;80:51"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:25;80:54">Supports two PCIe virtual
+          channels (VCs).</p></li>
+
+          <li id="d1e351" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:26;83:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:26;83:30">Supports ECRC insertion and monitoring.</p></li>
+
+          <li id="d1e357" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:27;85:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:27;85:30">PCIe system footprint of 64 MB.</p></li>
+
+          <li id="d1e363" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:28;87:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:28;87:30">Supports generation of MSI/MSI-X/INTx interrupt
+          messages.</p></li>
+
+          <li id="d1e369" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:29;90:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:29;90:30">Supports device power management states D0,
+          D3<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="sub:1;91:18">hot</sub> and D3<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="sub:2;91:39">cold</sub>.</p></li>
+
+          <li id="d1e381" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="li:30;93:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPU_Subsystem_Features_9iu913pm6.xml" xtrc="p:30;93:30">Supports link power management states L0 and
+          L0s.</p></li>
+        </ul></li>
+    </ul>
+  </body>
+</topic>

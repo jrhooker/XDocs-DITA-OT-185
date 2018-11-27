@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="title:1;3:10">Central Packet Buffer Switch Segment Provisioning</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="p:1;6:8">The ODUk Central Packet Buffer (OCPB) and packet Data Central Packet
+    Buffer (DCPB) are provisioned with the g5_api_switch_connect() API. The
+    Ethernet Packet Central Packet Buffer (ECPB) is provisioned with the
+    g5_api_client_map_cfg() API and will not be discussed in this section.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="p:2;11:8">This function connects a destination channel to its data source in a
+    unidirectional manner at OCPB or DCPB switches. The switch link is
+    determined from the source and destination channel IDs as specified by the
+    parameters src_chnl_id and dst_chnl_id. A loopback is formed when
+    src_chnl_id = dst_chnl_id. See the loopback section of this document for
+    additional information. For a bi-directional path the
+    g5_api_switch_connect() API is called twice with the source and
+    destinations channel IDs swapped for the two calls.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="p:3;20:8">OCPB bi-directional datapath segments are shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_OCPB_Bi-Directional_Datapath_Segments_3jctrskj4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="xref:1;20:176" type="fig"><?ditaot gentext?>Figure 1</xref> below. Valid paths are from LINEOTN/COREOTN to MAPOTN, SAR or
+    SYSOTN.</p>
+
+    <fig id="fig_OCPB_Bi-Directional_Datapath_Segments_3jctrskj4" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="fig:1;24:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="title:2;25:14">OCPB Bi-Directional Datapath Segments</title>
+
+      <image href="g5_api_switch_connect_OCPB.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="image:1;27:53"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="p:4;30:8">OCPB bi-directional datapath segments with a bi-cast are shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_OCPB_Bi-Directional_Datapath_Segments_wi_4jctrskj4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="xref:2;30:194" type="fig"><?ditaot gentext?>Figure 2</xref> below. The paths shown below are LINEOTN bi-cast to both the
+    MAPOTN and SAR, LINEOTN bi-cast to the SYSOTN and SAR and MAPOTN bi-cast
+    to the LINEOTN and SYSOTN.</p>
+
+    <fig id="fig_OCPB_Bi-Directional_Datapath_Segments_wi_4jctrskj4" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="fig:2;35:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="title:3;36:14">OCPB Bi-Directional Datapath Segments with Bi-cast</title>
+
+      <image href="g5_api_switch_connect_OCPB_bi-cast.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="image:2;38:61"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="p:5;41:8">The DCPB bi-directional datapath segments of ENET to PIF is shown in
+    <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_DCPB_Bi-Directional_Datapath_Segments_5jcts57lc" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="xref:3;42:122" type="fig"><?ditaot gentext?>Figure 3</xref> below. ENET to MAPOTN, MAPOTN to PIF and SAR to PIF are all
+    provisioned within the g5_api_client_map_cfg() and g5_api_ilkn_cbr_prov()
+    APIs.</p>
+
+    <fig id="fig_DCPB_Bi-Directional_Datapath_Segments_5jcts57lc" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="fig:3;47:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="title:4;48:14">DCPB Bi-Directional Datapath Segments</title>
+
+      <image href="g5_api_switch_connect_DCPB3.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\CPB_Segment_Provisioning_and_Deprovisioning.xml" xtrc="image:3;50:54"/>
+    </fig>
+  </body>
+</topic>

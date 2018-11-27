@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ODU_Framer_iiton341j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="topic:1;2:114">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="title:1;3:10">ODU Framer</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:1;6:8">There are <ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:1;6:43">3</ph><ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:2;6:88">6</ph> framer stages in COREOTN: Stage
+    1, 2,<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:3;7:49"> 3A, 3B,</ph> 4<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:4;7:103">, N</ph>. Each stage has a RX and TX
+    pair. <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:5;8:50">The middle and low order
+    stage framers use different stage numbers based on if the HO was ODTUCN or
+    ODTUJK.</ph> The framer stage has the following functionality/purpose:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ul:1;12:9">
+      <li id="d1e828" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:1;13:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:2;13:26">Stage 1 is the left most of the diagram (close to
+      LINEOTN interfaces). Processes High order ODU4/4+ or ODUC.</p><ul audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ul:2;14:108">
+          <li id="d1e841" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:2;15:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:3;15:30">Maximum 6 channels are processed.</p></li>
+        </ul></li>
+
+      <li id="d1e849" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:3;18:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:4;18:26">Middle framer uses Stage 2 for HO ODTUCN or Stage 3A
+      for HO ODTUj4. The middle framer is between the HO mux/demux and <ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:6;19:97">ODUkSW</ph><ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:7;19:147">LO mux/demux</ph>.</p><ul audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ul:3;19:208">
+          <li id="d1e856" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:4;20:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:5;20:30">Stage 3A is used for the middle framer when the
+          HO is ODTUJK and there are 40 channels maximum for the 100G Middle
+          order channels from ODTUjk mux/demux.</p></li>
+
+          <li id="d1e862" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:5;24:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:6;24:30">Stage 2 is used for the middle framer when the HO
+          is ODTUCN and there are 60 channels maximum out of the
+          mux/demux.</p></li>
+        </ul></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e870" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:6;29:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:7;29:61">Low order framer
+      Stage 3a for HO ODTUCN or Stage 2 for HO ODTUJK is the last full framer
+      before the ODUk Switch. It processes Low Order ODUk (in ODTUjk muxing in
+      either HO ODTUCN or HO ODTUJK case) and is unused in no muxing modes of
+      operation. The low order framer supports up to 190 channels.</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e876" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:7;35:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:8;35:61">Stage 3b is
+      configured as a TCM processor to source TCMs towards fabric and sink
+      TCMs from fabric. It supports up to 190 channels</p></li>
+
+      <li id="d1e882" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:8;39:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:9;39:26"><ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:8;39:65">Stage 4 has 2
+      purposes: channels towards mapotn and channels towards sysotn.</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ph:9;40:99">Stage 4 processes channels towards
+      mapotn.</ph></p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="ul:4;41:27">
+          <li id="d1e889" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:9;42:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:10;42:30">Channels towards MAPOTN are configured to
+          source/sink MAPOTN traffic. This is the location where the PM layer
+          is sourced or terminated.</p></li>
+
+          <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e895" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:10;46:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:11;46:65">Channels
+          towards SYSOTN this framer is used as a fabric source/sink framer
+          from the SYSOTN interface, which is similar to the Stage 3B framer
+          in LINEOTN.</p></li>
+        </ul></li>
+
+      <li id="d1e904" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="li:11;52:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODU_Framer_iiton341j.xml" xtrc="p:12;52:26">Each framer stage supports PRBS source/sink
+      capability appropriately for a spotlight of 12 channels.</p></li>
+    </ul>
+  </body>
+</topic>

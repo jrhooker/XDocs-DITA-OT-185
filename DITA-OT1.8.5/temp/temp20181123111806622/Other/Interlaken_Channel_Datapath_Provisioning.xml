@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7269" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="title:1;3:10">Interlaken Channel Datapath Segment Provisioning</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:1;6:8">Interlaken interface channel datapath segment provisioning is performed
+    by initializing the flow control calendars with the g5_api_ilkn_fc_set()
+    API and provisioning the channel with either the g5_api_ilkn_pkt_prov()
+    API or g5_api_ilkn_cbr_prov() API.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:2;11:8">The g5_api_ilkn_pkt_prov() API provisions the COPI subsystem and the
+    Interlaken Interface's channel for packet terminated datapath segments.
+    <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7269/fig_Interlaken_Datapath_Segment_Provisioning_0jokd1xbo" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="xref:1;13:122" type="fig"><?ditaot gentext?>Figure 1</xref> shows the datapath segment from the DCPB(A) through the COPI
+    Subsystem to the Interlaken interface(B).</p>
+
+    <fig id="fig_Interlaken_Datapath_Segment_Provisioning_0jokd1xbo" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="fig:1;17:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="title:2;18:14">Interlaken Datapath Segment Provisioning: DCPB to Interlaken
+      Interface</title>
+
+      <image href="g5_api_traffic_ilkn_pkt_prov2.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="image:1;21:70"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:3;24:8">The g5_api_ilkn_cbr_prov() API provisions the SAR block, DCPB block,
+    COPI subsystem and the Interlaken Interface's channel for CBR datapath
+    segments. <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--7269/fig_Interlaken_Datapath_Segment_Provisioning_1jokd1xbo" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="xref:2;26:132" type="fig"><?ditaot gentext?>Figure 2</xref> shows the datapath segment provisioning from the OCPB block(A) of
+    the COREOTN through the SAR block, then through the DCPB block and through
+    the COPI subsystem to the Interlaken interface(B).</p>
+
+    <fig id="fig_Interlaken_Datapath_Segment_Provisioning_1jokd1xbo" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="fig:2;31:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="title:3;32:14">Interlaken Datapath Segment Provisioning: OCPB to Interlaken
+      Interface</title>
+
+      <image href="g5_api_traffic_ilkn_cbr_prov2.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="image:2;35:70"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:4;38:8">In N x 200G Interlaken interface mode three additional API are required
+    to select which one of the up to three Interlaken interfaces the channel
+    data is sent to the DCPB block. The API are as follows:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="ol:1;42:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="li:1;43:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:5;43:14"> g5_api_ilkn_chnl_id_bcw_set() - used in N x 200G Interlaken mode
+      to set the Fabric Egress BCW channel ID for a common DPI channel to the
+      DCPB. </p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="li:2;47:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:6;47:14"> g5_api_ilkn_fabric_egress_select() - selects which fabric egress
+      N x Interlaken interface channel to transfer data to DCPB. </p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="li:3;50:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning.xml" xtrc="p:7;50:14"> g5_api_ilkn_fabric_ingress_chnl_activate() - selects an
+      Interlaken interface that the provisioned channel id is to transfer DCPB
+      data to. </p></li>
+    </ol>
+  </body>
+</topic>

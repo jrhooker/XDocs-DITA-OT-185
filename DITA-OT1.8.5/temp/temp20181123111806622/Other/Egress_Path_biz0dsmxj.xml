@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Ingress_Path_biz0dsmxj" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="title:1;3:10">Egress Path</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:1;6:8">The RI_RCP Egress path (source defects from a remote device) consumes
+    packets from the 10GE port, and pushes the extracted APS_PCC and
+    BDI/BEI/BIAE overhead data from inside the packets to the corresponding
+    ODUC_TFRM stage and channel. The stage and channel are determined using
+    the incoming Ethernet packets DA field which contains both the destination
+    Framer Stage and Channel ID. The Device ID is also recovered from the
+    Ethernet Packet and if it doesn’t match the locally configured Device ID
+    the packet is thrown away. The APS level is recovered from PDU and is used
+    to control the insertion into the appropriate APS level. An APS_PCC and
+    BDI/BEI/BIAE overhead insertion enable is provided for each stage and
+    channel.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:2;18:8">The APS_PCC overhead is sent indirectly to the ODUC_TFRM via the OHP
+    block and it is inserted using the ODUC_TFRM’s External OHP port. The
+    BDI/BEI/BIAE overhead is however directly sent to the ODUC_TFRM using a
+    dedicated <i audience="PMCInternal" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="i:1;21:41">RCP</i> interface.<i audience="PMCInternal" otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="i:2;21:108"> The RI_RCP Egress path is a
+    slave to both the ODUC_TFRM and OHP interfaces (i.e. receives OH requests
+    and satisfies them) (internal only).</i></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:3;25:8">If OH requests by the ODUC_TFRM or OHP are made faster than the
+    incoming rate of OH provided by the ENET packets or PDUs are no longer
+    received from the Ethernet port (during an external FPGA upgrade for
+    example):</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="ul:1;30:9">
+      <li id="d1e1247" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="li:1;31:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:4;31:27">BDI and APS_PCC will hold the previous
+      value</p></li>
+
+      <li id="d1e1253" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="li:2;34:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:5;34:27">BEI will go to zero</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:6;37:8">If OH requests by the ODUC_TFRM or OHP are made slower than the
+    incoming rate of overhead provided by the ENET packets:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="ul:2;40:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="li:3;41:11">Last value of BEI, BDI, and APS_PCC is used</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="li:4;43:11">Previous value of BEI, BDI, and APS_PCC is thrown away</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:7;46:8">This Underflow and Overflow behavior described above is the same as
+    DIGI 120 and DIGI-G4.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:8;49:8"><i audience="PMCInternal" otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="i:3;49:57">The RI_RCP Egress
+    interfaces to the OHP and ODUC_TFRM have not changed since DIGI120/G4 with
+    the exception of the Channel ID increasing from 7 to 8-bits. There are 6
+    dedicated RCP interfaces going to the OHP and also the ODUC_TFRM (one for
+    each framer stage 1, 2, 3A, 3B, 4, N) (internal only).</i></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="p:9;55:8"><i audience="PMCInternal" otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Egress_Path_biz0dsmxj.xml" xtrc="i:4;55:57">The RI_RCP shall not
+    support SM layer backwards information, FLEXO RPF, or DMti/DMp.</i></p>
+  </body>
+</topic>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181114133332871\data_proc_subsystem\ingress_dpu\introduction?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181114133332871/data_proc_subsystem/ingress_dpu/introduction/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="idpu_pi" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="topic:1;2:113">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:1;3:10">Data Protect Information Processing</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:1;6:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:1;7:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:1;7:14"> The ingress data processing subsystem contains two cascaded
+      protection information (PI) processing engines PI1 and PI2. Each engine
+      performs an identical function but is configured independently in the
+      inbound message request. <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:2;10:36">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:2;11:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:2;11:18"> The protection information field, is always located in the
+          last 8 bytes of a block. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:3;12:43">Both PI1 and PI2 engines support the
+          three types of protection information formats. The format for each
+          protection information is shown as in the following figure:</p><fig id="fig_idpu_pi_format" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="fig:1;14:103">
+              <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:2;15:22">Formats for Protection Information</title>
+
+              <image href="../figures/idpupiformat.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="image:1;17:72"/>
+            </fig><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:3;18:23">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:3;19:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:4;19:22">NVMe data protection information provides T10 DIF- or
+              DIX-like protection.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:4;20:43">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:4;21:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:5;21:26"> The guard field contains a CRC16 computed over the
+                  contents of the corresponding block data. The CRC16 uses the
+                  generator polynomial G(x) = 0x18BB7. See ISO/IEC 14776-323,
+                  and SCSI Block Commands (SBC-3) [T10/1799-D] for details
+                  regarding CRC16 computation. </p></li>
+
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:5;27:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:6;27:26">The application tag contains application specific
+                  data.</p></li>
+
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:6;30:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:7;30:26">The reference tag identifies the address of the
+                  sector and is used to ensure that the correct sector is
+                  transferred.</p></li>
+                </ul></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:7;35:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:8;35:22">Extended Protection Information</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:5;35:61">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:8;36:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:9;36:26"> The guard field contains a CRC32 computed over the
+                  contents of the corresponding block data. The CRC32 uses
+                  CRC-32C (Castagnoli) with generator polynomial G(x) =
+                  0x1EDC6F41. </p></li>
+
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:9;41:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:10;41:26">The reference tag identifies the address of the block
+                  and is used to ensure that the correct block is
+                  transferred.</p></li>
+                </ul></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:10;46:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:11;46:22">CRC64 Protection Information</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:6;46:58">
+                  <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:11;47:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:12;47:26"> The guard field contains a CRC64 computed over the
+                  contents of the corresponding sector data. The CRC64 uses
+                  CRC64-ECMA-182 with generator polynomial G(x) =
+                  0x42F0E1EBA9EA3693.</p></li>
+                </ul></li>
+            </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:13;52:21">Protection information type is configured per inbound
+          message request in the field of PI1PIMode and P2PIMode for PI1 and
+          PI2 engines, respectively.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:12;56:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:14;56:18"> The protection information processing supports three
+          operation modes: check and forward, check and strip, and insert as
+          shown in the following figure. The operation mode is set per inbound
+          message request. </p><fig id="fig_idpu_piopmode" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="fig:2;59:60">
+              <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:3;60:22">PI Operation Modes</title>
+
+              <image href="../figures/piopmode.svg" width="443" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="image:2;62:66"/>
+            </fig><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:7;63:23">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:13;64:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:15;64:22">When the operation mode is set to check and forward mode,
+              the PI gets checked and then forwarded to output data stream.
+              The PI operation mode is set to this mode by setting inbound
+              message field PI1OpMode or PI2OpMode to ChkFwd. There is no
+              block size change as a result of check and forward operation.
+              The protection information can be enabled or disabled
+              individually for each field by the inbound message field
+              PI1GardEn, P1AppTagEn, and P1RefTagEn for PI1 engine, or
+              PI2GardEn, P2AppTagEn, and P2RefTagEn for PI2 engine,
+              respectively. If enabled, the corresponding PI field in the
+              input data block is checked against locally computed value, if
+              there is a mismatch, a PI error is detected. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:16;75:68"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:14;77:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:17;77:22">When the operation mode is set to check and strip mode,
+              the PI gets checked and then stripped out from the input block.
+              The PI operation mode is set to this mode by setting the inbound
+              message field PI1OpMode or PI2OpMode to ChkStrip. The output
+              block size is reduced by 8 Bytes as a result of check and
+              strip.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:18;82:29"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:15;84:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:19;84:22">When the operation mode is set to insert mode, the
+              locally computed PI field is inserted at end of each block. The
+              PI operation mode is set to this mode by setting inbound message
+              field PI1OpMode or PI2OpMode to Insert. The output block size is
+              increased by 8 Bytes as a result of check and
+              insert.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:20;89:30"/></li>
+            </ul></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:16;92:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:21;92:18"> The PI field values used for PI check and insertion
+          operation are computed using the input data block and the parameters
+          from the inbound message. </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:8;94:45">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:17;95:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:22;95:22">CRC value is computed over the user data per input block.
+              The initial CRC seed for CRC generation can be selected either
+              from register PI1DefaultSeed and PI2DefaultSeed or from message
+              field PI1CRCSeed and PI2CRCSeed. The CRC seed is selected by
+              PI1CRCSeedSel or PI2CRCSeedSel in the message. The CRC seed is
+              either constant across all input blocks for the current request,
+              or incremental per input block set by PI1SeedMode and
+              PI2SeedMode in the request message. The CRC generated is
+              optionally inverted before being used for check or insertion by
+              setting message field PI1CRCInv to 1. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:23;104:61"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:18;106:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:24;106:22">The application tag is always constant across all input
+              blocks for the current request, and is set to message field
+              P1PIAppTag or P2PIAppTag. The PI operation mode is set to check
+              and forward or check and strip, the application tag check is
+              masked bit wise by PI1AppTagMask or PI2AppTagMask bit vectors
+              provided by inbound message request.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:25;111:59"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:19;113:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:26;113:22">The reference tag is either constant across all input
+              blocks for the current request, or incremented per input block.
+              The value in constant mode or in incremental mode, which is the
+              reference tag value for the first block for the current request,
+              is set to inbound message field PI1RefTagInit or
+              PI2RefTagInit.</p></li>
+            </ul></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:20;121:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:27;121:18"> PI checking may be disabled as a side effect of the content
+          of the protection information field in a block from input data
+          stream. The PI Check Disable Mode (P1ChkDisableMode or
+          PI2ChkDiableMode) field in the message request controls the
+          disabling of the protection information.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:9;125:59">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:21;126:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:28;126:22">When the PI1ChkDisableMode or PI2ChkDisableMode field is
+              set to Never, then enabled protection information checking is
+              never disabled as a side effect of the contents of the
+              protection information fields. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:29;129:54"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:22;131:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:30;131:22">When the PI1ChkDisableMode or PI2ChkDisableMode field is
+              set to AppTag, then enabled protection formation checking is
+              disabled for that sector only if the protection information
+              application tag field has a value of 0xFFFF. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:31;134:68"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:23;136:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:32;136:22">When the PI1ChkDisableMode or PI2ChkDisableMode field is
+              set to AppRefTag, then enabled protection formation checking is
+              disabled for that sector only if the protection information
+              application tag field has a value of 0xFFFF and the protection
+              information reference tag field has a value of
+              0xFFFF_FFFF.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:33;141:35"/></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:24;143:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:34;143:22">The PI1ChkDisableMode or PI2ChkDisableMode field has no
+              effect on insert operation when the inbound message request is
+              set to insert.</p></li>
+            </ul></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:25;148:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:35;148:18"> The Enterprise NVMe Protection Information Processing in the
+          following table illustrates how PI fields may be used to implement
+          Enterprise NVMe end-to-end data type 0, 1, 2 or 3 protection
+          information checking.</p><table id="tab_idpu_pinvme" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="table:1;151:64">
+              <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:4;152:22">Enterprise NVMe Protection Information Processing</title>
+
+              <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="tgroup:1;154:32">
+                <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="thead:1;155:24">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:1;156:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:1;157:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:36;157:31">DIF Protection</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:2;159:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:37;159:31">Protection Guard Check PI1/2GuardEn)</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:3;161:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:38;161:31">Protection Application Tag Check
+                    (PI1/2AppTagEn)</p></entry>
+
+                    <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:4;164:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:39;164:31">Protection Reference Tag Check
+                    (PI1/2RefTagEn)</p></entry>
+
+                    <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:5;167:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:40;167:31">Protection Reference Tag
+                    Mode(P1/P2RefTagMode)</p></entry>
+
+                    <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:6;170:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:41;170:31"> Protection Check Disable
+                    (PI1/2ChkDiasbleMode)</p></entry>
+                  </row>
+                </thead>
+
+                <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="tbody:1;175:24">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:2;176:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:7;177:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:42;177:31">Type 0</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:8;179:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:43;179:31">No</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:9;181:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:44;181:31">No</p></entry>
+
+                    <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:10;183:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:45;183:31">No</p></entry>
+
+                    <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:11;185:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:46;185:31">Don't care </p></entry>
+
+                    <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:12;187:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:47;187:31">Don't care</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:3;190:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:13;191:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:48;191:31">Type 1</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:14;193:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:49;193:31">Check</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:15;195:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:50;195:31">Check</p></entry>
+
+                    <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:16;197:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:51;197:31">Check</p></entry>
+
+                    <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:17;199:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:52;199:31">Incremental</p></entry>
+
+                    <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:18;201:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:53;201:31">AppTag</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:4;204:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:19;205:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:54;205:31">Type 2</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:20;207:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:55;207:31">Check</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:21;209:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:56;209:31">Check</p></entry>
+
+                    <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:22;211:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:57;211:31">Check</p></entry>
+
+                    <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:23;213:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:58;213:31">Incremental </p></entry>
+
+                    <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:24;215:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:59;215:31">AppTag</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:5;218:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:25;219:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:60;219:31">Type 3</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:26;221:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:61;221:31">Check</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:27;223:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:62;223:31">Check</p></entry>
+
+                    <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:28;225:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:63;225:31">Check</p></entry>
+
+                    <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:29;227:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:64;227:31">Constant</p></entry>
+
+                    <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:30;229:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:65;229:31">AppRefTag</p></entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:26;235:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:66;235:18"> The cascaded PI engines PI1 and PI2 are intended to do the
+          following two types of system level PI processing:<ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:10;236:65">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:27;237:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:67;237:22">PI replacement processing, where the PI field from the
+              incoming data block is checked and striped, and a new PI field
+              is inserted with the same or different block size. </p></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:28;241:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:68;241:22">Nested PI processing, where two PI fields with different
+              block sizes are in the data stream as shown in the following
+              figure.</p></li>
+            </ul><fig id="fig_idpu_pinest" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="fig:3;244:44">
+              <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:5;245:22">Nested PI Layers</title>
+
+              <image href="../figures/idpupinested.svg" width="512" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="image:3;247:70"/>
+            </fig></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:69;248:26">In both the above cases, PI2 engine cannot be
+          configured independently, and the following rules apply. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:70;249:75"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="ul:11;249:79">
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:29;250:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:71;250:22">PI2 is enabled only if PI1 is enabled. </p></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:30;252:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:72;252:22">The output data block of PI1 is always aligned to input
+              block of PI2 at start of the blocks.</p></li>
+
+              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:31;255:19"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:73;255:22">In addition, some more restrictions apply to PI2 as well,
+              see details in the following table: </p></li>
+            </ul></p><table id="tab_idpu_pi2limit" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="table:2;257:52">
+              <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="title:6;258:22">PI2 Operation Restrictions</title>
+
+              <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="tgroup:2;260:32">
+                <colspec colname="col1" colwidth="141*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="colspec:1;261:43"/>
+
+                <colspec colname="col2" colwidth="209*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="colspec:2;263:43"/>
+
+                <colspec colname="col3" colwidth="650*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="colspec:3;265:43"/>
+
+                <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="thead:2;267:24">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:6;268:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:31;269:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:74;269:31">PI1 Operation</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:32;271:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:75;271:31"> PI2 Operation</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:33;273:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:76;273:31"> PI2 Operation Restriction</p></entry>
+                  </row>
+                </thead>
+
+                <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="tbody:2;277:24">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:7;278:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:34;279:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:77;279:31">Check and Forward</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:35;281:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:78;281:31">Check and Forward</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:36;283:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:79;283:31">Nested PI operation, single outer layer block PI
+                    for either PI1 or PI2. Otherwise, it is not
+                    valid.</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:8;288:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:37;289:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:80;289:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:38;291:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:81;291:31">Check and Strip</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:39;293:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:82;293:31">Nested PI operation, single outer layer block
+                    for PI2. Otherwise, it is not valid.</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:9;297:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:40;298:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:83;298:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:41;300:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:84;300:31">Insert</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:42;302:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:85;302:31">Nested PI operation, PI2 is outer layer PI.
+                    </p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:10;306:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:43;307:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:86;307:31">Check and Strip</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:44;309:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:87;309:31">Check and Forward</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:45;311:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:88;311:31">Nested PI operation, PI1 is outer layer PI.
+                    Otherwise, it is not valid.</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:11;315:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:46;316:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:89;316:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:47;318:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:90;318:31">Check and Strip</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:48;320:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:91;320:31">Nested PI operation, PI1 is outer layer PI.
+                    Otherwise, it is not valid.</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:12;324:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:49;325:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:92;325:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:50;327:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:93;327:31">Insert</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:51;329:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:94;329:31">PI replace operation, both PI1 and PI2 are outer
+                    layer. Block size may differ. </p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:13;333:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:52;334:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:95;334:31">Insert</p></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:53;336:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:96;336:31">Check and forward</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:54;338:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:97;338:31">Nested PI operation, single outer layer block PI
+                    for PI1. Otherwise, it is not valid.</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:14;342:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:55;343:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:98;343:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:56;345:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:99;345:31">Check and Strip</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:57;347:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:100;347:31">Not valid</p></entry>
+                  </row>
+
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="row:15;350:24">
+                    <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:58;351:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:101;351:32"/></entry>
+
+                    <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:59;353:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:102;353:31">Insert</p></entry>
+
+                    <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="entry:60;355:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:103;355:31">Nested PI operation, P2 is outer layer PI.
+                    Otherwise, it it is not valid.</p></entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="li:32;362:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:104;362:18"> PI operation may trigger a separate early PI completion in
+          addition to ingress DPS completion. The early PI completion is
+          triggered by PI1 or PI2 after PI operation completes, while normal
+          ingress DPS completion is triggered after all operations gets
+          completed. Early PI completion is only triggered for data flows
+          where PI1 or PI2 are not the last operation. The early PI completion
+          is enabled per inbound message request by PICplMsgEn. The early PI
+          completion has the format as the normal ingress DPS completion with
+          CplTyp set to 1 (PI).</p></li>
+        </ul></p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\pi.xml" xtrc="p:105;374:9"/>
+  </body>
+</topic>

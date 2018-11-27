@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="title:1;3:10">Line-side Cards for hybrid OTN/Packet Switching</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:1;6:8">An example datapath for the high-density line-side cards for hybrid
+    OTN/packet switching application described in the product overview is
+    illustrated in <xref href="NxOTUCn_Line-side_Cards_for_OTN_Switchin_6iuu0en0u.xml#NxOTUCn_Line-side_Cards_for_OTN_Switchin_6iuu0en0u/OTUCn_to_HO_ODUk_to_LO_ODUk_Datapath_Pro_7iuu0en0u" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:1;8:191" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    The example illustrates the datapath segments for GMP demapping a 100GE
+    signal from an ODU4 and MAC terminating the 100GE to the Interlaken packet
+    interface.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="ul:1;13:9">
+      <li id="d1e445" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:1;14:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:2;14:26">OTU4 (Line) → OTL → ODUkSW → GMP DeMap (OPU4) →
+      Mapping Buffer → MAC (Rx) → DCPB → Interlaken (PIF)</p></li>
+
+      <li id="d1e506" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:2;17:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:3;17:26">OTUCn (Line) → OTL → ODTUCn.ts → ODU4 → ODTU4.ts →
+      ODUflex → ODUkSW → GFP-F DeMap (OPUflex) → DCPB → Interlaken
+      (PIF)</p></li>
+    </ul>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="note:1;22:35">Source for <xref href="Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml#Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u/OTU4_to_ODU4_to_100GE_GMP_Demapper_to_10_9iuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:2;22:217" type="fig"><?ditaot gentext?>Figure 1</xref>
+    can be found at <xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:3;23:104"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232</xref></note>
+
+    <fig id="OTU4_to_ODU4_to_100GE_GMP_Demapper_to_10_9iuu0en0v" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="fig:1;26:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="title:2;27:14">OTU4 to ODU4 to 100GE GMP Demapper to 100GE MAC to PIF
+      Provisioning Segments</title>
+
+      <image href="top_g5_diagram_DP_OTU4_to_100GE_to_ILKN.svg" placement="break" width="5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="image:1;30:96"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:4;33:8">The datapath segments are provisioned using the following APIs:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="ul:2;35:9">
+      <li id="d1e472" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:3;36:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:5;36:26">A &lt;&gt; B: g5_api_otn_prov()</p></li>
+
+      <li id="d1e478" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:4;38:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:6;38:26">D &lt;&gt; E: g5_api_ilkn_pkt_prov()</p></li>
+
+      <li id="d1e484" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:5;40:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:7;40:26">C &lt;&gt; D: g5_api_client_map_cfg()</p></li>
+
+      <li id="d1e490" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:6;42:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:8;42:26">B &lt;&gt; C: g5_api_switch_connect () x 2 to
+      establish a bidirectional path</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:9;46:8">For this example, the OCPB is used as the connection point. Refer to
+    the section “Interlaken to MAC to OTN Datapaths” in the ENET subsystem for
+    additional detail on the operations performed by datapath segment through
+    the ENET and MAPOTN subsystems.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:10;51:8"><xref href="#Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u/OTUCn_to_ODU4_ODUflex_to_GFP_Demapper_to_aiuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:4;51:125" type="fig"><?ditaot gentext?>Figure 2</xref>
+    illustrates the datapath segments for GFP demapping of packets from an
+    OTUCn/ODU4/ODUflex to the Interlaken packet interface</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="note:2;55:35">Source for <xref href="Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml#Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u/OTUCn_to_ODU4_ODUflex_to_GFP_Demapper_to_aiuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:5;55:217" type="fig"><?ditaot gentext?>Figure 2</xref>
+    can be found at <xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:6;56:104"><?ditaot usertext?>http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232</xref></note>
+
+    <fig id="OTUCn_to_ODU4_ODUflex_to_GFP_Demapper_to_aiuu0en0v" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="fig:2;58:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="title:3;59:14">OTUCn to ODU4/ODUflex to GFP Demapper to PIF Provisioning
+      Segments</title>
+
+      <image href="top_g5_diagram_DP_OTCn_to_ODU4_to_ODU2_GFP_to_ILKN.svg" placement="break" width="5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="image:2;62:107"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:11;65:8">The datapath segments are provisioned using the following APIs.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="ul:3;67:9">
+      <li id="d1e533" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:7;68:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:12;68:26">A &lt;&gt; C: g5_api_otucn_group_prov()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:8;70:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:13;70:26">A &lt;&gt; B: g5_api_otucn_port_add()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:9;72:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:14;72:26">A &lt;&gt; C: g5_api_otucn_group_config()</p></li>
+
+      <li id="d1e539" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:10;74:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:15;74:26">C &lt;&gt; D: g5_api_odu_mux_cfg()</p></li>
+
+      <li id="d1e545" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:11;76:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:16;76:26">D &lt;&gt; E: g5_api_odu_mux_cfg()</p></li>
+
+      <li id="d1e551" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:12;78:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:17;78:26">G &lt;&gt; H: g5_api_ilkn_pkt_prov()</p></li>
+
+      <li id="d1e557" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:13;80:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:18;80:26">F &lt;&gt; G: g5_api_client_map_cfg()</p></li>
+
+      <li id="d1e564" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="li:14;82:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:19;82:26">E &lt;&gt; F: g5_api_switch_connect () x 2 to
+      establish a bidirectional path</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:20;86:8">The OCPB is used as the connection point for connections configured by
+    g5_api_client_map_cfg (). The DCPB block is configured along with MAPOTN
+    by the g5_api_client_map_cfg() API.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="p:21;90:8">Variants of the datapaths of the <xref href="NxOTU4_Line-side_Cards_for_OTN_Switching_3iuu0en0u.xml#NxOTU4_Line-side_Cards_for_OTN_Switching_3iuu0en0u/OTU4_ODU3_PT_21_Datpath_Provisioning_Seg_4iuu0en0u" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:7;90:212" type="fig"><?ditaot gentext?>Figure 1</xref>
+    , <xref href="NxOTUCn_Line-side_Cards_for_OTN_Switchin_6iuu0en0u.xml#NxOTUCn_Line-side_Cards_for_OTN_Switchin_6iuu0en0u/OTUCn_to_HO_ODUk_to_LO_ODUk_Datapath_Pro_7iuu0en0u" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:8;91:178" type="fig"><?ditaot gentext?>Figure 1</xref>
+    , <xref href="Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml#Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u/OTU4_to_ODU4_to_100GE_GMP_Demapper_to_10_9iuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:9;92:178" type="fig"><?ditaot gentext?>Figure 1</xref>
+    , and <xref href="Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml#Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u/OTUCn_to_ODU4_ODUflex_to_GFP_Demapper_to_aiuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:10;93:182" type="fig"><?ditaot gentext?>Figure 2</xref>
+    can be supported simultaneously to enable hybrid high density line cards
+    with a combined CBRI / PIF interface up to the capacities and limitations
+    documented in the LINEOTN, ENET, MAPOTN and COPI subsystems. Note that
+    there are limits to the ODUk traffic muxing capability as per the COREOTN
+    Subsystem <xref href="Modes_of_operation_1biton341l.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Line-side_Cards_for_hybrid_OTN_Packet_Sw_8iuu0en0u.xml" xtrc="xref:11;98:62" type="topic"><?ditaot gentext?>Modes of Operation, Capabilities, and Limitations</xref>.</p>
+  </body>
+</topic>

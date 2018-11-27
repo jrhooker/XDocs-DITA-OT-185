@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\08_Functional_Timing\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/08_Functional_Timing/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="OTN_FP_Interface_mgv00ckxu" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="topic:1;2:120">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="title:1;3:10">OTN Frame Pulse Interface Channel
+  Mapping</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="body:1;6:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:1;7:8">The OTN Frame Pulse Interface allows an external
+    FPGA to find the time that any one of up to <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:1;8:88">24</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:2;8:120">12</ph>
+    pairs of frame and multiframe events occur. The sources of these events
+    are the framers contained in the LINEOTN<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:3;10:84"> and SYSOTN</ph> subsystems.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:2;12:8">This interface uses a multiplexing calendar with an
+    effective period of 128/2=64 slots, requiring 128 250 MHz periods or 64
+    OTN_FP_CLK (8 ns period) cycles to traverse the calendar. Only <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:4;14:107">24</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:5;14:139">12</ph>
+    of these 64 cycles will be populated as there are only <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:6;15:99">24</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:7;15:131">12</ph>
+    sources for FP/MFP events. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:8;16:60">FlexE frame and
+    multiframe events can also be directed out the OTN Frame Pulse
+    interface.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:3;20:8">The 128 x 4 ns = 512 ns calendar period is small
+    enough that not more than one FP event will occur within one calendar
+    cycle (an OTU4 frame period is 1168 ns).</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:4;24:32">A block diagram of the
+    interface is shown below:</p>
+
+    <fig audience="MSCCInternal" id="fig_OTN_Frame_Pulse_Interface_Block_Diagram_6j2zy19xn" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="fig:1;27:93">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="title:2;28:14">OTN Frame Pulse Interface Block Diagram</title>
+
+      <image href="../Graphics/otn_fp_block_diagram_ddd.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="image:1;30:63"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:5;33:8">A rising edge on OTN_FP_EVNT identifies calendar
+    slot 0. The calendar slots increment by one on each OTN_FP_CLK rising edge
+    until 64 clock ticks have occurred, at which point the calendar wraps back
+    to slot 0 and a new OTN_FP_EVNT is generated. The mapping of calendar slot
+    to FP/MFP event source is shown in the table below:</p>
+
+    <table audience="DIGIG5-ZTE DIGIG5_NOKIA DIGIG5_ROW MSCCInternal" id="Calendar_Slot_to_Event_Source_Map_2i3tbmri3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="table:1;39:120">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="title:3;40:14">Calendar Slot to Event Source Map</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tgroup:1;42:24">
+        <colspec colname="col1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:1;43:46"/>
+
+        <colspec colname="col2" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:2;45:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="thead:1;47:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:1;48:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:1;49:20">Calendar Slot</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:2;51:20">Frame/Multiframe Event
+            Source</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tbody:1;56:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:2;57:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:3;58:20">[2:0]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:4;60:20">SYSOTN 1 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:3;64:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:5;65:20">[5:3]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:6;67:20">SYSOTN 1 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:4;71:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:7;72:20">[8:6]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:8;74:20">LINEOTN 1 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:5;78:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:9;79:20">[11:9]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:10;81:20">LINEOTN 1 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:6;85:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:11;86:20">[14:12]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:12;88:20">SYSOTN 0 Transmit FP/MFP [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:7;91:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:13;92:20">[17:15]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:14;94:20">SYSOTN 0 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:8;98:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:15;99:20">[20:18]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:16;101:20">LINEOTN 0 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:9;105:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:17;106:20">[23:21]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:18;108:20">LINEOTN 0 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:10;112:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:19;113:20">[63:24]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:20;115:20">Unused<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="sup:1;115:31"> <xref href="#OTN_FP_Interface_mgv00ckxu/note_Calendar_Slot_to_Note_1" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="xref:1;115:103" type="li"><?ditaot gentext?>1</xref>
+            </sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table audience="META-600G" id="table_META_600G_Calendar_Slot_to_Event_Source__7j2zy19xn" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="table:2;122:95">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="title:4;123:14">META 600G Calendar Slot to Event Source
+      Map</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tgroup:2;126:24">
+        <colspec colname="col1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:3;127:46"/>
+
+        <colspec colname="col2" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:4;129:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="thead:2;131:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:11;132:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:21;133:20">Calendar Slot</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:22;135:20">Frame/Multiframe Event
+            Source</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tbody:2;140:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:12;141:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:23;142:20">[8:6]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:24;144:20">LINEOTN 1 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:13;148:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:25;149:20">[11:9]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:26;151:20">LINEOTN 1 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:14;155:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:27;156:20">[20:18]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:28;158:20">LINEOTN 0 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:15;162:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:29;163:20">[23:21]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:30;165:20">LINEOTN 0 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:16;169:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:31;170:20">[63:24]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:32;172:20">Unused<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="sup:2;172:31"> <xref href="#OTN_FP_Interface_mgv00ckxu/note_Calendar_Slot_to_Note_1" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="xref:2;172:103" type="li"><?ditaot gentext?>1</xref>
+            </sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="note:1;179:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ol:1;179:15">
+        <li id="note_Calendar_Slot_to_Note_1" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:1;180:47"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:6;180:50"><ph audience="DIGIG5-ZTE DIGIG5_NOKIA DIGIG5_ROW MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:9;180:113">Since there
+        are only 24 sources for FP/MFP events, slots <ph otherprops="no_break" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:10;181:80">[63:24] </ph>are unused.</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:11;181:134">Since there are only 12 sources for FP/MFP
+        events, slots [5:0], [17:12] and [63:24] are unused.</ph></p></li>
+      </ol></note>
+
+    <table audience="MSCCInternal" id="Calendar_Slot_to_Event_Source_Map_ddd_2i3tbmri3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="table:3;185:89">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="title:5;186:14">Calendar Slot to Event Source Map</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tgroup:3;188:24">
+        <colspec colname="col1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:5;189:46"/>
+
+        <colspec colname="col2" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="colspec:6;191:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="thead:3;193:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:17;194:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:33;195:20">Calendar Slot</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:34;197:20">Frame/Multiframe Event
+            Source</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="tbody:3;202:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:18;203:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:35;204:20">[2:0]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:36;206:20">SYSOTN 1 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:19;210:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:37;211:20">[5:3]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:38;213:20">SYSOTN 1 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:20;217:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:39;218:20">[8:6]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:40;220:20">LINEOTN 1 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:21;224:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:41;225:20">[11:9]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:42;227:20">LINEOTN 1 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:22;231:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:43;232:20">[14:12]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:44;234:20">SYSOTN 0 Transmit FP/MFP [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:23;237:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:45;238:20">[17:15]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:46;240:20">SYSOTN 0 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:24;244:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:47;245:20">[20:18]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:48;247:20">LINEOTN 0 Transmit FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:25;251:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:49;252:20">[23:21]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:50;254:20">LINEOTN 0 Receive FP/MFP
+            [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:26;258:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:51;259:20">[26:24]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:52;261:20">FLEXE Mux FP/MFP [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:27;264:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:53;265:20">[29:27]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:54;267:20">FLEXE Mux FP/MFP [5:3]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:28;270:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:55;271:20">[32:30]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:56;273:20">FLEXE Demux FP/MFP [2:0]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:29;276:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:57;277:20">[35:33]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:58;279:20">FLEXE Demux FP/MFP [5:3]</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="row:30;282:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:59;283:20">[63:36]</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="entry:60;285:20">Unused<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="sup:3;285:31"> <xref href="#OTN_FP_Interface_mgv00ckxu/note_Calendar_Slot_to_Note_1_ddd" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="xref:3;285:107" type="li"><?ditaot gentext?>1</xref>
+            </sup></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="note:2;292:35"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ol:2;292:39">
+        <li id="note_Calendar_Slot_to_Note_1_ddd" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:2;293:51"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:7;293:54">Since there are only 36 sources for FP/MFP events,
+        slots <ph otherprops="no_break" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ph:12;294:41">[63:36] </ph> are
+        unused.</p></li>
+      </ol></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:8;298:8">The value contained in OTN_FP_TIME_OFFSET[6:0] when
+    OTN_FP_VALID or OTN_MFP_VALID is asserted can be used by an external FPGA
+    to calculate the occurrence time of the FP or MFP event relative to the
+    previous rising edge of OTN_FP_EVNT (TIMESTAMP, measured in ns) using the
+    following formula:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:9;304:8">Transmit Equation:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:10;306:8">FP/MFP event time = TIMESTAMP + (OTN_FP_TIME_OFFSET
+    -140)*4 - TBD_TX_OFFSET_COMPENSATION (ns)</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:11;309:8">Uncertainty = +/- TX_TBD</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:12;311:8">Receive Equation:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:13;313:8">FP/MFP event time = TIMESTAMP + (OTN_FP_TIME_OFFSET
+    -140)*4 - TBD_RX_OFFSET_COMPENSATION (ns)</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:14;316:8">Uncertainty = +/- RX_TBD</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:15;318:8">Note that OTN_FP_TIME_OFFSET and the pipeline delays
+    + 128 calendar cycles are in units of 250 MHz</p>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="note:3;321:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ol:3;321:15">
+        <li id="d1e697" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:3;322:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:16;322:28">The
+        calculated event time will always be less than the measured
+        TIMESTAMP</p></li>
+
+        <li id="d1e703" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:4;326:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:17;326:28">The 140
+        cycle reduction includes a six cycle delay that is introduced due to
+        the synchronization and sampling of the event in the 250 MHz timing
+        domain.</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:5;331:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:18;331:16">TBD stands for "to be determined". </p></li>
+      </ol></note>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:19;334:32">The OTN Frame Pulse
+    Interface is implemented using a lightweight component (LW20_60_612).</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:20;337:32">Relevant PREPS:</p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="ul:1;339:33">
+      <li id="d1e720" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:6;340:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:21;340:26">PREP 321028 -
+      "OTN Frame Pulse Interface Implementation"</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:7;343:11">PREP 402876 - "G5 OTN Frame Pulse Interface Implementation"</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:8;345:11">PREP 321028 - "OTN Frame Pulse Interface Implementation" - DIGI-G4
+      background information</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:9;348:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:22;348:14">PREP 411250 - "Re-visit OTN Frame Pulse time stamp equation for
+      final issue of G5 HWS"</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="li:10;351:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\OTN_FP_Interface_mgv00ckxu.xml" xtrc="p:23;351:14"> PREP 449871 - "OTN MFP vs OTL 4.4 LINEOTN data delays for
+      PTP-over-OTN" - DIGI-G4 background information</p></li>
+    </ul>
+  </body>
+</topic>

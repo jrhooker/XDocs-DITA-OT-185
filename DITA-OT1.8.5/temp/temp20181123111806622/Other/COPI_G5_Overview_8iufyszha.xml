@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="COPI_G5_Overview_8iufyszha" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="topic:1;2:120">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="title:1;3:10"><ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:1;3:49">COPI</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:2;3:83">PIF</ph> Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:1;6:8">The <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:3;6:51">Combined OTN and Packet
+    Interface (COPI) </ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:4;7:52">Packet Interface (PIF)</ph>
+    is configurable to operate in either 3x200G Interlaken mode or single
+    500G/600G Interlaken mode.<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:5;9:70"> In
+    3x200G Interlaken mode there are three Interlaken interfaces each with up
+    to 12 lanes and capacity for 200G of channelized client packet bandwidth.
+    In 3x200G, the total capacity between the DCPB and COPI is 200G.</ph> In
+    single 500G Interlaken mode there is one Interlaken interface with up to
+    24 lanes and capacity for 500G of channelized client packet bandwidth. <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:6;14:115">COPI</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:7;14:149">PIF</ph> connects to the Central Packet Buffer
+    (DCPB). It supports data transfers over up to <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:8;15:90">190</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:9;15:123">120</ph> channels.<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:10;15:180"> The DCPB provides combined packet and
+    OTN traffic, and each Interlaken interface can carry packet traffic as a
+    packet interface (PIF), or carry artificial ODUk packets as a constant bit
+    rate interface (CBRI). Additionally, the single 500G Interlaken interface
+    can carry a mix of PIF and CBRI traffic as a hybrid interface.</ph> In
+    single 600G Interlaken mode only a single channel of PIF traffic is
+    supported.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:2;23:8">The Interlaken protocol is implemented in the ILKN500 block. The
+    Interlaken transmit (fabric ingress) interfaces operate in segment
+    interleave mode in which the DCPB and internal data busses switch between
+    channels on burst boundaries and not necessarily on packet boundaries. The
+    Interlaken receive (fabric egress) interfaces support data that is
+    generated by an external device in packet or segment interleave mode. On
+    the transmit side, bursts received from the DCPB are sent to the
+    Interlaken blocks. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:11;30:52">The upstream DCPB performs
+    Interlaken enhanced scheduling which ensures no bursts are shorter than
+    the Interlaken BurstShort. </ph>The Interlaken blocks apply the Interlaken
+    protocol and stripe the data across a software configured number of SERDES
+    lanes. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:12;34:40">The Interlaken blocks provide an
+    interface that allow them to be connected to SERDES blocks.</ph> On the
+    receive side, the bursts received from SERDES are decoded and checked for
+    protocol compliance. The data from each Interlaken interface is dropped or
+    aggregated based on the channel ID, and sent to the DCPB port. Depending
+    on the mode the channel ID may be specified in a lookup table which
+    associates the channel ID with the Interlaken Burst Control Word header or
+    the channel ID may be mapped from an inband packet header field.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:3;43:43">The 3x200G Interlaken mode supports
+    three Interlaken interfaces, each with up to 12 lanes that interface to
+    25.78125 Gbps rate NRZ SERDES. In the Interlaken transmit direction each
+    DCPB channel can be independently broadcast to up to three Interlaken
+    interfaces. In the Interlaken receive direction each DCPB channel can be
+    independently configured to receive data from one of the three Interlaken
+    interfaces.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:4;51:8">The single 500G/600G Interlaken mode supports one Interlaken interface
+    with up to 24 lanes that interface to 25.78125 Gbps or 28.125 Gbps rate
+    NRZ SERDES, or up to 12 lanes that interface to 53.125 Gbps or 56.25 Gbps
+    rate PAM-4 SERDES with FEC. In the Interlaken transmit direction each DCPB
+    channel is mapped to one channel on the Interlaken interface. In the
+    Interlaken receive direction each Interlaken channel is mapped to unique
+    channels toward the DCPB. Note for 600G Interlaken mode, only a single
+    channel of PIF traffic is supported.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:5;60:8">The DCPB port pushes packets to the COPI500 in bursts up to the
+    BurstMax size. The BurstMax sizes supported are 512/256/128 bytes per
+    transfer. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:13;62:43">The BurstMax sizes are identically
+    configured in the COPI500 and DCPB by software.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:6;65:8">The <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:14;65:51">COPI</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:15;65:85">PIF</ph> integrates the ITS_PKT500 which can generate
+    and monitor up to 120 channels of test packet traffic. The traffic can be
+    generated either toward the DCPB or toward the Interlaken transmit path.
+    The <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:16;68:48">COPI500</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:17;68:85">PIF</ph> includes merge logic that allow the
+    generated traffic to merge in with the datapaths toward the DCPB and
+    toward the Interlaken transmit path on burst boundaries, with priority
+    given to the non-test traffic. The <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:18;71:79">COPI500</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:19;71:116">PIF</ph> includes channel switch logic that allow
+    Interlaken receive data or DCPB data to be steered toward the test packet
+    monitor or the normal datapaths, with selection on a per channel
+    basis.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:7;76:43">The COPI500 receive path provides
+    ODUk packet latency monitors on the receive bus facing the DCPB. The
+    latency monitors capture timestamps from the ODUk packets and evaluates
+    the latency from the source packet maker to the monitor point. The latency
+    range is captured for each channel.</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:8;82:32">The COPI500 transmit (fabric ingress) path
+    provides a Fabric Control Interface to allow COPI500 channel enables to be
+    controlled by an external device. The COPI500 transmit (fabric ingress)
+    path also provides Fabric Path Distribution logic to enable the
+    distribution of ODUk traffic across an arbitrary number of Interlaken
+    channels for load distribution through the fabric. The Fabric Control
+    Interface can be used to select the active Fabric Path Distribution
+    List.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:9;91:43">In the COPI500 transmit controller
+    for 3x200G mode the data received from the DCPB for each channel is
+    broadcast to each Interlaken interface that will carry the channel. The
+    COPI500 receive controller filters out the selected channels from each
+    Interlaken interface by dropping the bursts with selected Interlaken
+    channel IDs.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:10;98:8">In the transmit controller <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:20;98:74">COPI500</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:21;98:111">PIF</ph> performs channel remapping using an
+    Arbitrary Channel Lookup Table to transfer the burst with the required
+    Interlaken channel number. In the receive controller, an Arbitrary Channel
+    Mapping Table is used to reconfigure the channel number of the burst
+    transferred on the DCPB port.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:11;104:8">Based on the signaling during the start of packet, the <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:22;104:102">COPI500</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:23;104:139">PIF</ph> can optionally prepend PIF packets with a
+    4-byte header in the transmit direction (from the device to an external
+    device). The optional header carries packet type information (TYPE[7:0])
+    provided by the DCPB specifying a UPI field from the GFP de-mapper. The
+    UPI value in the TYPE[7:0] field allows the remote packet sink to
+    determine the GFP UPI associated with each de-mapped packet. In the
+    receive (fabric egress) direction, the fourth byte of a packet is
+    optionally extracted and transmitted on the TYPE[7:0] field as a sideband
+    signal to the DCPB; this mode of operation enables the remote packet
+    source to specify the UPI field for packets entering the GFP mapper.</p>
+
+    <p audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:12;115:43">For the COPI500 transmit (fabric
+    ingress) path, COPI500 optionally inserts 4Byte+2Byte user defined per
+    channel values in the CBRI packet headers. In the receive (fabric egress)
+    path, COPI500 extracts the 4Byte+2Byte headers. The 4Byte header is
+    compared with user defined channel values. The 2Byte header may be
+    compared with user defined per channel values or the 2Byte header may be
+    mapped to channel ID values to use instead of the Arbitrary Channel Lookup
+    Table.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="p:13;124:8">The ILKN500 supports in-band flow control on the Interlaken interfaces.
+    The flow control is calendar-based and supported on a per-channel and link
+    (the entire interface) basis. In the receive controller channel level flow
+    control from the DCPB is transmitted over the Interlaken interface and the
+    DCPB absorbs the data received during the flow control response time. The
+    fill level of communal FIFOs in the receive controller are used to
+    generate Link flow control transmitted over the Interlaken interface in
+    the event of prolonged bursts of full bandwidth Interlaken traffic. In the
+    transmit controller the channel flow control received over the Interlaken
+    interfaces for PIF channels is passed on to the DCPB and PIF traffic stops
+    on a burst boundary. The link level flow control received over the
+    Interlaken interfaces for PIF<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:24;135:73"> or
+    hybrid PIF and CBRI</ph> interfaces halts the traffic on a burst boundary
+    in the transmit controller and backpressures the PIF channels at the
+    DCPB<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COPI_G5_Overview_8iufyszha.xml" xtrc="ph:25;138:48"> while allowing CBRI data to
+    continue to accumulate in the transmit controller FIFO while it is not
+    full</ph>.</p>
+  </body>
+</topic>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\08_Functional_Timing\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/08_Functional_Timing/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_61ce80ebee13fc16--385ca96f-157be33a17a--7c00" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="title:1;3:10">SPI Slave Interface for Programming Configuration</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:1;6:8">The device provides a SPI slave interface for programming the external
+    flash device as noted in <xref href="../../../Other/SPI_Slave_Flash_Programming_Interface_fiu913pm6.xml#SPI_Slave_Flash_Programming_Interface_fiu913pm6/SPI_Flash_Programming_Solution_giu913pm6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="xref:1;7:200" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    The flash content to be programmed is available from the company website.
+    The slave interface must be enabled and flash device programmed using the
+    following sequence.</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="ol:1;12:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:1;13:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:2;13:14"> Assert device RSTB=0</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:2;15:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:3;15:14"> Assert SPI_SLV2MST_EN=1</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:3;17:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:4;17:14"> Apply extended SPI single-IO mode command sequences on the SPI
+      Slave Interface For Programming Configuration (SPI_SLV_PRG_SCLK,
+      SPI_SLV_PRG_SSB, SPI_SLV_PRG_MOSI, SPI_SLV_PRG_MISO) that conforms to
+      the functional timing of <xref href="#xd_61ce80ebee13fc16--385ca96f-157be33a17a--7c00/fig_SPI_Slave_Interface_for_Programming_Conf_2iui2yvba" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="xref:2;20:149" type="fig"><?ditaot gentext?>Figure 2</xref> and <xref href="#xd_61ce80ebee13fc16--385ca96f-157be33a17a--7c00/fig_SPI_Slave_Interface_for_Programming_Conf_3iui2yvbb" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="xref:3;21:136" type="fig"><?ditaot gentext?>Figure 1</xref> from an external master device to:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="ul:1;22:57">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:4;23:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:5;23:18">Perform initial configuration of the SPI Flash device
+          non-volatile configuration register fields as required for the SPI
+          flash device to interoperate with the DIGI-G5 boot mode SPI memory
+          read commands.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:5;28:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:6;28:18">Erase flash memory.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:6;30:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:7;30:18">Program flash memory with boot code image.</p></li>
+        </ul></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:7;33:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:8;33:14"> De-assert SPI_SLV2MST_EN=0</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="li:8;35:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:9;35:14"> Upon de-asserting device RSTB=0, DIGI-G5 will proceed with
+      device boot and read from the SPI flash device</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:10;39:8">The SPI slave flash programming interface supports only single-IO mode
+    4-wire SPI. The following figures shown typical single-IO mode read and
+    page program command sequences over the SPI slave flash programming
+    interface. The address phase may contain 3 or 4 bytes, or be absent,
+    depending on the command in use and mode of operation of the flash device.
+    The data phase may be absent depending on the command in use.</p>
+
+    <fig id="fig_SPI_Slave_Interface_for_Programming_Conf_3iui2yvbb" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="fig:1;46:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="title:2;47:14">SPI Slave Interface for Programming Configuration Read Functional
+      Timing</title>
+
+      <image href="../Graphics/Functional_Timing__SPI_slave_prg_rd.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="image:1;50:104"/>
+    </fig>
+
+    <fig id="fig_SPI_Slave_Interface_for_Programming_Conf_2iui2yvba" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="fig:2;53:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="title:3;54:14">SPI Slave Interface for Programming Configuration Page Program
+      Functional Timing</title>
+
+      <image href="../Graphics/Functional_Timing__SPI_slave_prg_wr.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="image:2;57:104"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="p:11;60:8">The pin description for this interface can be seen
+    in <xref href="../../04_Pinout/Topics/Serial_Slave_Peripheral_Interface_SPI_PRG_SLV.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\SPI_slave_interface_prg.xml" xtrc="xref:4;61:95" type="topic"><?ditaot gentext?>SPI Slave Interface for Programming Configuration</xref>.</p>
+  </body>
+</topic>

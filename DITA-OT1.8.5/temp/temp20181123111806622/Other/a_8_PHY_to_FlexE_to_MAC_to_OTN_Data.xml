@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="a_8_PHY_to_FlexE_to_MAC_to_OTN_Data_xi511489" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="topic:1;2:138">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="title:1;3:10">PHY &lt;-&gt; FlexE &lt;-&gt; MAC &lt;-&gt; OTN Datapaths</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="ul:1;6:9">
+      <li id="d1e5785" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="p:1;7:27">10-100G clients demuliplexed from FlexE going
+      through Ethernet MAC and adapted for GFP Clause 6.2 mapping into OTN
+      without preamble (10).</p></li>
+    </ul>
+
+    <fig id="fig_PHY_to_FlexE_to_MAC_to_OTN_Datapaths_0itebp8gu" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="fig:1;12:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="title:2;13:14">PHY &lt;-&gt; FlexE &lt;-&gt; MAC to OTN Datapaths</title>
+
+      <image href="PHYtoFlexEtoMACtoOTNDatapaths.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="image:1;15:86"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="p:2;18:8">On the receive path, the different 100GE PHYs of a FlexE Group comes
+    from SERDES and then go through the PHY RX blocks that performs the PMA,
+    FEC and PCS functions. The traffic goes to the FLEX_DEMUX which terminates
+    the FLexE Group and extract the FlexE clients. The traffic then pass
+    through the MAC that delineate Ethernet packets, deleting all idles and
+    O/S. These packets are forwarded and stored into the ECPB packet buffer.
+    The MAC provides full PMON while the FEPP_I provides packet insertion and
+    extraction capabilities. The MAPOTN extract these packets and perform the
+    GFP map.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="p:3;28:8">On the transmit path, the MAPOTN takes the GFP packets and stored them
+    into the ECPB. The FEDP forward these packets to a transmit MAC that adds
+    the preamble, idles and O/S. The MAC_TX provides full PMON while the
+    FEPP_E provides packet insertion and extraction capabilities. The
+    FLEXE_MUX mutliplex these clients into a Flex group. The PHY rate
+    information (usually nominal) is given to the SERDES outside the ENET
+    subsystem. The SERDES then backpressure the TX PHY and the FLEXE_MUX</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="p:4;36:8"><draft-comment author="hookerje" time="Mon 08/15/2016 11:25 AM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="draft-comment:1;36:72">
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_8_PHY_to_FlexE_to_MAC_to_OTN_Data.xml" xtrc="i:1;37:8">[DDD/HWS] SW/Apps to add API and datapath segment configuration content
+    here.</i> </draft-comment></p>
+  </body>
+</topic>

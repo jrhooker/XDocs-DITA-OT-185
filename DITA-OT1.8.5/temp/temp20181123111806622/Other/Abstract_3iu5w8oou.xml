@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Abstract_3iu5w8oou" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Abstract_3iu5w8oou.xml" xtrc="topic:1;2:112">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Abstract_3iu5w8oou.xml" xtrc="title:1;3:10">Abstract</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Abstract_3iu5w8oou.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Abstract_3iu5w8oou.xml" xtrc="p:1;6:8">The Ethernet Central Packet Buffer (ECPB) contains a 2x2 non-blocking
+    channelized packet switch (SCPB), and storage. The SCPB contains four sets
+    of logical FIFOs (port pairs). Push ports write data into per-channel
+    FIFOs that are read by the pop port. Memory for the FIFOs is allocated
+    from the storage block (PMPM). All connections between channels from an
+    input port to an output port are unicast. Broadcast and multicast
+    connections between an input channel and output channel are not supported.
+    The PMPM is organized in pages and blocks. A given page can be assigned to
+    any port pair. A given block can be assigned to any channel within the
+    port pair. The size of a channel FIFO is determined by the number of
+    blocks allocated to it.</p>
+  </body>
+</topic>

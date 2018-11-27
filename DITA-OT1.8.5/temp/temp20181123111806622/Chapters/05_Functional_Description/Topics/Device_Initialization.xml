@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="Device_Initialization" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="topic:1;2:127">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:1;3:10">Device Initialization API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:1;6:8">The API discussed in this section are used for device initialization
+    before datapaths are provisioned. The flowchart for device initialization
+    is shown in <xref href="#Device_Initialization/fig_Device_Initialization_Flowchart_fjkvfql8e" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:1;8:99" type="fig"><?ditaot gentext?>Figure 1</xref> below and the API are listed in <xref href="#Device_Initialization/table_Device_Initialization_API_0jgfbwe9g" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:2;9:123" type="table"><?ditaot gentext?>Table 1</xref>.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="note:1;12:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:2;12:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "Device_Init")</p></note>
+
+    <fig id="fig_Device_Initialization_Flowchart_fjkvfql8e" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="fig:1;17:61">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:2;18:14">Device Initialization Flowchart</title>
+
+      <image href="Device_initialization_Flowchart2.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="image:1;20:59"/>
+    </fig>
+
+    <table id="table_Device_Initialization_API_0jgfbwe9g" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:1;23:59">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:3;24:14">Device Initialization API</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:1;26:24">
+        <colspec colname="col1" colwidth="400*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="colspec:1;27:35"/>
+
+        <colspec colname="col2" colwidth="600*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="colspec:2;29:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:1;31:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:1;32:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:1;33:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:3;33:23"> API</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:2;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:4;35:23">Description </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:1;39:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:2;40:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:3;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:5;41:23"> g5_api_device_init()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:4;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:6;43:23"> Performs start up initialization of the underlying
+            DIGI-G5 device. </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:3;47:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:5;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:7;48:23"> g5_api_device_uninit()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:6;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:8;50:23"> Destroys the host information stored for device_id
+            passed in. </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:4;54:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:7;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:9;55:23"> g5_api_status_get()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:8;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:10;57:23">Retrieves host and device status information.
+            </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:5;61:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:9;62:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:11;62:23"> g5_api_gfp_non_blocking_set()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:10;64:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:12;64:23">Sets the error generation behavior when provisioning GFP
+            applications.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:6;68:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:11;69:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:13;69:23"> g5_api_enet_serdes_route_set()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:12;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:14;71:23">Specifies the algorithm used to route SERDES pins to the
+            internal ENET subsystem physical resources.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:7;75:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:13;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:15;76:23"> g5_api_jk_muxing_non_blocking_set()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:14;78:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:16;78:23"> Sets the error generation behavior when provisioning
+            ODTUjk multiplexing on the ODUCn group's Cn multiplexed
+            payload.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:8;83:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:15;84:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:17;84:23"> g5_api_cn_grp_jk_alloc_get()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:16;86:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:18;86:23"> Gets the current resource allocation on each ODTUjk
+            instance that is reserved for the ODUCn group channel.
+            </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <section id="section_g5_api_device_init__1jgfbwe9g" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:1;94:57"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:4;94:64">g5_api_device_init()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:19;94:95">Device
+    initialization is performed with the g5_api_device_init() API. This
+    function performs start up initialization of the underlying DIGI-G5
+    device. All SERDES port configuration, except those used for the
+    Interlaken interface, must be done with the g5_api_serdes_port_los_cfg()
+    API. The g5_api_device_init() API has the following parameters and
+    associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:1;100:51">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:1;101:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:20;101:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:2;103:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:21;103:16"> host_cfg - g5_config_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:22;104:15">The device_id parameter a unique identifier representing the
+    underlying DIGI-G5 device. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:23;105:39">The host_cfg parameter of the
+    g5_api_device_init() API is the set of bring up configuration information
+    to be applied to the device and is defined by the structure g5_config_t
+    that has the following structure members with associated enumerations or
+    structures: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:2;109:25">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:3;110:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:24;110:16"> device_info - g5_device_instance_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:4;112:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:25;112:16"> ilkn_cfg - g5_ilkn_intf_common_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:5;114:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:26;114:16"> ilkn_intf - g5_ilkn_intf_cfg_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:6;116:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:27;116:16"> ilkn_lane - g5_ilkn_lane_cfg_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:7;118:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:28;118:16"> pmon_data - g5_pmon_data_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:8;120:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:29;120:16"> padding</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:9;122:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:30;122:16"> refclk_rate - g5_refclk_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:10;124:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:31;124:16"> host_sdk_mode</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:11;126:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:32;126:16"> init_type - g5_init_type_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:12;128:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:33;128:16"> fw_filename</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:13;130:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:34;130:16"> reserved</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:35;131:15">The device_info member of the structure g5_config_t is the
+    device instance description that is defined by the g5_device_instance_t
+    structure that has two members. The first member is base_address which is
+    the device physical base address. The second member is name_ptr which is a
+    string or other information that can be used to uniquely identify the
+    device in the system.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:36;136:33">The ilkn_cfg member of the structure
+    g5_config_t is the common Interlaken configuration that applies to all
+    interfaces and is defined by the g5_ilkn_intf_common_t structure that has
+    the following members with associated enumerations or structures: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:3;139:79">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:14;140:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:37;140:16"> burst_max - g5_ilkn_burst_max_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:15;142:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:38;142:16"> burst_min - g5_ilkn_burst_min_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:16;144:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:39;144:16"> burst_short - g5_ilkn_burst_short_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:17;146:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:40;146:16"> tx_header_mode - g5_ilkn_fabric_ingress_header_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:18;148:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:41;148:16"> rx_header_mode - g5_ilkn_fabric_egress_header_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:19;150:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:42;150:16"> rx_xoff_mode - g5_ilkn_rx_link_mode_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:43;151:15">The burst_max, burst_min and burst_short members of the
+    structure g5_ilkn_intf_common_t are the defined by the enumerations
+    g5_ilkn_burst_max_t, g5_ilkn_burst_min_t and g5_ilkn_burst_short_t that
+    specify the Interlaken burst max, min and burst size. The burst_max size
+    options are shown in <xref href="#Device_Initialization/table_g5_ilkn_burst_max_t_Enumeration_of_the_b_2jgfbwe9g" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:3;155:119" type="table"><?ditaot gentext?>Table 2</xref> below. The burst_min size options are shown in <xref href="#Device_Initialization/table_g5_ilkn_burst_min_t_Enumeration_of_the_b_3jgfeff7b" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:4;156:153" type="table"><?ditaot gentext?>Table 3</xref>below. The burst_short size options are shown in <xref href="#Device_Initialization/table_g5_ilkn_burst_short_t_Enumeration_of_the_4jgfeff7b" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:5;157:154" type="table"><?ditaot gentext?>Table 4</xref> below. </p><table id="table_g5_ilkn_burst_max_t_Enumeration_of_the_b_2jgfbwe9g" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:2;158:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:5;159:16">g5_ilkn_burst_max_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:2;161:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:2;162:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:9;163:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:17;164:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:44;164:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:18;166:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:45;166:25"> Burst Size</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:2;170:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:10;171:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:19;172:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:46;172:25"> G5_ILKN_BURST_MAX_128</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:20;174:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:47;174:25"> 128 byte burst size </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:11;177:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:21;178:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:48;178:25"> G5_ILKN_BURST_MAX_256</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:22;180:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:49;180:25"> 256 byte burst size </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:12;183:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:23;184:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:50;184:25"> G5_ILKN_BURST_MAX_512</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:24;186:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:51;186:25"> 512 byte burst size </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_g5_ilkn_burst_min_t_Enumeration_of_the_b_3jgfeff7b" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:3;190:84">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:6;191:16">g5_ilkn_burst_min_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:3;193:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:3;194:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:13;195:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:25;196:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:52;196:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:26;198:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:53;198:25"> Burst Size</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:3;202:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:14;203:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:27;204:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:54;204:25">G5_ILKN_BURST_MIN_DISABLED</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:28;206:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:55;206:25">No minimum burst size expected. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:15;209:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:29;210:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:56;210:25">G5_ILKN_BURST_MIN_32</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:30;212:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:57;212:25">32 byte burst minimum </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:16;215:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:31;216:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:58;216:25">G5_ILKN_BURST_MIN_64</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:32;218:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:59;218:25">64 byte burst size </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:17;221:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:33;222:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:60;222:25">G5_ILKN_BURST_MIN_128</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:34;224:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:61;224:25">128 byte burst minimum </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:18;227:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:35;228:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:62;228:25">G5_ILKN_BURST_MIN_256</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:36;230:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:63;230:25">256 byte burst minimum </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_g5_ilkn_burst_short_t_Enumeration_of_the_4jgfeff7b" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:4;234:84">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:7;235:16">g5_ilkn_burst_short_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:4;237:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:4;238:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:19;239:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:37;240:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:64;240:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:38;242:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:65;242:25"> Burst Size</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:4;246:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:20;247:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:39;248:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:66;248:25"> G5_ILKN_BURST_SHORT_32</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:40;250:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:67;250:25"> 32 byte burst size </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:21;253:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:41;254:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:68;254:25"> G5_ILKN_BURST_SHORT_64</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:42;256:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:69;256:25"> 64 byte burst size </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:70;260:18">The tx_header_mode and rx_header_mode members of the
+    structure g5_ilkn_intf_common_t are defined by the enumerations
+    g5_ilkn_fabric_ingress_header_t and g5_ilkn_fabric_egress_header_t that
+    specify the format of headers transferred between the Interlaken interface
+    and the DCPB for the ODUK_CBRI traffic type. All headers will contain the
+    Packet Maker Header and optionally a 'user specified overhead "2 bytes"'
+    and/or 'user specified overhead "4 bytes"'. The tx_header_mode options are
+    shown in <xref href="#Device_Initialization/table_g5_ilkn_fabric_ingress_header_t_Enumerat_5jgfjw6ku" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:6;267:107" type="table"><?ditaot gentext?>Table 5</xref> below. The rx_header_mode options are shown in <xref href="#Device_Initialization/table_g5_ilkn_fabric_egress_header_t_Enumerati_6jgfjw6ku" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:7;268:153" type="table"><?ditaot gentext?>Table 6</xref> below. </p><table id="table_g5_ilkn_fabric_ingress_header_t_Enumerat_5jgfjw6ku" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:5;269:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:8;270:16">g5_ilkn_fabric_ingress_header_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:5;272:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:5;273:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:22;274:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:43;275:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:71;275:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:44;277:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:72;277:25">Header Option</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:5;281:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:23;282:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:45;283:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:73;283:25">G5_ILKN_TX_HEADER_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:46;285:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:74;285:25">Optional Header 2B/4B not present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:24;288:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:47;289:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:75;289:25">G5_ILKN_TX_HEADER_2B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:48;291:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:76;291:25">Optional Header 2B present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:25;294:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:49;295:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:77;295:25">G5_ILKN_TX_HEADER_4B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:50;297:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:78;297:25">Optional Header 4B present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:26;300:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:51;301:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:79;301:25">G5_ILKN_TX_HEADER_2B_AND_4B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:52;303:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:80;303:25">Both Header 2B and 4B present. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_g5_ilkn_fabric_egress_header_t_Enumerati_6jgfjw6ku" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:6;307:84">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:9;308:16">g5_ilkn_fabric_egress_header_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:6;310:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:6;311:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:27;312:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:53;313:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:81;313:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:54;315:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:82;315:25">Header Option</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:6;319:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:28;320:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:55;321:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:83;321:25">G5_ILKN_RX_HEADER_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:56;323:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:84;323:25">Optional Header 2B/4B not present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:29;326:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:57;327:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:85;327:25">G5_ILKN_RX_HEADER_2B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:58;329:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:86;329:25">Optional Header 2B present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:30;332:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:59;333:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:87;333:25">G5_ILKN_RX_HEADER_2B_CAM</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:60;335:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:88;335:25">Optional Header 2B present for CAM lookup.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:31;339:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:61;340:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:89;340:25">G5_ILKN_RX_HEADER_4B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:62;342:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:90;342:25">Optional Header 4B present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:32;345:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:63;346:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:91;346:25">G5_ILKN_RX_HEADER_4B_CAM</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:64;348:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:92;348:25">Optional Header 4B present with CAM lookup.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:33;352:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:65;353:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:93;353:25">G5_ILKN_RX_HEADER_2B_AND_4B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:66;355:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:94;355:25">Both Header 2B and 4B present. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:34;358:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:67;359:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:95;359:25">G5_ILKN_RX_HEADER_2B_CAM_AND_4B</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:68;361:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:96;361:25">Both Header 2B CAM and 4B present. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:97;365:18">The rx_xoff_mode member of the structure
+    g5_ilkn_intf_common_t is the defined by the enumeration
+    g5_ilkn_rx_link_mode_t that defines the behavior of the XOFF notification
+    events to the flow control calendar for fabric egress channels.
+    g5_ilkn_rx_link_mode_t has two enumerations: G5_ILKN_RX_LINK_MODE_PIF_ONLY
+    and G5_ILKN_RX_LINK_MODE_HYBRID. G5_ILKN_RX_LINK_MODE_PIF_ONLY is used
+    when only PIF sourced traffic is on the Interlaken interface.
+    G5_ILKN_RX_LINK_MODE_HYBRID is used when both PIF and CBR sourced traffic
+    is on the Interlaken interface. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:98;373:44">The ilkn_intf member of the
+    structure g5_config_t is the Interlaken Interface configuration that is
+    defined by the g5_ilkn_intf_cfg_t structure that has the following members
+    with associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:4;376:56">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:20;377:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:99;377:16"> metaframe - g5_ilkn_mf_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:21;379:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:100;379:16"> tx_rate_limit - g5_ilkn_tx_rate_limit_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:22;381:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:101;381:16"> fc_enable</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:23;383:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:102;383:16"> fc_cal_length</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:103;384:15">The metaframe member of the structure g5_ilkn_intf_cfg_t is
+    defined by the enumeration g5_ilkn_mf_t that specifies the length of the
+    Interlaken meta frame which includes the Synchronization, Scrambler State,
+    Skip, and Diagnostic words carried on each Interlaken lane. The metaframe
+    length options are shown in <xref href="#Device_Initialization/table_g5_ilkn_mf_t_Enumeration_of_the_metafram_7jgfkbxsx" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:8;388:126" type="table"><?ditaot gentext?>Table 7</xref> below.</p><table id="table_g5_ilkn_mf_t_Enumeration_of_the_metafram_7jgfkbxsx" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:7;389:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:10;390:16">g5_ilkn_mf_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:7;392:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:7;393:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:35;394:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:69;395:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:104;395:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:70;397:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:105;397:25">Metaframe Length</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:7;401:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:36;402:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:71;403:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:106;403:25">G5_ILKN_MF_1024</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:72;405:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:107;405:25">1024 block meta frame length </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:37;408:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:73;409:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:108;409:25">G5_ILKN_MF_2048</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:74;411:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:109;411:25">2048 block meta frame length </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:38;414:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:75;415:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:110;415:25">G5_ILKN_MF_4096</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:76;417:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:111;417:25">4096 block meta frame length </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:112;421:18">The tx_rate_limit member of the structure g5_ilkn_intf_cfg_t
+    is the defined by the structure g5_ilkn_tx_rate_limit_t that specifies an
+    optional Interlaken transmit rate limit. The structure has three members:
+    rate_limit, burst_limit and byte_granularity. The member rate_limit
+    specifies the rate limit in 1 Gbps increments (from 0 to 100). When set to
+    0 the transmit rate limit is disabled. When set from 1 to 100, rate
+    limiting is enabled to the limit value in Gbps. The burst_limit member is
+    the maximum quantity of data that may be burst across the Interlaken
+    interface before invoking the rate limiting logic (in bytes). The
+    byte_granularity member is the number of credits that are to be subtracted
+    from the token bucket when an EOP is encountered. The value of
+    byte_granularity and number of bytes to be subtracted is shown below:
+    </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:5;433:13">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:24;434:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:113;434:16"> byte_granularity = 0 refers to 1 byte subtracted </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:25;436:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:114;436:16"> byte_granularity = 1 refers to 2 bytes subtracted</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:26;438:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:115;438:16"> byte_granularity = 2 refers to 4 bytes subtracted</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:27;440:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:116;440:16"> byte_granularity = 3 refers to 8 bytes subtracted</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:28;442:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:117;442:16"> byte_granularity = 4 refers to 16 bytes subtracted</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:29;444:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:118;444:16"> byte_granularity = 5 refers to 32 bytes subtracted</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:119;445:15">The fc_enable member of the g5_ilkn_intf_cfg_t structure enables
+    flow control for the Interlaken interface. When fc_enable is set to TRUE,
+    16-bit in-band flow control is used. When fc_enable is set to FALSE
+    in-band flow control is disabled on the Interlaken interface. The
+    fc_cal_length member of the g5_ilkn_intf_cfg_t structure is the number of
+    entries in the flow control calendar. The range is 1 - 300. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:120;450:72">The
+    ilkn_lane member of the structure g5_config_t is the Interlaken lane
+    configuration that is defined by the g5_ilkn_lane_cfg_t structure and has
+    the following members with associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:6;453:78">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:30;454:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:121;454:16"> rate - g5_ilkn_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:31;456:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:122;456:16"> serdes_port_ids_tx</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:32;458:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:123;458:16"> serdes_port_ids_tx</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:124;459:15">The rate member of the structure g5_ilkn_lane_cfg_t is defined
+    by the enumeration g5_ilkn_rate_t and is the SERDES rate for an Interlaken
+    interface. The rate automatically determines whether FEC encoding is
+    enabled or disabled. FEC encoding is always enabled for PAM4 rates. FEC
+    encoding is always disabled for NRZ rates. Note: The PAM4 SERDES rate is
+    only valid for 1x500G configurations. If 3x200G mode is deployed then one
+    of the two NRZ rates must be used. The rate options are shown in <xref href="#Device_Initialization/table_g5_ilkn_rate_t_Enumeration_of_the_rate_o_8jgfor5mu" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:9;465:163" type="table"><?ditaot gentext?>Table 8</xref> below. </p><table id="table_g5_ilkn_rate_t_Enumeration_of_the_rate_o_8jgfor5mu" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:8;466:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:11;467:16">g5_ilkn_rate_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:8;469:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:8;470:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:39;471:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:77;472:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:125;472:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:78;474:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:126;474:25">Interlaken Lane Rate</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:8;478:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:40;479:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:79;480:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:127;480:25">G5_ILKN_RATE_25G78125</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:80;482:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:128;482:25">25.78125 Gbps</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:41;485:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:81;486:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:129;486:25">G5_ILKN_RATE_28G125</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:82;488:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:130;488:25">28.125G Gbps</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:42;491:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:83;492:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:131;492:25">G5_ILKN_RATE_53G </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:84;494:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:132;494:25">53.125 Gbps </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:43;497:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:85;498:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:133;498:25">G5_ILKN_RATE_56G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:86;500:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:134;500:25">56.25 Gbps </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:135;504:18">The serdes_port_ids_tx and serdes_port_ids_rx members of the
+    g5_ilkn_lane_cfg_t structure are arrays defining the set of transmit and
+    receive interface SERDES lanes used at the backplane interface of the
+    Interlaken block. The member serdes_port_ids_rx must use the same set of
+    serdes_port_id values used in serdes_port_ids_tx. The logical lane order
+    in serdes_port_ids_tx and serdes_port_ids_rx may be different. The arrays
+    have 24 elements where each index represents a logical lane. The data of
+    each array index is the serdes_port_id corresponding to the device
+    physical pin (legal range 0 to 71). Unused entries must be set to
+    G5_MAX_INT. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:136;513:24">The pmon_data member of the structure g5_config_t is
+    the PMON configuration information and is defined by the g5_pmon_data_t
+    structure. It holds basic operators such as the trigger type, the trigger
+    period, etc used with PMON. By default all Boolean variables are set to
+    FALSE and 1000 ms is set as the event reporting period. Note that the
+    actual address block used to enable FW to pass back PMON data to the host
+    is defined specifically in the OS porting layer and is not provided here.
+    The g5_pmon_data_t structure has the following members with associated
+    enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:7;521:40">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:33;522:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:137;522:16"> auto_trigger</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:34;524:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:138;524:16"> pmon_sync_enable</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:35;526:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:139;526:16"> trigger_period_ms</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:140;527:15">The auto_trigger member of the g5_pmon_data_t structure selects
+    the trigger type used for PMON. When set to TRUE, automatic PMON
+    triggering is enabled. When set to FALSE, manual triggering is enabled.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:141;530:12">The pmon_sync_enable member of the g5_pmon_data_t structure chooses
+    whether to use the PMON_SYN_I input signal to trigger the PMON transfer.
+    When set to TRUE, the PMON_SYN_I input signal is used. When set to FALSE,
+    the PMON_SYN_I input signal is not used.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:142;533:52">The trigger_period_ms
+    member of the g5_pmon_data_t structure chooses the period, in
+    milliseconds, between trigger events. The values are 250, 500 or 1000.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:143;536:12">The padding member of the g5_config_t structure is padding to avoid
+    uninitialized data. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:144;537:32">The refclk_rate member of the g5_config_t
+    structure selects the device REFCLK rate and has two enumerators:
+    G5_REFCLK_RATE_125_MHZ to choose a 125 MHz reference clock and
+    G5_REFCLK_RATE_155_MHZ to choose a 155 MHz reference clock. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:145;540:72">The
+    host_sdk_mode member of the g5_config_t structure is the DeviceID(i.e
+    6010) the host SDK is setup to configure. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:146;542:54">The init_type member of
+    the g5_config_t structure is the startup type of the device and is defined
+    by the enumeration g5_init_type_t. The init_type options are shown in
+    <xref href="#Device_Initialization/table_g5_init_type_t_Enumeration_of_the_init_t_ajgfr70a6" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="xref:10;545:98" type="table"><?ditaot gentext?>Table 9</xref> below. </p><table id="table_g5_init_type_t_Enumeration_of_the_init_t_ajgfr70a6" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:9;546:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:12;547:16">g5_init_type_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:9;549:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:9;550:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:44;551:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:87;552:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:147;552:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:88;554:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:148;554:25">Initialization Type</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:9;558:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:45;559:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:89;560:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:149;560:25">G5_INIT_COLD</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:90;562:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:150;562:25">Cold initialization </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:46;565:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:91;566:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:151;566:25">G5_INIT_RESTART</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:92;568:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:152;568:25">Restart of host - no firmware reload </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:47;571:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:93;572:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:153;572:25">G5_INIT_RESTART_FW_RELOAD</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:94;574:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:154;574:25">Restart of host - firmware reload/upgrade </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:155;578:18">The fw_filename member of the g5_config_t structure is the
+    pointer to FW filename. This parameter is only used by host. The device
+    will not use it. </p>The reserved member of the g5_config_t structure is
+    padding for 32bit pointer to maintain alignment.</section>
+
+    <section id="section_g5_api_device_uninit__0jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:2;583:59"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:13;583:66">g5_api_device_uninit()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:156;583:99">The
+    g5_api_device_uninit() API destroys the host information stored for
+    device_id passed in. It also makes the calls to stop DMA transfers (PMON,
+    Log, defects), frees shared memory, and calls porting functions to unmap
+    the device. It will optionally reset the device or leave running. The
+    g5_api_device_uninit() API has the following parameters and associated
+    enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:8;589:40">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:36;590:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:157;590:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:37;592:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:158;592:16"> shutdown</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:159;593:15">The device_id parameter is the unique device identity. The
+    shutdown parameter is a Boolean to choose if the device is shutdown or
+    not. When set to TRUE, the device is shutdown. When set to FALSE, the
+    device is not shutdown. </p></section>
+
+    <section id="section_g5_api_status_get__1jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:3;598:56"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:14;598:63">g5_api_status_get()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:160;598:93">The
+    g5_api_status_get() API retrieves host and device status information.
+    Retrieves the current firmware and software version and revision values.
+    Build target information and the hardware revision. All updates are added
+    to the status_ptr reference parameter. The g5_api_status_get() API has the
+    following parameters and associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:9;603:76">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:38;604:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:161;604:16"> device_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:162;605:15">The API returns a pointer to the status info, status_ptr, that
+    is defined by the g5_status_info_t structure. The g5_status_info_t
+    structure has the following associated enumerations or structures: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:10;607:80">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:39;608:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:163;608:16"> build_code</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:40;610:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:164;610:16"> device_info - g5_device_status_info_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:41;612:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:165;612:16"> pcie_connected</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:42;614:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:166;614:16"> sw_fw_mismatch</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:43;616:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:167;616:16"> sw_revision</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:44;618:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:168;618:16"> sw_version</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:169;619:15">The build_code member of the g5_status_info_t structure is the
+    device identification or target the software code was built for. It should
+    be compatible with the device_type member of the g5_device_status_info_t
+    structure.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:170;622:22">The device_info member of the g5_status_info_t structure
+    is defined by the g5_device_status_info_t structure that has the following
+    members: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:11;624:22">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:45;625:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:171;625:16"> device_type</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:46;627:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:172;627:16"> device_revision</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:47;629:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:173;629:16"> fw_alive</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:48;631:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:174;631:16"> fw_revision</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:49;633:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:175;633:16"> fw_version</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:176;634:15">The device_type member of the g5_device_status_info_t structure
+    is the device identification code and is the same or compatible with the
+    product code. The device_revision member is read from the device and is
+    based on the revision type. The fw_alive member is a flag indicating that
+    the firmware is valid. The fw_revision member is a source control revision
+    number. The fw_version member is the version number of the firmware
+    running on the device. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:177;640:35">The pcie_connected member of the
+    g5_status_info_t structure is an indication of whether the connection
+    between the host and the device is active. The sw_fw_mismatch member is an
+    indication of whether the software and firmware are compatible. The
+    sw_revision member is the host processor source control revision number.
+    The sw_version member is the version of software running on the host
+    processor. </p></section>
+
+    <section id="section_g5_api_gfp_non_blocking_set__2jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:4;648:66"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:15;648:73">g5_api_gfp_non_blocking_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:178;648:113">The
+    g5_api_device_uninit() API sets the error generation behavior when
+    provisioning GFP applications. By default an error code will be generated
+    by the g5_api_client_map_cfg() API if the bandwidth used by GFP
+    applications would exceed the non-blocking bandwidth threshold. This API
+    controls if an ERROR code is generated for cases where the same rate GFP
+    applications are being configured such as 5 x 100GE or 50 x 10GE. In these
+    cases provisioning will successfully pass until the resources within the
+    GFP slice boundaries are no longer available. When the resources are used
+    up an error will be generated by default. The
+    g5_api_gfp_non_blocking_set() API has the following parameters and
+    associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:12;659:51">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:50;660:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:179;660:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:51;662:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:180;662:16"> enable</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:181;663:15">The device_id parameter is the unique device identity. The
+    enable parameter is a BOOLEAN to choose the GFP non-blocking ERROR code
+    insertion mode. When set to TRUE: Error codes are generated when the GFP
+    provisioned non-blocking bandwidth is exceeded. When set to FALSE: Error
+    codes are not generated when the GFP provisioned non-blocking bandwidth is
+    exceeded. </p></section>
+
+    <section id="section_g5_api_enet_serdes_route_set__3jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:5;670:67"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:16;670:74">g5_api_enet_serdes_route_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:182;670:115">The
+    g5_api_enet_serdes_route_set() API specifies the algorithm used to route
+    SERDES pins to the internal ENET subsystem physical resources. If the
+    current provisioned ENET applications have SERDES to ENET routing which
+    does not match the route mode, then an error code is returned. The
+    g5_api_enet_serdes_route_set() API has the following parameters and
+    associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:13;676:51">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:52;677:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:183;677:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:53;679:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:184;679:16"> route - g5_enet_serdes_route_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:185;680:15">The device_id parameter is the unique device identity.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:186;681:12">The route parameter selects the SERDES pin to ENET physical
+    resource routing algorithm type using the g5_enet_serdes_route_t
+    enumeration. The route options are shown in below. </p><table id="table_g5_enet_serdes_route_t_Enumeration_of_th_4jhv3z7fl" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="table:10;683:129">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:17;684:16">g5_enet_serdes_route_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tgroup:10;686:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="thead:10;687:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:48;688:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:95;689:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:187;689:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:96;691:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:188;691:25"> Route Algorithm</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="tbody:10;695:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:49;696:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:97;697:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:189;697:25"> G5_ENET_SERDES_ROUTE_0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:98;699:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:190;699:25"> 10/25G and 10/25/53G without 400GE SERDES to Ethernet
+              Routing </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:50;703:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:99;704:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:191;704:25"> G5_ENET_SERDES_ROUTE_1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:100;706:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:192;706:25"> 10/25/53G 400GE SERDES to Ethernet Routing
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:51;710:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:101;711:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:193;711:25"> G5_ENET_SERDES_ROUTE_0_INV</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:102;713:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:194;713:25"> Reverse pin ordering ROUTE_0. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="row:52;716:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:103;717:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:195;717:25"> G5_ENET_SERDES_ROUTE_1_INV</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="entry:104;719:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:196;719:25"> Reverse pin ordering ROUTE_1. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+
+    <section id="section_g5_api_jk_muxing_non_blocking_set__5jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:6;725:72"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:18;725:79">g5_api_jk_muxing_non_blocking_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:197;725:125">The
+    g5_api_jk_muxing_non_blocking_set() API sets the error generation behavior
+    when provisioning ODTUjk multiplexing on the ODUCn group's Cn multiplexed
+    payload. By default an error code will be generated by
+    g5_api_odu_mux_cfg() if the bandwidth used by OTUjk multiplexing
+    applications would exceed the non-blocking bandwidth threshold. The
+    non-blocking ODTUjk bandwidth threshold is as follows:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:14;731:67">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:54;732:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:198;732:16"> For ODUC1 and ODUC2 group's payload: 100G </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:55;734:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:199;734:16"> For ODUC3 and ODUC4 group's payload: 200G </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:56;736:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:200;736:16"> For ODUC5 and ODUC6 group's payload: 300G</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:201;737:15">This API allows the ERROR code to not be generated in cases
+    where same ODUk rate applications are being multiplexed into the ODUCn
+    group's Cn multiplexed LO payload. For example, provisioning 10 x ODU2s
+    into each ODU4 of an ODUC6 channel is allowed. In these cases provisioning
+    can successfully pass until resources within the ODTUjk multiplexer slice
+    boundaries are not available. At this time a scheduler availability error
+    code will be generated. The g5_api_jk_muxing_non_blocking_set() API has
+    the following parameters and associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:15;744:80">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:57;745:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:202;745:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:58;747:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:203;747:16"> enable</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:204;748:15">The device_id parameter is the unique device identity.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:205;749:12">The enable parameter selects if an error code is generated or not.
+    When set to TRUE an error code is generated when the non-blocking
+    bandwidth is exceeded. When set to FALSE an error code is not generated if
+    the non-blocking bandwidth is exceeded.</p></section>
+
+    <section id="section_g5_api_cn_grp_jk_alloc_get__6jhv3z7fl" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="section:7;754:65"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="title:19;754:72">g5_api_cn_grp_jk_alloc_get()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:206;754:111">The
+    g5_api_cn_grp_jk_alloc_get() API gets the current resource allocation on
+    each ODTUjk instance that is reserved for the ODUCn group channel. This
+    API also returns the total number of free slots in ODUCn group channel.
+    When provisioning a Cn demultiplexed HO ODUk, HO ODU1/ODU2/ODU3/ODU4
+    requires 2/8/32/80 1.25G slots respectively. The
+    g5_api_cn_grp_jk_alloc_get() API has the following input parameters and
+    associated enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:16;761:51">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:59;762:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:207;762:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:60;764:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:208;764:16"> chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:209;765:15">The device_id parameter is the unique device identity. The
+    chnl_id parameters is the ODUCn group channel ID. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:210;766:62">The API has
+    returns the following output pointers: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:17;767:52">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:61;768:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:211;768:16"> grp_free_slots_ptr</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:62;770:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:212;770:16"> jk_inst_free_slots_ptr </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:213;771:15">The grp_free_slots_ptr pointer is the number of total free slots
+    in the ODUCn group in 1.25G units. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:214;772:47">The jk_inst_free_slots_ptr is a
+    pointer to the array jk_inst_free_slots_ptr[0:5]. Each element of the
+    array represents the number of free slots in each ODTUjk instance in 1.25G
+    units. The maximum possible free slots in each ODTUjk instance is 96 which
+    equals 120G. For array indicies that are not in the group, the number will
+    be set to 0xFF. e.g.) For an ODUC3 group, indicies 0-2 are valid. indicies
+    3-5 will be set to 0xFF. The array rows are as follows: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="ul:18;778:69">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:63;779:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:215;779:16"> jk_inst_free_slots_ptr[0] is for G5_CN_MUX_1ST_JK_MUX
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:64;782:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:216;782:16"> jk_inst_free_slots_ptr[1] is for G5_CN_MUX_2ND_JK_MUX
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:65;785:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:217;785:16"> jk_inst_free_slots_ptr[2] is for G5_CN_MUX_3RD_JK_MUX
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:66;788:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:218;788:16"> jk_inst_free_slots_ptr[3] is for G5_CN_MUX_4TH_JK_MUX
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:67;791:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:219;791:16"> jk_inst_free_slots_ptr[4] is for G5_CN_MUX_5TH_JK_MUX
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="li:68;794:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Device_Initialization.xml" xtrc="p:220;794:16"> jk_inst_free_slots_ptr[5] is for G5_CN_MUX_6TH_JK_MUX
+        </p></li>
+      </ul></section>
+  </body>
+</topic>

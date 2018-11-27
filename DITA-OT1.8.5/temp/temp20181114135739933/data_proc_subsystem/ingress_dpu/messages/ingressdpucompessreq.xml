@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181114135739933\data_proc_subsystem\ingress_dpu\messages?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181114135739933/data_proc_subsystem/ingress_dpu/messages/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="idpi_comp" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="topic:1;2:115">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="title:1;3:10">Ingress DPU Compression Request (IngressDpuCompressReq)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:1;6:8">Ingress DPU Decompression Request message supports message length of
+    0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:2;9:9"/>
+
+    <table id="tab_idpu_compreq_length" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="table:1;11:41">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="title:2;12:14">Supported Ingress DPU Compression Request Message Length</title>
+
+      <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="tgroup:1;14:24">
+        <colspec colname="col1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:1;15:32"/>
+
+        <colspec colname="col2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:2;17:32"/>
+
+        <colspec colname="col3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:3;19:32"/>
+
+        <colspec colname="col4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:4;21:32"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="thead:1;23:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="row:1;24:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:1;25:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:3;25:23"> Local Message Length*</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:2;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:4;27:23"> Functional Feature</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:3;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:5;29:23">Max Source SGL Elements </p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:4;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:6;31:23">Max Destination SGL Elements </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="tbody:1;35:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="row:2;36:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:5;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:7;37:23"> 0</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:6;39:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:8;39:23">Compression and/or Hash</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:7;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:9;41:23"> 2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:8;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:10;43:23">2</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="row:3;46:16">
+            <entry colname="col1" namest="col1" nameend="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:9;47:45"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:11;47:48"> * Message Length field in
+            message header is Local Message Length plus one if it is for
+            cascading, otherwise Message Length field is same as Local Message
+            Length.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table id="tab_idpu_compreq_msg" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="table:2;56:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="title:3;57:14">IngressDpuCompressReq - Ingress DPU Compression Request</title>
+
+      <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="tgroup:2;59:24">
+        <colspec colname="col1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:5;60:48"/>
+
+        <colspec colname="col2" colwidth="0.6in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:6;62:48"/>
+
+        <colspec colname="col3" colwidth="1.25in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:7;64:49"/>
+
+        <colspec colname="col4" colwidth="3.4in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="colspec:8;66:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="thead:2;68:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="row:4;69:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:10;70:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:12;70:23"> Dword</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:11;72:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:13;72:23"> Position</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:12;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:14;74:23"> Name</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="entry:13;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:15;76:23"> Description</p></entry>
+          </row>
+        </thead>
+
+        <struct structure="msg" class="- topic/tbody struct-d/struct " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="struct:1;80:33">
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:1;81:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:1;82:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:1;84:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:1;85:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:1;86:22">1</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:1;88:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:1;92:19">IDPUReqMsgType</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:1;94:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:1;95:92">Ingress DPU Request Message Type</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:16;97:18">This field configures ingress DPU request message type. It
+              shall be set to 2 for this ingress DPU hash and compression
+              request message.</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:1;101:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:1;102:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:1;103:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:1;105:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:1;106:103">IDPUReq</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:1;108:103">Ingress DPU request message. Ingress DPU
+                    request message is used as both message for encryption
+                    operation only and message for full feature operation. Not
+                    valid for this message.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:2;115:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:2;116:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:2;118:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:2;119:103">IDPUPIReq</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:2;121:103">Ingress DPU PI request message. Ingress
+                    DPU PI request message is used as message for PI1 and/or
+                    PI2 operation only. Not valid for this
+                    message.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:3;128:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:3;129:102">2</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:3;131:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:3;132:103">IDPUHashCompReq</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:3;134:103">Ingress DPU hash and compression request
+                    message. Ingress DPU hash and compression message is used
+                    message for hash and/orcompression operation
+                    only.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:4;141:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:4;142:102">3</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:4;144:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:4;145:103">N/A</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:4;147:103">Invalid</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:2;154:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:2;155:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:2;157:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:2;158:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:2;159:22">7</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:2;161:22">2</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:2;165:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:2;167:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:2;168:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:3;172:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:3;173:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:3;175:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:3;176:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:3;177:22">12</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:3;179:22">8</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:3;183:19">DataFlowCfg</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:3;185:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:3;186:92">Data Flow Configuration Type 2</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:17;188:18">This field configures the data flows which defines the
+              sequences of data operations including functional bypass
+              operations by processing engines. There are total 3 valid data
+              flow configurations with Type 2 Message Handler.</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:2;193:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:5;194:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:5;195:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:5;197:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:5;198:103">Bypass</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:5;200:103">The ingress DPU just moves the data
+                    stream from source to destination. All processing engines
+                    are bypassed</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:6;206:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:6;207:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:6;209:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:6;210:103">Hash</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:6;212:103">The ingress DPU performances Hash
+                    operation by hash engine.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:7;217:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:7;218:102">2</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:7;220:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:7;221:103">Comp</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:7;223:103">The ingress DPU performances Comp
+                    operation by compression engine.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:8;228:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:8;229:102">3</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:8;231:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:8;232:103">HashComp</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:8;234:103">The ingress DPU performs data hashing and
+                    compression operations by hash engine and then compression
+                    engine.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:9;240:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:9;241:102">4-31</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:9;243:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:9;244:103">N/A</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:9;246:103">Invalid</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:4;253:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:4;254:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:4;256:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:4;257:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:4;258:22">15</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:4;260:22">13</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:4;264:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:4;266:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:4;267:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:5;271:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:5;272:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:5;274:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:5;275:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:5;276:22">18</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:5;278:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:5;282:19">HashOpMode</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:5;284:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:5;285:92">Hash Operation Mode</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:18;287:18">This field set hash operation mode as block based operation
+              or stream based operation</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:3;290:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:10;291:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:10;292:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:10;294:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:10;295:103">Block</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:10;297:103">Block based hash operation. Each block
+                    from the input data stream is hashed with the default
+                    initial digest.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:11;303:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:11;304:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:11;306:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:11;307:103">StreamStartCont</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:11;309:103">Stream based hash operation starting with
+                    a new data stream, it is not the last data stream for the
+                    hash session.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:12;315:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:12;316:102">2</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:12;318:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:12;319:103">StreamContCont</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:12;321:103">Stream based hash operation with
+                    continuing previous hash session, it is not the last data
+                    stream for the hash session</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:13;327:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:13;328:102">3</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:13;330:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:13;331:103">StreamContEnd</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:13;333:103">Stream based hash operation with
+                    continuing previous hash session, it is the last data
+                    stream for the hash session.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:14;339:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:14;340:102">4</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:14;342:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:14;343:103">StreamStartEnd</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:14;345:103">Stream based hash operation starting with
+                    a new data stream and it is the last data stream for the
+                    hash session as well.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:15;351:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:15;352:102">Others</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:15;354:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:15;355:103">N/A</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:15;357:103">Invalid</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:19;362:19"/>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:6;366:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:6;367:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:6;369:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:1;370:23">19</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:6;373:19">HashAlgSel</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:6;375:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:6;376:92">Hash Algorithm Selection</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:20;378:18">This bit select hashing algorithm of SHA3-256 or
+              SHA3-512.</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:4;381:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:16;382:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:16;383:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:16;385:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:16;386:103">SHA3-256</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:16;388:103">Hash algorithm is
+                    SHA3-256</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:17;393:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:17;394:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:17;396:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:17;397:103">SHA3-512</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:17;399:103">Hash algorithm is
+                    SHA3-512</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:7;407:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:7;408:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:7;410:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:2;411:23">20</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:7;414:19">HashDigest0Offset</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:7;416:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:7;417:92">Hash Digest 0 Offset</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:21;419:18">This bit defines hash digest 0 offset in completion message
+              when there is only one SHA256 digest in the completion
+              message.</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:5;423:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:18;424:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:18;425:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:18;427:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:18;428:103">DW8</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:18;430:103">Hash digest 0 is starting at Dword 8.
+                    This value is set if 1) there is one and only one hash
+                    SHA3-256 digest with as result of the hash operation, and
+                    2) There is maximum one meta data as the result of
+                    compression operation.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:19;438:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:19;439:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:19;441:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:19;442:103">DW16</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:19;444:103">Hash digest 0 is starting at Dword
+                    16.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:22;450:18">This bit is valid only when hash operation is enabled,
+              otherwise it is ignored.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:8;455:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:8;456:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:8;458:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:3;459:23">21</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:8;462:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:8;464:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:8;465:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:9;469:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:9;470:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:9;472:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:6;473:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:6;474:22">23</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:6;476:22">22</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:9;480:19">HashLDWByteLength</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:9;482:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:9;483:92">Byte Length for Last Input Data Dword</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:23;485:18">This field contains the length of valid bytes in the last
+              input Dword for hash operation.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:24;488:19"/>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:6;490:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:20;491:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:20;492:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:20;494:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:20;495:103">4Byte</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:20;497:103">All 4 bytes (Bit 31:0) is valid. Default
+                    for normal Dword aligned operation.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:21;502:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:21;503:102">1</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:21;505:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:21;506:103">1Byte</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:21;508:103">Byte 0 (Bit 7:0) is valid , Byte 3:1 (Bit
+                    31:8) is not valid.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:22;513:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:22;514:102">2</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:22;516:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:22;517:103">2Byte</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:22;519:103">Byte 1:0 (Bit 15:0) are valid, Byte 3:2
+                    (Bit 31:16) are not valid.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:23;524:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:23;525:102">3</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:23;527:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:23;528:103">3Byte</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:23;530:103">Byte 2:0 (Bit 23:0) are valid, Byte 3
+                    (Bit 31:24) is not valid.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:10;538:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:10;539:20">4</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:10;541:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:7;542:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:7;543:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:7;545:22">24</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:10;549:19">HashSkipNum</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:10;551:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:10;552:92">Hash Skip Number</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:25;554:18">This field contains the number of bytes at the end of every
+              block the hash engine will skip for hash processing. If the
+              value is 0, no byte will be skipped.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:26;558:18">The hash skip number is Dword aligned, the lower 2-bit of
+              this field should be set to 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:27;561:18">This field is valid only for Block Based Hash operation mode.
+              It is ignored when Stream Based Hash operation mode is
+              enabled.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:11;567:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:11;568:20">5</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:11;570:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:8;571:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:8;572:22">15</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:8;574:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:11;578:19">HashBlkSize</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:11;580:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:11;581:92">Hash Block Size</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:28;583:18">This field contains block size in bytes for hash engine. The
+              block size is defined for the input data stream of hash
+              engine.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:29;587:18">The hash block size is Dword aligned, the lower 2-bit of this
+              field should be set to 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:30;590:18">This field is valid only for Block Based Hash operation mode.
+              It is ignored when Stream Based Hash operation mode is
+              enabled.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:12;596:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:12;597:20">5</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:12;599:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:9;600:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:9;601:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:9;603:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:12;607:19">HashDataoffset</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:12;609:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:12;610:92">Hash Data Offset</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:31;612:18">This field specifies the offset in bytes from start of the
+              input data stream to hash engine.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:32;615:18">The hash data offset is Dword aligned, the lower 2-bit of
+              this field should be set to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:13;620:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:13;621:20">6</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:13;623:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:10;624:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:10;625:22">15</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:10;627:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:13;631:19">CompUDBlkSize</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:13;633:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:13;634:92">Compression Uncompressed Data Block
+              Size</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:33;637:18">This field contains uncompressed data block size in bytes for
+              compression engine. The uncompressed data block size is defined
+              as data block size before compression.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:34;641:18">The uncompressed data block size is Dword aligned. The lower
+              2 bits should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:14;646:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:14;647:20">6</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:14;649:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:11;650:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:11;651:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:11;653:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:14;657:19">CompDataOffset</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:14;659:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:14;660:92">Compression Data Offset</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:35;662:18">This field specifies the offset in bytes from start of the
+              input data stream for compression engine.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:36;665:18">The data offset is Dword aligned. The lower 2 bits should be
+              set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:15;670:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:15;671:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:15;673:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:12;674:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:12;675:22">15</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:12;677:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:15;681:19">CompICDBlkSize</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:15;683:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:15;684:92">Compression Compressed Data Block Size</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:37;686:18">This field contains compressed data block size in bytes for
+              compression engine. The compressed data block size is defined as
+              data block size after compression.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:38;690:18">The compressed data block is Dword aligned. The lower 2 bits
+              should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:16;695:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:16;696:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:16;698:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:13;699:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:13;700:22">17</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:13;702:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:16;706:19">CompOpMode</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:16;708:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:16;709:92">Compression Operation Mode</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:39;711:18">This field set hash operation mode as block based
+              operation.</p>
+
+              <field-enum-list class="- topic/dl m-software-d/field-enum-list " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-list:7;714:32">
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:24;715:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:24;716:102">0</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:24;718:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:24;719:103">Block</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:24;721:103">Block based compression operation. Each
+                    block from the input data stream is compressed with
+                    history buffer reset before compression. The compressed
+                    data will be packed, with checksum and padding when
+                    needed, per uncompressed block size.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+
+                <field-enum class="-  topic/dlentry m-software-d/field-enum " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum:25;729:29">
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/dt m-software-d/field-enum-value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-value:25;730:102">1-3</field-enum-value>
+
+                  <field-enum-def class="- topic/dd m-software-d/field-enum-def " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-def:25;732:35">
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-name:25;733:103">N/A</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/field-enum-desc " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="field-enum-desc:25;735:103">Invalid</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:17;742:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:17;743:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:17;745:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:4;746:23">18</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:17;749:19">CompMetaDataIns</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:17;751:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:17;752:92">Compression Meta Data Insertion</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:40;754:18">This bit configures whether compression 4-byte statistic meta
+              data per uncompressed block is generated and inserted to
+              compressed data for each uncompressed data block or entire
+              uncompressed data stream.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:41;759:18">If it is set to 0, no compression meta is attached. If it is
+              set to 1, the 4-byte compression meta data is generated and
+              inserted at the beginning of the first compressed data block for
+              each uncompressed data block in block based compression
+              mode.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:42;765:18">The 4-byte compression meta data for block based compression
+              includes 2-byte compressed data block counter with packing
+              information and 2-byte compressed data length.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:18;771:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:18;772:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:18;774:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:5;775:23">19</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:18;778:19">CompCRCIns</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:18;780:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:18;781:92">Compression CRC Insertion</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:43;783:18">This bit configures whether compression 4-byte CRC per
+              uncompressed block is generated and inserted to compressed data
+              for each uncompressed data block or entire uncompressed data
+              stream.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:44;788:18">If it is set to 0, no CRC is attached. If it is set to 1, the
+              4-byte CRC (Alder32 checksum) is generated and inserted at the
+              end of the compressed data for each uncompressed data block in
+              block based compression mode.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:19;795:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:19;796:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:19;798:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:6;799:23">20</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:19;802:19">CompDiCheck</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:19;804:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:19;805:92">Compression Data Integrity Check</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:45;807:18">This bit configures whether the compressed data integrity is
+              checked. If it is set to '0', no data integrity check for
+              compressed data. If it is set to '1', the data integrity check
+              is performed by decompressing the compressed data with embedded
+              decompress logic inside the ingress DPU, and checking the
+              Alder32 checksum.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:46;814:18">This bit is ignored and no data integrity check will be
+              performed for the compressed data if Alder32 checksum is not
+              enabled (CompCRCIns=0)</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:20;820:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:20;821:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:20;823:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:7;824:23">21</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:20;827:19">CompInCompOut</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:20;829:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:20;830:92">Incompressible Data Output Mode</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:47;832:18">This bit configures whether the compression unit will output
+              original data before compression or compressed data after
+              compression if the data block is incompressible.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:48;836:18">If it is set to 0, the compression unit will output the
+              compressed data (which means its size is larger than
+              uncompressed data). If it is set to 1, the compression unit will
+              output the original data.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:21;843:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:21;844:20">7</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:21;846:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:14;847:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:14;848:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:14;850:22">22</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:21;854:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:21;856:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:21;857:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:22;861:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:22;862:20">8</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:22;864:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:15;865:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:15;866:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:15;868:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:22;872:19">SrcMemAddrL0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:22;874:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:22;875:92">Source Memory Address 0 Low</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:49;877:18">This field contains the lower 32-bits of the 40-bit starting
+              address of source memory region 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:50;880:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:23;885:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:23;886:20">9</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:23;888:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:16;889:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:16;890:22">7</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:16;892:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:23;896:19">SrcMemAddrH0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:23;898:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:23;899:92">Source Memory Address 0 High</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:51;901:18">This field contains the upper 8-bit of the 40-bit starting
+              address of source memory region 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:24;906:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:24;907:20">9</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:24;909:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:17;910:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:17;911:22">14</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:17;913:22">8</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:24;917:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:24;919:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:24;920:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:25;924:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:25;925:20">9</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:25;927:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:8;928:23">15</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:25;931:19">SrcMemLast0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:25;933:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:25;934:92">Source Memory 0 Last</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:52;936:18">When this bit is set to one, this is the last memory region
+              associated with the transfer. No more subsequent source memory
+              region address exists in this message.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:26;942:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:26;943:20">9</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:26;945:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:18;946:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:18;947:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:18;949:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:26;953:19">SrcMemLength0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:26;955:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:26;956:92">Source Memory Address 0 Length</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:53;958:18">This field contains the number of bytes associated with
+              source memory region 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:54;961:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:27;966:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:27;967:20">10</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:27;969:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:19;970:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:19;971:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:19;973:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:27;977:19">DestMemAddrL0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:27;979:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:27;980:92">Destination Memory Address 0 Low</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:55;982:18">This field contains the lower 32-bits of the 40-bit starting
+              address of destination memory region 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:56;985:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:28;990:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:28;991:20">11</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:28;993:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:20;994:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:20;995:22">7</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:20;997:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:28;1001:19">DestMemAddrH0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:28;1003:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:28;1004:92">Destination Memory Address 0 High</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:57;1006:18">This field contains the upper 8-bit of the 40-bit starting
+              address of destination memory region 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:29;1011:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:29;1012:20">11</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:29;1014:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:9;1015:23">8</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:29;1018:19">DestMemDump0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:29;1020:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:29;1021:92">Destination Memory 0 Dump</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:58;1023:18">When this bit is set to one, the bytes specified by this
+              memory region are discarded and are not written to controller
+              memory.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:30;1029:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:30;1030:20">11</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:30;1032:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:21;1033:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:21;1034:22">14</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:21;1036:22">9</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:30;1040:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:30;1042:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:30;1043:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:31;1047:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:31;1048:20">11</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:31;1050:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:10;1051:23">15</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:31;1054:19">DestMemLast0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:31;1056:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:31;1057:92">Destination Memory 0 Last</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:59;1059:18">When this bit is set to one, this is the last memory region
+              associated with the transfer. No subsequent destination memory
+              region address exists in this message.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:32;1065:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:32;1066:20">11</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:32;1068:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:22;1069:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:22;1070:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:22;1072:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:32;1076:19">DestMemLength0</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:32;1078:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:32;1079:92">Destination Memory Address 0 Length</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:60;1081:18">This field contains the number of bytes associated with
+              destination memory region 0.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:61;1084:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:33;1089:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:33;1090:20">12</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:33;1092:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:23;1093:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:23;1094:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:23;1096:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:33;1100:19">SrcMemAddrL1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:33;1102:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:33;1103:92">Source Memory Address 1 Low</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:62;1105:18">This field contains the lower 32-bits of the 40-bit starting
+              address of source memory region 1.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:63;1108:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:34;1113:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:34;1114:20">13</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:34;1116:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:24;1117:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:24;1118:22">7</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:24;1120:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:34;1124:19">SrcMemAddrH1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:34;1126:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:34;1127:92">Source Memory Address 1 High</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:64;1129:18">This field contains the upper 8-bit of the 40-bit starting
+              address of source memory region 1.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:35;1134:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:35;1135:20">13</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:35;1137:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:25;1138:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:25;1139:22">14</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:25;1141:22">8</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:35;1145:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:35;1147:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:35;1148:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:36;1152:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:36;1153:20">13</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:36;1155:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:11;1156:23">15</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:36;1159:19">SrcMemLast1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:36;1161:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:36;1162:92">Source Memory 1 Last</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:65;1164:18">When this bit is set to one, this is the last memory region
+              associated with the transfer. No more subsequent source memory
+              region address exists in this message.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:37;1170:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:37;1171:20">13</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:37;1173:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:26;1174:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:26;1175:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:26;1177:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:37;1181:19">SrcMemLength1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:37;1183:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:37;1184:92">Source Memory Address 1 Length</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:66;1186:18">This field contains the number of bytes associated with
+              source memory region 1.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:67;1189:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:38;1194:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:38;1195:20">14</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:38;1197:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:27;1198:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:27;1199:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:27;1201:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:38;1205:19">DestMemAddrL1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:38;1207:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:38;1208:92">Destination Memory Address 1 Low</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:68;1210:18">This field contains the lower 32-bits of the 40-bit starting
+              address of destination memory region 1.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:69;1213:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:39;1218:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:39;1219:20">15</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:39;1221:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:28;1222:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:28;1223:22">7</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:28;1225:22">0</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:39;1229:19">DestMemAddrH1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:39;1231:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:39;1232:92">Destination Memory Address 1 High</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:70;1234:18">This field contains the upper 8-bit of the 40-bit starting
+              address of destination memory region 1.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:40;1239:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:40;1240:20">15</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:40;1242:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:12;1243:23">8</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:40;1246:19">DestMemDump1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:40;1248:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:40;1249:92">Destination Memory 1 Dump</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:71;1251:18">When this bit is set to one, the bytes specified by this
+              memory region are discarded and are not written to controller
+              memory.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:41;1257:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:41;1258:20">15</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:41;1260:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:29;1261:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:29;1262:22">14</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:29;1264:22">9</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:41;1268:19">Reserved</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:41;1270:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:41;1271:92">Reserved</desc-title>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:42;1275:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:42;1276:20">15</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:42;1278:23">
+              <single class="- topic/p struct-d/single " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="single:13;1279:23">15</single>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:42;1282:19">DestMemLast1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:42;1284:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:42;1285:92">Destination Memory 1 Last</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:72;1287:18">When this bit is set to one, this is the last memory region
+              associated with the transfer. No subsequent destination memory
+              region address exists in this message.</p>
+            </description>
+          </dword>
+
+          <dword class="- topic/row struct-d/dword " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="dword:43;1293:18">
+            <value colname="col1" class="- topic/entry struct-d/value " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="value:43;1294:20">15</value>
+
+            <position colname="col2" class="- topic/entry struct-d/position " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="position:43;1296:23">
+              <double class="- topic/p struct-d/double " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="double:30;1297:23">
+                <msb class="- topic/ph struct-d/msb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="msb:30;1298:22">31</msb>
+
+                <lsb class="- topic/ph struct-d/lsb " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="lsb:30;1300:22">16</lsb>
+              </double>
+            </position>
+
+            <name colname="col3" class="- topic/entry struct-d/name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="name:43;1304:19">DestMemLength1</name>
+
+            <description colname="col4" class="- topic/entry struct-d/description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="description:43;1306:26">
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" deltaxml:phrase-container="true" class="- topic/ph m-software-d/desc-title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="desc-title:43;1307:92">Destination Memory Address 1 Length</desc-title>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:73;1309:18">This field contains the number of bytes associated with
+              destination memory region 1.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\messages\ingressdpucompessreq.xml" xtrc="p:74;1312:18">The memory region is Dword aligned. The lower 2 bits of this
+              field should be set always to 0.</p>
+            </description>
+          </dword>
+        </struct>
+      </tgroup>
+    </table>
+  </body>
+</topic>

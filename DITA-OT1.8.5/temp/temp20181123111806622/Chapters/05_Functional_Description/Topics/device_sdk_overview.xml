@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Application_Level_Identifiers_2iuim06v6" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\device_sdk_overview.xml" xtrc="topic:1;2:133">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\device_sdk_overview.xml" xtrc="title:1;3:10">Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\device_sdk_overview.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\device_sdk_overview.xml" xtrc="p:1;6:8">The DIGI-G5 SDK provides a set of APIs for a Customer Control Plane
+    Application to communicate with firmware running on the DIGI-G5 integrated
+    CPU processor by means of the internal message interface over the PCIe
+    bus. The SDK provides C callable APIs encapsulating the full functionality
+    of the device. Requests are sent to the device and responses are retrieved
+    via the message interface. The SDK includes a Platform Abstraction Layer
+    which provides OS/RTOS/System specific porting interface for the SDK to
+    access OS/RTOS resources as well as communicate with the DIGI-G5 Device
+    over PCIe bus.</p>
+  </body>
+</topic>

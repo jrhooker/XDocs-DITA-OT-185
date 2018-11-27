@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="its_datapath_api" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="topic:1;2:122">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:1;3:10">ITS_PKT500 Datapath Runtime API</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:1;6:8">The following API configure the various generator and monitor options
+    for the IPTS block. See the table below for the API details and
+    configuration sequence.</p>
+
+    <table id="table_IPTS_Runtime_API_0jhb6c3hn" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:1;10:50">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:2;11:14">IPTS Runtime API</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:1;13:24">
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:1;14:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:1;15:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:1;16:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:2;16:23"> API </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:2;18:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:3;18:23">Description </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:3;20:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:4;20:23">Prerequisite API </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:1;24:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:2;25:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:4;26:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:5;26:23">g5_api_ipts_gen_location_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:5;28:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:6;28:23">Initializes the generator of ITS PKT500 block and sets
+            its location in the Interlaken channel datapath.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:6;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:7;31:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:3;34:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:7;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:8;35:23"> g5_api_ipts_gen_chnl_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:8;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:9;37:23">Configures the channel mapping for a specific generator
+            channel and provides the default behavior of IPTS tag frame and
+            packet configuration. </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:9;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:10;41:23">g5_api_ipts_gen_location_cfg()</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:4;44:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:10;45:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:11;45:23"> g5_api_ipts_gen_chnl_uncfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:11;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:12;47:23">Removes the channel mapping for a specific channel and
+            reverts the packet configuration to the default value.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:12;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:13;50:23">g5_api_ipts_gen_chnl_cfg()</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:5;53:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:13;54:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:14;54:23"> g5_api_ipts_header_set()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:14;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:15;56:23">Selects one of the four headers to fill the header data
+            into. The four headers are as follows: a single 128 byte header
+            (header 0) or one of three 32 byte headers (headers 1 to
+            3).</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:15;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:16;61:23">g5_api_ipts_gen_chnl_cfg()</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:17;61:57"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:6;64:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:16;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:18;65:23"> g5_api_ipts_packet_rand_set()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:17;67:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:19;67:23">Configures the minimum and maximum packet length for the
+            random packet length generators.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:18;70:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:20;70:23">g5_api_ipts_gen_chnl_cfg()</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:7;73:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:19;74:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:21;74:23"> g5_api_ipts_gen_chnl_tag_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:20;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:22;76:23">Configures the ITS_PKT500 tag frame for a specific
+            channel.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:21;79:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:23;79:23"> g5_api_ipts_gen_chnl_cfg()</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:8;82:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:22;83:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:24;83:23"> g5_api_ipts_gen_chnl_packet_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:23;85:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:25;85:23">Configures the ITS_PKT500 packet for a specific channel.
+            </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:24;88:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:26;88:23">g5_api_ipts_header_set()</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:27;88:54">g5_api_ipts_gen_chnl_tag_cfg()
+            </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:28;89:20">g5_api_ipts_packet_rand_set() - for random size
+            packets</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:9;93:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:25;94:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:29;94:23"> g5_api_ipts_gen_chnl_seq_id_reset()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:26;96:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:30;96:23">Resets the generator sequence id. </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:27;98:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:31;98:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:10;101:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:28;102:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:32;102:23"> g5_api_ipts_gen_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:29;104:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:33;104:23">Controls the generation of IPTS packets, and also
+            controls the traffic data rate when continuous run traffic is
+            turned on. </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:30;108:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:34;108:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:11;111:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:31;112:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:35;112:23"> g5_api_ipts_mon_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:32;114:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:36;114:23">Initializes the monitor block of ITS PKT500 and inserts
+            the monitor into the Interlaken channel datapath. </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:33;117:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:37;117:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:12;120:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:34;121:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:38;121:23"> g5_api_ipts_mon_chnl_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:35;123:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:39;123:23">Configures the channel mapping for a specific monitor
+            channel and provides the default configuration of IPTS monitor
+            block. </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:36;127:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:40;127:23">g5_api_ipts_mon_cfg()</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:13;130:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:37;131:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:41;131:23"> g5_api_ipts_mon_chnl_uncfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:38;133:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:42;133:23">Removes the configuration of the channel mapping for a
+            specific monitor channel and reverts the monitor block
+            configuration to the default value.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:39;137:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:43;137:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:14;140:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:40;141:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:44;141:23"> g5_api_ipts_mon_chnl_packet_cfg()</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:41;143:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:45;143:23">Configures the ITS_PKT500 monitor block for a specific
+            channel.</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:42;146:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:46;146:23">g5_api_ipts_mon_cfg()</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <section id="section_g5_api_ipts_gen_location_cfg__0jgpdhql8" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:1;152:67"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:3;152:74">g5_api_ipts_gen_location_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:47;152:115">The
+    g5_api_ipts_gen_location_cfg() API initializes the generator of ITS PKT500
+    block and sets its location in the Interlaken channel datapath. This sets
+    the generation insertion location in the fabric ingress (towards the DCPB)
+    or fabric egress paths (towards Interlaken). This configuration applies to
+    all generator channels. Note: This API can be called anytime to change the
+    generation insertion location. The change of generation insertion location
+    can be happen on active channel, it will not affect existing traffic on
+    that channel. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:1;161:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:1;162:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:48;162:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:2;164:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:49;164:16"> gen_location - g5_ipts_location_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:50;165:15">The device_id parameter is the device instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:51;165:70">The
+    gen_location parameter of the g5_api_ipts_gen_location_cfg() API defines
+    the generation insertion location and is defined by the the enumeration
+    g5_ipts_location_t. The gen_location choices are shown in <xref href="#its_datapath_api/table_g5_ipts_location_t_Enumeration_for_the_P_1jgpdhql8" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:1;168:151" type="table"><?ditaot gentext?>Table 2</xref> below.</p><table id="table_g5_ipts_location_t_Enumeration_for_the_P_1jgpdhql8" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:2;169:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:4;170:16">g5_ipts_location_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:2;172:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:2;173:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:15;174:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:43;175:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:52;175:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:44;177:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:53;177:25"> Configuration Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:2;181:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:16;182:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:45;183:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:54;183:25"> G5_IPTS_LOCATION_OFF</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:46;185:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:55;185:25"> This is the default value.Generator or Monitor
+              disabled. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:17;189:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:47;190:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:56;190:25"> G5_IPTS_LOCATION_FABRIC_INGRESS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:48;192:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:57;192:25"> Monitor receives data from DCPB interface. Generates
+              data towards the Interlaken interface, </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:18;196:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:49;197:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:58;197:25"> G5_IPTS_LOCATION_FABRIC_EGRESS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:50;199:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:59;199:25"> Generates data from the Interlaken interface towards
+              the DCPB interface, Monitors data from the Interlaken backplane
+              into the device. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+
+    <section id="section_g5_api_ipts_gen_chnl_cfg__3jgr3e21v" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:2;207:63"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:5;207:70">g5_api_ipts_gen_chnl_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:60;207:107">The
+    g5_api_ipts_gen_chnl_cfg() API configures the channel mapping for a
+    specific generator channel and provides the default behavior of IPTS tag
+    frame and packet configuration. The user needs to call the
+    g5_api_ipts_gen_location_cfg() API before calling this to ensure that the
+    generator is configured properly. This API provisions an IPTS channel if
+    the user defined chnl_id is a Interlaken packet segment channel. Otherwise
+    an error is returned. This API can be called again to configure another
+    channel. However, system will return an error if the user tries to
+    provision a previously provisioned channel. This function configures the
+    IPTS channel only and does not start packet generation until required APIs
+    are called.The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:2;219:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:3;220:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:61;220:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:4;222:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:62;222:16"> chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:63;223:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:64;225:22">Default Behavior: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:3;225:48">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:5;226:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:65;226:16"> IPTS header: HEADER 0 - 128 Byte</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:6;228:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:66;228:16"> IPTS Tag frame: no tag frame inserted including FCS</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:7;230:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:67;230:16"> Packet Size (Fixed) : 1024 Byte </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:8;232:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:68;232:16"> Packet Size (Random) : MIN: 1 Byte, MAX: 10,000 Byte</p></li>
+      </ul></section>
+
+    <section id="section_g5_api_ipts_gen_chnl_uncfg__4jgr3e21v" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:3;235:65"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:6;235:72">g5_api_ipts_gen_chnl_uncfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:69;235:111">The
+    g5_api_ipts_gen_chnl_uncfg() API removes the channel mapping for a
+    specific channel and reverts the packet configuration to the default
+    value. This API de-provisions a previously provisioned IPTS channel if the
+    user defined chnl_id is valid. Otherwise an error is returned. This API
+    can be called again to deprov another channel. If the provided channel is
+    not provisioned, no error is returned.The API has the following parameters
+    and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:4;242:41">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:9;243:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:70;243:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:10;245:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:71;245:16"> chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:72;246:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:73;248:22">Default Behavior: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:5;248:48">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:11;249:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:74;249:16"> IPTS header: HEADER 0 - 128 Byte</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:12;251:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:75;251:16"> IPTS Tag frame: no tag frame inserted including FCS</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:13;253:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:76;253:16"> Packet Size (Fixed) : 1024 Byte </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:14;255:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:77;255:16"> Packet Size (Random) : MIN: 1 Byte, MAX: 10,000 Byte</p></li>
+      </ul></section>
+
+    <section id="section_g5_api_ipts_header_set__5jgr3e21v" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:4;258:61"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:7;258:68">g5_api_ipts_header_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:78;258:103">The
+    g5_api_ipts_header_set() API selects one of the four fixed size global
+    headers to fill the header data into. The four selectable fixed size
+    headers are as follows: a single 128 byte header (header 0) or one of
+    three 32 byte headers (headers 1 to 3). The IPTS header can be used to
+    generate an Ethernet or a custom packet header. This function can be
+    called more than once however, it will overwrite existing settings when
+    called again. If the header is updated on active channels there could be
+    inconsistent packet header data while the header data is being updated.
+    However, during this transient period, the IPTS FCS will not be corrupted.
+    The API has the following parameters and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:6;268:78">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:15;269:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:79;269:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:16;271:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:80;271:16"> header_number - g5_api_ipts_header_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:17;273:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:81;273:16"> header</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:82;274:15">The device_id parameter is the device instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:83;274:70">The
+    header_number parameter of the g5_api_ipts_header_set() API specifies
+    which packet header to insert or if no header is to be inserted and is
+    defined by the the enumeration g5_api_ipts_header_t. The header_number
+    choices are shown in <xref href="#its_datapath_api/table_g5_api_ipts_header_t_Enumeration_for_the_6jgr3e22a" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:2;278:114" type="table"><?ditaot gentext?>Table 3</xref> below. G5_IPTS_BYTE_HEADER_NONE and G5_IPTS_BYTE_RANDOM are not
+    use for g5_api_ipts_header_set(). </p><table id="table_g5_api_ipts_header_t_Enumeration_for_the_6jgr3e22a" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:3;280:112">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:8;281:16">g5_api_ipts_header_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:3;283:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:3;284:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:19;285:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:51;286:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:84;286:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:52;288:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:85;288:25"> Configuration Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:3;292:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:20;293:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:53;294:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:86;294:25">G5_IPTS_BYTE_HEADER_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:54;296:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:87;296:25">No Payload data header inserted. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:21;299:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:55;300:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:88;300:25">G5_IPTS_BYTE_HEADER_0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:56;302:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:89;302:25">Payload data header 0, 128 byte. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:22;305:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:57;306:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:90;306:25">G5_IPTS_BYTE_HEADER_1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:58;308:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:91;308:25">Payload data header 1, 32 byte. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:23;311:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:59;312:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:92;312:25">G5_IPTS_BYTE_HEADER_2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:60;314:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:93;314:25">Payload data header 2, 32 byte. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:24;317:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:61;318:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:94;318:25">G5_IPTS_BYTE_HEADER_3</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:62;320:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:95;320:25">Payload data header 3, 32 byte. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:25;323:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:63;324:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:96;324:25">G5_IPTS_BYTE_RANDOM</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:64;326:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:97;326:25">Entire packet payload is randomly filled. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:98;330:18">The header parameter is used to fill in fixed size header
+    data of the IPTS packet. For example: An Ethernet header can be injected
+    in the IPTS packet using this header. The Source address of the Ethernet
+    header can be injected at Byte 0-5, Destination address at Byte 6-11 and
+    Ethertype at Byte 12-13 of the 128 Byte Header. </p></section>
+
+    <section id="section_g5_api_ipts_packet_rand_set__7jgr3e22a" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:5;336:66"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:9;336:73">g5_api_ipts_packet_rand_set()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:99;336:113">The
+    g5_api_ipts_packet_rand_set() API configures the minimum and maximum
+    packet length for the random packet length generators. The user uses one
+    of the two random number instances RANDOMIZER_INST_0 or RANDOMIZER_INST_1
+    to select one of the two random packet length generators and specifies the
+    minimum and maximum packet size values in the range of 1-10000 Byte. The
+    minimum packet length has to be 40 bytes to support a header and FCS. The
+    maximum packet length is 10,000. A value greater than 10,000 will return
+    an error. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:7;345:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:18;346:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:100;346:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:19;348:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:101;348:16"> rand_number</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:20;350:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:102;350:16"> rand_len_max</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:21;352:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:103;352:16"> rand_len_min</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:104;353:15">The device_id parameter is the device instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:105;353:70">The
+    rand_number parameter of the g5_api_ipts_packet_rand_set() API selects the
+    random length packet generator 0 or 1. If rand_number = RANDOMIZER_INST_0
+    then random packet length generator 0 will be activated and if rand_number
+    = RANDOMIZER_INST_1 then random packet length generator 1 will be
+    activated. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:106;358:23">The rand_len_max parameter is the maximum length of the
+    packet length of the random packet generator. The maximum packet size is
+    10000. The rand_len_min parameter is the minimum length of the packet
+    length of the random packet generator. The minimum the packet length can
+    be is 40 bytes to support a header and FCS. </p></section>
+
+    <section id="section_g5_api_ipts_gen_chnl_tag_cfg__8jgr3e22a" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:6;364:67"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:10;364:74">g5_api_ipts_gen_chnl_tag_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:107;364:115">The
+    g5_api_ipts_gen_chnl_tag_cfg() API configures the ITS_PKT500 tag frame for
+    a specific channel. This API allows the user to turn on/off individual
+    IPTS tag in the IPTS packet. The user must call the
+    g5_api_ipts_gen_chnl_cfg() API prior to this API to ensure that IPTS
+    channel is provisioned. The API has the following parameters and
+    associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:8;370:37">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:22;371:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:108;371:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:23;373:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:109;373:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:24;375:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:110;375:16"> flow_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:25;377:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:111;377:16"> seq_id_enable</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:26;379:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:112;379:16"> timestamp_enable</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:113;380:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:114;382:22">The flow_id parameter of the
+    g5_api_ipts_gen_chnl_tag_cfg() API is the IPTS packet flow id value for
+    each channel if value = G5_MAX_INT, flow id will not be inserted in IPTS
+    packet. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:115;385:20">The seq_id_enable parameter enables generation of sequence
+    id in IPTS tag frame. The timestamp_enable parameter enables generation of
+    time stamp in IPTS tag frame. </p></section>
+
+    <section id="section_g5_api_ipts_gen_chnl_packet_cfg__9jgr3e22a" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:7;389:70"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:11;389:77">g5_api_ipts_gen_chnl_packet_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:116;389:121">The
+    g5_api_ipts_gen_chnl_packet_cfg() API configures the ITS_PKT500 packet for
+    a specific channel. The API activates one of the four IPTS headers,
+    selects the IPTS tag frame offset from start of packet, and defines the
+    length of the packet. The user must call the g5_api_ipts_header_set() and
+    g5_api_ipts_gen_chnl_tag_cfg() APIs prior to this API for proper
+    operation. This API configures the ITS channel only and does not start
+    packet generation until g5_api_ipts_gen_location_cfg() API is called. This
+    API can be called again to reconfigure the packets. However, calling this
+    API on a running channel will create some inconsistent packets for a
+    transient period but the FCS will not be corrupted for those packets.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:117;400:12">Note: In the IPTS packet, the 12 Byte IPTS tag frame has the higher
+    priority and will overwrite the header bytes in the packet and a four byte
+    FCS tag will be placed at the end of the packet. The packet length can
+    range between 1-10,000 bytes. However, in order to generate a full IPTS
+    tag frame and support a custom header without overwriting, the minimum
+    packet length must be 40 bytes and the maximum 10,000 bytes. Any packet
+    size above 10,000 bytes is illegal and will return an error. When using
+    minimum packet length of 40 byte the IPTS tag frame at the start of packet
+    be based on IPTS tag frame configuration. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:118;408:54">The API has the following
+    parameters and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:9;409:52">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:27;410:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:119;410:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:28;412:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:120;412:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:29;414:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:121;414:16"> header_number - g5_api_ipts_header_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:30;416:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:122;416:16"> fcs_gen_mode - g5_api_ipts_fcs_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:31;418:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:123;418:16"> tag_location - g5_api_ipts_tag_frame_offset_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:32;420:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:124;420:16"> length</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:125;421:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:126;423:22">The header_number parameter of the
+    g5_api_ipts_gen_chnl_packet_cfg() specifies which packet header to insert
+    or if no header is to be inserted and is defined by the
+    g5_api_ipts_header_t enumeration shown in <xref href="#its_datapath_api/table_g5_api_ipts_header_t_Enumeration_for_the_6jgr3e22a" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:3;426:135" type="table"><?ditaot gentext?>Table 3</xref> above. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:127;427:27">The fcs_gen_mode parameter of the
+    g5_api_ipts_gen_chnl_packet_cfg() defines the behavior of FCS in the
+    generated packet and is defined by the g5_api_ipts_fcs_mode_t enumeration
+    shown in<xref href="#its_datapath_api/table_g5_api_ipts_fcs_mode_t_Enumeration_for_t_ajgr3ik30" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:4;430:101" type="table"><?ditaot gentext?>Table 4</xref> below. </p><table id="table_g5_api_ipts_fcs_mode_t_Enumeration_for_t_ajgr3ik30" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:4;431:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:12;432:16">g5_api_ipts_fcs_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:4;434:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:4;435:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:26;436:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:65;437:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:128;437:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:66;439:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:129;439:25">FCS Mode </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:4;443:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:27;444:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:67;445:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:130;445:25"> G5_IPTS_FCS_MODE_OFF</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:68;447:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:131;447:25">Generator: No IPTS FCS tag to be inserted in the
+              packet. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:132;448:30">Monitor: No FCS check in the incoming packet
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:28;452:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:69;453:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:133;453:25"> G5_IPTS_FCS_MODE_ALL_BYTES</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:70;455:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:134;455:25">Include all packet bytes as part of FCS calculation
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:29;459:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:71;460:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:135;460:25"> G5_IPTS_FCS_MODE_SKIP_FIRST_32</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:72;462:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:136;462:25">Do not include first 32 bytes in FCS calculation.
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:137;467:18">The tag_location parameter of the
+    g5_api_ipts_gen_chnl_packet_cfg() determines the offset where the IPTS
+    packet tag is inserted in the packet and is defined by the
+    g5_api_ipts_tag_frame_offset_t enumeration shown in <xref href="#its_datapath_api/table_g5_api_ipts_tag_frame_offset_t_Enumerati_bjgr4u51m" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:5;470:145" type="table"><?ditaot gentext?>Table 5</xref> below. The default is START.</p><table id="table_g5_api_ipts_tag_frame_offset_t_Enumerati_bjgr4u51m" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:5;471:114">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:13;472:16">g5_api_ipts_tag_frame_offset_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:5;474:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:5;475:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:30;476:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:73;477:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:138;477:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:74;479:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:139;479:25">Tag Offset</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:5;483:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:31;484:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:75;485:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:140;485:25">G5_IPTS_TAG_FRAME_OFFSET_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:76;487:22">No IPTS tag frame to be inserted. <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:141;487:59"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:32;490:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:77;491:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:142;491:25">G5_IPTS_TAG_FRAME_OFFSET_START</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:78;493:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:143;493:25">Insert IPTS tag frame at the start of the packet.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:33;497:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:79;498:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:144;498:25">G5_IPTS_TAG_FRAME_OFFSET_32</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:80;500:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:145;500:25">Insert IPTS tag frame at 32 byte offset of start.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:34;504:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:81;505:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:146;505:25">G5_IPTS_TAG_FRAME_OFFSET_64</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:82;507:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:147;507:25">Insert IPTS tag frame at 64 byte offset of start.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:35;511:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:83;512:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:148;512:25">G5_IPTS_TAG_FRAME_OFFSET_96</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:84;514:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:149;514:25">Insert IPTS tag frame at 96 byte offset of start.
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:150;519:18">The length parameter of the g5_api_ipts_gen_chnl_packet_cfg()
+    is the length of the packet supporting values of 1-10000 for fixed length.
+    The minimum packet length must be 40 bytes to support header insertion and
+    FCS. To generate random length packets the g5_api_ipts_packet_rand_set()
+    API needs to be called first where random packet length generator 0 or 1
+    is selected by defining the length parameter to RANDOMIZER_INST_0 or
+    RANDOMIZER_INST_1.</p></section>
+
+    <section id="section_g5_api_ipts_gen_chnl_seq_id_reset__1jhb6c3hn" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:8;527:72"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:14;527:79">g5_api_ipts_gen_chnl_seq_id_reset()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:151;527:125">The
+    g5_api_ipts_gen_chnl_seq_id_reset() API resets the generator sequence id.
+    To reset the sequence id users need to be set the seq_id_reset = TRUE, and
+    call the g5_api_ipts_gen_cfg() API to start the traffic on that channel to
+    reset sequence id. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:10;532:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:33;533:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:152;533:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:34;535:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:153;535:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:35;537:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:154;537:16"> seq_id_reset</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:155;538:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:156;540:22">The seq_id_reset parameter of the
+    g5_api_ipts_gen_chnl_seq_id_reset() API defines whether to reset generator
+    sequence id. When set to TRUE the sequence id is reset . When set to FALSE
+    the sequence id is not reset. </p></section>
+
+    <section id="section_g5_api_ipts_gen_cfg__2jhb6d7s7" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:9;545:58"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:15;545:65">g5_api_ipts_gen_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:157;545:97">The
+    g5_api_ipts_gen_cfg() API controls the generation of IPTS packets, and
+    also controls the traffic data rate when continuous run traffic is turned
+    on. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:11;549:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:36;550:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:158;550:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:37;552:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:159;552:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:38;554:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:160;554:16"> command - g5_api_ipts_run_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:39;556:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:161;556:16"> traffic_rate </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:162;557:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:163;559:22">The command parameter of the g5_api_ipts_gen_cfg() API
+    chooses to start continuous packet generation, to stop packet generation
+    or to send a single packet as defined by the the enumeration
+    g5_api_ipts_run_t shown in <xref href="#its_datapath_api/table_g5_api_ipts_run_t_Enumeration_for_the_Pa_0jgwq1hxy" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:6;562:120" type="table"><?ditaot gentext?>Table 6</xref> below.</p><table id="table_g5_api_ipts_run_t_Enumeration_for_the_Pa_0jgwq1hxy" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="table:6;563:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:16;564:16">g5_api_ipts_run_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tgroup:6;566:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="thead:6;567:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:36;568:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:85;569:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:164;569:25"> Enumeration</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:86;571:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:165;571:25"> Configuration Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="tbody:6;575:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:37;576:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:87;577:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:166;577:25">G5_IPTS_GEN_START</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:88;579:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:167;579:25">Start generating packets. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:38;582:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:89;583:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:168;583:25">G5_IPTS_GEN_STOP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:90;585:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:169;585:25">Stop generating packets. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="row:39;588:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:91;589:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:170;589:25">G5_IPTS_GEN_ONE_SHOT</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="entry:92;591:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:171;591:25">Sends only one packet. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:172;595:18">The traffic_rate parameter specifies the rate of traffic in
+    percentage of the maximum line rate. The line rate is the Interlaken
+    packet channel rate. The Fabric Egress channel's maximum rate is based
+    upon the downstream application rate at the ENET, MAPOTN or Fabric Ingress
+    channel. The Fabric Ingress channel's maximum rate is based upon the
+    number of 1G25 increments assigned to the channel when the Fabric Ingress
+    channel is provisioned. </p></section>
+
+    <section id="section_g5_api_ipts_mon_cfg__2jgpdhql8" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:10;603:58"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:17;603:65">g5_api_ipts_mon_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:173;603:97">The
+    g5_api_ipts_mon_cfg() API initializes the monitor block of ITS PKT500 and
+    inserts the monitor into the Interlaken channel datapath. Configures the
+    monitor packet extraction location in fabric ingress from ILKN interface)
+    and fabric egress(from the DCPB).This configuration applies to all monitor
+    channels. Note This API can be called anytime to change monitor packet
+    extraction location on the fly. There will be no affect on existing
+    traffic for changing monitor detection location as the switching take
+    place on the burst or packet boundaries. However, there will be packet
+    sequence id error after changing the monitor detection location. It is
+    recommended to reset the generator and monitor sequence id for clean error
+    free startup. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:12;615:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:40;616:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:174;616:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:41;618:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:175;618:16"> mon_location - g5_ipts_location_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:176;619:15">The device_id parameter is the device instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:177;619:70">The
+    mon_location parameter of the g5_api_ipts_gen_location_cfg() API defines
+    the monitor location and is defined by the the enumeration
+    g5_ipts_location_t. The mon_location choices are shown in <xref href="#its_datapath_api/table_g5_ipts_location_t_Enumeration_for_the_P_1jgpdhql8" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:7;622:151" type="table"><?ditaot gentext?>Table 2</xref> above.</p></section>
+
+    <section id="section_g5_api_ipts_mon_chnl_cfg__3jhb6d7s7" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:11;625:63"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:18;625:70">g5_api_ipts_mon_chnl_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:178;625:107">The
+    g5_api_ipts_mon_chnl_cfg() API configures the channel mapping for a
+    specific monitor channel and provides the default configuration of IPTS
+    monitor block. The default configuration is that the IPTS Tag frame does
+    not check for the IPTS tag frame including the FCS. The user must call the
+    g5_api_ipts_mon_cfg() API before calling this this API to ensure that the
+    monitor direction is configured properly. This API can be called again to
+    configure another monitor channel. The API has the following parameters
+    and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:13;633:41">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:42;634:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:179;634:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:43;636:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:180;636:16"> chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:181;637:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p></section>
+
+    <section id="section_g5_api_ipts_mon_chnl_uncfg__4jhb6d7s7" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:12;641:65"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:19;641:72">g5_api_ipts_mon_chnl_uncfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:182;641:111">The
+    g5_api_ipts_mon_chnl_uncfg() API removes the configuration of the channel
+    mapping for a specific monitor channel and reverts the monitor block
+    configuration to the default value. The default behavior is the IPTS Tag
+    frame with no checking including FCS. This API de-provisions a previously
+    provisioned IPTS monitor channel if the user defined chnl_id is valid.
+    This API can be called again to de-provisions another channel. The API has
+    the following parameters and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:14;648:66">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:44;649:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:183;649:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:45;651:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:184;651:16"> chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:185;652:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p></section>
+
+    <section id="section_g5_api_ipts_mon_chnl_packet_cfg__5jhb6d7s7" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:13;656:70"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:20;656:77">g5_api_ipts_mon_chnl_packet_cfg()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:186;656:121">The
+    g5_api_ipts_mon_chnl_packet_cfg() API configures the ITS_PKT500 monitor
+    block for a specific channel. This API allows the user to turn on/off
+    monitoring of individual IPTS tag in the IPTS packet. The API also
+    specifies IPTS tag frame location in the packet and defines the range of
+    packets FCS calculation performed on. The user must call the
+    g5_api_ipts_gen_chnl_cfg API prior to this API to ensure that IPTS channel
+    is provisioned. This API can be called again to reconfigure the monitor
+    block. The API has the following parameters and associated
+    enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:15;665:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:46;666:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:187;666:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:47;668:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:188;668:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:48;670:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:189;670:16"> flow_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:49;672:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:190;672:16"> seq_id_enable</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:50;674:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:191;674:16"> fcs_gen_mode - g5_api_ipts_fcs_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:51;676:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:192;676:16"> tag_location - g5_api_ipts_tag_frame_offset_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:193;677:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:194;679:22">The flow_id parameter of the
+    g5_api_ipts_mon_chnl_packet_cfg() API is the IPTS packet flow id value for
+    each monitor channel. If flow_id = G5_MAX_INT then flow id checking will
+    not be enabled in the IPTS monitor. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:195;682:48">The fcs_gen_mode parameter of
+    the g5_api_ipts_mon_chnl_packet_cfg() API defines the behavior of FCS in
+    the generated packet and is defined by the g5_api_ipts_fcs_mode_t
+    enumeration shown in<xref href="#its_datapath_api/table_g5_api_ipts_fcs_mode_t_Enumeration_for_t_ajgr3ik30" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:8;685:113" type="table"><?ditaot gentext?>Table 4</xref> above. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:196;686:27">The tag_location parameter of the
+    g5_api_ipts_mon_chnl_packet_cfg() determines the offset where the IPTS
+    packet tag is inserted in the packet and is defined by the
+    g5_api_ipts_tag_frame_offset_t enumeration shown in <xref href="#its_datapath_api/table_g5_api_ipts_tag_frame_offset_t_Enumerati_bjgr4u51m" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="xref:9;689:145" type="table"><?ditaot gentext?>Table 5</xref> above. The default is
+    G5_IPTS_TAG_FRAME_OFFSET_START.</p></section>
+
+    <section id="section_g5_api_ipts_mon_chnl_seq_id_reset__6jhb6d7s7" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="section:14;693:72"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="title:21;693:79">g5_api_ipts_mon_chnl_seq_id_reset()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:197;693:125">The
+    g5_api_ipts_mon_chnl_seq_id_reset() API resets the monitor sequence id. To
+    reset the sequence id users need to set the seq_id_reset = TRUE, and then
+    call the g5_api_ipts_gen_cfg API to start the traffic on that channel. The
+    API has the following parameters and associated enumerations:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="ul:16;697:74">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:52;698:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:198;698:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:53;700:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:199;700:16"> chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="li:54;702:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:200;702:16"> seq_id_reset</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:201;703:15">The device_id parameter is the device instance. The chld_id
+    parameter is the user defined channel ID for the provisioned Interlaken
+    instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\its_runtime_api.xml" xtrc="p:202;705:22">The seq_id_reset parameter of the
+    g5_api_ipts_gen_chnl_seq_id_reset() API defines whether to reset generator
+    sequence id. When set to TRUE the sequence id is reset . When set to FALSE
+    the sequence id is not reset. </p></section>
+  </body>
+</topic>

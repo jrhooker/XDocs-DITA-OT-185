@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Rate_Transition_Buffer_viu8j35d4" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="topic:1;2:126">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="title:1;3:10">Rate Transition Buffer</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:1;6:8">The phase transient in the buffer depth shown in <xref href="Hysteresis_buffer_sizing_considerations_siu8j35d3.xml#Hysteresis_buffer_sizing_considerations_siu8j35d3/Hysteresis_buffer_contributions_tiu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="xref:1;6:217" type="fig"><?ditaot gentext?>Figure 1</xref>
+    represents the buffer depth accumulated during a transition in rate. Large
+    transitions in rate may occur during datapath bring-up or a
+    break-before-make protection switch if the signal must switch from a
+    nominal replacement signal to an asynchronous recovered signal. Internal
+    PLLs will take time to adapt to the asynchronous signal rate depending on
+    their bandwidth, during which time the phase error of the PLL is
+    accumulated in the internal buffer. To ensure that buffers don’t underflow
+    or overflow spuriously after rate transitions, additional rate transition
+    buffer is allocated, and the almost full / almost empty thresholds of the
+    hysteresis buffer are positioned to initiate centering of the buffer by
+    the PLL. Sizing this rate transition component of the hysteresis buffer
+    involves the following signal requirements and system operating
+    parameters:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="ul:1;21:9">
+      <li id="d1e1175" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="li:1;22:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:2;22:27">The maximum PPM offset of the recovered
+      signal</p></li>
+
+      <li id="d1e1181" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="li:2;25:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:3;25:27">The bandwidth of the PLLs in the system that are
+      capturing or recovering the rate of the signal undergoing a transition
+      in rate. Note that fast acquisition mode described in <xref href="Fast_Rate_Acquisition_16iu8j35d4.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="xref:2;27:112" type="topic"><?ditaot gentext?>Fast Rate Acquisition</xref>
+      permits a higher bandwidth mode during signal acquisition.</p></li>
+
+      <li id="d1e1187" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="li:3;30:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:4;30:27">Delay and speed of PLL response when hitting a
+      hysteresis buffer almost full / almost empty threshold.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:5;34:8">These parameters are considered in the DCPB allocation of the rate
+    transition hysteresis buffer for applicable datapaths to ensure error free
+    rate transitions.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="p:6;38:8">The DIGI-G5 design incorporates features to enable fast acquisition of
+    the traffic signal rate on bring-up and when hitting hysteresis buffer
+    almost full / almost empty thresholds with the goal of optimizing the
+    required rate transition hysteresis buffer size. This feature is discussed
+    in section <xref href="Fast_Rate_Acquisition_16iu8j35d4.xml#Fast_Rate_Acquisition_16iu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Rate_Transition_Buffer_viu8j35d4.xml" xtrc="xref:3;42:100" type="topic"><?ditaot gentext?>Fast Rate Acquisition</xref>.</p>
+  </body>
+</topic>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="title:1;3:10">Flexible Transponder/Muxponder (FlexPonder)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:1;6:8">An example datapath for the highly flexible transponder / muxponder
+    application described in the product overview is illustrated in <xref href="#Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v/OTUCn_ODUflex_to_Terminated_FlexE_Client_fiuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="xref:1;7:186" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    The example illustrates the datapath segments for an OTUC2 with an ODUC2
+    carrying an ODUflex client with a FlexE client that is terminated to a
+    SerDes interface.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="ul:1;12:9">
+      <li id="d1e695" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:1;13:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:2;13:26">OTUCn (Line) → OTL → ODTUCn.ts → ODUflex → ODUkSW →
+      BMP DeMap (OPUflex) → IMP (Idle Delete) → Mapping Buffer → FlexE Mux
+      (terminated) → PCS (Tx) → FlexE</p></li>
+    </ul>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="note:1;18:35">Source for <xref href="Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml#Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v/OTUCn_ODUflex_to_Terminated_FlexE_Client_fiuu0en0v" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="xref:2;18:217" type="fig"><?ditaot gentext?>Figure 1</xref>
+    can be found at <xref href="http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="xref:3;19:104"><?ditaot usertext?>
+    http://bby1dms01/docmgmt/fileinfo.cfm?file_id=420232</xref></note>
+
+    <fig id="OTUCn_ODUflex_to_Terminated_FlexE_Client_fiuu0en0v" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="fig:1;22:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="title:2;23:14">OTUCn/ODUflex to Terminated FlexE Client Provisioning
+      Segments</title>
+
+      <image href="top_g5_diagram_DP_FlexE_BMP_to_ODUflex_OTUCn.svg" placement="break" width="5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="image:1;26:101"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:3;29:8">The datapath segments are provisioned using the following APIs.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="ul:2;31:9">
+      <li id="d1e722" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:2;32:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:4;32:26">Lane Mapping: g5_api_serdes_group_assign() to
+      provision a FlexE group against SerDes port identifiers</p></li>
+
+      <li id="d1e728" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:3;35:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:5;35:26">A &lt;&gt; C: g5_api_otucn_group_prov()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:4;37:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:6;37:26">A &lt;&gt; B: g5_api_otucn_port_add()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:5;39:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:7;39:26">A &lt;&gt; C: g5_api_otucn_group_config()</p></li>
+
+      <li id="d1e734" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:6;41:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:8;41:26">C &lt;&gt; D: g5_api_odu_mux_cfg()</p></li>
+
+      <li id="d1e740" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:7;43:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:9;43:26">F &lt;&gt; H: g5_api_flexe_group_prov()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:8;45:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:10;45:26">G &lt;&gt; H: g5_api_flexe_phy_add()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:9;47:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:11;47:26">F &lt;&gt; G: g5_api_flexe_subgroup_add()</p></li>
+
+      <li id="d1e388" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:10;49:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:12;49:26">F &lt;&gt; H: g5_api_flexe_group_config()</p></li>
+
+      <li id="d1e740" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:11;51:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:13;51:26">E &lt;&gt; F: g5_api_client_map_cfg()</p></li>
+
+      <li id="d1e753" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="li:12;53:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:14;53:26">D &lt;&gt; E: g5_api_switch_connect() x 2 to
+      establish a bidirectional path</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Transponder_Muxponder_FlexPonde_eiuu0en0v.xml" xtrc="p:15;57:8">The OCPB is used as the connection point for connections configured by
+    g5_api_switch_connect().</p>
+  </body>
+</topic>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Troubleshooting_Latency_Management_miu8j35d3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="topic:1;2:138">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="title:1;3:10">Troubleshooting Latency Management</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:1;6:8">A common problem with a OTN packet fabric Interlaken link is the frame
+    pulse is not synchronized between the two endpoints (or is not phase
+    aligned) or the REFCLK used to generate the timestamps on the two
+    endpoints is not frequency locked. Check these two criteria are met as a
+    first step in troubleshooting. See section <xref href="Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:1;10:117" type="topic"><?ditaot gentext?>Compensating for PDV in the Virtual FIFO</xref>
+    and <xref href="Input_Frame_pulse_requirements_and_condi_hiu8j35d3.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:2;11:78" type="topic"><?ditaot gentext?>Input Frame pulse requirements and conditioning</xref>
+    for an explanation of REFCLK and frame pulse requirements.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:2;14:8">Reviewing possible problems with systems that are not configured
+    properly for latency compensation can be useful in better understanding
+    the requirements for latency compensation, and can assist in identifying
+    problems with a particular system configurations based on datapath
+    status.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:3;20:8">In the first set of example scenarios shown in , the latency_s and
+    halt_buffer input to the <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="b:1;21:51"> g5_api_ilkn_cbr_prov()
+    </b>API are both zero, such that no external latency or PDV can be
+    accommodated.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="note:1;25:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:3;25:138"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198
+    </xref> Troubleshoot_0 tab</note>
+
+    <fig id="Scenarios_with_Latency_s_0_halt_buffer_0_niu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="fig:1;29:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="title:2;30:14">Scenarios with Latency_s = 0, halt_buffer = 0</title>
+
+      <image href="Scenarios_with_Latency_s_0_halt_buffer_0.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="image:1;32:99"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:4;35:8">Note that the virtual hysteresis buffer is not contained within the
+    DCPB buffer when there is any additional external latency, compromising
+    flow control operations.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:5;39:8">In the second set of example scenarios shown in , latency_s = maximum
+    external latency and halt_buffer = 0 are input to the<b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="b:2;40:79">
+    g5_api_ilkn_cbr_prov() </b>API, such that only the maximum external
+    latency can be accommodated.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="note:2;44:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:4;44:138"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198
+    </xref> Troubleshoot_1 tab</note>
+
+    <fig id="Scenarios_with_Latency_s_max_latency_hal_oiu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="fig:2;48:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="title:3;49:14">Scenarios with Latency_s = max latency, halt_buffer = 0</title>
+
+      <image href="Scenarios_with_Latency_s_max_latency_halt_buffer_0.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="image:2;51:109"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:6;54:8">Note that the virtual hysteresis buffer is not contained within the
+    DCPB buffer when the external latency is less than the maximum latency,
+    compromising flow control operations.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:7;58:8">In the third set of example scenarios shown in , latency_s = maximum
+    external latency and halt_buffer = sufficient to absorb PDV are input to
+    the<b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="b:3;60:29"> g5_api_ilkn_cbr_prov() </b>API, such that any
+    external latency between the expected minimum external latency and maximum
+    external latency can be accommodated.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="note:3;64:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:5;64:138"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=427198
+    </xref> Troubleshoot_2 tab</note>
+
+    <fig id="Scenarios_with_Latency_s_max_latency_hal_piu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="fig:3;68:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="title:4;69:14">Scenarios with Latency_s = max latency, halt_buffer = sufficient
+      to absorb PDV</title>
+
+      <image href="Scenarios_with_Latency_s_max_latency_halt_buffer_sufficient.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="image:3;72:118"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:8;75:8">Note that the virtual hysteresis buffer is always contained within the
+    DCPB buffer when the external latency is between the minimum and maximum
+    expected latency, ensuring proper flow control operations at all
+    times.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="p:9;80:8">The buffer status relevant to troubleshooting latency management is
+    further discussed in <xref href="Buffer_Status_1hiu8j35d4.xml#Buffer_Status_1hiu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:6;81:94" type="topic"><?ditaot gentext?>Buffer Status</xref>.
+    Measurement of the external latency as described in <xref href="External_Latency_Measurement_1jiu8j35d4.xml#External_Latency_Measurement_1jiu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="xref:7;82:155" type="topic"><?ditaot gentext?>External Latency Measurement</xref>
+    can also be used to precisely tune the latency_s and halt_buffer
+    parameters input to the<b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Troubleshooting_Latency_Management_miu8j35d3.xml" xtrc="b:4;84:49"> g5_api_ilkn_cbr_prov()
+    </b>API.</p>
+  </body>
+</topic>

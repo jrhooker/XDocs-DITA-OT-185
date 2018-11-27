@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Hitless_ODUflex_Decrease_chi4tj4fo" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="topic:1;2:128">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="title:1;3:10">Hitless ODUflex Decrease</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:1;6:8">G.HAO decrease is handled by first doing LCR to start the protocol and
+    then immediately entering BWR to shrink the bandwidth to the final value
+    and then coming back to LCR to hitlessly resize the HO ODUk container
+    prior to finishing the protocol. Prior to running the decrease protocol
+    all the nodes in the system should know that a G.HAO protocol is going to
+    be run, should have ‘expected’ TS shrink programmed in their NMS, and they
+    should be setup to run the protocol. See <xref href="#Hitless_ODUflex_Decrease_chi4tj4fo/G.HAO_Bandwidth_Decrease_Protocol_dhi4tj4fo" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="xref:1;12:140" type="fig"><?ditaot gentext?>Figure 1</xref>
+    for the bandwidth decrease sequence diagram.</p>
+
+    <fig id="G.HAO_Bandwidth_Decrease_Protocol_dhi4tj4fo" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="fig:1;15:59">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="title:2;16:14">G.HAO Bandwidth Decrease Protocol</title>
+
+      <image href="../Graphics/ghao_bw_decrease_protocol.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="image:1;18:94"/>
+    </fig>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="note:1;21:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:2;21:14">In the diagram, [x,y,z] = [CTRL,TPID, TSGS] (for example [NORM,
+    #a, NACK]).</p></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:3;24:8">The LCR protocol, assuming single stage muxing for this example,
+    executes as follows:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="ol:1;27:9">
+      <li id="d1e82348" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:1;28:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:4;28:28">NMS sets up Node A, B and C into G.HAO mode of
+      operation. In turn each of the nodes' software places the ODTUJ4 MUX/DMX
+      within the device into G.HAO mode of operation, where now the CnD JC
+      columns of the HO are replaced with RCOH overhead, similarily the JC
+      bytes of the LO are RCOH as well.</p></li>
+
+      <li id="d1e82354" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:2;34:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:5;34:28">In the HO OPUk the nodes' software commences G.HAO
+      by inserting [IDLE, 0, NACK] with RP=1 on the tribslots of the flex and
+      to be removed tribslots.</p></li>
+
+      <li id="d1e82360" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:3;38:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:6;38:28">LCR is a Node to Node protocol, so Node A to B can
+      negotiate independently of Node B to C. Node A or B can begin the
+      negotiation by software sending [REM, TPID, NACK] on the to be removed
+      tribslots. Both nodes will receive this remove request and if both nodes
+      are OK with the TS to be removed, then LCR is paused to begin
+      BWR.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:7;46:8">The BWR protocol, executes as follows:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="ol:2;48:9">
+      <li id="d1e82373" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:4;49:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:8;49:28">Each node enters BWR by relaying TSCC. BWR is a
+      directional protocol (Node A to C and Node C to A). Each direction can
+      happen independently.</p></li>
+
+      <li id="d1e82379" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:5;53:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:9;53:28">In Node A-C direction: Software sets TSCC in ODTUJ4
+      MUX after placing the SAR into GMP special mode with Node A. Node B
+      receives TSCC in ODTUJK DMX and enters the SAR into GMP special node and
+      then relays TSCC to Node C. Similar action happens independently from
+      Node C to A.</p></li>
+
+      <li id="d1e82385" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:6;59:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:10;59:28">Once Node A has TSCC set on both the TX and seen on
+      the RX direction, software sets NCS bit in the OPUflex at the TGFP of
+      Node A. Software then waits to receive NCS bit enabled in the RGFP,
+      which will be initiated by Node C.</p></li>
+
+      <li id="d1e82391" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:7;64:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:11;64:28">After receiving the NCS bit, Node A and C can begin
+      the ramp down independently.</p></li>
+
+      <li id="d1e82397" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:8;67:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:12;67:28">Node A commences the ramp, by firmware setting the
+      BWR_IND bit in TGFP and then initiating the ramp (after 125us) using the
+      ODUk Scheduler in the MAPOTN subsystem.</p></li>
+
+      <li id="d1e82404" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:9;71:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:13;71:28">Node B receives the BWR_IND bit in RX framer stage
+      3B and sends the bit to the SAR, which will begin the ramp after 125us
+      as per G.7044. Note that the ODUk SC in step 5 and the MPMO in step 6,
+      ramp the rate down as per G.7044, at 512000 Kbps^2. Node C follows the
+      same in receiving the same BWR_IND bit in-stream of the
+      ODUflex.</p></li>
+
+      <li id="d1e82410" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:10;78:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:14;78:28">Similarly from Node C to A, steps 5 and 6 occur
+      independently.</p></li>
+
+      <li id="d1e82416" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:11;81:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:15;81:28">Note that each of the Nodes already has the target
+      rate programmed (within ODUk SC and SAR). Once the target rate is
+      reached, each of the nodes will end the ramp with an interrupt to
+      Software (this is regardless of the state of BWR_IND signal).</p></li>
+
+      <li id="d1e82422" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:12;86:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:16;86:28">Firmware issues ramp done. NMS will see ramp done
+      and then complete the end of the ramp phase using software, initially at
+      Node A, then takes the Node out of TSCC (i.e. GMP special mode) and
+      signals downstream TSCC=0. Each node then upon receiving TSCC=0, exits
+      GMP special node and forwards TSCC=0.</p></li>
+
+      <li id="d1e82428" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:13;92:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:17;92:28">Once all nodes are out of GMP special mode and
+      TSCC=0. The NCS=0 bit is relayed across from Node A to Node C and then
+      Node C to A independently.</p></li>
+
+      <li id="d1e82434" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:14;96:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:18;96:28">After Node A has both TSCC=0 and NCS=0, then it
+      exits BWR.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:19;100:8">LCR to do knife edge and resize the ODUk container executes as
+    follows:</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="ol:3;103:9">
+      <li id="d1e82446" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:15;104:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:20;104:28">The RP bit is set to 1 but TSCC =0 and NCS in the
+      ODUflex is set to 0 at this stage. The HO ODUk from the ODTUJ4 MUX in
+      Node A, B and C are still sending [REM, TPID, NACK] on all the removed
+      TS.</p></li>
+
+      <li id="d1e82452" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:16;109:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:21;109:28">The nodes will then in the ODTUJ4 MUX direction
+      send [REM, TPID, ACK], prior to which they will setup all the standby
+      pages and FIFOs for shrinking.</p></li>
+
+      <li id="d1e82458" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:17;113:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:22;113:28">After receiving [REM, TPID, ACK] in the ODTUJ4 DMX,
+      Node A will signal [NORM, TPID, ACK] to Node B and vice-versa. In the
+      next RMF, after NORM, the tribslots to be removed are gone in the ODTU
+      container.</p></li>
+
+      <li id="d1e82464" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="li:18;118:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Hitless_ODUflex_Decrease_chi4tj4fo.xml" xtrc="p:23;118:28">At the end software sends [IDLE, 0, NACK] on all
+      TSs from the ODTUJ4 MUX and is received in the ODTUJ4 DMX of all nodes
+      appropriately. At which point software unsets the RP bit to 0 from Node
+      to Node to terminate the protocol.</p></li>
+    </ol>
+  </body>
+</topic>

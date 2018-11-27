@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Consequential_Actions_FLEXO_Datapath" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="topic:1;2:130">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="title:1;3:10">FlexO Datapath</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="p:1;6:8">The figures below illustrates the consequential actions implemented in
+    hardware. However they are enabled and disabled through software.</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="p:2;9:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442293" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="xref:1;9:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442293
+    </xref></p>
+
+    <fig id="lineotn_consequent_actions_flexo_1" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="fig:1;12:50">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="title:2;13:14">LINEOTN FlexO #1 Consequential Actions Processing</title>
+
+      <image height="8in" href="lineotn_consequent_actions_flexo_1.svg" placement="break" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="image:1;15:92"/>
+    </fig>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="p:3;18:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442294" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="xref:2;18:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442294</xref></p>
+
+    <fig id="lineotn_consequent_actions_flexo_2_n" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="fig:2;20:52">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="title:3;21:14">LINEOTN FlexO #2 to #n Consequential Actions Processing</title>
+
+      <image height="8in" href="lineotn_consequent_actions_flexo_2_n.svg" placement="break" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Consequential_Actions_FLEXO.xml" xtrc="image:2;23:94"/>
+    </fig>
+  </body>
+</topic>

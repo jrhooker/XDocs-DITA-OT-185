@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Recovered_2.048MHz_Clock_3h02zeosn" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="topic:1;2:128">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="title:1;3:10">Recovered 2.048 MHz Clock</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="body:1;5:9">
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:1;6:32"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=442416" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="xref:1;6:135"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=442416</xref>
+    Table Source</p>
+
+    <table id="Line_System_Intf._Divider_CFG_for_2.048__3gp02boga" otherprops="medium_type" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="table:1;10:93">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="title:2;11:14">Divider CFG for 2.048 MHz Recovered CLK</title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="tgroup:1;13:24">
+        <colspec colname="col1" colwidth=".7in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:1;14:48"/>
+
+        <colspec colname="col2" colwidth="1.2in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:2;16:49"/>
+
+        <colspec colname="col3" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:3;18:47"/>
+
+        <colspec colname="col4" colwidth="0.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:4;20:50"/>
+
+        <colspec colname="col5" colwidth="0.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:5;22:50"/>
+
+        <colspec colname="col6" colwidth="0.78in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="colspec:6;24:51"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="thead:1;26:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:1;27:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:1;28:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:2;28:23">Signalling</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:2;30:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:3;30:23">Standard / Client</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:3;32:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:4;32:23">PGMRCLK[7:0] Input Frequency Expressed as a Fraction
+            (MHz)</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:4;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:5;35:23">Integer</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:5;37:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:6;37:23">Numerator</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:6;39:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:7;39:23">Denominator</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="tbody:1;43:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:2;44:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:7;45:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:8;47:20">10GE</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:9;49:20"> 20625 / 128 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:10;51:20">78</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:11;53:20"> 22,221 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:12;55:20"> 32,768 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:3;58:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:13;59:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:14;61:20">ILKN</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:15;63:20"> 243 / 1 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:16;65:20">118</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:17;67:20"> 167 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:18;69:20"> 256 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:4;72:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:19;73:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:20;75:20">ILKN/25GE/100GE</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:21;77:20"> 103125 / 256 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:22;79:20">196</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:23;81:20"> 45,569 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:24;83:20"> 65,536 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:5;86:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:25;87:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:26;89:20">ILKN/400GE</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:27;91:20"> 53125 / 128 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:28;93:20">202</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:29;95:20"> 21,489 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:30;97:20"> 32,768 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:6;100:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:31;101:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:32;103:20">FLEXO</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:33;105:20"> 59470848 / 136165 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:34;107:20">213</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:35;109:20"> 7,071 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:36;111:20"> 27,233 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:7;114:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:37;115:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:38;117:20">OTU4</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:39;119:20"> 99144 / 227 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:40;121:20">213</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:41;123:20"> 1,893 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:42;125:20"> 7,264 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:8;128:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:43;129:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:44;131:20">OTUC</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:45;133:20"> 49572 / 113 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:46;135:20">214</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:47;137:20"> 1,477 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:48;139:20"> 7,232 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:9;142:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:49;143:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:50;145:20">ILKN</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:51;147:20"> 28125 / 64 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:52;149:20">214</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:53;151:20"> 9,449 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:54;153:20"> 16,384 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:10;156:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:55;157:20">NRZ</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:56;159:20">OTU4+</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:57;161:20"> 11016 / 25 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:58;163:20">215</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:59;165:20"> 5 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:60;167:20"> 32 </entry>
+          </row>
+
+          <row audience="DIGIG5_NOKIA" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:11;170:40">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:61;171:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:62;173:20">NOKIA</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:63;175:20"> 38880 / 128 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:64;177:20">148</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:65;179:20"> 10,336 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:66;181:20"> 32,768 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:12;184:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:67;185:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:68;187:20">50GE/100GE/400GE/ILKN</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:69;189:20"> 53125 / 128 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:70;191:20">202</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:71;193:20"> 21,489 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:72;195:20"> 32,768 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:13;198:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:73;199:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:74;201:20">FLEXO</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:75;203:20"> 59470848 / 136165 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:76;205:20">213</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:77;207:20"> 7,071 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:78;209:20"> 27,233 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:14;212:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:79;213:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:80;215:20">OTU4</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:81;217:20"> 99144 / 227 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:82;219:20">213</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:83;221:20"> 1,893 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:84;223:20"> 7,264 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:15;226:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:85;227:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:86;229:20">OTUC</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:87;231:20"> 49572 / 113 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:88;233:20">214</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:89;235:20"> 1,477 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:90;237:20"> 7,232 </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="row:16;240:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:91;241:20">PAM4</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:92;243:20">OTU4+</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:93;245:20"> 11016 / 25 </entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:94;247:20">215</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:95;249:20"> 5 </entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="entry:96;251:20"> 32 </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="note:1;257:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="ol:1;257:15">
+        <li id="d1e64566" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="li:1;258:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:8;258:30">PGMRCLK[7:0] Input Frequencies were calculated in
+        <xref href="Core_Clock_Frequencies_2h02zeosn.xml#Core_Clock_Frequencies_2h02zeosn" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="xref:2;259:93" type="topic"><?ditaot gentext?>PGMRCLK Input Frequencies</xref>.</p></li>
+
+        <li id="d1e64574" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="li:2;261:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Recovered_2.048MHz_Clock_3h02zeosn.xml" xtrc="p:9;261:30">A fraction is used so that the exact rate can be
+        calculated (i.e., with a fraction, there is no truncation of
+        significant digits).</p></li>
+      </ol></note>
+  </body>
+</topic>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Ethernet_Management_Port_mgjq2elx2" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="topic:1;2:128">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="title:1;3:10">Ethernet Management Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:1;6:8">The Ethernet Management interface provides access to specific Ethernet
+    messages to/from any of the internal client Ethernet MACs. The Ethernet
+    Management port is a standard SGMII running at 1.25 Gbps. This interface
+    connects internal 1000 Mbps Ethernet MACs to an external PHY. To carry
+    frame data and link rate information between a 1000 Mbps full-duplex
+    Ethernet PHY and an Ethernet MAC, SGMII uses a differential pair in each
+    direction. This allows clocking information to be recovered from the data
+    stream. Separate clock pins are not provided. For more information on the
+    Ethernet Management Interface, see <xref href="../../../Other/ENET_G5_Ethernet_Management_Interface_yirs0z29z.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="xref:1;14:121" type="topic"><?ditaot gentext?>ENET Ethernet Management Interface</xref>.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:2;16:8">The Ethernet Management port serial signals use M10 family SERDES from
+    the Multimode cell set. For details, see the 16nm RAPTR SERDES
+    Specifications for DIGI-G5 Family of Devices document <xref href="../../02_References/a_02_references.xml#a_02_references/Int_ref_40nm_SERDES_RAPTR" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="xref:2;18:155" type="li"><?ditaot gentext?>1</xref>.
+    Note also that the M10 SERDES are synchronous to the PCIE_REFCLK reference
+    clock.</p>
+
+    <table id="Ethernet_Management_Port_Pin_Description_ngjq2elx2" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="table:1;22:68">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="title:2;23:14">Ethernet Management Interface Pin Descriptions</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="tgroup:1;25:24">
+        <colspec colname="col1" colnum="1" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="colspec:1;26:47"/>
+
+        <colspec colname="col2" colnum="2" colwidth=".75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="colspec:2;28:47"/>
+
+        <colspec colname="col3" colnum="3" colwidth="3.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="colspec:3;30:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="thead:1;32:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="row:1;33:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:1;34:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:3;34:23">Pin Name</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:2;36:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:4;36:23">Type</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:3;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:5;38:23">Function</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="tbody:1;42:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="row:2;43:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:4;44:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:6;44:23">MGMT_RXI_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:5;46:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:7;46:23">Input</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:6;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:8;48:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="b:1;48:45">Ethernet Management Port SGMII
+            Receive</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:9;49:33">M10 SGMII</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="row:3;52:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:7;53:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:10;53:23">MGMT_TXO_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:8;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:11;55:23">Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="entry:9;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:12;57:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="b:2;57:45">Ethernet Management Port SGMII
+            Transmit</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Ethernet_Management_Port_mgjq2elx2.xml" xtrc="p:13;58:34">M10 SGMII</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

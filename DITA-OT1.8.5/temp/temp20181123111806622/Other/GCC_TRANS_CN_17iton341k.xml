@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GCC_TRANS_CN_17iton341k" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="topic:1;2:117">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="title:1;3:10">GCC_TRANS_CN</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:1;6:8">This sub-block is an extension of the OHP add/drop block, when only the
+    GCC bytes are provided for the HO ODUC/ODU4 channels. Features supported
+    by this block are as follows:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="ul:1;10:9">
+      <li id="d1e2527" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:1;11:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:2;11:27">Separate GCC channel per HO ODU4/ODU4+ layer for
+      GCC0/GCC1/GCC2.</p></li>
+
+      <li id="d1e2527" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:2;14:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:3;14:27">Separate GCC channel per terminated or regenerated
+      ODUC layer for GCC1/GCC2/GCC0.</p></li>
+
+      <li id="d1e2533" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:3;17:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:4;17:27">Combines GCC0 channel for entire terminated OTUCn
+      across all OTUC’s in the Cn group. For ODUCn regenerator datapaths
+      combined GCC0 insertion for the terminated OTUCn is supported via OHP
+      only.</p></li>
+
+      <li id="d1e2539" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:4;22:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:5;22:27">Combines GCC1 channel for entire terminated
+      ODUCnacross all ODUC’s in the Cn group. Regenerated ODUCn combined GCC1
+      insertion is supported via OHP only.</p></li>
+
+      <li id="d1e2545" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:5;26:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:6;26:27">Combines GCC2 channel for entire terminated ODUCn
+      across all ODUC’s in the Cn group. Regenerated ODUCn combined GCC2
+      insertion is supported via OHP only.</p></li>
+
+      <li id="d1e2551" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:6;30:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:7;30:27">No support for a combined GCC channel between
+      GCC1/GCC2 for the entire ODUCn group (G.709 example 2).</p></li>
+
+      <li id="d1e2558" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:7;33:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:8;33:27">Supports only HO ODUC/ODU4 channels (total of 6
+      channels from SYSOTN and 6 channels from LINEOTN). SYSOTN channels go to
+      GCC_TRANS_CN_2 and LINEOTN channels go to GCC_TRANS_CN_1.</p></li>
+
+      <li id="d1e2564" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:8;37:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:9;37:27">Bit synchronous HDLC encoding supported of packets
+      into GCC channel.</p></li>
+
+      <li id="d1e2570" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:9;40:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:10;40:27">Supports 16bit and 32 bit FCS.</p></li>
+
+      <li id="d1e2576" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:10;42:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:11;42:27">Total of 12 GCC links per GCC_TRANS_CN
+      block.</p></li>
+
+      <li id="d1e2576" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:11;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:12;45:27">Maximum of 12 HO (100G ODUC/ODU4) total bandwidth
+      GCC links per GCC_TRANS_CN block.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:13;46:47">Example : ODUC5 combined GCC0,
+      combined GCC2 and ODUC1 GCC0, GCC1 has 12 HO total bandwidth.</p></li>
+
+      <li id="d1e2582" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:12;49:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:14;49:27">To achieve maximum sustained rate per link the HDLC
+      payload size must be a minimum of 40B. HDLC stuffing will increase this
+      for insertion into the GCC overhead in OTN and the Ethernet framing will
+      increase the packet size on the Ethernet I/F.</p></li>
+
+      <li id="d1e2582" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:13;54:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="p:15;54:27">SGMII interface for the packet traffic.</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GCC_TRANS_CN_17iton341k.xml" xtrc="li:14;56:11">The same overhead insertion priority applies with respect to the
+      TFRM registers and passthrough insertion except that GCC can be sourced
+      from the OHP SGMII port or the GCC SGMII port based on OHP
+      configuration.</li>
+    </ul>
+  </body>
+</topic>

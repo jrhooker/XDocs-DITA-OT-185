@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Application_Level_Identifiers_2iuim06v6" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="topic:1;2:133">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="title:1;3:10">Application Level Identifiers</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:1;6:8">There are a number of identifiers that are to be provided by the host
+    application for use by DIGI-G5 SDK APIs. This section outlines what these
+    identifiers are and how they are used. In all cases identifiers provided
+    by the host application are expected to be unique in time and across
+    subsystems. For example, the OTN channel identifiers do not overlap with
+    ENET channel identifiers or any other subsystem channel identifier. The
+    host channel identifiers are typically associated with a SERDES end point
+    such as a SERDES port or Interlaken interface.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="ul:1;15:9">
+      <li id="d1e34" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:1;16:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:2;16:25">Device Identifier: This is a 32-bit integer
+      representing the underlying G5 device. It is used for the first time
+      when the device is brought out of reset as part of g5_api_device_init()
+      and for all subsequent API calls. Since the DIGI-G5 Host API can control
+      multiple underlying DIGI-G5 devices the application must provide a
+      unique value that identifies the device on which the operation is to be
+      executed. The scope of the identifier is from the time the device is
+      brought out of reset by calling API g5_api_device_init(), until it is
+      shutdown by calling API g5_api_device_uninit().</p></li>
+
+      <li id="d1e40" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:2;26:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:3;26:25">SERDES Port Identifier: This is a unique 32-bit
+      identifier representing a SERDES port. It is required as part of
+      g5_api_serdes_port_los_cfg() for the purpose of LOS pin configuration
+      and to provision related functions that bind a channel identifier to a
+      physical SERDES port. For example it is a required parameter to API
+      g5_api_enet_prov() and g5_api_otn_prov().</p></li>
+
+      <li id="d1e46" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:3;33:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:4;33:25">Channel Identifier: This is a unique 32-bit numeric
+      identifier provided by the application software that is associated with
+      a resource on the device such as an OTN, ENET, ILKN channel resource. It
+      is expected to be unique in time across the device. That is, it is
+      unique across subsystems and any associated DIGI-G5 Host API will return
+      an error if the identifier is used to represent another channel
+      resource. The SW/FW reserves user defined channel ids in the range of
+      0xFFFFFFF0 to G5_MAX_INT as shown below.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="ul:2;40:55">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:4;41:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:5;41:18"> const UINT32 G5_MAX_INT = 0xFFFFFFFF;</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:5;43:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:6;43:18"> const UINT32 G5_ILKN_INTF0 = 0xFFFFFFFC; </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:6;45:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:7;45:18"> const UINT32 G5_ILKN_INTF1 = 0xFFFFFFFD; </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:7;47:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:8;47:18"> const UINT32 G5_ILKN_INTF2 = 0xFFFFFFFE; </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:8;49:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:9;49:18"> const UINT32 G5_ILKN_INTF3 = 0xFFFFFFFB;</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:9;51:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:10;51:18"> const UINT32 G5_ILKN_INTF4 = 0xFFFFFFFA;</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:10;53:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:11;53:18"> const UINT32 G5_LOWER_RESERVED_CHANNEL_ID =
+          0xFFFFFFF0;</p></li>
+        </ul></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:12;58:8">All identifiers are verified by the SDK to be valid and correct
+    depending on their use case for each operation. For example:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="ul:3;61:9">
+      <li id="d1e58" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:11;62:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:13;62:25">The device identifier is verified to be unused on all
+      calls to g5_api_device_init(). It is verified to be valid and in use for
+      all subsequent API calls.</p></li>
+
+      <li id="d1e70" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="li:12;66:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:14;66:25">Channel identifiers are verified to be unused for all
+      provisioning related API calls and verified to exist for all subsequent
+      calls in which they are used. Note that channel identifiers are required
+      to be unique across subsystems and not just within a subsystem.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Application_Level_Identifiers_2iuim06v6.xml" xtrc="p:15;72:8">It is the responsibility of the application to store identifiers,
+    associate them with network management system resources, and use them for
+    all operations on a provisioned datapath.</p>
+  </body>
+</topic>

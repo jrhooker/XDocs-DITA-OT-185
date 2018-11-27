@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Source_Sink_Node_Datapath_2_hhi4tj4fo" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="topic:1;2:131">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="title:1;3:10">Source/Sink Node Datapath 2</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:1;6:8">This datapath involves the following path:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="ul:1;8:9">
+      <li id="d1e82552" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="li:1;9:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:2;9:28">MAPOTN(ODUflex.GFP) &lt;= =&gt; COREOTN (ODUflex)
+      &lt;= =&gt; COPI (ODUflex &lt;-&gt; ILKN)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:3;13:8">This datapath represents Node A or C where the ODUkP/PCK adaptation is
+    represented and the ODUkP/ODUj-21 adaptation is in another device.
+    Essentially only ODUflex.GFP exists within this device. <xref audience="DIGIG5_ROW" href="#Source_Sink_Node_Datapath_2_hhi4tj4fo/MAP_CORE_SIFD_Datapath_ROW__ihi4tj4fo" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="xref:1;15:174" type="fig"><?ditaot gentext?>Figure 1</xref>
+    represents this datapath through the device subsystems:</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="note:1;18:35"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=416475" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="xref:2;18:138"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=416475
+    </xref> tab : SourceSink Node Datapath 2</note>
+
+    <fig audience="DIGIG5_ROW" id="MAP_CORE_SIFD_Datapath_ROW__ihi4tj4fo" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="fig:1;22:75">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="title:2;23:14">MAP_CORE_COPI Datapath</title>
+
+      <image href="../Graphics/pm5440_map_core_sifd_datapath.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="image:1;25:100"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:4;28:8">The LCR steps for increase and decrease through the Interlaken path are
+    not conducted with this device instead are conducted in node-level
+    software. This device only is aware when G.HAO is entered and when BWR
+    begins. But prior to ramp beginning, the customer must prepare their
+    fabric to expect a ramp (that is, change any rate shapers, FIFOs,
+    schedulers). This is usually done before relaying the NCS bit from this
+    device.</p>
+
+    <p audience="DIGIG5_NOKIA" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:5;36:32">Through the FIC path, LCR of the FIC is
+    conducted (i.e. FIFO resize/Knife-edge), but not exactly in the same
+    protocol manner as the ODUkP/ODUj-21 adaptation function defined in
+    G.798/G.7044. The method is proprietary to the FIC. The LCR steps are
+    primarily there to do setup of the FIFOs and FIC-specific tribslots and
+    any control plane negotiation that needs to be conducted through the
+    proprietary FIC.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:6;44:8">In BWR, the NCS bit is set in the TGPF and received in the RGFP. GMP
+    special mode is realized by setting the SAR from OPSA mode to a hold-over
+    mode.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:7;48:8">The ramp itself is triggered at the ODUk Scheduler at MAPOTN after
+    setting TGFP to insert the BWR_IND bit. <ph audience="DIGIG5_NOKIA" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="ph:1;49:73">In the
+    egress direction (towards FIC), BWR_IND is set through the SAR and the it
+    is picked up at SAR, which will commence the ramp according to the ramp
+    rate, but with tracking of the ODUk Switch FIFO fill level. </ph>In the
+    egress direction (towards the ILKN), no ramp towards ILKN is required; the
+    ODUk SC ramp is sufficient. In the ingress direction (from the ILKN<ph audience="DIGIG5_NOKIA" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="ph:2;54:100"> or FIC</ph>), RFRM stage 4 picks up the BWR_IND
+    bit inserted and sends it back to the SAR, which will commence the ramp
+    according to the ramp rate, but with tracking of the ODUk Switch FIFO fill
+    level.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Source_Sink_Node_Datapath_2_hhi4tj4fo.xml" xtrc="p:8;59:8">Once the ramp is complete, both the SAR and ODUk Scheduler will issue a
+    ‘ramp_done’ interrupt that will allow software to wrap up the G.HAO
+    protocol.</p>
+  </body>
+</topic>

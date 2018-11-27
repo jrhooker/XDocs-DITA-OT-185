@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Provisioning_and_De-provisioning_1wiu5was3y" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="topic:1;2:137">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="title:1;3:10">OCPB Provisioning and De-provisioning API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:1;6:8">The OCPB is used as the connection point for all datapaths that
+    traverse the COREOTN, <ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ph:1;7:52"> and </ph>MAPOTN<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ph:2;7:107">, and SYSOTN</ph> subsystems. Any
+    datapath that goes through both the OCBP and DCPB will use the OCPB as the
+    connection point:</p>
+
+    <ul audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ul:1;11:44">
+      <li id="d1e239" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:1;12:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:2;12:26">LINEOTN and COREOTN &lt;&gt; MAPOTN to {ENET, ILKN
+      CBRI, ILKN PIF, or SYSOTN}</p></li>
+
+      <li id="d1e239" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:2;15:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:3;15:26">ENET &lt;&gt; MAPOTN &lt;&gt; ILKN (CBRI)</p></li>
+    </ul>
+
+    <ul audience="META-600G" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ul:2;18:30">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:3;19:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:4;19:14">LINEOTN and COREOTN &lt;&gt; MAPOTN to {ENET, or ILKN
+      PIF}</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:5;23:8">A connection is established between a source and destination channel
+    using the g5_api_switch_connect() API.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:6;26:8">Create a broadcast connection by calling the API twice with the same
+    source channel and the two destination channels. The two destination
+    channel must belong to different interfaces(LINEOTN, MAPOTN, SAR or
+    SYSOTN). Calling the API with the same source and destination channel will
+    create a loopback connection. Channels are disconnected using the
+    g5_api_switch_disconnect() API. Broadcast connections can be disconnected
+    in <ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ph:3;32:12">any </ph>order.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:7;34:8">For loopbacks enabled with g5_api_switch_loopback_set() API see <xref href="../Chapters/05_Functional_Description/Topics/Internal_Loopbacks_1gk7es8ai.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="xref:1;34:164" type="topic"><?ditaot gentext?>Internal Loopbacks</xref>
+    for more information.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:8;37:8">The flowchart for provisioning the OCPB shown in <xref href="#Provisioning_and_De-provisioning_1wiu5was3y/fig_OCPB_Provisioning_Flowchart_ajkue67pt" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="xref:2;37:157" type="fig"><?ditaot gentext?>Figure 1</xref> below and uses the g5_api_switch_connect() API.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="note:1;40:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:9;40:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "OCPB_Connect")</p></note>
+
+    <fig id="fig_OCPB_Provisioning_Flowchart_ajkue67pt" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="fig:1;45:57">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="title:2;46:14">OCPB Provisioning Flowchart</title>
+
+      <image href="OCPB_Provision_Flowchart.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="image:1;48:51"/>
+    </fig>
+
+    <section id="section_g5_api_serdes_port_los_cfg__ajhv55fi0" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="section:1;51:65"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="title:3;51:72">g5_api_switch_connect()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:10;51:106">The
+    g5_api_switch_connect() API connects a destination channel to its data
+    source unidirectionally at the OCPB or DCPB switches. The actual switch is
+    determined from the source and destination channel ids. The
+    g5_api_switch_connect() API has the following parameters and associated
+    enumerations or structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ul:3;56:40">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:4;57:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:11;57:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:5;59:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:12;59:16"> src_chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:6;61:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:13;61:16"> dst_chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:14;62:15">The device_id parameter is the unique device identity. The
+    src_chnl_id parameter is the source datapath channel ID and the
+    dst_chnl_id is the destination datapath channel ID. </p></section>
+
+    <section id="section_g5_api_serdes_port_los_cfg__ajhv55fi0" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="section:2;66:65"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="title:4;66:72">g5_api_switch_disconnect()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:15;66:109">The
+    g5_api_switch_disconnect() API disconnects the destination channel from
+    its connection at the OCPB or DCPB switch. The g5_api_switch_disconnect()
+    API has the following parameters and associated enumerations or
+    structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="ul:4;70:24">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:7;71:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:16;71:16"> device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="li:8;73:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:17;73:16"> dst_chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_1wiu5was3y.xml" xtrc="p:18;74:15">The device_id parameter is the unique device identity. The
+    dst_chnl_id is the destination datapath channel ID. </p></section>
+  </body>
+</topic>

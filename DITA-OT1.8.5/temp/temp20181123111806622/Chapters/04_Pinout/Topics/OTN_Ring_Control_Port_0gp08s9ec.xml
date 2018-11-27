@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="OTN_Ring_Control_Port_0gp08s9ec" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="topic:1;2:125">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="title:1;3:10">Ring Control Port Interface</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:1;6:8">The RCP (Ring Control Port) interface has two separate RCPs:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="ul:1;8:9">
+      <li id="d1e3137" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="li:1;9:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:2;9:27">Remote Information RCP (RI_RCP)</p></li>
+
+      <li id="d1e3143" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="li:2;11:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:3;11:27">Defect Information RCP (DI_RCP)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:4;14:8">The <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="i:1;14:15">receive and transmit RI_RCP</i>
+    carries BDI/BEI/BIAE bits from the sink framers and the APS/PCC bytes. The
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="i:2;16:8">DI_DCP</i> transmits defects and alarms.
+    RI_RCP is standard XFI running at 10.3125 Gbps and DI_RCP is standard
+    SGMII (Serial Gigabit Media Independent Interface) running at 1.25
+    Gbps.</p>
+
+    <p audience="DIGIG5_CIENA DIGIG5_NOKIA DIGIG5_ROW META-600G MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:5;21:79">See
+    <xref href="../../../Other/RCP_Functional_Description_1iz0dsmxi.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="xref:1;22:75" type="topic"><?ditaot gentext?>ODU Ring Control Port (ODU_RCP)</xref></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:6;24:8">SERDES P/N signals can be swapped on a per lane basis. Independent
+    configuration for P/N swap in the Tx and Rx direction is supported.</p>
+
+    <p audience="DIGIG5_CIENA DIGIG5_NOKIA DIGIG5_ROW META-600G MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:7;27:79">The
+    frame format is described in <xref href="../../../Other/RCP_Functional_Description_1iz0dsmxi.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="xref:2;28:104" type="topic"><?ditaot gentext?>ODU Ring Control Port (ODU_RCP)</xref>
+    for both RI_RCP and DI_RCP.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:8;31:8">The signals use M10 family SERDES from the Multimode SERDES at 10 Gbps
+    cell set. For details, see the 16nm RAPTR SERDES Specifications for
+    DIGI-G5 Family of Devices document <xref href="../../02_References/a_02_references.xml#a_02_references/Int_ref_40nm_SERDES_RAPTR" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="xref:3;33:136" type="li"><?ditaot gentext?>1</xref>.
+    Note that the M10 SERDES are synchronous to the PCIE_REFCLK reference
+    clock.</p>
+
+    <table id="SGMIIInterfacePinDescription" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="table:1;37:46">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="title:2;38:14">Device OTN Ring Control Port Interface Pin Description</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="tgroup:1;40:24">
+        <colspec colname="col1" colnum="1" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="colspec:1;41:47"/>
+
+        <colspec colname="col2" colnum="2" colwidth=".75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="colspec:2;43:47"/>
+
+        <colspec colname="col3" colnum="3" colwidth="3.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="colspec:3;45:48"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="thead:1;47:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="row:1;48:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:1;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:9;49:23">Pin Name</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:2;51:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:10;51:23">Type</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:3;53:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:11;53:23">Function</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="tbody:1;57:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="row:2;58:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:4;59:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:12;59:23">RI_RCP_RXI_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:5;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:13;61:23">Input</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:6;63:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:14;63:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="b:1;63:45">Remote Information Ring Control
+            Port Slice XFI Receive</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:15;64:48">M10 SERDES, XFI
+            mode</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="row:3;68:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:7;69:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:16;69:23">RI_RCP_TXO_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:8;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:17;71:23">Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:9;73:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:18;73:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="b:2;73:45">Remote Information Ring Control
+            Port Slice XFI Transmit</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:19;74:49">M10 SERDES, XFI
+            mode</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="row:4;78:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:10;79:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:20;79:23">DI_RCP_RXI_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:11;81:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:21;81:23">Input</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:12;83:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:22;83:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="b:3;83:45">Defect Information Ring Control
+            Port Slice SGMII Receive</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:23;84:50">M10 SERDES, SGMII
+            mode</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="row:5;88:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:13;89:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:24;89:23">DI_RCP_TXO_P/N</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:14;91:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:25;91:23">Output</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="entry:15;93:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:26;93:23"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="b:4;93:45">Defect Information Ring Control
+            Port Slice SGMII Transmit</b> </p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\OTN_Ring_Control_Port_0gp08s9ec.xml" xtrc="p:27;94:51">M10 SERDES, SGMII
+            mode</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Consequential_Action_Handling_During_G.H_phi4tj4fo" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="topic:1;2:144">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="title:1;3:11">Consequential Action Handling During G.HAO</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="body:1;4:10">
+        
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="p:1;7:12">Per clause 7.1 of Amd1 (02/2012) G.7044, dTIM related
+        consequential actions can be disabled (via the TCMActDis function) in
+        the RFRM stage 2 or 3A or 3B or 4, depending on which RFRM the ODUflex
+        is processed. This should be done via a software API before the
+        protocol begins.</p>
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="p:2;13:12">Per clause 8 of Amd1 (02/2012) G.7044, there is maintenance
+        signal insertion capability in the device of the ODUflex in BWR during
+        the ramp during failure state. The ODUk Schedule in the COREOTN begins
+        the ramp after receiving the BWR_IND signal from RFRM Stage 2 or 3A
+        (depending on which stage MUX is used). If a signal fail occurs from
+        the HO, the signal fail will indicate to the ODUk Scheduler to drive
+        the ramp instead of using the incoming rate of the ODUflex from the
+        DMX. The RFRM stage 2 or 3A will use the same signal fail indicator
+        from the server to insert maintenance signal (ODUk-AIS) on the ramping
+        rate from the ODUk Scheduler.</p>
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="p:3;24:12">If the failure occurs at the ODUflex level itself during BWR_IND
+        phase, then the rate out of the DMX is used to insert maintenance
+        signal (ODUk-AIS).</p>
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="p:4;28:12">In the case of fabric failure during the ramp part of BWR
+        protocol, the egress card will hold onto the current ramp rate and
+        insert maintenance signal at this held rate until the fabric recovers.
+        Since this is a rare scenario, this is not expected to happen during
+        G.HAO.</p>
+
+        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Consequential_Action_Handling_During_G.H_phi4tj4fo.xml" xtrc="p:5;34:12">If the server fails (HO ODUk) prior to the ramp or prior to
+        BWR_IND signal starting, the G.HAO protocol can be terminated by the
+        NMS and restarted when it is appropriate to do so.</p>
+      </body>
+</topic>

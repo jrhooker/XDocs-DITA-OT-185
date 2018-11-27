@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Programmable_Recovered_Clock_PGMRCLK__1gorl23dv" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="topic:1;2:141">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="title:1;3:10">Programmable Recovered Clocks (PGMRCLK)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:1;6:8">The PGMRCLK block provides access to all of the internal reference
+    clocks and recovered/transmit clocks for each of the SERDES device
+    interfaces. <ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ph:1;8:21">Any eight of the clocks listed in <xref href="Recovered_Clock_Selection_1h02zeosn.xml#Recovered_Clock_Selection_1h02zeosn/pgmrclk_input_selection" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:1;8:169" type="table"><?ditaot gentext?>Table 1</xref>
+    can be selected to be divided down and accessed on the external
+    PGMRCLK[7:0] device pins.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:2;12:8">Each PGMRCLK[7:0] output has its own fractional divider (CLK_FDIV) and
+    each clock must be divided down to be less than 125 MHz. This is the
+    maximum frequency supported by the PGMRCLK[7:0] device pads. The division
+    ratio for each fractional divider is register configurable using a 32-bit
+    integer, numerator, and denominator as follows:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:3;18:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="b:1;18:29">PGMRCLK[7:0] = Selected Clock / ( integer +
+    numerator / denominator )</b></p>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="note:1;21:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ol:1;21:15">
+        <li id="d1e89497" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:1;22:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:4;22:30">If the selected clock is from one of the device
+        interfaces, the core clock rate is fractionally divided and not the
+        client rate. To see the core clock rates for the various supported
+        clients and device interfaces, please see the PGMRCLK Input
+        Frequencies in <xref href="Core_Clock_Frequencies_2h02zeosn.xml#Core_Clock_Frequencies_2h02zeosn" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:2;26:108" type="topic"><?ditaot gentext?>PGMRCLK Input Frequencies</xref>.</p></li>
+
+        <li id="d1e89505" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:2;28:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:5;28:30">There is a mandatory divide-by-2 pre-divider in
+        front of the fractional divider.</p></li>
+      </ol></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:6;32:8">The eight fractional dividers have the following limitations:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ul:1;34:9">
+      <li id="d1e89518" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:3;35:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:7;35:28">The numerator must be less than 32 bits
+      (2^31).</p></li>
+
+      <li id="d1e89524" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:4;38:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:8;38:28">Fractional divides of 4.XXX are not supported;
+      however, integer divides of 4 are supported.</p></li>
+
+      <li id="d1e89530" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:5;41:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:9;41:28">The numerator must be less than the
+      denominator.</p></li>
+
+      <li id="d1e89536" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="li:6;44:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:10;44:28">Fractional divides of 1.XXX are not supported;
+      however, integer divides of 1 are supported.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:11;48:8">For applications other than debugging, the PGMRCLK[7:0] outputs can
+    also be used as a timing references that are traceable to the clock source
+    used to derive the timing of the selected PGMRCLK[7:0] source. An external
+    jitter attenuator and PLL with holdover may be used in order to generate a
+    low jitter clock suitable for use as reference for other devices.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:12;54:8">The numerator and denominator for a desired fractional division can be
+    calculated using Rational Fraction Approximation<ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ph:2;55:81"> (for example, in Matlab use the RATS
+    function)</ph>. The fractional divider configurations to recover a 2.048
+    MHz and 8 kHz timing reference are provided in <xref href="Recovered_2.048MHz_Clock_3h02zeosn.xml#Recovered_2.048MHz_Clock_3h02zeosn" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:3;57:140" type="topic"><?ditaot gentext?>Recovered 2.048 MHz Clock</xref>
+    and <xref href="Recovered_8kHz_Clock_4h02zeosn.xml#Recovered_8kHz_Clock_4h02zeosn" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:4;58:89" type="topic"><?ditaot gentext?>Recovered 8 kHz Clock</xref>
+    respectively. The minimum frequency supported by the fractional dividers
+    is constrained by the original frequency of the divided clock and the
+    32-bit integer portion of the divider. The jitter of the PGMRCLK[7:0]
+    outputs is inversely proportional to the original frequency of the divided
+    clock.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:13;65:8">Two separate integer dividers and dedicated outputs are also provided
+    within in the PGMRCLK block in order to provide direct access to the
+    PCIE_REFCLK and PCLK. This allows for the status of the PCIE interface to
+    be checked on the dedicated device pins PLL_STATUS[1:0] using an FPGA or
+    clock monitoring device. If the PCIE interface is fully functional, which
+    requires both the PCIE_REFCLK and PCLK, it can be used to confirm the
+    status of all other DCSU's in the device without any of them being
+    operational. An interrupt can also be generated using software if any of
+    the device DCSU's loses lock during normal device operation. The division
+    ration for each integer divider is fixed to an integer value of 256.
+    PLL_STATUS[0] is mapped to PCIE_REFCLK and PLL_STATUS[1] is mapped to
+    PCLK.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:14;78:8">PGMRCLK also offers twelve output reference clocks, OM_REFCLK[11:0]
+    which may be used by external optical modules that require an input
+    reference clock. OM_REFCLK[11:0] are sourced by integer dividers which
+    divide the internal high speed SERDES transmit parallel output clock by 16
+    or 32. Any twelve of the SERDES bank A/B/C lanes may be selected as the
+    source of this clock. The frequency of OM_REFCLK is nominally the transmit
+    lane data rate divided by 1024. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ph:3;84:65">Divide by 16
+    should be selected for 56G rates, divide by 32 should be used for 28G
+    rates and below. Refer to PREP 39622.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:15;88:8"><ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ph:4;88:12"> For the AC characteristics of the PGMRCLK[7:0] device pins, please
+    see <xref href="../../15_AC_Timing_Characteristics/Topics/PGMRCLK_30__0gpg193j4.xml#PGMRCLK_30__0gpg193j4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:5;89:113" type="topic"><?ditaot gentext?>PGMRCLK [7:0]</xref>.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:16;91:8"><ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="ph:5;91:12"> For the AC characteristics of the OM_REFCLK[11:0] device pins,
+    please see <xref href="../../15_AC_Timing_Characteristics/Topics/HWS-028_LINE_REFCLK_and_SYS_REFCLK_Jitte_3h0a0g2o9.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:6;92:127" type="topic"><?ditaot gentext?>OM_REFCLK [11:0]</xref>.</ph></p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="p:17;94:32">For the source of the CORE Clock frequencies
+    tables and the Numerator/Denominator tables, please see <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=442416" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\Programmable_Recovered_Clock_PGMRCLK__1gorl23dv.xml" xtrc="xref:7;95:164"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=442416</xref></p>
+  </body>
+</topic>

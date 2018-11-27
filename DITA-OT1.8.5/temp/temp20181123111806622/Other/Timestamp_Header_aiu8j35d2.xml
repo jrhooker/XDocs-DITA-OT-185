@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Timestamp_Header_aiu8j35d2" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="topic:1;2:120">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="title:1;3:10">Timestamp Header</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:1;6:8">The OIF-OFP protocol defines a 4-byte timestamp header to be inserted
+    into the packet data stream in the SOP position. The format of the header
+    word is shown below in .</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="note:1;10:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="xref:1;10:137"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198
+    </xref> Functional Block Diagram tab</note>
+
+    <fig id="OIF-OFP_Header_Format_biu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="fig:1;14:47">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="title:2;15:14">OIF-OFP Header Format</title>
+
+      <image href="OIF-OFP_Header_Format.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="image:1;17:80"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:2;20:8">The features associated with these fields are described in below.</p>
+
+    <table id="OIF-OFP_Header_Fields_ciu8j35d3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="table:1;22:49">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="title:3;23:14">OIF-OFP Header Fields</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="tgroup:1;25:24">
+        <colspec colname="col1" colwidth="17*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="colspec:1;26:47"/>
+
+        <colspec colname="col2" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="colspec:2;28:46"/>
+
+        <colspec colname="col3" colwidth="74*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="colspec:3;30:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="thead:1;32:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:1;33:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:1;34:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:3;34:23">Field</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:2;36:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:4;36:23">Bits</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:3;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:5;38:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="tbody:1;42:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:2;43:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:4;44:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:6;44:23">Timestamp</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:5;46:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:7;46:23">31:16</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:6;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:8;48:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:1;48:44">Reference Clock Timestamp</b>
+            </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:9;49:20">The 16-bit timestamp value comes from an internal timer
+            running off the 311.04 MHz reference clock. This field is used so
+            that the age of packets(analogous to system latency) can be
+            measured by a packet monitor receiving the packets.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:3;55:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:7;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:10;56:23">RSV</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:8;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:11;58:23">15:10</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:9;60:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:12;60:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:2;60:44">Reserved</b> </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:13;60:64">This field is
+            filled with zeros.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:4;64:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:10;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:14;65:23">SQ</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:11;67:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:15;67:23">9:8</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:12;69:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:16;69:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:3;69:44">Sequence Number</b> </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:17;69:71">SQ is a
+            2-bit sequence number used to detect dropped packets. SQ is a
+            binary counting number that increments with every packet per
+            ODUk/ODUflex.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:5;75:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:13;76:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:18;76:23">PPSI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:14;78:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:19;78:23">7:6</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:15;80:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:20;80:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:4;80:44">Previous Packet Size Indication</b>
+            </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:21;81:20">The Packet Sequence Number is a 2-bit number inserted by
+            the packet maker to sequentially enumerate every packet in the
+            generated packet stream. This allows a downstream packet monitor
+            receiving these packets to determine if a packet has been dropped
+            in the packet fabric. The Previous Packet Size Indicator bits
+            indicate the size of the previous packet relative to the nominal
+            packet size. This allows the monitor to insert a packet of the
+            appropriate size if one is dropped. The PPSI bits of the packet
+            header are set as follows:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="ul:1;89:47">
+                <li id="d1e399" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="li:1;90:33"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:22;90:36">11 : Previous packet is -1 the nominal
+                packet size</p></li>
+
+                <li id="d1e405" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="li:2;93:33"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:23;93:36">01 : Previous packet is +1 the nominal
+                packet size</p></li>
+
+                <li id="d1e411" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="li:3;96:33"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:24;96:36">00 : Previous packet is the nominal packet
+                size</p></li>
+
+                <li id="d1e417" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="li:4;99:33"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:25;99:36">10 : NULL packet size decision.</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:6;103:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:16;104:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:26;104:23">CSI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:17;106:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:27;106:23">5:3</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:18;108:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:28;108:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:5;108:44">Client Status Indication</b>
+            </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:29;109:20">The CSI bits of the timestamp are set to 3’b001 during
+            normal operation. Optionally, the CSI can also be set to indicate
+            a failure state from upstream logic or forced to a configurable
+            value by per-channel FORCE_TO and FORCE_AWAY
+            registers.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:7;116:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:19;117:20">PPSI2</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:20;119:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:30;119:23">2:1</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:21;121:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:31;121:23"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:6;121:26">PPSI2</b></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:32;121:42">The PPSI2 bits of the timestamp can
+            optionally be used to insert the BIP8 calculated over the packet
+            payload of the previously sent packet. Bits 1:0 of the calculated
+            BIP8 value are inserted on PPSI2 when SQ=0, up to bits 7:6 which
+            are inserted on PPSI2 when SQ=3. Note that this use of the PPSI2
+            field is non-standard.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:8;129:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:22;130:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:33;130:23">P</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:23;132:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:34;132:23">0</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:24;134:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:35;134:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="b:7;134:44">Parity</b> </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:36;134:62">P is a 1-bit odd
+            parity field computed over the entire header.</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:37;141:8">The device supports insertion of a user-defined value in the CSI field
+    of the OFP ODUk packet header as described in <xref href="Timestamp_Header_aiu8j35d2.xml#Timestamp_Header_aiu8j35d2/OIF-OFP_CSI_Field_Definition_diu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="xref:2;142:162" type="table"><?ditaot gentext?>Table 2</xref>
+    . The value to insert is selectable on a per-channel basis from one of two
+    user configured global values, a force-to value and a force-away value.
+    The device implementation meets the requirement defined in the OIF ODUk
+    OTN Over Packet Fabric Protocol standard.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:38;148:8">Microsemi devices implemented prior to ratification of the OIF standard
+    such as the PM5450 HyPHY 20Gflex support insertion of an arbitrary 5-bit
+    value into the CSI and PPSI2 fields where the arbitrary value is per
+    channel configurable. System designs utilizing a mix of devices should
+    consider the implications of the CSI field configuration options that are
+    supported.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:39;155:8">As well, note that the OIF-OFP protocol specifies the encoding for the
+    CSI field as shown below.</p>
+
+    <table id="OIF-OFP_CSI_Field_Definition_diu8j35d3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="table:2;158:56">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="title:4;159:14">OIF-OFP CSI Field Definition</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="tgroup:2;161:24">
+        <colspec colname="col1" colwidth="24*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="colspec:4;162:47"/>
+
+        <colspec colname="col2" colwidth="76*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="colspec:5;164:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="thead:2;166:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:9;167:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:25;168:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:40;168:23">CSI Value</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:26;170:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:41;170:23">Definition</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="tbody:2;174:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:10;175:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:27;176:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:42;176:23">0b000</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:28;178:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:43;178:23">Forces the switching fabric to select this ODUk/ODUflex
+            even if the alternate stream is in the No Defects
+            state</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:11;183:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:29;184:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:44;184:23">0b001</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:30;186:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:45;186:23">No Defects detected</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:12;189:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:31;190:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:46;190:23">0b010</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:32;192:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:47;192:23">Signal Degrade detected</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:13;195:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:33;196:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:48;196:23">0b011</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:34;198:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:49;198:23">Signal Fail detected</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:14;201:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:35;202:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:50;202:23">0b100</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:36;204:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:51;204:23">Server Signal Fail</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:15;207:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:37;208:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:52;208:23">0b101</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:38;210:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:53;210:23">Reserved</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:16;213:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:39;214:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:54;214:23">0b110</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:40;216:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:55;216:23">Reserved</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="row:17;219:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:41;220:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:56;220:23">0b111</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="entry:42;222:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:57;222:23">Forces the switching fabric to not select this
+            ODUk/ODUflex regardless of the state of the alternate
+            stream</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:58;230:8">When one stage of demuxing is used (OTUk -&gt; High Order ODUk -&gt;
+    Low Order ODUk), server signal fail will not propagate from the OTUk
+    server and the alarm code for Server Signal Fail is not reported in the
+    CSI field. Switch fabrics using the CSI field SSF indication to trigger a
+    bulk switch of low order ODUk signals will not receive the required SSF
+    indication.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Timestamp_Header_aiu8j35d2.xml" xtrc="p:59;237:8">Server Signal Fail will always result in signal fail for the low order
+    ODUk signals provided at least one TCM for the receive framer for stage 2
+    is provisioned. Switch fabrics can use the signal fail indication to
+    initiate protection switching of the ODUk signals. The switch controller
+    will not receive the SSF indication for fault isolation purposes, and
+    therefore, the SSF indication would need to be signaled to the controller
+    out-of-band using the system control plane.</p>
+  </body>
+</topic>

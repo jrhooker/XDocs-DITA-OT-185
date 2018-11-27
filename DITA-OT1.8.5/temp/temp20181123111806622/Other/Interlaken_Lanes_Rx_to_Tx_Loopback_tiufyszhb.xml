@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Interlaken_Lanes_Rx_to_Tx_Loopback_tiufyszhb" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Lanes_Rx_to_Tx_Loopback_tiufyszhb.xml" xtrc="topic:1;2:138">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Lanes_Rx_to_Tx_Loopback_tiufyszhb.xml" xtrc="title:1;3:10">Interlaken Lanes Rx to Tx Loopback</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Lanes_Rx_to_Tx_Loopback_tiufyszhb.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Lanes_Rx_to_Tx_Loopback_tiufyszhb.xml" xtrc="p:1;6:8">The Interlaken blocks provide an internal Rx to Tx loopback. The data
+    received from the SERDES lanes are looped back to the SERDES lanes. The
+    data may also be forwarded toward the DCPB with normal error checking and
+    handling. The in-band flow control information is embedded in the
+    Interlaken data in the burst control words and is therefore automatically
+    looped back with the data. The flow control loopback allows the remote
+    receive side to throttle the remote transmitter. This prevents remote
+    receiver overflows and allows the Interlaken Internal data loopback to
+    work successfully.</p>
+  </body>
+</topic>

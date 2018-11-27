@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ODTUJK_titon341k" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="topic:1;2:110">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="title:1;3:10">ODTUjk</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="p:1;6:8">The following table illustrates the multiplexing modes of operation
+    with the ODTUjk MUX/DMX:<draft-comment author="hookerje" time="Mon 10/03/2016 11:47 AM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="draft-comment:1;7:93"> Need a better version of this
+    table.</draft-comment></p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="note:1;10:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="p:2;10:38">[HWS/DDD] Multiplexing Tables xls
+    http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427885 Tab LO jk
+    MUX</p></note>
+
+    <fig id="ODTUJK_Support_Table_uiton341k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="fig:1;14:46">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="title:2;15:14">LO ODTUjk Support Table</title>
+
+      <image href="ODTUJK-Support-Table.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="image:1;17:77"/>
+    </fig>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="note:2;20:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="p:3;20:38">[HWS/DDD] Multiplexing Tables xls
+    http://bby1dms01/DocMgmt/fileinfo.cfm?file_id=427885 Tab HO jk
+    MUX</p></note>
+
+    <fig id="ODTUJK_Support_Table_uiton341k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="fig:2;24:46">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="title:3;25:14">HO ODTUj4 Support Table</title>
+
+      <image href="ODTUj4_Support_Table.svg" placement="break" width="3in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="image:2;27:77"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="p:4;30:8">Note : 5G TS* indicates bandwidth may not fill entire 5G.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="p:5;32:8">There are 6 ODTUjk MUX/DMX within COREOTN, each of which has a capacity
+    of 120G. For a HO ODTUj4, there are possible limitations for ODTUjk
+    MUX/DMX capacities depending on device configuration. Please refer to
+    section <xref href="Modes_of_operation_1biton341l.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ODTUJK_titon341k.xml" xtrc="xref:1;35:61" type="topic"><?ditaot gentext?>Modes of Operation, Capabilities, and Limitations</xref>
+    for additional details. An ODU4 requires 100G of bandwidth, an ODU3
+    requires 40G of bandwidth, an ODU2 required 10G of bandwidth, an ODU1
+    requires 2.5G of bandwidth, an ODU0 requires 1.25G of bandwidth and each
+    timeslot of a ODUflex requires 1.25G of bandwidth. Examples of 300G of
+    traffic are 3xODU4, 30xODU2, 7xODU3 + 2xODU2, and 2xODU4 + 1xODUflex.12 +
+    1xODUflex.68.</p>
+  </body>
+</topic>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_341fbd06d8187829-186a9ec6-157d35a235e--7c01" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\SDK-Example-for-Serdes-Provision.xml" xtrc="topic:1;2:152">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\SDK-Example-for-Serdes-Provision.xml" xtrc="title:1;3:10">SDK Example for SERDES Configuration</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\SDK-Example-for-Serdes-Provision.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\SDK-Example-for-Serdes-Provision.xml" xtrc="p:1;6:8">This section outlines the example code which apply the specified LOS
+    configuration on SERDES pins which form an OTUC6 interface using
+    quad-SERDES blocks of SHI 0-5 on Bank A.</p>
+
+    <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\SDK-Example-for-Serdes-Provision.xml" xtrc="codeblock:1;10:16">    UINT32 serdes_port_id[6] = { 0, 4, 8, 12, 16, 20};
+
+    for (UINT32 i = 0; i &lt; 6 &amp;&amp; MSCC_SUCCESS == rc; i++)
+    {
+        // Assign the LOS pin to the base lane for each 100G port
+        rc = g5_api_serdes_port_los_cfg(device_id,
+                                        serdes_port_id[i],
+                                        TRUE,   // dlos_enable
+                                        FALSE,  // los_inv
+                                        i,      // los_pin
+                                        FALSE); // los_enable
+        MSCC_ASSERT(MSCC_SUCCESS == rc, 0);
+    }</codeblock>
+  </body>
+</topic>

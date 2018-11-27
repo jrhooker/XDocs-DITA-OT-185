@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Packet_Descriptor_Memory_fiu82jf1k" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="topic:1;2:128">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="title:1;3:10">Packet Descriptor Memory</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:1;6:8">The packet descriptor memory is a 256 word, word addressed memory that
+    is configured with descriptors for each generated packet format. Each word
+    in the memory is programmed with one descriptor that describes the details
+    of a generated packet through the following fields:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="ul:1;11:9">
+      <li id="d1e687" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="li:1;12:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:2;12:26">Packet payload pattern selection</p></li>
+
+      <li id="d1e693" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="li:2;14:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:3;14:26">Length of the packet in bytes, or length randomizer
+      selection</p></li>
+
+      <li id="d1e699" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="li:3;17:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:4;17:26">Number of times to repeat this packet descriptor
+      before moving on to the next descriptor</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:5;21:8">The details of each of these fields is shown in the following
+    table.</p>
+
+    <table id="Packet_Descriptor_Memory_Fields_giu82jf1k" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="table:1;24:59">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="title:2;25:14">Packet Descriptor Memory Fields</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="tgroup:1;27:24">
+        <colspec colname="col1" colwidth="36*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="colspec:1;28:47"/>
+
+        <colspec colname="col2" colwidth="10*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="colspec:2;30:47"/>
+
+        <colspec colname="col3" colwidth="54*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="colspec:3;32:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="thead:1;34:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="row:1;35:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:1;36:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:6;36:23">Field</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:2;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:7;38:23">Width</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:3;40:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:8;40:23">Valid Values</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="tbody:1;44:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="row:2;45:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:4;46:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:9;46:23">Packet Length</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:5;48:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:10;48:23">14-bit</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:6;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:11;50:23">1-10000 (Fixed Length Packets)</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:12;50:61">0x3ffe-0x3fff
+            (Packet Length Randomizer Selection)</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="row:3;54:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:7;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:13;55:23">Payload Pattern Selection</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:8;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:14;57:23">3-bit</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:9;59:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:15;59:23">0 (128-byte fixed pattern followed by random fill) </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:16;60:16">1-3 (32-byte fixed pattern followed by random fill)</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:17;60:75">4
+            (random fill only)</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="row:4;64:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:10;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:18;65:23">Packet Descriptor Repeat</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:11;67:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:19;67:23">16-bit</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="entry:12;69:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:20;69:23">0-65535</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:21;75:8">The payload pattern selection chooses which, if any, fixed pattern to
+    start the payload. When a fixed pattern is selected, that pattern is used
+    to start the packet followed by random fill.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:22;79:8">The packet length field defines the total length of the packet to be
+    generated, including any headers that are inserted in the packet by the
+    packet assembler. The packet length field may be programmed to a static
+    fixed packet length, or to select a length from one of two random packet
+    length generators which generate lengths within configurable ranges.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:23;85:8">The number of repeats field for a given descriptor defines the number
+    of times a channel will use the same payload pattern selection and the
+    same packet length selection before moving on to the subsequent
+    descriptor. If the packet length selection is for one of the random packet
+    length generators, then each instance of the repeating packet will use a
+    new random length from the generator.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:24;92:8">Each channel is programmed to use a sub-range of the packet descriptor
+    memory with a particular start and end address. Upon reset the start
+    address is used for a given channel, and each subsequent descriptor comes
+    from the subsequent address until the programmed end address is reached
+    for the given channel. If the start address is programmed to a value
+    greater than the end address, the packet generator will wrap around from
+    the end of the packet descriptor memory back to the beginning of the
+    descriptor memory. shows an example of packet descriptors traversed by a
+    variety of channels with different start and end addresses.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:25;102:8">Configuration bits are provided to allow each channel to independently
+    reset its current descriptor address back to its configured start address.
+    This can be applied to stopped channels to allow the channel to send a
+    well-defined test packet sequence when it is restarted.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="p:26;107:8">Configuration bits are provided to allow each channel to independently
+    select whether to wrap back from the channels end address back to the
+    start address, or to stop after it reaches the end address. This can be
+    used to send a single shot of a well-controlled number of packets and then
+    stop.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="note:1;113:35"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=422404" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="xref:1;113:138"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=422404</xref>
+    DescriptorRAM tab</note>
+
+    <fig id="Packet_Descriptor_Memory_Traversal_Examp_hiu82jf1k" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="fig:1;117:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="title:3;118:14">Packet Descriptor Memory Traversal Example</title>
+
+      <image href="Packet_Descriptor_Memory_Traversal_Example.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Packet_Descriptor_Memory_fiu82jf1k.xml" xtrc="image:1;120:101"/>
+    </fig>
+  </body>
+</topic>

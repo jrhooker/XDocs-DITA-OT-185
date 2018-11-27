@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\08_Functional_Timing\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/08_Functional_Timing/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="topic:1;2:136">
+<title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="title:1;3:8">AVS Startup Sequence</title>
+
+<body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="body:1;5:7">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:1;6:4">Use of the device requires Adaptive Voltage Scaling (AVS). The device will assert the AVS_ENB output to indicate the correct voltage to apply (0.79V or 0.82V). The AVS_RSTB input controls the device logic that generates the AVS_ENB output.</p>
+
+<p id="procedure_d1e1371" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:2;8:27"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="b:1;8:31"/></p>
+
+<ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="ol:1;10:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:3;11:4">Functional timing is as follows:</p>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:1;13:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:4;14:4">Power up device at the AVS_HIGH (0.82) or AVS_LOW (0.79V) nominal voltage, with the device AVS_RSTB and RSTB inputs asserted low. Power up the 1.8 V VDDO supply. The 0.82/0.79 and 1.8 V VDDO supplies can be powered up in any order. Use AVS_ENB to select the device AVS voltage. The device can remain in this state indefinitely.</p>
+</li>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:2;17:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:5;18:4">De-assert AVS_RSTB. AVS_ENB will be valid in under 1 <ph otherprops="symbolfont" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="ph:1;18:85">µ</ph>S.</p>
+</li>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:3;21:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:6;22:4">The device AVS power supplies will adjust to the AVS voltage as per the AVS_ENB output value in step 2.</p>
+</li>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:4;25:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:7;26:4">The device can remain in this state indefinitely.</p>
+</li>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:5;29:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:8;30:4">Wait for the voltage rails to settle to the new voltage.</p>
+</li>
+
+<li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="li:6;33:5">
+<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\08_Functional_Timing\Topics\Addition_of_AVS_RSTB_Ball_and_AV_agwzbdry8.xml" xtrc="p:9;34:4">De-assert RSTB.</p>
+</li>
+</ol>
+</body>
+</topic>

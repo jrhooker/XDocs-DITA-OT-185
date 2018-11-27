@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="COREOTN_G5_Abstract_aiton341j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="title:1;3:10">COREOTN Abstract</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="p:1;6:8"><draft-comment author="hookerje" time="Mon 10/03/2016 11:46 AM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="draft-comment:1;6:72">
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="i:1;7:8">[DDD/HWS] Include this abstract. It provides a very clear and concise
+    overview of what the Subsystem does, without going into excessive detail.
+    The generic Abstract text in section 2 above this section will of course
+    not be included in the DDD/HWS as it has no real value in that
+    context.</i> </draft-comment></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="p:2;13:8">The COREOTN subsystem processes the ODUk/OPUk layer for the OTN
+    Protocol. It provides the necessary ODU layer RX/TX framing to perform OTN
+    fault isolation, defect processing and performance monitoring to evaluate
+    the degradation or failure of the OTN link. <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:1;16:88">The COREOTN contains multiple stages of
+    ODTUjk MUX/DMX and ODTUCN MUX/DMX to multiplex between different ‘orders’
+    of ODUk’s and performing appropriate framing. The subsystem provides four
+    distinct interfaces: COPI, LINEOTN (OTUk layer), SYSOTN (client OTUk
+    layer) and MAPOTN (to demap ODUk’s into other protocol clients).</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:2;20:99">The COREOTN contains a single stage ODTUCN MUX/DMX to
+    multiplex between ODUk and ODUC and to perform appropriate framing. The
+    subsystem provides two distinct interfaces: LINEOTN (OTUk layer), and
+    MAPOTN (to demap ODUk’s into other protocol clients).</ph> The Subsystem
+    processes up to 600G of ODU traffic from each of these interfaces<ph audience="DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:3;24:96">, except COPI which can only process up to
+    500G</ph><ph audience="DIGIG5_NOKIA" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:4;25:42">, except COPI or NFIC which can only
+    process up to 500G</ph>. The OTU interface bandwidth may be 600G even when
+    the COREOTN is processing less than 600G. For example, 2x250G of ODUk may
+    be carried over 2x300G of OTU interfaces. Depending on the interface the
+    supported ODU rates are from <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:5;29:73">ODU0</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:6;29:107">ODU4</ph> up to ODUflex (600G) or ODUC6. There are
+    optional encryption taps to be able to encrypt the OPU payload at HO,
+    Client<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:7;31:50"> or towards the
+    fabric</ph>.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="p:3;34:8">The Subsystem provides 3 ‘control’ blocks that enable Overhead add/drop
+    functionality for custom overhead handling, a GCC transcode block (only
+    HO) for a communication channel and an RCP (Ring control port) for defect
+    and remote information handling to enable Hardware APS<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:8;37:98"> or SNC protocols in systems</ph>.<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Abstract_aiton341j.xml" xtrc="ph:9;37:171"> In most systems, this subsystem will
+    need to be reconfigured efficiently to enable OTN SNC protocols for fabric
+    connected interfaces and supports fast reconfiguration times.</ph></p>
+  </body>
+</topic>

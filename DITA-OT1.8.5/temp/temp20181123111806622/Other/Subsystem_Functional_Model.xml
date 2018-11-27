@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Subsystem_Functional_Model" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="topic:1;2:120">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:1;3:10">Subsystem Functional Model</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="body:1;5:9">
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="p:1;6:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442315" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="xref:1;6:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442315
+    </xref>Layer Properties, select HWS, de-select MSCCInternal</p>
+
+    <fig id="Atomic_Function_for_OTUk_iisge2eun" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="fig:1;9:50">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:2;10:14">Atomic Functions for OTUk</title>
+
+      <image href="Atomic-Function-for-OTUk.svg" placement="break" width="528" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="image:1;12:81"/>
+    </fig>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="p:2;15:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442315" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="xref:2;15:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442315
+    </xref>Layer Properties, select both HWS and MSCCInternal</p>
+
+    <fig audience="MSCCInternal" id="Atomic_Function_for_OTUk_iisge2eun" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="fig:2;18:74">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:3;19:14">Internal Atomic Functions for OTUk</title>
+
+      <image href="Atomic-Function-for-OTUk_Internal.svg" placement="break" width="528" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="image:2;21:90"/>
+    </fig>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="p:3;24:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442316" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="xref:3;24:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442316</xref>Layer
+    Properties, select HWS, de-select MSCCInternal</p>
+
+    <fig id="Atomic_Function_for_OTUCn_jisge2eun" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="fig:3;27:51">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:4;28:14">Atomic Functions for OTUCn</title>
+
+      <image href="Atomic-Function-for-OTUCn.svg" placement="break" width="528" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="image:3;30:82"/>
+    </fig>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="p:4;33:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442316" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="xref:4;33:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442316</xref>Layer
+    Properties, select both HWS and MSCCInternal</p>
+
+    <fig audience="MSCCInternal" id="Atomic_Function_for_OTUCn_jisge2eun" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="fig:4;36:75">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:5;37:14">Internal Atomic Functions for OTUCn</title>
+
+      <image href="Atomic-Function-for-OTUCn_Internal.svg" placement="break" width="528" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="image:4;39:91"/>
+    </fig>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="p:5;42:32"><xref href="http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442319" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="xref:5;42:135"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/docmgmt/fileinfo.cfm?file_id=442319</xref></p>
+
+    <fig id="Atomic_Function_for_FlexO" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="fig:5;44:41">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="title:6;45:14">Atomic Functions for FlexO</title>
+
+      <image href="Atomic_Function_for-FlexO.svg" placement="break" width="528" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Subsystem_Functional_Model.xml" xtrc="image:5;47:82"/>
+    </fig>
+  </body>
+</topic>

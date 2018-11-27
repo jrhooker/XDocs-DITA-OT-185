@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--796e" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="topic:1;2:141">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="title:1;3:10">Client Mapping Example Code</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="p:1;6:8">The following example code can be used to create a MAPOTN segment. Note
+    that the mapping operation is 1:1 hard linked with the client side channel
+    which could be Ethernet or Interlaken, as such, this operation takes in
+    the same chnl_id as an earlier call to g5_api_enet_prov() or
+    g5_api_ilkn_pkt_prov().</p>
+
+    <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="codeblock:1;12:16">    UINT32 device_id = 0x8817;
+    UINT32 enet_odu_chnl_id = 0x3000;
+
+    rc = g5_api_client_map_cfg(device_id,
+                               enet_chnl_id,
+                               G5_MAP_ODU4_100GE_GMP,  // mode 
+                               0,                      // client_num_incr
+                               G5_GFP_SLICE_CFG_AUTO); // gfp_slice </codeblock>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="p:2;21:8">The following example code can be used to tear down all aspects of the
+    segment created by the client map function.</p>
+
+    <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Example_Code.xml" xtrc="codeblock:2;24:16">    rc = g5_api_deprov(device_id, enet_chnl_id);</codeblock>
+  </body>
+</topic>

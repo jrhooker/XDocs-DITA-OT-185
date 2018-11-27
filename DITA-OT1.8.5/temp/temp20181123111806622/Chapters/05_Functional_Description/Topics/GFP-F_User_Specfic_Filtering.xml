@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\05_Functional_Description\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/05_Functional_Description/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_d2199b68844a8c79-1807adc9-157e517a090--6c74" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="topic:1;2:152">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="title:1;3:10">GFP-F Filtering</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="p:1;6:8">The GFP-F filtering will drop all client frames with PTI not matching
+    Data frames (PTI=0), CMF frames (PTI=4), and MCF frames (PTI=5). </p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="p:2;9:8">Client data frames that match per-channel configurable EXI and UPI
+    values will be forwarded. Frames that mismatch the EXI or UPI/PTI values
+    will generate a dEXI and dUPM defect indications, respectively. GFP CMF
+    frames for loss of client signal (UPI = 0x1, CSF-LOS), loss of character
+    synchronization (UPI = 0x2, CSF-LOCS), FDI (UPI=0x4, CSF-FDI) and RDI (UPI
+    = 0x5, CSF-RDI) are processed to optionally generate consequential actions
+    as per <xref href="../../../Other/Consequential_Actions_18iu8wgeqm.xml#Consequential_Actions_18iu8wgeqm/GFP_Alarms_and_Defects_1ciu8wgeqm" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\05_Functional_Description\Topics\GFP-F_User_Specfic_Filtering.xml" xtrc="xref:1;15:145" type="fig"><?ditaot gentext?>Figure 4</xref>
+    . The CSF-FDI, CSF-RDI, CSF-LOS and CSF-LOCS contributions to the dCSF
+    defect are configurable with only CSF-RDI not contributing by default.
+    </p>
+  </body>
+</topic>

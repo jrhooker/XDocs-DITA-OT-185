@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Interlaken_Feature_Summary_miufyszhb" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="topic:1;2:130">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="title:1;3:10">Interlaken Feature Summary</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:1;6:8">The following table summarizes the Interlaken Interface specs.</p>
+
+    <table id="Interlaken_Interface_Specs_niufyszhb" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="table:1;8:54">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="title:2;9:14">Interlaken Interface Specs</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="tgroup:1;11:24">
+        <colspec colname="col1" colwidth="24*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="colspec:1;12:47"/>
+
+        <colspec colname="col2" colwidth="76*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="colspec:2;14:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="thead:1;16:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:1;17:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:1;18:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:2;18:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="b:1;18:44">Feature</b></p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:2;20:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:3;20:23"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="b:2;20:44">Device
+            Specification</b></p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="tbody:1;25:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:2;26:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:3;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:4;27:23">Flow Control Option</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:4;29:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:1;29:24">
+                <li id="d1e1418" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:1;30:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:5;30:37">In-band</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:3;34:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:5;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:6;35:23">Packet Transfer Mode</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:6;37:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:2;37:24">
+                <li id="d1e1439" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:2;38:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:7;38:37">Segment mode in the fabric ingress
+                direction <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:1;39:66">(PIF channels
+                are sent in segment mode; CBRI channels are transferred in
+                packet mode with one packet per segment)</ph></p></li>
+
+                <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:3;43:21">Segment or packet mode in the fabric egress direction <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:2;43:114">(CBRI packets are
+                transferred in packet mode only)</ph></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:4;48:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:7;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:8;49:23">Segment Mode Stop Boundary</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:8;51:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:3;51:24">
+                <li id="d1e1460" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:4;52:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:9;52:37">Burst end</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:5;56:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:9;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:10;57:23">Flow Control Calendar Length</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:10;59:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:4;59:24">
+                <li id="d1e1481" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:5;60:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:11;60:37">Supports 300 entries</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:6;64:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:11;65:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:12;65:23">BurstMax</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:12;67:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:5;67:24">
+                <li id="d1e1503" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:6;68:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:13;68:37">Supports 128, 256 or 512 bytes</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:7;72:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:13;73:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:14;73:23">BurstMin</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:14;75:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:6;75:24">
+                <li id="d1e1524" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:7;76:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:15;76:37">Supported in fabric egress direction
+                (external device to <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:3;77:76">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:4;77:113">META-600G</ph>)</p></li>
+
+                <li id="d1e1530" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:8;79:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:16;79:37">Supported in fabric ingress direction with
+                BurstMin = BurstMax/2</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:8;84:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:15;85:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:17;85:23">BurstShort</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:16;87:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:7;87:24">
+                <li id="d1e1551" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:9;88:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:18;88:37">Supports 32 or 64 bytes</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:9;92:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:17;93:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:19;93:23">MetaFrame Length</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:18;95:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:8;95:24">
+                <li id="d1e1572" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:10;96:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:20;96:37">Supports 2048, 1024 or 4096 words</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:10;100:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:19;101:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:21;101:23">Number of Channel IDs</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:20;103:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:9;103:24">
+                <li id="d1e1593" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:11;104:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:22;104:37">Supports up to 256 per interface</p></li>
+
+                <li id="d1e1599" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:12;106:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:23;106:37">External device is expected to dynamically
+                remap channels as required to stay within the 256 channel ID
+                limit</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:11;112:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:21;113:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:24;113:23">Multiple Use Field</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:22;115:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:10;115:24">
+                <li id="d1e1620" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:13;116:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:25;116:37">Not supported</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:12;120:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:23;121:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:26;121:23">Interface Rate Matching</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:24;123:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:11;123:24">
+                <li id="d1e1642" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:14;124:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:27;124:37">Supported, implemented as a BURSTLIMIT (in
+                bytes) and a rate limit defined by +CREDIT_DELTA (in bytes)
+                after every TIME window with 2ns resolution</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:13;130:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:25;131:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:28;131:23">Status Messaging</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:26;133:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:12;133:24">
+                <li id="d1e1663" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:15;134:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:29;134:37">Not supported</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:14;138:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:27;139:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:30;139:23">Retransmission</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:28;141:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:13;141:24">
+                <li id="d1e1684" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:16;142:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:31;142:37">Not supported</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:15;146:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:29;147:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:32;147:23">Enhanced Scheduling</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:30;149:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:14;149:24">
+                <li id="d1e1705" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:17;150:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:33;150:37">Supports Interlaken Protocol Example
+                algorithm in the fabric egress direction (external device to
+                <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:5;152:56">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:6;152:93">META-600G</ph>)</p></li>
+
+                <li id="d1e1711" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:18;154:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:34;154:37">Supported by the DCPB for burst size
+                creation in the fabric ingress direction (<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:7;155:98">DIGI-G5</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ph:8;155:135">META-600G</ph> to external device) using
+                BurstMin = BurstMax/2</p></li>
+              </ul></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="row:16;160:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:31;161:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:35;161:23">Non-EOP Bursts</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="entry:32;163:20"><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="ul:15;163:24">
+                <li id="d1e1732" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="li:19;164:34"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Feature_Summary_miufyszhb.xml" xtrc="p:36;164:37">Supports only non-EOP burst sizes that are
+                multiples of 32 bytes in the fabric egress direction.</p></li>
+              </ul></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

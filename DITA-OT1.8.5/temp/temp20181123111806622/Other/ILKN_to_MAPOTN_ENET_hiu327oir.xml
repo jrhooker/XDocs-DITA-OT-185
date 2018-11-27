@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ILKN_to_MAPOTN_ENET_hiu327oir" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="title:1;3:10">ILKN to MAPOTN/ENET</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:1;6:8">Buffer allocation for packet channels from ILKN to MAPOTN/ENET depends
+    on internal and external contributions as shown below.</p>
+
+    <table id="DCPB_ILKN_to_MAPOTN_ENET_Buffer_Sizing_iiu327oir" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="table:1;9:66">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="title:2;10:14">DCPB ILKN to MAPOTN/ENET Buffer Sizing</title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="tgroup:1;12:24">
+        <colspec colname="col1" colwidth="34*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="colspec:1;13:47"/>
+
+        <colspec colname="col2" colwidth="56*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="colspec:2;15:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="thead:1;17:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:1;18:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:1;19:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:2;19:23">Type</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:2;21:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:3;21:23">Description</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="tbody:1;25:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:2;26:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:3;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:4;27:23">Lmax XOFF</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:4;29:20">Time for external device to stop transmitting as a result
+            of XOFF</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:3;33:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:5;34:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:5;34:23">Trpl + Tscl + Tstl</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:6;36:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:6;36:23">Time to detect threshold crossing and send
+            XOFF</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:4;40:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:7;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:7;41:23">3 x 8192 B blocks per channel</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:8;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:8;43:23">Device intrinsic</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:5;46:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:9;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:9;47:23">NPU/PP Extra</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:10;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:10;49:23">1- Scheduler “dribble”.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:11;49:53">2- Pre-emption time for
+            packet interleave.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:12;50:38">Example: assume one MTU for each
+            effect.</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:6;54:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:11;55:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:13;55:23">Trpl + Tscl + Tstl</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:12;57:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:14;57:23">Time to detect threshold crossing and send
+            XON</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="row:7;61:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:13;62:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="p:15;62:23">Lmax XON</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_to_MAPOTN_ENET_hiu327oir.xml" xtrc="entry:14;64:20">Time for external device to start transmitting as a result
+            of XON</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

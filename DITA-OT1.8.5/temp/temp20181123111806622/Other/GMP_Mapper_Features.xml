@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GMP_Features_kiu8wgeql" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="title:1;3:10">GMP Mapper Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="ul:1;6:9">
+      <li id="d1e1099" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:1;7:27">Supports up to 6x100G bandwidth.</p></li>
+
+      <li id="d1e1105" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:2;9:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:2;9:27">Processes up to 6 channels in TDM with per channel
+      enable and disable feature.</p></li>
+
+      <li id="d1e1111" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:3;12:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:3;12:27">Maps 100GE clients over OPU4 frames with necessary
+      justification techniques as configured per channel.</p></li>
+
+      <li id="d1e1117" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:4;15:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:4;15:27">Per channel option to configure server size to
+      indicate the rate of the OPUk container.</p></li>
+
+      <li id="d1e1123" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:5;18:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:5;18:27">Inserts Frame Alignment Overhead into the outgoing
+      frames.</p></li>
+
+      <li id="d1e1130" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:6;21:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:6;21:27">Inserts OPUk overhead.</p></li>
+
+      <li id="d1e1136" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:7;23:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:7;23:27">Derives justification information from Cn.</p></li>
+
+      <li id="d1e1142" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:8;25:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:8;25:27">Optionally switches to previous Cn or a programmed
+      golden Cn per channel on the event of a signal failure.</p></li>
+
+      <li id="d1e1148" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:9;28:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:9;28:27">Inserts fixed stuff bytes in the OPU4
+      payload.</p></li>
+
+      <li id="d1e1154" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:10;31:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:10;31:27">Supports JC bytes encoding for GMP
+      technique.</p></li>
+
+      <li id="d1e1160" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:11;34:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:11;34:27">Supports CRC calculation over GMP Cm and CnD
+      values</p></li>
+
+      <li id="d1e1206" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="li:12;37:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GMP_Mapper_Features.xml" xtrc="p:12;37:27">Optionally transmits NULL ODUk frames at the
+      egress.</p></li>
+    </ul>
+  </body>
+</topic>

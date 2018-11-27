@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\04_Pinout\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/04_Pinout/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Multi-lane_Distribution_MLD_Interface_La_aig012opu" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="title:1;3:10">Multi-lane Distribution (MLD) Interface Lane Ordering
+  Requirements</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="body:1;6:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:1;7:8">The following table shows a list of Multi-lane Distribution protocols
+    supported by the device.</p>
+
+    <table id="Multi-lane_Distribution_Interface_Lane_O_3ifzxw1jr" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="table:1;10:68">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="title:2;11:14">Multi-lane Distribution Interface Lane Ordering
+      Requirements</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="tgroup:1;14:24">
+        <colspec colname="col1" colwidth="260*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="colspec:1;15:47"/>
+
+        <colspec colname="col2" colwidth="190*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="colspec:2;17:47"/>
+
+        <colspec colname="col3" colwidth="563*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="colspec:3;19:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="thead:1;21:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="row:1;22:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:1;23:20">MLD Interface</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:2;25:20">Specific Lane Order Required</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:3;27:20">Notes</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="tbody:1;31:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="row:2;32:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:4;33:20">Interlaken</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:5;35:20">No</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:6;37:20">Physical and logical lane ordering into the device can be
+            arbitrary with the exception of ILKN FEC lane pairs. Each
+            Interlaken SERDES lane FEC pair must connect to a SHI block
+            subgroup and SERDES lane FEC pair on the mate device. The ordering
+            of the two SERDES lanes within the pair is not important and
+            SERDES lane FEC pairs can be connected between the DIGI-G5 and
+            mate device in any order. Physical lane ordering and logical lane
+            ordering must be specified to the Interlaken Controllers in order
+            to recover the data. This is done through SW API
+            parameters.</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="row:3;49:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:7;50:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:2;50:23">OTL4.4<ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="ph:1;50:33"> / OTL4.2</ph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:3;50:54">OTLC.4<ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="ph:2;50:64"> /
+            OTLC.2</ph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:4;51:31">FOIC1.4 / FOIC1.2</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:8;53:20">No</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:9;55:20">Lane ordering is arbitrary. The OTL or FOIC processor
+            recovers the data stream by examining logical lane
+            markers.</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="row:4;60:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:10;61:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:5;61:23">CAUI-4 / 100GAUI-2 </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:6;61:49">200GAUI-4 /
+            200GAUI-8</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="p:7;62:29">400GAUI-16 / 400GAUI-8</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:11;64:20">No</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\04_Pinout\Topics\Multi-lane_Distribution_MLD_Interface_La_aig012opu.xml" xtrc="entry:12;66:20">Lane ordering is arbitrary. The ENET physical layers
+            recover the data stream by examining logical lane markers.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

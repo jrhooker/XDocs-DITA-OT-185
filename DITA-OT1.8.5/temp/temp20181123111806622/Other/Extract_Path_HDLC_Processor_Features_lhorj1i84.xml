@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Extract_Path_HDLC_Processor_Features_lhorj1i84" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="topic:1;2:140">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="title:1;3:10">Extract Path HDLC Processor Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:1;6:8">The GCC Processor extraction HDLC line-encoding removes Start/End
+    Flags, bit stuffing and FCS. It checks FCS and drops packets which are
+    malformed. The HDLC processed data is sent to the extract buffer. The HDLC
+    packet structure is shown in <xref href="HDLC_Frame_Structure_chorj1i83.xml#HDLC_Frame_Structure_chorj1i83/HDLC_Packet_Structure_yhorj5yns" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="xref:1;9:146" type="fig"><?ditaot gentext?>Figure 1</xref>.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="ul:1;11:9">
+      <li id="d1e1092" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:1;12:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:2;12:27">Removes bit-HDLC line-encoding</p></li>
+
+      <li id="d1e1098" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:2;14:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:3;14:27">Removes opening and closing flags</p></li>
+
+      <li id="d1e1104" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:3;16:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:4;16:27">Supports opening and closing flag sharing</p></li>
+
+      <li id="d1e1110" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:4;18:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:5;18:27">Supports opening and closing flag ‘0’ sharing in
+      bit-synchronous mode</p></li>
+
+      <li id="d1e1116" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:5;21:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:6;21:27">An interrupt is generated for each GCC link
+      indicating a decoded flag byte. The flag byte is 0x7E at the start of
+      frame, end of frame, or idle bytes between frames. Firmware periodically
+      checks the interrupt status of each GCC link that should be active to
+      determine whether the GCC link is active even if no frames are currently
+      being received. 'Found Flag' feature.</p></li>
+
+      <li id="d1e1123" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:6;28:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:7;28:27">All octets are received least significant byte
+      first, from left to right, as shown in <xref href="HDLC_Frame_Structure_chorj1i83.xml#HDLC_Frame_Structure_chorj1i83/HDLC_Packet_Structure_yhorj5yns" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="xref:2;29:158" type="fig"><?ditaot gentext?>Figure 1</xref>.
+      The FCS is received least significant octet first.<ph audience="DIGIG4_ALU" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="ph:1;30:83"> Please refer to Prep 377553, for detail example
+      of HDLC and Ethernet frame ordering.</ph> </p></li>
+
+      <li id="d1e1133" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:7;33:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:8;33:27">Endianess matches Ethernet network byte order as
+      big-endian and bit order as little endian as described in <xref href="Ethernet_Frame_Structure_bhorj1i83.xml#Ethernet_Frame_Structure_bhorj1i83/Ethernet_Byte_Order_Destination_Address__xhorj5yns" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="xref:3;34:204" type="fig"><?ditaot gentext?>Figure 7</xref>.
+      Essentially Byte 29 of the GCC PDU in Ethernet frame is byte 1 of the
+      HDLC frame (Byte 0 is HDLC Flag) in the above figure.</p></li>
+
+      <li id="d1e1141" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:8;38:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:9;38:27">Computes FCS over HDLC PDU after bit stuffing
+      sequences are removed</p></li>
+
+      <li id="d1e1147" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:9;41:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:10;41:27">Drops the packet if FCS does not match</p></li>
+
+      <li id="d1e1153" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:10;43:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:11;43:27">Counts dropped FCS packets with a 32-bit counter,
+      which saturates. The counter saturates at 0x80000000. There is a single
+      counter that can be configured to count a single GCC Link at one
+      time.</p></li>
+
+      <li id="d1e1159" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:11;48:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:12;48:27">Removes HDLC FCS at the end of processing</p></li>
+
+      <li id="d1e1166" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:12;50:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:13;50:27">Support 16-bit or 32-bit FCS</p></li>
+
+      <li id="d1e1172" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:13;52:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:14;52:27">In 16 bit mode, the CRC calculation is over all
+      valid bits of the frame after removal of bit stuffing (this includes the
+      2 final FCS bytes). CRC calculation shall be based on the polynomial
+      X<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="sup:1;55:13">16</sup> + x<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="sup:2;55:30">12</sup> + X<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="sup:3;55:47">5</sup> + 1 and star wiith
+      initialization 0xffff for each frame. Comparison is done of the mirrored
+      16 bit CRC result with magic number 0xF0B8. If CRC result does not
+      correspond to the magic number, a CRC error shall be raised for the
+      corresponding frame and the packet shall be dropped.</p></li>
+
+      <li id="d1e1187" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:14;61:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:15;61:27">Minimum length HDLC frame is four bytes for 16-bit
+      FCS and 6 bytes for 32-bit FCS (including the HDLC FCS bytes).</p></li>
+
+      <li id="d1e1193" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:15;64:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:16;64:27">Drops packets which are malformed: too short, too
+      long, or with bits not divisible by 8.</p></li>
+
+      <li id="d1e1199" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:16;67:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:17;67:27">Counts dropped format packets with a 32-bit counter,
+      which saturates. The counter saturates at 0x80000000. There is a single
+      counter that can be configured to count a single GCC Link at one
+      time.</p></li>
+
+      <li id="d1e1205" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:17;72:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:18;72:27">Supports bit synchronous HDLC processing. Bit
+      synchronous removes ‘0’ bit after any sequence of five consecutive
+      ‘1’s</p></li>
+
+      <li id="d1e1212" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:18;76:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:19;76:27">No other HDLC address, control, padding, or other
+      fields checked or removed</p></li>
+
+      <li id="d1e1218" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:19;79:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:20;79:27">Does not do HDLC scrambling</p></li>
+
+      <li id="d1e1224" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="li:20;81:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Extract_Path_HDLC_Processor_Features_lhorj1i84.xml" xtrc="p:21;81:27">Discards all flag sequences between packets</p></li>
+    </ul>
+  </body>
+</topic>

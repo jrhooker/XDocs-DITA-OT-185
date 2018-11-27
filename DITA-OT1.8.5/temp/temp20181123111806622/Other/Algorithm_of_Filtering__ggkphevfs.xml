@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Algorithm_of_Filtering__ggkphevfs" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="topic:1;2:127">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="title:1;3:10">Algorithm of Filtering</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:1;6:8">There are ten sets of identical filter per channel. The processing of
+    filters is divided in two stages</p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ol:1;9:9">
+      <li id="d1e5029" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:1;10:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:2;10:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:1;10:49">Processing Stage</b>: In this
+      stage each of the ten set of filters are applied in parallel on the
+      extracted fields of the GFP frame and a PASS/FAIL result is
+      obtained.</p></li>
+
+      <li id="d1e5037" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:2;15:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:3;15:27"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:2;15:49">Evaluation Stage</b>: In this
+      stage each of the filter result is walked through one by one in specific
+      order depending on the PASS/FAIL result of each and the corresponding
+      ‘offset’ to next filter.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:4;21:8">Each of the ten Filters has following configuration fields:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:1;23:9">
+      <li id="d1e5051" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:3;24:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:5;24:27">Select_generic (1 bit)</p></li>
+
+      <li id="d1e5057" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:4;26:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:6;26:27">Type_fields_mask (15 bits)</p></li>
+
+      <li id="d1e5063" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:5;28:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:7;28:27">Type_fields_value (15 bits)</p></li>
+
+      <li id="d1e5069" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:6;30:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:8;30:27">Compare_operator (6 bits)</p></li>
+
+      <li id="d1e5075" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:7;32:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:9;32:27">Action (2 bits)</p></li>
+
+      <li id="d1e5082" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:8;34:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:10;34:27">Continuation_operator (1 bit)</p></li>
+
+      <li id="d1e5088" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:9;36:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:11;36:27">Next_filter_offset (4 bits)</p></li>
+
+      <li id="d1e5094" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:10;38:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:12;38:27">Match indicators (4 bits)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:13;41:8">Apart form these; there is a generic configuration per channel common
+    to all ten filters in a particular channel.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:2;44:9">
+      <li id="d1e5107" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:11;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:14;45:27">GENERIC_OFFSET (7 bits)</p></li>
+
+      <li id="d1e5113" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:12;47:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:15;47:27">GENERIC_MASK (32 bits)</p></li>
+
+      <li id="d1e5119" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:13;49:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:16;49:27">GENERIC_VALUE (32 bits)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:17;52:8">Note that before filters are applied GFP frame fields (EXI, PTI, UPI)
+    are extracted. Four bytes of GFP frame pointed by GENERIC_OFFSET are also
+    extracted.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:18;56:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:3;56:29">Description of Filter fields:</b></p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ol:2;58:9">
+      <li id="d1e5135" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:14;59:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:19;59:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:1;59:31">Select_generic (1-bit)</i> : Indicates whether
+      the standard GFP fields are to be compared using 'type_fields_mask' and
+      'type_fields_value'' from this filter fields or using generic Offset,
+      Mask, Value.</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:3;62:28">
+          <li id="d1e5144" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:15;63:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:20;63:31">0: Extracted GFP frame fields(EXI, PTI and UPI)
+          are masked with corresponding fields (EXI_MASK, PTI_MASK, UPI_MASK)
+          and compared with corresponding values (EXI_VALUE, PTI_VALUE and
+          UPI_VALUE) to obtain the cumulative single bit PASS/FAIL result of
+          this complete filter set.</p></li>
+
+          <li id="d1e5150" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:16;69:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:21;69:31">1: Common Generic filter configuration for a
+          channel (GENERIC_OFFSET, GENERIC_MASK, and GENERIC_VALUE) are used
+          to obtain PASS/FAIL result. (Note that in this case also, except for
+          fields type_fields_mask and type_fields_value, all other fields are
+          used from this filter configuration set itself)</p></li>
+        </ul></li>
+
+      <li id="d1e5158" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:17;76:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:22;76:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:2;76:31">Type_fields_mask (15-bits)</i>: This gives the
+      mask for the GFP frame fields. Valid only when select_generic is
+      ‘0’.</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:4;78:20">
+          <li id="d1e5167" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:18;79:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:23;79:31">EXI_MASK (4 bits): Mask to be applied to the
+          extracted EXI from the frame.</p></li>
+
+          <li id="d1e5173" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:19;82:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:24;82:31">PTI_MASK (3 bits): Mask to be applied to the
+          extracted PTI from the frame.</p></li>
+
+          <li id="d1e5179" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:20;85:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:25;85:31">UPI_MASK (8 bits): Mask to be applied to the
+          extracted UPI from the frame.</p></li>
+        </ul></li>
+
+      <li id="d1e5187" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:21;89:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:26;89:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:3;89:31">Type_fields_value (15-bits)</i>: Value with
+      which the masked GFP frame fields are compared. Valid only when
+      select_generic is ‘0’.</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:5;91:38">
+          <li id="d1e5196" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:22;92:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:27;92:31">EXI_VALUE (4 bits): Value with which the masked
+          extracted EXI is compared</p></li>
+
+          <li id="d1e5202" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:23;95:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:28;95:31">PTI_VALUE (3 bits): Value with which the masked
+          extracted PTI is compared</p></li>
+
+          <li id="d1e5208" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:24;98:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:29;98:31">UPI_VALUE (8 bits): Value with which the masked
+          extracted UPI is compared</p></li>
+        </ul></li>
+
+      <li id="d1e5216" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:25;102:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:30;102:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:4;102:31">Compare_operator (6-bits):</i> If select_generic
+      is ‘0’ then this field has 2 bit operator selection bit for each of the
+      3 type header fields. Operation selection value are</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:6;104:67">
+          <li id="d1e5225" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:26;105:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:31;105:31">00: masked field is equal to value
+          above</p></li>
+
+          <li id="d1e5231" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:27;108:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:32;108:31">01: masked field is greater than value
+          above</p></li>
+
+          <li id="d1e5237" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:28;111:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:33;111:31">10: masked field is less than value
+          above</p></li>
+
+          <li id="d1e5243" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:29;114:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:34;114:31">11: masked field is not equal to value
+          above</p></li>
+        </ul> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:35;116:18">So the final equation becomes:</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:36;116:56">{ [(EXI <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:5;116:67">AND</i>
+      EXI_MASK) <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:4;117:38">&lt;operator0&gt;</b> EXI_VALUE] <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:5;117:92">AND</b> [(PTI <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:6;117:109">AND</i> PTI_MASK) <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:6;117:148">&lt;operator1&gt;</b> PTI_VALUE] <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:7;117:202">AND</b> [(UPI <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:7;117:219">AND</i> UPI_MASK) <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:8;117:258">&lt;operator2&gt;</b> UPI_VALUE] }</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:37;117:300">Else If
+      select_generic is ‘1’ then only first 2 bit are valid which give
+      operator for generic field comparison.</p></li>
+
+      <li id="filter_action" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:30;121:30"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:38;121:33"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:8;121:37">Action (2-bits)</i>: If the comparison
+      passes, following action is performed</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:7;122:53">
+          <li id="d1e5294" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:31;123:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:39;123:31">00: Forward to CPU (via CPU FIFO, read by
+          CPU)</p></li>
+
+          <li id="d1e5300" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:32;126:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:40;126:31">01: Forward to egress interface</p></li>
+
+          <li id="d1e5306" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:33;128:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:41;128:31">10: drop the frame</p></li>
+
+          <li id="d1e5312" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:34;130:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:42;130:31">11: drop the frame and store just UPI in common
+          CSF Status FIFO (to be read by CPU)</p></li>
+        </ul> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:43;132:18">If the comparison fails, no action is performed.</p></li>
+
+      <li id="d1e5324" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:35;134:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:44;134:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:9;134:31">Continuation operator (1-bit)</i>: If the Filter
+      passes, this field indicates whether to merge the current action with
+      the previous filter’s action or override the action</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:8;136:67">
+          <li id="d1e5333" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:36;137:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:45;137:31">0: merge</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:9;137:48">
+              <li id="d1e5340" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:37;138:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:46;138:35">For example, if the previous filter action
+              said ‘Go to egress interface’ and the current action is saying
+              ‘drop the frame’ then the frame goes to egress
+              interface.</p></li>
+
+              <li id="d1e5346" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:38;143:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:47;143:35">Another example can be, if the previous
+              filter action said ‘Go to egress interface’ and the current
+              action is saying ‘Go to CPU’ then the frame goes to both egress
+              interface and CPU.</p></li>
+            </ul></li>
+
+          <li id="d1e5354" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:39;149:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:48;149:31">1: override</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:10;149:51">
+              <li id="d1e5361" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:40;150:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:49;150:35">For example, if the previous filter action
+              said ‘Go to egress interface’ and the current action is saying
+              ‘drop the frame’ then the frame is dropped and does not go to
+              egress interface.</p></li>
+            </ul></li>
+        </ul> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:50;155:18">If the Filter fails, this field is ignored and the actions,
+      if any, from the previous filter sets remains.</p></li>
+
+      <li id="d1e5374" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:41;158:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:51;158:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:10;158:31">Next_filter_offset (4-bits)</i>: If the
+      comparison operation passes the next filter set number to refer is
+      obtained by this offset from current filter set number else the
+      immediate filter set is referred as next set.</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ul:11;161:61">
+          <li id="d1e5383" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:42;162:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:52;162:31">Value of 1111 is reserved for exit condition: If
+          a filter passes and its offset is ‘1111’ then filter operation is
+          terminated at this filter set and no subsequent filter sets are
+          referred.</p></li>
+
+          <li id="d1e5389" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:43;167:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:53;167:31">If the offset calculated using this value
+          crosses the last filter set number then it exits from the filter
+          processing.</p></li>
+        </ul></li>
+
+      <li id="d1e5397" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:44;172:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:54;172:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:11;172:31">Match indicators (4-bits)</i>: The below
+      Configurations are used to derive the mismatch events</p> <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ol:3;173:69">
+          <li id="d1e5406" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:45;174:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:55;174:31">USE_EXI_SET: Set this bit if the filter set is
+          using the EXI value and EXI_MASK to look for a particular value of
+          EXI in received frame.</p></li>
+
+          <li id="d1e5412" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:46;178:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:56;178:31">USE_PTI_SET: Set this bit if the filter set is
+          using the PTI value and PTI_MASK to look for a particular value of
+          PTI in received frame.</p></li>
+
+          <li id="d1e5418" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:47;182:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:57;182:31">USE_UPI_SET: if 'select_generic' bit is '0' then
+          set this bit if the filter set is using the UPI value and UPI_MASK
+          to look for a particular value of UPI in received frame.</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:58;184:75">If
+          'select_generic' bit is '1' then set this bit if the generic filter
+          failure should cause the 'generic filter mismatch' event.</p></li>
+
+          <li id="d1e5427" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:48;188:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:59;188:31">eCSF: If the filter comparison passes and this
+          bit is seen set then the CSF event is registered.</p></li>
+        </ol></li>
+    </ol>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="note:1;193:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:60;193:14">For bullet <xref href="Algorithm_of_Filtering__ggkphevfs.xml#Algorithm_of_Filtering__ggkphevfs/filter_action" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="xref:1;193:125" type="li"><?ditaot gentext?>5</xref>
+    , when the action is '11' (drop the frame and store UPI in common CSF
+    FIFO), it should be ensured by programmer that UPI value filtered
+    correspond to valid range of CSF frame/defect indication</p></note>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:61;198:8"><b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="b:9;198:29">Generic filter configuration:</b></p>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="ol:4;200:9">
+      <li id="d1e5451" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:49;201:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:62;201:27"> <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:12;201:31">GENERIC_OFFSET (7 bits):</i> The Offset for
+      generic filter will span over first 68 bytes (till extension header) of
+      GFP frame. The value of this offset gives the position of first of the 4
+      bytes from the start of the GFP frame. For example value of 0 means
+      bytes 0, 1, 2, 3 are taken. Value of 3 means bytes 3, 4, 5, 6 are
+      taken.</p></li>
+
+      <li id="d1e5459" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:50;208:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:63;208:27">GENERIC_MASK (32 bits): It is a 4 bytes mask applied
+      to the 4 bytes of the incoming GFP frame at an offset specified by
+      ‘GENERIC_OFFSET’ from the start of GFP frame</p></li>
+
+      <li id="d1e5465" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="li:51;212:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:64;212:27">GENERIC_VALUE (32 bits): It is the 4 byte value with
+      which comparison is made of the 4 bytes in incoming GFP frame at an
+      offset given by ‘GENERIC_OFFSET’ and masked by ‘GENERIC_MASK’</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:65;217:8">So the equation for generic becomes [(4 bytes of frame at position
+    GENERIC_OFFSET) AND (GENERIC_MASK)] &lt;<i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="i:13;218:48">operator</i>&gt;
+    (GENERIC_VALUE)</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:66;221:8">If the GENERIC_OFFSET points to any byte beyond the length of GFP frame
+    or has value which looks beyond first 68 bytes, then generic filter gives
+    the FAIL result without performing the comparison operation.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Algorithm_of_Filtering__ggkphevfs.xml" xtrc="p:67;225:8">If at the end of Filter operations no action is concluded, in other
+    words, none of the filter passes, then the frame is dropped. The filter
+    programming should be such that this scenario never arises. For example,
+    if UPI is the last field to compare and there are 2 UPI values(UPI1 and
+    UPI2) to match then one filter checks first UPI value (AcUPI == UPI1), the
+    second filter checks 'not equal to' the other UPI value (AcUPI != UPI2)
+    with action drop and appropriate match indicator configuration to set
+    desired defect indication. Note that there are other ways also to ensure
+    that at least one filter passes.</p>
+  </body>
+</topic>

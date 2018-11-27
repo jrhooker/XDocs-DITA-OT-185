@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="GFP_Mapper_Features" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="topic:1;2:125">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="title:1;3:10">GFP Mapper</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="ul:1;6:9">
+      <li id="d1e2564" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:1;7:27">Supports 5 slices of GFP mapper. <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="ph:1;7:99">With each slice supporting upto 96
+      channels. Maximum number of channel supported through all slice is 120.
+      Maximum combined bandwidth supported through all the slices is 500G. Per
+      slice bandwidth limited to 120G.</ph></p></li>
+
+      <li audience="MSCCInternal" id="d1e2570" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:2;12:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:2;12:51">Accepts variable length
+      frames, receiving data on up to 120 channels, each channel occupying
+      from 1 (ODU0) to 80 (ODU4) time-slots. Channels may be assigned to
+      time-slots in any arrangement, bursty or evenly spaced.</p></li>
+
+      <li id="d1e2576" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:3;17:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:3;17:27">Encapsulates any rate channelized client data
+      according to the frame-mapped GFP protocol as described in ITU-T
+      G.7041/Y.1303 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_G7041" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="xref:1;19:111" type="li"><?ditaot gentext?>14</xref>
+      </p></li>
+
+      <li id="d1e2584" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:4;22:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:4;22:27">Performs rate adaptation via GFP Idle frame
+      insertion. The number of GFP Idle Frames inserted is based on the
+      incoming client packet rate and the outgoing server ODUk container
+      rate.</p></li>
+
+      <li id="d1e2590" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:5;27:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:5;27:27">Performs insertion of GFP-F Core Header and Type
+      Header into client frames.</p></li>
+
+      <li id="d1e2597" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:6;30:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:6;30:27">Optionally inserts UPI from a configuration
+      register.</p></li>
+
+      <li id="d1e2603" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:7;33:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:7;33:27">Supports inband Extension header.</p></li>
+
+      <li id="d1e2609" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:8;35:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:8;35:27">Optionally applies DC-balancing Barker-like code on
+      the core header.</p></li>
+
+      <li id="d1e2615" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:9;38:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:9;38:27">Provides the option to scramble (x^43 + 1) the GFP
+      payload area.</p></li>
+
+      <li id="d1e2621" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:10;41:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:10;41:27">Provides optional payload frame check sequence
+      (pFCS) generation for client data using CRC-32 ISO-13239 as per
+      G.7041.</p></li>
+
+      <li id="d1e2627" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:11;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:11;45:27">Provides an option to calculate and insert Ethernet
+      FCS (eFCS) for client data using CRC-32.ISO-13239 as per IEEE Std
+      802.3-2015. Only one of either pFCS or eFCS can be generated. It is
+      recommended that at least one option be enabled unless an FCS has been
+      appended to the frame by upstream logic. Note that the PFI bit in the
+      GFP-F type header is only set to 1 if the option to generate pFCS is
+      selected.</p></li>
+
+      <li id="d1e2640" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:12;53:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:12;53:27">Supports insertion of firmware formatted GFP Client
+      Management Frames (CMF) / Management Communications frames (MCF) of a
+      size up to 24 bytes per channel into the GFP-F framed traffic.</p></li>
+
+      <li id="d1e2646" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:13;57:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:13;57:27">Performs optional FCS corruption (inversion) when an
+      errored frame is received on the client interface.</p></li>
+
+      <li id="d1e2652" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:14;60:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:14;60:27">Provides per-channel performance counters for GFP
+      client data frames, GFP client data bytes, GFP idle frames, CMF/MCFs,
+      and errored frames transmitted in the output stream.</p></li>
+
+      <li id="d1e2658" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:15;64:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:15;64:27">Maintains per-channel counts of client data frames
+      having a length greater or less than a user programmed value.</p></li>
+
+      <li id="d1e2664" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:16;67:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:16;67:27">Maps incoming client data into the OPUk payload area
+      of an ODUk frame.</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e2671" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:17;70:59"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:17;70:62">Supports ITU-T
+      G.sup43 section 6.2 <xref href="../Chapters/02_References/a_02_references.xml#a_02_references/Ext_ref_Gsup43" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="xref:2;71:118" type="li"><?ditaot gentext?>12</xref>
+      mapping into an OPU2 payload.</p></li>
+
+      <li id="d1e2679" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:18;74:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:18;74:27">Inserts FAS and MFAS into the ODUk frame.</p></li>
+
+      <li id="d1e2685" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:19;76:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:19;76:27">Inserts PSI byte with PT field as provided by
+      software configuration.</p></li>
+
+      <li id="d1e2691" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:20;79:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:20;79:27">Supports software setting/clearing of the CSF bit in
+      the PSI byte. No support is provided, however, for automatic setting of
+      this bit by hardware in response to detected error conditions.</p></li>
+
+      <li id="d1e2697" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:21;83:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:21;83:27">Supports software setting/clearing of the NCS bit in
+      the ODUflex container.</p></li>
+
+      <li id="d1e2703" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:22;86:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:22;86:27">Reserved (RES) fields within overhead bytes are set
+      to 0 except those within the Resize Overhead Configuration (RCOH) which
+      are programmable by the user.</p></li>
+
+      <li id="d1e2710" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="li:23;90:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\GFP_Mapper_Features.xml" xtrc="p:23;90:27">Supports the minimum GFP-F control frame size of 4
+      bytes and the full range of client frame lengths (9 to 65535 bytes). The
+      maximum frame size which can be accepted from the ENET subsystem is
+      10000 bytes.</p></li>
+    </ul>
+  </body>
+</topic>

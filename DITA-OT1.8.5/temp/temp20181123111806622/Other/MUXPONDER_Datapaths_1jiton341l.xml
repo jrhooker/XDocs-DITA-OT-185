@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="MUXPONDER_Datapaths_1jiton341l" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="topic:1;2:124">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="title:1;3:10">Muxponder Datapaths</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="body:1;5:9">
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="note:1;6:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:1;6:38">[DDD/HWS] <xref href="http://bby1dms01/DocMgmt/getfile.cfm?file_id=416475" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="xref:1;6:130"><?ditaot usertext?>http://bby1dms01/DocMgmt/getfile.cfm?file_id=416475</xref>
+    Tab : COREOTN Fuctional (layer ROW on, layer MSCCInternal off, layer DP
+    COPI off, layer DP MUXPONDER on, layer DP TRANSPONDER off, DP COPI Encrypt
+    layer off, DP MUX TRANS ENCRYPT layer off)</p></note>
+
+    <fig id="MUXPONDER_Datapaths_1kiton341l" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="fig:1;11:46">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="title:2;12:14">Muxponder Datapaths</title>
+
+      <image href="DP-MUXPONDER2.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="image:1;14:72"/>
+    </fig>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:1;17:9">
+      <li id="d1e3155" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:1;18:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:2;18:27">A : LINEOTN &lt;&gt; MAPOTN</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:2;18:63">
+          <li id="d1e3177" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:2;19:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:3;19:31">1 stage multiplexing</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:3;19:60">
+              <li id="d1e3184" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:3;20:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:4;20:35">LINEOTN &lt;-&gt; m x (ODU4/ODU4+) (m=1..6)
+              &lt;-&gt; ODTUjk MUX &lt;-&gt; ODUj (j=0,1,2,1e,2e, 3,4, flex)
+              &lt;-&gt; MAPOTN</p></li>
+
+              <li audience="MSCCInternal" id="d1e3190" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:4;24:56"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:5;24:59">LINEOTN &lt;-&gt; m
+              x (ODU4/ODU4+) (m=1..6) &lt;-&gt; ODTUjk MUX &lt;-&gt; ODUj
+              (j=flex(25ge, 50)) &lt;-&gt; MAPOTN</p></li>
+
+              <li id="d1e3196" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:5;28:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:6;28:35">LINEOTN &lt;-&gt; ODUCN (N=1..6) &lt;-&gt;
+              ODTUCn MUX &lt;-&gt; ODUk (k=0,1,2,1e,2e,3,4,flex) &lt;-&gt;
+              MAPOTN</p></li>
+
+              <li audience="MSCCInternal" id="d1e3202" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:6;32:56"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:7;32:59">LINEOTN &lt;-&gt;
+              2xOTUC3 &lt;-&gt; ODTUCn MUX &lt;-&gt; ODUk
+              (k=0,1,2,1f,1e,2f,2e,3,3e1,3e2,4,flex) [yield max 500G]
+              &lt;-&gt; MAPOTN</p></li>
+            </ul></li>
+
+          <li id="d1e3210" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:7;38:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:8;38:31">2 stage multiplexing</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:4;38:60">
+              <li id="d1e3217" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:8;39:32"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:9;39:35">LINEOTN &lt;-&gt; m x ODU4 (m=1..5)
+              &lt;-&gt; ODTUk4 MUX &lt;-&gt; ODUk &lt;-&gt; ODTUjk (up to
+              100G) MUX &lt;-&gt; ODUj &lt;-&gt; MAPOTN</p></li>
+            </ul></li>
+        </ul></li>
+
+      <li id="d1e3242" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:9;45:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:10;45:27">B : LINEOTN &lt;&gt; SYSOTN</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:5;45:63">
+          <li id="d1e3249" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:10;46:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:11;46:31">LINEOTN &lt;-&gt; ODUCn (n=1..6) &lt;-&gt;
+          ODTUCn MUX &lt;-&gt; m x (ODU4/ODU4+) (m=1..6) &lt;-&gt;
+          SYSOTN</p></li>
+        </ul></li>
+
+      <li audience="MSCCInternal" id="d1e3257" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:11;51:48"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:12;51:51">C : LINEOTN &lt;&gt;
+      LINEOTN</p> <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="ul:6;52:23">
+          <li id="d1e3264" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="li:12;53:28"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MUXPONDER_Datapaths_1jiton341l.xml" xtrc="p:13;53:31">LINEOTN &lt;-&gt; ODUCn (n=1..3) &lt;-&gt;
+          ODTUGCn MUX &lt;-&gt; ODUk (k=0,1,2,1f,1e,2f,2e,3,3e1,3e2,4,flex)
+          &lt;-&gt; ODTUCn MUX &lt;-&gt; ODUCn (n=1..3) &lt;-&gt;
+          LINEOTN</p></li>
+        </ul></li>
+    </ul>
+  </body>
+</topic>

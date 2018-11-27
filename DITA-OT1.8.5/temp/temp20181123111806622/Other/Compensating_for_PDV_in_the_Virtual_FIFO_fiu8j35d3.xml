@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="title:1;3:10">Compensating for PDV in the Virtual FIFO</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="p:1;6:8">When data is sent across an Interlaken based fabric, there is packet
+    delay variation (PDV) that must be accounted for in the sizing of datapath
+    buffers and in the centering of the aggregate datapath buffer. It must be
+    ensured that sufficient data is stored in the DCPB of the egress device to
+    accommodate this variation without buffers under-running or
+    overflowing.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="p:2;13:8">The datapath region between the Packet Maker in the ingress device and
+    the Packet Monitor in the egress device can be thought of as a virtual
+    buffer. For ODUk data sent from the ingress device, the datapath latency
+    in this virtual buffer is monitored at the egress device so that external
+    latency can be compensated for in the virtual buffer. In order to monitor
+    datapath latency, a synchronized 8 kHz frame pulse must be delivered to
+    both the ingress device and the egress device. This frame pulse
+    synchronizes 311.04 MHz counters used to determine the datapath latency
+    via the OIF-OFP timestamp header described in <xref href="Timestamp_Header_aiu8j35d2.xml#Timestamp_Header_aiu8j35d2" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:1;21:123" type="topic"><?ditaot gentext?>Timestamp Header</xref>.
+    The timestamp header is inserted into the datastream by the Packet Maker
+    shown in <xref href="Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml#Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3/Virtual_FIFO_giu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:2;23:157" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    Details on the external frame pulse input requirements and conditioning
+    logic are described in <xref href="Input_Frame_pulse_requirements_and_condi_hiu8j35d3.xml#Input_Frame_pulse_requirements_and_condi_hiu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:3;25:148" type="topic"><?ditaot gentext?>Input Frame pulse requirements and conditioning</xref>.
+    The Packet Monitor shown in <xref href="Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml#Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3/Virtual_FIFO_giu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:4;26:176" type="fig"><?ditaot gentext?>Figure 1</xref>
+    measures the latency of the aggregate virtual buffer, enabling flow
+    control operations based on the aggregate virtual buffer latency. Note
+    that in addition to the synchronized frame pulse, the REFCLK of the two
+    devices must be frequency locked.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="note:1;32:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:5;32:137"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198
+    </xref> Max Fabric Latency tab</note>
+
+    <fig id="Virtual_FIFO_giu8j35d3" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="fig:1;36:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="title:2;37:14">PDV Buffering in the DCPB with Maximum PDV</title>
+
+      <image href="Virtual_FIFO.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="image:1;39:71"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="p:3;42:8">The aggregate virtual buffer latency is comprised of two components.
+    The hysteresis buffer component of the virtual buffer is reserved for
+    internal datapath flow control and rate transition guard band. Hysteresis
+    buffer sizing considerations are detailed in <xref href="Hysteresis_buffer_sizing_considerations_siu8j35d3.xml#Hysteresis_buffer_sizing_considerations_siu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:6;45:168" type="topic"><?ditaot gentext?>Hysteresis buffer sizing considerations</xref>.
+    The maximum external latency component of the virtual buffer offsets the
+    hysteresis buffer such that external latency can be compensated for,
+    properly positioning the virtual hysteresis buffer safely within the Rx
+    device DCPB switch without impacting flow control and rate recovery
+    operations. The relationship between the Virtual buffer latency and the
+    physical datapath buffer occupancy is shown in <xref href="Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml#Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3/Virtual_FIFO_giu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:7;51:195" type="fig"><?ditaot gentext?>Figure 1</xref>.
+    The maximum external latency is specified via the
+    ilkn_info.fabric_egress_data.opsa_fifo.latency_s parameter of the <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="b:1;53:92"> g5_api_ilkn_cbr_prov() </b>API in units of 311.04 MHz
+    reference clock cycles.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="p:4;56:8">Latency_s must represent the maximum external latency under worst-case
+    operating conditions, including the companion latency of the peer device
+    (as characterized for DIGI-G5 in <xref href="ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml#ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:8;58:158" type="topic"><?ditaot gentext?>ILKN Ingress Device Companion Latency</xref>)
+    and the Interlaken fabric latency. It should be noted that operating
+    conditions will change depending on the characteristics of the combined
+    traffic from the peer device and through the fabric. It is possible to
+    measure the external latency as described in <xref href="External_Latency_Measurement_1jiu8j35d4.xml#External_Latency_Measurement_1jiu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:9;62:148" type="topic"><?ditaot gentext?>External Latency Measurement</xref>.
+    Measurement can assist with proper configuration of the latency_s
+    parameter, but it should be noted that measurements may only represent the
+    latency during a short snapshot in time under very specific operating
+    conditions. If operating conditions increase the maximum external latency
+    such that latency_s no longer compensates for the maximum external latency
+    (i.e. more ODUks are provisioned through the fabric), the hysteresis
+    buffer will not be positioned correctly in the Rx device DCPB,
+    compromising flow control and rate recovery operations. These concepts are
+    further explored in <xref href="Troubleshooting_Latency_Management_miu8j35d3.xml#Troubleshooting_Latency_Management_miu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Compensating_for_PDV_in_the_Virtual_FIFO_fiu8j35d3.xml" xtrc="xref:10;71:133" type="topic"><?ditaot gentext?>Troubleshooting Latency Management</xref>,
+    troubleshooting latency compensation and PDV buffering.</p>
+  </body>
+</topic>

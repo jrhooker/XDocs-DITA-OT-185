@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181114135739933\data_proc_subsystem\ingress_dpu\introduction?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181114135739933/data_proc_subsystem/ingress_dpu/introduction/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="idpu_intro" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="title:1;3:10">Introduction</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="ul:1;6:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:1;7:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:1;7:14"> Ingress data processing subsystem is a functional unit that
+      processes an input data stream read from the controller memory and then
+      writes the processed output data stream back to controller memory as
+      shown in the following figure:</p><fig id="fig_idpu_top" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="fig:1;10:64">
+          <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="title:2;11:18">Ingress Data Processing Unit Top Level Block</title>
+
+          <image href="../figures/ingressdputopblock.svg" width="492" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="image:1;13:72"/>
+        </fig><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="ul:2;14:19">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:2;15:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:2;15:18">Ingress data processing subsystem includes data protection
+          information processing engine 1 (PI1) and engine 2 (PI2), and an
+          encryption engine. </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:3;19:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:3;19:18">The input data stream to ingress processing subsystem is
+          defined by the source SGL and the output data stream is defined by
+          the destination SGL in a request message.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:4;23:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:4;23:18">The sequence of data processing is fixed: Input data stream ⇨
+          PI1 ⇨ PI2 ⇨ Encryption ⇨ Output data stream.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:5;26:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:5;26:18">Each data processing engine can be enabled or disabled
+          individually, except in the case where PI1 is disabled, P2 has to be
+          disabled. </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:6;30:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:6;30:18">Output data stream from each engine will be streamlined
+          directly, instead of being stored and then forwarded, to next engine
+          or controller memory. </p></li>
+        </ul></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:7;35:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:7;35:14">Ingress data processing subsystem processes inbound ingress DPS
+      request messages received on one Ingress DPS inbound message queue, then
+      initiates a data transfer and data processing from controller memory.
+      After data processing and transfer completion, it sends out outbound
+      ingress DPS completion messages, if needed, either on one Ingress DPS
+      outbound message queue (for non-cascaded cases) or stored in a specified
+      memory location (for cascaded cases). </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="ul:3;41:53">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:8;42:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:8;42:18">Ingress data processing subsystem supports both inbound
+          concise message and inbound extended message format. </p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:9;45:15"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="p:9;45:18">Ingress data processing subsystem supports both outbound
+          concise message and outbound extended message format.</p></li>
+
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:10;48:15">A total of 32 inbound message queues and 16 outbound message
+          queues are supported.</li>
+        </ul></li>
+
+      <li audience="MSCCInternal" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\morristown\data_proc_subsystem\ingress_dpu\introduction\introduction.xml" xtrc="li:11;52:35">Operational state and power management (TBD)
+      [PK] Need to update</li>
+    </ul>
+  </body>
+</topic>

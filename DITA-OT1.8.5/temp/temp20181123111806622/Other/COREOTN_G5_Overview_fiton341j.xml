@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="COREOTN_G5_Overview_fiton341j" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="title:1;3:10">COREOTN Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:1;6:8">The COREOTN subsystem processes ODU and OPU overhead, data, and
+    consequential actions across multiple channels concurrently. The COREOTN
+    subsystem has <ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:1;8:58">four</ph><ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:2;8:92">two</ph> bidirectional ODU interfaces (CBR):</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ul:1;10:9">
+      <li id="d1e706" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="li:1;11:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:2;11:26">LINEOTN interface (Server interface): Supports ODUCn
+      (n=1-6) and ODU4 rates, up to 600G of Bandwidth</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e712" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="li:2;14:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:3;14:61">SYSOTN interface
+      (Client interface): Supports ODUCn (n=1-6) and ODU4 rates, up to 600G of
+      Bandwidth, but bandwidth is shared with the MAP interface.</p></li>
+
+      <li id="d1e718" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="li:3;18:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:4;18:26">MAPOTN interface (MAP interface): Supports any ODUk
+      clients (<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:3;19:55">ODU0, ODU1, ODU2, ODU1e,
+      ODU2e, ODU3, </ph>ODU4, ODUflex (600G)) up to 120 channels. Maximum
+      bandwidth is 600G but is shared with the Client interface.</p></li>
+
+      <li audience="DIGIG5_NOKIA DIGIG5_ROW" id="d1e724" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="li:4;23:58"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:5;23:61">COPI interface
+      (towards the Fabric I/F): Supports any ODUk clients (ODU0, ODU1, ODU2,
+      ODU1e, ODU2e, ODU1f, ODU2f, ODU3, ODU3e1, ODU3e2 ODU4, ODU4+ ODUflex
+      (500G)) up to 190 channels. Maximum bandwidth is 500G.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:6;29:8">On the Server interface, the COREOTN supports up to one level of ODTUCn
+    muxing<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:4;30:50"> and another level of ODTUjk
+    multiplexing using AMP or GMP protocol. The COREOTN also supports one
+    level of HO ODTUj4 and there is an option to add another stage of 100G
+    ODTUjk multiplexing (please refer below to the Modes of Operation,
+    Capabilities, and Limitations). Note that the levels of ODTU multiplexing
+    are optional</ph>. In the ODTUCn muxing, the COREOTN supports n= 1-6 with
+    an aggregate bandwidth of 600G. Within a Cn any legal ODUj clients are
+    supported, as per G.709 with maximum of 60 channels in the ODUC6 case.<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:5;37:114"> For ODTUjk multiplexing, any legal
+    combination of ODUKs are supported up to ODU4, with an aggregate bandwidth
+    of 600G and 190 channels.</ph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:7;41:8">Note : Channels are ODUk’s. Tributary slots are able to be associated
+    with channels/ODUk’s, and unavailable/unallocated/invalid TS/calendar
+    slots do not use up one of the available channel resources.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:8;45:8">The COREOTN subsystem complies with the relevant sub-clauses of G.709,
+    G.798, G.806 and Gsup43 data processing from the ODU layers to the OPUk
+    layers. All client layer de-mapping/mapping protocols are handled outside
+    this subsystem<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:6;48:58"> except muxing
+    to/from LO ODU clients</ph>.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:9;51:8">Along with <ph audience="META-600G" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:7;51:44">the</ph><ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:8;51:91">each</ph> multiplexing stage, there is
+    an ODU layer framing stage, as shown in the block diagram (Stage 1, 2,<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:9;52:114"> 3a, 3b,</ph> 4<ph audience="DIGIG5_NOKIA DIGIG5_ROW" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="ph:10;52:168">, N</ph>). There is an RX and TX pair
+    in each stage, the RX framer handles all the TCM, PM and ODU adaptation
+    sink functions and the TX framer handles the counterpart source functions.
+    Within the framers nesting and cascading of TCM’s are supported to realize
+    the various network SNC protocols and fault isolation requirements. The TX
+    and RX framers support ODU layer overhead, but for specific overhead
+    support (like GCC, RES..) an Overhead add/drop port is supported through
+    the OHP block. There is a specific GCC only add/drop port ,which supports
+    HDLC delineated GCC frames. Two Ring Control Ports (RCP) are supported:
+    RI_RCP to connect remote RX or TX framers backward indicator to local RX
+    or TX framers (to perform switching protocols); DI_RCP to advertise chip
+    level defects/PMONs to hardware APS, defect processing or PMON
+    engines.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Overview_fiton341j.xml" xtrc="p:10;66:8">ODU layer encryption/decryption is supported for ODUk or ODUC level
+    containers for the OPU payload region. There are a total of 6x 100G OTN
+    encryption engines, each is capable of supporting up to 10 ODU channels.
+    Once the 6 encryption engines are connected to a framer stage on startup,
+    they cannot be moved without restarting the device, but the channels can
+    be moved in and out of encryption within a stage.</p>
+  </body>
+</topic>

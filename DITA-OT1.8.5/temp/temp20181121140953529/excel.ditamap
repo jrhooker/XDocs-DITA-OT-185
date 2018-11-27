@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181121140953529?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181121140953529/?><?path2project ?><bookmap class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.2" domains="(map bookmap)                          (topic delay-d)                          (map mapgroup-d)                          (topic indexing-d)                           (topic xnal-d)                          (topic hi-d)                           (topic ut-d)                           (topic hazard-d)                          (topic abbrev-d)                          (topic pr-d)                           (topic sw-d)                          (topic ui-d)                                                   (topic pmcrevhis-d)                          (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)                         " id="xd_a2f6d6a64a24a8c0--30977bca-166121544dd--7f64" xml:lang="en-US" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xtrc="bookmap:1;2:143" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+  <title class="- topic/title " xtrc="title:1;3:10" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Excel Test</title>
+
+  <bookmeta class="- map/topicmeta bookmap/bookmeta " xtrc="bookmeta:1;5:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+    <pmc_iso audience="PMCInternal" class="+ bookmap/bookchangehistory pmciso-d/pmc_iso " xtrc="pmc_iso:1;6:37" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+      <pmc_title class="+ topic/p pmciso-d/pmc_title " xtrc="pmc_title:1;7:18" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Excel Test</pmc_title>
+
+      <pmc_subtitle class="+ topic/p pmciso-d/pmc_subtitle " xtrc="pmc_subtitle:1;9:22" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></pmc_subtitle>
+
+      <pmc_abstract class="+ topic/section pmciso-d/pmc_abstract " xtrc="pmc_abstract:1;11:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:1;12:12" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">This is the [ ] for the [ ] device.</p>
+      </pmc_abstract>
+
+      <pmc_productnumber class="+ topic/ph pmciso-d/pmc_productnumber " xtrc="pmc_productnumber:1;15:26" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[PMxxxx]</pmc_productnumber>
+
+      <pmc_document_id class="+ topic/ph pmciso-d/pmc_document_id " xtrc="pmc_document_id:1;17:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[PMC-xxxxxxx]</pmc_document_id>
+
+      <pmc_issue_date class="+ topic/ph pmciso-d/pmc_issue_date " xtrc="pmc_issue_date:1;19:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></pmc_issue_date>
+
+      <pmc_dev_status class="+ topic/ph pmciso-d/pmc_dev_status " dev_status="Preliminary" xtrc="pmc_dev_status:1;21:49" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></pmc_dev_status>
+
+      <pmc_doc_status class="+ topic/ph pmciso-d/pmc_doc_status " doc_status="Draft" xtrc="pmc_doc_status:1;23:24" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></pmc_doc_status>
+
+      <pmc_issuenum class="+ topic/ph pmciso-d/pmc_issuenum " xtrc="pmc_issuenum:1;25:22" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></pmc_issuenum>
+
+      <pmc_footertext class="+ topic/p pmciso-d/pmc_footertext " xtrc="pmc_footertext:1;27:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:2;28:12" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">Proprietary and Confidential to PMC-Sierra, Inc.</p>
+      </pmc_footertext>
+
+      <pmc_patents class="+ topic/p pmciso-d/pmc_patents " xtrc="pmc_patents:1;31:20" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <p class="- topic/p " xtrc="p:3;32:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></p>
+      </pmc_patents>
+
+      <pmc_revhistory class="+ topic/section pmciso-d/pmc_revhistory " xtrc="pmc_revhistory:1;35:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+        <pmc_revision class="+ pmciso-d/pmc_revision " xtrc="pmc_revision:1;36:23" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+          <pmc_rev_number class="+ topic/ph topic/prognum pmciso-d/pmc_rev_number " xtrc="pmc_rev_number:1;37:27" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[x]</pmc_rev_number>
+
+          <pmc_date class="+ topic/ph pmciso-d/pmc_date " xtrc="pmc_date:1;39:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Month Year]</pmc_date>
+
+          <pmc_name class="+ topic/p pmciso-d/pmc_name " xtrc="pmc_name:1;41:21" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Author Name]</pmc_name>
+
+          <pmc_revdescription class="+ topic/section pmciso-d/pmc_revdescription " xtrc="pmc_revdescription:1;43:31" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">
+            <p class="- topic/p " xtrc="p:4;44:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap">[Revision Details]</p>
+          </pmc_revdescription>
+        </pmc_revision>
+      </pmc_revhistory>
+    </pmc_iso>
+  </bookmeta>
+
+  <frontmatter class="- map/topicref bookmap/frontmatter " xtrc="frontmatter:1;51:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><booklists class="- map/topicref bookmap/booklists " xtrc="booklists:1;52:16" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><toc class="- map/topicref bookmap/toc " xtrc="toc:1;53:13" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"></toc></booklists></frontmatter>
+
+  <chapter class="- map/topicref bookmap/chapter " href="ExcelTest.xml" type="topic" xtrc="chapter:1;57:34" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\excel\excel.ditamap"><topicmeta class="- map/topicmeta " resourceid="xd_a2f6d6a64a24a8c0--30977bca-166121544dd--7fa8"><navtitle class="- topic/navtitle ">Excel Test</navtitle><?ditaot gentext?><linktext class="- map/linktext ">Excel Test</linktext></topicmeta></chapter>
+</bookmap>

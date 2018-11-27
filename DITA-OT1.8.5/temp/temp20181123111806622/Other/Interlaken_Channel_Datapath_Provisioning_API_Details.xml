@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="topic:1;2:153">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:1;3:10">Interlaken Channel Datapath Segment Provisioning API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:1;6:8">The flowchart for provisioning Interlaken channels shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/fig_Interlaken_Channel_Provisioning_Flowchar_ejkvevxpc" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:1;6:185" type="fig"><?ditaot gentext?>Figure 1</xref> below and uses the g5_api_ilkn_fc_set() and g5_api_ilkn_pkt_prov()
+    or g5_api_ilkn_cbr_prov() API.</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="note:1;10:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:2;10:38">The source file for the following diagram
+    can be found at
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=444764
+    (sheet "ILKN_Provision")</p></note>
+
+    <fig id="fig_Interlaken_Channel_Provisioning_Flowchar_ejkvevxpc" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="fig:1;15:70">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:2;16:14">Interlaken Channel Provisioning Flowchart</title>
+
+      <image href="Interlaken_Channel_Provision_Flowchart.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="image:1;18:65"/>
+    </fig>
+
+    <section id="section__7jepy0276" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="section:1;21:38"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:3;21:45">g5_api_ilkn_fc_set()
+    </title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:3;22:16">The g5_api_ilkn_fc_set() API takes in the Interlaken Flow
+    Control Calendar and stores it to be applied later when Interlaken
+    channels get provisioned by the g5_api_ilkn_cbr_prov() API or
+    g5_api_ilkn_pkt_prov() API. This API is used to configure the user defined
+    Flow Control calendar for a 1 x Fabric Ingress interface and up to 3
+    instances of Fabric Egress interfaces per device. The API parameters are
+    shown below with any associated arrays.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:1;28:52">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:1;29:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:4;29:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:2;31:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:5;31:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:3;33:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:6;33:16">ilkn_intf - g5_ilkn_intf_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:4;35:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:7;35:16">tx_fc_cal - g5_ilkn_fc_cal_t *</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:5;37:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:8;37:16">rx_fc_cal - g5_ilkn_fc_cal_t *</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:9;38:15">The device_id parameter is the device instance. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:10;38:70">The
+    ilkn_intf parameter of the g5_api_ilkn_fc_set() API defined by the
+    enumeration g5_ilkn_intf_t and is the Interlaken interface instance that
+    the flow control calendar applies to. The enumerator values are shown in
+    the table below. </p><table id="table_g5_ilkn_intf_t_Enumeration_for_the_fabri_ajeqa1hir" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:1;42:95">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:4;43:16">g5_ilkn_intf_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:1;45:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:1;46:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:1;47:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:1;48:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:11;48:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:2;50:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:12;50:25"> Interlaken Instance</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:1;54:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:2;55:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:3;56:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:13;56:25">G5_ILKN_INTF_0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:4;58:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:14;58:25">Interlaken interface instance #0. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:3;61:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:5;62:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:15;62:25">G5_ILKN_INTF_1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:6;64:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:16;64:25">Interlaken interface instance #1. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:4;67:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:7;68:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:17;68:25">G5_ILKN_INTF_2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:8;70:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:18;70:25">Interlaken interface instance #2. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:5;73:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:9;74:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:19;74:25">G5_ILKN_INTF_NONE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:10;76:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:20;76:25">No Interlaken interface is to be used.</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:21;80:18">The *tx_fc_cal parameter of the g5_api_ilkn_fc_set() API is
+    an input array of 300 UINT32 flow control entries for Fabric ingress. This
+    can be set to NULL if this API is used to set the Rx flow control calendar
+    only. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:22;83:18">The *rx_fc_cal parameter of the g5_api_ilkn_fc_set() API is
+    an input array of 300 UINT32 flow control entries for Fabric egress. This
+    can be set to NULL if this API is used to set the Tx flow control calendar
+    only.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:23;86:17">Both *tx_fc_cal and *rx_fc_cal use the g5_ilkn_fc_cal_t Struct
+    Reference to define the Interlaken flow control calendar. Each calendar
+    can contain up to 300 entries (defined by fc_cal_length). Each entry
+    corresponds to a flow control bit that is passed in-band on the Interlaken
+    interface.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:24;90:22">Each flow control entry can be one of following for BCW
+    Channel ID data: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:2;91:30">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:6;92:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:25;92:16"> G5_ILKN_NULL_CAL_ENTRY – calendar entry is unused </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:7;94:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:26;94:16"> G5_ILKN_LINK_FLOW_CONTROL – calendar entry is passing flow
+        control for the link channel number – calendar entry is passing flow
+        control for a specific BCW channel ID (from 0 to 255).</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:27;97:15">Each flow control entry can be one of following for 2B header
+    data: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:3;98:19">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:8;99:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:28;99:16"> G5_ILKN_NULL_CAL_ENTRY_2B – calendar entry is unused</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:9;101:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:29;101:16"> G5_ILKN_LINK_FLOW_CONTROL_2B – calendar entry is passing flow
+        control for the link channel number – calendar entry is passing flow
+        control for a specific 2 byte header (from 0 to 0xFFFF). </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:30;104:15">The channel number is represented through the 2B header by
+    method of CAM search if Interlaken configuration has: 'rx_header_mode' set
+    to G5_ILKN_RX_HEADER_2B_CAM or G5_ILKN_RX_HEADER_2B_CAM_AND_4B,
+    'tx_header_mode' set to G5_ILKN_TX_ILKN_HEADER_2B or
+    G5_ILKN_TX_HEADER_2B_AND_4B. Otherwise channel number is represented as
+    BCW channel ID. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:31;109:28">Channels can represent arbitrary bandwidth from
+    1.25G to 500G. The speed of flow control response (i.e reacting to either
+    XOFF or XON) is controlled by how the calendar entries are populated.
+    Specifically, how many calendar entries have the same channel number and
+    the distribution of these entries over the complete calendar. For example,
+    if you were using in-band flow control with 16 flow control bits per
+    ICW/BCW and 300 calendar entries (which requires 18 ICW/BCW to transfer)
+    shown in the table below. </p><table id="table_Interlaken_Inband_Flow_Control_Calendar__bjeqb20zg" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:2;116:104">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:5;117:16">Interlaken Inband Flow Control Calendar Example</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:2;119:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:2;120:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:6;121:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:11;122:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:32;122:25"> Channel Size</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:12;124:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:33;124:25">Number of entries used</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:2;128:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:7;129:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:13;130:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:34;130:25"> Link flow cont</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:14;132:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:35;132:25">use 1 entry every ICW/BCW</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:8;135:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:15;136:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:36;136:25"> 100G channel</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:16;138:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:37;138:25">use 1 entry every ICW/BCW (consumes all the
+              bandwidth)</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:9;142:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:17;143:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:38;143:25"> 40G channel</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:18;145:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:39;145:25">use 1 entry every 3 ICW/BCW (consumes 1/3 of the
+              bandwidth)</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:10;149:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:19;150:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:40;150:25"> 10G channel</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:20;152:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:41;152:25">use 1 entry every 12 ICW/BCW (consumes 1/12 of the
+              bandwidth)</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:11;156:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:21;157:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:42;157:25"> 1.25G (ODU0) channel </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:22;159:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:43;159:25">use 1 entry every 18 ICW/BCW (consumes 1/96 of the
+              bandwidth)</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+
+    <section id="section_g5_api_ilkn_pkt_prov__0jl7579v1" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="section:2;166:59"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:6;166:66">g5_api_ilkn_pkt_prov()
+    </title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:44;167:16">The g5_api_ilkn_pkt_prov() API provisions a packetized
+    Interlaken segment. The function configures the Interlaken channel and
+    provisions the Interlaken channel across the DCPB. After this function is
+    called, the datapath is provisioned but not activated at the DCPB.The API
+    parameters are shown below with any associated enumerated types.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:4;171:77">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:10;172:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:45;172:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:11;174:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:46;174:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:12;176:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:47;176:16">fabric_ingress_rate - g5_fabric_ingress_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:13;178:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:48;178:16">fabric_ingress_client_num_incr</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:14;180:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:49;180:16">fabric_ingress_halt_buffer</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:15;182:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:50;182:16">fabric_ingress_bcw_chnl</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:16;184:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:51;184:16">fabric_egress_halt_buffer</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:17;186:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:52;186:16">fabric_egress_bcw_chnl, </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:18;188:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:53;188:16">header_mode - g5_ilkn_pkt_header_t </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:54;189:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user specified channel ID for the datapath channel.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:55;191:12">The fabric_ingress_rate parameter of the g5_api_ilkn_pkt_prov() API
+    provides the information for clients passing through DCPB and is defined
+    by the enumeration g5_fabric_ingress_rate_t. The rate enumerators are
+    shown in<xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/table_g5_fabric_ingress_rate_t_Enumeration_Par_8jepztusv" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:2;194:132" type="table"><?ditaot gentext?>Table 3</xref> below. </p><table id="table_g5_fabric_ingress_rate_t_Enumeration_Par_8jepztusv" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:3;195:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:7;196:16">g5_fabric_ingress_rate_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:3;198:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:3;199:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:12;200:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:23;201:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:56;201:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:24;203:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:57;203:25"> </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:3;207:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:13;208:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:25;209:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:58;209:25">G5_FABRIC_INGRESS_RATE_1G25</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:26;211:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:59;211:25">ODU0 traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:14;214:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:27;215:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:60;215:25">G5_FABRIC_INGRESS_RATE_2G5</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:28;217:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:61;217:25">ODU1 traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:15;220:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:29;221:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:62;221:25">G5_FABRIC_INGRESS_RATE_10G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:30;223:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:63;223:25">ODU2, ENET 10GE traffic, or FlexE 10GE client.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:16;227:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:31;228:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:64;228:25">G5_FABRIC_INGRESS_RATE_25G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:32;230:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:65;230:25">ENET 25GE traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:17;233:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:33;234:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:66;234:25">G5_FABRIC_INGRESS_RATE_40G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:34;236:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:67;236:25">ODU3 traffic or FlexE 40GE client. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:18;239:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:35;240:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:68;240:25">G5_FABRIC_INGRESS_RATE_50G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:36;242:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:69;242:25">ENET 50GE traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:19;245:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:37;246:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:70;246:25">G5_FABRIC_INGRESS_RATE_100G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:38;248:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:71;248:25">ODU4 or ENET 100GE traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:20;251:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:39;252:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:72;252:25">G5_FABRIC_INGRESS_RATE_200G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:40;254:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:73;254:25">ENET 200GE traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:21;257:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:41;258:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:74;258:25">G5_FABRIC_INGRESS_RATE_400G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:42;260:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:75;260:25">ENET 400GE traffic. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:22;263:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:43;264:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:76;264:25">G5_FABRIC_INGRESS_RATE_NXODU0_GFP_FLEX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:44;266:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:77;266:25">ODUFlex traffic; number of ODU0 needs to be specified
+              along with this. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:23;270:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:45;271:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:78;271:25">G5_FABRIC_INGRESS_RATE_NX25G_FLEXE_CLIENT</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:46;273:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:79;273:25">FlexE client in 25G increment. Range 25G to 500G (ILKN
+              max bandwidth) number of 25G increments needs to be specified
+              along with this. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:80;279:18">The fabric_ingress_client_num_incr parameter of the
+    g5_api_ilkn_pkt_prov() API is used for the packet data channel rate. If
+    the parameter fabric_ingress_rate ==
+    G5_FABRIC_INGRESS_RATE_NXODU0_GFP_FLEX then the recommended values are in
+    <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/table_NxODU0_values_for_ODUk_Rate_for_fabric_i_9jeq0gbqy" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:3;283:124" type="table"><?ditaot gentext?>Table 4</xref> below. For ODUflex(GFP), use the following formula to calculate
+    the fabric_ingress_client_num_incr parameter:
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:81;286:12">fabric_ingress_client_num_incr &gt;= (signal_rate
+    Gbps)/(ODUk.ts_bit_rate Gbps), where ODUk.ts bit rates are: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:5;287:73">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:19;288:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:82;288:16"> ODU2.ts = 1.249177230 Gbps</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:20;290:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:83;290:16"> ODU3.ts = 1.254470354 Gbps</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:21;292:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:84;292:16"> ODU4.ts = 1.301467133 Gbps</p></li>
+      </ul><table id="table_NxODU0_values_for_ODUk_Rate_for_fabric_i_9jeq0gbqy" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:4;293:81">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:8;294:16">NxODU0 Values for ODUk Rate for
+        fabric_ingress_client_num_incr</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:4;297:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:4;298:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:24;299:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:47;300:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:85;300:25">Rate</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:48;302:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:86;302:25"> </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:4;306:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:25;307:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:49;308:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:87;308:25">ODU4</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:50;310:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:88;310:25">80</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:26;313:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:51;314:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:89;314:25">ODU3</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:52;316:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:90;316:25">32</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:27;319:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:53;320:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:91;320:25">ODU2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:54;322:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:92;322:25">8</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:28;325:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:55;326:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:93;326:25">ODU1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:56;328:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:94;328:25">4</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:29;331:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:57;332:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:95;332:25">ODU0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:58;334:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:96;334:25">1</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:97;338:18">If the parameter fabric_ingress_rate ==
+    G5_FABRIC_INGRESS_RATE_NX25G_FLEXE_CLIENT then parameter
+    fabric_ingress_client_num_incr is the number of 25G bit rate increments.
+    The fabric_ingress_client_num_incr parameter is not used if the parameter
+    fabric_ingress_rate of the g5_api_ilkn_pkt_prov() API does not equal
+    G5_FABRIC_INGRESS_RATE_NXODU0_GFP_FLEX or
+    G5_FABRIC_INGRESS_RATE_NX25G_FLEXE_CLIENT.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:98;344:54">The
+    fabric_ingress_halt_buffer parameter of the g5_api_ilkn_pkt_prov() API is
+    the CPB FIFO buffer room to capture in flight data in the event that CPB
+    FIFO is backpressured from down stream subsystem. For example Interlaken
+    backpressures CPB due to channel XOFF being detected.
+    fabric_ingress_halt_buffer is specified in units of blocks. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:99;349:72">The
+    fabric_ingress_bcw_chnl parameter of the g5_api_ilkn_pkt_prov() API is the
+    ingress Interlaken channel ID in the BCW header.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:100;351:60">The
+    fabric_egress_halt_buffer parameter of the g5_api_ilkn_pkt_prov() API is
+    the CPB FIFO buffer room to capture in flight data in the event that CPB
+    FIFO is backpressured from down stream subsystem. For example Interlaken
+    backpressures CPB due to channel XOFF being detected.
+    fabric_egress_halt_buffer is specified in units of blocks.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:101;356:70">The
+    fabric_egress_bcw_chnl parameter of the g5_api_ilkn_pkt_prov() API is the
+    egress Interlaken channel ID in the BCW header.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:102;358:59">The header_mode
+    parameter of the g5_api_ilkn_pkt_prov() API is defined by the
+    g5_ilkn_pkt_header_t enumeration that specifies the Interlaken Interface
+    packet traffic header presence. A four byte header may be used to provide
+    small packet throughput performance or to transfer data to be set in the
+    Tx GFP UPI TYPE field. The header is ignored for Ethernet interface
+    applications, but is supported to allow header presence consistency or
+    non-consistency as required by the connected Interlaken fabric device. The
+    enumerator choices are G5_ILKN_PKT_HEADER_NONE, where no optional header
+    is present, or G5_ILKN_PKT_HEADER_4B where the optional 4 byte header is
+    present. </p></section>
+
+    <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="section:3;370:14"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:9;370:21">g5_api_ilkn_cbr_prov() </title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:103;370:55">The
+    g5_api_ilkn_cbr_prov() API provisions a CBR Interlaken segment. After this
+    function is called, the datapath is provisioned but not connected across
+    the OCPB and requires a call to the g5_api_switch_connect() API. This API
+    can be used in an additive manner where the Interlaken channel is set up
+    only in the fabric ingress direction or only in the fabric egress
+    direction or both. To perform Tx Interlaken channel provisioning
+    independently of Rx Interlaken channel provisioning: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:6;377:66">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:22;378:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:104;378:16"> If provisioning Tx before Rx: Provision Tx Interlaken only by
+        providing 'fabric_ingress_data' struct of 'g5_traffic_ilkn_cbr_t'
+        struct.</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:23;382:13">If provisioning Rx before Tx: Provision Rx Interlaken only by
+        providing 'fabric_egress_data' struct of 'g5_traffic_ilkn_cbr_t'
+        struct</li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:24;386:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:105;386:16"> If provisioning Rx and Tx at the same time: Provision Tx and
+        Rx paths both by providing 'fabric_ingress_data' and
+        'fabric_egress_data' of 'g5_traffic_ilkn_cbr_t' struct. </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:106;389:15">The g5_api_ilkn_cbr_prov() API parameters are shown below with
+    any associated structures.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:7;390:39">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:25;391:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:107;391:16">device_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:26;393:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:108;393:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:27;395:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:109;395:16">info - g5_traffic_ilkn_cbr_t &amp;</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:110;396:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user specified Interlaken channel ID for the datapath
+    channel.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:111;398:20">The info parameter is defined by the structure
+    g5_traffic_ilkn_cbr_t that has two members fabric_ingress_data and
+    fabric_egress_data. These are defined by two additional structures,
+    g5_ilkn_cbr_fabric_ingress_t and g5_ilkn_cbr_fabric_egress_t,
+    respectively. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:112;402:26">The structure g5_ilkn_cbr_fabric_ingress_t has the
+    following members and associated structures: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:8;403:58">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:28;404:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:113;404:16">rate_info - g5_ilkn_cbr_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:29;406:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:114;406:16">pkt_data - g5_opsa_pkt_data_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:30;408:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:115;408:16">halt_buffer</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:31;410:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:116;410:16">ilkn_header - g5_ilkn_header_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:117;411:15">The member rate_info has the following structure
+    g5_ilkn_cbr_rate_t has the following members and associated enumerations.
+    </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:9;413:13">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:32;414:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:118;414:16">rate - g5_oduk_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:33;416:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:119;416:16">client_num_incr</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:34;418:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:120;418:16">client_bitrate</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:121;419:15">The member rate has the following enumeration g5_oduk_t that has
+    the enumerators shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/table_g5_oduk_t_Enumeration_of_rate_Member_of__1jernxigt" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:4;420:149" type="table"><?ditaot gentext?>Table 5</xref> below.</p><table id="table_g5_oduk_t_Enumeration_of_rate_Member_of__1jernxigt" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:5;421:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:10;422:16">g5_oduk_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:5;424:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:5;425:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:30;426:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:59;427:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:122;427:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:60;429:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:123;429:25"> ODUk Rate</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:5;433:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:31;434:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:61;435:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:124;435:25"> G5_ODUK_ODU0</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:62;437:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:125;437:25"> ODU0</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:32;440:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:63;441:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:126;441:25"> G5_ODUK_ODU1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:64;443:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:127;443:25"> ODU1</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:33;446:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:65;447:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:128;447:25"> G5_ODUK_ODU1E</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:66;449:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:129;449:25"> ODU1E</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:34;452:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:67;453:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:130;453:25"> G5_ODUK_ODU1F</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:68;455:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:131;455:25"> ODU1F</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:35;458:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:69;459:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:132;459:25"> G5_ODUK_ODU2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:70;461:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:133;461:25"> ODU2</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:36;464:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:71;465:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:134;465:25"> G5_ODUK_ODU2E</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:72;467:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:135;467:25"> ODU2E</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:37;470:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:73;471:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:136;471:25"> G5_ODUK_ODU2F</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:74;473:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:137;473:25"> ODU2F</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:38;476:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:75;477:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:138;477:25"> G5_ODUK_ODU3</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:76;479:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:139;479:25"> ODU3</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:39;482:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:77;483:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:140;483:25"> G5_ODUK_ODU3E1</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:78;485:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:141;485:25"> ODU3E1</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:40;488:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:79;489:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:142;489:25"> G5_ODUK_ODU3E2</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:80;491:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:143;491:25"> ODU3E2</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:41;494:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:81;495:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:144;495:25"> G5_ODUK_ODU3E4</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:82;497:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:145;497:25"> ODU3E4</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:42;500:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:83;501:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:146;501:25"> G5_ODUK_ODU4</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:84;503:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:147;503:25"> ODU4</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:43;506:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:85;507:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:148;507:25"> G5_ODUK_ODU4_PLUS</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:86;509:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:149;509:25"> ODU4+</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:44;512:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:87;513:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:150;513:25"> G5_ODUK_ODUFLEX</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:88;515:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:151;515:25">ODUFlex-CBR, ODUFlex-IMP, ODUFlex-FlexE Aware, PRBS,
+              NULL</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:45;519:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:89;520:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:152;520:25"> G5_ODUK_ODUFLEX_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:90;522:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:153;522:25"> ODUFlex-GFP</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:46;525:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:91;526:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:154;526:25"> G5_ODUC</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:92;528:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:155;528:25"> ODUC</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:156;532:18">The member client_bitrate of the structure g5_ilkn_cbr_rate_t
+    is only used if ilkn_cbr_rate_t == G5_ODUK_ODUFLEX_CBR where the client
+    bitrate defines the size of the overall CBR rate and is used to calculate
+    the number of ODUflex timeslots required. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:157;535:54">The member
+    client_num_incr of the structure g5_ilkn_cbr_rate_t is required as
+    follows: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:10;537:22">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:35;538:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:158;538:16">if ilkn_cbr_rate_t == G5_ODUK_ODUFLEX_GFP which applies to
+        ITU-T G.709 Table 7-8 where the GFP-F client rate is specified in 1G25
+        increments. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:36;542:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:159;542:16">if ilkn_cbr_rate_t == G5_ODUK_ODUFLEX_IMP where the IMP client
+        rate is specified in 5G increments and calculated as: s x 239/238 x
+        5,156,250 kbits/s where s = 2,8, n x 5 with n &gt; 0</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:37;546:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:160;546:16">If G5_ODUK_ODUFLEX_X_GE_BMP: 25/50/200/400GE BMP mapped client,
+        client rate is specified in 5G increments. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:38;549:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:161;549:16">G5_ODUK_ODUFLEX_FLEXE_AWARE - Number of available 5G timeslots
+        in the FlexE payload. </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:162;551:15">The member pkt_data of the structure
+    g5_ilkn_cbr_fabric_ingress_t is defined by the structure
+    g5_opsa_pkt_data_t that has two members, pkt_size and calc_type. pkt_size
+    is defined by the enumeration g5_opsa_traffic_class_t that has the packet
+    fabric class options as defined in the OIF OTN Over Packet Fabric Protocol
+    (OFP) implementation Agreement (IA) recommendation. These are shown
+    in<xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/table_g5_opsa_traffic_class_t_Enumeration_of_p_0jet0ck3l" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:5;557:126" type="table"><?ditaot gentext?>Table 6</xref> below. calc_type specifies the calculator type used to determine
+    the values of B, T and Tfrac needed for the OCPB. calc_type is defined by
+    the enumeration g5_pkt_calc_t and has the values shown in <xref href="#xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--723a/table_g5_pkt_calc_t_Enumeration_of_calc_type_M_1jet0i28e" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="xref:6;560:182" type="table"><?ditaot gentext?>Table 7</xref> below. </p><table id="table_g5_opsa_traffic_class_t_Enumeration_of_p_0jet0ck3l" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:6;561:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:11;562:16">g5_opsa_traffic_class_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:6;564:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:6;565:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:47;566:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:93;567:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:163;567:25">Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:94;569:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:164;569:25">OPSA Packet Size</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:6;573:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:48;574:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:95;575:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:165;575:25">G5_OPSA_TRAFFIC_CLASS_128</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:96;577:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:166;577:25">128 byte</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:49;580:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:97;581:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:167;581:25">G5_OPSA_TRAFFIC_CLASS_256</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:98;583:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:168;583:25">256 byte</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:50;586:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:99;587:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:169;587:25">G5_OPSA_TRAFFIC_CLASS_512</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:100;589:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:170;589:25">512 byte</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_g5_pkt_calc_t_Enumeration_of_calc_type_M_1jet0i28e" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="table:7;593:84">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="title:12;594:16">g5_pkt_calc_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tgroup:7;596:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="thead:7;597:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:51;598:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:101;599:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:171;599:25">Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:102;601:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:172;601:25">OPSA Packet Size</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="tbody:7;605:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:52;606:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:103;607:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:173;607:25">G5_PKT_CALC_OIF </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:104;609:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:174;609:25">Indicates that no FEC is to be applied</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:53;612:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:105;613:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:175;613:25">G5_PKT_CALC_CUSTOM </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:106;615:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:176;615:25">Used to interconnect with the HyPHY20G
+              device</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="row:54;619:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:107;620:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:177;620:25">G5_PKT_CALC_CUSTOM_2 </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="entry:108;622:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:178;622:25">Currently unused, generates an error</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:179;626:18">The member halt_buffer of the structure
+    g5_ilkn_cbr_fabric_ingress_t specifies the DCPB FIFO buffer room required
+    to capture in flight data in the event that DCPB FIFO receives a
+    downstream flow control signal. halt_buffer is specified in units of
+    blocks. The block size in bytes per unit is: 768 bytes. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:180;630:68">The member
+    ilkn_header of the structure g5_ilkn_cbr_fabric_ingress_t specifies is
+    defined by the structure g5_ilkn_header_t. g5_ilkn_header_t has three
+    members as follows: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:11;633:33">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:39;634:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:181;634:16"> ilkn_bcw_chnl</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:40;636:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:182;636:16"> ilkn_2b_header</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:41;638:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:183;638:16"> ilkn_4b_header</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:184;639:15">The member ilkn_bcw_chnl of the structure g5_ilkn_header_t
+    specifies the Interlaken channel in the BCW header. In N x 200G Interlaken
+    mode, when used in the Fabric egress, this member is used for the BCW
+    channel ID on Interlaken Interface #0. In order to set a BCW channel ID
+    from Interlaken Interface #1 and #2 the g5_api_ilkn_chnl_id_bcw_set() API
+    must be called. This API is described below. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:185;644:57">The member
+    ilkn_2b_header of the structure g5_ilkn_header_t specifies the 2 byte
+    header value. The member ilkn_4b_header of the structure g5_ilkn_header_t
+    specifies the 4 byte header value. If no 2 byte or 4 byte header is to be
+    inserted set the value to G5_MAX_INT. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:186;648:50">The structure
+    g5_ilkn_cbr_fabric_egress_t of the info parameter of the
+    g5_api_ilkn_cbr_prov() API has the following members and associated
+    structures:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="ul:12;651:24">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:42;652:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:187;652:16">rate_info - g5_ilkn_cbr_rate_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:43;654:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:188;654:16">pkt_data - g5_opsa_pkt_data_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:44;656:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:189;656:16">opsa_fifo - g5_opsa_fifo_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:45;658:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:190;658:16">halt_buffer</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="li:46;660:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:191;660:16">ilkn_header - g5_ilkn_header_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Interlaken_Channel_Datapath_Provisioning_API_Details.xml" xtrc="p:192;661:15">The members rate_info, pkt_data, halt_buffer and ilkn_header
+    have been discussed above. The member opsa_fifo of the structure
+    g5_ilkn_cbr_fabric_ingress_t is defined by the structure opsa_fifo_t that
+    has two members latency_s and hys_buffer. latency_s specifies the maximum
+    system latency outside the device, typically the system latency across a
+    packet fabric. latency_s is specified in units of 3.125 nanosecond ticks.
+    The maximum supported value is 38880 representing a maximum system latency
+    of 125 microseconds. hys_buffer represents the size of the hysteresis
+    buffer in reference clock cycles. If hys_buffer is set to 0, the default
+    value of 5us is used. For more info on latency_s and hys_buffer see
+    section .....</p></section>
+  </body>
+</topic>

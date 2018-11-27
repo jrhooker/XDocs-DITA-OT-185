@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="xd_466a5304528edbb3--5ff2ecb8-16539b24ec0--79a8" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="topic:1;2:141">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="title:1;3:10">Client Mapping Datapath Segment De-provisioning API Details</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="body:1;5:9">
+    <section id="section_Client_Mapping_Datapath_Segment_De-provi_3jepvu55q" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="section:1;6:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="title:2;6:85">g5_api_deprov()</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:1;6:111">The
+    g5_api_deprov() API is used to de-provision client mapping datapath
+    segments. The parameters and associated enumerated types are below.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="ul:1;8:80">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="li:1;9:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:2;9:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="li:2;11:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:3;11:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="li:3;13:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:4;13:16">mode - g5_deprov_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:5;14:15">The device_id parameter is the device instance. The chnl_id
+    parameter of the API is the channel ID for the Ethernet client port or
+    Interlaken channel ID to be de-provisioned.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\MAPOTN_G5_Client_Mapping_Deprovisioning_API_Details.xml" xtrc="p:6;16:55">The enumerated type
+    g5_deprov_t of the g5_api_deprov() API defines the scope of resources that
+    are cleaned up as part of a de-provisioning operation when a partial or
+    completely configured datapath is torn down. The enumerator
+    G5_DEPROV_SEGMENT_MAPPER de-provisions the mapper component of the
+    Ethernet client port or Interlaken packet channel chnl_id only up to the
+    OCPB. The enumerator G5_DEPROV_PATH_MAPPER de-provisions the chnl_id and
+    any children of the chnl_id including de-provisioning of connected child
+    IDs until the mapper functionality is completely removed. The primary
+    chnl_id associated with these mapper functions will be retained. If there
+    is no mapper in the datapath the behavior of G5_DEPROV_SEGMENT is followed
+    when it is called for a Ethernet port or Interlaken packet chnl_id that
+    includes mapper functionality. In this case the primary chnl_id is
+    maintained and the mapper and anything connected to the mapper is
+    removed.</p></section>
+  </body>
+</topic>

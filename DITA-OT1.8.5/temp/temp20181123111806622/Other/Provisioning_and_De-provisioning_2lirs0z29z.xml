@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Provisioning_and_De-provisioning_2lirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="topic:1;2:137">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:1;3:10">Provisioning and De-provisioning</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="body:1;5:9">
+    <section id="section_Ethernet_Client_Datapath_Segments_eje8sl26k" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:1;6:71"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:2;6:78">Ethernet
+    Client Datapath Segments</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:1;7:40">There are three datapath segment
+    provisioning options when configuring the Ethernet Subsystem for an
+    Ethernet Rate.</p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:1;9:27">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:1;10:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:2;10:16">Ethernet clients are terminated and their packet payloads are
+        sent to the Interlaken interface.</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:2;13:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:3;13:16">Ethernet clients are terminated and their packet payloads are
+        OTN mapped or the Ethernet client is OTN mapped transparently.
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:3;17:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:4;17:16">Ethernet clients are passed through the device transparently in
+        re-timer mode. </p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:5;19:15">The API g5_api_enet_prov() is used to configure the options
+    above and their datapath segments are shown in the following
+    figures.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:6;21:20"><xref href="#Provisioning_and_De-provisioning_2lirs0z29z/fig_Ethernet_Datapath_Segment_Provisioning_P_2jindzvaf" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:1;21:133" type="fig"><?ditaot gentext?>Figure 1</xref> shows the datapath configured from the SERDES interface(A) through
+    the ENET Subsystem to the edge of the ENET block(B) for Ethernet clients
+    that are terminated to the Interlaken interface via the DCPB or Ethernet
+    clients that are OTN mapped and pass through the ECPB to the MAPOTN
+    block.</p><fig id="fig_Ethernet_Datapath_Segment_Provisioning_P_2jindzvaf" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:1;26:80">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:3;27:16">Ethernet Datapath Segment Provisioning: Packet Termination or
+        OTN Mapping</title>
+
+        <image href="g5_api_enet_prov.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:1;30:59"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:7;31:16"><xref href="#Provisioning_and_De-provisioning_2lirs0z29z/fig_Ethernet_Datapath_Segment_Provisioning_R_3jindzvaf" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:2;31:129" type="fig"><?ditaot gentext?>Figure 2</xref> shows the datapath configured from the SERDES interface(A) back
+    through the DSIS block(B) for Ethernet clients that transparently re-timed
+    from SERDES Bank A to SERDES Bank B.</p><fig id="fig_Ethernet_Datapath_Segment_Provisioning_R_3jindzvaf" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:2;34:110">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:4;35:16">Ethernet Datapath Segment Provisioning: Re-timer</title>
+
+        <image href="g5_api_enet_prov_retimer.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:2;37:67"/>
+      </fig></section>
+
+    <section id="section_Ethernet_Client_Provisioning_API_Details_ije97on45" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:2;40:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:5;40:85">Ethernet
+    Client Provisioning API Details</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:8;41:47">The g5_api_enet_prov() API
+    provisions an Ethernet client datapath across the ENET Subsystem from the
+    SERDES up to the DCPB or ECPB Subsystem. This function is used to
+    provision a regular ENET client in xGE rate (x = 10, 25, 50, 100, 200, or
+    400) or FlexE Unaware 100G BASE-R members. This function is also used to
+    provision a SERDES port only up to the DSIS configuration in the retimer
+    application. After this function is called, the datapath is provisioned
+    with Tx path generating IDLE and Rx PMON available for monitoring the
+    packets. The ENET client channel is provisioned but not activated at the
+    DCPB or ECPB subsystem after this function is successfully executed. Note
+    that a retimer datapath does not allocate any ENET related resources and
+    does not provide PMON based capabilities. There are no IDLEs generated as
+    the retimer application is a SERDES-DSIS data path only. The
+    g5_api_enet_prov() API has the following parameters and associated
+    enumerated types. </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:1;55:31">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:4;56:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:9;56:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:5;58:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:10;58:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:6;60:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:11;60:16">serdes_port_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:7;62:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:12;62:16">pin_mode - g5_serdes_pin_mode_t </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:8;64:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:13;64:16">mode - g5_enet_port_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:9;66:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:14;66:16">serdes_port_only</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:10;68:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:15;68:16">fec_type - g5_enet_fec_mode_t </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:16;69:15">The device_id parameter is the device instance. The chnl_id
+    parameter is the user defined ENET channel. The serdes_port_id parameter
+    is the SERDES port ID for this ENET channel. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:17;71:57">The SERDES port
+    selection options are provided by the pin_mode parameter from the
+    enumeration g5_serdes_pin_mode_t shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_serdes_pin_mode_t_Enumeration_of_the__8jhzfhbl3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:3;73:162" type="table"><?ditaot gentext?>Table 1</xref> below.</p><table id="table_g5_serdes_pin_mode_t_Enumeration_of_the__8jhzfhbl3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:1;74:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:6;75:16">g5_serdes_pin_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:1;77:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:1;78:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:1;79:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:1;80:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:18;80:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:2;82:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:19;82:25">SERDES Pin Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:1;86:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:2;87:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:3;88:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:20;88:25">G5_SERDES_PIN_MODE_NRZ</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:4;90:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:21;90:25">SERDES Port operates for up to 28G pin rate.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:3;94:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:5;95:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:22;95:25">G5_SERDES_PIN_MODE_PAM4_ADJ</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:6;97:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:23;97:25">SERDES Port operates for up to 56G pin rate, multi-pin
+              ports use adjacent lanes to form the port Adjacent lanes are 0,
+              1 or 2, 3 for 100G port applications, or 0,1,2,3 for 200G port
+              applications, or 0, 1,2,3,4,5,6,7 for 400G port applications
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:24;105:18">For all the Ethernet modes above the mode parameter of the
+    g5_api_enet_prov() API selects the Ethernet rate via the
+    g5_enet_port_mode_t enumeration. <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_enet_port_mode_t_ENUM_of_mode_Paramet_2jd23erum" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:4;107:153" type="table"><?ditaot gentext?>Table 2</xref> shows the enumerator values below.</p><table id="table_g5_enet_port_mode_t_ENUM_of_mode_Paramet_2jd23erum" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:2;108:120">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:7;109:16">g5_enet_port_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:2;111:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:2;112:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:4;113:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:7;114:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:25;114:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:8;116:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:26;116:25">Interface Rate </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:2;120:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:5;121:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:9;122:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:27;122:25"> G5_ENET_PORT_MODE_10GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:10;124:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:28;124:25">10GE port </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:6;127:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:11;128:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:29;128:25"> G5_ENET_PORT_MODE_25GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:12;130:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:30;130:25">25GE port </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:7;133:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:13;134:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:31;134:25">G5_ENET_PORT_MODE_50GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:14;136:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:32;136:25">50GE port </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:8;139:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:15;140:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:33;140:25">G5_ENET_PORT_MODE_100GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:16;142:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:34;142:25">100GE port </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:9;145:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:17;146:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:35;146:25">G5_ENET_PORT_MODE_100GE_UA</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:18;148:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:36;148:25">100GE port to allow FlexE Demux passive monitoring in
+              FlexE unaware mode </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:10;152:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:19;153:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:37;153:25">G5_ENET_PORT_MODE_200GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:20;155:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:38;155:25">200GE port </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:11;158:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:21;159:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:39;159:25">G5_ENET_PORT_MODE_400GE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:22;161:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:40;161:25">400GE port </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:41;165:18">The serdes_port_only parameter of the g5_api_enet_prov() API
+    selects retimer mode. When set to TRUE no ENET resource is provisioned,
+    only the DSIS resources are provisioned.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:42;167:52">The last parameter of the
+    g5_api_enet_prov() API is the fec_type that uses the enumeration
+    g5_enet_fec_mode_t to configure 25G and 100G NRZ pin type. PAM4 pin type
+    always requires KP4 FEC and doesn't need to be specified. The enumerator
+    choices are as follows:</p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:2;171:36">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:11;172:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:43;172:16">No FEC as selected by the enumerator G5_ENET_FEC_MODE_NONE
+        where FEC mode is disabled and no processing is done. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:12;175:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:44;175:16">Reed Solomon KR4 (528, 514) FEC correction as selected by the
+        enumerator G5_ENET_FEC_REED_SOLOMON_KR4 where KR4 FEC mode is enabled.
+        </p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:45;178:15">The device supports the following combinations of FEC, pin_mode,
+    and * rates. </p><table id="table_FEC_pin_mode_and_rate_Options_for_the_g5_4jindzvaf" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:3;179:91">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:8;180:16">FEC, pin_mode and rate Options for the g5_api_enet_prov()
+        API</title>
+
+        <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:3;183:26">
+          <colspec colname="col1" colwidth="200*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="colspec:1;184:37"/>
+
+          <colspec colname="col2" colwidth="200*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="colspec:2;186:37"/>
+
+          <colspec colname="col3" colwidth="300*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="colspec:3;188:37"/>
+
+          <colspec colname="col4" colwidth="300" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="colspec:4;190:36"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:3;192:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:12;193:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:23;194:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:46;194:25"> Rate</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:24;196:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:47;196:25"> Pin Type</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:25;198:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:48;198:25"> Reed Solomon KP4 (544, 514)</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:26;200:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:49;200:25"> Reed Solomon KR4 (528,514)</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:3;204:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:13;205:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:27;206:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:50;206:25"> 10G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:28;208:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:51;208:25"> NRZ</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:29;210:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:52;210:25"> N/A</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:30;212:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:53;212:25"> N/A </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:14;215:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:31;216:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:54;216:25"> 25G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:32;218:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:55;218:25"> NRZ</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:33;220:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:56;220:25"> </p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:34;222:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:57;222:25"> Configurable</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:15;225:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:35;226:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:58;226:25"> 50G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:36;228:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:59;228:25"> PAM4</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:37;230:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:60;230:25"> Non-configurable</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:38;232:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:61;232:25"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:16;235:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:39;236:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:62;236:25"> 100G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:40;238:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:63;238:25"> PAM4</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:41;240:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:64;240:25"> Non-configurable</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:42;242:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:65;242:25"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:17;245:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:43;246:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:66;246:25"> 100G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:44;248:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:67;248:25"> NRZ</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:45;250:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:68;250:25"> </p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:46;252:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:69;252:25"> Configurable</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:18;255:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:47;256:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:70;256:25"> 200G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:48;258:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:71;258:25"> PAM4</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:49;260:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:72;260:25"> Non-configurable</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:50;262:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:73;262:25"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:19;265:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:51;266:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:74;266:25"> 400G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:52;268:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:75;268:25"> PAM4</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:53;270:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:76;270:25"> Non-configurable</p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:54;272:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:77;272:25"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:20;275:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:55;276:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:78;276:25"> 400G</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:56;278:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:79;278:25"> NRZ</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:57;280:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:80;280:25"> </p></entry>
+
+              <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:58;282:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:81;282:25"> Non-configurable</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></section>
+
+    <section id="section_FlexE_Interface_Group_and_Client_Datapat_1je6588x9" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:3;288:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:9;288:85">FlexE
+    Interface Group and Client Datapath Segment Provisioning</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:82;289:72">There
+    are three FlexE operational modes supported by the device: FlexE PHY
+    Terminated, FlexE OTN Aware/Unaware, and FlexE PHY Aware. Each mode has a
+    unique provisioning procedure for FlexE interface groups and client
+    datapath segments detailed in the following sub sections. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:83;293:70"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="b:1;293:73">FlexE
+    PHY Terminated Mode: </b></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:84;294:37">In FlexE PHY Terminated mode, FlexE
+    clients from FlexE groups on physical 100GE ports are terminated to the
+    Interlaken PIF interface or are mapped into OTN payloads. The provisioning
+    sequence and APIs are shown below. </p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:3;297:48">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:13;298:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:85;298:16">FlexE groups on physical 100GE ports have their configuration
+        options defined with the g5_api_flexe_group_prov() API. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:14;301:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:86;301:16">N x FlexE 100GE PHYs are added to the group with the
+        g5_api_flexe_phy_add() API. N = 1 to 6. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:15;304:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:87;304:16">Provisioning and activation of the FlexE group defined with
+        steps 1 to 2 above is done with the g5_api_flexe_group_config() API.
+        An error code will be returned if the API in steps 1 to 2 were not
+        called in an atomic sequence or if insufficient PHY and (sub)group
+        configuration information has been supplied.</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:16;310:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:88;310:16">FlexE clients inside the groups are provisioned with the
+        g5_api_flexe_client_prov() API. FlexE clients are either terminated to
+        the DCPB to be sent to the Interlaken PIF interface or are mapped to
+        ODUk payloads via the ECPB. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:17;315:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:89;315:16">The g5_api_flexe_calendar_update() API must be called to update
+        the FlexE group calendar as the final step.</p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:90;317:15">For full details on the parameters of the APIs above see the
+    Provisioning and De-provisioning section of the ENET
+    Subsystem.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:91;319:22">FlexE group configuration, PHY add(s), group provisioning
+    and group activation is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_Serdes_Int_2je6588x9" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:5;320:158"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_Serdes_Int_2je6588x9</xref> below. In this case the datapath is provisioned from the SERDES
+    interface(A) through the FlexE block(B) in the ENET subsystem.</p><fig id="fig_FlexE_Group_Segment_Provision_Serdes_Int_2je6588x9" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:3;322:136">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:10;323:16">FlexE Group Segment Provision: FlexE PHY/Group</title>
+
+        <image href="g5_api_flexe_group_prov_Aware_or_Terminate.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:3;325:85"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:92;326:16">FlexE client provisioning for clients that will be terminated
+    to the Interlaken PIF interface is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Datapath_Segment_Provisioning_Flex_3je6588x9" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:6;327:170"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Datapath_Segment_Provisioning_Flex_3je6588x9</xref>
+    below. In this case the datapath is provisioned from the FlexE Mux block
+    (A) to the DCPB block(B).</p><fig id="fig_FlexE_Datapath_Segment_Provisioning_Flex_3je6588x9" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:4;329:99">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:11;330:16">FlexE Client Datapath Segment Provisioning: Interlaken Packet
+        Termination Traffic</title>
+
+        <image href="g5_api_flexe_client_prov_CPB_ILKN.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:4;333:76"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:93;334:16">FlexE client provisioning for clients that will be mapped to
+    ODUks is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Datapath_Segment_Provisioning_Flex_4je6588x9" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:7;335:144"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Datapath_Segment_Provisioning_Flex_4je6588x9</xref>
+    below. In this case the datapath is provisioned from the FlexE Mux
+    block(A) through the ECPB block through the MAPOTN to the OCPB
+    block(B).</p><fig id="fig_FlexE_Datapath_Segment_Provisioning_Flex_4je6588x9" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:5;338:83">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:12;339:16">FlexE Client Datapath Segment Provisioning: OTN Mapped
+        Traffic</title>
+
+        <image href="g5_api_flexe_client_prov_MOTN_Terminated.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:5;342:83"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:94;343:16"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="b:2;343:19">FlexE OTN Aware/Unaware Mode: </b></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:95;343:60">In FlexE OTN
+    Aware/Unaware mode, FlexE clients from FlexE groups from ODUCn payloads
+    are terminated to the Interlaken PIF. The provisioning sequence and APIs
+    are shown below. </p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:4;346:30">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:18;347:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:96;347:16">FlexE group configuration options are defined with the
+        g5_api_flexe_group_prov() API. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:19;350:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:97;350:16">N x FlexE 100GE PHYs are added to the group with the
+        g5_api_flexe_phy_add() API. N = 1 to 6. These PHYS are virtual as they
+        are not associated to physical 100GE ports, rather to ODUCn payloads.
+        </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:20;355:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:98;355:16">M x FlexE sub groups are added with the
+        g5_api_flexe_subgroup_add(). M = 1 to 6 and M &lt;= N. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:21;358:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:99;358:16">Provisioning and activation of the FlexE group defined with
+        steps 1 to 3 above is done with the g5_api_flexe_group_config() API.
+        An error code will be returned if the API in steps 1 to 3 were not
+        called in an atomic sequence or if insufficient PHY and (sub)group
+        configuration information has been supplied.</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:22;364:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:100;364:16">FlexE clients are provisioned with the
+        g5_api_flexe_client_prov() API. FlexE clients are terminated to the
+        DCPB to be sent to the Interlaken PIF interface or are mapped to ODUk
+        payloads via the ECPB. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:23;369:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:101;369:16">The g5_api_flexe_calendar_update() API must be called to update
+        the FlexE group calendar as the final step. </p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:102;371:15">For full details on the parameters of the APIs above see the
+    Provisioning and De-provisioning section of the ENET
+    Subsystem.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:103;373:22">FlexE group configuration, PHY add(s), sub group add(s),
+    group provisioning and group activation is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_OTUCn_Mapp_aje7i3ktq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:8;374:177"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_OTUCn_Mapp_aje7i3ktq</xref> below. In this case the datapath is provisioned from the OCPB
+    block(A) to the FlexE block(B) in the ENET subsystem.</p><fig id="fig_FlexE_Group_Segment_Provision_OTUCn_Mapp_aje7i3ktq" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:6;376:127">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:13;377:16">FlexE Group Segment Provision: FlexE OTN Mapping</title>
+
+        <image href="g5_api_flexe_group_prov_Terminate_Aware2.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:6;379:83"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:104;380:16">FlexE client provisioning is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Client_Datapath_Segment_Provisioni_bje7i3ktq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:9;380:174"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Client_Datapath_Segment_Provisioni_bje7i3ktq</xref> below. In this case the datapath is provisioned from the FlexE Mux
+    block (A) to the DCPB block(B).</p><fig id="fig_FlexE_Client_Datapath_Segment_Provisioni_bje7i3ktq" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:7;382:105">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:14;383:16">FlexE Client Datapath Segment Provisioning: Interlaken Packet
+        Termination Traffic</title>
+
+        <image href="g5_api_flexe_client_prov_CPB_ILKN.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:7;386:76"/>
+      </fig><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:105;387:16"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="b:3;387:19">FlexE PHY Aware Mode: </b></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:106;387:52">In FlexE PHY Aware mode,
+    FlexE groups and subgroups from physical 100GE ports are transparently
+    mapped to ODUk and ODUCn payloads. The provisioning sequence and APIs are
+    shown below. </p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:5;390:26">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:24;391:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:107;391:16">FlexE group configuration options are defined with the
+        g5_api_flexe_group_prov() API. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:25;394:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:108;394:16">N x FlexE 100GE PHYs are added to the group with the
+        g5_api_flexe_phy_add() API. N = 1 to 6. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:26;397:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:109;397:16">M x FlexE sub groups are added with the
+        g5_api_flexe_subgroup_add(). M = 1 to 6 and M &lt;= N. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:27;400:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:110;400:16">Provisioning and activation of the FlexE group defined with
+        steps 1 to 3 above is done with the g5_api_flexe_group_config() API.
+        An error code will be returned if the API in steps 1 to 3 were not
+        called in an atomic sequence or if insufficient PHY and (sub)group
+        configuration information has been supplied.</p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:111;405:15">For full details on the parameters of the APIs above see the
+    Provisioning and De-provisioning section of the ENET Subsystem.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:112;406:75">The
+    FlexE group provision is shown in <xref href="#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_Serdes_Int_cje7i3ktq" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:10;407:159"><?ditaot gentext?>#Datapath_Segment_Provisioning_APIs_and_t_giuu0en0v/fig_FlexE_Group_Segment_Provision_Serdes_Int_cje7i3ktq</xref> below. In this case the datapath is provisioned from the SERDES
+    interface(A) to the FlexE block(B) in the ENET subsystem. Mapping of the
+    FlexE Aware group is done with the g5_api_client_map_cfg() API and
+    described below.</p><fig id="fig_FlexE_Group_Segment_Provision_Serdes_Int_cje7i3ktq" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="fig:8;411:90">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:15;412:16">FlexE Group Segment Provision: Serdes Interface to FlexE
+        Block</title>
+
+        <image href="g5_api_flexe_group_prov_Aware_or_Terminate.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="image:8;415:85"/>
+      </fig></section>
+
+    <section id="section_FlexE_Group_Subgroup_and_Client_Provisio_jje97on45" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:4;418:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:16;418:85">FlexE
+    Group, Subgroup and Client Provisioning API Details</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:113;419:67">The
+    g5_api_flexe_group_prov() API initiates collection of a FlexE group's
+    configuration. It has the following parameters and associated enumerated
+    types: </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:2;422:20">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:28;423:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:114;423:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:29;425:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:115;425:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:30;427:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:116;427:16">mode - g5_flexe_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:31;429:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:117;429:16">flexe_group_number_tx</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:32;431:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:118;431:16">flexe_group_number_rx </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:33;433:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:119;433:16">calendar_update_mode - g5_flexe_calendar_mode_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:120;434:15">The device_id parameter of the g5_api_flexe_group_prov() API is
+    the device instance.The chnl_id parameter of the g5_api_flexe_group_prov()
+    API is a user specified channel ID for FlexE Group. This is not the same
+    as the 20-bit FlexE Group number that used to specify the "FlexE Group
+    Number" in the FlexE overhead as there is no guarantee that the FlexE
+    Group numbers will be unique in the network. This is a unique channel ID
+    used to identify a FlexE group on each device. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:121;440:59">The mode parameter
+    of  the g5_api_flexe_group_prov() API chooses the FlexE mode via the
+    g5_flexe_mode_t enumeration shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_flexe_mode_t_Enumeration_for_mode_Par_kje97on45" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:11;442:157" type="table"><?ditaot gentext?>Table 4</xref> below. </p><table id="table_g5_flexe_mode_t_Enumeration_for_mode_Par_kje97on45" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:4;443:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:17;444:16">g5_flexe_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:4;446:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:4;447:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:21;448:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:59;449:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:122;449:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:60;451:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:123;451:25"> FlexE Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:4;455:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:22;456:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:61;457:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:124;457:25"> G5_FLEXE_MODE_PHY_TERM</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:62;459:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:125;459:25">A FlexE Group with each FlexE PHY connected to a 100GE
+              physical port. FlexE clients may be terminated to ILKN PKT
+              interface or ODUk/ODUFlex transported through mapper path.
+              </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:23;465:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:63;466:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:126;466:25"> G5_FLEXE_MODE_OTN_AWARE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:64;468:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:127;468:25">A FlexE Group with the set of FlexE PHY transported
+              over one or more ODUFlex (sub)groups using G.709 17.12 mapping
+              procedure. FlexE Clients within the FlexE Group may be
+              terminated to ILKN PKT interface. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:24;474:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:65;475:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:128;475:25">G5_FLEXE_MODE_OTN_UNAWARE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:66;477:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:129;477:25">A FlexE Group with each FlexE PHY transported over OTN
+              using ODU4 GMP mapping. FlexE Client within the FlexE Group may
+              be terminated to ILKN PKT interface. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:25;482:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:67;483:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:130;483:25"> G5_FLEXE_MODE_PHY_AWARE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:68;485:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:131;485:25">A FlexE Group with each FlexE PHY connected to a 100GE
+              physical port. The FlexE PHY making up the FlexE group are
+              assigned to one or more (sub)groups and the subgroups are
+              transparently transported over OTN using G.709 17.12 mapping
+              procedure. There is no access to FlexE Clients in this operating
+              mode.</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:132;494:18">The flexe_group_number_tx and flexe_group_number_rx
+    parameters of the g5_api_flexe_group_prov() API are a 20 bit field that
+    chooses the FlexE group number that mapped to the 'FlexE Group Number'
+    overhead field in Block #1 bit 12-31 of FlexE overhead. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:133;497:68">The last
+    parameter of the g5_api_flexe_group_prov() API is the enumeration
+    g5_flexe_calendar_mode_t. FlexE calendar modes are shown in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_flexe_calendar_mode_t_Enumeration_cal_fje8sl26k" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:12;499:180" type="table"><?ditaot gentext?>Table 5</xref> below.</p><table id="table_g5_flexe_calendar_mode_t_Enumeration_cal_fje8sl26k" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:5;500:92">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:18;501:16">g5_flexe_calendar_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:5;503:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:5;504:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:26;505:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:69;506:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:134;506:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:70;508:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:135;508:25"> FlexE Calendar Mode</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:5;512:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:27;513:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:71;514:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:136;514:25"> G5_FLEXE_CALENDAR_SLAVE_FORCE_MODE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:72;516:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:137;516:25">FlexE_MUX acts as a 'master' by initiating the
+              calendar configuration. The calendar configurations are
+              transmitted from the FlexE_MUX to the FlexE_DEMUX where
+              FlexE_DEMUX acts as a 'slave' of the far end FlexE_MUX.
+              FlexE_DEMUX calendar locations are not known until the far end
+              FlexE_MUX advertises them. If the timer expires upon switching
+              the calendars, force the switch and continue. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:28;525:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:73;526:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:138;526:25"> G5_FLEXE_CALENDAR_SLAVE_ALARM_MODE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:74;528:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:139;528:25">FlexE_MUX acts as a 'master' by initiating the
+              calendar configuration. The calendar configurations are
+              transmitted from the FlexE_MUX to the FlexE_DEMUX where
+              FlexE_DEMUX acts as a 'slave' of the far end FlexE_MUX.
+              FlexE_DEMUX calendar locations are not known until the far end
+              FlexE_MUX advertises them. If the timer expires upon switching
+              the calendars, return an alarm to the application layer, do not
+              perform the switch and await for the application layer to
+              proceed with next steps. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:29;539:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:75;540:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:140;540:25"> G5_FLEXE_CALENDAR_STATIC_MODE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:76;542:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:141;542:25"> A and B calendar configurations are fixed and always
+              uses the A calendar configuration as the calendar configuration
+              in use.</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:30;547:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:77;548:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:142;548:25"> G5_FLEXE_CALENDAR_NETWORK_MODE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:78;550:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:143;550:25"> A network management system owns the Near End and Far
+              End FlexE_MUX and FlexE_DEMUX nodes. The network management
+              system configures the FlexE_MUX and FlexE_DEMUX calendars
+              directly and controls both ends when to switch calendars.
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:144;558:18">The g5_api_flexe_phy_add() API adds a single FlexE PHY into a
+    FlexE Group. A FlexE Group can have maximum 6 PHYs. To add more than one
+    PHY in a FlexE Group, this function needs to be called multiple times.
+    When the FlexE Group is provisioned all calendar slots of a PHY will
+    report unused or unavailable. Note the PHYs are to be added in the logical
+    PHY order within the group. The g5_api_flexe_phy_add() API has the
+    following parameters and associated enumerated types:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:3;564:66">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:34;565:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:145;565:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:35;567:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:146;567:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:36;569:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:147;569:16">serdes_port_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:37;571:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:148;571:16">group_chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:38;573:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:149;573:16">flexe_phy_number_tx </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:39;575:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:150;575:16">num_unavailable_slots_tx </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:40;577:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:151;577:16">flexe_phy_number_rx</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:41;579:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:152;579:16">num_unavailable_slots_rx</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:42;581:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:153;581:16">pin_mode - g5_serdes_pin_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:43;583:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:154;583:16">fec - g5_enet_fec_mode_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:155;584:15">The device_id parameter of the g5_api_flexe_phy_add() API is the
+    device instance.The chnl_id parameter of the g5_api_flexe_phy_add() API
+    the channel ID for this FlexE PHY.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:156;586:46">The serdes_port_id parameter of
+    the g5_api_flexe_phy_add() API is the SERDES port ID for the FlexE PHY. If
+    there is no physical SERDES interface, serdes_port_id is set to the
+    reserved value, G5_FLEXE_SERDES_UNUSED. This reserved value is used for
+    G5_FLEXE_MODE_OTN_AWARE(FlexE Terminated Aware) and
+    G5_FLEXE_MODE_OTN_UNAWARE modes.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:157;591:44">The group_chnl_id parameter of the
+    g5_api_flexe_phy_add() API is the channel ID assigned to the FlexE Group
+    this PHY is being added to. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:158;593:40">The flexe_phy_number_tx parameter of
+    the g5_api_flexe_phy_add() API is an 8 bit PHY number that is expected in
+    the 'PHY Number' overhead field in Block #2 bits 9-16 of the FlexE
+    overhead. For transmit path, this number is used to set corresponding bits
+    in the 'PHY Map' overhead field in Block #2 bit 1-8 of the FlexE overhead.
+    The OH PHY number valid range 1-254. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:159;598:49">The num_unavailable_slots_tx
+    and num_unavailable_slots_rx parameters of the g5_api_flexe_phy_add() API
+    are the number of unavailable calendar slots within the PHY. If the FlexE
+    group is carrying a FlexE client to MAPOTN using G.709 17.12 Aware
+    mapping, the number of unavailable slots can be asymmetric in transmit and
+    receive direction on a particular PHY. The total number of unavailable
+    slots in a FlexE group must be the same in both transmit and receive
+    directions as MAPOTN does not support asymmetric uni-directional bandwidth
+    configuration. Configured with multiples of 5 (0, 5, 10, or 15).
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:160;607:12">The flexe_phy_number_rx parameter of the g5_api_flexe_phy_add() API
+    is an 8 bit PHY number that is expected in the 'PHY Number' overhead field
+    in Block #2 bits 9-16 of FlexE overhead. For Rx, this number is used to
+    check for match against the transmit PHY number from the Far End FlexE
+    Mux.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:161;611:16">The SERDES port selection options are provided by the
+    enumeration g5_serdes_pin_mode_t of the pin_mode parameter of the
+    g5_api_flexe_phy_add() API. The enumerator G5_SERDES_PIN_MODE_NRZ
+    configures the SERDES port for rates up to 28 Gbps. The enumerator
+    G5_SERDES_PIN_MODE_PAM4_ADJ configures the SERDES port for 56
+    Gbps.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:162;616:17">The last parameter of the g5_api_flexe_phy_add() API is fec
+    that uses the enumeration g5_enet_fec_mode_t. The mode choices are as
+    follows:</p><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ol:6;618:21">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:44;619:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:163;619:16">No FEC as selected by the enumerator G5_ENET_FEC_MODE_NONE
+        where FEC mode is disabled and no processing is done. </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:45;622:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:164;622:16">Reed Solomon KR4 (528, 514) FEC correction as selected by the
+        enumerator G5_ENET_FEC_REED_SOLOMON_KR4 where KR4 FEC mode is enabled.
+        </p></li>
+      </ol><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:165;625:15">The g5_api_flexe_subgroup_add() API assigns one or more FlexE
+    PHY for a FlexE Group to a (sub)group. A FlexE group can be broken down
+    into m (m = 1-6) (sub)groups where m must be less than or equal to the
+    number of PHYs. To break a FlexE group into multiple (sub)groups, this API
+    needs to be called multiple times. Similar to a FlexE group, a (sub)group
+    can have n(1-6) PHYs. For example: a FlexE group having 6 PHYs needs to
+    break into two (sub)groups, with 2 PHYs in one (sub)group and 4 PHYs in
+    another. In this case this API needs to call twice and each time the PHY
+    Ids belonging to the (sub)group needs to be listed in phys_chnl_id_X
+    parameter. This function is mandatory for G5_FLEXE_MODE_OTN_AWARE mode and
+    G5_FLEXE_MODE_PHY_AWARE modes and not applicable for any other modes of
+    operation.The g5_api_flexe_subgroup_add() API has the following
+    parameters:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:4;637:24">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:46;638:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:166;638:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:47;640:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:167;640:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:48;642:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:168;642:16">group_chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:49;644:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:169;644:16">phy_chnl_id_0 </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:50;646:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:170;646:16">phy_chnl_id_1</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:51;648:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:171;648:16">phy_chnl_id_2 </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:52;650:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:172;650:16">phy_chnl_id_3</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:53;652:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:173;652:16">phy_chnl_id_4</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:54;654:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:174;654:16">phy_chnl_id_5</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:175;655:15">The device_id parameter of the g5_api_flexe_subgroup_add() API
+    is the device instance.The chnl_id parameter of the
+    g5_api_flexe_subgroup_add() API is a user specified channel ID for FlexE
+    (sub)Group. The group_chnl_id parameter of the g5_api_flexe_subgroup_add()
+    API is the channel ID for FlexE Group this is a sub group of.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:176;659:73">The
+    phy_chnl_id_X, where X = 0 to 5, parameters of the
+    g5_api_flexe_subgroup_add() API are PHY IDs assigned to the FlexE
+    (sub)Group. This is the logical order of PHYs in the (sub)group. If
+    phy_chnl_id_X = G5_MAX_UINT32, then PHY X is not is assigned to the FlexE
+    (sub)Group </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:177;664:23">The g5_api_flexe_group_config() API provisions and
+    activates a bi-directional FlexE group. It has the following parameters:
+    </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:5;666:13">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:55;667:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:178;667:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:56;669:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:179;669:16">chnl_id</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:180;670:15">The device_id parameter of the g5_api_flexe_group_config() API
+    is the device instance.The chnl_id parameter of the
+    g5_api_flexe_group_config() API is a user specified channel ID for FlexE
+    Group and matches the channel used in the associated FlexE Group's
+    g5_api_flexe_group_prov() API call. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:181;674:48">The g5_api_flexe_client_prov()
+    API used to provision a FlexE client to a FlexE group. This API associates
+    the FlexE client to the FlexE group's calendar slots. This API can be used
+    in an additive manner to provision Tx channel only or Rx channel only or
+    both. The g5_api_flexe_client_prov() API has the following parameters and
+    associated enumerated types :</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:6;679:42">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:57;680:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:182;680:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:58;682:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:183;682:16">chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:59;684:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:184;684:16">group_chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:60;686:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:185;686:16">client_data.oduk_mapping_mode</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:61;688:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:186;688:16">client_data.tx_client_data.flexe_client_number</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:62;690:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:187;690:16">client_data.tx_client_data.flexe_client_slots[6]</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:63;692:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:188;692:16">client_data.rx_client_data.flexe_client_number</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:64;694:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:189;694:16">client_data.rx_client_data.flexe_client_slots[6] </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:190;695:15">The device_id parameter of the g5_api_flexe_client_prov() API is
+    the device instance.The chnl_id parameter of the
+    g5_api_flexe_subgroup_add() API is a user specified channel ID for FlexE
+    (sub)Group. The group_chnl_id parameter of the g5_api_flexe_subgroup_add()
+    API is the channel ID for FlexE Group this is a sub group of.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:191;699:73">The
+    oduk_mapping_mode parameter of of the g5_api_flexe_client_prov() API is
+    defined by the enumeration g5_oduk_mapping_mode_t. This parameter
+    specifies the mapping mode for FlexE clients being transported over
+    ODUk/ODUFlex and is not relevant and ignored for FlexE client being
+    transported to the Interlaken packet interface. The enumerators are shown
+    in <xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_oduk_mapping_mode_t_Enumeration_for_o_0jej0titm" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:13;705:123" type="table"><?ditaot gentext?>Table 6</xref> below. </p><table id="table_g5_oduk_mapping_mode_t_Enumeration_for_o_0jej0titm" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:6;706:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:19;707:16">g5_oduk_mapping_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:6;709:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:6;710:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:31;711:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:79;712:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:192;712:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:80;714:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:193;714:25"> Mapping Mode Details</p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:6;718:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:32;719:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:81;720:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:194;720:25"> G5_ODUK_MAPPING_MODE_TERM</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:82;722:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:195;722:25"> No ODUk mapping. This client is terminated to an
+              Interlaken packet channel. The chnl_id for the Interlaken packet
+              channel must be reused. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:33;727:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:83;728:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:196;728:25">G5_ODUK_MAPPING_MODE_IMP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:84;730:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:197;730:25">This is for a 64b/66b stream with all idles and
+              alignment markers removed. The MAPOTN block uses G.709 17.11 IMP
+              mapping to map the FlexE client to the ODUflex. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:34;735:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:85;736:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:198;736:25">G5_ODUK_MAPPING_MODE_GFP</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:86;738:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:199;738:25">Only valid for 10GE mode, GFP packets mapped via
+              Gsup43 Clause 6.2 into C49 serial stream padded with idles.
+              MAPOTN uses G.7041 7.9 (GFP mapping) mapping of FlexE client to
+              the ODU2. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:35;744:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:87;745:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:200;745:25">G5_ODUK_MAPPING_MODE_CBR</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:88;747:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:201;747:25">This is for an Ethernet CBR stream with alignment
+              markers. The MAPOTN block uses the OIF 7.2.2 mapping of FlexE
+              client to the ODUflex. Depending on the FlexE client rate, the
+              MAPOTN uses either BMP or GMP mapping. 2x 5G slots defines an
+              ODU2e container size. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:36;754:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:89;755:22">G5_ODUK_MAPPING_MODE_BMP_ODU1E</entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:90;757:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:202;757:25">2x 5G slots defines an ODU1e container size.
+              </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:203;762:18">The tx_client_data.flexe_client_number and
+    rx_client_data.flexe_client_number parameters of of the
+    g5_api_flexe_client_prov() API are 16 bit unique FlexE client numbers that
+    are inserted to the 'Client calendar A' or 'Client calendar B' overhead
+    field in Block #3 bit 1-16 or bit 17-32 of the FlexE overhead. Valid
+    values for tx_flexe_client_number and rx_flexe_client_number are 0x1 -
+    0xFFFE. If provisioning only the Tx client, the rx_flex_client_number can
+    be set to 0, and vice versa. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:204;769:41">The FlexE client may be added to
+    multiple bonded Ethernet PHYS within a group by specifying slots in more
+    than one PHY by using the phy_tx_client_slots_X and phy_rx_client_slots_X,
+    where X = 1 to 6, parameters of the g5_api_flexe_client_prov() API. These
+    are a set of calendar slot locations across 6 logical PHYs to describe the
+    calendar slots used by the FlexE client in each of the PHYs in the FlexE
+    group. The number X of client_slots_X is the logical PHY number of the
+    100G port in the FlexE group. If provisioning the Tx client only, the
+    phy_rx_client_slots_X can be set to 0, and vice versa. The PHY element
+    order must match the PHY element order defined in g5_api_flexe_phy_add().
+    For example, if a FlexE client is using 2 calendar slots in logical PHY 0
+    and 10 calendar slots in logical PHY 1 to carry 60G data, this can be
+    shown as rx_client_data.flexe_client_slots[0] = 0x3;
+    rx_client_data.flexe_client_slots[1] = 0x3FF;
+    rx_client_data.flexe_client_slots[2] = 0;
+    rx_client_data.flexe_client_slots[3] = 0;
+    rx_client_data.flexe_client_slots[4] = 0;
+    rx_client_data.flexe_client_slots[5] = 0. When the FlexE group's calendar
+    update mode is set to G5_FLEXE_CALENDAR_SLAVE_FORCE_MODE or
+    G5_FLEXE_CALENDAR_SLAVE_ALARM_MODE in the g5_api_flexe_group_prov() API,
+    the FlexE_DEMUX will inherit the calendar slots from the Far End
+    FlexE_MUX. At minimum, 'flexe_client_number' must be specified when
+    provisioning the Rx FlexE client when the FlexE group's calendar update
+    mode is either of the two SLAVE modes. When 'flexe_client_number' is
+    provided, 'flexe_client_slots' of rx_client_data can be left as {0, 0, 0,
+    0, 0 ,0}. The g5_api_flexe_client_slots_get() API can be called to
+    retrieve the received calendar slots advertised from the Far End
+    FlexE_MUX.</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:205;796:22">The g5_api_flexe_calendar_update() API is used to switch
+    the calendars for the FlexE Group to add/remove FlexE clients. It can work
+    independently on either the MUX, DEMUX, or both. Note that the calendar
+    update mode is selected by the calendar_update_mode parameter of the
+    g5_api_flexe_group_prov() API. See<xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_flexe_calendar_mode_t_Enumeration_cal_fje8sl26k" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:14;800:154" type="table"><?ditaot gentext?>Table 5</xref> above. The g5_api_flexe_calendar_update() API has the following
+    parameters and associated enumerated types. </p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:7;802:57">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:65;803:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:206;803:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:66;805:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:207;805:16">group_chnl_id </p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:67;807:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:208;807:16">cal_update_scope - g5_flexe_calendar_update_mode_t</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:68;809:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:209;809:16">ms_timer </p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:210;810:15">The device_id parameter of the g5_api_flexe_calendar_update()
+    API is the device instance.The group_chnl_id parameter of the
+    g5_api_flexe_calendar_update() API is a unique identifier for the FlexE
+    group. This was the number specified in the g5_api_flexe_group_prov() API.
+    </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:211;814:12">The cal_update_scope parameter is specified by the
+    g5_flexe_calendar_update_mode_t enumeration for the
+    g5_api_flexe_calendar_update() API and is the scope of calendar switch
+    operation on the MUX, DEMUX, or both. The enumerators are shown in<xref href="#Provisioning_and_De-provisioning_2lirs0z29z/table_g5_flexe_calendar_update_mode_t_Enumerat_0jej1tlfi" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="xref:15;817:186" type="table"><?ditaot gentext?>Table 7</xref> below. </p><table id="table_g5_flexe_calendar_update_mode_t_Enumerat_0jej1tlfi" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="table:7;818:93">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:20;819:16">g5_flexe_calendar_update_mode_t Enumeration</title>
+
+        <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tgroup:7;821:26">
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="thead:7;822:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:37;823:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:91;824:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:212;824:25"> Enumerator</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:92;826:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:213;826:25">Calendar Switch </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="tbody:7;830:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:38;831:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:93;832:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:214;832:25">G5_FLEXE_CALENDAR_MUX_UPDATE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:94;834:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:215;834:25">Update occurs on the MUX only.</p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:39;837:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:95;838:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:216;838:25">G5_FLEXE_CALENDAR_DEMUX_UPDATE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:96;840:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:217;840:25">Update occurs on the DEMUX only. </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="row:40;843:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:97;844:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:218;844:25">G5_FLEXE_CALENDAR_MUX_DEMUX_UPDATE</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="entry:98;846:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:219;846:25">Update occurs on MUX and DEMUX. </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:220;850:18">The ms_timer parameter of the g5_api_flexe_calendar_update()
+    API is a timer for the MUX after changing the outgoing CR bit to the
+    DEMUX. The recommended timeouts are a minimum of 15ms which is 3 complete
+    transmissions of the calendar to the DEMUX. Upon a timeout, the action
+    taken will be specified by calendar_update_mode in the
+    g5_api_flexe_group_prov() API. This parameter is unused if
+    calendar_update_mode is either STATIC mode, or NETWORK mode.</p></section>
+
+    <section id="section_Ethernet_and_FlexE_Client_De-Provisionin_gje8sl26k" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:5;858:78"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:21;858:85">Ethernet
+    and FlexE Client De-Provisioning</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:221;859:48">The g5_api_deprov() API is used
+    to de-provision Ethernet Port, FlexE Group and FlexE Client datapath
+    segments. The parameters and associated enumerated types are below.</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="ul:8;861:80">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:69;862:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:222;862:16">device_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:70;864:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:223;864:16">chnl_id</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="li:71;866:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:224;866:16">mode - g5_deprov_t</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:225;867:15">The device_id parameter is the device instance. The chnl_id
+    parameter of the API is the channel ID for the Ethernet Client, FlexE
+    Group or FlexE Client to be de-provisioned. </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:226;869:56">The enumerated type
+    g5_deprov_t of the g5_api_deprov() API defines the scope of resources that
+    are cleaned up as part of a de-provisioning operation when a partial or
+    completely configured datapath is torn down. The enumerator
+    G5_DEPROV_SEGMENT is used when de-provisioning Ethernet clients and FlexE
+    groups associated chnl_id and any children of chnl_id following
+    disconnection at OCPB or DCPB switch. Children of chnl_id are the FlexE
+    Clients of a FlexE Group. The enumerator G5_DEPROV_PATH_FULL is used when
+    de-provisioning chnl_id and any children of chnl_id including the
+    de-provisioning of a connected chnl_id until those connected chnl_id are
+    completely removed.</p></section>
+
+    <section id="section_Example_Code_hje8sl26k" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="section:6;881:50"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="title:22;881:57">Example
+    Code</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:227;882:20">The following example code can be used to provision a 100GE
+    port.</p><codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="codeblock:1;883:25">    UINT32 device_id = 0x6523; 
+    UINT32 enet_chnl_id = 0x2000;
+    UINT32 serdes_port_id = 0;
+
+    rc = g5_api_enet_prov(device_id,
+                                  enet_chnl_id,
+                                  serdes_port_id,
+                                  G5_SERDES_PIN_MODE_NRZ,   // pin_mode         
+                                  G5_ENET_PORT_MODE_100GE,  // mode 
+                                  FALSE,                    // serdes_port_only
+                                  G5_ENET_FEC_MODE_NONE);</codeblock><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:228;893:73">The
+    following example code demonstrate how to provision a FlexE group on the
+    6x100G Serdes ports.</p><codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="codeblock:2;895:40">   UINT32 device_id = 0x6523; 
+   UINT32 flexe_group_chnl_id = 0x3000;
+   UINT32 flexe_group_number_tx = 0x555;  
+   UINT32 flexe_group_number_rx = 0x555;
+
+   rc = g5_api_flexe_group_prov(device_id,
+                                flexe_group_chnl_id,
+                                G5_FLEXE_MODE_PHY_TERM,
+                                flexe_group_number_tx,
+                                flexe_group_number_rx,
+                                G5_FLEXE_CALENDAR_STATIC_MODE);
+    MSCC_ASSERT(MSCC_SUCCESS == rc, 0);
+
+    UINT32 phy_chnl_id = 0x100;
+    UINT32 serdes_port_id = 48;  // Bank 2, SHI 0, Lane 0
+
+    for (UINT32 i = 0; i &lt; 6 &amp;&amp; MSCC_SUCCESS == rc; i++)
+    {
+        rc = g5_api_flexe_phy_add(device_id,
+                                  phy_chnl_id + i,
+                                  serdes_port_id + (4 * i),  
+                                  flexe_group_chnl_id,
+                                  i+1, // tx_flexe_phy_number
+                                  0,   // tx_num_unavailable_slots
+                                  i+1, // rx_flexe_phy_number,
+                                  0,   // rx_num_unavailable_slots,
+                                  G5_SERDES_PIN_MODE_PAM4_ADJ,
+                                  G5_ENET_FEC_MODE_NONE);
+
+        MSCC_ASSERT(MSCC_SUCCESS == rc, 0);
+    }
+
+    rc = g5_api_flexe_group_config(device_id,
+                                   flexe_group_chnl_id);
+    MSCC_ASSERT(MSCC_SUCCESS == rc, 0);</codeblock><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:229;929:55">The following code
+    demonstrate how to provision a 50G FlexE client which uses 10 calendar
+    slots of logical PHY 0.</p><codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="codeblock:3;931:43">     UINT32 device_id = 0x6523; 
+     UINT32 flexe_client_chnl_id = 0x100;
+     UINT32 flexe_group_chnl_id = 0x3000;
+     g5_flexe_client_t client_data;
+     client_data.init();
+
+        client_data.rx_client_data.flexe_client_number = 0x1;
+        client_data.tx_client_data.flexe_client_number = 0x1;
+        for(UINT32 i = 0 ; i &lt; 6; i++ )
+        {
+            client_data.rx_client_data.flexe_client_slots[i] = 0;
+            client_data.tx_client_data.flexe_client_slots[i] = 0;
+        }
+        client_data.rx_client_data.flexe_client_slots[0] = 0x3FF;
+        client_data.tx_client_data.flexe_client_slots[0] = 0x3FF;
+        client_data.oduk_mapping_mode = G5_ODUK_MAPPING_MODE_TERM;
+
+        rc = g5_api_flexe_client_prov(device_id,
+                                      flexe_client_chnl_id,
+                                      flexe_group_chnl_id,
+                                      client_data); 
+</codeblock><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="p:230;952:16">The following example code can be used to de-provision an ENET
+    port.</p><codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Provisioning_and_De-provisioning_2lirs0z29z.xml" xtrc="codeblock:4;953:25">    rc = g5_api_deprov(device_id, enet_chnl_id, G5_DEPROV_SEGMENT);</codeblock></section>
+  </body>
+</topic>

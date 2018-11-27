@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="OTU_Framer_Features" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="topic:1;2:113">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="title:1;3:10">OTU Framer (OTU_FRM) Features</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:1;6:8">LINEOTN supports the following OTU Framer features for OTUk traffic
+    through OTU datapath :</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:1;9:9">
+      <li id="d1e833" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:1;10:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:2;10:26">Optionally, performs the OTSiG/OTUk adaptation
+      function of scrambling / de-scrambling according to the G.709 and G.798
+      standards.</p></li>
+
+      <li id="d1e839" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:2;14:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:3;14:26">Optionally, performs the OTSiG/OTUk adaptation
+      function of multi-frame alignment in the receive path according to the
+      G.709 and G.798 standards.</p></li>
+
+      <li id="d1e845" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:3;18:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:4;18:26">Performs OTU Trail Termination according to the G.709
+      and G.798 standards:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:2;19:35">
+          <li id="d1e852" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:4;20:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:5;20:30">In the receive path, OTU_FRM provides: SMOH (TTI,
+          RES, BDI, IAE, BEI/BIAE and BIP8), RES and GCC0 extraction.</p></li>
+
+          <li id="d1e858" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:5;23:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:6;23:30">In the transmit path, OTU_FRM provides: SMOH
+          (TTI, RES, BDI, IAE, BEI/BIAE and BIP8), RES and GCC0
+          insertion.</p></li>
+        </ul></li>
+
+      <li id="d1e866" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:6;28:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:7;28:26">Performs OTU/ODU adaptation according to the G.709
+      and G.798 standards:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:3;29:35">
+          <li id="d1e873" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:7;30:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:8;30:30">In the receive path, OTU_FRM provides: ODU FAS
+          and MFAS generation, OTU to ODU frame extraction, ODU-LCK / ODU-AIS
+          generation and normal signal / ODU-LCK / ODU-AIS selection.</p></li>
+
+          <li id="d1e879" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:8;34:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:9;34:30">In the transmit path, OTU_FRM provides: ODU-LCK
+          generation, normal signal / ODU-LCK selection and ODU to OTU frame
+          mapping.</p></li>
+        </ul></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:10;40:8">LINEOTN supports the following OTU Framer features for OTUCn traffic
+    through OTU datapath (not supported for OTUCn traffic through FlexO
+    datapath):</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:4;44:9">
+      <li id="d1e833" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:9;45:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:11;45:26">Optionally, performs the OTSiG/OTUCn adaptation
+      function of scrambling / de-scrambling according to the G.709 and G.798
+      standards.</p></li>
+
+      <li id="d1e839" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:10;49:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:12;49:26">Optionally, performs the OTSiG/OTUCn adaptation
+      function of multi-frame alignment in the receive path according to the
+      G.709 and G.798 standards.</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:13;54:8">LINEOTN supports the following OTU Framer features for OTUCn traffic
+    through both FlexO and OTU datapath:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:5;57:9">
+      <li id="d1e894" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:11;58:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:14;58:26">Performs OTU Trail Termination according to the G.709
+      and G.798 standards:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:6;59:35">
+          <li id="d1e901" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:12;60:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:15;60:30">In the receive path, OTU_FRM provides: SM #1 OH
+          (TTI, BDI, and STAT (IAE/AIS)), SM #2 to #n OH (RES, BEI/BIAE and
+          BIP8), RES and GCC0 extraction.</p></li>
+
+          <li id="d1e907" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:13;64:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:16;64:30">In the transmit path, OTU_FRM provides: SM #1 OH
+          (TTI, BDI, and STAT (IAE/AIS)), SM #2 to #n OH (RES, BEI/BIAE and
+          BIP8), RES and GCC0 insertion.</p></li>
+        </ul></li>
+
+      <li id="d1e915" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:14;69:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:17;69:26">Performs OTU/ODU adaptation according to the G.709
+      and G.798 standards:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="ul:7;70:35">
+          <li id="d1e922" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:15;71:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:18;71:30">In the receive path, OTU_FRM provides: ODU FAS
+          and MFAS generation, OTU to ODU frame extraction, ODU-LCK / ODU-AIS
+          generation and normal signal / ODU-LCK / ODU-AIS selection.</p></li>
+
+          <li id="d1e928" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:16;75:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:19;75:30">In the transmit path, OTU_FRM provides: ODU-LCK
+          generation, normal signal / ODU-LCK selection and ODU to OTU frame
+          mapping.</p></li>
+
+          <li id="d1e934" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:17;79:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:20;79:30">In the receive path, each OTUC is processed
+          independently for framing (frame/multiframe/MLD alignment), FEC,
+          SM-PMON and SM-BIP. Any OTUC’s fail to frame will appropriately
+          propagate ‘signal fail’ to all the OTUC’s part of the same OTUCn
+          group.</p></li>
+
+          <li id="d1e940" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:18;85:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:21;85:30">In the receive path, the master OTUC will process
+          the SM layer defects (dTIM, dAIS, dIAE, etc) and if there is a
+          consequential action that needs to be performed the master OTUC will
+          send out signal fail to the appropriate slave OTUC’s part of the
+          same OTUCn group for them to perform consequential action in the
+          OTUCn/ODUCn adaptation layer.</p></li>
+
+          <li id="d1e940" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:19;92:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:22;92:30">In the transmit path, any of the OTUC's incoming
+          alignment error will appropriately propagate to all the OTUC's part
+          of the same group OTUCn.</p></li>
+
+          <li id="d1e940" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="li:20;96:27"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\OTU_layer_Features_nisge2eun.xml" xtrc="p:23;96:30">In the transmit path, the master will forward the
+          BIAE to all the appropriate slave OTUC's part of the same OTUCn
+          group.</p></li>
+        </ul></li>
+    </ul>
+  </body>
+</topic>

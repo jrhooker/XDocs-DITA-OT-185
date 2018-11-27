@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="topic:1;2:143">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="title:1;3:10">PHY &lt;-&gt; MAC &lt;-&gt; Interlaken Datapaths</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="body:1;5:9">
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="ul:1;6:9">
+      <li id="d1e5744" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="li:1;7:24"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="p:1;7:27">10GE (3a), 25GE (3b), 50GE (3c), 100GE (3d), 200GE
+      (3e), 400GE (3f) Ethernet clients to Interlaken via Ethernet
+      MACs.</p></li>
+    </ul>
+
+    <fig id="PHY_to_MAC_to_Interlaken_Datapaths_19irs0z29z" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="fig:1;12:61">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="title:2;13:14">PHY &lt;-&gt; MAC &lt;-&gt; Interlaken Datapaths</title>
+
+      <image href="PHYtoMACtoInterlakenDatapaths.svg" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="image:1;15:86"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="p:2;18:8">On the receive path, the different Ethernet clients (10GE, 25GE, 50GE,
+    100GE, 400GE) coming from the SERDES go through the PHY RX blocks that
+    performs the PMA, FEC and PCS receive functions. The traffic then pass
+    through the RX MAC that delineate Ethernet packets, deleting preamble, all
+    idles and O/S. These packets are forwarded and stored into the DCPB packet
+    buffer. The RX MAC provides full PMON while the FEPP_I provides packet
+    insertion and extraction capabilities. The packets are then extracted from
+    DCPB packet buffer, go through the COPI subsystem and delivered over the
+    Interlaken interface.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="p:3;28:8">On the transmit path, the packets are received over the Interlaken
+    interface, go through the COPI subsystem and stored into the DCPB packet
+    buffer. These packets are received from the DCPB packet buffer. The MAC
+    provides full PMON while the FEPP_E provides packet insertion and
+    extraction capabilities. The MAC adds the preamble, idles and OS. The PHY
+    TX block performs the PMA, FEC and PCS transmit functions. The PHY rate
+    information (normally nominal) is carried for each channel to the SERDES
+    outside the ENET subsystem.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="p:4;37:8"><draft-comment author="hookerje" time="Mon 08/15/2016 11:25 AM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="draft-comment:1;37:72">
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\a_3_PHY_to_MAC_to_Interlaken_Datapaths_18irs0z29z.xml" xtrc="i:1;38:8">[DDD/HWS] SW/Apps to add API and datapath segment configuration content
+    here.</i> </draft-comment></p>
+  </body>
+</topic>

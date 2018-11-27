@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Example_1__3gh4tn12f" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="topic:1;2:114">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="title:1;3:11">Example 1:</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="body:1;4:10">
+                
+
+                <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:1;7:20">Consider the most general case where all CMF frames are
+                expected to go to CSF Status FIFO, all client data frames to
+                egress interface, all MCF to CPU. Only null extension header
+                is expected. Also in case of client data frame there are only
+                two UPI values to match (UPI = 0x13 and 0x14).</p>
+
+                <table id="Filter_sets_programming_for_example_1_4gh4tn12f" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="table:1;13:77">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="title:2;14:17">Filter Sets Programming for Example 1</title>
+                  
+
+                  <tgroup cols="9" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="tgroup:1;17:36">
+                    <colspec colname="col1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:1;18:43"/>
+
+                    <colspec colname="col2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:2;20:43"/>
+
+                    <colspec colname="col3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:3;22:43"/>
+
+                    <colspec colname="col4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:4;24:43"/>
+
+                    <colspec colname="col5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:5;26:43"/>
+
+                    <colspec colname="col6" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:6;28:43"/>
+
+                    <colspec colname="col7" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:7;30:43"/>
+
+                    <colspec colname="col8" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:8;32:43"/>
+
+                    <colspec colname="col9" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="colspec:9;34:43"/>
+
+                    <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="thead:1;36:28">
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:1;37:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:1;38:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:2;39:25">Filter Set no</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:2;42:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:3;43:25">Select_ generic </p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:3;46:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:4;47:25">Type_fields_ mask </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:4;50:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:5;51:25">Type_fields_ value </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:5;54:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:6;55:25">Compare Operator</p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:6;58:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:7;59:25">Action</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:7;62:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:8;63:25">Continuation operator</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:8;66:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:9;67:25">Next filter offset</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:9;70:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:10;71:25">Match Indicators</p>
+                  </entry>
+                      </row>
+                    </thead>
+
+                    <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="tbody:1;76:28">
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:2;77:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:10;78:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:11;79:25">0</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:11;82:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:12;83:25">0</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:12;86:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:13;87:25">EXIm=1111
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:14;89:25">PTIm=111</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:15;90:25">UPIm=8’h00
+                        </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:13;94:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:16;95:25">EXIv=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:17;96:25">PTIv=101
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:18;98:25">UPIv=8’h00 </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:14;101:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:19;102:25">EXIc=00 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:20;103:25">PTIc=00
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:21;105:25">UPIc=00 </p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:15;108:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:22;109:25">00</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:16;112:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:23;113:25">0</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:17;116:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:24;117:25">1111</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:18;120:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:25;121:25">USE_EXI_SET=1</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:26;122:25">USE_PTI_SET=1
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:27;124:25">USE_UPI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:28;125:25">eCSF=0
+                        </p>
+                  </entry>
+                      </row>
+
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:3;130:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:19;131:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:29;132:25">1</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:20;135:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:30;136:25">0</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:21;139:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:31;140:25">EXIm=1111 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:32;141:25">PTIm=111
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:33;143:25">UPIm=8’h00 </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:22;146:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:34;147:25">EXIv=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:35;148:25">PTIv=100
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:36;150:25">UPIv=8’h00 </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:23;153:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:37;154:25">EXIc=00 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:38;155:25">PTIc=00
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:39;157:25">UPIc=00 </p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:24;160:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:40;161:25">11</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:25;164:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:41;165:25">0</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:26;168:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:42;169:25">1111</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:27;172:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:43;173:25">USE_EXI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:44;174:25">USE_PTI_SET=1
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:45;176:25">USE_UPI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:46;177:25">eCSF=1
+                        </p>
+                  </entry>
+                      </row>
+
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:4;182:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:28;183:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:47;184:25">2</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:29;187:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:48;188:25">0</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:30;191:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:49;192:25">EXIm=1111 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:50;193:25">PTIm=111
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:51;195:25">UPIm=8’hFF </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:31;198:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:52;199:25">EXIv=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:53;200:25">PTIv=000
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:54;202:25">UPIv=8’h13 </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:32;205:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:55;206:25">EXIc=00 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:56;207:25">PTIc=00
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:57;209:25">UPIc=00 </p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:33;212:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:58;213:25">01</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:34;216:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:59;217:25">0</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:35;220:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:60;221:25">1111</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:36;224:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:61;225:25">USE_EXI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:62;226:25">USE_PTI_SET=1
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:63;228:25">USE_UPI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:64;229:25">eCSF=0
+                        </p>
+                  </entry>
+                      </row>
+
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:5;234:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:37;235:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:65;236:25">3</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:38;239:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:66;240:25">0</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:39;243:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:67;244:25">EXIm=1111 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:68;245:25">PTIm=111
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:69;247:25">UPIm=8’hFF </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:40;250:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:70;251:25">EXIv=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:71;252:25">PTIv=000
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:72;254:25">UPIv=8’h14 </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:41;257:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:73;258:25">EXIc=00 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:74;259:25">PTIc=00
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:75;261:25">UPIc=00 </p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:42;264:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:76;265:25">01</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:43;268:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:77;269:25">0</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:44;272:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:78;273:25">1111</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:45;276:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:79;277:25">USE_EXI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:80;278:25">USE_PTI_SET=1
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:81;280:25">USE_UPI_SET=1 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:82;281:25">eCSF=0
+                        </p>
+                  </entry>
+                      </row>
+
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:6;286:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:46;287:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:83;288:25">4</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:47;291:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:84;292:25">0</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:48;295:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:85;296:25">EXIm=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:86;297:25">PTIm=000
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:87;299:25">UPIm=8’h00 </p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:49;302:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:88;303:25">EXIv=0000 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:89;304:25">PTIv=000
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:90;306:25">UPIv=8’h00 </p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:50;309:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:91;310:25">EXIc=00 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:92;311:25">PTIc=00
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:93;313:25">UPIc=00 </p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:51;316:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:94;317:25">10</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:52;320:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:95;321:25">0</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:53;324:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:96;325:25">1111</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:54;328:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:97;329:25">USE_EXI_SET=0 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:98;330:25">USE_PTI_SET=0
+                        </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:99;332:25">USE_UPI_SET=0 </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:100;333:25">eCSF=0
+                        </p>
+                  </entry>
+                      </row>
+
+                      <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="row:7;338:28">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:55;339:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:101;340:25">5 to 9</p>
+                  </entry>
+
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:56;343:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:102;344:25">-</p>
+                  </entry>
+
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:57;347:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:103;348:25">-</p>
+                  </entry>
+
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:58;351:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:104;352:25">-</p>
+                  </entry>
+
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:59;355:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:105;356:25">-</p>
+                  </entry>
+
+                        <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:60;359:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:106;360:25">-</p>
+                  </entry>
+
+                        <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:61;363:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:107;364:25">-</p>
+                  </entry>
+
+                        <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:62;367:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:108;368:25">-</p>
+                  </entry>
+
+                        <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="entry:63;371:32">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:109;372:25">-</p>
+                  </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+
+                <fig id="Flow_Chart_showing_filter_processing_for_5gh4tn12u" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="fig:1;379:78">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="title:3;380:17">Flow Chart Showing Filter Processing for Example
+                  1</title>
+                  
+
+                  
+                    
+                      <image placement="break" width="432px" href="rgfpf96_filter_ex1.svg" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="image:1;386:93"/>
+                    
+                  
+                </fig>
+
+                <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="note:1;391:23">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Example_1__3gh4tn12f.xml" xtrc="p:110;392:22">In this example, if a client data frame with null
+                  extension header and with UPI neither 0x13 or 0x14 then a
+                  dEXM event is generated. To get dUPM event we can reprogram
+                  the filters such that only EXI is checked separately and the
+                  subsequent filters check these UPI values.</p>
+                </note>
+              </body>
+</topic>

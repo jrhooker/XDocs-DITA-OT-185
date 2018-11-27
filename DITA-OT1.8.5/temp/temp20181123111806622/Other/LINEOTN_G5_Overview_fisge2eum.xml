@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="LINEOTN_G5_Overview_fisge2eum" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="topic:1;2:123">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="title:1;3:10">LINEOTN Overview</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:1;6:8">There are two datapaths through LINEOTN subsystem: OTU and FLEXO.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:2;8:8">In the OTU datapath, the LINEOTN subsystem is responsible for
+    interfacing to the device line SERDES interface through: <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ph:1;9:90">DSI interface:
+    </ph>OTL4.4<ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ph:2;10:20">/OTL4.2</ph>/OTLC.4<ph class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ph:3;10:43">/OTLC.2</ph>, Multi-lane
+    distribution through OTL MLD engine, FEC encoding / decoding.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:3;13:8">In the FLEXO datapath, the FLEXO block is responsible for interfacing
+    to the device line SERDES interface through:<ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ph:4;14:77">
+    DSI interface:</ph> FOIC1.4/FOIC1.2, FOIC MLD, FEC encoding / decoding,
+    and FLEXO layer processing.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:4;18:8">Both OTU and FLEXO datpath continue onto OTU (Optical Channel Transport
+    Unit) termination, and interfacing to the COREOTN subsystem through a fast
+    multichannel DCI bus. LINEOTN subsystem can process up to 600G of OTN
+    traffic (<ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ph:5;21:42">OTU2, OTU2e, OTU1e, </ph>OTU4, OTU4+,
+    OTUC).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:5;24:8">The LINEOTN subsystem complies with the applicable sub-clauses of
+    G.709, G.798, G.709.1, G.sup58, G.806, G.975 standards in processing data
+    from the SERDES links through the MLD, FEC, and the FLEXO, OTUk and OTUCn
+    layers.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:6;29:8">The LINEOTN subsystem connects to DSIS lane mapping on the line side
+    and COREOTN on the system side.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:7;32:8">The LINEOTN covers 3 main layers of OTN processing: MLD, FEC, and
+    FLEXO, or OTUk or OTUCn layer processing:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:1;35:9">
+      <li id="d1e597" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:1;36:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:8;36:26">MLD layers supported within LINEOTN are:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:2;36:74">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:2;37:15">OTU datapath: OSTiG/OTUk_A (G.709 Annex C and 12/2017 version of
+          G.798 16.3). OSTiG/OTUCn_A (12/2017 version of G.798 16.6). It also
+          performs scrambling and frame alignment per OTSiG/OTUk_A (12/2017
+          version of G.798 16.3).</li>
+        </ul><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:3;41:18">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:3;42:15">FLEXO datapath: FOIC1.2 and FOIC1.4 (ITU G.709.1 Clause 11)</li>
+        </ul></li>
+
+      <li id="d1e603" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:4;45:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:9;45:26">The FECs supported within LINEOTN are:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:4;45:72">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:5;46:15">OTU datapath: the standard GFEC (also known as RSFEC, G.709
+          Annex A)</li>
+        </ul><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:5;48:18">
+          <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:6;49:15">FLEXO datapath: RS(544,514) FEC per ITU G.709.1</li>
+        </ul></li>
+
+      <li id="d1e609" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:7;52:23"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:10;52:26">For FLEXO datapath, there is FLEXO layer processing
+      performs Descrambling and Scrambling (12/2017 version of G.798 16.8.2),
+      FlexO trail termination (2/2017 version of G.798 15.2.1) and FlexO to
+      OTUCn adaptation (2/2017 version of G.798 15.3). For both OTU and FLEXO
+      datapath, the OTU layer processing performs multi-frame alignment and
+      FAS/MFAS insertion per OSTiG/OTUk_A (12/2017 version of G.798 16.3),
+      OTU_TT (G.798 13.2.1) and OTU/ODU_A (G.798 13.3.1).</p></li>
+    </ul>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:11;61:32">The LINEOTN subsystem interfaces to the COREOTN
+    subsystem using a multi-channel DCI. In the receive (ingress) direction,
+    the multi-channel DCI is formed from individual line side SERDES links
+    using an Interleaver block and a programmable scheduler which determines
+    which line side link (channel) drives the DCI during a given clock cycle.
+    In the transmit direction, the scheduling of clients on the DCI bus is
+    dictated to the LINEOTN subsystem by the COREOTN subsystem, and individual
+    line side links are disassembled from the incoming DCI using a
+    De-Interleaver block.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:12;71:8">The following subsections highlight key features of the blocks within
+    the LINEOTN subsystem.</p>
+
+    <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:13;74:32"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="b:1;74:35">Rev B Changes: </b></p>
+
+    <ul audience="MSCCInternal" class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="ul:6;76:33">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="li:8;77:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\LINEOTN_G5_Overview_fisge2eum.xml" xtrc="p:14;77:14">Support for OTU2/OTU2e/OTU1e is added</p></li>
+    </ul>
+  </body>
+</topic>

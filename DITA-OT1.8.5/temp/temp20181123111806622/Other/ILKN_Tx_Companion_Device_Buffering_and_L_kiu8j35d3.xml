@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="topic:1;2:144">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="title:1;3:10">ILKN Ingress Device Companion Latency</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:1;6:8">The 'companion latency' of the ingress device is the PDV contribution
+    of the ILKN ingress device. It has been characterized for various ODUks
+    under different ILKN configurations. This information has been summarized
+    in <xref href="ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml#ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3/ILKN_Tx_Device_Companion_Latency_liu8j35d3" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="xref:1;9:171" type="table"><?ditaot gentext?>Table 1</xref>
+    . <i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="i:1;10:34"/></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:2;12:8"><ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="ph:1;12:36">[TBD] Table completion pending
+    characterization work.</ph></p>
+
+    <table id="ILKN_Tx_Device_Companion_Latency_liu8j35d3" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="table:1;15:60">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="title:2;16:14">ILKN Tx Device Companion Latency</title>
+
+      <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="tgroup:1;18:24">
+        <colspec colname="col1" colwidth="26*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="colspec:1;19:47"/>
+
+        <colspec colname="col2" colwidth="25*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="colspec:2;21:47"/>
+
+        <colspec colname="col3" colwidth="49*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="colspec:3;23:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="thead:1;25:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:1;26:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:1;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:3;27:23">Aggregate Traffic Profile</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:2;29:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:4;29:23">ILKN Mode</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:3;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:5;31:23">Companion Latency of each ODUk</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="tbody:1;35:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:2;36:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:4;37:20">Content will be available in a future release of this
+            document. </entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:5;40:20">Content will be available in a future release of this
+            document.</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:6;43:20">Content will be available in a future release of this
+            document. </entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:3;47:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:7;48:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:8;50:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:9;52:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:4;55:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:10;56:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:11;58:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:12;60:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:5;63:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:13;64:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:14;66:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:15;68:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:6;71:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:16;72:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:17;74:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:18;76:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:7;79:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:19;80:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:20;82:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:21;84:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:8;87:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:22;88:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:23;90:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:24;92:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:9;95:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:25;96:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:26;98:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:27;100:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:10;103:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:28;104:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:29;106:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:30;108:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:11;111:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:31;112:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:32;114:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:33;116:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:12;119:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:34;120:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:35;122:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:36;124:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:13;127:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:37;128:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:38;130:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:39;132:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:14;135:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:40;136:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:41;138:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:42;140:21"/>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="row:15;143:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:43;144:21"/>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:44;146:21"/>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="entry:45;148:21"/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:6;154:8">It is also possible to measure the companion latency of the ingress
+    device as described in</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:7;157:8">Note that in some cases, there may be a requirement for additional
+    buffering in the ILKN Tx Device to accommodate the bursty nature of the
+    ILKN packet scheduling depending on the mode of operation. <i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="i:2;159:91"/></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="p:8;161:8"><ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="ph:2;161:36">[TBD] Should additional buffer requirements
+    here be characterized, and buffer allocated automatically for all modes?
+    This is currently not handled in the DIGI120/DIGI-G4 SDK and is a point of
+    contention….<i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="i:3;164:43"> see</i> <xref href="https://jira-agile.pmcs.com:8443/browse/G4_SW_FW-3221" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="xref:2;164:136"><?ditaot usertext?><i otherprops="highlight" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\ILKN_Tx_Companion_Device_Buffering_and_L_kiu8j35d3.xml" xtrc="i:4;164:162">G4_SW_FW-3221</i></xref></ph></p>
+  </body>
+</topic>

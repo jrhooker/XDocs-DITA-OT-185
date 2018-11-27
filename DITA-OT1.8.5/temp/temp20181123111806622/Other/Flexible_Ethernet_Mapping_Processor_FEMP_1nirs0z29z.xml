@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="topic:1;2:145">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="title:1;3:10">Flexible Ethernet Mapping Processor (FEMP) Functional Model</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:1;6:8">The FEMP supports the following atomic functions:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:1;8:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:1;9:11">FlexE to ETCflex adaptation sink functions (FlexE/ETCFlex_A_Sk)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:2;11:11">ODUkP to ETCflex adaptation source functions
+      (ODUflex/ETCflex_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:3;14:11">ODUkP to ETH adaptation source functions (ODUkP/ETH_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:4;16:11">ODUflexP to FlexESG adaptation source functions
+      (ODUflex/FlexESG_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:5;19:11">ODUkP to CBRx BMP adaptation source functions
+      (ODUkP/CBRx-b_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:6;22:11">ODU4P to CBRETC6 GMP adaptation source functions
+      (ODU4P/CBRETC6-g_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:7;25:11">ETCflex to ETH adaptation source functions (ETCflex//ETHA_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:8;27:11">ETCflex trail termination source functions (ETCflex_TT_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:9;29:11">ODUkP to ETCflex BMP adaptation source functions
+      (ODUkP/ETCflex-b_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:10;32:11">ODUkP to ETCflex GMP adaptation source functions
+      (ODU4P/ETCflex-g_A_So)</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:11;35:11">ETYn to CBRx_A adaptation sink functions (ETYn/CBRx_A_Sk)</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:2;38:8">The FlexE/ETCFlex_A_Sk functions are detailed in ITU-T G.8021/Y.1341
+    and OIF-FLEXE-01.0 . Most FlexE/ETCFlex_A_Sk functions are implemented
+    within the FLEXE_MUX and FLEXE_DEMUX. The functions done in FEMP are
+    listed below:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:2;43:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:12;44:11">Replacement signal generation</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:13;46:11">Rate adaptation idle insert/delete.</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:3;49:8">The ODUkP/ETCflex_A_So functions are detailed in ITU-T G.798 section
+    14.3.17. Most of these functions are implemented in the MAPOTN subsystem,
+    the functions implemented in the FEMP are listed below:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:3;53:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:14;54:11">Rate adaptation idle delete (IMP).</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:15;56:11">Computes client signal fail for insertion downstream.</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:4;59:8">The ODUkP/ETH_A_So functions are detailed in ITU-T G.798 section
+    14.3.11 and ITU-T G.8021/Y.1341 section 11.5.1. Most of these functions
+    are implemented in the MAPOTN subsystem, the functions implemented in the
+    FEMP are listed below:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:4;64:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:16;65:11">Computes client signal fail for insertion downstream.</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:17;67:11">Computes GFP aCMF-RDI and aCMF-FDI for insertion downstream</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:18;69:11">Computes GFP aCSF-LOS-Sig and aCSF-LOS-Sync for insertion
+      downstream</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:5;73:8">If required, the Ethernet FCS is not re-generated, it is preserved from
+    the RX MAC.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:6;76:8">The ODUflexP/FlexESG_A_So functions are detailed in ITU-T G.798 section
+    14.3.18.1. Most of these functions are implemented in the FLEXE_DEMUX
+    except the scrambling done in the MAPOTN subsystem and the following
+    functions done in the FEMP:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:5;81:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:19;82:11">Replacement signal generation</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:20;84:11">Computes client signal fail for insertion downstream</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:7;87:8">The ODUkP/CBRx-b_A_So functions are detailed in ITU-T G.798 sections
+    14.3.1.2 and 14.3.1.3. Most of these functions are implemented in the
+    MAPOTN subsystem except the following functions done in the FEMP:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:6;91:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:21;92:11">Computes client signal fail for insertion downstream</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:8;95:8">The ODU4P/CBRETC6-g_A_So functions are detailed in ITU-T G.798 sections
+    14.3.8. Most of these functions are implemented in the MAPOTN subsystem
+    except the following functions done in the FEMP:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:7;99:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:22;100:11">Computes client signal fail for insertion downstream</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:9;103:8">The ETCflexP/ETH_A_So functions are detailed in ITU-T G.8010/Y.1306
+    section 6.5.2.1.1.. The ENET subsystem only supports ETCflexP/ETH_A_So
+    connected to ETCflex_TT_So and ODUflexP_So/ETCflex_A_So (IMP). Some
+    ETCflexP/ETH_A_So functions are implemented in the FEPP_I and MAC_RX,
+    others are implemented in the MAPOTN subsystem. Within the FEMP, the
+    ETCflexP/ETH_A_So simply connects the input to its output.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:10;110:8">The ETCn_TT_So functions is covered in ITU-T G.8010/Y.1306 section
+    6.5.2.1.2. There is no functions associated with ETCn_TT_So except to
+    connect the input to its output.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:11;114:8">The ODUkP/ETCflex-b_A_So functions are detailed in ITU-T G.798 sections
+    14.3.1.2 and 14.3.1.3. Most of these functions are implemented in the
+    MAPOTN subsystem except the following functions done in the FEMP:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:8;118:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:23;119:11">Computes client signal fail for insertion downstream</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:24;121:11">Idle conversion from clause 82 to clause 49 for 10G BMP mapping (in
+      addition to ITU-G.798 sections 14.3.1.2/14.3.1.3)</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:12;125:8">The ODU4P/ETCflex-g_A_So functions are detailed in ITU-T G.798 sections
+    14.3.8. Most of these functions are implemented in the MAPOTN subsystem
+    except the following functions done in the FEMP:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="ul:9;129:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:25;130:11">Computes client signal fail for insertion downstream</li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="li:26;132:11">Insertion of alignment markers (in addition to ITU-G.798 section
+      14.3.8)</li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\Flexible_Ethernet_Mapping_Processor_FEMP_1nirs0z29z.xml" xtrc="p:13;136:8">The ETYn/CBRx_A_Sk functions are not detailed in any standards, The
+    ETYn/CBRx_A_Sk simply connects its input to its output.</p>
+  </body>
+</topic>

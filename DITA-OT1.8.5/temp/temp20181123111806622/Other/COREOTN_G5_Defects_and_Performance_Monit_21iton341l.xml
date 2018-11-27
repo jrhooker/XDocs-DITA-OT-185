@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="COREOTN_G5_Defects_and_Performance_Monit_21iton341l" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="topic:1;2:145">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="title:1;3:10">COREOTN Defects and Performance Monitoring (PMON)</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="body:1;5:9">
+    <table id="Defects_and_Defect_Correlation_Summary_22iton341l" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="table:1;6:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="title:2;7:14">Defects and Defect Correlation Summary</title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="tgroup:1;9:24">
+        <colspec colname="col1" colwidth="12*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:1;10:47"/>
+
+        <colspec colname="col2" colwidth="12*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:2;12:47"/>
+
+        <colspec colname="col3" colwidth="25*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:3;14:47"/>
+
+        <colspec colname="col4" colwidth="12*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:4;16:47"/>
+
+        <colspec colname="col5" colwidth="12*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:5;18:47"/>
+
+        <colspec colname="col6" colwidth="27*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="colspec:6;20:47"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="thead:1;22:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:1;23:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:1;24:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:1;24:23">Name</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:2;26:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:2;26:23">Type</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:3;28:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:3;28:23">Activation / De-activation</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:4;30:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:4;30:23">Functional Layer</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:5;32:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:5;32:23">Direction</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:6;32:40">Source (So): Transmit</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:7;32:69">Sink (Sk):
+            Receive</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:6;35:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:8;35:23">References</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="tbody:1;39:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:2;40:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:7;41:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:9;41:23">dLTC</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:8;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:10;43:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:9;45:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:11;45:23">G.798: 6.2.1.4</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:10;47:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:12;47:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:13;47:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:11;49:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:14;49:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:12;51:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:15;51:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.1.4</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:3;55:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:13;56:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:16;56:23">dAIS</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:14;58:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:17;58:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:15;60:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:18;60:23">G.798: 6.2.6.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:16;62:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:19;62:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:20;62:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:17;64:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:21;64:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:18;66:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:22;66:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.6.3</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:4;70:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:19;71:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:23;71:23">dOCI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:20;73:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:24;73:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:21;75:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:25;75:23">G.798: 6.2.1.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:22;77:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:26;77:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:27;77:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:23;79:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:28;79:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:24;81:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:29;81:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.1.3</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:5;85:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:25;86:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:30;86:23">dLCK</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:26;88:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:31;88:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:27;90:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:32;90:23">G.798: 6.2.6.9</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:28;92:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:33;92:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:34;92:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:29;94:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:35;94:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:30;96:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:36;96:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.6.9</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:6;100:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:31;101:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:37;101:23">dTIM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:32;103:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:38;103:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:33;105:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:39;105:23">G.798: 6.2.2.1</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:34;107:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:40;107:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:41;107:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:35;109:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:42;109:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:36;111:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:43;111:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.2.1</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:7;115:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:37;116:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:44;116:23">dDEG</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:38;118:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:45;118:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:39;120:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:46;120:23">G.798: 6.2.3.4</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:40;122:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:47;122:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:48;122:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:41;124:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:49;124:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:42;126:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:50;126:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.3.4</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:8;130:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:43;131:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:51;131:23">dBDI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:44;133:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:52;133:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:45;135:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:53;135:23">G.798: 6.2.6.6</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:46;137:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:54;137:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:55;137:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:47;139:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:56;139:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:48;141:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:57;141:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.6.6</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:9;145:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:49;146:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:58;146:23">dIAE</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:50;148:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:59;148:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:51;150:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:60;150:23">G.798: 6.2.6.10</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:52;152:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:61;152:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:62;152:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:53;154:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:63;154:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:54;156:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:64;156:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.6.10</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:10;160:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:55;161:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:65;161:23">dBIAE</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:56;163:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:66;163:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:57;165:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:67;165:23">G.798: 6.2.6.11</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:58;167:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:68;167:23">ODUT_TT/</p> <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:69;167:39">ODUTM</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:59;169:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:70;169:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:60;171:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:71;171:23">G.798: 14.5.1.1.2 &amp; 14.5.1.1.3 &amp;
+            6.2.6.11</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:11;175:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:61;176:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:72;176:23">dPLM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:62;178:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:73;178:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:63;180:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:74;180:23">G.798: 6.2.4.1</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:64;182:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:75;182:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:65;184:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:76;184:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:66;186:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:77;186:23">G.798: 14.3.9.2 &amp; G.798: 14.3.10.2 &amp;
+            6.2.4.1</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:12;190:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:67;191:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:78;191:23">dMSIM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:68;193:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:79;193:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:69;195:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:80;195:23">G.798: 6.2.9.1</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:70;197:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:81;197:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:71;199:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:82;199:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:72;201:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:83;201:23">G.798: 14.3.9.2 &amp; G.798: 14.3.10.2 &amp;
+            6.2.9.1</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:13;205:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:73;206:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:84;206:23">dLOOMFI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:74;208:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:85;208:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:75;210:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:86;210:23">G.798: 14.3.10.2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:76;212:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:87;212:23">ODUkP/ODUj-21_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:77;214:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:88;214:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:78;216:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:89;216:23">G.798: 14.3.10.2</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:14;219:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:79;220:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:90;220:23">dLOFLOM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:80;222:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:91;222:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:81;224:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:92;224:23">G.798: 6.2.5.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:82;226:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:93;226:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:83;228:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:94;228:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:84;230:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:95;230:23">G.798: 14.3.9.2 &amp; G.798: 14.3.10.2 &amp;
+            6.2.5.3</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:15;234:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:85;235:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:96;235:23">dPLM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:86;237:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:97;237:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:87;239:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:98;239:23">G.798: 6.2.4.1</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:88;241:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:99;241:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:89;243:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:100;243:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:90;245:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:101;245:23">G.798: 14.3.16.2 &amp; 6.2.4.1</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:16;248:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:91;249:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:102;249:23">dMSIM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:92;251:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:103;251:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:93;253:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:104;253:23">G.798: 6.2.9.1</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:94;255:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:105;255:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:95;257:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:106;257:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:96;259:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:107;259:23">G.798: 14.3.16.2 &amp; 6.2.9.1</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:17;262:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:97;263:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:108;263:23">dLOOMFI</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:98;265:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:109;265:23">Defect</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:99;267:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:110;267:23">G.798: 14.3.16.2</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:100;269:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:111;269:23">ODUCnP/ODUk_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:101;271:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:112;271:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:102;273:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:113;273:23">G.798: 14.3.16.2</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="row:18;276:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:103;277:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:114;277:23">dLOFLOM</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:104;279:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:115;279:23">Defect </p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:105;281:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:116;281:23">G.798: 6.2.5.3</p></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:106;283:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:117;283:23">ODUkP/ODU[i]k_A</p></entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:107;285:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:118;285:23">Sk</p></entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="entry:108;287:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\COREOTN_G5_Defects_and_Performance_Monit_21iton341l.xml" xtrc="p:119;287:23">G.798: 14.3.16.2 &amp; 6.2.5.3</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

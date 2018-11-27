@@ -53,7 +53,7 @@
   <xsl:param name="noticesLayout">BASIC</xsl:param>
   
   <xsl:param name="retain-bookmap-order">retain</xsl:param>
-  <xsl:param name="topicTitle.numLevel">5</xsl:param>
+  <xsl:param name="topicTitle.numLevel" select="5"/>
 
   <!-- The default of 215.9mm x 279.4mm is US Letter size (8.5x11in) -->
   <xsl:variable name="page-width">215.9mm</xsl:variable>

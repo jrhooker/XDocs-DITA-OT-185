@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Chapters\15_AC_Timing_Characteristics\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Chapters/15_AC_Timing_Characteristics/Topics/?><?path2project ..\..\..\?><?path2project-uri ../../../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="EPS_Timing_ALU__ahflnyk0b" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="topic:1;2:119">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="title:1;3:10">EPS Timing</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="body:1;5:9">
+    <p id="bridgehead_d1e1722" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="p:1;6:32">Inputs</p>
+
+    <fig id="EPS_Timing_AC_Timing_Inputs_ALU__bhflnyk0b" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="fig:1;8:58">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="title:2;9:14">EPS Timing AC Timing (Inputs)</title>
+
+      <image href="../Graphics/AC_Timing_alu_eps_timing_inputs.svg" placement="break" width="360px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="image:1;11:102"/>
+    </fig>
+
+    <table id="EPS_Inputs_AC_Timing_Param" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="table:1;14:44">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="title:3;15:14">EPS Inputs AC Timing Parameters
+      (Inputs)</title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="tgroup:1;18:24">
+        <colspec colname="col1" colnum="1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:1;19:58"/>
+
+        <colspec colname="col2" colnum="2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:2;21:45"/>
+
+        <colspec colname="col3" colnum="3" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:3;23:46"/>
+
+        <colspec colname="col4" colnum="4" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:4;25:46"/>
+
+        <colspec colname="col5" colnum="5" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:5;27:46"/>
+
+        <colspec colname="col6" colnum="6" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:6;29:59"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="thead:1;31:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:1;32:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:1;33:20">Symbol</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:2;35:20">Parameter</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:3;37:20">Min</entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:4;39:20">Typ</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:5;41:20">Max</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:6;43:20">Units</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="tbody:1;47:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:2;48:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:7;49:20">F<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:1;49:26">CK38</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:8;51:20">CK38A/B Frequency</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:9;53:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:10;55:20">38.88</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:11;57:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:12;59:20">MHz</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:3;62:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:13;63:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:2;63:26">high</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:14;65:20">CK38A/B High Pulse Width</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:15;67:20">11.5 <ph otherprops="no_break" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="ph:1;67:51">(45%)</ph></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:16;69:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:17;71:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:18;73:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:4;76:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:19;77:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:3;77:26">low</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:20;79:20">CK38A/B Low Pulse Width</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:21;81:20">11.5 <ph otherprops="no_break" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="ph:2;81:51">(45%)</ph></entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:22;83:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:23;85:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:24;87:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:5;90:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:25;91:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:4;91:26">setup</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:26;93:20">Setup time for SYNCA/B relative to
+            rising edge of CK38A/B</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:27;96:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:28;98:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:29;100:20">2</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:30;102:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:6;105:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:31;106:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:5;106:26">hold</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:32;108:20">Hold time for to rising edge of
+            CK38A/B SYNCA/B being de asserted</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:33;111:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:34;113:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:35;115:20">2</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:36;117:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:7;120:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:37;121:20">PP-Jitter max</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:38;123:20">Peak to Peak Jitter on
+            CK38A/B</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:39;126:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:40;128:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:41;130:20">800</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:42;132:20">ps</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p id="bridgehead_d1e1832" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="p:2;138:32">Outputs</p>
+
+    <fig id="EPS_Timing_AC_Timing_Outputs_ALU__chflnyk0b" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="fig:2;140:59">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="title:4;141:14">EPS Timing AC Timing (Outputs)</title>
+
+      <image href="../Graphics/AC_Timing_alu_eps_timing_outputs_v3.svg" placement="break" width="420px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="image:2;143:106"/>
+    </fig>
+
+    <table id="EPS_Outputs_AC_Timing_Param" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="table:2;146:45">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="title:5;147:14">EPS Outputs AC Timing Parameters
+      (Outputs)</title>
+
+      <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="tgroup:2;150:24">
+        <colspec colname="col1" colnum="1" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:7;151:58"/>
+
+        <colspec colname="col2" colnum="2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:8;153:45"/>
+
+        <colspec colname="col3" colnum="3" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:9;155:46"/>
+
+        <colspec colname="col4" colnum="4" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:10;157:46"/>
+
+        <colspec colname="col5" colnum="5" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:11;159:46"/>
+
+        <colspec colname="col6" colnum="6" colwidth=".5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="colspec:12;161:59"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="thead:2;163:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:8;164:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:43;165:20">Symbol</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:44;167:20">Parameter</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:45;169:20">Min</entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:46;171:20">Typ</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:47;173:20">Max</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:48;175:20">Units</entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="tbody:2;179:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:9;180:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:49;181:20">F<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:6;181:26">CK38AB_SEL</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:50;183:20">CK38AB_SEL Frequency</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:51;185:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:52;187:20">38.88</entry>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:53;189:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:54;191:20">Mhz</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:10;194:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:55;195:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:7;195:26">PDmax</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:56;197:20">Max delay from rising edge of
+            CK38AB_SEL to valid data on SYNCAB_SEL</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:57;200:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:58;202:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:59;204:20">P/2+2</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:60;206:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:11;209:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:61;210:20">t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="sub:8;210:26">PDmin</sub></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:62;212:20">Min delay from rising edge of
+            CK38AB_SEL to valid data on SYNCAB_SEL</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:63;215:20">P/2-2</entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:64;217:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:65;219:21"/>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:66;221:20">ns</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:12;224:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:67;225:20">PP-Jitter max</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:68;227:20">Peak to Peak Jitter on
+            CK38AB_SEL</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:69;230:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:70;232:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:71;234:20">800</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:72;236:20">ps</entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="row:13;239:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:73;240:20">Output Transition Time</entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:74;242:20">Output transition time on
+            CLK38AB_SEL and SYNCAB_SEL</entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:75;245:21"/>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:76;247:21"/>
+
+            <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:77;249:20">2</entry>
+
+            <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="entry:78;251:20">ns</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="note:1;257:11"><ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="ol:1;257:15">
+        <li id="d1e1870" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="li:1;258:26"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="p:3;258:29">All outputs
+        support Type1 board topology as defined in the DIGI-G5 Product
+        Specification <xref href="../../../NokiaAppNote/a_02_references_nokia.xml#a_02_references/PMC_ref_po_pm6010" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="xref:1;260:119" type="li"><?ditaot gentext?>1</xref>.</p></li>
+      </ol></note>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="note:2;263:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Chapters\15_AC_Timing_Characteristics\Topics\EPS_Timing_ALU__ahflnyk0b.xml" xtrc="p:4;263:14">To achieve the required
+    timing, both output paths must be matched in timing closure within an
+    accuracy of 2 ns. There is no timing relation between CK38A/B and
+    CK38AB_SEL.</p></note>
+  </body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20181123111806622\Other?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20181123111806622/Other/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="PLL_response_to_signal_acquisition_and_s_12iu8j35d4" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="topic:1;2:145">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="title:1;3:10">PLL response to signal acquisition and signal loss</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="p:1;6:8">The PLLs responsible for recovering the rate of asynchronous signals
+    implement state machines to control the sequence of events during a signal
+    disruption and during signal acquisition (i.e. during bring-up or
+    following a signal disruption).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="p:2;11:8">The state transitions that occur during signal acquisition and signal
+    loss are shown in <xref href="PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml#PLL_response_to_signal_acquisition_and_s_12iu8j35d4/Signal_Acquisition_and_Signal_Loss_State_13iu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="xref:1;12:197" type="fig"><?ditaot gentext?>Figure 1</xref>
+    .</p>
+
+    <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="note:1;15:35"><xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="xref:2;15:137"><?ditaot usertext?>
+    http://bby1dms01.pmc-sierra.internal/DocMgmt/getfile.cfm?file_id=427198
+    </xref> Signal Acquisition/Loss tab</note>
+
+    <fig id="Signal_Acquisition_and_Signal_Loss_State_13iu8j35d4" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="fig:1;19:67">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="title:2;20:14">Signal Acquisition and Signal Loss State Transitions</title>
+
+      <image href="Signal_Acquisition_and_Signal_Loss_State.svg" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="image:1;22:99"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="p:3;25:8">The transitions in this state machine optimize the PLL behavior during
+    protection switch scenarios with the goal of reducing the rate transition
+    component of the hysteresis buffer. Each of the phases in the signal
+    acquisition and signal loss state machines are described in the sections
+    below.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="p:4;31:8">The datapath dashboard utility described in <xref href="External_Latency_Measurement_1jiu8j35d4.xml#External_Latency_Measurement_1jiu8j35d4" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\digi\Other\PLL_response_to_signal_acquisition_and_s_12iu8j35d4.xml" xtrc="xref:3;31:150" type="topic"><?ditaot gentext?>External Latency Measurement</xref>
+    can be used to enable real-time analysis of the recovered PLL and buffer
+    status. This can assist with confirming adequate hysteresis buffer sizing
+    in relation to the configured PLL signal acquisition state
+    transitions.</p>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-US" xtrc="topic:1" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" id="ODU_RCP_-_RI_RCP_DI_RCP_zgple73io">
+   <title xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" xtrc="title:1">ODU Ring Control Port Block (ODU_RCP)</title>
+   <body xtrc="body:1" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml">
+      <p xtrc="p:1" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml">
+         <ph status="deleted" rev="deltaxml-delete">TO BE UPDATED NEXT ISSUE</ph>
+         <ph status="new" rev="deltaxml-add">TBD</ph>
+      </p>
+      <fig audience="MSCCInternal" id="rcp_top_level_block" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" xtrc="fig:1" status="unchanged">
+         <title xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" xtrc="title:2">RCP Top Level Block Diagram</title>
+         <image href="ODU_RCP_Block_Diagrams.svg" placement="break" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" xtrc="image:1"/>
+      </fig>
+      <p audience="MSCCInternal" xtrf="/Content/en-US/CBU/DIGI_G5_Family/PD/DDD_HWS/Chapters/05_Functional_Description/Topics/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" xtrc="p:2" status="unchanged">The RCP block has two interfaces: RI_RCP(Remote Information Ring Control Port) and DI_RCP (Defects Information Ring Control Port). These interfaces are used to communicate backward indications and defects/alarms off-chip.</p>
+   </body>
+</topic>

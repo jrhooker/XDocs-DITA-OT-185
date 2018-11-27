@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7fbb" xml:lang="en-US">
+  <title>Revision History</title>
+
+  <body>
+    <?guidance If a topic with a Revision History table is present in a ditamap project, publishing will ignore any revision information in the ditamap pmc_iso element and use the content in the pmc-revhistory
+element of the Revision HIstory table to generate the Detailed Revision history in the ISO matter and the Revision History table in the external document.?>
+
+    <table>
+      <title>Revision History</title>
+
+      <tgroup cols="4">
+        <colspec colwidth="56*"/>
+
+        <colspec colwidth="90*"/>
+
+        <colspec colwidth="103*"/>
+
+        <colspec colwidth="751*"/>
+
+        <thead>
+          <row>
+            <entry><p>Revision</p></entry>
+
+            <entry><p>Date</p></entry>
+
+            <entry>Name</entry>
+
+            <entry>Description</entry>
+          </row>
+        </thead>
+
+        <pmc-revhistory>
+          <pmc-revision otherprops="internal">
+            <pmc-rev-number>5</pmc-rev-number>
+
+            <pmc-date>August 2017</pmc-date>
+
+            <pmc-name>Alex Cochran/Disha Bhardwaj</pmc-name>
+
+            <pmc-description>
+              <p>- Added "Table 22 Reference and Power Filtering Pin
+              Description" to the pin description section. Refer to the
+              hardware design guide for components and connections required
+              for the power filtering pins.</p>
+
+              <p otherprops="internal">- Internal Updated "Table 84 Normal
+              Operating Voltages" with complete list of pins for the AVD_0V8,
+              AVD_1V8, and VDDO_1V8 power domains.</p>
+
+              <p>- Added bootstrap option pins BEN, BST[1:0], CBT[2:0], MSE,
+              MSM, MSR, NEN to "Table 3 DIGI-G5 Device Interface Pin
+              Description".</p>
+
+              <p>- Changed software API names to reflect development 1.0.0
+              release of the DIGI-G5 Device Family Software Development Kit
+              (SDK).</p>
+
+              <p>- Added test point receive and transmit pins to "Table 3
+              DIGI-G5 Device Interface Pin Description".</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision>
+            <pmc-rev-number>4</pmc-rev-number>
+
+            <pmc-date>August 2017</pmc-date>
+
+            <pmc-name>Alex Cochran/Disha Bhardwaj</pmc-name>
+
+            <pmc-description>
+              <p>- Added "Table 22 Reference and Power Filtering Pin
+              Description" to the pin description section. Refer to the
+              hardware design guide for components and connections required
+              for the power filtering pins.</p>
+
+              <p otherprops="internal">- Internal Updated "Table 84 Normal
+              Operating Voltages" with complete list of pins for the AVD_0V8,
+              AVD_1V8, and VDDO_1V8 power domains.</p>
+
+              <p>- Added bootstrap option pins BEN, BST[1:0], CBT[2:0], MSE,
+              MSM, MSR, NEN to "Table 3 DIGI-G5 Device Interface Pin
+              Description".</p>
+
+              <p>- Changed software API names to reflect development 1.0.0
+              release of the DIGI-G5 Device Family Software Development Kit
+              (SDK).</p>
+
+              <p>- Added test point receive and transmit pins to "Table 3
+              DIGI-G5 Device Interface Pin Description".</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision>
+            <pmc-rev-number>3</pmc-rev-number>
+
+            <pmc-date>February 2017</pmc-date>
+
+            <pmc-name>Alex Cochran</pmc-name>
+
+            <pmc-description>
+              <p>- Increased number of SERDES on Bank C from 20 to 24.</p>
+
+              <p>- Indicated lane order reversal of SERDES Bank A on Device
+              PCB Floor Planning Diagram.</p>
+
+              <p>- Added ODUjk mux 100G Capacity Resource tables for 600G and
+              500G modes of operation.</p>
+
+              <p>- Updated text and diagrams to show support for 24x10GE.</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision>
+            <pmc-rev-number>2</pmc-rev-number>
+
+            <pmc-date>January 2017</pmc-date>
+
+            <pmc-name>Alex Cochran</pmc-name>
+
+            <pmc-description>
+              <p>- Removed references to PM6012 and PM6013.</p>
+
+              <p>- Removed support for SSPRQ, JP03A and JP03B SerDes patterns
+              to align with standards.</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision>
+            <pmc-rev-number>1</pmc-rev-number>
+
+            <pmc-date>November 2016</pmc-date>
+
+            <pmc-name>Alex Cochran</pmc-name>
+
+            <pmc-description>
+              <p>First release.</p>
+            </pmc-description>
+          </pmc-revision>
+        </pmc-revhistory>
+      </tgroup>
+    </table>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GeneralTask" xml:lang="en-US">
+  <title>General Task</title>
+
+  <taskbody>
+    <context>This is context.</context>
+
+    <prereq>This is a prereq.</prereq>
+
+    <steps-informal><p>This is an imformal step</p><p>This is another
+    paragraph.</p></steps-informal>
+
+    <result>This is the result</result>
+  </taskbody>
+</task>

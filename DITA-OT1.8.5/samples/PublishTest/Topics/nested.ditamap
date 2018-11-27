@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/SysSchema/dita/dtd/technicalContent/dtd/map.dtd">
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="???" xml:lang="en-US">
+  <title>Nested DITAMAP</title>
+
+  <topicref navtitle="Nested Chapter 1">
+    <topicref href="topics.xml"/>
+  </topicref>
+
+  <topicref navtitle="Nested Chapter 2"/>
+</map>

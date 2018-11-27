@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7f16" xml:lang="en-US">
+  <title>Diffed Text<ph rev="deltaxml-add" status="new">New</ph><ph rev="deltaxml-delete" status="deleted">Delete</ph></title>
+
+  <body>
+    <p>The Non-Transparent Endpoint (NT EP) offers access to Switchtec's
+    Non-Transparent Bridge (NTB) through mapping windows in the NT EP's Memory
+    Space. It is presented to the RC as function 0 of the upstream port when
+    the USP port mode is NT EP only, or as function 1 in the upstream port
+    when the USP port mode supports transparent switching, as well. The
+    following sections outline the details of the non-transparent
+    endpoint.</p>
+
+    <p/>
+
+    <table>
+      <title>Diffed Table Text<ph rev="deltaxml-add" status="new">New</ph><ph rev="deltaxml-delete" status="deleted">Delete</ph></title>
+
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <fig>
+      <title>A codeblock within a figure.</title>
+
+      <codeblock>This is a codeblock
+This is a codeblock
+This is a codeblock
+This is a codeblock</codeblock>
+    </fig>
+  </body>
+
+  <related-links>
+    <linklist conref="../RelTables/reltable1.xml#reltable1/browse_1234"/>
+  </related-links>
+</topic>

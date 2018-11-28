@@ -545,6 +545,17 @@ Before rebuilding, please delete the output or the directory.</echo>
 			<param name="topicTitle.numLevel" value="${topicTitle.numLevel}"/>
 		</antcall>
 	</target>
+	
+	<target name="xdpublish.mchppdf" depends="init"
+		description="Microchip Format PDF">
+		<antcall target="DOST.init">
+			<param name="args.input" value="${targetfn}"/>
+			<param name="output.dir"  value="${outputdir}"/>			
+			<param name="pdf.formatter" value="xep"/> 
+			<param name="transtype" value="mchp-pdf"/>
+			<param name="topicTitle.numLevel" value="${topicTitle.numLevel}"/>
+		</antcall>
+	</target>
 
       <target name="xdpublish.wordrtf" depends="init"
 		description="Build the xdocs demo to WordRtf.">

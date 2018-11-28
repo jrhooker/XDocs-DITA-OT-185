@@ -49,4 +49,6 @@ echo pdf.formater: $4
 echo output.dir: $5
 echo filter: $6
 
-ant -Dargs.input=$1  -Dtranstype=$2 -Dvalidate=$3 -Dpdf.formatter=$4 -Doutput.dir=$5 -Dargs.filter=$6 -Douter.control=warn -Dclean.temp=true -DmaxJavaMemory=3200m
+REM ant -Dargs.input=$1  -Dtranstype=$2 -Dvalidate=$3 -Dpdf.formatter=$4 -Doutput.dir=$5 -Dargs.filter=$6 -Douter.control=warn -Dclean.temp=true -DmaxJavaMemory=3200m
+
+ant -Dargs.dir.input=samples/PublishTest -Dargs.input=samples/PublishTest/PublishTest.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/PublishTest/pdf -Douter.control=warn -Dclean.temp=false  -DmaxJavaMemory=3200m 

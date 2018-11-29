@@ -37,7 +37,7 @@ See the accompanying license.txt file for applicable licenses.
       This file controls strings that appear in the published output.  
       There is one version of this file per language.  To add support 
       for a new language, simply create a copy of this file and name 
-      it using the <locale ISO code>.xml format. 
+      it using the <locale ISO code>.xml format.
       
     -->
 
@@ -108,10 +108,10 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Preface first footer"/>
 
     <!-- The header that appears on Preface odd-numbered pages. -->
-    <variable id="Preface odd header"><param ref-name="prodname"/>&#160;|&#160;Prefacio&#160;|&#160;<param ref-name="pagenum"/></variable>
+    <variable id="Preface odd header"><param ref-name="pagenum"/>&#160;|&#160;Einleitung&#160;|&#160;<param ref-name="pagenum"/></variable>
 
     <!-- The header that appears on Preface even-numbered pages. -->
-    <variable id="Preface even header"><param ref-name="pagenum"/>&#160;|&#160;Prefacio&#160;|&#160;<param ref-name="prodname"/></variable>
+    <variable id="Preface even header"><param ref-name="pagenum"/>&#160;|&#160;Einleitung&#160;|&#160;<param ref-name="pagenum"/></variable>
 
     <!-- The header that appears on Preface first page. -->
     <variable id="Preface first header"/>
@@ -126,12 +126,12 @@ See the accompanying license.txt file for applicable licenses.
 
     <!-- The header that appears on the odd-numbered table of contents
          pages. --> 
-    <!-- Contenido -->
-    <variable id="Toc odd header"><param ref-name="pagenum"/>&#160;|&#160;<param ref-name="heading"/>&#160;|&#160;<param ref-name="pagenum"/></variable>
+    <!-- Inhaltsverzeichnis -->
+    <variable id="Toc odd header"><param ref-name="prodname"/>&#160;|&#160;<param ref-name="heading"/>&#160;|&#160;<param ref-name="pagenum"/></variable>
 
     <!-- The header that appears on the odd-numbered table of contents
          pages. --> 
-    <variable id="Toc even header"><param ref-name="pagenum"/>&#160;|&#160;<param ref-name="heading"/>&#160;|&#160;<param ref-name="pagenum"/></variable>
+    <variable id="Toc even header"><param ref-name="pagenum"/>&#160;|&#160;<param ref-name="heading"/>&#160;|&#160;<param ref-name="prodname"/></variable>
 
     <!-- The footer that appears on the odd-numbered index pages. -->
     <variable id="Index odd footer"/>
@@ -153,135 +153,135 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Unordered List bullet">&#8226;</variable>
 
     <!-- The heading string to put at the top of the Table of Contents -->
-    <variable id="Table of Contents">Contents</variable>
+    <variable id="Table of Contents">Inhalt</variable>
 
     <!-- The heading string to put at the top of the Index -->
-    <variable id="Index">Índice</variable>
-    <variable id="Index Continued String">continuado</variable>
-    <variable id="Index See String">, Ver </variable>
-    <variable id="Index See Also String">Ver también </variable>
+    <variable id="Index">Index</variable>
+    <variable id="Index Continued String">Fortsetzung</variable>
+    <variable id="Index See String">, Siehe </variable>
+    <variable id="Index See Also String">Siehe auch </variable>
 
     <!-- The string used to label a chapter within the table of contents. -->
-    <variable id="Table of Contents Chapter">Capítulo&#160;<param ref-name="number"/>:&#160;</variable>
+    <variable id="Table of Contents Chapter">Kapitel&#160;<param ref-name="number"/>:&#160;</variable>
 
     <!-- The string used to label an appendix within the table of contents. -->
-    <variable id="Table of Contents Appendix">Apéndice&#160;<param ref-name="number"/>:&#160;</variable>
+    <variable id="Table of Contents Appendix">Anhang&#160;<param ref-name="number"/>:&#160;</variable>
 
     <!-- The string used to label an part within the table of contents. -->
-    <variable id="Table of Contents Part">Parte&#160;<param ref-name="number"/>:&#160;</variable>
+    <variable id="Table of Contents Part">Teil&#160;<param ref-name="number"/>:&#160;</variable>
 
     <!-- The string used to label an preface within the table of contents. -->
-    <variable id="Table of Contents Preface">Prefacio&#160;</variable>
-    <variable id="Preface title">Prefacio</variable>
+    <variable id="Table of Contents Preface">Einleitung&#160;</variable>
+    <variable id="Preface title">Einleitung</variable>
 
     <!-- The heading to put at the top of a chapter when creating a
          chapter-level "mini-TOC" -->
-    <variable id="Mini Toc">Temas: </variable>
+    <variable id="Mini Toc">Themen: </variable>
 
     <variable id="#note-separator">: </variable>
     <!-- Text to use for 'Note' label generated from <note> element. -->
-    <variable id="Note">Nota</variable>
+    <variable id="Note">Hinweis</variable>
     <!-- Text to use for 'Notice' label generated from <note> element. -->
     <variable id="Notice"><!--TODO:Notice--></variable>
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'tip'. -->
-    <variable id="Tip">Sugerencia</variable>
+    <variable id="Tip">Tipp</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element
          with 'type' attribute set to 'tip'. -->
-    <variable id="Important">Importante</variable>
+    <variable id="Important">Wichtig</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'fastpath'. -->
-    <variable id="Fastpath">Vía rápida</variable>
+    <variable id="Fastpath">Pfad für den Schnellzugriff</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'remember'. -->
-    <variable id="Remember">Recordar</variable>
+    <variable id="Remember">Nicht vergessen!</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'attention'. -->
-    <variable id="Attention">Atención</variable>
+    <variable id="Attention">Achtung</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'caution'. -->
-    <variable id="Caution">Precaución</variable>
+    <variable id="Caution">Vorsicht</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'danger'. -->
-    <variable id="Danger">Peligro</variable>
+    <variable id="Danger">Gefahr</variable>
     <!-- Text to use for 'Note' label generated from <note> element with 'type' attribute set to 'warning'. -->
-    <variable id="Warning">Aviso</variable>
+    <variable id="Warning">Warnung</variable>
     <!-- Text to use for 'Note' label generated from <note> element
          with 'type' attribute set to 'restriction'. -->
-    <variable id="Restriction">Restricción</variable>
+    <variable id="Restriction">Beschränkung</variable>
 
     <!-- Text to use for figure titles. Renders as part of <fig>/<title>
           elements. -->
-    <variable id="Figure">Figura  <param ref-name="number"/>: <param ref-name="title"/></variable>
+    <variable id="Figure">Abbildung  <param ref-name="number"/>: <param ref-name="title"/></variable>
 
     <!-- Text to use for table titles. Renders as part of <table>/<title> 
          elements. -->
-    <variable id="Table">Tabla <param ref-name="number"/>: <param ref-name="title"/></variable>
+    <variable id="Table">Tabelle <param ref-name="number"/>: <param ref-name="title"/></variable>
 
     <!-- Text to use for related links label.
          Renders as part of <related-links> element. -->
-    <variable id="Related Links">Vínculos relacionados</variable>
+    <variable id="Related Links">Verwandte Links</variable>
 
     <!-- Default cross-reference text prefix. Used to generate reference 
          text in case it's not specified in source. -->
-    <variable id="Cross-Reference">Referencia cruzada a: </variable>
+    <variable id="Cross-Reference">Querverweis auf: </variable>
 
     <!-- Default content-reference text prefix. Used to generate reference 
          text in case target cannot be resolved. -->
-    <variable id="Content-Reference">Referencia de contenido a: </variable>
+    <variable id="Content-Reference">Inhaltsverweis auf: </variable>
 
     <!-- Default title text for referenced section title. Used to generate 
          reference text in case reference has no explicit content and
          referenced section has no title. -->
-    <variable id="Untitled section">Sección sin título.</variable>
+    <variable id="Untitled section">Unbenannter Abschnitt.</variable>
 
     <!-- Default title text for referenced list item. Used to generate
          reference text in case reference has no explicit content and 
          reference target is a list item. -->
-    <variable id="List item">Elemento de lista.</variable>
+    <variable id="List item">Listenelement.</variable>
 
     <!-- Default title text for referenced footnote. Used to generate 
          reference text in case reference has no explicit content and 
          reference target is a footnote. -->
-    <variable id="Foot note">Nota al pie.</variable>
+    <variable id="Foot note">Fußnote.</variable>
 
     <!-- Text to use for a generated label of navigation title. Renders
          as part of <navtitle> element. -->
-    <variable id="Navigation title">Título de navegación</variable>
+    <variable id="Navigation title">Navigationstitel</variable>
 
     <!-- Text to use for a generated label of search title. Renders 
          as part of <searchtitle> element. -->
-    <variable id="Search title">Buscar título</variable>
+    <variable id="Search title">Suchtitel</variable>
 
     <!-- Text to use for chapter titles.-->
-    <variable id="Chapter with number">Capítulo <param ref-name="number"/></variable>
+    <variable id="Chapter with number">Kapitel  <param ref-name="number"/></variable>
 
     <!-- Text to use for appendix titles.-->
-    <variable id="Appendix with number">Apéndice <param ref-name="number"/></variable>
+    <variable id="Appendix with number">Anhang  <param ref-name="number"/></variable>
 
     <!-- Text to use for part titles.-->
-    <variable id="Part with number">Parte <param ref-name="number"/></variable>
+    <variable id="Part with number">Teil <param ref-name="number"/></variable>
 
     <!-- Text to use for a label generated from <required-cleanup> element. -->
-    <variable id="Required-Cleanup">[Limpie Requerido]</variable>
+    <variable id="Required-Cleanup">[Erforderliche Bereinigung]</variable>
 
     <!-- Template for generated page number of a reference 
          in printed manual. -->
-    <variable id="On the page"> en la página <param ref-name="pagenum"/></variable>
+    <variable id="On the page"> auf Seite <param ref-name="pagenum"/></variable>
 
     <!-- Template for generated page number of a reference
          in printed manual, when referenced element has no title. -->
-    <variable id="Page"> página <param ref-name="pagenum"/></variable>
+    <variable id="Page"> Seite <param ref-name="pagenum"/></variable>
 
     <!-- Template for generated page number of a reference
          in chm/html, when referenced element has no title. -->
-    <variable id="This link">este acoplamiento</variable>
+    <variable id="This link">diese Verbindung</variable>
 
     <!-- Image path to use for a note of "note" type. -->
     <variable id="note Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
@@ -320,65 +320,65 @@ See the accompanying license.txt file for applicable licenses.
     -->
 
     <!-- The title of the "contents" button in online-help output -->
-    <variable id="Contents button title">Contenido</variable>
+    <variable id="Contents button title">Inhalt</variable>
 
     <!-- The title of the "index" button in online-help output -->
-    <variable id="Index button title">Índice</variable>
+    <variable id="Index button title">Index</variable>
 
     <!-- The title of the "search" button in online-help output -->
-    <variable id="Search button title">Búsqueda</variable>
+    <variable id="Search button title">Suche</variable>
 
     <!-- The title of the "back" button in online-help output -->
-    <variable id="Back button title">Detrás</variable>
+    <variable id="Back button title">Zurück</variable>
 
     <!-- The title of the "forward" button in online-help output -->
-    <variable id="Forward button title">Adelante</variable>
+    <variable id="Forward button title">Vorwärts</variable>
 
     <!-- The title of the "main page" button in online-help output -->
-    <variable id="Main page button title">Página Principal</variable>
+    <variable id="Main page button title">Hauptseite</variable>
 
     <!-- The title of the "previous page" button in online-help output -->
-    <variable id="Previous page button title">Página Anterior</variable>
+    <variable id="Previous page button title">Vorige Seite</variable>
 
     <!-- The title of the "next page" button in online-help output -->
-    <variable id="Next page button title">Página Siguiente</variable>
+    <variable id="Next page button title">Folgende Seite</variable>
 
     <!-- The "online help" document title prefix in online-help output -->
-    <variable id="Online help prefix">Ayuda En línea</variable>
+    <variable id="Online help prefix">On-line-Hilfe</variable>
 
     <!-- The search by index field title in online-help output -->
-    <variable id="Search index field title">Búsqueda para la palabra clave:</variable>
+    <variable id="Search index field title">Suche nach dem Schlüsselwort:</variable>
 
     <!-- The search by index button title in online-help output -->
-    <variable id="Search index button title">Visión</variable>
+    <variable id="Search index button title">Sehen Sie</variable>
 
     <!-- The search by text field title in online-help output -->
-    <variable id="Search text field title">Ayuda de la búsqueda para:</variable>
+    <variable id="Search text field title">Suchhilfe für:</variable>
 
     <!-- The search by text button title in online-help output -->
-    <variable id="Search text button title">Búsqueda</variable>
-    
+    <variable id="Search text button title">Suche</variable>
+
     <!--Label for a step with importance="optional"-->
-    <variable id="Optional Step">Opcional:</variable>
+    <variable id="Optional Step">Optional:</variable>
 
     <!--Labels for task sections-->
-    <variable id="Task Prereq">Antes de empezar</variable>
-    <variable id="Task Context">Por qué y cuándo se efectúa esta tarea</variable>
-    <variable id="Task Steps">Procedimiento</variable>
+    <variable id="Task Prereq">Vorbereitungen</variable>
+    <variable id="Task Context">Warum und wann dieser Vorgang ausgeführt wird</variable>
+    <variable id="Task Steps">Prozedur</variable>
   <variable id="#steps-unordered-label"><variable id="Task Steps"/></variable>
-    <variable id="Task Result">Resultados</variable>
-    <variable id="Task Example">Ejemplo</variable>
-    <variable id="Task Postreq">Qué hacer a continuación</variable>
+    <variable id="Task Result">Ergebnisse</variable>
+    <variable id="Task Example">Beispiel</variable>
+    <variable id="Task Postreq">Nächste Maßnahme</variable>
     <variable id="Glossary odd footer"/>
     <variable id="Glossary even footer"/>
     <variable id="Glossary odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
     <variable id="Glossary even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
-    <variable id="Glossary">Glosario</variable>
-    <variable id="List of Tables">Lista de tablas</variable>
-    <variable id="List of Figures">Lista de figuras</variable>
-  <variable id="Option">Opción</variable>
-  <variable id="Description">Descripción</variable>
+    <variable id="Glossary">Glossar</variable>
+    <variable id="List of Tables">Tabellenverzeichnis</variable>
+    <variable id="List of Figures">Abbildungsverzeichnis</variable>
+  <variable id="Option">Option</variable>
+  <variable id="Description">Bezeichnung</variable>
   <variable id="#menucascade-separator">&#xA0;&#x3E; </variable>
-  <variable id="#quote-start">«</variable>
-  <variable id="#quote-end">»</variable>
+  <variable id="#quote-start">„</variable>
+  <variable id="#quote-end">“</variable>
 </vars>

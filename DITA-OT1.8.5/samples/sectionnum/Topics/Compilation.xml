@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="topic_Compilation_cj79it97y" xml:lang="en-US">
+  <title>Compilation</title>
+
+  <body>
+    <p>This section describes how to build the architectural simulator
+    (ArchSim), the host simulator library (HostSim), the block layer simulator
+    (BSim), and the firmware.</p>
+
+    <p>Before you begin, set the required environment variables.</p>
+
+    <section><title>Common Environment Variables</title><p>The archsim,
+    hostsim, and bsim build relies on header files that are located in the
+    firmware directory structure. The EFC_FW_PATH environment variable is used
+    by ArchSim to locate the firmware EFC directory. For example, if the
+    firmware is located in
+    <filepath>/home/username/eclipse/workspace/firmware</filepath>, the
+    environment variable should be set to
+    <filepath>/home/username/eclipse/workspace/firmware/efc</filepath>. See
+    the example below of setting this environment variable in a
+    C-shell.</p><p><filepath><cmdname>setenv EFC_FW_PATH</cmdname>
+    &lt;firmware root
+    directory&gt;/&lt;workspace&gt;/firmware/efc</filepath><filepath><cmdname/></filepath></p><p><filepath><cmdname>setenv
+    ARGTABLE_LIB_DIR
+    &lt;argtable-root&gt;/lib</cmdname></filepath></p><p><filepath><cmdname>setenv
+    ARGTABLE_INC_DIR
+    &lt;argtable-root&gt;/include</cmdname></filepath></p><p/></section>
+  </body>
+
+  <topic id="topic_Architectural_Simulator_8j79g61nc">
+    <title>Architectural Simulator (ArchSim)</title>
+
+    <body>
+      <section><title>Archsim Environment Setup</title><p>From the command
+      window, extract the ArchSim package, and go to the ArchSim installation
+      directory (that is, <userinput>cd simulator/archsim</userinput>), then
+      set the following environment:</p><p><note>The file path may be
+      different based on where the tools are installed. This example shows
+      environment setting using C shell (csh). If bash is used, then the user
+      needs to use <b>export</b>, <filepath>&lt;Thirdparty FastModels
+      path&gt;/Accellera/source_me.sh</filepath> and <filepath>&lt;ARM
+      FastModels path&gt;/source_all.sh</filepath></note><ol>
+          <li><p>Set the path to redhat developer toolset
+          2.</p><p><cmdname>setenv PATH</cmdname>
+          <filepath>/opt/rh/devtoolset-2/root/usr/bin:${PATH}</filepath></p></li>
+
+          <li><p>Setup the license file.</p><p><cmdname>setenv
+          ARMLMD_LICENSE_FILE </cmdname><filepath>&lt;arm license
+          file&gt;</filepath></p></li>
+
+          <li><p>Configure Xtensa environment for
+          RG-2017.8.</p><p><cmdname>setenv XTINSTALL
+          </cmdname><filepath>&lt;Tensilica tools
+          directory&gt;/xtensa/XtDevTools</filepath></p><p><cmdname>setenv
+          XTVERSION
+          </cmdname><filepath>RG-2017.8</filepath></p><p><cmdname>setenv PATH
+          </cmdname><filepath>$XTINSTALL/install/tools/$XTVERSION-linux/XtensaTools/bin:$PATH</filepath></p><p><cmdname>setenv
+          LM_LICENSE_FILE </cmdname><filepath>port@&lt;xtensa license
+          server&gt;</filepath></p></li>
+
+          <li><p>Setup the <b>libstdc++.so.6</b> library for gcc 4.8 and
+          higher.</p><p>Copy libstdc++.so.6 from <filepath>&lt;arm directory
+          path&gt;/DS-5_v5.28.1/sw/models/bin</filepath> to
+          <filepath>/usr/lib64</filepath></p><p>This will override the
+          currently installed <b>libstdc++.so.6</b> due to the requirement for
+          a newer version of the library, which is backward-compatible with
+          the original.</p><p>It is recommended to save the original
+          <b>libstdc++.so.6</b> by moving to a new name, for example,
+          <b>libstdc++.so.6.ORIG</b>. Rename the file in case you need to
+          revert to the earlier version, for example.</p><p>The next step is
+          to add the location where <b>libstdc++.so.6</b> is copied to; to the
+          front of LD_LIBRARY_PATH. In our example, it is
+          /usr/lib64.</p><p><cmdname>setenv LD_LIBRARY_PATH</cmdname>
+          <filepath>/usr/lib64:${LD_LIBRARY_PATH}</filepath></p></li>
+
+          <li><p> Configure the FastModel
+          environment.</p><p><cmdname>source</cmdname>
+          <filepath>&lt;Thirdparty FastModels
+          path&gt;/Accellera/source_me.csh</filepath></p><p><cmdname>source</cmdname>
+          <filepath>&lt;ARM FastModels
+          path&gt;/source_all.csh</filepath></p><p>The paths to these scripts
+          are established when you install the FastModel software. The scripts
+          are not part of the ArchSim software package.</p></li>
+        </ol></p></section>
+
+      <section><title>Build Architectural Simulator </title><p>From the
+      <userinput>simulator/archsim</userinput> directory, execute the
+      following commands:</p><ol>
+          <li><p> <cmdname>make build &lt;Enter&gt;</cmdname> — To build the
+          FastModel</p></li>
+
+          <li><p> <cmdname>make cxx_cmd &lt;Enter&gt;</cmdname> — To build the
+          systemC</p></li>
+        </ol><p>This will build the architectural simulator executable image
+      (<cmdname>A53x4_clusts4_CCN502.x</cmdname>) and place it in the current
+      directory.</p></section>
+    </body>
+  </topic>
+
+  <topic id="topic_Host_Simulation_Library_HostSim__9j79i3tcz">
+    <title>Host Simulation Library (HostSim)</title>
+
+    <body>
+      <p>From the command window, go to the HostSim installation directory
+      (i.e. <userinput>cd simulator/hostsim</userinput>) and type
+      <cmdname>make clean</cmdname> and then <cmdname>make all</cmdname>. This
+      will build the HostSim library and place it in the <i>lib</i>
+      directory.</p>
+    </body>
+  </topic>
+
+  <topic id="topic_Block_Layer_Simulator_BSim__aj79i5bw4">
+    <title>Block Layer Simulator (BSim)</title>
+
+    <body>
+      <p>From the command window, go to the BSim installation directory (that
+      is, <userinput>cd simulator/hostsim/applications/bsim</userinput>) and
+      type <cmdname>make clean</cmdname> and then <cmdname>make all</cmdname>.
+      This will build the BSim application executable image
+      (<cmdname>bsim</cmdname>) and place it in the current directory.</p>
+    </body>
+  </topic>
+
+  <topic id="topic_Firmware_bj79i7aqw">
+    <title>Firmware</title>
+
+    <body>
+      <section><title>Firmware Environment Setup</title><p>Set the path to the
+      ARM compiler.</p><p><cmdname>setenv PATH </cmdname><filepath>&lt;arm
+      directory
+      path&gt;/DS-5_v5.28.1/sw/ARMCompiler6.9/bin:${PATH}</filepath></p></section>
+
+      <section><title>Complete the SDK Build</title><p>To compile the firmware
+      in DS-5 Development studio, open the DS-5 Development studio from
+      <filepath>&lt;DS-5 Directory&gt;/bin</filepath>. For example,
+      <filepath>/DS-5_v5.28.1/bin/eclipse</filepath>.</p><p>The firmware
+      source code is compiled through the DS-5 Make Targets dialog box. The
+      Make Targets view provides an overview of make targets that are present
+      in a project and provides a convenient way to execute them. To access
+      the Make Targets view, from the <b>Window</b> pull-down menu select
+      <b>Show View -&gt; Other</b>. Select <b>Make Target</b> from the
+      <b>Make</b> folder as seen in the following figure and click
+      <b>OK</b>.</p><fig>
+          <title>Show View Dialog</title>
+
+          <image href="../Graphics/show_view_window.png"/>
+        </fig><p>The <b>Make Target</b> view, shown in following figure will
+      appear in DS-5. Expand <b>Morristown</b>, then expand <b>firmware</b>
+      under Morristown to see the make targets. Using these targets will build
+      both the SDK firmware and the flash firmware. </p><fig>
+          <title>Firmware make targets</title>
+
+          <image href="../Graphics/make_perspective3.PNG"/>
+        </fig><p>The following make targets are supported for generating
+      executables for use with the hardware:</p><ul>
+          <li><p> <b>all</b> — Compiles firmware for hardware (-O3).</p></li>
+
+          <li><p> <b>debug</b> — Compiles firmware for hardware with compiler
+          optimizations disabled (-O0).</p></li>
+        </ul><p>In addition to the above targets, the following targets are
+      also supported. These targets are used for generating executables for
+      use with the architectural simulator:</p><ul>
+          <li><p> <b>all_sim</b> — Same as the all target but compiles
+          firmware for Architectural Simulator.</p></li>
+
+          <li><p> <b>debug_sim</b> — Same as the debug target but compiles
+          firmware for Architectural Simulator.</p></li>
+
+          <li><p> <b>clean_all</b> — Clean_all will remove all the object
+          files and all the files in the /firmware/release
+          directories.</p></li>
+        </ul><p>After building the target firmware and microcode, create
+      EEPROM images and other data files that will be programmed into the
+      hardware or loaded into the simulator. </p><p>The build process can take
+      several minutes to complete. If you have purchased multiple user
+      licenses for the ARM tools, it is possible to perform multiple
+      operations in parallel by using the MAKE_THREADS parameter.</p><fig>
+          <title>Multi-threaded make release</title>
+
+          <image href="../Graphics/make_debug_sim_threads3.PNG" width="5.5in"/>
+        </fig></section>
+
+      <section><title>Building a Single Firmware Image or Board
+      Configuration</title><p>During firmware development and debugging you
+      may want to just recompile one build of your firmware for simulator
+      debugging. To just rebuild the SDK firmware for ArchSim simulator<i>
+      </i>in DS-5, double-click on the <b>debug_sim</b> make target. The
+      updated SDK code image file sdk.axf will appear in the
+      <b>PM71_85_270_sdk.x.y.z/firmware/release/archsim</b> directory as
+      before.</p><p>To rebuild just the board-specific files, double-click on
+      the <b>build_board_simulation</b> make target. This can be found when
+      you expand the make targets in
+      <b>Morristown-&gt;firmware-&gt;board-&gt;config</b>. When the build is
+      complete, use <b>release_board_simulation </b>to copy the files into
+      the<b> </b><b>firmware/release/board_simulation</b> directory.</p><fig>
+          <title>Board Configuration make targets</title>
+
+          <image href="../Graphics/make_board_config5.PNG"/>
+        </fig>The updated files will be placed in the
+      <b>PM71_85_270_sdk.x.y.z/firmware/board/config/board_simulation</b>
+      directory, where you will also find the files that provide the board
+      configuration details. Taking the additional step of executing the
+      <b>release_board_simulation</b> make target will copy the updated files
+      to their usual place under the release directory.<ul>
+          <li><p><b>build_board_simulation</b> — Build only the board specific
+          files for use with the Architectural Simulator.</p></li>
+
+          <li><p><b>build_board_eval</b> — Build only the board specific files
+          for use with the hardware evaluation board.</p></li>
+
+          <li><p><b>clean</b> — Removes compiled files from all the board
+          configuration directories.</p></li>
+
+          <li><p><b>release_board_simulation</b> — Copies all simulation board
+          files to the firmware/release directory.</p></li>
+
+          <li><p><b>release_board_eval</b> — Copies all evaluation board files
+          to the firmware/release directory.</p></li>
+        </ul></section>
+
+      <section><title>Files Created by a Firmware Build</title><p>When the
+      release build is done, a number of files are created in the release
+      directories board-speciific directories with names beginning with
+      "board_". Directory
+      <b>PM71_85_270_sdk_x.y.z/firmware/release/board_simulation</b> receives
+      the board-specific files for use with the ArchSim simulator. The
+      following files will be found in this path: These files include:</p><ul>
+          <li><p>&lt;install
+          path&gt;/firmware/release/board_simulation/spi.*.part — Each file
+          contains all the data to be written to a SPI device
+          partition.</p></li>
+
+          <li><p>&lt;install
+          path&gt;/firmware/release/board_simulation/spi*.sh — Shell scripts
+          to program the individual partitions.</p></li>
+
+          <li><p>&lt;install
+          path&gt;/firmware/release/board_simulation/eeprom*.bin — Binary
+          EEPROM images.</p></li>
+        </ul><p>The partition file (extension ".part") aggregates all of the
+      data that will reside in a partition of the EEPROM. See the Firmware
+      Design Guide for more information on partitions.</p></section>
+
+      <section><title>Running SDK via PBL with ArchSim From a Shell
+      Prompt</title><p>To test the result of your build you can the complete
+      the firmware boot sequence starting with the PBL (primary boot loader)
+      and ending with the SDK loaded and running. The results of this test can
+      be seen in the archsim console output and via the UART. For more
+      information on using the UART, see <xref href="How_To_UART_Terminal.xml"/>
+      .</p><p>Use the following steps: </p><ol>
+          <li><p><cmdname> cd &lt;install
+          path&gt;/simulator/archsim</cmdname></p></li>
+
+          <li><p><cmdname> source &lt;Thirdparty FastModels
+          path&gt;/Accellera/source_me.csh</cmdname></p></li>
+
+          <li><p><cmdname> source &lt;ARM FastModels
+          path&gt;/source_all.csh</cmdname></p></li>
+
+          <li><cmdname>cp
+          ../../PM71_85_270_sdk_x.y.z/firmware/board/config/board_simulation/eeprom?.bin
+          .</cmdname></li>
+
+          <li><p><cmdname>./A53x4_clusts4_CCN502.x -b 0x00 --tcpIpPortBase
+          &lt;local-TCP-port&gt; -a
+          "pm8627_SC_subsys_i.pm8627_SC_subsys_internal_i.coreSystem.cluster*"=&lt;path
+          to SDK IMAGES&gt;/release/pbl/pbl_sim.axf --run</cmdname></p></li>
+        </ol><p>The following lines should appear in the console output as the
+      simulator runs:</p><ul>
+          <li><p>"I:01" shows that the PBL has started to execute. Similar
+          looking messages in the console text (&lt;letter&gt;:&lt;number&gt;)
+          also come from PBL. See the <i>Microsemi Flashtec NVMe3016 Flash
+          Controller Boot ROM Functional Specification</i> for details on
+          these messages.</p></li>
+
+          <li><p>The rest of the console output comes from the SDK
+          firmware.</p></li>
+        </ul><fig>
+          <title>UART Output Booting SDK</title>
+
+          <image href="../Graphics/UART_booting_SDK.PNG" width="5.5in"/>
+        </fig></section>
+
+      <section audience="MSCCInternal"><title>Adding debug stubs to a
+      build</title><p>It is sometimes helpful to be able to stop boot path
+      code execution before moving on to the next stage of the firmware boot
+      process. The SDK boot process consists of a series of boot segments that
+      execute serially. Replacing one of the boot segments with code that
+      enters an infinite loop is a good way to stop the process until a JTAG
+      or CADI debugging aid can take control of the processor.</p><p>The
+      debugStub boot segment does exactly this. The SDK provides a number of
+      boot images that incorporates the debugStub. For complete details refer
+      to the firmware design guide section titled "Firmware Debug Stubs". Boot
+      images created when a board configuration is built
+      include:</p><p><b>boot.image </b>— This is the normal image used to load
+      and execute the firmware.</p><p><b>debug_all.image</b> — This image
+      configures the hardware and initializes the DDR, but loads a tight spin
+      loop into the Flash controllers. This allows code to be loaded to debug
+      the Flash microcode.</p><p>To replace the standard boot image in a SPI
+      partition, edit the partitionDef.text file. Look for the lines beginning
+      with "bootImage path=" and replace the path to the boot image with the
+      path to one of the boot stubs listed above. You will need to rebuild the
+      board completely and copy the new eeprom images to your ArchSim
+      directory for the change to take effect.</p><ul>
+          <li><p>Go to the board configuration directory of the board you want
+          to use for debug (e.g., board_simulation).</p></li>
+
+          <li><p>Open partitionDef.text with a text editor and scroll down to
+          the SPI partition you want to change..</p></li>
+
+          <li><p> In the line beginning with "bootImage path=" replace the
+          path to the standard boot.image file with the path to one of the
+          debug images listed above.</p></li>
+
+          <li>From the "config" directory "make clean" and then rebuild the
+          board configuration files. .</li>
+
+          <li><p>Replace ArchSim's eeprom?.bin files with the updated EEPROM
+          files.</p></li>
+        </ul></section>
+    </body>
+  </topic>
+</topic>

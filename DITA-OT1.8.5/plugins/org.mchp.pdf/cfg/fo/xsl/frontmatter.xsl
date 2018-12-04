@@ -1341,7 +1341,12 @@ See the accompanying license.txt file for applicable licenses.
             </xsl:when>
             <xsl:when test="$pmc_iso[1]/pmc_revhistory/pmc_revision">
                 <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" break-before="page"
-                    margin-top="1cm" margin-left="-2cm">
+                    margin-top="1cm" margin-left="0cm">
+                    <fo:marker marker-class-name="current-header">
+                        <xsl:call-template name="insertVariable">
+                            <xsl:with-param name="theVariableID" select="'PMCRevisionHistory'"/>
+                        </xsl:call-template>
+                    </fo:marker>
                     <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold"
                         font-size="10pt" hyphenate="false" space-after.minimum="0.4em"
                         space-after.optimum="0.6em" space-after.maximum="0.8em"
@@ -1351,7 +1356,13 @@ See the accompanying license.txt file for applicable licenses.
                         <xsl:call-template name="insertVariable">
                             <xsl:with-param name="theVariableID" select="'PMCRevisionHistory'"/>
                         </xsl:call-template>
-
+                        
+                        <xsl:if test="$pmc_iso[1]/pubdate or $pmc_iso[1]/pmc_issue_date">
+                            <xsl:text> : </xsl:text>
+                            <xsl:value-of select="$pmc_iso[1]/pubdate"/>
+                            <xsl:value-of select="$pmc_iso[1]/pmc_issue_date"/>
+                        </xsl:if>
+                        
                     </fo:block>
                     <fo:table xmlns:fo="http://www.w3.org/1999/XSL/Format"
                         border-before-width.conditionality="retain" border-collapse="collapse"
@@ -1363,9 +1374,9 @@ See the accompanying license.txt file for applicable licenses.
                         border-right-color="{$table.rule.color}"
                         border-top-color="{$table.rule.color}"
                         border-bottom-color="{$table.rule.color}" table-layout="fixed">
-                        <fo:table-column column-number="1" column-width="1cm"/>
+                        <fo:table-column column-number="1" column-width="1.5cm"/>
                         <fo:table-column column-number="2" column-width="1.5cm"/>
-                        <fo:table-column column-number="3" column-width="14.5cm"/>
+                        <fo:table-column column-number="3" column-width="13.5cm"/>
                         <fo:table-header end-indent="0pt" start-indent="0pt">
                             <fo:table-row keep-with-next.within-column="always">
                                 <fo:table-cell padding-left="2pt" padding-right="2pt"
@@ -1680,27 +1691,7 @@ See the accompanying license.txt file for applicable licenses.
                         <xsl:apply-templates select="."/>
                     </xsl:for-each>
                 </xsl:if>
-            </xsl:variable>
-            <xsl:variable name="subtitle">
-            <xsl:if
-                test="string-length(normalize-space($pmc_iso[1]/pmc_dev_status/@dev_status)) &gt; 1">             
-                <xsl:value-of select="$pmc_iso[1]/pmc_dev_status/@dev_status"/> <xsl:text> | </xsl:text>               
-            </xsl:if>            
-            <xsl:choose>
-                <xsl:when
-                    test="string-length(normalize-space($pmc_iso[1]/pubdate[1])) &gt; 1 or string-length(normalize-space($pmc_iso[1]/pmc_issue_date)) &gt; 1">
-                    
-                    <xsl:if test="$pmc_iso[1]/pubdate or $pmc_iso[1]/pmc_issue_date">
-                        <xsl:value-of select="$pmc_iso[1]/pubdate"/>
-                        <xsl:value-of select="$pmc_iso[1]/pmc_issue_date"/>
-                    </xsl:if>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:call-template name="getDateMonth"/>, <xsl:call-template
-                        name="getDateYear"/>
-                </xsl:otherwise>
-            </xsl:choose>
-            </xsl:variable>
+            </xsl:variable>           
             
             <fo:block text-align="left">
                 <fo:external-graphic src="url({concat($customizationDir.url, $logo)})" width="3.5cm"
@@ -1716,9 +1707,7 @@ See the accompanying license.txt file for applicable licenses.
                         <fo:block>                            
                             <xsl:value-of select="normalize-space($title)"/>
                         </fo:block>
-                        <fo:block font-size="12pt" color="#bbbbbb">
-                            <xsl:value-of select="normalize-space($subtitle)"/>
-                        </fo:block>
+                        
                     </fo:block>
                 </fo:block>
             </fo:block>           

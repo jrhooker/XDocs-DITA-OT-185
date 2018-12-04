@@ -9,9 +9,9 @@
         </xsl:attribute>
         
         <xsl:attribute name="margin-left">-1cm</xsl:attribute>
-        <xsl:attribute name="margin-top">0mm</xsl:attribute>       
+        <xsl:attribute name="margin-top">-1cm</xsl:attribute>       
         <xsl:attribute name="margin-bottom">7pt</xsl:attribute>
-        <xsl:attribute name="padding-top">6pt</xsl:attribute>
+        <xsl:attribute name="padding-top">0pt</xsl:attribute>
         <xsl:attribute name="padding-bottom">5pt</xsl:attribute>
         
         <xsl:attribute name="border-bottom-style">solid</xsl:attribute>

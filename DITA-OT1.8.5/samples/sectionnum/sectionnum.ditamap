@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "/SysSchema/dita/dtd/bookmap/dtd/bookmap.dtd">
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="org.pmc.help.PMC_Morristown_Quick_Guide" xml:lang="en-US">
+  <title>NVM Controller Firmware Quick Start Guide</title>
+
+  <bookmeta>
+    <pmc_iso sp-version="VersionA">
+      <pmc_title>Flashtec NVMe3016 NVM Controller Firmware</pmc_title>
+
+      <pmc_subtitle/>
+
+      <pmc_abstract>
+        <p>NVM Controller Firmware Quick Start Guide</p>
+      </pmc_abstract>
+
+      <pmc_productnumber>PM8627</pmc_productnumber>
+
+      <pmc_document_id>ESC-2171536</pmc_document_id>
+
+      <pmc_issue_date>November 2018</pmc_issue_date>
+
+      <pmc_dev_status dev_status="Released"/>
+
+      <pmc_doc_status doc_status="Approved"/>
+
+      <pmc_doc_type>Quick Start Guide</pmc_doc_type>
+
+      <pmc_issuenum>6.0</pmc_issuenum>
+
+      <pmc_footertext audience="all_customers">
+        <p>Microsemi Proprietary and Confidential</p>
+      </pmc_footertext>
+
+      <pmc_patents>
+        <p/>
+      </pmc_patents>
+
+      <pmc_revhistory>
+        <pmc_revision>
+          <pmc_rev_number>5.0</pmc_rev_number>
+
+          <pmc_date>October 2018</pmc_date>
+
+          <pmc_name>John Lloyd</pmc_name>
+
+          <pmc_revdescription>
+            <p>Updated the firmware compilation description.</p>
+          </pmc_revdescription>
+        </pmc_revision>
+
+        <pmc_revision>
+          <pmc_rev_number>4.0</pmc_rev_number>
+
+          <pmc_date>July 2018</pmc_date>
+
+          <pmc_name>John Lloyd</pmc_name>
+
+          <pmc_revdescription>
+            <p>Updated with details about new firmware make procedure.</p>
+          </pmc_revdescription>
+        </pmc_revision>
+
+        <pmc_revision>
+          <pmc_rev_number>3.0</pmc_rev_number>
+
+          <pmc_date>March 2018</pmc_date>
+
+          <pmc_name>Frederick Adi</pmc_name>
+
+          <pmc_revdescription>
+            <p>Updated with dual port usage description.</p>
+          </pmc_revdescription>
+        </pmc_revision>
+
+        <pmc_revision>
+          <pmc_rev_number>2.01</pmc_rev_number>
+
+          <pmc_date>March 2018</pmc_date>
+
+          <pmc_name>John Lloyd</pmc_name>
+
+          <pmc_revdescription>
+            <p>Updated firmware compilation description.</p>
+          </pmc_revdescription>
+        </pmc_revision>
+
+        <pmc_revision>
+          <pmc_rev_number>2.0</pmc_rev_number>
+
+          <pmc_date>December 2017</pmc_date>
+
+          <pmc_name>Frederick Adi</pmc_name>
+
+          <pmc_revdescription>
+            <p>Added Microcode debug. Change toolset to DS5.27.1 and GCC
+            4.8</p>
+          </pmc_revdescription>
+        </pmc_revision>
+
+        <pmc_revision>
+          <pmc_rev_number>1.0</pmc_rev_number>
+
+          <pmc_date>September 2017</pmc_date>
+
+          <pmc_name>Balan Rajendran and Vinoj Soundararajan</pmc_name>
+
+          <pmc_revdescription>
+            <p>Initial Revision</p>
+          </pmc_revdescription>
+        </pmc_revision>
+      </pmc_revhistory>
+    </pmc_iso>
+
+    <pmc_iso sp-version="VersionB">
+      <pmc_title>NVM Controller Firmware Quick Start Guide</pmc_title>
+
+      <pmc_subtitle/>
+
+      <pmc_abstract>
+        <p>NVM Controller Firmware Quick Start Guide</p>
+      </pmc_abstract>
+
+      <pmc_productnumber>NVMe3016</pmc_productnumber>
+
+      <pmc_document_id>ESC-2181493</pmc_document_id>
+
+      <pmc_issue_date>July 2018</pmc_issue_date>
+
+      <pmc_dev_status dev_status="Released"/>
+
+      <pmc_doc_status doc_status="Approved"/>
+
+      <pmc_issuenum>1</pmc_issuenum>
+
+      <pmc_footertext audience="all_customers">
+        <p>Microsemi Proprietary and Confidential NVM Controller Firmware
+        Quick Start Guide</p>
+      </pmc_footertext>
+
+      <pmc_patents>
+        <p/>
+      </pmc_patents>
+
+      <pmc_revhistory>
+        <pmc_revision>
+          <pmc_rev_number>1.0</pmc_rev_number>
+
+          <pmc_date>July 2018</pmc_date>
+
+          <pmc_name>John Lloyd, Michael Williamson</pmc_name>
+
+          <pmc_revdescription>
+            <p>Updated for hardware Rev B0. Updated with details about new
+            firmware make procedure. Updated Tensilica toolset to RG-2017.8
+            and FCC configuration to Morristown.</p>
+          </pmc_revdescription>
+        </pmc_revision>
+      </pmc_revhistory>
+    </pmc_iso>
+  </bookmeta>
+
+  <frontmatter>
+    <booklists>
+      <toc/>
+
+      <figurelist/>
+
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="Topics/Revision_History.xml" navtitle="Revision History"/>
+
+  <chapter href="Topics/Introduction.xml" navtitle="Introduction"/>
+
+  <chapter href="Topics/PackageAndTools.xml" navtitle="Installation"/>
+
+  <chapter href="Topics/Compilation.xml" navtitle="Compilation"/>
+
+  <chapter href="Topics/Debugging.xml" navtitle="Debugging">
+    <topicref audience="MSCCInternal" collection-type="sequence" href="Other/Archsim_Debug.xml" navtitle="Debugging the Simulator"/>
+
+    <topicref collection-type="sequence" href="Topics/Firmware_Debug_Simulation.xml" navtitle="Debugging the Firmware in Simulation"/>
+
+    <topicref collection-type="sequence" href="Topics/Microcode_Debug.xml" navtitle="Debugging Microcode in Simulation"/>
+
+    <topicref collection-type="sequence" href="Topics/Firmware_Debug_Hardware.xml" navtitle="Debugging the Firmware in Hardware"/>
+  </chapter>
+
+  <chapter href="Topics/How_To_UART_Terminal.xml" navtitle="UART Terminal with Archsim"/>
+
+  <chapter href="Topics/References.xml" navtitle="References"/>
+</bookmap>

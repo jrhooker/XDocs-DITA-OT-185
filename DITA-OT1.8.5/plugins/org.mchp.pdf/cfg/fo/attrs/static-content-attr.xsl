@@ -42,10 +42,29 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:attribute name="space-before.conditionality">retain</xsl:attribute>
   </xsl:attribute-set>
 
+  <xsl:attribute-set name="__frontmatter__header">   
+    <xsl:attribute name="margin-top">7mm</xsl:attribute>
+    <xsl:attribute name="text-align">end</xsl:attribute>
+    <xsl:attribute name="start-indent">0mm</xsl:attribute>
+    <xsl:attribute name="space-before">0mm</xsl:attribute>
+    <xsl:attribute name="space-after">3mm</xsl:attribute>
+    <xsl:attribute name="margin-left">0mm</xsl:attribute>
+    <xsl:attribute name="margin-right">0mm</xsl:attribute>
+    <xsl:attribute name="space-before.conditionality">retain</xsl:attribute>    
+  </xsl:attribute-set>
 
   <xsl:attribute-set name="__coverpage__footer">
     <xsl:attribute name="text-align">end</xsl:attribute>
-    <xsl:attribute name="margin-left">1.5cm</xsl:attribute>
+    <xsl:attribute name="margin-left">0cm</xsl:attribute>
+    <xsl:attribute name="space-before">10mm</xsl:attribute>
+    <xsl:attribute name="space-after">0mm</xsl:attribute>   
+    <xsl:attribute name="margin-right">20mm</xsl:attribute>
+    <xsl:attribute name="margin-bottom">0mm</xsl:attribute>
+  </xsl:attribute-set>
+  
+  <xsl:attribute-set name="__frontmatter__footer">
+    <xsl:attribute name="text-align">end</xsl:attribute>
+    <xsl:attribute name="margin-left">0cm</xsl:attribute>
     <xsl:attribute name="space-before">10mm</xsl:attribute>
     <xsl:attribute name="space-after">0mm</xsl:attribute>   
     <xsl:attribute name="margin-right">20mm</xsl:attribute>

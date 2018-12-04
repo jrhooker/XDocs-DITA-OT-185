@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="topic_Firmware_Debugging_in_Simulation_3j7gegegf" xml:lang="en-US">
+  <title>Microcode Debugging in Simulation</title>
+
+  <body>
+    <p>This section describes the procedure to initiate a microcode debugging
+    session using the simulator (archsim), once the firmware has been compiled
+    for simulation (debug_sim make targets). Microcode debugging utilizes
+    <b>xplorer</b>, which is used to debug the Flash channel cores. This
+    document refers to the other section on running the firmware. To run and
+    debug the microcode, the user will need to do the following:</p>
+
+    <ol>
+      <li><p>Makefile changes. </p><p>In the archsim Makefile, add the
+      <b>fccdebug</b> option under <b>isim_launch</b>. Adding <b>fccdebug</b>
+      option will keep FCC cores stalled until the debugger is attached to
+      them. </p><fig>
+          <title>Makefile fccdebug</title>
+
+          <image href="../Graphics/fcc_debug_makefile.PNG" width="500"/>
+        </fig><p/></li>
+
+      <li><p>Launch archsim and load firmware into Morristown cores. This can
+      be done as specified in the <xref href="#topic_Firmware_Debugging_in_Simulation_3j7gegegf">Firmware
+      Debug</xref> section.</p><p/></li>
+
+      <li><p>Set up the Xplorer debug configuration. The Xplorer debug
+      configuration setup is similar to the one in DS-5, since they are both
+      Eclipse-based.</p><p>Selecting the <b>Debug</b> button from along the
+      top of the main Xplorer window opens the <b>Debug Configurations</b>
+      window as shown in the following image. In the left column, select <b>MP
+      Launch</b> and create a<b> new launch configuration</b>. Rename this new
+      debug configuration if desired. Select <b>Attach to Simulator</b> for
+      the <b>Launch Type</b>. Scroll down if needed and select <b>After
+      launch, run and stop at symbol &lt;main&gt;</b> for the <b>Debugger
+      Attach Options. </b>This will pause the debugger after attaching and
+      allow you to set breakpoints before running the microcode. If you do not
+      set any breakpoints before running, then later, once the microcode has
+      started running and the flash channel controllers are waiting for
+      scheduler events, you will not be able to break into their execution
+      using the debugger.</p><fig>
+          <title>Xplorer Debug Configuration</title>
+
+          <image href="../Graphics/xplorer_debug_config_fcc.PNG" width="494"/>
+        </fig><p/><p>Under <b>MP attach options</b>, select <b>Browse</b> to
+      find the <b>Siminfo file</b> for your currently running simulation.
+      There could be problems if the tool cannot automatically find the
+      correct <b>Siminfo file</b>, which essentially finds the running FCC
+      processes based on the Tensilica metadata. If so, browse to find the
+      correct location of the <b>.tensilica</b> directory. This is normally
+      created in the user's home directory. Browse to your <b>.tensilica</b>
+      directory and select the latest process (Last modified) as shown in the
+      following image. Click OK and continue to debug.</p><fig>
+          <title>Xplorer Find Running FCC Process</title>
+
+          <image href="../Graphics/xplorer_debug_config_fcc_process.PNG" width="503"/>
+        </fig></li>
+
+      <li><p>Xplorer debug window</p><p>Once the current running process is
+      found, the debugger will attach to the process and show the following
+      debug window. The following image shows eight FCC cores running. At this
+      point, the user can set the breakpoint and start debugging.</p><fig>
+          <title>Xplorer Debug Window</title>
+
+          <image href="../Graphics/xplorer_fcc_debug_window.PNG" width="500"/>
+        </fig><p/></li>
+    </ol>
+  </body>
+</topic>

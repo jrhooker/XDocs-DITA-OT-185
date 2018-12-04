@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="topic_References_ej79jldqd" xml:lang="en-US">
+  <title>References</title>
+
+  <body>
+    <section id="section_PMC_Documentation_fj79jldqd"><title>Microsemi</title><ol>
+        <li><i>NVMe3016 BSim Users Guide</i>, ESC-2172032.</li>
+
+        <li>NVMe3016 SSD Development Platform Design Specification.</li>
+
+        <li>NVMe3016 Archsim Functional Specification.</li>
+      </ol></section>
+
+    <section id="section_ARM_Documentation_gj79jldqd"><title>ARM</title><ol>
+        <li><xref href="https://developer.arm.com/products/software-development-tools/ds-5-development-studio/docs" type="external"/></li>
+
+        <li><xref href="https://developer.arm.com/products/software-development-tools/ds-5-development-studio/downloads" type="external"/></li>
+
+        <li><xref href="https://developer.arm.com/support" type="external"/></li>
+      </ol></section>
+  </body>
+</topic>

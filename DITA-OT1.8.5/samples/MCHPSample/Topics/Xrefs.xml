@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7d19" xml:lang="en-US">
+  <title>Xrefs</title>
+
+  <body>
+    <p>This is nothing here yet. <term>is this a term?</term></p>
+
+    <p> Link with a user supplied value: <xref href="GlobalIssues.xml">Link to
+    Global Issues </xref>.</p>
+
+    <p>Link without a user supplied value (pagebreak): <xref href="PageBreak.xml"> </xref></p>
+  </body>
+</topic>

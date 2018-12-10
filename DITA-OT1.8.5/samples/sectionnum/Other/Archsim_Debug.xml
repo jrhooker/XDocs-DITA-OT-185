@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
-<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="topic_Archsim_Debug_hj79jtbkt" xml:lang="en-US">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN"
+"/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic base="Morristown" id="topic_Archsim_Debug_hj79jtbkt" xml:lang="en-US">
   <title>Archsim Debugging</title>
 
   <body>
@@ -22,32 +24,38 @@
 
       <ul>
         <li><p>The image below shows how to run the archsim. Use the make
-        command line as specified in the Archsim guide. For example:<p>
-            <cmdname>make isim_launch TCP_IP_PORT_BASE=&lt;TCP_IP_Port&gt;
-            CADI_PORT=70xx.</cmdname>
-          </p></p><p>If you wish to start Archsim with dual port support,
-        specify this simCfg file as an argument:</p><p><cmdname>make
-        isim_launch TCP_IP_PORT_BASE=&lt;TCP_IP_Port&gt; CADI_PORT=70xx
-        SIMCFGFILE=simCfg_dualport.txt</cmdname></p><image href="attach_archsim_cmdline_launch.png" width="550"/><p/></li>
+        command line as specified in the Archsim guide. For
+        example:</p><p><cmdname>make isim_launch
+        TCP_IP_PORT_BASE=&lt;TCP_IP_Port&gt;
+        CADI_PORT=70xx.</cmdname></p><p>If you wish to start Archsim with dual
+        port support, specify this simCfg file as an
+        argument:</p><p><cmdname>make isim_launch
+        TCP_IP_PORT_BASE=&lt;TCP_IP_Port&gt; CADI_PORT=70xx
+        SIMCFGFILE=simCfg_dualport.txt</cmdname></p><image
+        href="attach_archsim_cmdline_launch.png" width="550"/><p/></li>
 
         <li><p>The image below shows that the archsim is currently
-        running.</p><p/><image href="attach_archsim_running.png" width="550"/><p/></li>
+        running.</p><p/><image href="attach_archsim_running.png"
+        width="550"/><p/></li>
 
         <li><p>Create a new C/C++ Attach to Application debug configuration in
         DS-5. </p><p>In the Main tab, fill out the Project entry as your
         current project where the archsim executable resides. Also, fill C/C++
         Application entry to point to <b><i>A53x4_clusts4_CCN502.x</i></b>
-        which is the archsim executable.</p><p>Click Apply.</p><image href="attach_archsim_main.png" width="550"/><p/></li>
+        which is the archsim executable.</p><p>Click Apply.</p><image
+        href="attach_archsim_main.png" width="550"/><p/></li>
 
         <li><p>Once Debug button is pressed. It will show the below window.
         </p><p>Start typing <b><i>A53</i></b> to show all the
         <b><i>A53x4_clusts4_CCN502.x</i></b> process that are currently
         running. In this case, there are 3 running archsim
-        processes.</p><p>Pick your process and click OK.</p><image href="attach_archsim_pick_running_process.png" width="365"/><p/></li>
+        processes.</p><p>Pick your process and click OK.</p><image
+        href="attach_archsim_pick_running_process.png" width="365"/><p/></li>
 
         <li><p>Once the debugger is done loading. We will see the window
         below. This shows the debugger has been attached to the
-        process</p><p/><image href="attach_archsim_ds5.png" width="550"/><p/></li>
+        process</p><p/><image href="attach_archsim_ds5.png"
+        width="550"/><p/></li>
       </ul>
 
       <p>All of the steps above are done using DS-5, however, it is also
@@ -67,7 +75,8 @@
         </p><p>In the Main tab, fill out the Project entry as your current
         project where the archsim executable resides. Also, fill C/C++
         Application entry to point to <b><i>A53x4_clusts4_CCN502.x</i></b>
-        which is the archsim executable.</p><p>Click Apply.</p><image href="load_archsim_main.png" width="550"/><p/></li>
+        which is the archsim executable.</p><p>Click Apply.</p><image
+        href="load_archsim_main.png" width="550"/><p/></li>
 
         <li><p>There are two settings for the Arguments tab. The first image
         below shows the setting for the Arguments tab. The following is the
@@ -79,7 +88,8 @@
         -C REMOTE_CONNECTION.CADIServer.enable_remote_cadi=1 -C
         REMOTE_CONNECTION.CADIServer.listen_address=0.0.0.0 -C
         REMOTE_CONNECTION.CADIServer.port=7013 --tcpIpPortBase
-        &lt;TCP_IP_Port&gt; </i></b></p><image href="load_archsim_argument_nofw.png" width="550"/><p/></li>
+        &lt;TCP_IP_Port&gt; </i></b></p><image
+        href="load_archsim_argument_nofw.png" width="550"/><p/></li>
 
         <li><p>This is the second setting for the Arguments tab. The following
         is the argument example on how to run the firmware and archsim
@@ -87,16 +97,20 @@
         --run is to start the firmware. --tcpIpPortBase is to set the port to
         connect bsim. See the below figure for example:</p><p><b><i>-a
         "pm8627_SC_subsys_i.pm8627_SC_subsys_internal_i.coreSystem.cluster*"=/Morristown/firmware/release/archsim/sdk.axf
-        --run --tcpIpPortBase &lt;TCP_IP_Port&gt;</i></b></p><image href="load_archsim_argument.png" width="550"/><p/><note>Since the system utilize the same firmware
-        image for all the cores, it is enough to load the image to only one
-        core which will speed up the loading time.</note></li>
+        --run --tcpIpPortBase &lt;TCP_IP_Port&gt;</i></b></p><image
+        href="load_archsim_argument.png" width="550"/><p/><note>Since the
+        system utilize the same firmware image for all the cores, it is enough
+        to load the image to only one core which will speed up the loading
+        time.</note></li>
 
         <li><p>On the Debugger tab, set the Stop on startup at sc_main if you
-        want the execution to stop at sc_main.</p><p/><image href="load_archsim_debugger.png" width="550"/><p/></li>
+        want the execution to stop at sc_main.</p><p/><image
+        href="load_archsim_debugger.png" width="550"/><p/></li>
 
         <li><p>Once Debug button is pressed. It will show the below window
         after the debugger fully loads. This shows the debugger has been
-        attached to the process</p><p/><image href="load_archsim_ds5.png" width="550"/><p/></li>
+        attached to the process</p><p/><image href="load_archsim_ds5.png"
+        width="550"/><p/></li>
       </ul>
 
       <p>All of the steps above are done using ds-5, however, it is also

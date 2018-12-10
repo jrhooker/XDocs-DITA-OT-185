@@ -1,3 +1,11 @@
+<!ENTITY % pcie-lanes-props-d-attribute 
+   "pcie-lanes 
+     CDATA 
+     #IMPLIED
+   " >
+<!ENTITY pcie-lanes-props-d-att
+  "a(props  pcie-lanes)" >   
+
 <!ENTITY % sp-version-props-d-attribute 
    "sp-version 
      CDATA 

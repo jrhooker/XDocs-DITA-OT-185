@@ -1,0 +1,59 @@
+[33mcommit 0346a40d440cfe630b0af31fc365dd7cceb413f2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Tue Dec 4 14:31:02 2018 -0800
+
+    Updates to MCHP formats
+
+[33mcommit 3d109fc490c2d47bcc0b0212c13981a3a0f0376d[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Thu Nov 29 10:18:05 2018 -0800
+
+    Update de.xml
+
+[33mcommit 3286e84768924355ae77e9539e372e277f8e1ec9[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Wed Nov 28 08:53:44 2018 -0800
+
+    Update build_xdpub.xml
+
+[33mcommit 70a1b39684e6c4e8e253bb23e72258a933ee7cc4[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Tue Nov 27 16:58:46 2018 -0800
+
+    Returning missing ANT files
+
+[33mcommit a01e92b291ea1cc5eca6744e97a20b51dc84751c[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Tue Nov 27 16:11:46 2018 -0800
+
+    Update startcmd_cmd.sh
+
+[33mcommit 00184a886fd35d00deb6bff71059504fed254017[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Tue Nov 27 15:25:53 2018 -0800
+
+    First ground of mchp-pdf changes
+
+[33mcommit ce9d57eb02cc6a4bc307fbb5c46ed4681a2fff68[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Tue Nov 27 15:21:17 2018 -0800
+
+    First round of changes for mchp-pdf
+
+[33mcommit de722715117276b9b0045a1f82c2bd36c8d2b3ea[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Fri Nov 9 13:06:22 2018 -0800
+
+    Update DITA-OT1.8.5/plugins/org.dita.pdf2/Customization/fo/xsl/comments-processing.xsl.bak
+
+[33mcommit 805d905b3494e6f7fbe79049148f38f2822b24d4[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Fri Nov 9 12:57:49 2018 -0800
+
+    Moved over changes from /Projects version
+
+[33mcommit ac568d4cb873f73caaf06f41f7249860e63052fa[m
+Author: jrhooker <jeff@jeffhooker.com>
+Date:   Fri Nov 9 11:20:43 2018 -0800
+
+    First commit

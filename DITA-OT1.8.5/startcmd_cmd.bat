@@ -25,4 +25,6 @@ REM ant -Dargs.dir.input=samples/PublishTest -Dargs.input=samples/excel/excel.di
 
 REM ant -Dargs.dir.input=samples/digi -Dargs.input=samples/digi/digi.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/digi/pdf -Douter.control=warn -Dclean.temp=false  -DmaxJavaMemory=3200m
 
-ant -Dargs.dir.input=samples/sectionnum -Dargs.input=samples/sectionnum/sectionnum.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/sectionnum/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m
+REM ant -Dargs.dir.input=samples/sectionnum -Dargs.input=samples/sectionnum/sectionnum.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/sectionnum/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m
+
+ant -Dargs.dir.input=samples/MCHPSample -Dargs.input=samples/PublishTest/PublishTest.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/PublishTest/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -Dargs.filter=ditaval/Global_Filterset.ditaval

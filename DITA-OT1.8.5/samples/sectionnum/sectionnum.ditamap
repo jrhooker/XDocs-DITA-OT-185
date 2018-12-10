@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "/SysSchema/dita/dtd/bookmap/dtd/bookmap.dtd">
-<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Morristown" id="org.pmc.help.PMC_Morristown_Quick_Guide" xml:lang="en-US">
-  <title>NVM Controller Firmware Quick Start Guide</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"/SysSchema/dita/dtd/bookmap/dtd/bookmap.dtd">
+<bookmap base="Morristown" id="org.pmc.help.PMC_Morristown_Quick_Guide"
+         xml:lang="en-US">
+  <title>NVM Controller Firmware Quick Start Guided</title>
 
   <bookmeta>
     <pmc_iso sp-version="VersionA">
@@ -177,16 +180,24 @@
   <chapter href="Topics/Compilation.xml" navtitle="Compilation"/>
 
   <chapter href="Topics/Debugging.xml" navtitle="Debugging">
-    <topicref audience="MSCCInternal" collection-type="sequence" href="Other/Archsim_Debug.xml" navtitle="Debugging the Simulator"/>
+    <topicref audience="MSCCInternal" collection-type="sequence"
+              href="Other/Archsim_Debug.xml"
+              navtitle="Debugging the Simulator"/>
 
-    <topicref collection-type="sequence" href="Topics/Firmware_Debug_Simulation.xml" navtitle="Debugging the Firmware in Simulation"/>
+    <topicref collection-type="sequence"
+              href="Topics/Firmware_Debug_Simulation.xml"
+              navtitle="Debugging the Firmware in Simulation"/>
 
-    <topicref collection-type="sequence" href="Topics/Microcode_Debug.xml" navtitle="Debugging Microcode in Simulation"/>
+    <topicref collection-type="sequence" href="Topics/Microcode_Debug.xml"
+              navtitle="Debugging Microcode in Simulation"/>
 
-    <topicref collection-type="sequence" href="Topics/Firmware_Debug_Hardware.xml" navtitle="Debugging the Firmware in Hardware"/>
+    <topicref collection-type="sequence"
+              href="Topics/Firmware_Debug_Hardware.xml"
+              navtitle="Debugging the Firmware in Hardware"/>
   </chapter>
 
-  <chapter href="Topics/How_To_UART_Terminal.xml" navtitle="UART Terminal with Archsim"/>
+  <chapter href="Topics/How_To_UART_Terminal.xml"
+           navtitle="UART Terminal with Archsim"/>
 
   <chapter href="Topics/References.xml" navtitle="References"/>
 </bookmap>

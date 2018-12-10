@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="Introduction" xml:lang="en-US">
+  <title>Introduction</title>
+
+  <body>
+    <p>This document is simply a collection of publishing scenarios to test
+    the publishing of the external DITA-OT</p>
+
+    <table>
+      <title>Features Tested</title>
+
+      <tgroup cols="5">
+        <colspec colwidth="175*"/>
+
+        <colspec colwidth="623*"/>
+
+        <colspec colwidth="74*"/>
+
+        <colspec colwidth="72*"/>
+
+        <colspec colwidth="56*"/>
+
+        <thead>
+          <row>
+            <entry><p>Category</p></entry>
+
+            <entry><p> Feature</p></entry>
+
+            <entry><p otherprops=" rotate_text "> Pass/Fail PDF</p></entry>
+
+            <entry><p otherprops=" rotate_text ">Pass/Fail HTML</p></entry>
+
+            <entry><p otherprops=" rotate_text ">Pass/Fail Javahelp
+            </p></entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry morerows="1"><p>Titles</p><p/></entry>
+
+            <entry><p>Filtering index entries from titles</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> pass</p></entry>
+          </row>
+
+          <row>
+            <entry><p>Adding/Deleted Text in generated titles</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry morerows="15"><p>Tables</p><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p>
+            </p></entry>
+
+            <entry><p> Vertical table cells</p></entry>
+
+            <entry><p>pass </p></entry>
+
+            <entry><p>fail</p></entry>
+
+            <entry><p> fail</p></entry>
+          </row>
+
+          <row>
+            <entry><p>Color table cells</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> pass</p></entry>
+          </row>
+
+          <row>
+            <entry><p>Register Description Tables</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Message Dword Tables</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Software Register Table</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Software Address Table</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Test Plan Table</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Test Matrix Table</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Revision History</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Revision History in Sections rather than
+            Table</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Hyphenate Table entries</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Notes within tables (tablenotes)</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Choicetable formatting</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Table of comments</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry/>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Table of changes</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Multiple Table Formats</p></entry>
+
+            <entry><p>pass </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry morerows="4"><p>Lists</p><p/><p/><p/></entry>
+
+            <entry><p>Includes Lists</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Different bullets for different list levels</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Different number formats for different list levels.
+            </p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Figure List</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Table List</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry morerows="1"><p>Xrefs</p><p/></entry>
+
+            <entry><p>User-defined Xref Text</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Xref Templates</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry morerows="5"><p>Numbering</p><p/><p/><p/><p/><p/></entry>
+
+            <entry><p>Define-able topic numbering levels</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Preface/Notice/Chapter/Appendix numbering
+            TOC</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Preface/Notice/Chapter/Appendix numbering
+            Body</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Roman numbering in frontmatter</p></entry>
+
+            <entry><p>pass </p></entry>
+
+            <entry><p> n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Start Page Numbering from Body</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Prevent revision tables from showing up in the table
+            count</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry morerows="7"><p>Global</p><p/><p/><p/><p/><p/><p/></entry>
+
+            <entry><p>Watermark</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>PDF Password</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p>n/a</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Label Localization</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Page breaks</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Showcomments</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Path to Source</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>PDF properties</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Nested Ditamaps</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> pass</p></entry>
+          </row>
+
+          <row>
+            <entry morerows="2"><p>Topic</p><p/><p/></entry>
+
+            <entry><p>Legal to the back page</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>n/a?</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Preface Topics</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Multiple Topics in a single topic</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Inline</p></entry>
+
+            <entry><p>Color phrases</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry><p>Diffing </p></entry>
+
+            <entry><p>Driving map-level diffing down to the topic
+            level</p></entry>
+
+            <entry><p>pass</p></entry>
+
+            <entry><p/></entry>
+
+            <entry><p> </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

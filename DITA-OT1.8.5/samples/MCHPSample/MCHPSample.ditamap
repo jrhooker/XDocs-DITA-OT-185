@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"/SysSchema/dita/dtd/bookmap/dtd/bookmap.dtd">
+<bookmap base="base" id="xd_44a95342451dd7ca--403f0573-13dad6fc273--8000"
+         xml:lang="en-US">
+  <title>PublishTest Title <ph>Phrase in the Title</ph></title>
+
+  <bookmeta>
+    <pmc_iso audience="PMCInternal" media="web" product="product1">
+      <pmc_title>PMC Title</pmc_title>
+
+      <pmc_productnumber>[PMxxxx]</pmc_productnumber>
+
+      <pmc_document_id>[PMC-xxxxxxx]</pmc_document_id>
+
+      <pmc_issue_date>PMC Issue Date</pmc_issue_date>
+
+      <pmc_dev_status dev_status="Preliminary"/>
+
+      <pmc_doc_status/>
+
+      <pmc_doc_type>PMC Doc Type</pmc_doc_type>
+
+      <pmc_issuenum>Issuenum</pmc_issuenum>
+    </pmc_iso>
+  </bookmeta>
+
+  <frontmatter>
+    <notices href="Topics/Notice_test.xml"/>
+
+    <preface href="Topics/PrefaceTest.xml">
+      <topicref href="Topics/PrefaceTest.xml"/>
+    </preface>
+
+    <booklists>
+      <toc/>
+
+      <figurelist/>
+
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter audience="MSCCInternal" href="Topics/Introduction.xml">
+    <topicref href="Topics/RevisionHistory.xml"/>
+  </chapter>
+
+  <chapter href="Topics/Titles.xml">
+    <topicref href="Topics/Titles-FilteringIndexEntries.xml"/>
+
+    <topicref href="Topics/Titles-DiffedText.xml"/>
+  </chapter>
+
+  <chapter href="Topics/Tables.xml">
+    <topicref href="Topics/Tables-specializations.xml"/>
+
+    <topicref href="Topics/Tables-VerticalCells.xml"/>
+
+    <topicref href="Topics/Tables-ColorCells.xml"/>
+
+    <topicref href="Topics/Tables-HyphenateEntries.xml"/>
+
+    <topicref href="Topics/Tables-TableNotes.xml"/>
+
+    <topicref href="Topics/Tables-VerticalCells.xml"/>
+
+    <topicref href="Topics/Tables-ChoiceTable2.xml"/>
+
+    <topicref href="Topics/Tables-Comments.xml"/>
+  </chapter>
+
+  <chapter href="Topics/Lists.xml">
+    <topicref href="Topics/Lists-nested.xml"/>
+
+    <topicref href="Topics/Lists-figures.xml"/>
+  </chapter>
+
+  <chapter navtitle="Xrefs">
+    <topicref href="Topics/Xrefs.xml"/>
+  </chapter>
+
+  <chapter href="Topics/Numbering.xml"/>
+
+  <chapter navtitle="Global">
+    <topicref href="Topics/PageBreak.xml"/>
+
+    <topicref href="Topics/GlobalIssues.xml"/>
+
+    <topicref format="ditamap" href="Topics/nested.ditamap"/>
+  </chapter>
+
+  <chapter navtitle="Inline">
+    <topicref href="Topics/inline-colortext.xml"/>
+  </chapter>
+
+  <chapter navtitle="Diffing">
+    <topicref href="Topics/diffing-drivedownchanges.xml" rev="deltaxml-add"
+              status="new"/>
+  </chapter>
+
+  <chapter navtitle="Topic Types">
+    <topicref href="GeneralTask.xml"/>
+
+    <topicref href="StrictTask.xml"/>
+  </chapter>
+
+  <chapter href="filtertest/filter.xml" navtitle="Filtering">
+    <topicref href="filtertest/Untitled.xml"/>
+  </chapter>
+
+  <appendix href="Topics/Topics1.xml" navtitle="This is an Appendix">
+    <topicref href="Topics/Topics-MultiTopicTopic.xml"/>
+  </appendix>
+
+  <appendix href="Topics/Topics1.xml" navtitle="This is an Appendix">
+    <topicref href="Topics/Topics-MultiTopicTopic.xml"/>
+  </appendix>
+
+  <appendix format="ditamap" href="Other/boilerplate.ditamap"/>
+</bookmap>

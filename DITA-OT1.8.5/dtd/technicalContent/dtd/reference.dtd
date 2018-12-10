@@ -216,7 +216,8 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
 <!ENTITY % props-attribute-extensions  
-  "%sp-version-props-d-attribute;
+  "%pcie-lanes-props-d-attribute;
+  %sp-version-props-d-attribute;
   %pmc_switch-props-d-attribute;
   %pmc_package-props-d-attribute;
   %media-props-d-attribute;
@@ -262,6 +263,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Reference//EN"                      -->
                            &struct-d-att;
                            &firmware-d-att;
                            &pmcrevhis-d-att;
+                           &pcie-lanes-props-d-att;
                            &sp-version-props-d-att;
                            &pmc_switch-props-d-att;
                            &pmc_package-props-d-att;

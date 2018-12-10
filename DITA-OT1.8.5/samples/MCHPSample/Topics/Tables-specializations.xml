@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 1.2 Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a" xml:lang="en-US">
+  <title>Table Specializations</title>
+
+  <body>
+    <p><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z"/>
+    </p>
+
+    <table>
+      <?guidance Use this table to define the series of registers to be included in a header file. ?>
+
+      <title/>
+
+      <tgroup cols="4">
+        <colspec colname="A" colwidth="14*"/>
+
+        <colspec colname="B" colwidth="14*"/>
+
+        <colspec colname="C" colwidth="23*"/>
+
+        <colspec colname="D" colwidth="49*"/>
+
+        <thead>
+          <row>
+            <entry><p>Address</p></entry>
+
+            <entry><p>Size</p></entry>
+
+            <entry><p>Name</p></entry>
+
+            <entry><p>Details</p></entry>
+          </row>
+        </thead>
+
+        <reg-references xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">
+          <reg-reference>
+            <reg-address>0x2000</reg-address>
+
+            <reg-size>4</reg-size>
+
+            <reg-name>Name</reg-name>
+
+            <reg-details>
+              <xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z">Message
+              Dword TableMSG-DESCRIPTION</xref>
+            </reg-details>
+          </reg-reference>
+        </reg-references>
+      </tgroup>
+    </table>
+
+    <table id="table_Message_Dword_Table_-_MSG-DESCRIPTION_1j5mybk8z">
+      <?guidance Use this table to define a single message. You can define multiple dwords by incrementing the value of the Dword column. You can define
+ a Dword Array using the Dword column to define the number of dwords in the array (e.g. 1:15) and using the "double" element in the 
+ Position column to define the width of each dword in the array (usually 31:0). ?>
+
+      <title><msg-name-main xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Message Dword Table</msg-name-main> -
+      <msg-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">MSG-DESCRIPTION</msg-desc></title>
+
+      <tgroup cols="4">
+        <colspec colname="A" colwidth="14*"/>
+
+        <colspec colname="B" colwidth="13*"/>
+
+        <colspec colname="C" colwidth="13*"/>
+
+        <colspec colname="D" colwidth="60*"/>
+
+        <thead>
+          <row>
+            <entry><p> Dword</p></entry>
+
+            <entry><p>Position</p></entry>
+
+            <entry><p>Name</p></entry>
+
+            <entry><p>Description</p></entry>
+          </row>
+        </thead>
+
+        <struct>
+          <dword>
+            <value>1</value>
+
+            <position>
+              <single/>
+            </position>
+
+            <name>Name</name>
+
+            <description>
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Title</desc-title>
+
+              <p/>
+
+              <field-enum-list>
+                <field-enum>
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">VALUE</field-enum-value>
+
+                  <field-enum-def>
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">NAME</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Definition.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </description>
+          </dword>
+
+          <dword>
+            <value>2</value>
+
+            <position>
+              <single>4</single>
+            </position>
+
+            <name>Name2</name>
+
+            <description>
+              <p>Description</p>
+            </description>
+          </dword>
+        </struct>
+      </tgroup>
+    </table>
+
+    <table id="table_Includes_2j5mybk8z">
+      <?guidance The following table defines the includes that are added to the generated .h file.?>
+
+      <title>Includes</title>
+
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="31*"/>
+
+        <colspec colwidth="69*"/>
+
+        <thead>
+          <row>
+            <entry><p> Name</p></entry>
+
+            <entry>Description</entry>
+          </row>
+        </thead>
+
+        <includeslist>
+          <include>
+            <name>stdtypes.h</name>
+
+            <description>
+              <p>Type definitions required for auto header generation.</p>
+            </description>
+          </include>
+        </includeslist>
+      </tgroup>
+    </table>
+
+    <table id="table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z">
+      <?guidance Use this table to define a single register. The largest bit goes in the top row (on the left, in the event that the top row defines a bit range.
+ of a bit range) and the fields descend from there.?>
+
+      <title><reg-name-main xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">REGISTER-NAME</reg-name-main> -
+      <reg-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">REGISTER-DESCRIPTION</reg-desc></title>
+
+      <tgroup cols="5">
+        <colspec colname="A" colwidth="111*"/>
+
+        <colspec colname="B" colwidth="144*"/>
+
+        <colspec colname="C" colwidth="101*"/>
+
+        <colspec colname="D" colwidth="87*"/>
+
+        <colspec colname="E" colwidth="557*"/>
+
+        <thead>
+          <row>
+            <entry><p>Bit Field</p></entry>
+
+            <entry><p>Field Name</p></entry>
+
+            <entry><p>Type</p></entry>
+
+            <entry><p>Default Value</p></entry>
+
+            <entry><p>Description</p></entry>
+          </row>
+        </thead>
+
+        <reg-def>
+          <field>
+            <field-bits>
+              <double>
+                <msb>31</msb>
+
+                <lsb>1</lsb>
+              </double>
+            </field-bits>
+
+            <field-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">FieldName</field-name>
+
+            <field-type xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" sticky="yes">RW1C</field-type>
+
+            <field-default xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">0x12</field-default>
+
+            <field-desc>
+              <desc-title xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Title</desc-title>
+
+              <p/>
+
+              <field-enum-list>
+                <field-enum>
+                  <field-enum-value xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">VALUE</field-enum-value>
+
+                  <field-enum-def>
+                    <field-enum-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">NAME</field-enum-name>
+
+                    <field-enum-desc xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Definition.</field-enum-desc>
+                  </field-enum-def>
+                </field-enum>
+              </field-enum-list>
+            </field-desc>
+          </field>
+
+          <field>
+            <field-bits>
+              <single>0</single>
+            </field-bits>
+
+            <field-name xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">FieldName2</field-name>
+
+            <field-type xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" sticky="yes">RW1C</field-type>
+
+            <field-default xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">0x0</field-default>
+
+            <field-desc>
+              <p/>
+            </field-desc>
+          </field>
+        </reg-def>
+      </tgroup>
+    </table>
+
+    <table id="table_Device_Table_4j5mybk8z">
+      <?guidance Define the location first. Define the mnemonic and link to the register in the Mnemonic column. 
+In the Description column add a second link to the register table and add any extra detail. ?>
+
+      <title>Device Table</title>
+
+      <tgroup cols="3">
+        <colspec colwidth="260*"/>
+
+        <colspec colwidth="247*"/>
+
+        <colspec colwidth="493*"/>
+
+        <thead>
+          <row>
+            <entry><p>Offset Address</p></entry>
+
+            <entry><p>Mnemonic/Prefix </p></entry>
+
+            <entry><p>Register/Device Description </p></entry>
+          </row>
+        </thead>
+
+        <address-map xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">
+          <register-reference>
+            <address>0x2000</address>
+
+            <addr-element>
+              <addr-mnemonic><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z">REGISTER-NAME</xref></addr-mnemonic>
+            </addr-element>
+
+            <address-details>
+              <p>This is the description</p>
+            </address-details>
+          </register-reference>
+
+          <register-reference>
+            <address>0x2000</address>
+
+            <addr-element>
+              <address-prefix><xref href="Tables-specializations.xml#xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7e5a/table_REGISTER-NAME_-_REGISTER-DESCRIPTION_3j5mybk8z">REGISTER-NAME</xref></address-prefix>
+            </addr-element>
+
+            <address-details>
+              <p>This is the description</p>
+            </address-details>
+          </register-reference>
+        </address-map>
+      </tgroup>
+    </table>
+
+    <table id="table_Testnameshort_-_Testnamelong_5j5mybk8z">
+      <?guidance Use this table to define a single test scenerio. ?>
+
+      <title><test-name-short xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1">Testnameshort </test-name-short> -
+      <test-name-long xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1"> Testnamelong</test-name-long></title>
+
+      <tgroup cols="2">
+        <colspec colwidth="190*"/>
+
+        <colspec colwidth="810*"/>
+
+        <thead>
+          <row>
+            <entry bg_color="#D3D3D3"><p> Category</p></entry>
+
+            <entry bg_color="#D3D3D3"><p>Content</p></entry>
+          </row>
+        </thead>
+
+        <test>
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Owner</p>
+            </test-row-type>
+
+            <test-owner>
+              <p>Owner</p>
+            </test-owner>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Priority</p>
+            </test-row-type>
+
+            <test-pri>
+              <p>Priority</p>
+            </test-pri>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Description</p>
+            </test-row-type>
+
+            <test-desc>
+              <p>Description</p>
+            </test-desc>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Procedure</p>
+            </test-row-type>
+
+            <test-proc>
+              <p>Procedure</p>
+            </test-proc>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Expected Results</p>
+            </test-row-type>
+
+            <test-exp-rslt>
+              <p>Expected Results</p>
+            </test-exp-rslt>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Schedule Estimate</p>
+            </test-row-type>
+
+            <test-sched-est>
+              <p>Schedule Estimate</p>
+            </test-sched-est>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Schedule Actual</p>
+            </test-row-type>
+
+            <test-sched-act>
+              <p>Schedule Actual</p>
+            </test-sched-act>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Result</p>
+            </test-row-type>
+
+            <test-result>
+              <p>Result</p>
+            </test-result>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Firmware</p>
+            </test-row-type>
+
+            <test-fw>
+              <p>Firmware</p>
+            </test-fw>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Hardware</p>
+            </test-row-type>
+
+            <test-hw>
+              <p>Hardware</p>
+            </test-hw>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Notes</p>
+            </test-row-type>
+
+            <test-notes>
+              <p>Notes</p>
+            </test-notes>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Requirements</p>
+            </test-row-type>
+
+            <test-req>
+              <p>Requirements</p>
+            </test-req>
+          </test-row>
+
+          <test-row>
+            <test-row-type bg_color="#D3D3D3">
+              <p>Misc.</p>
+            </test-row-type>
+
+            <test-misc>
+              <p>Misc.</p>
+            </test-misc>
+          </test-row>
+        </test>
+      </tgroup>
+    </table>
+
+    <table id="table_-__6j5mybk8z" otherprops="test-matrix">
+      <title><test-matrix-nm-short xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1"> </test-matrix-nm-short> -
+      <test-matrix-nm-long xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1"> </test-matrix-nm-long></title>
+
+      <tgroup cols="6">
+        <thead>
+          <row>
+            <entry><p> this/that</p></entry>
+
+            <entry><p> that</p></entry>
+
+            <entry><p> that</p></entry>
+
+            <entry><p> that</p></entry>
+
+            <entry><p> that</p></entry>
+
+            <entry><p> that</p></entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+
+          <row>
+            <entry bg_color="#D3D3D3"><p> this</p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+
+            <entry><p> </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

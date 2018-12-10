@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="???" xml:lang="en-US">
+  <title>Microchip Boilerplate</title>
+
+  <topicref href="Microchip_Web_Site.xml" navtitle="The Microchip Web Site"/>
+
+  <topicref href="Customer_Change_Notification_Service.xml" navtitle="Customer Change Notification Service"/>
+
+  <topicref href="Customer_Support.xml" navtitle="Customer Support"/>
+
+  <topicref href="Microchip_Devices_Code_Protection_Feature.xml" navtitle="Microchip Devices Code Protection Feature"/>
+
+  <topicref href="Legal_Notice.xml" navtitle="Legal Notice"/>
+
+  <topicref href="Trademarks.xml" navtitle="Trademarks"/>
+
+  <topicref href="Quality_MGMT_Sys.xml" navtitle="Quality Management System Certified by DNV"/>
+
+  <topicref href="Worldwide_Sales_and_Service.xml" navtitle="Worldwide Sales and Service"/>
+</map>

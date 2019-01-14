@@ -35,13 +35,13 @@ See the accompanying license.txt file for applicable licenses.
 <!-- Templates for <dl> are in tables.xsl -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:fo="http://www.w3.org/1999/XSL/Format"
-    version="2.0">
+    xmlns:fo="http://www.w3.org/1999/XSL/Format" version="2.0">
 
-    <xsl:template match="*[contains(@class,' topic/linklist ')]/*[contains(@class,' topic/title ')]">
-      <fo:block xsl:use-attribute-sets="linklist.title">
-        <xsl:apply-templates/>
-      </fo:block>
+    <xsl:template
+        match="*[contains(@class, ' topic/linklist ')]/*[contains(@class, ' topic/title ')]">
+        <fo:block xsl:use-attribute-sets="linklist.title">
+            <xsl:apply-templates/>
+        </fo:block>
     </xsl:template>
 
     <!--Lists-->
@@ -65,7 +65,7 @@ See the accompanying license.txt file for applicable licenses.
             <fo:list-item-label xsl:use-attribute-sets="ul.li__label">
                 <fo:block xsl:use-attribute-sets="ul.li__label__content">
                     <fo:inline>
-                        <xsl:call-template name="commonattributes"/>                       
+                        <xsl:call-template name="commonattributes"/>
                     </fo:inline>
                     <xsl:choose>
                         <xsl:when test="$depth = 1">
@@ -100,10 +100,11 @@ See the accompanying license.txt file for applicable licenses.
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:call-template name="insertVariable">
-                                <xsl:with-param name="theVariableID" select="'Unordered List bullet'"/>
+                                <xsl:with-param name="theVariableID"
+                                    select="'Unordered List bullet'"/>
                             </xsl:call-template>
                         </xsl:otherwise>
-                    </xsl:choose>                   
+                    </xsl:choose>
                 </fo:block>
             </fo:list-item-label>
 
@@ -139,12 +140,29 @@ See the accompanying license.txt file for applicable licenses.
                                         <xsl:number format="A"/>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:number/>
+                                        <xsl:variable name="tnumber">
+                                            <xsl:number/>
+                                        </xsl:variable>
+                                        <xsl:variable name="preceding-count">
+                                            <xsl:choose>
+                                                <xsl:when
+                                                  test="parent::*[contains(@class, ' topic/ol ')][contains(@otherprops, 'continue-numbering')]">
+                                                  <xsl:call-template name="preceding-count">
+                                                  <xsl:with-param name="preceding-ol"
+                                                  select="count(parent::*[contains(@class, ' topic/ol ')]/preceding-sibling::*[contains(@class, ' topic/ol ')])"
+                                                  />
+                                                  </xsl:call-template>
+                                                </xsl:when>
+                                                <xsl:otherwise>0</xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:variable>
+                                        <xsl:value-of
+                                            select="number($tnumber) + number($preceding-count)"/>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </number>
                         </xsl:with-param>
-                    </xsl:call-template>
+                    </xsl:call-template>                
                 </fo:block>
             </fo:list-item-label>
 
@@ -155,6 +173,37 @@ See the accompanying license.txt file for applicable licenses.
             </fo:list-item-body>
 
         </fo:list-item>
+    </xsl:template>
+
+    <xsl:template name="preceding-count">
+        <xsl:param name="preceding-ol"/>
+        <xsl:param name="current-ol-count" select="1"/>
+        <xsl:param name="current-li-count" select="0"/>
+        <xsl:choose>
+            <xsl:when
+                test="parent::*[contains(@class, ' topic/ol ')]/
+                preceding-sibling::*[contains(@class, ' topic/ol ')]
+                [number($current-ol-count)][contains(@otherprops, 'continue-numbering')]">
+                <xsl:variable name="temp-ol"
+                    select="count(parent::*[contains(@class, ' topic/ol ')]/
+                    preceding-sibling::*[contains(@class, ' topic/ol ')][$current-ol-count]/*[contains(@class, ' topic/li ')])"/>
+                <xsl:call-template name="preceding-count">
+                    <xsl:with-param name="current-ol-count" select="number($current-ol-count) + 1"/>
+                    <xsl:with-param name="current-li-count" select="number($current-li-count) + number($temp-ol)"/>
+                </xsl:call-template>
+            </xsl:when>
+           <xsl:when test="parent::*[contains(@class, ' topic/ol ')]/
+                preceding-sibling::*[contains(@class, ' topic/ol ')]
+                [number($current-ol-count)][contains(@otherprops, 'start-numbering')]">
+                <xsl:variable name="temp-ol"
+                    select="count(parent::*[contains(@class, ' topic/ol ')]/preceding-sibling::*[contains(@class, ' topic/ol ')]
+                    [$current-ol-count]/child::*[contains(@class, ' topic/li ')])"/>
+                <xsl:value-of select="number($current-li-count) + number($temp-ol)"/>
+            </xsl:when>           
+            <xsl:otherwise>
+                <xsl:value-of select="$current-li-count"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="*[contains(@class, ' topic/li ')]/*[contains(@class, ' topic/itemgroup ')]">

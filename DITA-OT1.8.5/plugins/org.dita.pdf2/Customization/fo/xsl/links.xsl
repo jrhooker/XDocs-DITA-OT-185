@@ -23,6 +23,41 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
+    
+    <!-- The following template was put in place to ensure that xrefs to ol/li elements have the correct -->
+    
+    <xsl:template name="preceding-count-li-reference">
+        <xsl:param name="preceding-ol"/>
+        <xsl:param name="element"/>
+        <xsl:param name="current-ol-count" select="1"/>
+        <xsl:param name="current-li-count" select="0"/>
+        <xsl:choose>
+            <xsl:when
+                test="$element/parent::*[contains(@class, ' topic/ol ')]/
+                preceding-sibling::*[contains(@class, ' topic/ol ')]
+                [number($current-ol-count)][contains(@otherprops, 'continue-numbering')]">
+                <xsl:variable name="temp-ol"
+                    select="count($element/parent::*[contains(@class, ' topic/ol ')]/
+                    preceding-sibling::*[contains(@class, ' topic/ol ')][$current-ol-count]/*[contains(@class, ' topic/li ')])"/>
+                <xsl:call-template name="preceding-count-li-reference">
+                    <xsl:with-param name="element" select="$element"/>
+                    <xsl:with-param name="current-ol-count" select="number($current-ol-count) + 1"/>
+                    <xsl:with-param name="current-li-count" select="number($current-li-count) + number($temp-ol)"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$element/parent::*[contains(@class, ' topic/ol ')]/
+                preceding-sibling::*[contains(@class, ' topic/ol ')]
+                [number($current-ol-count)][contains(@otherprops, 'start-numbering')]">
+                <xsl:variable name="temp-ol"
+                    select="count($element/parent::*[contains(@class, ' topic/ol ')]/preceding-sibling::*[contains(@class, ' topic/ol ')]
+                    [$current-ol-count]/child::*[contains(@class, ' topic/li ')])"/>
+                <xsl:value-of select="number($current-li-count) + number($temp-ol)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$current-li-count"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
  <xsl:template match="*" mode="insertReferenceTitle">
         <xsl:param name="href"/>
@@ -37,7 +72,28 @@
                 </xsl:when>
                 <xsl:when test="contains($element/@class,' topic/li ') and 
                     contains($element/parent::*/@class,' topic/ol ')">                      
-                    <xsl:text>[ </xsl:text> <xsl:value-of select="count(//*[@id = $element/@id]/preceding-sibling::*) + 1"></xsl:value-of> <xsl:text> ] </xsl:text> 
+                    <xsl:text>[ </xsl:text>                    
+                    <xsl:variable name="tnumber">
+                        <xsl:value-of select="count(//*[@id = $element/@id]/preceding-sibling::*) + 1"></xsl:value-of>
+                    </xsl:variable>
+                    <xsl:variable name="preceding-count">
+                        <xsl:choose>
+                            <xsl:when
+                                test="$element/parent::*[contains(@class, ' topic/ol ')][contains(@otherprops, 'continue-numbering')]">
+                                <xsl:call-template name="preceding-count-li-reference">
+                                    <xsl:with-param name="element" select="$element"/>
+                                    <xsl:with-param name="preceding-ol"
+                                        select="count($element/parent::*[contains(@class, ' topic/ol ')]/preceding-sibling::*[contains(@class, ' topic/ol ')])"
+                                    />
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:otherwise>0</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>                    
+                    <xsl:value-of
+                        select="number($tnumber) + number($preceding-count)"/>
+                    
+                    <xsl:text> ] </xsl:text> 
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates select="$element" mode="retrieveReferenceTitle"/>

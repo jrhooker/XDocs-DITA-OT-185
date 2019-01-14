@@ -27,4 +27,6 @@ REM ant -Dargs.dir.input=samples/digi -Dargs.input=samples/digi/digi.ditamap  -D
 
 REM ant -Dargs.dir.input=samples/sectionnum -Dargs.input=samples/sectionnum/sectionnum.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/sectionnum/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m
 
-ant -Dargs.dir.input=samples/MCHPSample -Dargs.input=samples/PublishTest/PublishTest.ditamap  -Dtranstype=mchp-pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/PublishTest/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -Dargs.filter=ditaval/Global_Filterset.ditaval
+ant -Dargs.dir.input=samples/MCHPSample -Dargs.input=samples/PublishTest/PublishTest.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/PublishTest/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -Dargs.filter=ditaval/Global_Filterset.ditaval
+
+REM ant -Dargs.dir.input=samples/ListNumbering -Dargs.input=samples/ListNumbering/ListNumbering.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/ListNumbering/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -Dargs.filter=ditaval/Global_Filterset.ditaval

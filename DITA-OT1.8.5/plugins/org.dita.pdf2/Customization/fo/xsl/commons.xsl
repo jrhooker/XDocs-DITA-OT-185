@@ -21,7 +21,7 @@
         use="@id"/>
 
     <xsl:key name="map-id-preface"
-        match="*[ancestor-or-self::*[contains(@class, ' bookmap/preface ')]]" use="@id"/>
+        match="*[ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]]" use="@id"/>
 
     <xsl:key name="map-id-appendixes"
         match="*[contains(@class, ' bookmap/appendix ')]"

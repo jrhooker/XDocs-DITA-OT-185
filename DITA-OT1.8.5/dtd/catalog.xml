@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
+  <!--
   This file is part of the DITA Open Toolkit project.
   See the accompanying license.txt file for applicable licenses.
 -->
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  
+    <public publicId="-//W3C//DTD SVG 1.0//EN" uri="svg10.dtd" xml:base="svg/svg10.dtd"></public>
+    <public publicId="-//W3C//DTD SVG 1.0//EN" uri="/SysSchema/svg10.dtd" xml:base="svg/svg10.dtd"></public>
+    
+    <public publicId="-//W3C//DTD SVG 1.1//EN" uri="svg11.dtd" xml:base="svg/svg11.dtd"></public>
+    <public publicId="-//W3C//DTD SVG 1.1//EN" uri="/SysSchema/svg11.dtd" xml:base="svg/svg11.dtd"></public>
   
   <!-- DITA 1.2 DTD -->
   

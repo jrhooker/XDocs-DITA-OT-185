@@ -12,7 +12,23 @@
 
     <xsl:param name="topicTitle.numLevel" select="5"/>
 
-  <xsl:template match="*[contains(@class, ' topic/tbody ')]/*[contains(@class, ' m-software-d/field ')]/*[contains(@class, ' m-software-d/field-type ')]">
+    <xsl:key name="map-id" match="opentopic:map//*[@id]" use="@id"/>
+
+    <xsl:key name="map-id-native" match="*[contains(@class, ' topic/topic ')][@id]" use="@id"/>
+
+    <xsl:key name="map-id-frontmatter"
+        match="*[contains(@class, ' topic/topic ')][@id][ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]]"
+        use="@id"/>
+
+    <xsl:key name="map-id-preface"
+        match="*[ancestor-or-self::*[contains(@class, ' bookmap/preface ')]]" use="@id"/>
+
+    <xsl:key name="map-id-appendixes"
+        match="*[contains(@class, ' bookmap/appendix ')]"
+        use="@id"/>
+
+    <xsl:template
+        match="*[contains(@class, ' topic/tbody ')]/*[contains(@class, ' m-software-d/field ')]/*[contains(@class, ' m-software-d/field-type ')]">
         <fo:table-cell xsl:use-attribute-sets="tbody.row.entry">
             <xsl:call-template name="commonattributes"/>
             <xsl:call-template name="rotate_entry"/>
@@ -22,14 +38,16 @@
             <xsl:call-template name="findBackgroundColor"/>
             <fo:block xsl:use-attribute-sets="tbody.row.entry__content">
                 <xsl:call-template name="processEntryContent"/>
-                <xsl:if test="@sticky = 'yes'"><fo:block xsl:use-attribute-sets="b">STICKY</fo:block></xsl:if>
+                <xsl:if test="@sticky = 'yes'">
+                    <fo:block xsl:use-attribute-sets="b">STICKY</fo:block>
+                </xsl:if>
             </fo:block>
         </fo:table-cell>
     </xsl:template>
 
-    <xsl:template match="*[contains(@class,' topic/fig ')]">
+    <xsl:template match="*[contains(@class, ' topic/fig ')]">
         <fo:block xsl:use-attribute-sets="fig" keep-together.within-page="always">
-            <xsl:apply-templates select="*[contains(@class,' topic/title ')]"/>
+            <xsl:apply-templates select="*[contains(@class, ' topic/title ')]"/>
             <fo:block xsl:use-attribute-sets="fig" keep-together.within-page="always">
                 <xsl:call-template name="commonattributes"/>
                 <xsl:if test="not(@id)">
@@ -37,9 +55,9 @@
                         <xsl:call-template name="get-id"/>
                     </xsl:attribute>
                 </xsl:if>
-            <xsl:apply-templates select="*[not(contains(@class,' topic/title '))]"/>
+                <xsl:apply-templates select="*[not(contains(@class, ' topic/title '))]"/>
             </fo:block>
-            </fo:block>
+        </fo:block>
     </xsl:template>
 
     <!-- Watermark -->
@@ -54,12 +72,12 @@
 
     <xsl:template match="@background-image" mode="layout-masters-processing">
         <xsl:attribute name="background-image">
-            <xsl:value-of select="concat('url(xdapp://',$watermark,')')"/>
+            <xsl:value-of select="concat('url(xdapp://', $watermark, ')')"/>
         </xsl:attribute>
     </xsl:template>
 
     <!-- Overridden to remove the graphic -->
-    <xsl:template match="*[contains(@class,' topic/note ')]">
+    <xsl:template match="*[contains(@class, ' topic/note ')]">
         <xsl:variable name="noteImagePath">
             <xsl:apply-templates select="." mode="setNoteImagePath"/>
         </xsl:variable>
@@ -96,8 +114,9 @@
         <xsl:variable name="mapTopic" select="key('map-id', $id)"/>
 
         <xsl:if
-            test="not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
-            or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
+            test="
+                not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
+                or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
             <xsl:attribute name="initial-page-number">1</xsl:attribute>
         </xsl:if>
 
@@ -115,17 +134,21 @@
     <!-- Topic/Chapter Numbering  -->
 
     <xsl:template match="*" mode="getTitle">
-        <xsl:variable name="topic" select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]"/>
-        <xsl:variable name="level" select="count(ancestor::*[contains(@class,' topic/topic ')])"/>       
+        <xsl:variable name="topic"
+            select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]"/>
+        <xsl:variable name="level" select="count(ancestor::*[contains(@class, ' topic/topic ')])"/>
         <xsl:variable name="id" select="$topic/@id"/>
         <xsl:variable name="mapTopics" select="key('map-id', $id)"/>
+        <xsl:variable name="mapTopics-native" select="key('map-id-native', $id)"/>
         <fo:list-block start-indent="-20mm" provisional-distance-between-starts="20mm"
             provisional-label-separation="5mm">
             <fo:list-item>
                 <fo:list-item-label end-indent="label-end()" text-align="start">
                     <fo:block>
-                        <xsl:if test="number($level) &lt; (number($topicTitle.numLevel) + number(1))">
-                            <xsl:apply-templates select="$mapTopics[1]" mode="topicTitleNumber"/>
+                        <xsl:if
+                            test="number($level) &lt; (number($topicTitle.numLevel) + number(1))">
+                            <xsl:apply-templates select="$mapTopics-native[1]"
+                                mode="topicTitleNumber"/>
                         </xsl:if>
                     </fo:block>
                 </fo:list-item-label>
@@ -139,34 +162,28 @@
     </xsl:template>
 
     <xsl:template match="*" mode="getTitleTOC">
-        <xsl:variable name="topic" select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]"/>
-        <xsl:variable name="level" select="count(ancestor::*[contains(@class,' topic/topic ')])"/>       
+        <xsl:variable name="topic"
+            select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]"/>
+        <xsl:variable name="level" select="count(ancestor::*[contains(@class, ' topic/topic ')])"/>
         <xsl:variable name="id" select="$topic/@id"/>
         <xsl:variable name="mapTopics" select="key('map-id', $id)"/>
+        <xsl:variable name="mapTopics-native" select="key('map-id-native', $id)"/>
         <fo:inline>
             <xsl:if test="number($level) &lt; (number($topicTitle.numLevel) + number(1))">
-                <xsl:apply-templates select="$mapTopics[1]" mode="topicTitleNumber"/>
-            </xsl:if>           
+                <xsl:apply-templates select="$mapTopics-native[1]" mode="topicTitleNumber"/>
+            </xsl:if>
         </fo:inline>
         <xsl:text>  </xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template
-        match="*[contains(@class, ' bookmap/chapter ')] | *[contains(@class, ' map/topicref ')][not(ancestor-or-self::*[contains(@class,' bookmap/frontmatter ')])]"
-        mode="topicTitleNumber" priority="1">
-        <xsl:number format="1"
-            count="*[contains(@class, ' map/topicref ')]
-            [not(ancestor-or-self::*[contains(@class,' bookmap/frontmatter ')])]
-            | *[contains(@class, ' bookmap/chapter ')]"
-            level="multiple"/>
+    <xsl:template match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]" mode="topicTitleNumber" priority="1">
+       <xsl:number format="1"  count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]" level="multiple"/>
     </xsl:template>
-
+    
     <xsl:template
-        match="*[contains(@class, ' map/topicref ')][not(ancestor-or-self::*[contains(@class,' bookmap/frontmatter ')])][ancestor-or-self::*[contains(@class, ' bookmap/appendix ')]]"
-        mode="topicTitleNumber" priority="2">
-        <xsl:number format="A.1"
-            count="*[contains(@class, ' map/topicref ')][not(ancestor-or-self::*[contains(@class,' bookmap/frontmatter ')])][ancestor-or-self::*[contains(@class, ' bookmap/appendix ')]]"
+        match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]" mode="topicTitleNumber" priority="2">
+        <xsl:number format="A.1" count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]"
             level="multiple"/>
     </xsl:template>
 
@@ -176,23 +193,26 @@
 
     <!-- Gets navigation title of current topic, used for bookmarks/TOC -->
     <xsl:template name="getNavTitle">
-        <xsl:variable name="topicref" select="key('map-id', @id)[1]"/>    
+        <xsl:variable name="topicref" select="key('map-id', @id)[1]"/>
         <xsl:choose>
             <xsl:when
-                test="$topicref/@locktitle='yes' and $topicref/*[contains(@class, ' map/topicmeta ')]/*[contains(@class, ' topic/navtitle ')]">
-                <xsl:apply-templates select="$topicref/*[contains(@class, ' map/topicmeta ')]/*[contains(@class, ' topic/navtitle ')]/node()" />
+                test="$topicref/@locktitle = 'yes' and $topicref/*[contains(@class, ' map/topicmeta ')]/*[contains(@class, ' topic/navtitle ')]">
+                <xsl:apply-templates
+                    select="$topicref/*[contains(@class, ' map/topicmeta ')]/*[contains(@class, ' topic/navtitle ')]/node()"
+                />
             </xsl:when>
-            <xsl:when test="$topicref/@locktitle='yes' and $topicref/@navtitle">
+            <xsl:when test="$topicref/@locktitle = 'yes' and $topicref/@navtitle">
                 <xsl:value-of select="$topicref/@navtitle"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates select="*[contains(@class,' topic/title ')]" mode="getTitleTOC"/>
+                <xsl:apply-templates select="*[contains(@class, ' topic/title ')]"
+                    mode="getTitleTOC"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
 
-    
+
 
     <!--  Bookmap Chapter processing  -->
     <xsl:template name="processTopicChapter">
@@ -211,13 +231,13 @@
                             <xsl:number format="1"/>
                         </fo:marker>
                         <fo:marker marker-class-name="current-header">
-                            <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                            <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                                 <xsl:apply-templates select="." mode="getTitleNoNum"/>
                             </xsl:for-each>
                         </fo:marker>
                     </xsl:if>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/prolog ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/prolog ')]"/>
 
                     <xsl:call-template name="insertChapterFirstpageStaticContent">
                         <xsl:with-param name="type" select="'chapter'"/>
@@ -225,7 +245,7 @@
 
                     <fo:block xsl:use-attribute-sets="topic.title">
                         <xsl:call-template name="pullPrologIndexTerms"/>
-                        <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                        <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                             <xsl:apply-templates select="." mode="getTitle"/>
                         </xsl:for-each>
                     </fo:block>
@@ -268,10 +288,11 @@
                     </xsl:if>-->
 
                     <xsl:choose>
-                        <xsl:when test="$chapterLayout='BASIC'">
+                        <xsl:when test="$chapterLayout = 'BASIC'">
                             <xsl:apply-templates
-                                select="*[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
-                                contains(@class, ' topic/prolog '))]"/>
+                                select="
+                                    *[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
+                                    contains(@class, ' topic/prolog '))]"/>
                             <xsl:apply-templates select="." mode="buildRelationships"/>
                         </xsl:when>
                         <xsl:otherwise>
@@ -279,7 +300,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/topic ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/topic ')]"/>
                     <xsl:call-template name="pullPrologIndexTerms.end-range"/>
                 </fo:block>
             </fo:flow>
@@ -303,13 +324,13 @@
                             <xsl:number format="1"/>
                         </fo:marker>
                         <fo:marker marker-class-name="current-header">
-                            <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                            <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                                 <xsl:apply-templates select="." mode="getTitle"/>
                             </xsl:for-each>
                         </fo:marker>
                     </xsl:if>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/prolog ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/prolog ')]"/>
 
                     <xsl:call-template name="insertChapterFirstpageStaticContent">
                         <xsl:with-param name="type" select="'notices'"/>
@@ -317,16 +338,17 @@
 
                     <fo:block xsl:use-attribute-sets="topic.title">
                         <xsl:call-template name="pullPrologIndexTerms"/>
-                        <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                        <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                             <xsl:apply-templates select="." mode="getTitle"/>
                         </xsl:for-each>
                     </fo:block>
 
                     <xsl:choose>
-                        <xsl:when test="$noticesLayout='BASIC'">
+                        <xsl:when test="$noticesLayout = 'BASIC'">
                             <xsl:apply-templates
-                                select="*[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
-                                contains(@class, ' topic/prolog '))]"/>
+                                select="
+                                    *[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
+                                    contains(@class, ' topic/prolog '))]"/>
                             <xsl:apply-templates select="." mode="buildRelationships"/>
                         </xsl:when>
                         <xsl:otherwise>
@@ -334,7 +356,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/topic ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/topic ')]"/>
                     <xsl:call-template name="pullPrologIndexTerms.end-range"/>
                 </fo:block>
             </fo:flow>
@@ -343,7 +365,8 @@
 
     <!-- template added to override numbering on section title -->
 
-    <xsl:template match="*[contains(@class,' topic/section ')]/*[contains(@class,' topic/title ')]">
+    <xsl:template
+        match="*[contains(@class, ' topic/section ')]/*[contains(@class, ' topic/title ')]">
         <fo:block xsl:use-attribute-sets="section.title">
             <xsl:call-template name="commonattributes"/>
             <xsl:apply-templates/>
@@ -367,18 +390,18 @@
                             <xsl:variable name="topicref"
                                 select="key('map-id', ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/@id)"/>
                             <xsl:for-each select="$topicref">
-                                <xsl:number count="*[contains(@class,' bookmap/appendix ')]"
+                                <xsl:number count="*[contains(@class, ' bookmap/appendix ')]"
                                     format="1"/>
                             </xsl:for-each>
                         </fo:marker>
                         <fo:marker marker-class-name="current-header">
-                            <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                            <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                                 <xsl:apply-templates select="." mode="getTitleNoNum"/>
                             </xsl:for-each>
                         </fo:marker>
                     </xsl:if>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/prolog ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/prolog ')]"/>
 
                     <xsl:call-template name="insertChapterFirstpageStaticContent">
                         <xsl:with-param name="type" select="'appendix'"/>
@@ -386,7 +409,7 @@
 
                     <fo:block xsl:use-attribute-sets="topic.title">
                         <xsl:call-template name="pullPrologIndexTerms"/>
-                        <xsl:for-each select="child::*[contains(@class,' topic/title ')]">
+                        <xsl:for-each select="child::*[contains(@class, ' topic/title ')]">
                             <xsl:apply-templates select="." mode="getTitle"/>
                         </xsl:for-each>
                     </fo:block>
@@ -429,10 +452,11 @@
                     </xsl:if>-->
 
                     <xsl:choose>
-                        <xsl:when test="$appendixLayout='BASIC'">
+                        <xsl:when test="$appendixLayout = 'BASIC'">
                             <xsl:apply-templates
-                                select="*[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
-                                contains(@class, ' topic/prolog '))]"/>
+                                select="
+                                    *[not(contains(@class, ' topic/topic ') or contains(@class, ' topic/title ') or
+                                    contains(@class, ' topic/prolog '))]"/>
                             <xsl:apply-templates select="." mode="buildRelationships"/>
                         </xsl:when>
                         <xsl:otherwise>
@@ -440,7 +464,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
 
-                    <xsl:apply-templates select="*[contains(@class,' topic/topic ')]"/>
+                    <xsl:apply-templates select="*[contains(@class, ' topic/topic ')]"/>
                     <xsl:call-template name="pullPrologIndexTerms.end-range"/>
                 </fo:block>
             </fo:flow>

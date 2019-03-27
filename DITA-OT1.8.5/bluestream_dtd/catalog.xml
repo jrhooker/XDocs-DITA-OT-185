@@ -5,6 +5,9 @@
 -->
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   
+  <public publicId="-//W3C//DTD SVG 1.1//EN" uri="svg/svg11.svg"/>  
+  <public publicId="-//W3C//DTD SVG 1.0//EN" uri="svg/svg10.svg"/>
+  
   <!-- DITA 1.2 DTD -->
   
   <!-- Topics -->

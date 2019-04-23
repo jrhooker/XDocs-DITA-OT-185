@@ -378,7 +378,7 @@ See the accompanying license.txt file for applicable licenses.
                     </fo:table>
                 </fo:block>
             </xsl:when>            
-            <xsl:when test="$pmc_iso[1]/pmc_revhistory">
+            <xsl:when test="$pmc_iso[1]/pmc_revhistory/pmc_revision">
                 <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="2pc">
                     <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold"
                         font-size="12pt" hyphenate="false" space-after.minimum="0.4em"

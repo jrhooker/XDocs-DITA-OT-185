@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="d1e1281" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="topic:1;2:101">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="title:1;3:10">seqread</title>
+
+  <prolog class="- topic/prolog " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="prolog:1;5:11">
+    <data id="section_d1e1281" type="pdf_name" class="- topic/data " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="data:1;6:49"/>
+  </prolog>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="body:1;9:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:1;10:8">The sequential read command is used to read the
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:1;11:14">&lt;numLBA&gt;</cmdname> number of LBAs starting from
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:2;12:14">&lt;startLBA&gt;</cmdname>. The LBA configured or default
+    starting LBA is 0. The above step is repeated for the
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:3;14:14">&lt;numRequest&gt;</cmdname> number of times. For each read, the
+    starting LBA is updated with previous starting LBA plus the number of LBAs
+    (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:4;16:15">&lt;numLBA&gt;</cmdname> ) to read.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="ul:1;18:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="li:1;19:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:2;19:14">The sequential read command reads the data from the specified
+      namespace. The default namespace ID is set to 1</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="li:2;22:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:3;22:14">The default value for number of LBA
+      (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:5;23:17">&lt;numLBA&gt;</cmdname>) in each read is set to 8</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="li:3;25:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:4;25:14">The default number of sequential reads for each command
+      (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:6;26:17">&lt;numRequest&gt;</cmdname>) is also set to 1</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="li:4;28:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:5;28:14">Supports the seed option to compare the data on write. Takes the
+      seed value from the second 4 bytes of the LBA. Set seed for the rand()
+      function. Generate the random value and compare it with the data read.
+      Continue this process till the end of the LBA. Takes the last 4 bytes of
+      the current LBA as the seed and second 4bytes to the next LBA. Again,
+      generate the random value, and compare it with the data read from
+      corresponding LBA. Perform the above procedure until the end of the all
+      LBAs. If random values generated and data read from the device are the
+      same, it is a success</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="li:5;38:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:6;38:14">This command is issued on all active submission queues</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:7;41:8">The command format is as follows:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:8;43:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:1;43:16">seqread [-r|--request=&lt;numRequest&gt;]
+    [-l|--slba=&lt;startLBA&gt;] [-b|--nlba=&lt;numLBA&gt;]
+    [-n|--namespace=&lt;nameSpace&gt;] [-p|--pageoffset=&lt;offset&gt;]
+    [-a|--listoffset=&lt;offset&gt;] [-s|--seed] </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:9;48:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:2;48:16">-r, --request=&lt;numRequest&gt; -</codeph> Send this many
+    requests; default is 1.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:10;51:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:3;51:16">-l, --slba=&lt;startLBA&gt; - </codeph> Start LBA; default is
+    0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:11;54:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:4;54:16">-b, --nlba=&lt;numLBA&gt; -</codeph> Access size in number of
+    LBA; default is 8.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:12;57:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:5;57:16">-n, --namespace=&lt;nameSpace&gt; -</codeph> Namespace ID;
+    default is 1.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:13;60:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:6;60:16">-p, --pageoffset=&lt;offset&gt; -</codeph> Byte offset within
+    the first PRP where the data read should be placed. Default is 0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:14;63:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:7;63:16">-a, --listoffset=&lt;offset&gt; -</codeph> If the request
+    requires a PRP list this is the byte offset within the host memory.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:15;66:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="codeph:8;66:16">-s, --seed -</codeph> Compare data on write. First 32-bit in
+    the LBA contains the seed for the Random Number Generator to fill the rest
+    of the LBA (default is not to fill LBA with random data).</p>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="note:1;70:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="p:16;70:14">See the seqwrite command to test <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:7;70:56">seqread </cmdname>and
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1281.xml" xtrc="cmdname:8;71:14">seqwrite</cmdname> commands.</p></note>
+  </body>
+</topic>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="d1e1749" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="topic:1;2:101">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="title:1;3:10">write</title>
+
+  <prolog class="- topic/prolog " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="prolog:1;5:11">
+    <data id="section_d1e1749" type="pdf_name" class="- topic/data " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="data:1;6:49"/>
+  </prolog>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="body:1;9:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:1;10:8">Writes <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:1;10:24">&lt;numLBA&gt;</cmdname> number of LBAs from
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:2;11:14">&lt;startLBA&gt;</cmdname> specified as part of the command.
+    Writes to a configured namespace or to default namespace 1. The write
+    command is issued on the submission queue
+    (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:3;14:15">&lt;queueNum&gt;</cmdname>) configured if it is already created.
+    If not, the command will return an error.</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="ul:1;17:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:1;18:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:2;18:14">Supports writing the data from an input file
+      (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:4;19:17">=&lt;file&gt;</cmdname>) as configured. By default it will not
+      write data from a file.</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:2;22:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:3;22:14">Supports multiple non-contiguous buffer allocation. Multi buffer
+      non-contiguous memory allocation based on number of buffers (nbuf)
+      requested. Allocate a contiguous block of memory based on the requested
+      number of non-contiguous buffers. The size of memory allocated should be
+      the actual size required for the data and nBuf number of extra pages.
+      First buffer dataBuf[0] is allocated until the first page boundary of
+      the memory allocated, next buffer dataBuf[1] will be allocated with the
+      next page boundary, leaving a one-page gap between two buffers. Continue
+      this procedure until the number of non-contiguous buffers requested is
+      over or data requested is small. This way, non-contiguous buffers from a
+      single pool of memory are allocated.</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:3;34:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:4;34:14">Supports the seed option. Initialize the first 4 bytes of first
+      LBA with start LBA number (that is, *slba-&gt;ival &amp; next LBA with
+      *slba-&gt;ival+1) and so on until the end of all the LBAs. Copy the
+      first random number generated to second four bytes. This acts as a seed
+      for the <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:5;38:24">rand()</cmdname> function. Fill the entire LBA with the
+      random number generated by using the seed set as above. Take the last
+      four bytes of the LBA as the seed and second four bytes to the next LBA.
+      Follow the above procedure until all the LBAs are completed.</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:4;43:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:5;43:14">Supports allocating the memory from a specified offset from the
+      page boundary. The page offset is the number of bytes from the beginning
+      of a memory page. The starting buffer address should be a memory page
+      offset at "pageoffset". For example, if -p is specified to 3072, then
+      the starting buffer address (dataBuf[0]) should be at an offset of 3072
+      from a memory page boundary.</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:5;50:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:6;50:14">Issue the command on specified submission queue
+      (<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="cmdname:6;51:17">&lt;queueNum&gt;</cmdname>).</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:7;54:8">The command format is as follows:</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:8;56:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:1;56:16"> write -q|--subq=&lt;queueNum&gt; -l|--slba=&lt;startLBA&gt;
+    -b|--nlba=&lt;numLBA&gt; [-m|--nbuf=&lt;numberOfbuffers&gt;]
+    [-n|--namespace=&lt;nameSpace&gt;] [-p|--offset=&lt;offset&gt;]
+    [-a|--listoffset=&lt;offset&gt;] [-e|--listentryoffset=&lt;offset&gt;]
+    [-i|--input=&lt;file&gt;] [-s|--seed] [-d|--data=&lt;data&gt;]
+    [-r|--refTag=&lt;refTag&gt;]
+    [-x|--expstat=&lt;StatusCodeType&lt;&lt;8|StatusCode&gt;]
+    [-f|--fua=&lt;forceUnitAccess&gt;] [-v|--rsvd=&lt;setReserved&gt;]
+    [-g|--psdt=&lt;prpSglDataXfer&gt;] </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:9;66:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:2;66:16">-q, --subq=&lt;queueNum&gt; -</codeph> Submission queue
+    number.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:10;69:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:3;69:16">-l, --slba=&lt;startLBA&gt; -</codeph> Start LBA.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:11;71:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:4;71:16">-b, --nlba=&lt;numLBA&gt; -</codeph> Number of LBA.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:12;73:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:5;73:16">-m, --nbuf=&lt;numberOfbuffers&gt; -</codeph> Number of
+    non-contiguous buffers; Default is 1 (only one buffer).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:13;76:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:6;76:16">-n, --namespace=&lt;nameSpace&gt; -</codeph> Namespace ID;
+    default is 1.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:14;79:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:7;79:16">-p, --pageoffset=&lt;pageoffset&gt; -</codeph> Pageoffset- that
+    is, the number of bytes from the beginning of the a memory page; default
+    is 0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:15;83:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:8;83:16">-a, --listoffset=&lt;offset&gt; -</codeph> If the request
+    requires a PRP list, this is the byte offset within the host memory page
+    of the first PRP list entry in the first PRP list. If the request does not
+    require a PRP list this is the byte offset to PRP2. Default is 0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:16;88:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:9;88:16">-e, --listentryoffset=&lt;offset&gt; -</codeph> If the request
+    requires a PRP list, this is the byte offset to the PRP list entries.
+    Default is 0, all the entries in PRP list are page-aligned.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:17;92:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:10;92:16">-i, --input=&lt;file&gt; -</codeph> Optionally, take LBA data
+    from input file in hex format; default is to not read data.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:18;95:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:11;95:16">-s, --seed -</codeph> Compare data on write. First 32-bit in
+    the LBA contains the seed for the Random Number Generator to fill the rest
+    of the LBA.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:19;99:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:12;99:16">-d, --data=&lt;data&gt; -</codeph> Data pattern to write;
+    default is 0x55555555.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:20;102:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:13;102:16">-r, --refTag=&lt;refTag&gt; -</codeph> When end-to-end
+    protection is enabled this can be used to override the default reference
+    tag.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:21;106:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:14;106:16">-x,--expstat=&lt;StatusCodeType&lt;&lt;8|StatusCode&gt;
+    -</codeph> Expected Status Code Type and Status Code.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:22;109:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:15;109:16">-f,--fua=&lt;forceUnitAccess&gt; -</codeph> 1 for force unit
+    access .</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:23;112:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:16;112:16">-v,--rsvd=&lt;setReserved&gt; -</codeph> Set reserved fields.
+    Default is 0.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:24;115:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:17;115:16">-g,--psdt=&lt;prpSglDataXfer&gt; -</codeph> When set to 1, SGL
+    used for data transfer. Default is 0, PRP used for data transfer.</p>
+
+    <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="section:1;118:14"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="title:2;118:21">Example</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:25;118:39">To write one LBA, starting LBA = 1
+    number of LBAs = 1 with dummy data 55:</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:26;119:50"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:18;119:58">write -q 1 -l 1 -b
+    1</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:27;120:22">To write one LBA, starting LBA = 1 number of LBAs = 1
+    with data = b:</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:28;121:26"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:19;121:34">write -q 1 -l 1 -b 1 -d 11</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:29;121:76">To
+    test the seed option:</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:30;122:33"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:20;122:41">write -q 1 -l 0 -b 1
+    -s</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:31;123:23"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:21;123:31">read -q 1 -l 0 -b 1 –s</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:32;123:69">If the
+    seed option succeeds, the following message will be
+    displayed:</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:33;125:22"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:22;125:30">“The data read from device is matching with seed
+    option data(PASSED)”</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:34;126:41">To test the –p
+    option:</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:35;127:19"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:23;127:27">write -q 1 -l 0 -b 10 -p 512</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:36;127:71">To test
+    the –m (multiple non-contiguous buffer allocation) option
+    :</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:37;129:13"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:24;129:21">write -q 1 -l 0 -b 10 –m 2 //2 non-contiguous buffer
+    allocation</codeph></p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:38;130:31">This command:</p><ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="ul:2;130:52">
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:6;131:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:39;131:16">Supports the -i option to the "write" command</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:7;133:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:40;133:16">File format should be in ASIC hex such that it can be edited
+        with an editor</p></li>
+
+        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="li:8;136:13"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:41;136:16">Each entry is 4 bytes, 8 entries per line</p></li>
+      </ul><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:42;137:15">File format:</p><codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeblock:1;137:42">01234567 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234568 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234569 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234567 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234567 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234567 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+01234567 abcdef01 01223344 000000dd 002230ad 00000001 0000003 980976ff
+</codeblock><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="p:43;144:16"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1749.xml" xtrc="codeph:25;144:24">write -q 1 -l 1 -b 1 –i in.txt //read the data to be
+    written to the device from the file specified as in.txt in
+    /application/bsim folder</codeph></p></section>
+  </body>
+</topic>

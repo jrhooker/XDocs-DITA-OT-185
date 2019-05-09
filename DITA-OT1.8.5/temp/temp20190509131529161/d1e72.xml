@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Princeton" id="d1e72" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="title:1;3:10">Introduction</title>
+
+  <prolog class="- topic/prolog " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="prolog:1;5:11">
+    <data id="section_d1e72" type="pdf_name" class="- topic/data " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="data:1;6:47"/>
+  </prolog>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="body:1;9:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="p:1;10:8">This document describes the block layer simulator (BSim) which utilizes
+    the host simulation library (HostSim) to issue NVM Express (NVMe) commands
+    to the NVM controller firmware running on the architectural simulator
+    (ArchSim).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="p:2;15:8">BSim is a native Linux application written in 'C' and distributed in
+    source, making it simple to extend and easy to maintain. When started,
+    BSim presents the user with a simple command prompt interface allowing
+    them to issue a single NVMe command at a time. Multiple NVMe commands may
+    be listed in a text file and executed one after the other by invoking the
+    text file via the BSim command prompt or by specifying the text file on
+    the BSim command line when BSim is started.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="p:3;23:8">BSim does not include any advanced parsing or scripting capabilities.
+    Any complex chaining of NVMe commands or error status checking should be
+    implemented in 'C' and invoked from the BSim command prompt via a
+    top-level custom command.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="p:4;28:8">BSim communicates via the HostSim library to ArchSim over TCP/IP,
+    effectively sending and receiving PCI Express (PCIe) packets over the
+    network, this means that it is not necessary to run BSim on the same
+    physical Linux host as ArchSim.</p>
+
+    <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="note:1;33:11">The BSim command prompt interface relies on the argtable2
+    third-party shared library. This library must be downloaded, compiled, and
+    installed on the same Linux host as BSim. The argtable2 sources may be
+    downloaded from <xref href="http://argtable.sourceforge.net/" type="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e72.xml" xtrc="xref:1;36:84"><?ditaot gentext?>http://argtable.sourceforge.net/</xref></note>
+  </body>
+</topic>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Princeton" id="d1e1994" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="topic:1;2:118">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="title:1;3:10">Additional Features</title>
+
+  <prolog class="- topic/prolog " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="prolog:1;5:11">
+    <data id="section_d1e1994" type="pdf_name" class="- topic/data " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="data:1;6:49"/>
+  </prolog>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="body:1;9:9">
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="ol:1;10:9">
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="li:1;11:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="p:1;11:14"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="b:1;11:36">Accepts the command with enough characters
+      to identify a unique command</b>. If you provide
+      <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="cmdname:1;13:16">ranr</cmdname>, it will execute the <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="cmdname:2;13:61">ranread</cmdname>
+      command. If you provide only r, it will execute the first command in the
+      list that starts with r (if more than one command starts with
+      r).</p></li>
+
+      <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="li:2;18:11"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="p:2;18:14"> <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="b:2;18:36">Supports the feature to log the status of
+      all the commands to a <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="cmdname:3;19:38">log.txt</cmdname> file</b>. All the
+      commands executed in the current session will be logged. For every new
+      session, the <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="cmdname:4;21:29">log.txt </cmdname>contents will be deleted and a
+      new session commands status will be written.</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="p:3;25:8"><note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="note:1;25:14">To exit from the application, execute the <codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="codeph:1;25:64">exit</codeph>
+    command. If you exit from the application without using the
+    <codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e1994.xml" xtrc="codeph:2;27:13">exit</codeph> command, the terminal may behave
+    abnormally.</note></p>
+  </body>
+</topic>

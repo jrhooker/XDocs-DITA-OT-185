@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="dataflowcfgset" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="topic:1;2:120">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="title:1;3:10">dataflowcfgset</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:1;6:8"><cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="cmdname:1;6:17">dataflowcfgget</cmdname> command is used to set the data flow
+    configuration parameters.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:2;9:8">The command is as follows.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:3;11:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:1;11:16">dataflowcfgset [-n|namespace=&lt;nameSpace&gt;]
+    [-p|prp2Size=&lt;prp2Size&gt;] [--dataFlow=&lt;dataFlow&gt;]
+    [--dpuFlow=&lt;dpuFlow&gt;] [--hostSglElements=&lt;hostSglElements&gt;]
+    [--ctlSglElements=&lt;ctlSglElements&gt;]
+    [--hostSglAlignMin=&lt;hostSglAlignMin&gt;]
+    [--hostSglAlignMax=&lt;hostSglAlignMax&gt;]
+    [--hostSglAlignInterval=&lt;hostSglAlignInterval&gt;]
+    [--inboundBufferLocation=&lt;inboundBufferLocation&gt;]
+    [--prpCompression=&lt;prpCompression&gt;]
+    [--ctlSglAlignMin=&lt;ctlSglAlignMin&gt;]
+    [--ctlSglAlignMax=&lt;ctlSglAlignMax&gt;]
+    [--ctlSglAlignInterval=&lt;ctlSglAlignInterval&gt;]
+    [--raidStripeSize=&lt;raidStripeSize&gt;]
+    [--pi1GuardEn=&lt;pi1GuardEn&gt;] [--pi1CrcSeedSel=&lt;pi1CrcSeedSel&gt;]
+    [--pi1CrcInv=&lt;pi1CrcInv&gt;]
+    [--pi1AppTagEnable=&lt;pi1AppTagEnable&gt;]
+    [--pi1RefTagEnable=&lt;pi1RefTagEnable&gt;]
+    [--pi1RefTagMode=&lt;pi1RefTagMode&gt;]
+    [--pi1DisableMode=&lt;pi1DisableMode&gt;]
+    [--pi1Reserved=&lt;pi1Reserved&gt;]
+    [--pi1AppTagMask=&lt;pi1AppTagMask&gt;] [--pi2GuardEn=&lt;pi2GuardEn&gt;]
+    [--pi2CrcSeedSel=&lt;pi2CrcSeedSel&gt;] [--pi2CrcInv=&lt;pi2CrcInv&gt;]
+    [--pi2AppTagEnable=&lt;pi2AppTagEnable&gt;]
+    [--pi2RefTagEnable=&lt;pi2RefTagEnable&gt;]
+    [--pi2RetTagMode=&lt;pi2RetTagMode&gt;]
+    [--pi2DisableMode=&lt;pi2DisableMode&gt;]
+    [--pi2Reserved=&lt;pi2Reserved&gt;]
+    [--pi2AppTagMask=&lt;pi2AppTagMask&gt;]
+    [--encryptDekTagCheck=&lt;encryptDekTagCheck&gt;]
+    [--encrDecrSkipNum=&lt;encrDecrSkipNum&gt;]
+    [--encryptReserved=&lt;encryptReserved&gt;]
+    [--pi1CrcSeed16=&lt;pi1CrcSeed16&gt;] [--pi1AppTag=&lt;pi1AppTag&gt;]
+    [--pi1RefTagInit=&lt;pi1RegTagInit&gt;]
+    [--encryptKeyTblIdx=&lt;encryptKeyTblIdx&gt;]
+    [--destMemDump=&lt;destMemDump&gt;] [-r|reset=&lt;reset&gt;]</codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:4;47:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:2;47:16">-n, --namespace=&lt;nameSpace&gt; - namespace ID, Default is 1
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:5;50:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:3;50:16">-p, --prp2Size=&lt;prp2Size&gt; - Number of DWords in PRP2
+    portion of cfg data </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:6;53:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:4;53:16">--dataFlow=&lt;dataFlow&gt; - dataFlow, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:7;56:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:5;56:16">--dpuFlow=&lt;dpuFlow&gt; - dpuFlow, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:8;58:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:6;58:16">--hostSglElements=&lt;hostSglElements&gt; - hostSglElements,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:9;61:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:7;61:16">--ctlSglElements=&lt;ctlSglElements&gt; - ctlSglElements,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:10;64:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:8;64:16">--hostSglAlignMin=&lt;hostSglAlignMin&gt; - hostSglAlignMin,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:11;67:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:9;67:16">--hostSglAlignMax=&lt;hostSglAlignMax&gt; - hostSglAlignMax,
+    Default is 0</codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:12;70:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:10;70:16">--hostSglAlignInterval=&lt;hostSglAlignInterval&gt; -
+    hostSglAlignInterval, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:13;73:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:11;73:16">--inboundBufferLocation=&lt;inboundBufferLocation&gt; -
+    inboundBufferLocation, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:14;76:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:12;76:16">--prpCompression=&lt;prpCompression&gt; - prpCompression,
+    Default is 0</codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:15;79:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:13;79:16">--ctlSglAlignMin=&lt;ctlSglAlignMin&gt; - ctlSglAlignMin,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:16;82:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:14;82:16">--ctlSglAlignMax=&lt;ctlSglAlignMax&gt; - ctlSglAlignMax,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:17;85:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:15;85:16">--ctlSglAlignInterval=&lt;ctlSglAlignInterval&gt; -
+    ctlSglAlignInterval, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:18;88:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:16;88:16">--raidStripeSize=&lt;raidStripeSize&gt; - raidStripeSize,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:19;91:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:17;91:16">--pi1GuardEn=&lt;pi1GuardEn&gt; - pi1GuardEn, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:20;94:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:18;94:16">--pi1CrcSeedSel=&lt;pi1CrcSeedSel&gt; - pi1CrcSeedSel, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:21;97:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:19;97:16">--pi1CrcInv=&lt;pi1CrcInv&gt; - pi1CrcInv, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:22;100:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:20;100:16">--pi1AppTagEnable=&lt;pi1AppTagEnable&gt; - pi1AppTagEnable,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:23;103:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:21;103:16">--pi1RefTagEnable=&lt;pi1RefTagEnable&gt; - pi1RefTagEnable,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:24;106:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:22;106:16">--pi1RefTagMode=&lt;pi1RefTagMode&gt; - pi1RefTagMode, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:25;109:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:23;109:16">--pi1DisableMode=&lt;pi1DisableMode&gt; - pi1DisableMode,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:26;112:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:24;112:16">--pi1Reserved=&lt;pi1Reserved&gt; - pi1Reserved, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:27;115:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:25;115:16">--pi1AppTagMask=&lt;pi1AppTagMask&gt; - pi1AppTagMask, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:28;118:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:26;118:16">--pi2GuardEn=&lt;pi2GuardEn&gt; - pi2GuardEn, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:29;121:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:27;121:16">--pi2CrcSeedSel=&lt;pi2CrcSeedSel&gt; - pi2CrcSeedSel, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:30;124:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:28;124:16">--pi2CrcInv=&lt;pi2CrcInv&gt; - pi2CrcInv, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:31;127:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:29;127:16">--pi2AppTagEnable=&lt;pi2AppTagEnable&gt; - pi2AppTagEnable,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:32;130:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:30;130:16">--pi2RefTagEnable=&lt;pi2RefTagEnable&gt; - pi2RefTagEnable,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:33;133:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:31;133:16">--pi2RetTagMode=&lt;pi2RetTagMode&gt; - pi2RetTagMode, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:34;136:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:32;136:16">--pi2DisableMode=&lt;pi2DisableMode&gt; - pi2DisableMode,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:35;139:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:33;139:16">--pi2Reserved=&lt;pi2Reserved&gt; - pi2Reserved, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:36;142:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:34;142:16">--pi2AppTagMask=&lt;pi2AppTagMask&gt; - pi2AppTagMask, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:37;145:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:35;145:16">--encryptDekTagCheck=&lt;encryptDekTagCheck&gt; -
+    encryptDekTagCheck, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:38;148:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:36;148:16">--encrDecrSkipNum=&lt;encrDecrSkipNum&gt; - encrDecrSkipNum -
+    Skip encryption of PI/metadata, Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:39;151:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:37;151:16">--encryptReserved=&lt;encryptReserved&gt; - encryptReserved,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:40;154:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:38;154:16">--pi1CrcSeed16=&lt;pi1CrcSeed16&gt; - pi1CrcSeed16, Default is
+    0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:41;157:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:39;157:16">--pi1AppTag=&lt;pi1AppTag&gt; - pi1AppTag, Default is 0
+    </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:42;160:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:40;160:16">--pi1RefTagInit=&lt;pi1RegTagInit&gt; - pi1RefTagInit, Default
+    is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:43;163:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:41;163:16">--encryptKeyTblIdx=&lt;encryptKeyTblIdx&gt; - encryptKeyTblIdx,
+    Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:44;166:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:42;166:16">--destMemDump=&lt;destMemDump&gt; - destMemDump - Ignore source
+    data and do not copy to destination Default is 0 </codeph></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:45;169:8"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:43;169:16">-r, --reset=&lt;reset&gt; - reset - Request firmware to reset
+    data flow Configuration.</codeph></p>
+
+    <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="section:1;172:14"><title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="title:2;172:21">Example</title><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:46;172:39">To set dataFlow and
+    dpuFlow</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="p:47;173:19"><codeph class="+ topic/ph pr-d/codeph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\dataflowcfgset.xml" xtrc="codeph:44;173:27">dataflowcfgset --dataFlow 3 --dpuFlow
+    2.</codeph></p></section>
+  </body>
+</topic>

@@ -138,7 +138,7 @@
                                 Viejo, California, and has approximately 4,800 employees globally. Learn
                                 more at <fo:inline font-weight="bold">www.microsemi.com</fo:inline>.</fo:block>
                             <fo:block text-align="right" font-size="8.5pt" font-family="{$legal.font.family}">
-                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id"/>
+                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>
                             </fo:block>
                             
                             <!--<xsl:choose>

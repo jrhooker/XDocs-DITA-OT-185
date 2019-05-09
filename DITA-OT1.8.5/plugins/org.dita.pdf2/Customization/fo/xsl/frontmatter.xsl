@@ -167,8 +167,8 @@ See the accompanying license.txt file for applicable licenses.
                             <fo:block text-align="left" font-family="{$body.font.family}"
                                 font-size="10pt">
                                 <xsl:choose>
-                                    <xsl:when test="$pmc_iso[1]/pmc_issue_date">
-                                        <xsl:value-of select="$pmc_iso[1]/pmc_issue_date"/>
+                                    <xsl:when test="$pmc_iso[1]/pmc_issue_date[1]">
+                                        <xsl:value-of select="$pmc_iso[1]/pmc_issue_date[1]"/>
                                     </xsl:when>
                                     <xsl:otherwise>No pmc_issue_date defined.</xsl:otherwise>
                                 </xsl:choose>
@@ -187,7 +187,7 @@ See the accompanying license.txt file for applicable licenses.
                             padding-bottom="2pt">
                             <fo:block text-align="left" font-family="{$body.font.family}"
                                 font-size="10pt">
-                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id"/>
+                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>
                             </fo:block>
                         </fo:table-cell>
                         <fo:table-cell padding-left="2pt" padding-right="2pt" padding-top="2pt"
@@ -1630,11 +1630,11 @@ See the accompanying license.txt file for applicable licenses.
                 space-before="5pt" font-weight="bold" color="#aaaaaa">
                 <xsl:choose>
                     <xsl:when
-                        test="string-length(normalize-space($pmc_iso[1]/pubdate[1])) &gt; 1 or string-length(normalize-space($pmc_iso[1]/pmc_issue_date)) &gt; 1">
+                        test="string-length(normalize-space($pmc_iso[1]/pubdate[1])) &gt; 1 or string-length(normalize-space($pmc_iso[1]/pmc_issue_date[1])) &gt; 1">
 
-                        <xsl:if test="$pmc_iso[1]/pubdate or $pmc_iso[1]/pmc_issue_date">
+                        <xsl:if test="$pmc_iso[1]/pubdate or $pmc_iso[1]/pmc_issue_date[1]">
                             <xsl:value-of select="$pmc_iso[1]/pubdate"/>
-                            <xsl:value-of select="$pmc_iso[1]/pmc_issue_date"/>
+                            <xsl:value-of select="$pmc_iso[1]/pmc_issue_date[1]"/>
                         </xsl:if>
                     </xsl:when>
                     <xsl:otherwise>

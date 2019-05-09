@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509131529161?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509131529161/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="Princeton" id="d1e81" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="topic:1;2:116">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="title:1;3:10">Architecture</title>
+
+  <prolog class="- topic/prolog " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="prolog:1;5:11">
+    <data id="section_d1e81" type="pdf_name" class="- topic/data " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="data:1;6:47"/>
+  </prolog>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="body:1;9:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:1;10:8">The following figure depicts the BSim/HostSim interactions. Using the
+    HostSim library API's, BSim calls into both the Block Layer and the I/O
+    Device Layer in order to communicate with the firmware running on
+    ArchSim.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:2;15:8">The I/O Device Layer handles low-level PCIe configuration and
+    memory-mapped register accesses while the Block Layer handles the issuing
+    of the higher level NVMe commands and associated NVMe command
+    completions.</p>
+
+    <fig id="d1e95" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="fig:1;20:21">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="title:2;21:14">BSim/HostSim Interactions</title>
+
+      <image href="Graphics/BSim%20HostSim%20Interactions.svg" placement="break" width="279" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="image:1;23:91"/>
+    </fig>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:3;26:8">BSim utilizes the ArgTable2 library to manage the command prompt
+    interface. The ArgTable library allows developers to easily add new,
+    parameterized, BSim commands. ArgTable also includes command line editing
+    and command history functionality which simplifies entering complex
+    commands. The ArgTable2 library is freely available under the terms of the
+    GNU Library General Public License (LGPL).</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:4;33:8">When booted, BSim is started it first initializes the I/O Device Layer
+    of the HostSim library by calling <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="cmdname:1;34:48">ioDevLayerInit()</cmdname>.
+    Once the I/O Device Layer has been initialized, and after its own local
+    data structures have been initialized, BSim calls
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="cmdname:2;37:14">connectToArchsimPciePort()</cmdname> to connect to ArchSim. Once
+    a connection to ArchSim has been established, BSim will enumerate the PCIe
+    endpoint presented by the firmware running in ArchSim by calling
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="cmdname:3;40:14">pcieCfgEnum()</cmdname>. After enumeration, BSim calls
+    <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="cmdname:4;41:14">blockDeviceInit()</cmdname> in order to initialize the Block
+    Layer of the HostSim library.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:5;44:8">The Block Layer initialization sequence includes the allocation space
+    for the NVMe administration submission and completion queues, and enabling
+    NVMe operation by setting the NVMe<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="cmdname:5;46:48"> CC.EN</cmdname> bit to '1'.
+    Once enabled, the firmware running on ArchSim is ready to accept NVMe
+    commands. Continuing with the Block Layer initialization, BSim will issue
+    an Identify Controller command to ArchSim. In response to this command,
+    the firmware running on ArchSim will return the controller identify
+    information. BSim will use the controller identify information to
+    determine how many namespaces are supported and issue an Identify
+    Namespace command for each.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:6;55:8">Once the initialization mentioned above has completed, BSim initializes
+    the command parsing interface and is ready to accept user input. At this
+    point, BSim will display the BSim prompt shown below.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="p:7;59:8"><userinput class="+ topic/ph sw-d/userinput " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\BSim_Users_Guide\d1e81.xml" xtrc="userinput:1;59:19">bsim &gt;</userinput></p>
+  </body>
+</topic>

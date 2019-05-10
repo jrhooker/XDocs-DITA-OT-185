@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\switch_management?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/switch_management/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_8c47ac01b8be33f0--19b61840-153a7191a51--7fd7" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:1;13:26">SCSI Enclosure Services (SES) Command</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="body:1;16:32">
+      <note class="- topic/note " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="note:1;20:32">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:1;23:24">This feature will be available in Revision B RTP silicon</p>
+      </note>
+      <section class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="section:1;28:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:2;31:32">MRPC Command ID: 0x1E</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:2;34:24">This command sends the SES control or status message to firmware, and retrieves the status data from firmware.</p>
+         <table id="table_MRPC_ses_Command_Return_Va" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:1;38:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:3;41:35">SES Command Return Values</title>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:1;45:37">
+               <colspec colname="col1" colnum="1" colwidth="238*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:1;51:43"/>
+               <colspec colname="col2" colnum="2" colwidth="762*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:2;57:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:1;60:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:1;63:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:1;67:44">Return Value</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:2;71:44">Description</entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:1;76:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:2;79:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:3;83:44">0x00000000</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:4;87:44">Command Succeed</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:3;91:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:5;95:44">0x00000002</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:6;99:44">Invalid parameter</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:4;103:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:7;107:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:3;110:39">0x0000000B</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:8;115:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:4;118:39">Invalid pointer</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:5;123:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:9;127:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:5;130:39">0x00003002</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:10;135:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:6;138:39">Timeout</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:6;143:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:11;147:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:7;150:39">0x00003003</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:12;155:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:8;158:39">Out of resource</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:7;163:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:13;167:45">0x00064002</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:14;171:45">The handler thread is not idle</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <table id="table_MRPC_SMBUS_Input_Dat" class="- topic/table " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:2;181:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:4;184:32">MRPC SES Command Input Data</title>
+         <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:2;188:34">
+            <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:3;193:40"/>
+            <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:4;198:40"/>
+            <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:5;203:40"/>
+            <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:6;208:40"/>
+            <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:7;213:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:2;216:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:8;219:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:15;223:42">Offset / Byte #</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:16;227:42">0</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:17;231:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:9;234:36">1</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:18;239:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:10;242:37">2</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:19;247:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:11;250:37">3</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:2;256:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:9;259:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:20;263:42">0x0000</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:21;267:42">Sub-Command</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:22;271:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:12;274:37">Page Code</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:23;279:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:13;282:37">Offset_0</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:24;287:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:14;290:37">Offset_1</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:10;295:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:25;299:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:15;302:37">0x0004</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:26;307:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:16;310:37">Size_0 </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:27;315:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:17;318:37">Size_1 </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:28;323:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:18;326:37">Page_Size_0 </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:29;331:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:19;334:37">Page_Size_1 </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:11;339:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:30;343:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:20;346:37">0x0008</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:31;351:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:21;354:37">Data_0</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:32;359:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:22;362:37">Data_1 </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:33;367:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:23;370:37">Data_2 </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:34;375:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:24;378:37">Data_3 </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:12;383:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:35;387:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:25;390:37">0x000C</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:36;395:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:26;398:37"> ...</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:37;403:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:27;406:37"> ...</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:38;411:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:28;414:37"> ...</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:39;419:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:29;422:37"> ...</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:30;431:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:1;435:24">Sub-Command</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:31;440:29">This field provides the following configuration options for the SES command.</p>
+      <table class="- topic/table " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:3;444:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:5;447:32">MRPC SES Sub-Command</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:3;451:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:3;462:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:13;465:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:40;469:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:32;472:37">Sub-Command</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:41;477:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:33;480:37">Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:3;486:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:14;489:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:42;493:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:34;496:37">0</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:43;501:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:35;504:37">Send Diagnostics</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:15;509:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:44;513:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:36;516:37">1</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:45;521:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:37;524:37">Receive Diagnostics</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:16;529:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:46;533:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:38;536:37">2</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:47;541:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:39;544:37">Get Result</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:40;553:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:2;557:24">Page Code</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:41;562:29">This field provides the SES page code.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:42;566:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:3;570:24">Offset</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:43;575:29">The data offset is used when splitting one complete SES message into several parts.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:44;579:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:4;583:24">Size</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:45;588:29">The data length of current message(in unit of byte).</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:46;592:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:5;596:24">Page Size</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:47;601:29">The total data length for a complete SES command, typically equal to the total page size(in unit of byte).</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:48;605:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:6;609:24">Data</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:49;614:29">The Data field is optional. Send Diagnostics command typically will have associated data, and the Receive Diagnostics command typically does not have associated data.</p>
+      <section id="SES_SND_DIAG" class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="section:2;619:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:6;622:32">SEND DIAGNOSTICS</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:50;625:25">The Send Diagnostics command is used to send an SES control page to firmware.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:51;628:25">
+            <table id="SES_SEND_DIAG" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:4;632:35">
+               <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:7;635:38">Send Diagnostics Command Input Data</title>
+               <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:4;639:40">
+                  <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:8;644:46"/>
+                  <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:9;649:46"/>
+                  <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:10;654:47"/>
+                  <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:11;659:47"/>
+                  <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:12;664:47"/>
+                  <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:4;667:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:17;670:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:48;674:48">Offset / Byte #</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:49;678:48">0</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:50;682:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:52;685:43">1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:51;690:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:53;693:43">2</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:52;698:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:54;701:43">3</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:4;707:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:18;710:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:53;714:48">0x0000</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:54;718:48">SUB_CMD_ID(0)</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:55;722:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:55;725:43">PAGE CODE</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:56;730:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:56;733:43">OFFSET_0</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:57;738:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:57;741:43">OFFSET_1</p>
+                        </entry>
+                     </row>
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:19;746:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:58;750:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:58;753:43">0x0004</p>
+                        </entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:59;758:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:59;761:43">SIZE_0</p>
+                        </entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:60;766:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:60;769:43">SIZE_1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:61;774:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:61;777:43">PAGE_SIZE_0 </p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:62;782:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:62;785:43">PAGE_SIZE_1</p>
+                        </entry>
+                     </row>
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:20;790:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:63;794:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:63;797:43">0x0008</p>
+                        </entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:64;802:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:64;805:43">DATA_0</p>
+                        </entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:65;810:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:65;813:43">DATA_1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:66;818:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:66;821:43">DATA_2</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:67;826:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:67;829:43">DATA_3</p>
+                        </entry>
+                     </row>
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:21;834:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:68;838:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:68;841:43">0x000C</p>
+                        </entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:69;846:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:69;849:43"> ...</p>
+                        </entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:70;854:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:70;857:43">... </p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:71;862:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:71;865:43">... </p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:72;870:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:72;873:43">... </p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:73;882:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:7;886:27">SUB_CMD_ID</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:74;890:25">This field should be 0 to perform a Send Diagnostics command.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:75;893:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:8;897:27">Page Code</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:76;901:25">This field provides the SES page code.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:77;904:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:9;908:27">Offset</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:78;912:25">The data offset is used when splitting one complete SES message into several parts.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:79;915:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:10;919:28">Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:80;923:25">The data length of current message(in unit of byte).</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:81;926:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:11;930:28">Page Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:82;934:25">The total data length for a complete SES command, typically equal to the total page size(in unit of byte).</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:83;937:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:12;941:28">Data</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:84;945:25">The SES page data.</p>
+      </section>
+      <section id="SES_RCV_DIAG" class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="section:3;951:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:8;954:32">RECEIVE DIAGNOSTICS</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:85;957:25">The rReceive Diagnostics command is used to send an SES status page to firmware.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:86;960:25">
+            <table id="SES_RECV_DIAG" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:5;964:35">
+               <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:9;967:38">Receive Diagnostics Command Input Data</title>
+               <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:5;971:40">
+                  <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:13;976:47"/>
+                  <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:14;981:47"/>
+                  <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:15;986:47"/>
+                  <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:16;991:47"/>
+                  <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:17;996:47"/>
+                  <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:5;999:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:22;1002:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:73;1006:48">Offset / Byte #</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:74;1010:48">0</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:75;1014:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:87;1017:43">1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:76;1022:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:88;1025:43">2</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:77;1030:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:89;1033:43">3</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:5;1039:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:23;1042:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:78;1046:48">0x0000</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:79;1050:48">SUB_CMD_ID(1)</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:80;1054:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:90;1057:43">PAGE CODE</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:81;1062:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:91;1065:43">OFFSET_0</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:82;1070:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:92;1073:43">OFFSET_1</p>
+                        </entry>
+                     </row>
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:24;1078:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:83;1082:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:93;1085:43">0x0004</p>
+                        </entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:84;1090:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:94;1093:43">SIZE_0</p>
+                        </entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:85;1098:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:95;1101:43">SIZE_1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:86;1106:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:96;1109:43">PAGE_SIZE_0 </p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:87;1114:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:97;1117:43">PAGE_SIZE_1</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:98;1126:25">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:13;1130:28">SUB_CMD_ID</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:99;1134:25">This field should be 1 to perform a Receive Diagnostics command.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:100;1137:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:14;1141:28">Page Code</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:101;1145:26">This field provides the SES page code.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:102;1148:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:15;1152:28">Offset</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:103;1156:26">The data offset is used when splitting one complete SES message into several parts.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:104;1159:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:16;1163:28">Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:105;1167:26">The data length of current message(in unit of byte).</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:106;1170:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:17;1174:28">Page Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:107;1178:26">The total data length for a complete SES command, typically equal to the total page size(in unit of byte).</p>
+      </section>
+      <section id="SES_GET_RES" class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="section:4;1184:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:10;1187:33">Get Result</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:108;1190:26">The Get Result command is used to get the result after a Send Diagnostics or Receive Diagnostics command.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:109;1193:26">
+            <table id="SES_GET_RESULT" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:6;1197:35">
+               <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:11;1200:39">Get Result Command Input Data</title>
+               <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:6;1204:40">
+                  <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:18;1209:47"/>
+                  <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:19;1214:47"/>
+                  <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:20;1219:47"/>
+                  <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:21;1224:47"/>
+                  <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:22;1229:47"/>
+                  <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:6;1232:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:25;1235:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:88;1239:48">Offset / Byte #</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:89;1243:48">0</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:90;1247:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:110;1250:44">1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:91;1255:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:111;1258:44">2</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:92;1263:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:112;1266:44">3</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:6;1272:41">
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:26;1275:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:93;1279:48">0x0000</entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:94;1283:48">SUB_CMD_ID(2)</entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:95;1287:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:113;1290:44">PAGE CODE</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:96;1295:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:114;1298:44">OFFSET_0</p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:97;1303:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:115;1306:44">OFFSET_1</p>
+                        </entry>
+                     </row>
+                     <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:27;1311:41">
+                        <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:98;1315:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:116;1318:44">0x0004</p>
+                        </entry>
+                        <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:99;1323:48">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:117;1326:44">SIZE_0</p>
+                        </entry>
+                        <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:100;1331:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:118;1334:44">SIZE_1</p>
+                        </entry>
+                        <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:101;1339:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:119;1342:44">PAGE_SIZE_0 </p>
+                        </entry>
+                        <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:102;1347:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:120;1350:44">PAGE_SIZE_1</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:121;1359:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:18;1363:28">SUB_CMD_ID</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:122;1367:26">This field should be 2 to perform a Get Result command.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:123;1370:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:19;1374:28">Page Code</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:124;1378:26">This field provides the SES page code.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:125;1381:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:20;1385:28">Offset</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:126;1389:26">The data offset is used when the command results are split into several parts. The data offset should be continuous with previous command if the data is retrieved in several parts.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:127;1392:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:21;1396:28">Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:128;1400:26">The data length that current command will retrieve(in unit of byte).</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:129;1403:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:22;1407:28">Page Size</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:130;1411:26">The total data length that should be retrieved by host(in unit of byte).</p>
+         <table id="table_get_result_output" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:7;1415:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:12;1418:36">Get Result Command Output Data</title>
+            <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:7;1422:37">
+               <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:23;1427:44"/>
+               <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:24;1432:44"/>
+               <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:25;1437:44"/>
+               <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:26;1442:44"/>
+               <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="colspec:27;1447:44"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:7;1450:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:28;1453:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:103;1457:46">Offset / Byte #</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:104;1461:46">0</entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:105;1465:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:131;1468:41">1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:106;1473:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:132;1476:41">2</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:107;1481:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:133;1484:41">3</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:7;1490:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:29;1493:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:108;1497:46">0x0000</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:109;1501:46">STATUS_0</entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:110;1505:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:134;1508:41">STATUS_1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:111;1513:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:135;1516:41">OUTPUT_LEN_0</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:112;1521:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:136;1524:41">OUTPUT_LEN_1</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:30;1529:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:113;1533:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:137;1536:41">0x0004</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:114;1541:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:138;1544:41">OFFSET_0</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:115;1549:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:139;1552:41">OFFSET_1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:116;1557:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:140;1560:41">RESERVED</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:117;1565:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:141;1568:41">RESERVED</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:31;1573:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:118;1577:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:142;1580:41">0x0008</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:119;1585:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:143;1588:41">SENSE_KEY_0</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:120;1593:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:144;1596:41">SENSE_KEY_1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:121;1601:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:145;1604:41">SENSE_KEY_2</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:122;1609:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:146;1612:41">SENSE_KEY_3</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:32;1617:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:123;1621:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:147;1624:41">0x000C</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:124;1629:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:148;1632:41">ADD_SENSE_CODE</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:125;1637:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:149;1640:41">ADD_SENSE_CODE_QUALIFIER</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:126;1645:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:150;1648:41"> RESERVED</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:127;1653:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:151;1656:41">RESERVED</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:33;1661:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:128;1665:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:152;1668:41">0x0010</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:129;1673:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:153;1676:41"> DATA_0</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:130;1681:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:154;1684:41"> DATA_1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:131;1689:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:155;1692:41"> DATA_2</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:132;1697:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:156;1700:41"> DATA_3</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:34;1705:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:133;1709:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:157;1712:41">0x0014</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:134;1717:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:158;1720:41"> ...</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:135;1725:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:159;1728:41"> ...</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:136;1733:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:160;1736:41"> ...</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:137;1741:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:161;1744:41"> ...</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:162;1752:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:23;1756:28">STATUS</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:163;1760:26">The command status.</p>
+         <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="table:8;1763:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="title:13;1766:36">STATUS of Get Result Sub-Command</title>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tgroup:8;1770:37"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/thead[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/thead[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[4]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="thead:8;1785:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:35;1788:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:138;1792:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:164;1795:41">STATUS</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:139;1800:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:165;1803:41"> Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="tbody:8;1809:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:36;1812:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:140;1816:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:166;1819:41">0x0</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:141;1824:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:167;1827:41">Idle</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:37;1832:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:142;1836:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:168;1839:41">0x1</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:143;1844:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:169;1847:41">Wait non-completed message </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:38;1852:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:144;1856:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:170;1859:41">0x2</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:145;1864:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:171;1867:41">Command is being executed </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:39;1872:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:146;1876:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:172;1879:41">0x3</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:147;1884:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:173;1887:41">Command Done</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="row:40;1892:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:148;1896:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:174;1899:41">0xFF</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="entry:149;1904:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:175;1907:41">Command Error</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:176;1915:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:24;1919:28">OUTPUT_LEN</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:177;1923:26">The output data length.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:178;1926:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:25;1930:28">OFFSET</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:179;1934:26">The data offset from which the data is retrieved.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:180;1937:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:26;1941:28">SENSE_KEY</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:181;1945:26">This field indicates generic information describing a reported condition.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:182;1948:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:27;1952:28">ADD_SENSE_CODE</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:183;1956:26">This field indicates further information related to the condition reported in the SENSE KEY field.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:184;1959:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:28;1963:28">ADD_SENSE_CODE_QUALIFIER</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:185;1967:26">This field indicates detailed information related to the condition reported in the ADDITIONAL SENSE CODE field.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:186;1970:26">
+            <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:29;1974:28">DATA</b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:187;1978:26">The retrieved data.</p>
+      </section>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:188;1983:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="b:30;1987:25">EXAMPLE</b>
+      </p>
+      <ol class="- topic/ol " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="ol:1;1992:30">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="li:1;1995:26">Send Diagnostics for SES Enclosure Control page<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:189;1997:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:1;2000:42">Write address 0 with data: 0x00000200 0x00880088 0x88005502 0x00000000 0x20020080 0x00000080 0x00020080 0x00020000 0x00000000 0x20020000 0x00000000</cmdname>
+            </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:190;2004:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:2;2007:42">Write address 2048 with data: 30</cmdname>
+            </p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="li:2;2012:26">Receive Diagnostics for SES Configuration page<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:191;2014:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:3;2017:42">Write address 0 with data: 0x00000101 0x00020000</cmdname>
+            </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:192;2021:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:4;2024:42">Write address 2048 with data: 30</cmdname>
+            </p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="li:3;2029:26">Get Result for SES Configuration page<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:193;2031:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:5;2034:42">Write address 0 with data: 0x00000102 0x00580058</cmdname>
+            </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:194;2038:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:6;2041:42">Write address 2048 with data: 30</cmdname>
+            </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:195;2045:29">
+               <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="cmdname:7;2048:42">Read address 1024 for 88 DWORD data</cmdname>
+            </p>
+         </li>
+      </ol>
+      <note class="- topic/note " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="note:2;2056:26">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_30_ses.xml" xtrc="p:196;2059:26">After the send diagnostics and receive diagnostics operation, Switchtec sends an asynchronous notification to the requester.</p>
+      </note>
+   </body>
+</topic>

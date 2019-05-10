@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="SYNEP_SYN_TIME" base="base" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="topic:5;167:26">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="title:6;170:29">Synthetic Time</title>
+      <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="body:5;173:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:14;176:25">
+            <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="simpletable:2;179:47">
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="strow:3;182:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="stentry:5;185:45">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="b:5;188:36">Field Size</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="stentry:6;192:45">16 b</stentry>
+               </strow>
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="strow:4;196:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="stentry:7;199:45">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="b:6;202:36">Value Range</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="stentry:8;206:45">0x0000 - 0xFFFF</stentry>
+               </strow>
+            </simpletable>This field Specifies the Synthetic Time in ms.</p>
+      </body>
+   </topic>

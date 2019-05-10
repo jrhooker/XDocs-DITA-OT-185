@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\switch_management?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/switch_management/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_e85274bf0623843b--7f0a658e-15c3e8e0481--7dc3" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="title:1;14:26">MRPC GAS Write</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:1;20:21">MRPC Command ID: 0x87.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:2;23:21">This command is used to write the GAS, except for MRPC gas section, from remote switch. If the request write length is more than 1K, Switchtec firmware will strip it as 1K by default. Please use MRPC command “Set MRPC switch Target” to change the destination switch to execute this command on different switches. Although this command can be used to write the GAS space for local switch, but it’s not the recommended way as fabric manager can write the GAS directly.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="table:1;26:29">
+         <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="tgroup:1;30:34">
+            <colspec colname="col1" colnum="1" colwidth="10*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="colspec:1;36:40"/>
+            <colspec colname="col2" colnum="2" colwidth="23*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="colspec:2;42:40"/>
+            <colspec colname="col3" colnum="3" colwidth="23*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="colspec:3;48:40"/>
+            <colspec colname="col4" colnum="4" colwidth="44*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="colspec:4;54:40"/>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="tbody:1;57:35">
+               <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="row:1;61:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:1;65:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:3;68:36">Offset</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:2;73:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:4;76:36">Input Parameters</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:3;81:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:5;84:36">Output Parameter</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:4;89:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:6;92:36">Returned Value</p>
+                  </entry>
+               </row>
+               <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="row:2;98:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:5;102:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:7;105:36">DW0</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:6;110:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:8;113:36">GAS offset</p>
+                  </entry>
+                  <entry colname="col3" morerows="3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:7;119:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:9;122:36">NA</p>
+                  </entry>
+                  <entry colname="col4" morerows="3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:8;128:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:10;131:37">PMC_SUCCESS if command is executed successfully</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:11;134:37">PMCFW_ERR_INVALID_PARAMETERS if access the MRPC section</p>
+                  </entry>
+               </row>
+               <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="row:3;140:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:9;144:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:12;147:37">DW1</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:10;152:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:13;155:37">Write DWord Length</p>
+                  </entry>
+               </row>
+               <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="row:4;161:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:11;165:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:14;168:37">DW2 byte 0</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:15;171:37">Bit 0 - 3</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:12;176:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:16;179:37">Byte enable mask</p>
+                  </entry>
+               </row>
+               <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="row:5;185:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:13;189:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:17;192:37">DW3…</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="entry:14;197:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_gas_write.xml" xtrc="p:18;200:37">Write data Dwords</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

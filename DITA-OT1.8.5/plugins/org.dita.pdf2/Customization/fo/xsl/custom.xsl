@@ -207,8 +207,7 @@
     </xsl:template>
 
     <xsl:template match="*[contains(@class, ' m-software-d/instances ')]">
-        <fo:block>
-            <fo:inline xsl:use-attribute-sets="b">[Start:Stop] </fo:inline>
+        <fo:block>            
             <xsl:apply-templates/>
         </fo:block>
     </xsl:template>

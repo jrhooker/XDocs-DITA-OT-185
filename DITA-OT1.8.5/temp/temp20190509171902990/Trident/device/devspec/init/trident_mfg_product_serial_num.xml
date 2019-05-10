@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\init?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/init/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="PRODUCT_SERIAL_NUM" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="title:1;14:26">Product Serial Num</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="body:1;17:24">
+      <simpletable audience="MSCCInternal" class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="simpletable:1;21:41">
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="strow:1;24:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="stentry:1;27:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="b:1;30:30">Field Size</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="stentry:2;34:39">20 B</stentry>
+         </strow>
+      </simpletable>
+      <table class="- topic/table " id="Default_Manufacturer_Identification_Info_xibnybo8c" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="table:1;40:29">
+         <tgroup class="- topic/tgroup " cols="3" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="tgroup:1;44:34">
+            <colspec colname="col1" colnum="1" class="- topic/colspec " colwidth="25*" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="colspec:1;50:40"/>
+            <colspec colname="col2" colnum="2" class="- topic/colspec " colwidth="26*" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="colspec:2;56:40"/>
+            <colspec colname="col3" colnum="3" class="- topic/colspec " colwidth="49*" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="colspec:3;62:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="thead:1;65:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="row:1;68:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:1;72:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:1;75:36">Manufacturer Information Field</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:2;80:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:2;83:36">Default Value hard coded in firmware</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:3;88:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:3;91:36">Notes</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="tbody:1;97:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="row:2;100:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:4;104:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:4;107:36">Product Serial Number</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:5;112:41">0x00</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="entry:6;116:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:5;119:36">None</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\init\trident_mfg_product_serial_num.xml" xtrc="p:6;127:21">The Product Serial Number field defines IPMI FRU's product serial number in configure file.</p>
+   </body>
+</topic>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GPIO_LED_BLINK_PERIOD" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="topic:4;216:26">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="title:5;219:29">Blink Period</title>
+      <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="body:4;222:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="p:10;225:25">
+            <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="simpletable:4;228:47">
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="strow:8;231:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="stentry:15;234:46">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="b:5;237:36">Field Size</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="stentry:16;241:46">8 b</stentry>
+               </strow>
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="strow:9;245:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="stentry:17;248:46">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="b:6;251:36">Value Range</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="stentry:18;255:46">0 - 0xFF</stentry>
+               </strow>
+            </simpletable>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_config_gpio_led.xml" xtrc="p:11;261:25">This field provides the system tick count of an entire blink cycle where each tick takes 10 ms.</p>
+      </body>
+   </topic>

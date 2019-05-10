@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\error_handling?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/error_handling/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" id="LOG_SETTINGS" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="topic:1;10:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="title:1;13:26">Firmware Logging Settings</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="body:1;16:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:1;19:21">The Log Setting Block allows users to define a separate log filter severity level for each firmware module and set the log entry count for firmware log module. By default, the entries are saved into an internal RAM. They can also be saved into external RAM by defining the address of the external RAM. A separate log filter level can be set for up to 16 modules, the other modules use the global filter level. If the Flash Saving Enable bit is set as "1", the log entries are saved into Flash when a fatal error happens.</p>
+      <table audience="PMCInternal" id="Log_Setting_Block_6iibnybo8h" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="table:1;24:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="title:2;27:32">Log Settings Block</title>
+         <tgroup cols="11" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="tgroup:1;31:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[10]/entry[4] has no in-scope colspec definition for the colname reference 'col12' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[11]/entry[3] has no in-scope colspec definition for the colname reference 'col12' CALS-T10R4A?>
+            <colspec colname="col1" colnum="1" align="center" colwidth="85*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:1;40:40"/>
+            <colspec colname="col2" colnum="2" align="center" colwidth="91*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:2;47:40"/>
+            <colspec colname="col3" colnum="3" align="center" colwidth="89*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:3;54:40"/>
+            <colspec colname="col4" colnum="4" align="center" colwidth="89*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:4;61:40"/>
+            <colspec colname="col5" colnum="5" align="center" colwidth="79*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:5;68:40"/>
+            <colspec colname="col6" colnum="6" align="center" colwidth="79*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:6;75:40"/>
+            <colspec colname="col7" colnum="7" align="center" colwidth="79*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:7;82:40"/>
+            <colspec colname="col8" colnum="8" align="center" colwidth="79*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:8;89:40"/>
+            <colspec colname="col9" colnum="9" align="center" colwidth="79*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:9;96:40"/>
+            <colspec colname="col10" colnum="10" align="center" colwidth="89*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:10;103:41"/>
+            <colspec colname="col11" colnum="11" colwidth="162*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="colspec:11;109:41"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="thead:1;112:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:1;115:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:1;119:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:2;122:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:1;126:39">Byte \ Bit</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:2;132:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:3;135:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:2;139:39">7</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:3;145:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:4;148:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:3;152:39">6</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:4;158:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:5;161:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:4;165:39">5</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:5;171:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:6;174:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:5;178:39">4</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:6;184:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:7;187:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:6;191:39">3</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:7;197:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:8;200:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:7;204:39">2</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:8;210:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:9;213:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:8;217:39">1</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:9;223:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:10;226:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:9;230:39">0</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:10;236:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:11;239:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:10;243:40">Default</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:11;249:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:12;252:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:11;256:40">Value Range</b> 
+                     </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="tbody:1;263:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:2;266:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:12;270:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:13;273:37">0x00</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:13;278:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:14;281:37">Reserved</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:14;286:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:15;289:37">LOG Runtime Saving Device</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:15;294:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:16;297:37">Flash Saving Enable</p>
+                  </entry>
+                  <entry colname="col5" namest="col5" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:16;304:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:17;307:37">LOG Filter Count</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:17;312:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:18;315:37">0x04</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:18;320:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:19;323:37">Bit Field</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:3;328:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:19;332:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:20;335:37">0x01</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:20;342:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:21;345:37">LOG Entry Count [19:16]</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:21;352:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:22;355:37">LOG Global Filter Level</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:22;360:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:23;363:37">0x02</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:23;368:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:24;371:37">Filter Level: 0~5</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:4;376:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:24;380:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:25;383:37">0x02</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:25;390:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:26;393:37">LOG Entry Count [15:8]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:26;398:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:27;401:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:27;407:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:28;410:37">0~65535</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:5;415:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:28;419:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:29;422:37">0x03</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:29;429:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:30;432:37">LOG Entry Count [7:0]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:30;437:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:31;440:37">0x28</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:6;445:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:31;449:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:32;452:37">0x04 - 0x05</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:32;459:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:33;462:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:33;467:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:34;470:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:34;475:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:7;479:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:35;483:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:35;486:37">0x06</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:36;493:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:36;496:37">External RAM LOG Saving Base Address [31:24]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:37;501:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:37;504:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" morerows="3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:38;510:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:38;513:37">Address in External RAM</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:8;518:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:39;522:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:39;525:37">0x07</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:40;532:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:40;535:37">External RAM LOG Saving Base Address [23:16]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:41;540:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:41;543:37">0x00</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:9;548:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:42;552:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:42;555:37">0x08</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:43;562:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:43;565:37">External RAM LOG Saving Base Address [15:8]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:44;570:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:44;573:37">0x00</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:10;578:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:45;582:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:45;585:37">0x09</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:46;592:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:46;595:37">External RAM LOG Saving Base Address [7:0]</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:47;600:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:47;603:37">0x00</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:11;608:35">
+                  <entry colname="col1" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:48;613:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:48;616:37">LOG Filter 0</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:49;623:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:49;626:37">LOG Filter Module ID</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:50;631:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:50;634:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:51;639:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:12;643:35">
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:52;649:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:51;652:37">LOG Filter Level</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:53;657:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:52;660:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:54;665:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:13;669:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:55;673:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:53;676:37">LOG Filter 1</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:56;683:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:54;686:37">LOG Filter 1, same as LOG Filter 0</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:57;691:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:55;694:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:58;699:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:14;703:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:59;707:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:56;710:37">LOG Filter N(N&lt; 16)</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:60;717:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:57;720:37">LOG Filter N, same as LOG Filter 0</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:61;725:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:58;728:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:62;733:43"/>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:59;740:22">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="b:12;743:25">Log Severity Level Definition</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="p:60;747:22">Log Severity Level(0x0 ~ 0x5) is defined as below table. Setting a module's log severity level will make the events with higher log severity level logged. For example, if a module with filter severity level 3(medium), then the events with severity level 1(highest), 2(high), 3(medium) will be logged into RAM.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="table:2;750:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="title:3;753:32">Log Severity Level</title>
+         <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="tgroup:2;757:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[1]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[2]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[3]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[4]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[5]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[6]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[6]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[6]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[2]/tgroup[1]/tbody[1]/row[6]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="thead:2;788:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:15;791:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:63;795:42">Severity Level</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:64;799:42">Description</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:65;803:42">Logging</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:66;807:42">Examples</entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="tbody:2;812:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:16;815:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:67;819:42">0x0</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:68;823:42">Disabled</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:69;827:43"/>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:70;831:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:17;835:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:71;839:42">0x1, highest [Critical Error]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:72;843:42">Fatal errors.</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:73;847:42">Logged to RAM.</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:74;851:42">Memory corruption, watchdog timeout, FW assertion, SPI multi-bits ECC errors and CPU related exceptions.</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:18;855:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:75;859:42">0x2, high [Error / Critical Code Path]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:76;863:42">Critical code path.</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:77;867:42">Logged to RAM</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:78;871:42">Unexpected or critical code path in PSC module or PTD module</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:19;875:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:79;879:42">0x3,medium [Warning]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:80;883:42">Important events.</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:81;887:42">Logged to RAM</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:82;891:42">Fundamental reset</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:20;895:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:83;899:42">0x4, low [Info]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:84;903:42">Normal events.</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:85;907:42">Logged to RAM</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:86;911:42">Read or write CSR</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="row:21;915:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:87;919:42">0x5, lowest [Debug]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:88;923:42">Low level debug events (warning, this may fill the log ram buffer quickly)</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:89;927:42">Logged to RAM</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_log_setting_block.xml" xtrc="entry:90;931:43"/>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\switch_management?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/switch_management/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_6dff3e5cfbe16166--2c43a5c4-150c83a428b--7e26" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="title:1;13:34">GAS TWI Slave Access<ph status="deleted" rev="deltaxml-delete" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ph:1;13:97"> Enhance Mode</ph>
+   </title>
+   <body class="- topic/body " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="body:1;18:29">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:1;21:21">This section describes how a user could access the GAS section through TWI interface .</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:2;24:21">It defines a set of SMBUS compatible commands to allow more flexible access to GAS section.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:3;27:21">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:1;31:24">Get Capability (0xE0)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:4;35:21">A Get Capability request to the Switchtec device gets GAS TWI features supported by the device. The command format is as follows:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:5;38:21">START | ADDR(7bit)|W(0) | Command (0xE0) | START | ADDR(7bit)|R(1) |Capability Byte | PEC (optional) |STOP</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="table:1;41:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="title:2;44:32">Capability Byte Definition</title>
+         <tgroup cols="8" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="tgroup:1;48:34">
+            <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:1;53:40"/>
+            <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:2;58:40"/>
+            <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:3;63:40"/>
+            <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:4;68:40"/>
+            <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:5;73:40"/>
+            <colspec colname="col6" colnum="6" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:6;78:40"/>
+            <colspec colname="col7" colnum="7" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:7;83:40"/>
+            <colspec colname="col8" colnum="8" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:8;88:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="thead:1;91:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:1;94:34">
+                  <entry colname="col1" namest="col1" nameend="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:1;101:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:6;104:36">Capability Byte Definition</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:2;109:34">
+                  <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:2;114:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:7;117:36"> Bit 7</p>
+                  </entry>
+                  <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:3;123:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:8;126:36">Bit 6</p>
+                  </entry>
+                  <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:4;132:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:9;135:36">Bit 5</p>
+                  </entry>
+                  <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:5;141:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:10;144:37">Bit 4</p>
+                  </entry>
+                  <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:6;150:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:11;153:37">Bit 3</p>
+                  </entry>
+                  <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:7;159:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:12;162:37">Bit 2</p>
+                  </entry>
+                  <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:8;168:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:13;171:37">Bit 1</p>
+                  </entry>
+                  <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:9;177:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:14;180:37"> Bit 0</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="tbody:1;186:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:3;189:34">
+                  <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:10;194:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:15;197:37"> Valid</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:11;205:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:16;208:37">Reserved</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:12;216:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:17;219:37">Version</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:1;227:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:1;230:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:18;233:28">Valid - gas twi supported</p>
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:2;236:29">
+               <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:2;239:32">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:19;242:34">1: Capability Byte is valid (Default).</p>
+               </li>
+            </ul>
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:3;247:29">
+               <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:3;250:32">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:20;253:34">0: Capability Byte is invalid.</p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:4;260:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:4;263:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:21;266:28">Version - GAS TWI feature version</p>
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:5;269:29">
+               <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:5;272:32">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:22;275:34">001: Current version.</p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:23;282:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:2;286:24">GAS Read (0xE9)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:24;290:22">A GAS read request to the Switchtec device reads the GAS sections on specified offset. The command format is as follows:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:25;293:22">START | ADDR(7bit)|W(0) | Command (0xE9) | Byte Count (5) | Offset (4 bytes) | Read Length (N) | START | ADDR(7bit)|R(1) | Data Read (N bytes) | Status Byte | PEC (optional) | STOP</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:6;296:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:6;299:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:26;302:28"> Offset must be 4 bytes, MSB first.</p>
+         </li>
+      </ul>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:7;307:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:7;310:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:27;313:28"> The maximum one time read data count (N) is 26 (Write byte count plus read byte count must be less or equal to 32).</p>
+         </li>
+      </ul>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:8;318:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:8;321:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:28;324:28"> The PEC calculation includes data from the very beginning (Slave Address Wr) to the data end before PEC byte.</p>
+         </li>
+      </ul>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:29;329:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:3;333:24">GAS Write (0xEA)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:30;337:22">A GAS write request to the Switchtec device writes data to specified offset. The command format is as follows:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:31;340:22">START | ADDR(7bit)|W(0) | Command (0xEA) | Byte Count (M) | Tag | Offset (4 bytes) | Data (M-5 bytes) | PEC (optional) | STOP</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:9;343:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:9;346:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:32;349:28"> Offset must be 4 bytes, MSB first.</p>
+         </li>
+      </ul>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:10;354:24">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:10;357:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:33;360:28"> Tag is assigned by the master for status query (0xE2 command). 0x00 is reserved.</p>
+         </li>
+      </ul>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="ul:11;365:24">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="li:11;368:27">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:34;371:28"> The maximum M is 32, so the maximum one time write data byte count is 27.</p>
+         </li>
+      </ul>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:35;376:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:4;380:24">GAS Get Write Result (0xE2)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:36;384:22">Switchtec supports a mechanism for the user to get the GAS write result. The command format is as follows:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:37;387:22">START | ADDR(7bit)|W(0) | Command (0xE2) | START | ADDR(7bit)|R(1) | Tag | Status Byte | PEC (optional) | STOP</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:38;390:22">The tag is assigned by master in write operation (Command 0xEA). The status byte indicates the result of the write command with the same tag.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:39;393:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:5;397:24">GAS TWI Access Status Definition</b>
+      </p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="table:2;401:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="title:3;404:32">GAS TWI ACCESS Status Definition</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="tgroup:2;408:34">
+            <colspec colname="col1" colnum="1" colwidth="238*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:9;414:40"/>
+            <colspec colname="col2" colnum="2" colwidth="762*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="colspec:10;420:41"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="thead:2;423:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:4;426:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:13;430:42">RETURN_VALUE</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:14;434:42">Description</entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="tbody:2;439:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:5;442:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:15;446:42">0x00</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:16;450:42">Success</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:6;454:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:17;458:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:40;461:37">0x01</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:18;466:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:41;469:37">Access permission denied</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:7;474:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:19;478:42">0x02</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:20;482:42">Data transmit exceeds command requirement</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:8;486:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:21;490:42">0x05</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:22;494:42">Read/Write data length request exceeds maximum allow number</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:9;498:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:23;502:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:42;505:37">0x06</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:24;510:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:43;513:37">Gas access overflow</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:10;518:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:25;522:42">0x07</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:26;526:42">Command unknown</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:11;530:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:27;534:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:44;537:37">0x09</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:28;542:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:45;545:37">Data received format error</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="row:12;550:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:29;554:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:46;557:37">0x20</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="entry:30;562:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:47;565:37">Other error</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:48;573:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="b:6;577:24">PEC Calculation</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_gas_twi_slv_access_enhance_mode.xml" xtrc="p:49;581:22">The PEC calculation includes all bytes in the transmission, including address, command and data. The PEC calculation does not include ACK, NACK, START, STOP nor Repeated START bits. This means that the PEC is computed over the entire message from the first START condition.</p>
+   </body>
+</topic>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\stack?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/stack/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="PMON_SETTINGS" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="title:1;14:26">Performance Counters</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:1;20:21">There are 64 performance counters per Switchtec stack (x16). This means the counters can be flexibly assigned to ports within a stack (e.g. 64 counters per stack, stack contains 8 ports, it is possible to assign 1 counter for 7 of the ports and 57 counters for 1 port). A single TLP counter can also be configured to count events on multiple ports in the stack (e.g. Count malformed TLPs on ports 0,2,4,6). Each counter can be triggered via a TLP mask which can contain one or more TLP events. </p>
+      <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="fig:1;23:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="title:2;26:32">Performance Counter configuration in ChipLink</title>
+         <image href="graphics/trident_stack_perf_counters.png" width="5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="image:1;32:33"/>
+      </fig>
+      <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="simpletable:1;36:41">
+         <sthead class="- topic/sthead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="sthead:1;39:34">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:1;42:39">Field</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:2;45:39">Description</stentry>
+         </sthead>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="strow:1;49:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:3;52:39">Counter Number</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:4;55:39">There are up to 64 counters per stack, this field defines the counter number in the list of 64 counters. These numbers are also used in the Switchtec user space utility to report counter results.</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="strow:2;59:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:5;62:39">Source Port</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:6;65:39">Check the ports that counting should be performed on. Multiple ports can be selected for a given counter which will count any time any one of the ports triggers the counter mask criteria.</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="strow:3;69:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:7;72:39">Event Mask</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:8;75:39">A large number of TLPs can be used as a trigger for the counters. More details of each TLP type are covered in . Multiple events can be selected such that triggering any one of the list of events will cause the counter to increment.</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="strow:4;79:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:9;82:39">Count Egress</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:10;85:40">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:2;88:30">This enables egress counting of P, NP, CPL TLPs. Since egress packets do not enter the performance monitor, the performance counters do not apply to egress traffic.</p>
+            </stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="strow:5;93:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:11;96:40">Threshold</stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="stentry:12;99:40">This field is used to define a water mark where counting begins and can be used for hysteresis. (E.g. set this to 100 to ignore counts below 100). Once a threshold is reached, the counter will report the number of counting events as normal.</stentry>
+         </strow>
+      </simpletable>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="section:1;104:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="title:3;107:32">TLP Types which can be counted</title>
+         <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="table:1;110:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="title:4;113:35">Event Mask Triggers</title>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="tgroup:1;117:37">
+               <colspec colname="col1" colnum="1" colwidth="333*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="colspec:1;123:43"/>
+               <colspec colname="col2" colnum="2" colwidth="333*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="colspec:2;129:43"/>
+               <colspec colname="col3" colnum="3" colwidth="334*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="colspec:3;135:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="thead:1;138:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:1;141:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:1;145:44">Synchronous Errors</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:2;149:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:3;152:39">Asychronous Errors</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:3;157:44">Non-Error Events</entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="tbody:1;162:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:2;165:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:4;169:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:4;172:39">Unsupported Request Received Indication</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:5;177:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:5;180:39">Malformed TLP Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:6;185:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:6;188:39">NAK Received</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:3;193:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:7;197:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:7;200:39">ECRC Error</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:8;205:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:8;208:39">Receiver Overflow Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:9;213:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:9;216:39">Completion TLP</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:4;221:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:10;225:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:10;228:40">Completer Abort Received Indication</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:11;233:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:11;236:40">Surprise Down Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:12;241:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:12;244:40">Posted TLP</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:5;249:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:13;253:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:13;256:40">Poisoned TLP Error</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:14;261:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:14;264:40">Data Link Protocol Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:15;269:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:15;272:40">Non-Posted TLP</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:6;277:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:16;281:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:16;284:40">Receive Fatal Error Message</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:17;289:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:17;292:40">Header Log Overflow Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:18;297:45">
+                        <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:18;301:40">Rule Search Table Hit</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:7;306:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:19;310:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:19;313:40">Receive Non-Fatal Error Message</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:20;318:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:20;321:40">Uncorrectable Internal Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:21;326:46"/>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:8;330:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:22;334:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:21;337:40">Receive Correctable Error Message</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:23;342:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:22;345:40">Replay Timer Timeout Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:24;350:46"/>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:9;354:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:25;358:46"/>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:26;362:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:23;365:40">Replay Number Rollover Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:27;370:46"/>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:10;374:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:28;378:46"/>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:29;382:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:24;385:40">Bad DLLP Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:30;390:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:25;393:41"/>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:11;398:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:31;402:46"/>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:32;406:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:26;409:40">Bad TLP Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:33;414:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:27;417:41"/>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="row:12;422:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:34;426:46"/>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:35;430:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:28;433:40">Receiver Error</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="entry:36;438:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\stack\trident_stack_perf_counters.xml" xtrc="p:29;441:41"/>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

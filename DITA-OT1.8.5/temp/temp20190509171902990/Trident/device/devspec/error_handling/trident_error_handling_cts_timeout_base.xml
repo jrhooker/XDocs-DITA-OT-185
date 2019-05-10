@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\error_handling?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/error_handling/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="CTS_TIMEOUT_BASE" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="title:1;14:26">CTS Completion Timeout Base</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="body:1;17:24">
+      <simpletable id="CTS_TIMEOUT_BASE" class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="simpletable:1;21:41">
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="strow:1;24:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="stentry:1;27:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="b:1;30:30">Field Size</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="stentry:2;34:39">3 Bits</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="strow:2;38:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="stentry:3;41:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="b:2;44:30">Value Range</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="stentry:4;48:39">0x00 - 0x5</stentry>
+         </strow>
+      </simpletable>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:1;53:21">This field indicates the Completion Timeout Value Base. The value can be decoded as:</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="ul:1;56:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:1;59:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:2;62:27"> 0x0 - 2.048µs</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:2;66:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:3;69:27"> 0x1 - 8.192µs</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:3;73:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:4;76:27"> 0x2 - 32.768µs</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:4;80:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:5;83:27"> 0x3 - 131.072µs</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:5;87:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:6;90:27"> 0x4 - 1048.576 us</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="li:6;94:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:7;97:27"> 0x5 - 2097.152 us</p>
+         </li>
+      </ul>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:8;102:21">
+         <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="note:1;105:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts_timeout_base.xml" xtrc="p:9;108:27">Microsemi recommends a MINIMUM CTS timeout (CTS Completion Timeout Base * CTS Completion Timeout Multiple) to be 7ms or higher in order to satisfy common industry host timeouts.</p>
+         </note>
+      </p>
+   </body>
+</topic>

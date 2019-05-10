@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/COMMON/Appnotes/Layout_Guide/ab_sas4_pcie4/?><?path2project ..\..\..\..\out\diffed\pdf\?><?path2project-uri ../../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_53c5f622dca9f33c-3c6c6e68-15dc09bf8c4--7f8d" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="title:1;14:26">General Requirements</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:1;20:21">The following checklists covers general routing guidelines that apply to all interfaces not explicitly described elsewhere in this document.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="table:1;23:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="title:2;26:32">General routing checklist</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="tgroup:1;30:34">
+            <colspec colname="col1" colnum="1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="colspec:1;36:40"/>
+            <colspec colname="col2" colnum="2" colwidth="6.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="colspec:2;42:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="thead:1;45:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:1;48:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:1;52:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:2;55:36"> Check</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:2;60:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:3;63:36">Guideline </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="tbody:1;69:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:2;72:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:3;76:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:4;79:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:4;84:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:5;87:36"> Routed using 50-ohm single-ended micro-strip or strip-line trace geometries</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:3;92:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:5;96:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:6;99:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:6;104:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:7;107:36"> Minimize the number of vias and trace stubs</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:4;112:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:7;116:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:8;119:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:8;124:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:9;127:36"> Do not route over voids or anti-pads on adjacent power or ground planes</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="table:2;135:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="title:3;138:32">De-coupling capacitor placement checklist</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="tgroup:2;142:34">
+            <colspec colname="col1" colnum="1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="colspec:3;148:40"/>
+            <colspec colname="col2" colnum="2" colwidth="6.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="colspec:4;154:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="thead:2;157:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:5;160:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:9;164:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:10;167:37"> Check</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:10;172:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:11;175:37">Guideline </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="tbody:2;181:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:6;184:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:11;188:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:12;191:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:12;196:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:13;199:37"> Place small-sized capacitors under the device, close to the BGA power ball</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="row:7;204:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:13;208:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:14;211:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="entry:14;216:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="p:15;219:37"> Use the adjacent ground balls to shorten the return path</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <fig audience="MSCCInternal" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="fig:1;228:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="title:4;231:32">De-coupling capacitors placement foot-prints under the BGA Area</title>
+         <image placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="image:1;235:33"/>
+      </fig>
+      <draft-comment author="yungwesl" time="Fri 10/20/2017 11:03 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\general_requirements.xml" xtrc="draft-comment:1;242:45">Need diagram added by MSDG</draft-comment>
+   </body>
+</topic>

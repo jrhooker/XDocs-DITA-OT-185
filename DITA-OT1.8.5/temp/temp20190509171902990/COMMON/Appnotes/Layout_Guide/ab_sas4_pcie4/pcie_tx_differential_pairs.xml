@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/COMMON/Appnotes/Layout_Guide/ab_sas4_pcie4/?><?path2project ..\..\..\..\out\diffed\pdf\?><?path2project-uri ../../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="pcie_tx_differential_pairs" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:1;14:26">PCIe TX Differential Pairs</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:1;20:21">The following table shows the PCIe TX differential pair routing checklist items.</p>
+      <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="note:1;24:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:2;27:24">PCIe TX refers to PE_T[15:00]_pt and PE_T[15:00]_pc signals.</p>
+      </note>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="note:2;31:27">
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="ul:1;34:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="li:1;37:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:3;40:30"> Intra-pair spacing refers to spacing of the _n and _p signals in a differential pair</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="li:2;44:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:4;47:30"> Inter-pair spacing refers to spacing between PCIe lanes (pairs of differential signals)</p>
+            </li>
+         </ul>
+      </note>
+      <table id="table_PCIe_TX_Differential_Pair_Routing_Checkl_8jg3ky5sx" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="table:1;54:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:2;57:32">PCIe TX Differential Pair Routing Checklist</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="tgroup:1;61:34">
+            <colspec colname="col1" colnum="1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="colspec:1;67:40"/>
+            <colspec colname="col2" colnum="2" colwidth="5.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="colspec:2;73:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="thead:1;76:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:1;79:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:1;83:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:5;86:36"> Check</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:2;91:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:6;94:36">Guideline </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="tbody:1;100:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:2;103:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:3;107:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:7;110:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:4;115:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:8;118:36">If PCIE TX pairs sit on the outer rows of the BGA, PCIE TX pairs must be routed on the component side (layer #1) with 85 ohms microstrip trace geometry</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:3;123:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:5;127:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:9;130:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:6;135:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:10;138:37">If PCIE TX pairs sit on inner rows of the BGA, PCIE TX pairs must be routed on solder side using the 85-ohm differential micro-strip trace geometry</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:4;143:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:7;147:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:11;150:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:8;155:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:12;158:37">The transition via from the top side to the bottom side must be placed adjacent to the associated ball-pin on the DUT. Use the via pad-stack specified in <xref href="via_pad_stacks.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="xref:1;161:45" type="topic"><?ditaot gentext?>Via Pad-stacks</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:5;167:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:9;171:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:13;174:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:10;179:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:14;182:37">The routed traces on the bottom side should be symmetrical and have no vias.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:6;187:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:11;191:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:15;194:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:12;199:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:16;202:37">All trace bends must be rounded out, no 45 deg bends.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:17;205:37"> This includes the serpentine pattern.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:18;208:37"> Minimize the number of trace bends.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:7;213:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:13;217:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:19;220:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:14;225:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:20;228:37">Intra-pair spacing of the differential PCIE_STK[x]_TX_P[15:0] and PCIE_STK[x]_TX_N[15:0], where x represents PCIe Stack =0,1,2,3,4,5, lines should be minimized to accommodate the fanout. Outside of the BGA footprint ensure an adequate intra-pair spacing to meet the specified impedance requirement (see <xref href="PCIe_trace_impedance.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="xref:2;231:46" type="topic"><?ditaot gentext?>Differential Trace Impedance</xref> ).</p>
+                  </entry>
+               </row>
+               <row audience="MSCCInternal" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:8;237:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:15;241:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:21;244:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:16;249:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:22;252:37">Inside of the BGA footprint, lane-to-lane spacing must be a minimum of 0.020-inch. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:23;255:37">Outside of the BGA footprint lane-to-lane spacing should be a minimum of 0.050-inch.</p>
+                     <draft-comment author="yungwesl" time="Fri 10/20/2017 10:39 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="draft-comment:1;261:60">Need MSDG to comment as PV mentioned the requirement is impossible to actually route</draft-comment>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:9;266:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:17;270:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:24;273:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:18;278:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:25;281:37">Pair-to-pair spacing between PCIe lanes should be 5-6x the width of the traces. Pair-to-pair spacing of 2-3x trace width is acceptable for short distances.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:10;286:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:19;290:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:26;293:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:20;298:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:27;301:37">Do not route over voids or anti-pads on adjacent layers.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:11;306:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:21;310:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:28;313:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:22;318:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:29;321:37">Length match true and complementary traces of each link to within 0.005 inch.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:12;326:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:23;330:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:30;333:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:24;338:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:31;341:37">Length matching across all PCIE TX links is not required. Refer to the PCIe Base Specification 4.0 for system level requirements pertaining to lane to lane skew.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:13;346:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:25;350:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:32;353:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:26;358:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:33;361:37">Add the length match routing as close as possible to where the mismatch occurred.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:14;366:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:27;370:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:34;373:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:28;378:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:35;381:37">Try to have each segment of the differential pair routing length matched.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:15;386:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:29;390:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:36;393:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:30;398:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:37;401:37">Use a serpentine pattern for length matching.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:38;404:37">Each segment of the serpentine pattern must be at least 0.020 inch long.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:39;407:37">Maximum spacing of serpentine pattern must not exceed 0.030 inch.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="row:16;412:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:31;416:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:40;419:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="entry:32;424:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:41;427:37">Position the DC blocking caps side-by-side.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:42;430:37"> 0.016 inch spacing between footprints to maintain symmetry of differential pair routing.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:43;433:37"> Create a void on the ground plane directly beneath the capacitor pads.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:44;436:37"> Match the shape and size of the void to the shape and size of the capacitor pads.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="section:1;444:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:3;447:33"/>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:45;450:25">The following figures outline the routing and breakout for PCIe Gen4 signals on the top and bottom layer.</p>
+         <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="fig:1;453:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:4;456:35">PCIe Gen4 Rx Routing on Top Layer</title>
+            <image href="graphics/trident_pcie_layout_tx_bot.png" width="5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="image:1;462:36"/>
+         </fig>
+      </section>
+      <section audience="MSCCInternal" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="section:2;468:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:5;471:32">Flashtec Layout</title>
+         <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:46;475:25">The following figures outline the routing and breakout for PCIe Gen4 signals on the top and bottom layer.</p>
+         <fig audience="MSCCInternal Flashtec" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="fig:2;479:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:6;482:35">PCIe Gen4 NVMe3016 TX Routing on Top and Bottom Layer</title>
+            <image href="../../../../NSG/Morristown/HWDG/graphics/PCIe_Gen4_NVMe30xx_TxRouting_top_bottomlayer.png" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="image:2;488:36"/>
+         </fig>
+         <fig audience="MSCCInternal Flashtec" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="fig:3;493:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="title:7;496:35">PCIe Gen4 NVMe3016 RX Routing on Top Layer</title>
+            <image href="../../../../NSG/Morristown/HWDG/graphics/PCIe_Gen4_NVMe30xx_Rx_routing_top_layer.png" placement="break" width="5.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="image:3;502:36"/>
+         </fig>
+      </section>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_tx_differential_pairs.xml" xtrc="p:47;507:23"/>
+   </body>
+</topic>

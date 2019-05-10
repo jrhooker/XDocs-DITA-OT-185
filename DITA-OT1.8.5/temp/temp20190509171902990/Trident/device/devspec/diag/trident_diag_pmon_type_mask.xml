@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\diag?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/diag/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_4ccb95b84dca99bd--57378f19-167a36c394b--7cf8" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="title:1;13:26">Event Mask</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="body:1;16:32">
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:1;20:29">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:1;24:24">Setting</b>
+      </p>
+      <simpletable class="- topic/simpletable " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="simpletable:1;29:39">
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="strow:1;32:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="stentry:1;35:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:2;38:30">Field Size</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="stentry:2;42:39">23 b</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="strow:2;46:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="stentry:3;49:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:3;52:30">Value Range</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="stentry:4;56:39">0x000000 - 0x7FFFFF</stentry>
+         </strow>
+      </simpletable>
+      <p id="PMON_TYPE_MASK_3" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:2;62:29">This field indicates the type of event to count. There are 64 counters in each stack, each of which will increment based on the events masked in this field. Set each bit to logic 1 to enable the corresponding event. With the exception of the Posted TLP, Non-Posted TLP, and Completion TLP events, all events are monitored on the ingress port only.<ph status="new" rev="deltaxml-add" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="ph:1;62:412"> For a given event counter, only 1 bit in the event mask is allowed to be selected since since each event counter can count only 1 event at the same time</ph>
+      </p>
+      <note audience="MSCCInternal" class="- topic/note " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="note:1;68:32">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:3;71:24">The mask register used by the performance monitor is completely independent of the masks used by AER or UEC.</p>
+      </note>
+      <table id="Type_Mask_1hibnybo8d" class="- topic/table " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="table:1;77:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="title:2;80:32">Event Mask Setting</title>
+         <tgroup cols="5" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="tgroup:1;84:34">
+            <colspec colname="col1" colnum="1" align="center" colwidth="65*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="colspec:1;91:40"/>
+            <colspec colname="col2" colnum="2" colwidth="271*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="colspec:2;97:40"/>
+            <colspec colname="col3" colnum="3" colwidth="148*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="colspec:3;103:40"/>
+            <colspec colname="col4" colnum="4" colwidth="72*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="colspec:4;109:40"/>
+            <colspec colname="col5" colnum="5" colwidth="444*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="colspec:5;115:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="thead:1;118:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:1;121:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:1;125:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:4;128:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:4;132:39">Bit</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:2;138:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:5;141:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:5;145:39">Event Type</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:3;151:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:6;154:36">
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:6;158:39">Switch Action</b>
+                     </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:4;164:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:7;167:36">Detected At</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:5;172:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:8;175:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:7;179:39">Notes</b> 
+                     </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="tbody:1;186:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:2;189:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:6;193:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:9;196:36">0</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:7;201:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:10;204:37">Unsupported Request received indication</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:8;209:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:11;212:37">Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:9;217:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:12;220:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:10;225:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:13;228:37">This is only relevant for Completion TLPs received with an Unsupported Request status. This is not an AER error</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:3;233:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:11;237:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:14;240:37">1</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:12;245:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:15;248:37">ECRC error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:13;253:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:16;256:37">Pass and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:14;261:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:17;264:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:15;269:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:18;272:37">ECRC errors are passed by the switch and the PMON can count them</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:4;277:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:16;281:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:19;284:37">2</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:17;289:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:20;292:37">Malformed TLP error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:18;297:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:21;300:37">Dropped and count if unmasked </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:19;305:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:22;308:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:20;313:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:23;316:37">A received Malformed TLP flags AER and the PMON can count this</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:5;321:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:21;325:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:24;328:37">3</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:22;333:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:25;336:37">Receiver overflow error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:23;341:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:26;344:37">Dropped and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:24;349:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:27;352:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:25;357:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:28;360:37">Receiver overflow error flags AER and PMON can count this</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:6;365:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:26;369:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:29;372:37">4</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:27;377:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:30;380:37">Completer Abort received indication</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:28;385:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:31;388:37">Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:29;393:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:32;396:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:30;401:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:33;404:37">This is only relevant for Completion TLPs received with a Completer Abort status. This is not an AER error.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:7;409:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:31;413:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:34;416:37">5</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:32;421:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:35;424:37">Poisoned TLP error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:33;429:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:36;432:37">Pass* and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:34;437:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:37;440:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:35;445:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:38;448:37">* Poisoned TLP error is counted at the ingress, but can be dropped if the egress P2P is configured to block poisoned TLPs. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:8;453:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:36;457:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:39;460:37">6</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:37;465:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:40;468:37">Surprise down error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:38;473:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:41;476:37">Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:39;481:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:42;484:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:40;489:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:43;492:37">Upon a surprise down event, logs in AER and counts if unmasked</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:9;497:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:41;501:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:44;504:37">7</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:42;509:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:45;512:37">Data Link protocol error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:43;517:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:46;520:37">Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:44;525:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:47;528:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:45;533:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:48;536:37">See PCIe Base Specification of sources of Data Link protocol error</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:10;541:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:46;545:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:49;548:37">8</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:47;553:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:50;556:37">Header Log Overflow error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:48;561:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:51;564:37">Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:49;569:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:52;572:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:50;577:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:53;580:37">Switchtec can store 5 TLP headers for AER. If a 6th header arrives, the overflow bit in the P2P bridge configuration space is set. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:11;585:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:51;589:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:54;592:37">9</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:52;597:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:55;600:37">Uncorrectable Internal error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:53;605:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:56;608:37">Not used</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:54;613:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:57;616:37">n/a </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:55;621:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:58;624:37">For future use cases, not currently used</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:12;629:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:56;633:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:59;636:37">10</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:57;641:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:60;644:37">Replay timer timeout</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:58;649:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:61;652:37">Count if unmasked </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:59;657:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:62;660:37">Egress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:60;665:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:63;668:37">If a switch sends a TLP and does not receive an ACK, this timeout is flagged and counted. Since this is an "egress" event of switch sending something and not getting a response, it is marked as "detected at egress".</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:13;673:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:61;677:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:64;680:37">11</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:62;685:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:65;688:37">Replay number rollover</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:63;693:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:66;696:37"> Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:64;701:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:67;704:37">Egress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:65;709:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:68;712:37">If the switch replays more than 3 times, this rollover is flagged and counted.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:14;717:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:66;721:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:69;724:37">12</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:67;729:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:70;732:37">Bad DLLP</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:68;737:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:71;740:37"> Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:69;745:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:72;748:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:70;753:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:73;756:37">See PCIe Base Specification of sources of Bad DLLP</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:15;761:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:71;765:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:74;768:37">13</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:72;773:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:75;776:37">Bad TLP</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:73;781:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:76;784:37"> Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:74;789:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:77;792:37">Ingress</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:75;797:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:78;800:37">See PCIe Base Specification of sources of Bad TLP</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:16;805:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:76;809:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:79;812:37">14</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:77;817:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:80;820:37">Receiver Error</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:78;825:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:81;828:37"> Count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:79;833:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:82;836:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:80;841:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:83;844:37">See PCIe Base Specification of sources of Receiver Error</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:17;849:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:81;853:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:84;856:37">15</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:82;861:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:85;864:37">Receiver FATAL error message</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:83;869:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:86;872:37">Pass and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:84;877:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:87;880:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:85;885:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:88;888:37">This error is only directed to AER if it is configured to do so. Otherwise the switch can simply count these messages (representing link partner sending messages to or through the switch)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:18;893:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:86;897:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:89;900:37">16</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:87;905:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:90;908:37">Receiver Non-FATAL error message</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:88;913:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:91;916:37">Pass and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:89;921:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:92;924:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:90;929:42">This error is only directed to AER if it is configured to do so. Otherwise the switch can simply count these messages (representing link partner sending messages to or through the switch)</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:19;933:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:91;937:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:93;940:37">17</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:92;945:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:94;948:37">Receiver Correctable error message</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:93;953:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:95;956:37">Pass and count if unmasked</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:94;961:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:96;964:37">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:95;969:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:97;972:37">This error is only directed to AER if it is configured to do so. Otherwise the switch can simply count these messages (representing link partner sending messages to or through the switch)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:20;977:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:96;981:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:98;984:37">18</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:97;989:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:99;992:37">NAK received</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:98;997:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:100;1000:38">Count if unmasked </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:99;1005:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:101;1008:38">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:100;1013:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:102;1016:38">The switch received a NAK (as a result of something like the switch sending a sequence number that didn't make it to the other end, a lost TLP, or a bad sequence number)</p>
+                  </entry>
+               </row>
+               <row pmc_switch="Advanced Encl_mgmt" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:21;1022:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:101;1026:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:103;1029:38">19</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:102;1034:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:104;1037:38">Rule Search Table Rule Hit</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:103;1042:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:105;1045:38">Count if unmasked </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:104;1050:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:106;1053:38">Ingress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:105;1058:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:107;1061:38">If the RST is configured to trigger on a TLP, this counter can be used to count the number of times the RST rule was hit</p>
+                  </entry>
+               </row>
+               <row pmc_switch="Fanout Fanout-L Fanout-LI" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:22;1067:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:106;1071:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:108;1074:38">19</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:107;1079:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:109;1082:38">Rule Search Table Rule Hit</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:108;1087:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:110;1090:38">Not used</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:109;1095:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:111;1098:38"> n/a</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:110;1103:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:112;1106:38">For future use cases, not currently used</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:23;1111:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:111;1115:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:113;1118:38">20</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:112;1123:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:114;1126:38">Posted TLP</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:113;1131:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:115;1134:38">Always counted </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:114;1139:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:116;1142:38">Ingress/Egress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:115;1147:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:117;1150:38">These counters are always counted and do <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:8;1152:39">not</b> need to be configured in the PMON but can be read out. Both ingress and egress counters are enabled to always count.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:24;1157:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:116;1161:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:118;1164:38">21</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:117;1169:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:119;1172:38">Completion TLP</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:118;1177:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:120;1180:38">Always counted </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:119;1185:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:121;1188:38">Ingress/Egress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:120;1193:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:122;1196:38">These counters are always counted and do <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:9;1198:39">not</b> need to be configured in the PMON but can be read out. Both ingress and egress counters are enabled to always count.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="row:25;1203:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:121;1207:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:123;1210:38">22</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:122;1215:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:124;1218:38">Non-Posted TLP</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:123;1223:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:125;1226:38">Always counted </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:124;1231:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:126;1234:38">Ingress/Egress </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="entry:125;1239:43">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:127;1242:38">These counters are always counted and do <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="b:10;1244:40">not</b> need to be configured in the PMON but can be read out. Both ingress and egress counters are enabled to always count.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p audience="PMCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:128;1254:29">Note that each performance counter can only increment by 1 or 2 on a given clock cycle. Each performance counter is intended to provide precise counting of any one event type only. Count precision is lost when multiple event types are enabled simultaneously. For a given clock, there can at most be 2 distinct events for a given event type corresponding to a maximum of 2 TLPs being processed at the same time.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\diag\trident_diag_pmon_type_mask.xml" xtrc="p:129;1258:29">A counter only increments once per TLP, regardless of the number of mask bits that are enabled and "hit".</p>
+   </body>
+</topic>

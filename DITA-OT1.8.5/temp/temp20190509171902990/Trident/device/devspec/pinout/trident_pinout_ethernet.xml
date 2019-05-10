@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\pinout?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/pinout/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_pinout_ethernet" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="title:1;14:26">Ethernet Pins</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="body:1;17:24">
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="note:1;20:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:1;23:24">The Ethernet MAC is only available on the 100/96/84/80/64/68 lane Switchtec devices</p>
+      </note>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="table:1;27:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="title:2;30:32">Ethernet MAC (MII/RMII) Descriptions</title>
+         <tgroup cols="3" colsep="1" rowsep="1" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="tgroup:1;36:34">
+            <colspec colname="col1" colnum="1" align="left" colwidth="1.8in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="colspec:1;43:40"/>
+            <colspec colname="col2" colnum="2" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="colspec:2;49:40"/>
+            <colspec colname="col3" colnum="3" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="colspec:3;55:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="thead:1;58:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:1;61:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:1;65:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:1;68:36"> Signal Name </b>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:2;73:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:2;76:36"> Type </b>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:3;81:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:3;84:36"> Function </b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="tbody:1;90:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:2;93:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:4;97:41">ETH_COL</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:5;101:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:2;104:36">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:6;109:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:3;112:36">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:4;115:39">MII Collision Detect from External PHY. </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:4;119:36">Indicates collision has been detected and causes a jam sequence to be asserted. MAC transmitter waits a random amount of time and retries transmission of data. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:5;122:36">This pin has a programmable internal pull-up </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:3;127:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:7;131:41">ETH_CRS</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:8;135:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:6;138:36">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:9;143:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:7;146:36">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:5;149:39">MII Carrier Sense from External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:8;153:36">When active defers the start of transmission.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:9;156:36">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:4;161:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:10;165:42">ETH_TX_ER</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:11;169:42">1.8V Digital Output</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:12;173:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:10;176:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:6;179:39">MII Transmit Error to External PHY. </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:11;183:37">An indication that data is no longer available during transmission. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:5;188:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:13;192:42">ETH_TXD</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:14;196:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:12;199:37">1.8V Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:15;204:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:13;207:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:7;210:39">MII/RMII Transmit data to External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:14;214:37">Data destined to external PHY. This data is synchronized to ETH_TX_CLK. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:15;217:37">In MII mode ETH_TXD[3:0] is driven and contains valid transmit data. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:16;220:37">In RMII mode ETH_TXD[1:0] is driven and contains valid transmit data. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:6;225:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:16;229:42">ETH_TX_EN</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:17;233:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:17;236:37">1.8V Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:18;241:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:18;244:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:8;247:39">MII/RMII Transmit Enable to External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:19;251:37">In MII mode, this output enables external PHY to transmit data on ETH_TXD[3:0] bus. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:20;254:37">In RMII mode, this output enables external PHY to transmit data on ETH_TXD[1:0] bus. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:7;259:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:19;263:42">ETH_TX_CLK</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:20;267:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:21;270:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:21;275:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:22;278:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:9;281:39">MII Transmit Clock from External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:23;285:37">Clock generated by external PHY that is used to synchronously generate transmit data from the MAC. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:24;288:37">Note: This pin is unused in RMII mode, and the transmit clock for RMII mode is derived off the reference clock on the ETH_RX_CLK pin. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:25;291:37">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:8;296:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:22;300:42">ETH_RXD</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:23;304:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:26;307:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:24;312:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:27;315:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:10;318:40">MII/RMII Receive data from External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:28;322:37">Data received from external PHY. This data is synchronized to ETH_RX_CLK. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:29;325:37">In MII mode, ETH_RXD[3:0] is used as the receive data from the PHY. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:30;328:37">In RMII mode, ETH_RXD[1:0] is used as the receive data from the PHY. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:31;331:37">These pins have programmable internal pull-ups.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:9;336:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:25;340:42">ETH_RX_ER</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:26;344:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:32;347:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:27;352:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:33;355:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:11;358:40">MII/RMII Receive Error from External PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:34;362:37">Asserted when external PHY detects an error. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:35;365:37">This pin is common to both MII and RMII modes of operation. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:36;368:37">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:10;373:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:28;377:42">ETH_RX_CLK</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:29;381:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:37;384:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:30;389:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:38;392:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:12;395:40">MII Receive Clock from External PHY/ RMII Reference Clock </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:39;399:37">In MII mode, this pin should be driven by a clock generated by external PHY that is used to synchronously deliver receive data to the MAC. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:40;402:37">In RMII mode, this pin should be driven by a 50 MHz reference clock for both transmit and receive sections of the MAC. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:41;405:37">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:11;410:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:31;414:42">ETH_RX_DV</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:32;418:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:42;421:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:33;426:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:43;429:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:13;432:40">MII Receive Data Valid/ RMII Carrier Sense and Data Valid </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:44;436:37">In MII mode, this pin indicates data on ETH_RXD[3:0] is valid (strobe signal). </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:45;439:37">In RMII mode, this pin is used as carrier sense and data valid indication. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:46;442:37">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:12;447:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:34;451:42">ETH_MDC</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:35;455:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:47;458:37">1.8V Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:36;463:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:48;466:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:14;469:40">MII Management Data Clock to External Ethernet PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:49;473:37">Clock synchronous to MDIO data bus. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:13;478:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:37;482:42">ETH_MDIO</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:38;486:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:50;489:37">1.8V Digital Input </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:51;492:37">and</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:52;495:37">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:39;500:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:53;503:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:15;506:40">MII Management Data I/O from/to External Ethernet PHY </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:54;510:37">Transmit/Receive between MAC and PHY. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:55;513:37">This pin has a programmable internal pull-up. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="row:14;518:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:40;522:42">ETH_LINK</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:41;526:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:56;529:37">1.8V Digital Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="entry:42;534:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:57;537:37">
+                        <draft-comment author="yungwesl" time="Tue 08/15/2017 01:34 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="draft-comment:1;543:63">There's no documentation on what ETH_LINK does...pulled the following from 10/100 MABC Document</draft-comment>
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="b:16;546:40">Link Status Signal</b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:58;550:37">Optional link status signal from the Ethernet PHY. Can also be used as an external interrupt signal.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:59;553:37">This pin has a programmable internal pull-up.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="note:2;561:27">
+         <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="ol:1;564:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="li:1;567:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:60;570:31"> Refer to <xref href="trident_gpio_multiplexing.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="xref:1;573:39" type="topic"><?ditaot usertext?>GPIO Multiplexing </xref> for details on configuring the switch to support this interface.</p>
+            </li>
+         </ol>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ethernet.xml" xtrc="p:61;579:23"/>
+   </body>
+</topic>

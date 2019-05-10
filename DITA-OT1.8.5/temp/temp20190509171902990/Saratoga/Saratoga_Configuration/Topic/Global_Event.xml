@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Saratoga\Saratoga_Configuration\Topic?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Saratoga/Saratoga_Configuration/Topic/?><?path2project ..\..\..\out\diffed\pdf\?><?path2project-uri ../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_737dd403ffdfb289-46d6a4c2-14f2d4cdbd6--7d7a" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="title:1;13:26">Global Event Region</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="body:1;16:32">
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:1;20:29">This region in the Global Address Space (GAS) comprises of the switch global event registers and a partition event bitmap register. These registers can show which partition has run into a partition event or port event. They also help to query partition events in the partition configuration region and port events in PCIe function CSR region.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:2;24:29">
+         <table id="table_Global_Event_Region_4ipp7dg3u" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="table:1;28:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="title:2;31:35">Global Event Region</title>
+            <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="tgroup:1;35:37">
+               <colspec colname="col1" colnum="1" colwidth="140*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="colspec:1;41:43"/>
+               <colspec colname="col2" colnum="2" colwidth="344*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="colspec:2;47:43"/>
+               <colspec colname="col3" colnum="3" colwidth="382*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="colspec:3;53:43"/>
+               <colspec colname="col4" colnum="4" colwidth="134*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="colspec:4;59:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="thead:1;62:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:1;65:37">
+                     <entry colname="col1" namest="col1" nameend="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:1;72:44">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:1;75:39">Global Event Region</b>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:2;80:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:2;84:44">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:2;87:39">Offset (Byte)</b>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:3;92:44">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:3;95:39">Bit 31</b>
+                     </entry>
+                     <entry colname="col3" align="right" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:4;101:44">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:4;104:39">Bit 0</b>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:5;109:44">Dword</entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="tbody:1;114:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:3;117:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:6;121:44">0x1800 - 0x1804</entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:7;128:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:3;131:39">Event Report Control Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:8;136:44">DW00 - DW01</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:4;140:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:9;144:44">0x1808 - 0x180C</entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:10;151:45">Reserved</entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:11;155:45">DW02 - DW03</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:5;159:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:12;163:45">0x1810 - 0x1814</entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:13;170:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:4;173:39">Partition Event Bitmap Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:14;178:45">DW04 - DW05</entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:6;182:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:15;186:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:5;189:39">0x1818 - 0x181C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:16;197:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:6;200:39">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:17;205:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:7;208:39">DW06 - DW07</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:7;213:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:18;217:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:8;220:39">0x1820</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:19;228:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:9;231:39">Global Event Summary Register </p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:20;236:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:10;239:40">DW08</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:8;244:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:21;248:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:11;251:40">0x1824 - 0x182C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:22;259:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:12;262:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:23;267:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:13;270:40">DW09 - DW11</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:9;275:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:24;279:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:14;282:40">0x1830</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:25;290:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:15;293:40">Stack Error Event Header Register </p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:26;298:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:16;301:40">DW12</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:10;306:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:27;310:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:17;313:40">0x1834</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:28;321:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:18;324:40"> Stack Error Event Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:29;329:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:19;332:40">DW13</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:11;337:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:30;341:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:20;344:40">0x1838 - 0x1844</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:31;352:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:21;355:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:32;360:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:22;363:40">DW14 - DW17</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:12;368:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:33;372:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:23;375:40">0x1848</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:34;383:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:24;386:40"> PPU Error Event Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:35;391:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:25;394:40">DW18</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:13;399:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:36;403:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:26;406:40">0x184C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:37;414:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:27;417:40"> PPU Error Event Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:38;422:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:28;425:40">DW19</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:14;430:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:39;434:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:29;437:40">0x1850 - 0x18EC</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:40;445:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:30;448:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:41;453:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:31;456:40">DW20 - DW59</p>
+                     </entry>
+                  </row>
+                  <row audience="MSCCInternal" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:15;462:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:42;466:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:32;469:40">0x1860</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:43;477:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:33;480:40"> ISP Error Event Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:44;485:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:34;488:40">DW24</p>
+                     </entry>
+                  </row>
+                  <row audience="MSCCInternal" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:16;494:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:45;498:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:35;501:40">0x1864</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:46;509:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:36;512:40"> ISP Error Event Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:47;517:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:37;520:40">DW25</p>
+                     </entry>
+                  </row>
+                  <row audience="MSCCInternal" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:17;526:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:48;530:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:38;533:40">0x1868 - 0x18EC</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:49;541:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:39;544:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:50;549:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:40;552:40">DW26 - DW59</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:18;557:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:51;561:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:41;564:40">0x18F0</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:52;572:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:42;575:40">TWI MRPC Completion Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:53;580:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:43;583:40">DW60</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:19;588:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:54;592:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:44;595:40">0x18F4</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:55;603:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:45;606:40">TWI MRPC Completion Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:56;611:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:46;614:40">DW61</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:20;619:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:57;623:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:47;626:40">0x18F8 - 0x1904</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:58;634:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:48;637:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:59;642:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:49;645:40">DW62 - DW65</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:21;650:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:60;654:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:50;657:40">0x1908</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:61;665:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:51;668:40">TWI MRPC Completion Async Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:62;673:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:52;676:40">DW66</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:22;681:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:63;685:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:53;688:40">0x190C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:64;696:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:54;699:40">TWI MRPC Completion Async Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:65;704:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:55;707:40">DW67</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:23;712:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:66;716:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:56;719:40">0x1910 - 0x191C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:67;727:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:57;730:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:68;735:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:58;738:40">DW68 - DW71</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:24;743:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:69;747:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:59;750:40">0x1920</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:70;758:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:60;761:40">CLI MRPC Completion Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:71;766:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:61;769:40">DW72</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:25;774:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:72;778:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:62;781:40">0x1924</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:73;789:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:63;792:40">CLI MRPC Completion Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:74;797:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:64;800:40">DW73</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:26;805:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:75;809:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:65;812:40">0x1928 - 0x1934</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:76;820:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:66;823:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:77;828:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:67;831:40">DW74 - DW77</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:27;836:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:78;840:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:68;843:40">0x1938</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:79;851:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:69;854:40">CLI MRPC Completion Async Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:80;859:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:70;862:40">DW78</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:28;867:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:81;871:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:71;874:40">0x193C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:82;882:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:72;885:40">CLI MRPC Completion Async Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:83;890:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:73;893:40">DW79</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:29;898:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:84;902:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:74;905:40">0x1940 - 0x194C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:85;913:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:75;916:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:86;921:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:76;924:40">DW80 - DW83</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:30;929:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:87;933:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:77;936:40">0x1950</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:88;944:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:78;947:40">GPIO Interrupt Event Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:89;952:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:79;955:40">DW84</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:31;960:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:90;964:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:80;967:40">0x1954</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:91;975:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:81;978:40">GPIO Interrupt Event Data Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:92;983:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:82;986:40">DW85</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:32;991:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:93;995:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:83;998:40">0x1958 - 0x1964</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:94;1006:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:84;1009:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:95;1014:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:85;1017:40">DW86 - DW89</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Advanced" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:33;1023:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:96;1027:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:86;1030:40">0x1968</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:97;1038:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:87;1041:40">GFMS Event Global Header Register</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:98;1046:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:88;1049:40">DW90</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Advanced" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:34;1055:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:99;1059:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:89;1062:40">0x196C - 0x197C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:100;1070:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:90;1073:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:101;1078:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:91;1081:40">DW91 - DW95</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Encl_mgmt" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:35;1087:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:102;1091:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:92;1094:40">0x1968 - 0x1A6C</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:103;1102:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:93;1105:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:104;1110:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:94;1113:40">DW90 - DW155</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Encl_mgmt" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:36;1119:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:105;1123:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:95;1126:40">0x1A70 - 0x1AFC</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:106;1134:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:96;1137:40">Custom Event Registers</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:107;1142:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:97;1145:40">DW156 - DW191</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Encl_mgmt" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:37;1151:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:108;1155:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:98;1158:40">0x1B00 - 0x1FFC</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:109;1166:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:99;1169:40">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:110;1174:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:100;1177:41">DW192 - DW511</p>
+                     </entry>
+                  </row>
+                  <row pmc_switch="Fanout Fanout-L Fanout-LI" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="row:38;1183:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:111;1187:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:101;1190:41">0x1968 - 0x1FFC</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:112;1198:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:102;1201:41">Reserved</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="entry:113;1206:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:103;1209:41">DW90 - DW511</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:104;1219:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:5;1222:24">Event Report Control Register (0x1800 - 0x1804)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:105;1227:29">Takes up 2 Dwords</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:106;1231:29">Bit 0 - CLI, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:107;1235:29">Bit 1 - TWI, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:108;1239:29">Bit 2:49 - Partition 0-47, (RW, reserved for those invalid partitions)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:109;1243:29">Bit 50 - vEP, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:110;1247:29">Bit 51 - USP P2P, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:111;1251:29">Bit 52:61, Reserved</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:112;1255:29">Bit 63:62, clear all events</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:113;1259:29">bit[63,62] = b'10 : submit a request to clear all events</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:114;1263:29">bit[63,62] = b'01 : the above request is done, and all events have been cleared.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:115;1267:29">Other values are invalid.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:116;1271:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:6;1274:24">Partition Event Bitmap Register (0x1810 - 0x1814)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:117;1279:29">Takes up 2 Dwords</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:118;1283:29">Bit 0 - Partition 0, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:119;1287:29">Bit 1 - Partition 1, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:120;1291:29">......</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:121;1295:29">Bit n: Partition n, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:122;1299:29">A bit set means that there is partition event or port event in that partition</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:123;1303:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:7;1306:24">Global Event Summary Register (0x1820)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:124;1311:29">A bit set means there is event in corresponding event slot.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:125;1315:29">Bit 0 - Stack Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:126;1319:29">Bit 1 - PPU Error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:127;1324:29">Bit 2 - ISP Error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:128;1329:29">Bit 3 - System Reset, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:129;1334:29">Bit 4 - Firmware Exception, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:130;1339:29">Bit 5 - Firmware NMI, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:131;1344:29">Bit 6 - Firmware Non-fatal Error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:132;1349:29">Bit 7 - Firmware Fatal Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:133;1353:29">Bit 8 - TWI MRPC Completion, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:134;1357:29">Bit 9 - TWI MRPC Completion Async, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:135;1361:29">Bit 10 - CLI MRPC Completion, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:136;1365:29">Bit 11 - CLI MRPC Completion Async, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:137;1369:29">Bit 12 - GPIO INTERRUPT, (RO)</p>
+      <p pmc_switch="Advanced" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:138;1374:29">Bit 13: GFMS Event, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:139;1378:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:8;1381:24">Stack Error Event Header Register (0x1830)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:140;1386:29">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:141;1390:29">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:142;1394:29">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:143;1398:29">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:144;1402:29">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:145;1406:29">Bit 4 - Fatal Error Event, make firmware stop running.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:146;1410:29">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:147;1414:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:9;1417:24">Stack Error Event Data Registers (0x1834)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:148;1422:29">The first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:149;1426:29">Bit 0:7 - Stack ID, shows which stack has error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:150;1430:29">Bit 8-10 - Reserved.</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:151;1435:29">Bit 8 - AER Log RAM ECC Error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:152;1440:29">Bit 9 - CTS RAM ECC Error,<ph pmc_switch="Advanced Encl_mgmt Fanout" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="ph:1;1443:26">(RO)</ph> 
+         <ph pmc_switch="Fanout-L" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="ph:2;1447:26">(Reserved)</ph>
+      </p>
+      <p audience="MSCCInternal" class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:153;1453:29">Bit 10 - ARAM ECC Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:154;1457:29">Bit 11 - Timer Sync Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:155;1461:29">Bit 12 - EED CAM Parity Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:156;1465:29">Bit 13 - RST CAM Parity Error, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:157;1469:29">Bit 14-15, Reserved.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:158;1473:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:10;1476:25">PPU Error Event Header Register (0x1848)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:159;1481:29">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:160;1485:29">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:161;1489:29">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:162;1493:29">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:163;1497:29">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:164;1501:29">Bit 4 - Fatal Error Event, make firmware stop running.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:165;1505:29">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:166;1509:29">
+         <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:11;1512:25">PPU Error Event Data Registers (0x184C)</b>
+      </p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:167;1517:29">Takes up 20 bytes, in which the first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " rev="deltaxml-delete" status="deleted" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:168;1522:27">For global PPU error, the first 2 bytes is 0xFFFF. For per channel error, the first 2 bytes is:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:169;1525:23">Bit 0:7 - PPU channel ID, the value is 1 ~ 8, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:170;1528:23">Bit 8:15,</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:171;1531:23">Bit 8 - IB DMA Error, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:172;1534:23">Bit 9 - OB DMA Error, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:173;1537:23">Bit 10 - IB MFA Error, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:174;1540:23">Bit 11 - OB MFA Error, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:175;1543:23">Bit 12 - IB Buffer Overflow, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:176;1546:23">Bit 13 - IB Header Credit Overflow, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:177;1549:23">Bit 14 - IB Data Credit Overflow, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:178;1552:23">Bit 15 - Reserved</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:179;1556:23">
+         <b audience="MSCCInternal" class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:12;1561:32">ISP Error Event Header Register (0x1860)</b>
+      </p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:180;1566:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:181;1570:23">Bit 1:4: Event Handle Attributes, (RW)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:182;1574:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:183;1578:23">Bit 2 - Printed into Debug Console.</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:184;1582:23">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:185;1586:23">Bit 4 - Fatal Error Event, make firmware stop running.</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:186;1590:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:187;1594:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:13;1598:32">ISP Error Event Data Registers (0x1864)</b>
+      </p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:188;1603:23">Takes up 20 bytes, in which the first 4 bytes are valid, and the remaining bytes are reserved.</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:189;1607:23">Bit 0:7,</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:190;1611:23">Internal Port ID, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:191;1615:23">Bit 8:27,</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:192;1619:23">Bit 8 - NWL replay buffer 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:193;1623:23">Bit 9 - LTSSM Monitor RAM 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:194;1627:23">Bit 10 - IFB Even RAM 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:195;1631:23">Bit 11 - IFB Odd RAM 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:196;1635:23">Bit 12 - NWL transmit packet Parity error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:197;1639:23">Bit 13 - IED parity errors, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:198;1643:23">Bit 14 - EED parity errors, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:199;1647:23">Bit 15 - CPG parity error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Advanced Encl_mgmt Fanout" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:200;1652:23">Bit 16 - CTS parity error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Fanout-L" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:201;1657:23">Bit 16 - Reserved, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:202;1661:23">Bit 17 - ECRC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:203;1665:23">Bit 18 - RST ML RAM 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:204;1669:23">Bit 19 - RST NL RAM 2bit ECC error, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Advanced Encl_mgmt Fanout" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:205;1674:23">Bit 20 - CTS unexpected completion, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Fanout-L" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:206;1679:23">Bit 20 - Reserved, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Advanced Encl_mgmt Fanout" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:207;1684:23">Bit 21 - CTS late arrival completion, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " pmc_switch="Fanout-L" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:208;1689:23">Bit 21 - Reserved, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:209;1693:23">Bit 22 - SC Port Credit Timeout, (RO)</p>
+      <p audience="MSCCInternal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:210;1697:23">Bit 23:31 - Reserved</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:211;1700:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:14;1704:32">TWI MRPC Completion Header Register (0x18F0)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:212;1708:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:213;1711:23">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:214;1714:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:215;1717:23">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:216;1720:23">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:217;1723:23">Bit 4 - Reserved for this event.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:218;1726:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:219;1729:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:15;1733:32">TWI MRPC Completion Data Registers (0x18F4)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:220;1737:23">Takes up 20 bytes, in which the first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:221;1740:23">Bit 0:15 - MRPC Command ID, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:222;1743:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:16;1747:32">TWI MRPC Completion Async Header Register (0x1908)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:223;1751:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:224;1754:23">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:225;1757:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:226;1760:23">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:227;1763:23">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:228;1766:23">Bit 4 - Reserved for this event.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:229;1769:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:230;1772:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:17;1776:32">TWI MRPC Completion Async Data Registers (0x190C)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:231;1780:23">Takes up 20 bytes, in which the first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:232;1783:23">Bit 0:15 - MRPC Command ID, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:233;1786:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:18;1790:32">CLI MRPC Completion Header Register (0x1920)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:234;1794:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:235;1797:23">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:236;1800:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:237;1803:23">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:238;1806:23">Bit 3 - Reserved for this event. <ph audience="PMCInternal" class="- topic/ph " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="ph:3;1810:33">Report to sideband or in-band management host based on Event Report Control Register.</ph>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:239;1814:23">Bit 4 - Reserved for this event.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:240;1817:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:241;1820:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:19;1824:32">CLI MRPC Completion Data Registers (0x1924)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:242;1828:23">Takes up 20 bytes, in which the first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:243;1831:23">Bit 0:15 - MRPC Command ID, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:244;1834:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:20;1838:32">CLI MRPC Completion Async Header Register (0x1938)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:245;1842:23">Bit 0: Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:246;1845:23">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:247;1848:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:248;1851:23">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:249;1854:23">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:250;1857:23">Bit 4 -Reserved for this event.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:251;1860:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:252;1863:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:21;1867:32">CLI MRPC Completion Async Data Registers (0x193C)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:253;1871:23">Takes up 20 bytes, in which the first 2 bytes are valid, and the remaining bytes are reserved.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:254;1874:23">Bit 0:15 - MRPC Command ID, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:255;1877:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:22;1881:32">GPIO Interrupt Event Header Register (0x1950)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:256;1885:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:257;1888:23">Bit 1:4 - Event Handle Attributes, (RW)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:258;1891:23">Bit 1 - Logged in Firmware Event Log Module</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:259;1894:23">Bit 2 - Printed into Debug Console.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:260;1897:23">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:261;1900:23">Bit 4 - Reserved for this event.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:262;1903:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:263;1906:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:23;1910:32">GPIO Interrupt Event Data Registers (0x1954)</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:264;1914:23">Reserved</p>
+      <p class="- topic/p " pmc_switch="Advanced" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:265;1918:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:24;1922:32">GFMS Event Global Header Register(0x1968)</b>
+      </p>
+      <p class="- topic/p " pmc_switch="Advanced" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:266;1927:23">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+      <p class="- topic/p " pmc_switch="Advanced" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:267;1931:23">Bit 1:4 - Reserved</p>
+      <p class="- topic/p " pmc_switch="Advanced" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:268;1935:23">Bit 5:12 - Event occurring times since this event is cleared last time, (RO)</p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:269;1939:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:25;1943:32">Reserved (0x1968 - 0x1A6C)</b>
+      </p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:270;1948:23">Reserved for future use.</p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:271;1952:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:26;1956:32">Customer Event Registers(0x1A70 - 0x1AFC)</b>
+      </p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:272;1961:23">Reserved for customers to implement up to 6 vendor-specific events, 24 bytes per event.</p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:273;1965:23">
+         <b class="+ topic/ph hi-d/b " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="b:27;1969:32">Reserved (0x1B00 - 0x1FFC)</b>
+      </p>
+      <p class="- topic/p " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Global_Event.xml" xtrc="p:274;1974:23">Reserved for future use</p>
+   </body>
+</topic>

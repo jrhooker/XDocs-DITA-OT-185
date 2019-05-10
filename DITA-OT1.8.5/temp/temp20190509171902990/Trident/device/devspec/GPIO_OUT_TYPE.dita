@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GPIO_OUT_TYPE" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="topic:11;1850:30">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="title:13;1853:33">Output Type</title>
+         <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="body:11;1856:31">
+            <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="simpletable:9;1859:47">
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="strow:17;1862:39">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:33;1865:46">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="b:46;1868:37">Field Size</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:34;1872:46">1 B</stentry>
+               </strow>
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="strow:18;1876:39">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:35;1879:46">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="b:47;1882:37">Value Range</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:36;1886:46">0 - 3</stentry>
+               </strow>
+            </simpletable>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:110;1891:29">This field indicates the GPIO output type:</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:111;1894:29">0 – High Impedance</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:112;1897:29">1 – Driven</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:113;1900:29">2 – Open Drain</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:114;1903:29">3 – Open Source</p>
+         </body>
+      </topic>

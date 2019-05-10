@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="dynamic_partitioning_deep" xml:lang="en-US">
+  <title>Dynamic Partitioning</title>
+
+  <body>
+    <note audience="MSCCInternal"><p>Content sourced from Saratoga Device
+    Specification - Issue 12</p></note>
+
+    <p>Switchtec introduces a unique partitioning scheme which provides a
+    controlled mapping layer that allows for dynamic mapping of physical ports
+    to P2P bridge functions. This scheme makes the relationship of physical
+    ports and switch P2P bridges not 1:1. There can be far more switch P2P
+    bridges than physical ports allowing switchtec to present P2P bridges to
+    the host that are not mapped to physical ports.</p>
+
+    <p>This mapping layer allows for dynamic migration of physical ports
+    between active partitions, and provides the following features:</p>
+
+    <ul>
+      <li><p> Hosts in each partition configure the switch to support all
+      potential targets on physical ports.</p></li>
+
+      <li><p> Migrating ports between partitions are supported natively with
+      no OS, BIOS or driver modifications.</p></li>
+
+      <li><p> Migrating ports appear as hot-add and hot-remove events.
+      </p></li>
+    </ul>
+
+    <p><xref href="#dynamic_partitioning_deep/fig_Switchtec_Dynamic_Partitioning_2ihi9frg9">
+    </xref> illustrates the Switchtec implementation of dynamic partitioning
+    where there are a total of 5 physical ports and two hosts. In this
+    example, each host (orange and green) is able to see 5 P2P bridges but the
+    orange host only has two Endpoints attached while the green host only has
+    three Endpoints attached. MRPC can be used to dynamically shift physical
+    ports (PCIe SSDs in this example) between hosts without having to reboot
+    the hosts.</p>
+
+    <note audience="MSCCInternal"><p>Source graphics: <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=437731" scope="external">http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=437731</xref>
+    (Page-5)</p></note>
+
+    <fig id="fig_Switchtec_Dynamic_Partitioning_2ihi9frg9">
+      <title>Switchtec Dynamic Partitioning</title>
+
+      <image href="dynamic_partitioning_logical_to_physical.svg" width="5in"/>
+    </fig>
+
+    <p>When referring to logical P2Ps, Switchtec makes two unique
+    distinctions:</p>
+
+    <ul>
+      <li><p>Normal P2P Bridge - This is a P2P that is bound to a real
+      physical port on the switch and appears as an empty slot to the host if
+      no EP is connected to the port</p></li>
+
+      <li><p>Shadow P2P Bridge - This is a P2P that is unbound to a physical
+      port on the switch and appears as an empty slot to the host</p></li>
+    </ul>
+  </body>
+</topic>

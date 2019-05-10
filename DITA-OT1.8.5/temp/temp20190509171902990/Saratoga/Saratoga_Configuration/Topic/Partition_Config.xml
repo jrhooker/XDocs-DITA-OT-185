@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Saratoga\Saratoga_Configuration\Topic?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Saratoga/Saratoga_Configuration/Topic/?><?path2project ..\..\..\out\diffed\pdf\?><?path2project-uri ../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="Partition_Config" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="title:1;13:26">Partition Configuration</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="body:1;16:32">
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:1;20:29">This region contains setup information for each partition. Each 1024-byte entry contains the partition status and state. Every partition entry includes the logical switch port count of this partition, the Upstream Port mode, and the PCI function instance ID for each P2P or vEP. The PCI function instance ID is used to address the P2P or vEP configuration register space in the PCI function CSR region and the partition events related registers. The following table shows the details for each partition configuration entry.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="table:1;23:37">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="title:2;26:32">Partition Configuration</title>
+         <tgroup class="- topic/tgroup " cols="3" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="tgroup:1;30:27">
+            <colspec colname="col1" colnum="1" colwidth="301*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="colspec:1;36:40"/>
+            <colspec colname="col2" colnum="2" colwidth="268*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="colspec:2;42:40"/>
+            <colspec colname="col3" colnum="3" colwidth="431*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="colspec:3;48:40"/>
+            <thead class="- topic/thead " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="thead:1;52:39">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:1;55:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:1;59:41">Offset</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:2;63:41">Description</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:3;67:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:2;70:36">Field Range</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="tbody:1;76:43">
+               <row class="- topic/row " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:2;80:40">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:4;84:41">0x0000</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:5;88:41">STATUS</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:6;92:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:3;95:36">0 - Inactive</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:4;98:36">1 - Active</p>(RO)</entry>
+               </row>
+               <row class="- topic/row " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:3;103:40">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:7;107:41">0x0004</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:8;111:41">STATE</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:9;115:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:5;118:36">0 - Uninitialized (after reset)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:6;121:36">1 - Active</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:7;124:36">2 - Fundamental Reset (PSC Notify)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:8;127:36">3 - Fundamental Reset (PTD Notify)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:9;130:36">4 - Fundamental Reset (CLEANUP TLP DONE)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:10;133:37">5 - Hot Reset (PSC Notify)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:11;136:37">6 - Hot Reset (PTD Notify)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:12;139:37">7 - Hot Reset (CLEANUP TLP DONE)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:13;142:37">8 - USP Second Bus Reset (PSC Notify)</p>(RO)</entry>
+               </row>
+               <row class="- topic/row " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:4;147:40">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:10;151:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:14;154:37">0x0008</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:11;159:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:15;162:37">PORT_CNT</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:12;167:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:16;170:37">0 - 48, Port number in current partition, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:5;176:40">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:13;180:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:17;183:37">0x000C</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:14;188:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:18;191:37">USP_PORT_MODE</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:15;196:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:19;199:37">0 - USP contains only one P2P Bridge</p>
+                     <p pmc_switch="Encl_mgmt Fanout Fanout-L Fanout-LI" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:20;203:37">1 - USP contains one P2P Bridge and one NT EP</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:21;206:37">2 - USP contains one P2P Bridge and one Management EP</p>
+                     <p pmc_switch="Encl_mgmt Fanout Fanout-L Fanout-LI" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:22;210:37">3 - USP contains only one NT EP</p>(RO)</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:6;214:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:16;218:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:23;221:37">0x0010</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:17;226:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:24;229:37">USP_PFF_INST_ID</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:18;234:41">
+                     <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:25;238:44">Bit 0:7 - PCI function index N from 0 - 254 (RO)</p>
+                     <p class="- topic/p " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:26;243:38">Bit 8:31 - Reserved</p>
+                     <p class="- topic/p " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:27;247:49">Bit 8:14 - Partition ID (RO) </p>
+                     <p class="- topic/p " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:28;251:49">Bit 15:21 - Port ID where logical port is 0 for partition's USP and 1 to n for partition's DSP (RO)</p>
+                     <p class="- topic/p " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:29;255:49">Bit 22:24 - PPU Channel ID that's associate to application type (RO)</p>
+                     <p class="- topic/p " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:30;259:49">Bit 25:27 - Function Type (RO)</p>
+                     <ul class="- topic/ul " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="ul:1;263:50">
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:1;266:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:31;269:43">000b: P2P Function</p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:2;273:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:32;276:43">001b: NT Function</p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:3;280:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:33;283:43">010b: Management Function</p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:4;287:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:34;290:43">others: Reserved </p>
+                        </li>
+                     </ul>
+                     <p class="- topic/p " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:35;296:49">Bit 28:30 - Application Type (RO)</p>
+                     <ul class="- topic/ul " audience="MSCCInternal" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="ul:2;300:50">
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:5;303:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:36;306:43"> 000b: PFF (P2P, vEP Management, and NT EP functions)</p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:6;310:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:37;313:43">001b: vRC </p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:7;317:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:38;320:43">010b: Platform-defined </p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="li:8;324:49">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:39;327:43">Others: Reserved </p>
+                        </li>
+                     </ul>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:40;332:37">Return value of 0xFFFFFFFF -&gt; invalid</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:7;337:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:19;341:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:41;344:37">0x0014</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:20;349:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:42;352:37">VEP_PFF_INST_ID</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:21;357:42">see the description of USP_PFF_INST_ID</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:8;361:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:22;365:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:43;368:37">0x0018</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:23;373:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:44;376:37">DSP_00_INST_ID</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:24;381:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:45;384:37">Bit 0:7 - PCI function index N from 0 - 254 (RO)<ph status="deleted" rev="deltaxml-delete" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="ph:1;384:128">, </ph>
+                     </p>
+                     <p class="- topic/p " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:46;390:38">Bit 8:31 - Reserved</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:47;393:37">Return value of 0xFFFFFFFF -&gt; invalid</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:9;398:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:25;402:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:48;405:37">...</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:26;410:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:49;413:37">...</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:27;418:42">...</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:10;422:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:28;426:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:50;429:37">0x00D0</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:29;434:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:51;437:37">DSP_46_INST_ID</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:30;442:42">see the description of DSP_00_INST_ID</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:11;446:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:31;450:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:52;453:37">...</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:32;458:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:53;461:37">...</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:33;466:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:54;469:37">...</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:12;474:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:34;478:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:55;481:37">0x0100</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:35;486:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:56;489:37">Event Report MSI Vector Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:36;494:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:57;497:37">Bit 0:15, vEP MSI/MSIX Vector Number, (RO)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:58;500:37">Bit 16:31, USP P2P MSI Vector Number, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:13;505:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:37;509:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:59;512:37">0x0104</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:38;517:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:60;520:37">Logical Port Event Bitmap Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:39;525:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:61;528:37">When a logical port in this partition has a port event, the corresponding bit is set. Overall takes up 2 Dwords(0x0104-0x10B), (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:14;533:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:40;537:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:62;540:37">0x010C</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:41;545:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:63;548:37">Reserved for Extension</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:42;553:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:64;556:37">Takes up 2 Dwords(0x010C-0x0113)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:15;561:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:43;565:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:65;568:37">0x0114</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:44;573:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:66;576:37">Partition Event Summary Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:45;581:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:67;584:37">When a partition event happens, the corresponding bit is set.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:68;587:37">Bit 0 - Partition Hot Reset, (RO)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:69;590:37">Bit 1 - MRPC Completion, (RO)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:70;593:37">Bit 2 - MRPC Completion Async, (RO)</p>
+                     <p class="- topic/p " pmc_switch="Advanced Encl_mgmt Fanout" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:71;597:37">Bit 3 - Dynamic Partitioning Binding Command Finish, (RO)</p>
+                     <p class="- topic/p " pmc_switch="Fanout-L" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:72;601:37">Bit 3 - Reserved</p>
+                     <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="note:1;604:42">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:73;607:40">The MRPC command will complete before the bind itself completes, so Bit 3 exists to indicate when the actual bind is complete</p>
+                     </note>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:16;613:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:46;617:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:74;620:37">0x0118</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:47;625:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:75;628:37">Reserved for Extension</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:48;633:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:76;636:37">Takes up two Dwords(0x0118-0x0123)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:17;641:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:49;645:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:77;648:37">0x0124</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:50;653:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:78;656:37">Partition Hot Reset Event Header Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:51;661:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:79;664:37">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:80;667:37">Bit 1:4 - Event Handle Attributes, (RW)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:81;670:37"> Bit 1 - Logged in Firmware Event Log Module </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:82;673:37"> Bit 2 - Printed into Debug Console. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:83;676:37"> Bit 3 - Report to sideband or in-band management host based on Event Report Control Register. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:84;679:37"> Bit 4 - Reserved. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:85;682:37">Bit 5:12 - Number of times event has occurred since the last time this event was cleared, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:18;687:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:52;691:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:86;694:37">0x0128</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:53;699:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:87;702:37">Partition Hot Reset Event Data Registers</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:54;707:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:88;710:37">Takes up 20 bytes, in which the first 1 byte is valid, and the left bytes are reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:89;713:37">Bit 0: </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:90;716:37"> 0 - Hot Reset; 1 - Fundamental Reset, (RO)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:91;719:37">Bit 1:7 - Reserved</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:19;724:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:55;728:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:92;731:37">0x013C</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:56;736:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:93;739:37">MRPC Completion Header Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:57;744:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:94;747:37">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:95;750:37">Bit 1:4 - Event Handle Attributes, (RW)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:96;753:37">Bit 1 - Logged in Firmware Event Log Module</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:97;756:37">Bit 2 - Printed into Debug Console.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:98;759:37">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:99;762:37">Bit 4 - Reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:100;765:38">Bit 5:12 - Number of times event has occurred since the last time this event was cleared, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:20;770:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:58;774:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:101;777:38">0x0140</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:59;782:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:102;785:38">MRPC Completion Data Registers</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:60;790:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:103;793:38">Takes up 20 bytes, in which the first 2 bytes are valid, and the left bytes are reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:104;796:38">Bit 0:15, MRPC Command ID, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:21;801:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:61;805:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:105;808:38">0x0154</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:62;813:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:106;816:38">MRPC Completion Async Header Register</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:63;821:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:107;824:38">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:108;827:38">Bit 1:4 - Event Handle Attributes, (RW)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:109;830:38">Bit 1 - Logged in Firmware Event Log Module</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:110;833:38">Bit 2 - Printed into Debug Console.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:111;836:38">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:112;839:38">Bit 4 - Reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:113;842:38">Bit 5:12 - Number of times event has occurred since the last time this event was cleared, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:22;847:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:64;851:49">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:114;854:38">0x0158</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:65;859:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:115;862:38">MRPC Completion Async Data Registers</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:66;867:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:116;870:38">Takes up 20 bytes, in which the first 2 bytes are valid, and the left bytes are reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:117;873:38">Bit 0:15, MRPC Command ID, (RO)</p>
+                  </entry>
+               </row>
+               <row pmc_switch="Advanced Encl_mgmt Fanout" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:23;879:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:67;883:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:118;886:38">0x016C</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:68;891:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:119;894:38">Dynamic Partitioning Binding Command Finish Event Header Registers</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:69;899:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:120;902:38">Bit 0 - Event Status. 0 - No event; 1 - Event happened, (RW1C)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:121;905:38">Bit 1:4 - Event Handle Attributes, (RW)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:122;908:38">Bit 1 - Logged in Firmware Event Log Module</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:123;911:38">Bit 2 - Printed into Debug Console.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:124;914:38">Bit 3 - Report to sideband or in-band management host based on Event Report Control Register.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:125;917:38">Bit 4 - Reserved.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:126;920:38">Bit 5:12 - Number of times event has occurred since the last time this event was cleared, (RO)</p>
+                  </entry>
+               </row>
+               <row pmc_switch="Advanced Encl_mgmt Fanout" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:24;926:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:70;930:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:127;933:38">0x0170</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:71;938:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:128;941:38">Dynamic Partitioning Binding Command Finish Event Data Registers</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:72;946:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:129;949:38">Bit 0:159, Logical port bitmask. When a bit is set, it means there is "Dynamic partitioning MRPC binding command finish" event in corresponding logical port, (RO)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:25;955:44">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:73;959:42">0x0184</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:74;963:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:130;966:38">Reserved</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:75;971:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:131;974:38">Reserved for future use.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:26;980:44">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:76;984:42">0x0364</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:77;988:42">Custom Event Register</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:78;992:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:132;995:38">Reserved for customers to implement up to 6 vendor-specific events, 24 bytes per event.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " pmc_switch="Encl_mgmt" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:27;1001:44">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:79;1005:42">0x03F4</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:80;1009:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:133;1012:38">Reserved</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:81;1017:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:134;1020:38">Reserved</p>
+                  </entry>
+               </row>
+               <row pmc_switch="Fanout Fanout-L Fanout-LI" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="row:28;1026:42">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:82;1030:42">0x16C - 0x3FF</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:83;1034:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:135;1037:38">Reserved</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="entry:84;1042:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\Partition_Config.xml" xtrc="p:136;1045:38">Reserved</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

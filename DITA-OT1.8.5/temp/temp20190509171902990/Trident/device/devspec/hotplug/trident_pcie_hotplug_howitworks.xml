@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\hotplug?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/hotplug/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_c3eb6b4a7e8441ff--25340189-15fe4f6282f--7f34" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="title:1;14:26">How it works - PCIe Hot-plug</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:1;20:21">This section will cover specific Switchtec handling and behavior over various configurations as well as cover examples on configuring recommended/validated hot-plug configurations. The officially supported Switchtec configurations for hot-plug are as follows:</p>
+      <table id="table_Supported_Hot_Plug_Configurations_in_Swi_8j3dlg0ue" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="table:1;24:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="title:2;27:32">Supported Hot Plug Configurations in Switchtec</title>
+         <tgroup cols="7" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="tgroup:1;31:34">
+            <colspec colname="col1" colnum="1" colwidth="70*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:1;37:40"/>
+            <colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:2;43:40"/>
+            <colspec colname="col3" colnum="3" colwidth="50*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:3;49:40"/>
+            <colspec colname="col4" colnum="4" colwidth="50*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:4;55:40"/>
+            <colspec colname="col5" colnum="5" colwidth="50*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:5;61:40"/>
+            <colspec colname="col6" colnum="6" colwidth="200*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:6;67:40"/>
+            <colspec colname="col7" colnum="7" colwidth="200*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="colspec:7;73:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="thead:1;76:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="row:1;79:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:1;83:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:2;86:36"> Config</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:2;91:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:3;94:36">PRSNT# or IFDET#<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:1;96:43">1</sup>
+                     </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:3;102:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:4;105:36">DSP PERST# </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:4;110:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:5;113:36">Power Ctrlr </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:5;118:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:6;121:36">Attn Btn</p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:6;126:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:7;129:36">Description </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:7;134:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:8;137:36">Limitations </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="tbody:1;143:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="row:2;146:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:8;150:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:9;153:36"> Surprise (A)</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:9;158:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:10;161:37"> Defined</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:10;166:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:11;169:37">Defined</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:11;174:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:12;177:37">Defined </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:12;182:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:13;185:37">- </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:13;190:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:14;193:37">The host is given visibility to control power as well as interrupts related to presence. Fundamental reset is propagated by the switch when the host asserts it on the switch USP.</p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:14;198:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:15;201:37">No major limitations </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="row:3;206:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:15;210:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:16;213:37"> Surprise (B)</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:16;218:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:17;221:37"> Defined</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:17;226:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:18;229:37">Defined</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:18;234:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:19;237:37">- </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:19;242:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:20;245:37">- </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:20;250:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:21;253:37">This configuration removes power control from the host and "assumes" power is always enabled, or enabled outside of the switch. </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:21;258:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:22;261:37">If power to the Endpoints is handled outside of switch, it must be stable by the time switch releases PERST# </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="row:4;266:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:22;270:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:23;273:37"> Surprise (NSB)</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:23;278:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:24;281:37">- </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:24;286:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:25;289:37">- </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:25;294:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:26;297:37">- </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:26;302:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:27;305:37">- </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:27;310:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:28;313:37">This is also known as the "<b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="b:1;315:39">no sideband</b>" configuration. In this configuration, no PCIe sidebands are defined and the switch processes hot-plug purely based on link states </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:28;320:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:29;323:37">This configuration relies entirely on LTSSM states to report hot-plug events. As a result the following features are not supported due to the inability for a device to be added to a port that is powered down and unable to link-up:</p>
+                     <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="ul:1;326:38">
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="li:1;329:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:30;332:43">ASPM L1</p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="li:2;336:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:31;339:43">D3Hot </p>
+                        </li>
+                        <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="li:3;343:41">
+                           <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:32;346:43">PME_TURN_OFF<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:2;348:49">2</sup> 
+                           </p>
+                        </li>
+                     </ul>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:33;354:37">Lack of PERST# to Endpoints also means the Endpoints need a power-on self-reset circuit to ensure that it can reach Linkup after insert or power up.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="row:5;359:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:29;363:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:34;366:37"> Managed</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:30;371:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:35;374:37"> Defined</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:31;379:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:36;382:37">Defined</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:32;387:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:37;390:37">Defined</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:33;395:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:38;398:37">Defined</p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:34;403:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:39;406:37">This is the only supported configuration for use with <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="b:2;408:39">Managed hot-plug</b>. Other pins can be defined optionally but the pins defined here are required.</p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="entry:35;413:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:40;416:37">The minimum pins required to support managed hot-plug are: PRSNT#, PERST#, Power Controller, and Attention Button. There are other pins which are useful for managed hot-plug such as LED indicators for power and attention as well as manual retention latch and electromechanical lock. These other pins are optional.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="note:1;424:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:41;427:25">
+            <sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:3;430:31">1</sup> - Presence is defined in U.2 connectors as IFDET# for NVMe. The PRSNT# pin in U.2 is used instead to indicate drive type.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:42;433:25">
+            <sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:4;436:31">2</sup> - PME_TURN_OFF messages are automatically ignored at the switch USP and not forwarded to the switch DSPs when running configuration: Surprise (NSB)</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:43;439:25">
+            <sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:5;442:31">3</sup> - Other sideband pins such as Attention LED, Power LED, Manual Retention Latch, etc, can be defined and the switch will link them to their associated capability and control configuration space registers</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:44;445:25">
+            <sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="sup:6;448:31">4</sup> - For configurations involving combinations of PRSNT#, PERST#, power controller, and attention button that are not covered in this table, contact your MSCC support team for assistance</p>
+      </note>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="section:1;452:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="title:3;455:32">Optional hot-plug pins</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="p:45;458:25">Switchec supports many other hot-plug related sideband pins which are entirely optional and handled independently. For more information on the full list of hot-plug related signals defined in the PCIe Connector Settings block of the Switchtec configuration file, please see <xref href="trident_pcie_hotplug_configuring.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_howitworks.xml" xtrc="xref:1;461:34" type="topic"><?ditaot gentext?>Configuring Hot Plug</xref>.</p>
+      </section>
+   </body>
+</topic>

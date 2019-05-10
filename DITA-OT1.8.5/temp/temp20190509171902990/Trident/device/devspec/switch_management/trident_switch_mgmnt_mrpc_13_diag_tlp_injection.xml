@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\switch_management?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/switch_management/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="Saratoga" id="TLP_INJECT" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="title:1;14:26">TLP Injection Command</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:1;20:21">Raw TLP Injection is a pure FW based diagnostic feature which injects a TLP into the PCI Express system. The user is required to manually input the TLP Header, Payload data and the destination port. If ECRC is required, the user can enable it.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:2;23:21">MRPC Command ID: 0x0D</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="table:1;26:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="title:2;29:32">TLP Injection Sub-Commands Return Value</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="tgroup:1;33:34">
+            <colspec colname="col1" colnum="1" colwidth="238*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="colspec:1;39:40"/>
+            <colspec colname="col2" colnum="2" colwidth="762*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="colspec:2;45:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="thead:1;48:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:1;51:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:1;55:41">Return Value</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:2;59:41">Description</entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="tbody:1;64:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:2;67:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:3;71:41">0x00000000</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:4;75:41">COMMAND SUCCEED</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:3;79:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:5;83:41">0x00050001</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:6;87:41">TLP Type Invalid</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:4;91:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:7;95:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:3;98:36">0x00050002</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:8;103:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:4;106:36">HW Busy</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:5;111:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:9;115:41">0x00050003</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:10;119:42">TLP Size Over</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="table:2;126:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="title:3;129:32">Raw TLP Injection Command Input Data</title>
+         <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="tgroup:2;133:34">
+            <colspec colname="col1" colnum="1" colwidth="240*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="colspec:3;139:40"/>
+            <colspec colname="col2" colnum="2" colwidth="378*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="colspec:4;145:40"/>
+            <colspec colname="col3" colnum="3" colwidth="382*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="colspec:5;151:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="thead:2;154:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:6;157:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:11;161:42">Offset / DW #</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:12;165:42">Description</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:13;169:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:5;172:36">Value</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="tbody:2;178:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:7;181:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:14;185:42">0x0000</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:15;189:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:6;192:36">DEST_PORT</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:16;197:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:7;200:36">0 - 55</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:8;205:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:17;209:42">0x0004</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:18;213:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:8;216:36">TLP_TYPE</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:19;221:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:9;224:36">0:P,1:NP,2:CP</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:9;229:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:20;233:42">0x0008</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:21;237:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:10;240:37">TLP_LENGTH</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:22;245:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:11;248:38"/>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:10;253:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:23;257:42">0x000c</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:24;261:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:12;264:37">ECRC</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:25;269:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:13;272:37">0:Disable,1:Enable</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:11;277:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:26;281:42">0x0010</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:27;285:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:14;288:37">RAW_TLP_DW_0</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:28;293:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:15;296:38"/>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:12;301:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:29;305:42">0x0014</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:30;309:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:16;312:37">RAW_TLP_DW_1</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:31;317:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:17;320:38"/>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="row:13;325:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:32;329:42">...</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:33;333:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:18;336:37">...</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="entry:34;341:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:19;344:37">...</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:20;352:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="b:1;356:24">DEST_PORT</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:21;360:22">Destination port this TLP is forwarded to.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:22;363:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="b:2;367:24">TLP_TYPE</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:23;371:22">TLP type. “0” means Posted TLP. “1” means Non-posted TLP. “2” means Completion.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:24;374:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="b:3;378:24">TLP_LENGTH</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:25;382:22">TLP length in DWs.</p>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="note:1;385:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:26;388:25">Injecting TLPs with a length error is not supported.</p>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:27;392:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="b:4;396:24">ECRC</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:28;400:22">“0” means ECRC enabled. “1” means ECRC disabled.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:29;403:22">
+         <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="b:5;407:24">RAW_TLP_DW_x</b>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:30;411:22">Raw TLP to inject.</p>
+   </body>
+   <topic id="MRPC_13_TLPInject" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="topic:2;418:26">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="title:4;421:29">Example for TLP Injection Command</title>
+      <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="body:2;424:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:31;427:25">
+            <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="ol:1;430:29">
+               <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="li:1;433:32">Send MWr64 TLP with 2 DWs data to port 48, ECRC enabled<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:32;435:34">
+                     <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="cmdname:1;438:48">Write address 0 with data: 48 0 6 1 0x02800060 0xff000000 0x00000010 0x040000ff 0x11223344 0x55667788</cmdname>
+                  </p>
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:33;442:34">
+                     <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="cmdname:2;445:48">Write address 2048 with data: 13</cmdname>
+                  </p>
+               </li>
+               <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="li:2;450:32">Send MWr64 TLP with 2DWs and bad ECRC to port 16<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:34;452:34">
+                     <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="cmdname:3;455:48">Write address 0 with data: 16 0 7 0 0x02800060 0xff000000 0x00000010 0x040000ff 0x11223344 0x55667788 0xdeadbeef</cmdname>
+                  </p>
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="p:35;459:34">
+                     <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\switch_management\trident_switch_mgmnt_mrpc_13_diag_tlp_injection.xml" xtrc="cmdname:4;462:48">Write address 2048 with data: 13</cmdname>
+                  </p>
+               </li>
+            </ol>
+         </p>
+      </body>
+   </topic>
+</topic>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\port?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/port/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="LTSSM_RECV_LOCK_TIME_US" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="topic:1;2:795">
+  <title id="LTSSM_RECV_LOCK_TIME_US" class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="title:1;3:182">Time in Recovery Before Triggering Link
+  Down</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="body:1;6:150">
+    <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="simpletable:1;7:173">
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="strow:1;8:157">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="stentry:1;9:165"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="b:1;9:311">Field Size</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="stentry:2;11:165">4B</stentry>
+      </strow>
+
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="strow:2;14:157">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="stentry:3;15:165"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="b:2;15:311">Value Range</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="stentry:4;17:165">0x3E8 - 0xFFFFFFFF(us) </stentry>
+      </strow>
+    </simpletable>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="p:1;21:143">For the No Sideband Hot-Plug mechanism,this field is used as the
+    indicator for a hot-remove event.Thevalue is expressed in μS, default
+    value is 5000. </p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="p:2;25:143"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_time_in_recovery_before_link_down.xml" xtrc="b:3;25:289">Note:</b> Never set this field to be less than 1000 (0x3E8). With
+    the exception of the special value 0, which will disable the No Sideband
+    Hot-Plug mechanism.</p>
+  </body>
+</topic>

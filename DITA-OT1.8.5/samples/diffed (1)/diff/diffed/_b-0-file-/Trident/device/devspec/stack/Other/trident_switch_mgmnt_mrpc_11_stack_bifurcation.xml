@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "/SysSchema/dita/dtd/technicalContent/dtd/topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="MRPC_StkBif" xml:lang="en-US">
+  <title>Dynamic Port Bifurcation Command</title>
+
+  <body>
+    <p>MRPC Command ID: 0x0B</p>
+
+    <p>The Dynamic Port Bifurcation Command is used to dynamically set the
+    bifurcation of the unbound physical port.</p>
+
+    <p>It has the following sub-commands:</p>
+
+    <ul>
+      <li><p><xref href="#MRPC_StkBif/section_Get_Stack_Bifurcation_Sub-Command_1j1hjbjmc">Get
+      Stack Bifurcation</xref>, and</p></li>
+
+      <li pmc_switch="Advanced Encl_mgmt Fanout"><p><xref href="#MRPC_StkBif/section_Set_Stack_Bifurcation_Sub-Command_6j1hjbjmd">Set
+      Stack Bifurcation </xref></p></li>
+    </ul>
+
+    <note><ol>
+        <li><p>Dynamic Bifurcation applies to DSP ports only. USP ports cannot
+        be dynamically bifurcated.</p></li>
+
+        <li><p>(For more information on binding and unbinding physical ports,
+        see <xref href="trident_dynamic_partitioning_overview.xml"/>
+        .)</p></li>
+      </ol></note>
+
+    <p><table audience="MSCCInternal" id="table_MRPC_Dynamic_Bifurcation_Command_Input_D_0j1hjbjmc">
+        <title>MRPC Dynamic Bifurcation Command Input Data</title>
+
+        <tgroup cols="5">
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry>Offset / Byte #</entry>
+
+              <entry>0</entry>
+
+              <entry><p>1</p></entry>
+
+              <entry><p>2</p></entry>
+
+              <entry><p>3</p></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>0x0000</entry>
+
+              <entry>Sub-Command</entry>
+
+              <entry><p>Sub-Option</p></entry>
+
+              <entry><p>Sub-Option</p></entry>
+
+              <entry><p>Sub-Option</p></entry>
+            </row>
+
+            <row>
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_Firmware_Download_Command_Toggle_Input_D_1biw6mwewm">
+        <title>Dynamic Bifurcation Command Input Data</title>
+
+        <tgroup cols="6">
+          <colspec colname="_1" colwidth="105*"/>
+
+          <colspec colname="_2" colwidth="195*"/>
+
+          <colspec colname="_3" colwidth="188*"/>
+
+          <colspec colname="_4" colwidth="183*"/>
+
+          <colspec colname="_5" colwidth="207*"/>
+
+          <colspec colname="_6" colwidth="122*"/>
+
+          <thead>
+            <row>
+              <entry align="center" nameend="_6" namest="_1"><b>MRPC Input
+              Data</b></entry>
+            </row>
+
+            <row>
+              <entry><b>Offset (Byte)</b></entry>
+
+              <entry nameend="_3" namest="_2"><b>Bit 31</b></entry>
+
+              <entry align="right" nameend="_5" namest="_4"><b>Bit
+              0</b></entry>
+
+              <entry>Dword</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x0000</p></entry>
+
+              <entry align="center"><p>Sub-Option</p></entry>
+
+              <entry align="center"><p>Sub-Option</p></entry>
+
+              <entry align="center"><p>Sub-Option</p></entry>
+
+              <entry align="center"><p>Sub Command </p></entry>
+
+              <entry><p>DW00</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p>
+
+    <p><b otherprops="bold">Sub-Command</b></p>
+
+    <p>The Sub-Command codes include: <ul>
+        <li>0x0 - Get Stack Bifurcation</li>
+
+        <li>0x1 - Set Stack Bifurcation</li>
+
+        <li>All others reserved</li>
+      </ul></p>
+
+    <p><b otherprops="bold">Sub-Option</b></p>
+
+    <p>These arguments change depending on the sub command,
+    as shown in the table below.</p>
+
+    <p><table id="table_MRPC_Dynamic_Partition_Command_Return_Va_1ihqrkm7c">
+        <title>Dynamic Bifurcation Command Return Values</title>
+
+        <tgroup cols="2">
+          <colspec colwidth="238*"/>
+
+          <colspec colwidth="762*"/>
+
+          <thead>
+            <row>
+              <entry>Return Value</entry>
+
+              <entry>Description</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x00000000</p></entry>
+
+              <entry><p>Command Succeed</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x00054003</p></entry>
+
+              <entry><p>Invalid Stack ID</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x00054040</p></entry>
+
+              <entry><p>Invalid Sub Command</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x00054042</p></entry>
+
+              <entry><p>Invalid Bifurcation Code</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x00054043</p></entry>
+
+              <entry><p>Port Has Been Bound</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p>
+
+    <section id="section_Get_Stack_Bifurcation_Sub-Command_1j1hjbjmc"><title>Dynamic
+    Port Bifurcation—Get Stack Bifurcation Sub-Command</title><p>The Get Stack
+    Bifurcation Sub- Command is used to get the bifurcation information of a
+    stack.</p><p><table audience="MSCCInternal" id="table_Get_Stack_Bifurcation_Command_Input_Data_2j1hjbjmc">
+        <title>Get Stack Bifurcation Command Input Data</title>
+
+        <tgroup cols="5">
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry>Offset / Byte #</entry>
+
+              <entry>0</entry>
+
+              <entry><p>1</p></entry>
+
+              <entry><p>2</p></entry>
+
+              <entry><p>3</p></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>0x0000</entry>
+
+              <entry>Sub-Command (0)</entry>
+
+              <entry><p>Stack ID</p></entry>
+
+              <entry nameend="_5" namest="_4"><p>Reserved</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><table id="table_Firmware_Download_Command_Toggle_Input_D_1biw6mwewm">
+        <title>Get Stack Bifurcation Command Input Data</title>
+
+        <tgroup cols="6">
+          <colspec colname="_1" colwidth="105*"/>
+
+          <colspec colname="_2" colwidth="195*"/>
+
+          <colspec colname="_3" colwidth="188*"/>
+
+          <colspec colname="_4" colwidth="183*"/>
+
+          <colspec colname="_5" colwidth="207*"/>
+
+          <colspec colname="_6" colwidth="122*"/>
+
+          <thead>
+            <row>
+              <entry align="center" nameend="_6" namest="_1"><b>MRPC Input
+              Data</b></entry>
+            </row>
+
+            <row>
+              <entry><b>Offset (Byte)</b></entry>
+
+              <entry nameend="_3" namest="_2"><b>Bit 31</b></entry>
+
+              <entry align="right" nameend="_5" namest="_4"><b>Bit
+              0</b></entry>
+
+              <entry>Dword</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x0000</p></entry>
+
+              <entry align="center"><p>Reserved</p></entry>
+
+              <entry align="center"><p>Reserved</p></entry>
+
+              <entry align="center"><p>Stack ID</p></entry>
+
+              <entry align="center"><p>Sub Command (0)</p></entry>
+
+              <entry><p>DW00</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><p><b>Stack ID</b></p><p>The ID of the stack.</p><p><b>MRPC
+    Return Code</b></p><p>"Invalid Stack ID" or "Command Succeed"</p><p><table audience="MSCCInternal" id="table_Get_Stack_Bifurcation_Command_Output_Dat_3j1hjbjmd">
+        <title>Get Stack Bifurcation Command Output Data</title>
+
+        <tgroup cols="5">
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry>Offset / Byte #</entry>
+
+              <entry>0</entry>
+
+              <entry><p>1</p></entry>
+
+              <entry><p>2</p></entry>
+
+              <entry><p>3</p></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>0x0000</entry>
+
+              <entry>Sub-Command (0)</entry>
+
+              <entry><p>Stack ID</p></entry>
+
+              <entry nameend="_5" namest="_4"><p>Reserved</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry nameend="_5" namest="_2">Stack Bifurcation Code</entry>
+            </row>
+
+            <row>
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_Firmware_Download_Command_Toggle_Input_D_1biw6mwewm">
+        <title>Get Stack Bifurcation Command Output Data</title>
+
+        <tgroup cols="6">
+          <colspec colname="_1" colwidth="197*"/>
+
+          <colspec colname="_2" colwidth="65*"/>
+
+          <colspec colname="_3" colwidth="112*"/>
+
+          <colspec colname="_4" colwidth="130*"/>
+
+          <colspec colname="_5" colwidth="292*"/>
+
+          <colspec colname="_6" colwidth="204*"/>
+
+          <thead>
+            <row>
+              <entry align="center" nameend="_6" namest="_1"><b>MRPC Output
+              Data</b></entry>
+            </row>
+
+            <row>
+              <entry><b>Offset (Byte)</b></entry>
+
+              <entry nameend="_3" namest="_2"><b>Bit 31</b></entry>
+
+              <entry align="right" nameend="_5" namest="_4"><b>Bit
+              0</b></entry>
+
+              <entry>Dword</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x0000</p></entry>
+
+              <entry align="center" nameend="_3" namest="_2"><p>Reserved</p></entry>
+
+              <entry align="center"><p>Stack ID</p></entry>
+
+              <entry align="center"><p>Sub Command (0)</p></entry>
+
+              <entry><p>DW00</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry align="center" nameend="_5" namest="_2"><p>Stack
+              Bifurcation Code</p></entry>
+
+              <entry><p>DW01</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p><b>Stack ID</b></p><p>The ID of the stack.</p><p><b>Stack
+    Bifurcation Code</b></p><p>The bifurcation code is UINT32. Each four bits
+    are used to specify ports in the stack.</p><p><table id="table_4j1hjbjmd">
+        <tgroup cols="9">
+          <colspec/>
+
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry><p>Bits</p></entry>
+
+              <entry>0-3</entry>
+
+              <entry>4-7</entry>
+
+              <entry><p>8-11</p></entry>
+
+              <entry><p>12-15</p></entry>
+
+              <entry><p>16-19</p></entry>
+
+              <entry>20-23</entry>
+
+              <entry>24-27</entry>
+
+              <entry>28-31</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>Port ID</p></entry>
+
+              <entry>Port ID 0</entry>
+
+              <entry>Port ID 1</entry>
+
+              <entry><p>Port ID 2</p></entry>
+
+              <entry><p>Port ID 3</p></entry>
+
+              <entry>Port ID 4</entry>
+
+              <entry>Port ID 5</entry>
+
+              <entry>Port ID 6</entry>
+
+              <entry>Port ID 7</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p>The valid value for each port in the stack. For more
+    information, see the table below.</p><p><table id="table_Stack_Bifurcation_Code_and_Valid_Port_ID_5j1hjbjmd">
+        <title>Stack Bifurcation Code and Valid Port IDs</title>
+
+        <tgroup cols="3">
+          <colspec/>
+
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <thead>
+            <row>
+              <entry>Stack Bifurcation Code</entry>
+
+              <entry>Description</entry>
+
+              <entry>Valid Port IDs</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>8</entry>
+
+              <entry>x16</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>4</entry>
+
+              <entry>x8</entry>
+
+              <entry>0, 4</entry>
+            </row>
+
+            <row>
+              <entry>2</entry>
+
+              <entry>x4</entry>
+
+              <entry>0, 2, 4, 6</entry>
+            </row>
+
+            <row>
+              <entry>1</entry>
+
+              <entry>x2</entry>
+
+              <entry>0, 1, 2, 3, 4, 5, 6, 7</entry>
+            </row>
+
+            <row>
+              <entry><p>f </p></entry>
+
+              <entry><p>x1</p></entry>
+
+              <entry><p>0, 1, 2, 3, 4, 5, 6, 7</p></entry>
+            </row>
+
+            <row>
+              <entry>0</entry>
+
+              <entry>Disable the port</entry>
+
+              <entry>0, 1, 2, 3, 4, 5, 6, 7</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><note>The Port ID mentioned here is different than the
+    Physical Port ID which can uniquely identify the port. The Port ID here
+    refers to ports in the same stack. For example, 0 means the 1st physical
+    port in the stack; 4 means the 5th physical port in the
+    stack.</note><p>Bifurcation code example: 0x11020004 gets/sets the 1st
+    port to x8, 5th port to x4, 7th port to x2 and 8th port to x2. The other
+    ports are disabled.</p></section>
+
+    <section id="section_Set_Stack_Bifurcation_Sub-Command_6j1hjbjmd" pmc_switch="Advanced Encl_mgmt Fanout"><title>Dynamic Port Bifurcation—Set
+    Stack Bifurcation Sub-Command</title><p>The Set Stack Bifurcation
+    Sub-Command is used to set the bifurcation to a stack.</p><p><table audience="MSCCInternal" id="table_Set_Stack_Bifurcation_Command_Input_Data_7j1hjbjmd">
+        <title>Set Stack Bifurcation Command Input Data</title>
+
+        <tgroup cols="5">
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry>Offset / Byte #</entry>
+
+              <entry>0</entry>
+
+              <entry><p>1</p></entry>
+
+              <entry><p>2</p></entry>
+
+              <entry><p>3</p></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>0x0000</entry>
+
+              <entry>Sub-Command (0)</entry>
+
+              <entry><p>Stack ID</p></entry>
+
+              <entry nameend="_5" namest="_4"><p>Reserved</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry nameend="_5" namest="_2">New Stack Bifurcation
+              Code</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_Firmware_Download_Command_Toggle_Input_D_1biw6mwewm">
+        <title>Set Stack Bifurcation Command Input Data</title>
+
+        <tgroup cols="6">
+          <colspec colname="_1" colwidth="197*"/>
+
+          <colspec colname="_2" colwidth="65*"/>
+
+          <colspec colname="_3" colwidth="112*"/>
+
+          <colspec colname="_4" colwidth="130*"/>
+
+          <colspec colname="_5" colwidth="292*"/>
+
+          <colspec colname="_6" colwidth="204*"/>
+
+          <thead>
+            <row>
+              <entry align="center" nameend="_6" namest="_1"><b>MRPC Input
+              Data</b></entry>
+            </row>
+
+            <row>
+              <entry><b>Offset (Byte)</b></entry>
+
+              <entry nameend="_3" namest="_2"><b>Bit 31</b></entry>
+
+              <entry align="right" nameend="_5" namest="_4"><b>Bit
+              0</b></entry>
+
+              <entry>Dword</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x0000</p></entry>
+
+              <entry align="center" nameend="_3" namest="_2"><p>Reserved</p></entry>
+
+              <entry align="center"><p>Stack ID</p></entry>
+
+              <entry align="center"><p>Sub Command (1)</p></entry>
+
+              <entry><p>DW00</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry align="center" nameend="_5" namest="_2"><p>New Stack
+              Bifurcation Code</p></entry>
+
+              <entry><p>DW01</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p><b>Stack ID</b></p><p>The ID of the stack.</p><p><b>New
+    Stack Bifurcation Code</b></p><p>The new bifurcation setting to the stack.
+    See the description of the Bifurcation Code above.</p><p>For unused ports
+    in the stack, the corresponding bifurcation code is ignored and treated as
+    "0".</p><p><b>MRPC Return Code</b></p><p>The MRPC Return codes can
+    be:</p><ul>
+        <li><p>Invalid Stack ID</p></li>
+
+        <li><p>Invalid Bifurcation Code</p></li>
+
+        <li><p>Port Has Been Bound </p></li>
+
+        <li><p>Command Succeed</p></li>
+      </ul><p><table audience="MSCCInternal" id="table_Set_Stack_Bifurcation_Command_Output_Dat_8j1hjbjmd">
+        <title>Set Stack Bifurcation Command Output Data</title>
+
+        <tgroup cols="5">
+          <colspec/>
+
+          <colspec colname="_2"/>
+
+          <colspec colname="_3"/>
+
+          <colspec colname="_4"/>
+
+          <colspec colname="_5"/>
+
+          <thead>
+            <row>
+              <entry>Offset / Byte #</entry>
+
+              <entry>0</entry>
+
+              <entry><p>1</p></entry>
+
+              <entry><p>2</p></entry>
+
+              <entry><p>3</p></entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>0x0000</entry>
+
+              <entry>Sub-Command (0)</entry>
+
+              <entry><p>Stack ID</p></entry>
+
+              <entry nameend="_5" namest="_4"><p>Reserved</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry nameend="_5" namest="_2">Stack Bifurcation Code</entry>
+            </row>
+
+            <row>
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+
+              <entry>...</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table><table id="table_Firmware_Download_Command_Toggle_Input_D_1biw6mwewm">
+        <title>Set Stack Bifurcation Command Output Data</title>
+
+        <tgroup cols="6">
+          <colspec colname="_1" colwidth="197*"/>
+
+          <colspec colname="_2" colwidth="65*"/>
+
+          <colspec colname="_3" colwidth="112*"/>
+
+          <colspec colname="_4" colwidth="130*"/>
+
+          <colspec colname="_5" colwidth="292*"/>
+
+          <colspec colname="_6" colwidth="204*"/>
+
+          <thead>
+            <row>
+              <entry align="center" nameend="_6" namest="_1"><b>MRPC Output
+              Data</b></entry>
+            </row>
+
+            <row>
+              <entry><b>Offset (Byte)</b></entry>
+
+              <entry nameend="_3" namest="_2"><b>Bit 31</b></entry>
+
+              <entry align="right" nameend="_5" namest="_4"><b>Bit
+              0</b></entry>
+
+              <entry>Dword</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry><p>0x0000</p></entry>
+
+              <entry align="center" nameend="_3" namest="_2"><p>Reserved</p></entry>
+
+              <entry align="center"><p>Stack ID</p></entry>
+
+              <entry align="center"><p>Sub Command (1)</p></entry>
+
+              <entry><p>DW00</p></entry>
+            </row>
+
+            <row>
+              <entry><p>0x0004</p></entry>
+
+              <entry align="center" nameend="_5" namest="_2"><p>Stack
+              Bifurcation Code</p></entry>
+
+              <entry><p>DW01</p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p><p><b>Stack ID</b></p><p>The ID of the stack.</p><p><b>Stack
+    Bifurcation Code</b></p><p>The current Bifurcation Code of the
+    stack.</p><p>For more information on description of the Bifurcation Code,
+    see the table <xref href="#MRPC_StkBif/table_Stack_Bifurcation_Code_and_Valid_Port_ID_5j1hjbjmd">
+    </xref>.</p></section>
+  </body>
+</topic>

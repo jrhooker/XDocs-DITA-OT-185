@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\pinout?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/pinout/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_pinout_sgpio" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="title:1;14:26">SGPIO Pins</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="body:1;17:24">
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="table:1;20:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="title:2;23:32">Serial General Purpose I/O (SGPIO) Description</title>
+         <tgroup cols="3" colsep="1" rowsep="1" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="tgroup:1;29:34">
+            <colspec colname="col1" colnum="1" align="left" colwidth="2in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:1;36:40"/>
+            <colspec colname="col2" colnum="2" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:2;42:40"/>
+            <colspec colname="col3" colnum="3" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:3;48:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="thead:1;51:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:1;54:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:1;58:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:1;61:36"> Signal Name </b>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:2;66:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:2;69:36"> Type </b>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:3;74:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:3;77:36"> Function </b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="tbody:1;83:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:2;86:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:4;90:41">SGPIO_SCLOCK<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="sup:1;92:40">2</sup>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:5;97:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:1;100:36">3.3V Tolerant Digital Schmitt Trigger Input </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:2;103:36">and </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:3;106:36">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:6;111:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:4;114:36">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:4;117:39">Serial GPIO</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:5;120:39"> Clock Timer </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:5;124:36">The rising edge of SCLOCK is used to transmit changes in SLOAD and SDATAOUT. The falling edge of SCLOCK is used to latch changes in SDATAIN. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:6;127:36">This pin is an output on the initiator and an input on the target</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:3;132:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:7;136:41">SGPIO_SLOAD<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="sup:2;138:40">2</sup>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:8;143:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:7;146:36">3.3V Tolerant Digital Schmitt Trigger Input</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:8;149:36">and</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:9;152:36">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:9;157:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:10;160:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:6;163:39">Serial GPIO</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:7;166:39"> Load Trigger </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:11;170:37">The SLOAD signal indicates when a bit stream is ending and being restarted. The clock that SLOAD is asserted at is the last clock of a bit stream. After SLOAD is set to 1, the next 4 bits on SLOAD contain a vendor-specific pattern. Following that, SLOAD is set to 0 until the bit stream is to be restarted. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:12;173:37">This pin is an output on the initiator and an input on the target</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:4;178:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:10;182:42">SGPIO_SDATAIN<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="sup:3;184:40">2</sup>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:11;189:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:13;192:37">3.3V Tolerant Digital Schmitt Trigger Input</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:14;195:37">and</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:15;198:37">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:12;203:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:16;206:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:8;209:39">Serial GPIO</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:9;212:39"> Shift Input </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:17;216:37">SDATAIN pin carries input bits associated with each port. It is intended to report information such as drive presence detection. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:18;219:37">SDATAIN is sampled on the falling edge of SGPIO SCLOCK. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:19;222:37">This pin is an input on the initiator and an output on the target</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:5;227:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:13;231:42">SGPIO_SDATAOUT<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="sup:4;233:40">2</sup>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:14;238:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:20;241:37">3.3V Tolerant Digital Schmitt Trigger Input</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:21;244:37">and</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:22;247:37">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:15;252:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:23;255:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:10;258:40">Serial GPIO</b>
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:11;261:40"> Shift Output </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:24;265:37">SDATAOUT pin carries output bits associated with each port. It is intended to control LEDs (e.g., activity, fault, and locate LEDs). There are 3 output data bits per port. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:25;268:37">When the rising edge of SGPIO SCLOCK occurs, the shift register advances and SDATAOUT is updated. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:26;271:37">This pin is an output on the initiator and an input on the target</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="table:2;279:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="title:3;282:32">Timer Pulse (TP) Description</title>
+         <tgroup cols="3" colsep="1" rowsep="1" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="tgroup:2;288:34">
+            <colspec colname="col1" colnum="1" align="left" colwidth="2in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:4;295:40"/>
+            <colspec colname="col2" colnum="2" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:5;301:40"/>
+            <colspec colname="col3" colnum="3" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="colspec:6;307:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="thead:2;310:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:6;313:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:16;317:42">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:12;320:37">Signal Name </b>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:17;325:42">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:13;328:37"> Type </b>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:18;333:42">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:14;336:37"> Function </b>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="tbody:2;342:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:7;345:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:19;349:42">TPIN</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:20;353:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:27;356:37">3.3V Tolerant Digital Schmitt Trigger Input</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:21;361:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:28;364:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:15;367:40">SGPIO Timer Pulse Input </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:29;371:37">By connecting the TPIN input to the TPOUT output of other Switchtec devices, the timers within the devices are synchronized. This synchronization lets the SGPIO LED controllers flash LED’s with the same temporal alignment. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:30;374:37">When this input is not used, it must be tied low. </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="row:8;379:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:22;383:42">TPOUT</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:23;387:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:31;390:37">3.3V Tolerant Digital Schmitt Trigger Input</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:32;393:37">and</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:33;396:37">Open-Drain Digital Output</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="entry:24;401:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:34;404:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="b:16;407:40">SGPIO Timer Pulse Output </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:35;411:37">The internal timer pulse output provides a free-running frame pulse to other Switchtec devices to allow SGPIO LED controllers to flash the LED’s with the same temporal alignment. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:36;414:37">The frame pulse toggles at the start of each 5-second time interval.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="note:1;422:27">
+         <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="ol:1;425:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="li:1;428:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:37;431:31"> Refer to <xref href="trident_gpio_multiplexing.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="xref:1;434:39" type="topic"><?ditaot usertext?>GPIO Multiplexing </xref> for details on configuring the switch to support this interface.</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="li:2;438:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:38;441:31">An external 2 kΩ pull-up resistor is required on all SGPIO_* pins when no device is driving logic 0.</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="li:3;445:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:39;448:31">See SFF-8485 for more details on SGPIO. </p>
+            </li>
+         </ol>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_sgpio.xml" xtrc="p:40;454:23"/>
+   </body>
+</topic>

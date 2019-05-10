@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\hotplug?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/hotplug/?><?path2project ..\?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="SYNEP_INSTANCE" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="title:1;14:26">Configure Synthetic EP</title>
+   <body id="SYNEP_INSTANCE" class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="body:1;18:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:1;21:21">In order to enable Synthetic EP for a DSP, the first step is to define a bunch of valid Synthetic EP instances.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:2;24:21">Synthetic EP instance can be configured using ChipLink with the following fields defined:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:3;27:21">1. Vendor ID and Device ID: identify the device vendor and device itself</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:4;30:21">2. Class Code: identify the device class category</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:5;33:21">3. Synthetic Time: the hold time of real hot-add events for host to handle the hot-remove events of Synthetic EP</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:6;36:21">4. 6 Bars with Prefetch/Non-Prefetch, 32/64 bit, and Bar size configurable: used to preserve the Memory resource</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:7;39:21">Note:</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:8;42:21">1. Only memory space is supported for Synthetic EP.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:9;45:21">2. The Synthetic Time should be tuned from OS, Hot-Plug type. The default Synthetic Time value is 2.5s, which has been tested against Ubuntu 16.04 and Windows Server 2016.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="p:10;48:22">3. The Bar with BAR Address Space Size set to 0 is considered as disabled.</p>
+      <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="fig:1;51:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="title:2;54:32">Synthetic EP define</title>
+         <image href="hotplug/synthet_ep_instance.PNG" width="5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\sar_synep_configure.xml" xtrc="image:1;60:33"/>
+      </fig>
+   </body>
+   
+   
+   
+   
+   
+   
+   
+   
+</topic>

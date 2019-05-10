@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\pinout?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/pinout/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_pinout_ejtag" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:1;14:26">JTAG/EJTAG Pins</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:1;20:21">EJTAG/JTAG TAP controller access pins. When in JTAG mode, the one and only IEEE P1149.1 JTAG Test Access Port (TAP) controller can be accessed. When in EJTAG mode, only EJTAG TAP controllers can be accessed.</p>
+      <section audience="MSCCInternal" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="section:1;24:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:2;27:32">Connectivity</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:2;30:24">EJTAG TAP controllers are daisy chained from the first to the last in the order as follows:</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:3;33:24">PCSs EJTAG devices(s) -&gt; CMUs EJTAG device(s)</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:4;36:24">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:1;39:27">PCSs EJTAG </b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:5;43:24">Devices : VPE0 -&gt; VPE1 -&gt; CM</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:6;46:24">ID : 0x1104_20CD</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:7;49:24">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:2;52:27">CMUs EJTAG </b>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:8;56:24">Devices : MIPS® 14K -&gt; USOC JTAG Communicator</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:9;59:24">ID : 0x1140_00CD</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:10;62:25">
+            <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="fig:1;65:31">
+               <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:3;68:38">EJTAG/JTAG Connectivity</title>
+               <image href="graphics/trident_jtag.svg" placement="inline" width="455" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="image:1;74:39"/>
+            </fig>
+         </p>
+      </section>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="table:1;80:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:4;83:32">JTAG Interface Pin Description</title>
+         <tgroup cols="4" colsep="1" rowsep="1" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="tgroup:1;89:34">
+            <colspec colname="col1" colnum="1" align="left" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="colspec:1;96:40"/>
+            <colspec colname="col2" colnum="2" colwidth="0.8in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="colspec:2;102:40"/>
+            <colspec colname="col3" colnum="3" colwidth="3.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="colspec:3;108:40"/>
+            <colspec colname="col4" colnum="4" colwidth="0.6in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="colspec:4;114:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="thead:1;117:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:1;120:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:1;124:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:3;127:36"> Signal Name </b>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:2;132:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:4;135:36"> Type </b>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:3;140:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:5;143:36"> Function </b>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:4;148:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:11;151:37">Reset State</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="tbody:1;157:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:2;160:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:5;164:41">TAP_SEL</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:6;168:41">1.8V Digital Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:7;172:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:12;175:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:6;178:39">Test Debug Mode </b> 
+                     </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:13;183:37">This signal is used to enable the JTAG port to operate as an EJTAG port for debug access to the internal MIPS® processor and memory. </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:14;187:37">This signal is used to enable the JTAG port to operate as an EJTAG port. The EJTAG port is provided as an optional source to flash firmware using the Green Hills Probe.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:15;190:37">Set this pin to logic:</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:16;193:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:7;196:39">1:</b> Select MIPS® EJTAG mode. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:17;199:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:8;202:39">0:</b> Select normal JTAG operation. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:18;205:37">This pin requires an external 4.7K pull up resistor.</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:8;210:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:19;213:37">High-Z</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:3;218:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:9;222:41">TCK</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:10;226:42">1.8V Schmitt Trigger Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:11;230:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:20;233:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:9;236:39">Test Access Port Clock </b> 
+                     </p> This pin requires an external 4.7K pull up resistor.<p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:21;240:37">This signal provides clock timing for test operations that are carried out using the test access port for EJTAG or the IEEE P1149.1 test access port.</p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:22;244:37">This signal provides clock timing for test operations that are carried out using the IEEE P1149.1 test access port. </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:12;249:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:23;252:37">High-Z</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:4;257:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:13;261:42">TMS</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:14;265:42">1.8V Digital Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:15;269:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:24;272:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:10;275:40">Test Access Mode Select </b> 
+                     </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:25;280:37">This signal controls the test operations that are carried out in the test access port for EJTAG or the IEEE P1149.1 test access port. </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:26;284:37">This signal controls the test operations that are carried out in the IEEE P1149.1 test access port.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:27;287:37">TMS is sampled on the rising edge of TCK. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:28;290:37">This pin requires an external 4.7K pull up resistor. </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:16;295:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:29;298:37">1</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:5;303:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:17;307:42">TDI</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:18;311:42">1.8V Digital Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:19;315:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:30;318:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:11;321:40">Test Access Data Input </b> 
+                     </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:31;326:37">When TAP_SEL is held: </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:32;330:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:12;333:40">High:</b> The test data input signal carries test data into the device instruction or selected data registers. </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:33;337:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:13;340:40">Low:</b> The test data input signal carries test data into the device via the IEEE P1149.1 test access port. </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:34;344:37">The test data input signal carries test data into the device via the IEEE P1149.1 test access port. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:35;347:37">TDI is sampled on the rising edge of TCK. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:36;350:37">This pin requires an external 4.7K pull up resistor. </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:20;355:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:37;358:37">1</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:6;363:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:21;367:42">TDO</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:22;371:42">1.8V Open Drain Output</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:23;375:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:38;378:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:14;381:40">Test Access Data Output </b> 
+                     </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:39;386:37">When TAP_SEL is held: </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:40;390:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:15;393:40">High:</b> The test data output signal carries test data out of the device instruction and data registers. </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:41;397:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:16;400:40">Low:</b> The test data output signal carries test data out of the device via the IEEE P1149.1 test access port. </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:42;404:37">The test data output signal carries test data out of the device via the IEEE P1149.1 test access port. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:43;407:37">TDO is updated on the falling edge of TCK. TDO is a tri-state output that is inactive except when shifting boundary scan data is in progress. </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:24;412:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:44;415:37">High-Z</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:7;420:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:25;424:42">TRSTB</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:26;428:42">1.8V Schmitt Trigger Digital Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:27;432:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:45;435:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:17;438:40">Active low Test Access Reset </b> 
+                     </p>
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:46;443:37">This signal provides an asynchronous device test access port reset for EJTAG or the IEEE P1149.1 test access port. </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:47;447:37">This signal provides an asynchronous device test access port reset for the IEEE P1149.1 test access port. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:48;450:37">For normal device operation, hold the TAP controller in its Test-Logic-Reset state by holding the TRSTB pin low. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:49;453:37">This pin has an internal pull-up. </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:50;456:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:18;459:40">Note</b> Recommend using a 2K or less pull down resistor on TRSTB. </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:28;464:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:51;467:37">1</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:8;472:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:29;476:42">EJ_RSTB</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:30;480:42">1.8V Schmitt Trigger Digital Input</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:31;484:42">
+                     <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:52;488:37"> 
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:19;491:40">Active low EJTAG Reset </b>
+                     </p>
+                     <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:53;496:37">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:20;499:40">Active low JTAG Reset </b>
+                     </p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:54;503:37">This signal provides an asynchronous warm reset for the device.</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:55;506:37">This pin requires an external 4.7K pull up resistor</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:32;511:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:56;514:37">High-Z</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="section:2;522:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:5;525:32">JTAG Compliance Pins</title> The following pins are compliance pins for boundary scan testing of the device. Each of these pins must be tied to the value specified in order to allow for correct boundary scan testing.<table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="table:2;527:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="title:6;530:35">JTAG Compliance pins</title>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="tgroup:2;534:37"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[2]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[2]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[2]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/section[2]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="tbody:2;541:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:9;544:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:33;548:45">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:21;551:40">Signal Name</b>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:34;556:45">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="b:22;559:40">Compliance value for boundary scan test</b>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="row:10;564:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:35;568:45">RSTB</entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="entry:36;572:45">0</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\pinout\trident_pinout_ejtag.xml" xtrc="p:57;580:23"/>
+   </body>
+</topic>

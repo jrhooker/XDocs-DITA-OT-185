@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/COMMON/Appnotes/Layout_Guide/ab_sas4_pcie4/?><?path2project ..\..\..\..\out\diffed\pdf\?><?path2project-uri ../../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="pcie_finger_pin_details" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="title:1;14:26">PCIe Edge Finger Routing and De-coupling Guideline</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:1;20:21">The following table shows the PCIe edge finger routing checklist:</p>
+      <table id="table_PCIe_Edge_Finger_Routing_Checklist_6jg3krn1j" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="table:1;24:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="title:2;27:32">PCIe Edge Finger Routing Checklist</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="tgroup:1;31:34">
+            <colspec colname="col1" colnum="1" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="colspec:1;37:40"/>
+            <colspec colname="col2" colnum="2" colwidth="5.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="colspec:2;43:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="thead:1;46:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:1;49:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:1;53:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:2;56:36"> Check</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:2;61:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:3;64:36">Guideline </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="tbody:1;70:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:2;73:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:3;77:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:4;80:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:4;85:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:5;88:36">All PCIe TX/RX lanes are routed to the board edge where PCIE finger pins are etched on</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:3;93:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:5;97:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:6;100:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:6;105:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:7;108:36">Void copper is required on all layers underneath the finger pins</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:4;113:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:7;117:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:8;120:37"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:8;125:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:9;128:36">GND vias for PCIe edge fingers should be no more than 15mils from the top of GND finger</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:5;133:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:9;137:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:10;140:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:10;145:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:11;148:37">Any unused fingers must be connected to a termination of 43.5 Ω in series with a 1 pF capacitor to GND</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:6;153:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:11;157:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:12;160:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:12;165:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:13;168:37">The add-in card device decouple value should average 0.01 μF per device Vcc pin (for all devices on the add-in card). </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:7;173:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:13;177:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:14;180:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:14;185:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:15;188:37">Trace characteristics between a decoupling capacitor and the power supply or ground via:</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:16;191:37">Minimum Width: 0.02 inches (0.508 mm)</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:17;194:37">Maximum Length: 0.20 inches (5.08 mm)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="row:8;199:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:15;203:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:18;206:38"/>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="entry:16;211:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:19;214:37">A bulk decoupling capacitor (greater than 10 μF) is recommended at the add-in card edge finger for each power supply. This bulk decoupling capacitor should be in close proximity to the add-in card device.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="note:1;222:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:20;225:25">Refer to the latest PCI Express Card Electromechanical Specification for more details.</p>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="p:21;229:22">The following figure shows the PCIe finger pin connections.</p>
+      <fig id="fig_PCIe_Finger_Pin_Connection_7jg3krn1j" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="fig:1;233:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="title:3;236:32">PCIe Finger Pin Connection</title>
+         <image href="../../../../NSG/Morristown/HWDG/graphics/PCIe_finger_pin_connection.png" placement="break" width="6in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\pcie_finger_pin_details.xml" xtrc="image:1;242:33"/>
+      </fig>
+   </body>
+</topic>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\partitions?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/partitions/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" id="PATCH_ENTRY_ADDR" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="topic:1;10:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="title:1;13:26">Patch Address</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="body:1;16:24">
+      <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="simpletable:1;19:41">
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="strow:1;22:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="stentry:1;25:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="b:1;28:30">Field Size</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="stentry:2;32:39">3 B</stentry>
+         </strow>
+         <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="strow:2;36:32">
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="stentry:3;39:39">
+               <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="b:2;42:30">Value Range</b>
+            </stentry>
+            <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="stentry:4;46:39">0x000000 - 0xFFFFFF</stentry>
+         </strow>
+      </simpletable>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="p:1;51:21">The DWORD-aligned byte address for the data which is overwritten by the patch data .The address is an offset into the patch target's configuration space, not an absolute host memory address value.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="p:2;54:21">If Patch Target is 0x0(USP P2P or NT EP only), the Patch Address 0xFFFFFC is used to configure the Primary Bus Number for USP. The Primary Bus Number is in Patch Data field.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="p:3;57:21">The lowest two bits of the patch address specifies when to apply patch table.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="table:1;60:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="title:2;63:32">Patch Address Lowest Two Bits</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="tgroup:1;67:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[5]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[5]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="tbody:1;80:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="row:1;83:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:1;87:41">Value</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:2;91:41">When to apply patch table</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="row:2;95:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:3;99:41">0x00</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:4;103:41">Only Fundamental Reset applies patch table</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="row:3;107:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:5;111:41">0x01</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:6;115:41">Both Fundamental Reset ,Hot Reset and USP Secondary Bus Reset apply patch table</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="row:4;119:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:7;123:41">0x10</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:8;127:41">Reserved</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="row:5;131:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:9;135:41">0x11</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\partitions\trident_partitions_patch_address.xml" xtrc="entry:10;139:42">Disable the patch table entry</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

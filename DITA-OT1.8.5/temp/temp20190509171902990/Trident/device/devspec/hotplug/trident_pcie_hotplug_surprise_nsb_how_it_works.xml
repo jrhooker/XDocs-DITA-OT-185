@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\hotplug?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/hotplug/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_pcie_hotplug_surprise_nsb_how_it_works" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:1;13:26">How it Works - Surprise Hot-plug (NSB)</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="body:1;16:32">
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:1;20:29">This configuration covers hot-plug where <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="b:1;22:24">no</b> sidebands are defined:</p>
+      <table class="- topic/table " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="table:1;26:33">
+         <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="tgroup:1;30:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[4] has no in-scope colspec definition for the colname reference 'col4' CALS-T10R4A?>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="thead:1;41:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="row:1;44:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:1;48:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:2;51:36">Presence (PRSNT# or IFDET#)</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:2;56:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:3;59:36">DSP PCIe Reset (PERST#) </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:3;64:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:4;67:36">Power Controller </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:4;72:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:5;75:36">Attention Button</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="tbody:1;81:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="row:2;84:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:5;88:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:6;91:36"> -</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:6;96:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:7;99:36">-</p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:7;104:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:8;107:36">- </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="entry:8;112:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:9;115:36">- </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="section:1;123:41">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:2;126:32">Hot-add</title>
+         <note audience="MSCCInternal" class="- topic/note " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="note:1;131:35">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:10;134:28">Source Graphics: http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=437668</p>
+         </note>
+         <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="fig:1;138:36">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:3;141:35">Surprise (NSB) Hot Add Sequence</title>
+            <image placement="inline" width="6in" class="- topic/image " href="graphics/sar_pcie_hotplug_surpriseNSB_add.svg" rev="deltaxml-delete" status="deleted" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="image:1;149:38"/>
+            <image placement="inline" width="6in" class="- topic/image " href="graphics/sar_pcie_hotplug_surpriseNSB_add_.svg" rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="image:2;157:34"/>
+         </fig>
+      </section>
+      <section class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="section:2;163:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:4;166:32">Hot-remove</title>
+         <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="note:2;170:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:11;173:28">Source Graphics: http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=437668</p>
+         </note>
+         <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="fig:2;177:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:5;180:35">Surprise (NSB) Hot Remove Sequence</title>
+            <image href="graphics/sar_pcie_hotplug_surpriseNSB_remove.svg" width="5.5in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="image:3;186:36"/>
+         </fig>
+      </section>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:12;192:30"/>
+      <section class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="section:3;196:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="title:6;199:32">Special Considerations</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:13;202:25">This configuration by nature of having no sidebands has the following system limitations:</p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="ul:1;205:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="li:1;208:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:14;211:31">ASPM L1 and D3HOT are not supported (ports in L1 cannot process a hot-add or hot-remove)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="li:2;215:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:15;218:31">PME_TURN_OFF will be ignored by the switch USP if it is configured with no sidebands </p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="li:3;222:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:16;225:31">PME_TURN_OFF will not be propagated to Endpoints with no sidebands </p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="li:4;229:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:17;232:31">Endpoints must have their own power-on self-reset circuitry to operate with no fundamental reset (PERST#)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="li:5;236:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\hotplug\trident_pcie_hotplug_surprise_nsb_how_it_works.xml" xtrc="p:18;239:31">If power to the slots is controlled (and not always on), power needs to be applied to the slot and in a power good state before a hot-add is performed</p>
+            </li>
+         </ul>
+      </section>
+   </body>
+</topic>

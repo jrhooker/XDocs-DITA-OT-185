@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\port?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/port/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="IGNORE_TS12_L2R" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="topic:1;2:777">
+  <title id="LTSSM_DISABLE_TIME_US" class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="title:1;3:170">Port Down Hold-off Time</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="body:1;5:140">
+    <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="simpletable:1;6:163">
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="strow:1;7:147">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="stentry:1;8:155"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="b:1;8:291">Field Size</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="stentry:2;10:155">4 B</stentry>
+      </strow>
+
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="strow:2;13:147">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="stentry:3;14:155"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="b:2;14:291">Value Range</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="stentry:4;16:155">0x0 - 0xFFFFFFFF(us)</stentry>
+      </strow>
+    </simpletable>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_port_down_hold_off_time.xml" xtrc="p:1;20:133">Port Down Hold-off is used to specified the time to hold the link in
+    Down state before release the LTSSM to allow the link to be setup. The
+    purpose of this is for the link de-bouncing under bad link condition.
+    Default value is 1000000 count in μS. The port down hold-off mechanism can
+    be disabled with a value of 0. </p>
+  </body>
+</topic>

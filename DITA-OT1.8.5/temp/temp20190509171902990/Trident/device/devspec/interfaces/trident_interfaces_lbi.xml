@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\interfaces?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/interfaces/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_interfaces_lbi" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="topic:1;10:468">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="title:1;13:26">LBI Interface</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="body:1;16:32">
+      <note audience="PMCInternal" class="- topic/note " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="note:1;21:32">This content was sourced from PMC-2140577 - SrPB Telecom System Block Engineering Document Issue 1.00</note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:1;24:29">Switchtec <ph status="deleted" rev="deltaxml-delete" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="ph:1;24:82">feaures a l16</ph>
+         <ph status="new" rev="deltaxml-add" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="ph:2;25:46">features a 16</ph>-bit wide asynchronous local bus interface for connecting to external SRAM memory. This interface is able to address up to four devices and up to 16 MB per device.</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:2;29:29">The memory controller supports the local bus interface. It has four chip selects for local bus interface. Each chip select supports one 16 MB space.</p>
+      <table class="- topic/table " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="table:1;33:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="title:2;36:32">LBI Address Map</title>
+         <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="tgroup:1;40:34"><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[1] has no in-scope colspec definition for the colname reference 'col1' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[2] has no in-scope colspec definition for the colname reference 'col2' CALS-T10R4A?><?dxml_warn CALS Table Validation Warning for Input A=B:
+/topic/body[1]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[3] has no in-scope colspec definition for the colname reference 'col3' CALS-T10R4A?>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="thead:1;58:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:1;61:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:1;65:41">Interface</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:2;69:41">Size</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:3;73:41">Address Range</entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="tbody:1;78:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:2;81:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:4;85:41">LBI CEB[0]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:5;89:41">16MB</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:6;93:41">0xB000_0000 - 0xB0FF_FFFF</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:3;97:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:7;101:41">LBI CEB[1]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:8;105:41">16MB</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:9;109:41">0xB100_0000 - 0xB1FF_FFFF</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:4;113:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:10;117:42">LBI CEB[2]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:11;121:42">16MB</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:12;125:42">0xB200_0000 - 0xB2FF_FFFF</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:5;129:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:13;133:42">LBI CEB[3]</entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:14;137:42">16MB</entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:15;141:42">0xB300_0000 - 0xB3FF_FFFF</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:3;149:29">When the local bus is configured in 16-bit data mode, LBI_A[23:1] are at the 16-bit address boundary. LBI_A[23:1] are used to address a 16 MB space per chip select signal, since every address is a 16-bit data access. LBI_A[0] is a Lower Byte Enable (LBI_BYTENB[0]) to select LBI_DATA[7:0], and LBI_BYTENB[1] is an Upper Byte Enable to control DATA[15:8].</p>
+      <p class="- topic/p " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:4;153:29">During device reset, LBI_A[23:0], LBI_DATA[15:0], LBI_OEB, LBI_WEB, and LBI_CEB[3:0] will be tri-stated. If there is another device on the board that wants to control the SRAM on the local bus, it can assert the SRAM RESETB pin and take over the local bus control.</p>
+      <section class="- topic/section " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="section:1;157:35">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="title:3;160:32">Recommendations on connecting Switchtec LBI to SRAM</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:5;163:24">The following table outlines the recommended connections to an LBI SRAM.</p>
+         <table id="table_16-bit_Local_Bus_Interface_to_External_1_0iapwwiw6" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="table:2;167:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="title:4;170:35">16-bit Local Bus Interface to External 16-bit Flash/SRAM</title>
+            <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="tgroup:2;174:37">
+               <colspec colname="col1" colnum="1" colwidth="1.75in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="colspec:1;180:43"/>
+               <colspec colname="col2" colnum="2" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="colspec:2;186:43"/>
+               <colspec colname="col3" colnum="3" colwidth="1in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="colspec:3;192:43"/>
+               <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="colspec:4;197:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="thead:2;200:38">
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:6;204:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:16;208:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:6;211:39">Local Bus Signals</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:17;216:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:7;219:39">Flash Memory Signals</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:18;224:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:8;227:39">SRAM Signals</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:19;232:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:9;235:39">Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="tbody:2;241:38">
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:7;245:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:20;249:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:10;252:40">DATA[7:0]</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:21;257:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:11;260:40">D [7:0]</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:22;265:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:12;268:40">D [7:0]</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:23;273:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:13;276:40"> Least significant byte</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:8;282:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:24;286:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:14;289:40">DATA[15:8]</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:25;294:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:15;297:40">D [15:8]</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:26;302:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:16;305:40">D [15:8]</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:27;310:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:17;313:40"> Most significant byte</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:9;319:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:28;323:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:18;326:40">WEB</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:29;331:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:19;334:40">WE#</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:30;339:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:20;342:40">WE#</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:31;347:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:21;350:40">Write control, active low</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:10;356:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:32;360:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:22;363:40">OEB</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:33;368:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:23;371:40">OE#</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:34;376:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:24;379:40">OE#</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:35;384:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:25;387:40">Output enable, active low</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:11;393:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:36;397:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:26;400:40">CEB[0], or CEB [1], or CEB [2], or CEB [3]</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:37;405:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:27;408:40">CE#</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:38;413:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:28;416:40">CE#</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:39;421:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:29;424:40">Chip select, active low</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:12;430:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:40;434:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:30;437:40">BYTENB[1]</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:41;442:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:31;445:40">-</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:42;450:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:32;453:40">UB#</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:43;458:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:33;461:40">High byte select, active low</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:13;467:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:44;471:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:34;474:40">A0 / BYTENB[0]</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:45;479:46"/>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:46;483:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:35;486:40">LB#</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:47;491:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:36;494:40">Low byte select, active low</p>
+                     </entry>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:14;500:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:48;504:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:37;507:40">A1</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:49;512:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:38;515:40">A0</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:50;520:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:39;523:40">A0</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:51;528:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:15;533:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:52;537:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:40;540:40">A2</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:53;545:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:41;548:40">A1</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:54;553:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:42;556:40">A1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:55;561:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:16;566:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:56;570:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:43;573:40">A3</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:57;578:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:44;581:40">A2</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:58;586:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:45;589:40">A2</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:59;594:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:17;599:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:60;603:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:46;606:40">A4</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:61;611:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:47;614:40">A3</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:62;619:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:48;622:40">A3</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:63;627:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:18;632:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:64;636:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:49;639:40">A5</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:65;644:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:50;647:40">A4</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:66;652:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:51;655:40">A4</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:67;660:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:19;665:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:68;669:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:52;672:40">A6</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:69;677:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:53;680:40">A5</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:70;685:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:54;688:40">A5</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:71;693:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:20;698:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:72;702:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:55;705:40">A7</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:73;710:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:56;713:40">A6</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:74;718:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:57;721:40">A6</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:75;726:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:21;731:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:76;735:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:58;738:40">A8</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:77;743:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:59;746:40">A7</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:78;751:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:60;754:40">A7</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:79;759:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:22;764:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:80;768:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:61;771:40">A9</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:81;776:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:62;779:40">A8</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:82;784:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:63;787:40">A8</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:83;792:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:23;797:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:84;801:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:64;804:40">A10</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:85;809:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:65;812:40">A9</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:86;817:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:66;820:40">A9</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:87;825:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:24;830:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:88;834:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:67;837:40">A11</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:89;842:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:68;845:40">A10</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:90;850:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:69;853:40">A10</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:91;858:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:25;863:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:92;867:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:70;870:40">A12</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:93;875:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:71;878:40">A11</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:94;883:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:72;886:40">A11</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:95;891:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:26;896:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:96;900:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:73;903:40">A13</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:97;908:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:74;911:40">A12</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:98;916:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:75;919:40">A12</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:99;924:46"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:27;929:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:100;933:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:76;936:40">A14</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:101;941:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:77;944:40">A13</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:102;949:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:78;952:40">A13</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:103;957:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:28;962:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:104;966:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:79;969:40">A15</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:105;974:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:80;977:40">A14</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:106;982:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:81;985:40">A14</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:107;990:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:29;995:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:108;999:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:82;1002:40">A16</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:109;1007:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:83;1010:40">A15</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:110;1015:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:84;1018:40">A15</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:111;1023:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:30;1028:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:112;1032:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:85;1035:40">A17</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:113;1040:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:86;1043:40">A16</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:114;1048:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:87;1051:40">A16</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:115;1056:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:31;1061:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:116;1065:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:88;1068:40">A18</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:117;1073:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:89;1076:40">A17</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:118;1081:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:90;1084:40">A17</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:119;1089:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:32;1094:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:120;1098:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:91;1101:40">A19</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:121;1106:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:92;1109:40">A18</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:122;1114:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:93;1117:40">A18</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:123;1122:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:33;1127:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:124;1131:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:94;1134:40">A20</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:125;1139:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:95;1142:40">A19</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:126;1147:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:96;1150:40">A19</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:127;1155:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:34;1160:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:128;1164:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:97;1167:40">A21</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:129;1172:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:98;1175:40">A20</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:130;1180:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:99;1183:40">A20</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:131;1188:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:35;1193:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:132;1197:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:100;1200:41">A22</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:133;1205:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:101;1208:41">A21</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:134;1213:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:102;1216:41">A21</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:135;1221:47"/>
+                  </row>
+                  <row valign="bottom" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="row:36;1226:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:136;1230:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:103;1233:41">A23</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:137;1238:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:104;1241:41">A22</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:138;1246:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="p:105;1249:41">A22</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_lbi.xml" xtrc="entry:139;1254:47"/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

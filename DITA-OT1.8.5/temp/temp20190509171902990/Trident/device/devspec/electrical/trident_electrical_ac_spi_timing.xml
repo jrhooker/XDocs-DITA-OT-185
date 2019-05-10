@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\electrical?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/electrical/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_705b3813dcc800ad--46e89be3-15d14e661c1--7f56" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="title:1;14:26">SPI Timing Characteristics</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="body:1;17:24">
+      <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="note:1;21:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:1;24:24">Sourced from PMC-2143425 - Saratoga Device Specification Issue 11</p>
+      </note>
+      <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="fig:1;28:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="title:2;31:32">SPI Read Timing</title>
+         <image href="graphics/trident_if_spi_read_timing_diagram.svg" placement="inline" width="537" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="image:1;37:33"/>
+      </fig>
+      <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="fig:2;41:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="title:3;44:32">SPI Write Timing</title>
+         <image href="graphics/trident_if_spi_write_read_timing_diagram.svg" placement="inline" width="501" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="image:2;50:33"/>
+      </fig>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="table:1;54:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="title:4;57:32">SPI Timing Specification</title>
+         <tgroup cols="5" colsep="1" rowsep="1" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="tgroup:1;63:34">
+            <colspec colname="col1" colnum="1" colwidth="0.8in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="colspec:1;69:40"/>
+            <colspec colname="col2" colnum="2" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="colspec:2;75:40"/>
+            <colspec colname="col3" colnum="3" colwidth="3in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="colspec:3;81:40"/>
+            <colspec colname="col4" colnum="4" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="colspec:4;87:40"/>
+            <colspec colname="col5" colnum="5" colwidth="0.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="colspec:5;93:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="thead:1;96:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:1;99:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:1;103:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="b:1;106:36"> Symbol </b>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:2;113:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="b:2;116:36"> Description </b>
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="b:3;119:37"/>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:3;124:41">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="b:4;127:36"> Value</b>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:4;132:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:2;135:36">Unit</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="tbody:1;141:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:2;144:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:5;148:41">CLK_Freq</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:6;154:41">Maximum clock frequency supported</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:7;158:41">100</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:8;162:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:3;165:36">MHz</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:3;170:34">
+                  <entry colname="col1" morerows="4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:9;175:41">tsu_in</entry>
+                  <entry colname="col2" morerows="4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:10;180:42">Read data setup time requirement with respect to falling edge output clock</entry>
+                  <entry colname="col3" namest="col3" nameend="col5" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:11;187:42">Read Mode Config</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:4;191:34">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:12;195:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:4;198:36">00 (default)</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:13;203:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:5;206:36">1.25</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:14;211:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:6;214:36">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:5;219:34">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:15;223:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:7;226:36">01</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:16;231:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:8;234:36">0.60</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:17;239:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:9;242:36">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:6;247:34">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:18;251:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:10;254:37">10</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:19;259:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:11;262:37">0.25</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:20;267:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:12;270:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:7;275:34">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:21;279:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:13;282:37">11</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:22;287:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:14;290:37">0.00</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:23;295:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:15;298:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:8;303:34">
+                  <entry colname="col1" morerows="4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:24;308:42">thd_in</entry>
+                  <entry colname="col2" morerows="4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:25;313:42">Read data hold time requirement with respect to falling edge output clock</entry>
+                  <entry colname="col3" namest="col3" nameend="col5" bg_color="#D3D3D3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:26;320:42">Read Mode Config</entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:9;324:34">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:27;328:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:16;331:37">00 (default)</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:28;336:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:17;339:37">0.54</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:29;344:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:18;347:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:10;352:35">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:30;356:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:19;359:37">01</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:31;364:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:20;367:37">1.14</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:32;372:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:21;375:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:11;380:35">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:33;384:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:22;387:37">10</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:34;392:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:23;395:37">1.75</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:35;400:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:24;403:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:12;408:35">
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:36;412:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:25;415:37">11</p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:37;420:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:26;423:37">2.50</p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:38;428:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:27;431:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:13;436:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:39;440:42">tsu_out</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:40;446:42">Write data setup time maintained with respect to rising edge of output clock</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:41;450:42">2.10</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:42;454:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:28;457:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:14;462:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:43;466:42">thd_out</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:44;472:42">Write data hold time maintained with respect to rising edge of output clock</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:45;476:42">5.10</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:46;480:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:29;483:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:15;488:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:47;492:42">tSCLK</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:48;498:42">Internal Clock Period for SPI Controller</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:49;502:42">2.50</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:50;506:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:30;509:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:16;514:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:51;518:42">tchsh</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:52;524:42">Minimum delay to chip enable de-assertion from Posedge of SPI output clock</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:53;528:42">10.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:54;532:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:31;535:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:17;540:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:55;544:42">tslch</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:56;550:42">Minimum delay from chip enable assertion to Posedge of SPI output clock</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:57;554:42">7.50</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:58;558:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:32;561:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:18;566:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:59;570:42">tshsl</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:60;576:42">Minimum chip enable de-assertion time maintained by SPI controller</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:61;580:42">50.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:62;584:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:33;587:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:19;592:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:63;596:42">tchsl</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:64;602:42">Minimum delay from Posedge of SPI clock to chip enable assertion</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:65;606:42">22.50</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:66;610:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:34;613:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:20;618:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:67;622:42">tshch</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:68;628:42">Minimum delay from chip enable de-assertion to Posedge of SPI clock</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:69;632:42">20.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:70;636:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:35;639:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:21;644:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:71;648:42">tclsh</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:72;654:42">Minimum delay from Negedge of SPI clock to chip enable de-assertion</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:73;658:42">5.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:74;662:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:36;665:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:22;670:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:75;674:42">tdis</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:76;680:42">Maximum Output disable time</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:77;684:42">8.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:78;688:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:37;691:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:23;696:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:79;700:42">trise</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:80;706:42">Maximum Output rise transition</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:81;710:42">2.50</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:82;714:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:38;717:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:24;722:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:83;726:42">tfall</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:84;732:42">Maximum Output fall transition</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:85;736:42">2.50</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:86;740:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:39;743:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:25;748:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:87;752:42">tlo</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:88;758:42">Clock low time</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:89;762:42">4.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:90;766:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:40;769:37">ns</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="row:26;774:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:91;778:42">thi</entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:92;784:42">Clock high time</entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:93;788:42">4.00</entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="entry:94;792:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:41;795:37">ns</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="note:2;803:27">
+         <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="ol:1;806:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:1;809:29">Maximum load on SPI_CK, SPI_CE, SPI_DATA is 32 pF</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:2;812:29">Minimum load on SPI_CK, SPI_CE, SPI_DATA is 2 pF</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:3;815:29">Maximum and minimum input transition on SPI_DATA is 2 ns and 0.5 ns respectively</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:4;818:29">The clock, chip select and output data trace length needs to be balanced</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:5;821:29">Micron/Winbond/Macronix NOR flash 100 MHz operation can be supported on SPI interface 1 (maximum trace length is dependent on dielectric material)</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:6;824:29">Micron/Winbond (reduced trace length) NOR flash <ph audience="PMCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="ph:1;827:32">and NVSRAM</ph> is supported on SPI interface 2</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:7;830:29">Does not support Macronix with 30pF load (8ns clock to Q delay). The Macronix clock to Q delay for 15 pF load is 6ns which can be supported</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="li:8;833:29">Another restriction is for NvSRAM 40 MHz operation. For NvSRAM 40 MHz operation, the SPI core clock frequency has to be less than or equal to 200 MHz to meet tslch parameter</li>
+         </ol>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_ac_spi_timing.xml" xtrc="p:42;838:23"/>
+   </body>
+</topic>

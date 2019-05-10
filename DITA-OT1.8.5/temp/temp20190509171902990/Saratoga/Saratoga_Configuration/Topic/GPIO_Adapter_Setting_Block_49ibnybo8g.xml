@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Saratoga\Saratoga_Configuration\Topic?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Saratoga/Saratoga_Configuration/Topic/?><?path2project ..\..\..\out\diffed\pdf\?><?path2project-uri ../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" id="GPIO_Adapter_Setting_Block_49ibnybo8g" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="topic:1;10:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="title:1;13:26">GPIO Adapter Setting Block</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="body:1;16:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:1;19:21">The GPIO Adapter block defines GPIO pin sources. The On-Chip GPIO adapter defined in the first instance is mandatory, must always be the first adapter instance, and must be the only adapter of this type.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:2;22:21">Any additional GPIO Adapters define peripheral bus-connected GPIO. These adapter types are optional and start from the second instance. Some examples include TWI-based GPIO expanders <ph pmc_switch="Advanced Encl_mgmt Fanout" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="ph:1;25:26">and SGPIO stream.</ph>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:3;29:21">
+         <ph audience="PMCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="ph:2;33:26">Other adapter types may be defined in future firmware releases.<draft-comment author="murraybo" time="Wed 08/12/2015 03:47 PM" translate="no" class="- topic/draft-comment " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="draft-comment:1;38:51">Need to decide whether we want to discuss futures in a customer document like this. It seems to be an important point that the list of supported connections will grow.</draft-comment>
+         </ph>
+      </p>
+      <table audience="PMCInternal" id="GPIO_Adapter_Setting_Block_4aibnybo8g" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="table:1;45:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="title:2;48:32">GPIO Adapter Setting Block</title>
+         <tgroup cols="11" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="tgroup:1;52:34">
+            <colspec colname="col1" colnum="1" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:1;58:40"/>
+            <colspec colname="col2" colnum="2" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:2;65:40"/>
+            <colspec colname="col3" colnum="3" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:3;72:40"/>
+            <colspec colname="col4" colnum="4" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:4;79:40"/>
+            <colspec colname="col5" colnum="5" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:5;86:40"/>
+            <colspec colname="col6" colnum="6" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:6;93:40"/>
+            <colspec colname="col7" colnum="7" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:7;100:40"/>
+            <colspec colname="col8" colnum="8" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:8;107:40"/>
+            <colspec colname="col9" colnum="9" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:9;114:40"/>
+            <colspec colname="col10" colnum="10" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:10;121:41"/>
+            <colspec colname="col11" colnum="11" align="center" colwidth="10*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="colspec:11;128:41"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="thead:1;131:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:1;134:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:1;138:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:4;141:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:1;145:39">Byte \ Bit</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:2;151:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:5;154:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:2;158:39">7</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:3;164:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:6;167:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:3;171:39">6</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:4;177:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:7;180:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:4;184:39">5</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:5;190:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:8;193:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:5;197:39">4</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:6;203:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:9;206:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:6;210:39">3</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:7;216:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:10;219:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:7;223:39">2</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:8;229:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:11;232:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:8;236:39">1</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:9;242:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:12;245:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:9;249:39">0</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:10;255:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:13;258:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:10;262:40">Default</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:11;268:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:14;271:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:11;275:40">Value Range</b> 
+                     </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="tbody:1;282:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:2;285:34">
+                  <entry colname="col1" namest="col1" nameend="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:12;291:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:15;294:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:12;298:40">GPIO Adapter Instance 0</b> 
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:3;304:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:13;308:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:16;311:37">0x0000</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:14;318:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:17;321:37">GPIO Adapter Type - The first instance will always be MM On-Chip GPIO</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:15;326:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:18;329:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:16;334:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:4;338:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:17;342:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:19;345:37">0x0001</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:18;352:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:20;355:37">GPIO pin number</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:19;360:42">0x6E</entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:20;364:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:5;368:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:21;372:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:21;375:37">0x0002</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:22;382:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:22;385:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:23;390:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:24;394:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:6;398:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:25;402:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:23;405:37">0x0003</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:26;412:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:24;415:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:27;420:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:28;424:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:7;428:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:29;432:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:25;435:37">0x0004</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:30;442:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:26;445:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:31;450:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:32;454:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:8;458:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:33;462:42">0x0005</entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:34;468:42">Reserved</entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:35;472:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:36;476:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:9;480:34">
+                  <entry colname="col1" namest="col1" nameend="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:37;486:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:27;489:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:13;493:40">GPIO Adapter Instance 1</b> 
+                     </p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:10;499:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:38;503:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:28;506:37">0x0006</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:39;513:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:29;516:37">GPIO Adapter Type - GPIO Expander</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:40;521:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:41;525:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:11;529:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:42;533:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:30;536:37">0x0007</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:43;543:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:31;546:37">GPIO pin number</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:44;551:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:45;555:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:12;559:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:46;563:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:32;566:37">0x0008</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:47;573:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:33;576:37">Associated On-chip Input Interrupt GPIO Pin</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:48;581:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:49;585:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:13;589:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:50;593:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:34;596:37">0x0009</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:51;603:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:35;606:37">TWI Expander Index</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:52;613:42">TWI Port/Channel</entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:53;617:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:54;621:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:14;625:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:55;629:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:36;632:37">0x000A</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:56;637:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:37;640:37">Reserved</p>
+                  </entry>
+                  <entry colname="col3" namest="col3" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:57;647:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:38;650:37">GPIO Expander TWI Address</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:58;655:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:59;659:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:15;663:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:60;667:42">0x000B</entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:61;673:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:39;676:37">Reserved for SGPIO settings</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:62;681:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:63;685:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:16;689:35">
+                  <entry colname="col1" namest="col1" nameend="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:64;695:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:40;698:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="b:14;702:40">GPIO Adapter Instance N</b> (Max is 15)</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:17;707:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:65;711:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:41;714:37">0x000C</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:66;721:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:42;724:37">GPIO Adapter Type - for SGPIO slot</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:67;729:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:68;733:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:18;737:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:69;741:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:43;744:37">0x000D</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:70;751:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:44;754:37">GPIO pin number</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:71;759:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:72;763:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:19;767:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:73;771:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:45;774:37"> 0x000E</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:74;781:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:46;784:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:75;789:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:76;793:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:20;797:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:77;801:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:47;804:37">0x000F</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:78;811:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:48;814:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:79;819:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:80;823:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:21;827:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:81;831:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:49;834:37">0x0010</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:82;841:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:50;844:37">Reserved</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:83;849:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:84;853:43"/>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="row:22;857:35">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:85;861:42">0x0011</entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:86;867:42">SGPIO Bus</entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:87;871:43"/>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="entry:88;875:43"/>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="note:1;882:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Saratoga\Saratoga_Configuration\Topic\GPIO_Adapter_Setting_Block_49ibnybo8g.xml" xtrc="p:51;885:25">The maximum supported GPIO pin number is 512, and the maximum MAX7311/PCA9555-Compatible GPIO expander number is 32.</p>
+      </note>
+   </body>
+</topic>

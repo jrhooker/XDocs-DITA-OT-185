@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\port?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/port/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="Saratoga" id="saratoga_transaction_ordering" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="title:1;14:26">Transaction Ordering</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:1;20:21">
+         <note audience="PMCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="note:1;24:30">Information sourced from PMC-2134032 - Gen3 PCIe Switch Core TSB Engineering Document Issue No. 0.06</note>
+      </p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:2;28:21">PCI Express Base 4.0 Specification defines ordering requirements for three types of PCIe Transactions - Posted, Non-Posted and Completion - to ensure the producer/consumer model is honored across a PCIe hierarchy, to prevent deadlocks, and to improve performance. By default, the switch will not reorder TLPs unless a TLP type is back pressured.</p>
+      <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="ul:1;31:23">
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="li:1;34:26">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:3;37:27">Switchtec honors the strict and relaxed ordering rules defined in PCI Express Base 3.1 Specification.</p>
+         </li>
+         <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="li:2;41:26">Switchtec does not support the ID-based Ordering (IDO) rules defined in PCI Express Base 3.1 Specification.</li>
+      </ul>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:4;45:21">Switchtec performs TLP packet ordering on a per-port basis and the ordering rules apply to TLP packets regardless of their traffic class. <xref href="#saratoga_transaction_ordering" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="xref:1;48:30" type="topic"><?ditaot gentext?>Transaction Ordering</xref> shows the ordering rules honored by the switch core. <ph audience="MSCCInternal" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="ph:1;51:26">The re-ordering can be done anywhere there is storage in the switch (Switch Port Ingress Frame Buffers, Switch Core Ingress Frame Buffers, and Switch Core Egress Frame Buffers).</ph>
+         <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="table:1;54:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="title:2;57:35">Transaction Ordering Rules in the Switchtec</title>
+            <tgroup cols="6" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="tgroup:1;61:37"><?dxml_warn CALS Table Validation Warning for Input A=B:
+In /topic/body[1]/p[3]/table[1]/tgroup[1]/thead[1]/row[1]/entry[3] the column specified by the namest attribute (col4) must be to the left of the column specified by nameend (col4) CALS-T10R4F?>
+               <colspec colname="col1" colnum="1" colwidth="139*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:1;68:43"/>
+               <colspec colname="col2" colnum="2" colwidth="162*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:2;74:43"/>
+               <colspec colname="col3" colnum="3" colwidth="129*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:3;80:43"/>
+               <colspec colname="col4" colnum="4" colwidth="129*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:4;86:43"/>
+               <colspec colname="col5" colnum="5" colwidth="158*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:5;92:43"/>
+               <colspec colname="col6" colnum="6" colwidth="158*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="colspec:6;98:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="thead:1;101:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:1;104:37">
+                     <entry colname="col1" namest="col1" nameend="col2" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:1;111:44">Row Pass Column?<p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:5;113:40"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:2;118:44">Posted Request</entry>
+                     <entry colname="col4" namest="col4" nameend="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:3;124:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:6;127:39"> Non-Posted Request</p>
+                     </entry>
+                     <entry colname="col5" namest="col5" nameend="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:4;134:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:7;137:39"> Completion</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:2;142:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:5;146:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:8;149:39"> Memory Write or Message Request</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:6;154:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:9;157:39"> Read Request</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:7;162:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:10;165:40"> Read Completion</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:8;170:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:11;173:40"> IO or Configuration Write Completion</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="tbody:1;179:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:3;182:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:9;186:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:12;189:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:1;192:42">Posted Request</b>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:10;198:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:13;201:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:2;204:42">Memory Write or Message Request</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:11;210:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:14;213:40">No</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:12;218:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:15;221:40">Yes</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:13;226:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:16;229:40">Yes</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:14;234:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:17;237:40">Yes</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:4;242:37">
+                     <entry colname="col1" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:15;247:45">
+                        <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:3;250:39">Non-Posted Request</b>
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:18;253:41"/>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:16;258:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:19;261:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:4;264:42">Read Request</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:17;270:45">No</entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:18;274:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:20;277:40"> No</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:19;282:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:21;285:40">Yes </p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:20;290:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:22;293:40">Yes </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:5;298:37">
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:21;302:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:23;305:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:5;308:42">IO or Configuration Write Request</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:22;314:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:24;317:40">No</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:23;322:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:25;325:40"> No</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:24;330:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:26;333:40">Yes</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:25;338:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:27;341:40">Yes </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:6;346:37">
+                     <entry colname="col1" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:26;351:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:28;354:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:6;357:42">Completion</b>
+                        </p>
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:29;361:41"/>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:27;366:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:30;369:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:7;372:42">Read Completion</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:28;379:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:31;382:40">a) No;</p>
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:32;385:40">b) Yes, if packet has RO bit set;</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:29;390:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:33;393:40"> Yes</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:30;398:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:34;401:40">No </p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:31;406:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:35;409:40">No </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="row:7;414:37">
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:32;418:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:36;421:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="b:8;424:42">IO or Configuration Write Completion</b>
+                        </p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:33;430:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:37;433:40"> Yes</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:34;438:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:38;441:40">No </p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="entry:35;446:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:39;449:40">No </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="note:2;458:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:40;461:25">Values in the table that are 'yes' - TLPs will only be re-ordered (older packet passed) if the egress of that type is blocked due to lack of credits.</p>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="p:41;465:22">As noted in <xref href="#saratoga_transaction_ordering" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_transaction_ordering.xml" xtrc="xref:2;468:30" type="topic"><?ditaot gentext?>Transaction Ordering</xref>, Switchtec supports Relaxed Ordering for Completions. If the RO attribute bit is set within a subsequent Completion, the Completion is permitted to be re-ordered ahead of Posted requests if Posted TLPs are blocked (due to lack of available credits).</p>
+   </body>
+</topic>

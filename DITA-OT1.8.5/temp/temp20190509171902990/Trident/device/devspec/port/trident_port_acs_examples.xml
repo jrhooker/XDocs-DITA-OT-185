@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\port?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/port/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_8f99181b9a3ccd9d-4b413a1b-1619fc5684d--7f5c" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="title:1;14:26">ACS Examples</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="body:1;17:24">
+      <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="note:1;21:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:1;24:24">Source Graphics: <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=440203" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="xref:1;28:33"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=440203 </xref>
+         </p>
+      </note>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:2;33:21">The following figures show examples of the effect of applying ACS checks to TLPs on DSP and USP.</p>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="section:1;36:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="title:2;39:32">Examples of DSP ACS Handling Mechanisms</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:3;42:24">ACS checks examples for DSP are listed in below table.</p>
+         <table id="dsp_acs_examples_table" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="table:1;46:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="title:3;49:35">DSP ACS Check Examples</title>
+            <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="tgroup:1;53:37">
+               <colspec colname="col1" colnum="1" colwidth="0.4in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:1;59:43"/>
+               <colspec colname="col2" colnum="2" colwidth="2.7in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:2;65:43"/>
+               <colspec colname="col3" colnum="3" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:3;71:43"/>
+               <colspec colname="col4" colnum="4" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:4;77:43"/>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="tbody:1;80:38">
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:1;84:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:1;88:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:4;91:39">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:1;94:42">ACS</b>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:2;100:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:5;103:39">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:2;106:42">Picture</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:3;112:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:6;115:39">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:3;118:42">Conditions</b>
+                        </p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:4;124:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:7;127:39">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:4;130:42">Actions</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:2;137:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:5;141:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:8;144:39">V</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:6;149:44">
+                        <image href="graphics/dsp_acs_v.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:1;155:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:7;160:44">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:1;163:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:1;166:44">Bus Number from the Requester ID in upstream request is outside the DSP aperture</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:8;172:44">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:2;175:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:2;178:44">ACS violation is reported.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:3;185:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:9;189:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:9;192:39">B</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:10;197:45">
+                        <image href="graphics/dsp_acs_b.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:2;203:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:11;208:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:3;211:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:3;214:44">Address Translation (AT) field in Upstream Memory Request is not default value(0)</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:12;220:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:4;223:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:4;226:44">ACS violation is reported.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:4;233:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:13;237:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:10;240:40">C</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:14;245:45">
+                        <image href="graphics/dsp_acs_c.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:3;251:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:15;256:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:5;259:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:5;262:44">Peer-to-peer Completions received by the DSP do not have the Relaxed Ordering Attribute bit set (1b) Actions</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:16;268:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:6;271:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:6;274:44">The offending TLPs are redirected Upstream towards the RC.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:5;281:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:17;285:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:11;288:40">U</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:18;293:45">
+                        <image href="graphics/dsp_acs_u.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:4;299:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:19;304:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:7;307:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:7;310:44">DSP receives the upstream request or completion targeting to its egress port</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:20;316:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:8;319:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:8;322:44">The offending TLPs are redirected Upstream towards the RC.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:6;329:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:21;333:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:12;336:40">T</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:22;341:45">
+                        <image href="graphics/dsp_acs_t.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:5;347:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:23;352:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:9;355:41">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:9;358:44">DSP receives peer-to-peer Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:24;364:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:10;367:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:10;370:45">The offending TLPs are routed normally ("directly") to the peer Egress Port.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:7;377:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:25;381:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:13;384:40">R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:26;389:45">
+                        <image href="graphics/dsp_acs_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:6;395:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:27;400:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:11;403:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:11;406:45">The DSP receives Peer-to-Peer Requests</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:28;412:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:12;415:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:12;418:45">The offending TLPs are redirected Upstream towards the RC</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:8;425:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:29;429:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:14;432:40">E</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:30;437:45">
+                        <image href="graphics/dsp_acs_e.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:7;443:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:31;448:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:13;451:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:13;454:45">Egress Control Vector Bit for the associated DSP is set</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:32;460:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:14;463:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:14;466:45">ACS violation is reported.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:9;473:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:33;477:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:15;480:40">T+R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:34;485:45">
+                        <image href="graphics/dsp_acs_t_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:8;491:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:35;496:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:15;499:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:15;502:45">ACS T and ACS R are both enabled in DSP.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:16;505:45">DSP receives Peer-to-Peer Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:36;511:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:16;514:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:17;517:45">ACS T has higher priority than ACS R.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:18;520:45">The offending TLPs are routed normally ("directly") to the peer Egress Port instead of being routed to RC.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:10;527:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:37;531:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:16;534:40">E+R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:38;539:45">
+                        <image href="graphics/dsp_acs_e_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:9;545:48"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:39;550:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:17;553:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:19;556:45">ACS E and ACS R are both enabled in DSP.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:20;559:45">Egress Control Vector Bit for the associated DSP is set.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:21;562:45">DSP receives Peer-to-Peer Memory Requests</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:40;568:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:18;571:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:22;574:45">The offending TLPs are redirected Upstream towards the RC instead of being reported as ACS violation</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:11;581:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:41;585:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:17;588:40">T+E</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:42;593:45">
+                        <image href="graphics/dsp_acs_t_e.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:10;599:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:43;604:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:19;607:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:23;610:45">ACS T and ACS E are both enabled in DSP</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:24;613:45">Egress Control Vector Bit for the associated DSP is set.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:25;616:45">DSP receives Peer-to-Peer Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:44;622:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:20;625:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:26;628:45">ACS T has higher priority than ACS E.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:27;631:45">The offending TLPs are routed normally ("directly") to the peer Egress Port instead of being reported as ACS violation.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:12;638:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:45;642:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:18;645:40">T+E+R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:46;650:45">
+                        <image href="graphics/dsp_acs_t_e_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:11;656:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:47;661:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:21;664:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:28;667:45">ACS T, ACS E and ACE R are enabled in DSP</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:29;670:45">Egress Control Vector Bit for the associated DSP is set.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:30;673:45">DSP receives Peer-to-Peer Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:48;679:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:22;682:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:31;685:45">ACS T has higher priority than ACS E and ACS R.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:32;688:45">The offending TLPs are routed normally ("directly") to the peer Egress Port instead of being reported as ACS violation or being routed to RC.</li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="section:2;698:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="title:4;701:32">Examples of USP ACS Handling Mechanisms</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:19;704:25">USP ACS checks are only applied when USP is associated with Management EP, the examples are listed in below table.</p>
+         <table id="usp_acs_examples_table" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="table:2;708:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="title:5;711:35">USP ACS Check Examples</title>
+            <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="tgroup:2;715:37">
+               <colspec colname="col1" colnum="1" colwidth="0.4in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:5;721:43"/>
+               <colspec colname="col2" colnum="2" colwidth="2.7in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:6;727:43"/>
+               <colspec colname="col3" colnum="3" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:7;733:43"/>
+               <colspec colname="col4" colnum="4" colwidth="1.5in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="colspec:8;739:43"/>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="tbody:2;742:38">
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:13;746:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:49;750:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:20;753:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:5;756:42">ACS</b>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:50;762:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:21;765:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:6;768:42">Picture</b>
+                        </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:51;774:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:22;777:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:7;780:42">Conditions</b>
+                        </p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:52;786:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:23;789:40">
+                           <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="b:8;792:42">Actions</b>
+                        </p>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:14;799:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:53;803:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:24;806:40">R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:54;811:45">
+                        <image href="graphics/usp_acs_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:12;817:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:55;822:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:23;825:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:33;828:45">USP secondary interface receives Memory Requests targeting vEP</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:56;834:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:24;837:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:34;840:45">The offending TLPs are redirected Upstream towards the RC</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:15;847:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:57;851:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:25;854:40">C</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:58;859:45">
+                        <image href="graphics/usp_acs_c.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:13;865:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:59;870:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:25;873:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:35;876:45">USP secondary interface receives Completions targeting vEP</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:60;882:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:26;885:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:36;888:45">The offending TLPs are redirected Upstream towards the RC</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:16;895:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:61;899:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:26;902:40">T</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:62;907:45">
+                        <image href="graphics/usp_acs_t.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:14;913:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:63;918:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:27;921:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:37;924:45">USP receives Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:38;927:45">The received Memory Requests are targeted to vEP.</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:64;933:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:28;936:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:39;939:45">The offending TLPs are routed normally ("directly") to the vEP.</li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row valign="top" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="row:17;946:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:65;950:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="p:27;953:40">T+R</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:66;958:45">
+                        <image href="graphics/usp_acs_t_r.svg" placement="inline" width="2.5in" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="image:15;964:49"/>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:67;969:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:29;972:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:40;975:45">ACS T and ACS R are both enabled in USP.</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:41;978:45">SP receives Memory Requests whose Address Type (AT) field indicates a Translated address</li>
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:42;981:45">The received Memory Requests are targeted to vEP.</li>
+                        </ul>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="entry:68;987:45">
+                        <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="ul:30;990:42">
+                           <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_acs_examples.xml" xtrc="li:43;993:45">The offending TLPs are routed normally ("directly") to the vEP instead of being routed to RC.</li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

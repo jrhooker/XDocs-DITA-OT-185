@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\marketing?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/marketing/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="introduction" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="title:1;14:26">Introduction</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="body:1;17:24">
+      <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="note:1;21:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:1;24:24">Content source:</p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:1;27:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:1;30:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:2;33:30"> ESC-2171299 - Microsemi Switchtec PFX PCIe Gen4 Fanout Switch Family Preliminary Product Brief, Issue 1.00</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:2;37:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:3;40:30"> ESC-2171298 - Microsemi Switchtec PSX PCIe Gen4 Storage Switch Family Preliminary Product Brief, Issue 1.00</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:3;44:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:4;47:30"> ESC-2171359 - Microsemi Switchtec PFX-D PCIe Gen4 Fanout Switch Family With DMA Preliminary Product Brief, Issue 1.00</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:4;51:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:5;54:30"> ESC-2171339 - Microsemi Switchtec PSX-D PCIe Gen4 Storage Switch Family Product Brief, Issue 1.00</p>
+            </li>
+         </ul>
+      </note>
+      <p pmc_switch="Fanout" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:6;61:21">The Switchtec PFX PCIe Gen4 Fanout Switch Family comprises high-reliability switches that support up to 100 lanes, 52 ports, 26 virtual switch partitions, 48 non-transparent bridges (NTBs), hot- and surprise-plug controllers for each port, advanced error containment, comprehensive diagnostics and debug capabilities, a wide breadth of I/O interfaces, NVMe-MI enclosure management, and a high-performance DMA controller. Applications for the PFX family include PCIe SSD enclosures, flash arrays, multi-host architectures, high-density servers, blade servers, GPU arrays, pooled storage/compute, and applications that require customized, high-reliability PCIe switching.</p>
+      <p pmc_switch="Encl_mgmt" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:7;65:21">The Switchtec PSX PCIe Gen4 Storage Switch Family comprises programmable and high-reliability switches that support up to 100 lanes, 52 ports, 26 virtual switch partitions, 48 non-transparent bridges (NTBs), hot and surprise-plug controllers for each port, advanced error containment, comprehensive diagnostics and debug capabilities, a wide breadth of I/O interfaces, an integrated MIPS processor, NVMe-MI enclosure management, and a high-performance direct memory access (DMA) controller. Applications for the PSX family include PCIe SSD enclosures, flash arrays, multi-host architectures, high-density servers, blade servers, pooled storage/compute, and applications that require customized, high-reliability PCIe switching.</p>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="section:1;68:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="title:2;71:32">Highlights</title>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:2;74:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:5;77:29">High-reliability PCIe: robust error containment, hot- and surprise-plug controllers per port, end-to-end data integrity protection, ECC protection on RAMs, high-quality, low-power SERDES</li>
+            <li pmc_switch="Encl_mgmt Encl_mgmt-d" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:6;81:29">PSX Software Development Kit (SDK): enables customer-differentiated solutions in areas such as enclosure management, error containment, and surprise-plug</li>
+            <li pmc_switch="Encl_mgmt Encl_mgmt-d" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:7;85:29">Integrated enclosure management processor, I/O interfaces, and SDK for enclosure management firmware development</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:8;88:29">Comprehensive diagnostics and debugging: PCIe generator and analyzer, per-port performance and error counters, multiple loopback modes, and real-time eye capture</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:9;91:29">Significant power, cost, and board space savings with support for:</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:10;94:30">Up to 52 ports, 48 NTBs, and 26 virtual switch partitions</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:11;97:30">Flexible x1*, x2, x4 , x8, and x16 port bifurcation with no restrictions on configuring ports as either upstream or downstream, or on mapping ports to NTBs</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:12;100:30">Integrated NVMe Endpoint for supporting NVMe-MI enclosure management</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:13;103:30">Inband management supporting SES host and native NVMe enclosure management stack</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:14;106:30">Out-of-band management supporting MCTP through I2C</li>
+         </ul>
+         <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="note:2;110:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:8;113:27">* x1 Bifurcation is natively supported on select lanes. x1 is also supported on all other ports by consuming one lane from a x2 port.</p>
+         </note>
+      </section>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="section:2;118:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="title:3;121:32">Features</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:9;124:24">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:1;127:27">High-Performance Non-blocking Gen4 Switches</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:3;131:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:15;134:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:10;137:31"> 100-lane, 84-lane, 68-lane, 52-lane, 36-lane, and 28-lane variants</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:16;141:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:11;144:31"> Ports bifurcate from x1* to x16 lanes (x1* bifurcation requires 2 lanes, one unused)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:17;148:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:12;151:31"> FlexMap (lane muxing) enables flexible drive bay configurations: 4x1, 2x2, and 1x4 modes</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:18;155:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:13;158:31"> Up to 48 NTBs assignable to any port</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:19;162:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:14;165:31"> Logical non-transparent (NT) interconnect allows for larger topologies (up to 256 masters)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:20;169:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:15;172:31"> Supports 1+1 and N+1 failover mechanisms</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:21;176:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:16;179:31"> NT address translation using direct windows and multiple sub-windows per BAR</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:22;183:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:17;186:31"> Supports multicast groups per port</p>
+            </li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:18;191:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:2;194:27">DMA Controller</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:4;198:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:23;201:30">High-performance DMA engine supports up to 8 DMA Endpoints (EP) assignable to any port</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:24;204:30">DMA resources, including bandwidth and number of channels, can be allocated to any DMA Endpoint</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:25;207:30">Supports up to 64 DMA channels</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:19;211:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:3;214:27">Error Containment</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:5;218:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:26;221:30">Advanced Error Reporting (AER) on all ports</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:27;224:30">Downstream Port Containment (DPC) on all downstream ports</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:28;227:30">Poisoned TLP blocking</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:29;230:30">Completion Timeout Synthesis (CTS) to prevent an error state in an upstream host due to incomplete non-posted transactions</li>
+            <li pmc_switch="Encl_mgmt Encl_mgmt-d" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:30;234:30">Upstream error containment (UEC), a programmable feature that prevents errors from propagating upstream</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:31;237:30">Hot- and surprise-plug controllers per port</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:32;240:30">GPIOs configurable for different cable/connector standards</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:20;244:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:4;247:27">PCIe Interfaces</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:6;251:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:33;254:30">Passive, managed, and optical cables</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:34;257:30">SFF-8644, SFF-8643, SFF-8639 (U.2), OCuLink, and other connectors</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:35;260:30">Standard Hot Plug Controller (SHPC)-enabled slot and edge connectors</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:21;264:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:5;267:27">Diagnostics and Debug</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:7;271:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:36;274:30">Transaction Layer Packet (TLP) generator for testing and debugging of links and error handling</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:37;277:30">Real-time eye capture</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:38;280:30">External loopback capability</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:39;283:30">Errors, statistics, performance, and TLP latency counters</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:22;287:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:6;290:27">Peripheral I/O Interfaces</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:8;294:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:40;297:30">Up to 11 two-wire interfaces (TWIs) with SMBus support</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:41;300:30">Up to 4 SFF-8485-compliant SGPIO ports</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:42;303:30">Up to 103 parallel GPIO pins</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:43;306:30">10/100 Ethernet MAC port (MII/RMII) (40x40mm package devices)</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:44;309:30">Up to 4 UARTs</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:45;312:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:23;315:31">Local Bus Interface support </p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:46;319:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:24;322:31">Up to 8 Tachometer inputs</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:47;326:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:25;329:31">Up to 8 PWM fan control outputs</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:48;333:30">JTAG and EJTAG interface</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:26;337:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:7;340:27">High-Speed I/O</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:9;344:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:49;347:30">PCIe Gen4 16 GT/s</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:50;350:30">Supports PCIe-compliant link training and manual PHY configuration for PCIe Optical</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:27;354:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:8;357:27">Power Management</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:10;361:27">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:51;364:30">Active State Power Management (ASPM)</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:52;367:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:28;370:31">Support for L2/L3 Ready, D3Hot, D3Cold </p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:53;374:30">Software-controlled power management</li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:29;378:25">
+            <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="b:9;381:27">ChipLink Diagnostic Tool Suite</b>
+         </p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="ul:11;385:27">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:54;388:30">Extensive debug, diagnostics, configuration, and analysis tools with an intuitive GUI</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:55;391:30">Access to configuration data, management capabilities, and signal integrity analysis tools (such as real-time eye capture)</li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="li:56;394:30">Connects to device over in-band PCIe or sideband signals (UART, TWI, and EJTAG)</li>
+         </ul>
+      </section>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\marketing\introduction.xml" xtrc="p:30;399:23"/>
+   </body>
+</topic>

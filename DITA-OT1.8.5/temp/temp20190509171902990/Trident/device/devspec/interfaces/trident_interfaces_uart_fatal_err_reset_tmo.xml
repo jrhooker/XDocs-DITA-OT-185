@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\interfaces?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/interfaces/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" id="FATAL_ERR_RESET_TMO_VALUE" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="topic:1;10:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="title:1;13:26">Fatal Error Reset Timeout</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="body:1;16:24">
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="section:1;19:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="title:2;22:32">Fatal Error Reset Timeout Unit</title>
+         <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="simpletable:1;25:44">
+            <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="strow:1;28:35">
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:1;31:42">
+                  <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="b:1;34:33">Field Size</b>
+               </stentry>
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:2;38:42">2 b</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="strow:2;42:35">
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:3;45:42">
+                  <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="b:2;48:33">Value Range</b>
+               </stentry>
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:4;52:42">0 - 3</stentry>
+            </strow>
+         </simpletable>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:1;57:24">This field indicates timing granularity of “Fatal Error Reset Timeout Value” where the values are defined in the following table:</p>
+         <table id="TIMEOUT_LIST" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="table:1;61:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="title:3;64:35">Fatal Error Reset Timeout Control</title>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="tgroup:1;68:37">
+               <colspec colname="col1" colnum="1" colwidth="400*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="colspec:1;74:43"/>
+               <colspec colname="col2" colnum="2" colwidth="600*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="colspec:2;80:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="thead:1;83:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="row:1;86:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:1;90:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:2;93:39">Value </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:2;98:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:3;101:39">List</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="tbody:1;107:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="row:2;110:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:3;114:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:4;117:39">0</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:4;122:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:5;125:39">Seconds</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="row:3;130:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:5;134:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:6;137:39">1</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:6;142:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:7;145:39">Minutes</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="row:4;150:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:7;154:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:8;157:39">2</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:8;162:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:9;165:39">Hours</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="row:5;170:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:9;174:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:10;177:40">3</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="entry:10;182:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:11;185:40">Disable</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="section:2;194:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="title:4;197:32">Fatal Error Reset Timeout Value</title>
+         <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="simpletable:2;200:44">
+            <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="strow:3;203:35">
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:5;206:42">
+                  <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="b:3;209:33">Field Size</b>
+               </stentry>
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:6;213:42">6 b</stentry>
+            </strow>
+            <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="strow:4;217:35">
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:7;220:42">
+                  <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="b:4;223:33">Value Range</b>
+               </stentry>
+               <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="stentry:8;227:42">0x00 - 0x3F</stentry>
+            </strow>
+         </simpletable>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_fatal_err_reset_tmo.xml" xtrc="p:12;232:25">This field specifies the timeout value for the minimal mode command server to receive a character or the switch will be reset by the firmware fatal error handler. By default, the reset timeout value is 0x3F, it means if no input to the minimal mode command sever for 0x3F seconds, fatal error handler will reset the Switchtec.</p>
+      </section>
+   </body>
+</topic>

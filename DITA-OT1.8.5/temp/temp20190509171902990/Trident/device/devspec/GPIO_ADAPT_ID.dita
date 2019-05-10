@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="GPIO_ADAPT_ID" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="topic:5;1502:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="title:7;1505:32">GPIO Adapter ID</title>
+         <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="body:5;1508:30">
+            <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="simpletable:3;1511:47">
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="strow:5;1514:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:9;1517:45">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="b:31;1520:37">Field Size</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:10;1524:46">1 B</stentry>
+               </strow>
+               <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="strow:6;1528:38">
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:11;1531:46">
+                     <b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="b:32;1534:37">Value Range</b>
+                  </stentry>
+                  <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="stentry:12;1538:46">0x00 - 0xFF</stentry>
+               </strow>
+            </simpletable>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\gpio\trident_gpio_adapter_settings.xml" xtrc="p:92;1543:28">This field indicates the Adapter instance ID to which this GPIO pin instance is bound.</p>
+         </body>
+      </topic>

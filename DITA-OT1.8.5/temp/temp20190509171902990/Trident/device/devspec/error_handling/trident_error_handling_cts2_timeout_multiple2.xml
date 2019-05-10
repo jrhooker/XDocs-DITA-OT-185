@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\error_handling?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/error_handling/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="CTS_TS2_TIMEOUT_MULTI" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="topic:1;2:802">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="title:1;3:162">CTS TS2 Completion Timeout Multiple</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="body:1;5:159">
+    <simpletable id="CTS_TIMEOUT_MULTI" class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="simpletable:1;6:205">
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="strow:1;7:166">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="stentry:1;8:174"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="b:1;8:329">Field Size</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="stentry:2;10:174">6 Bits</stentry>
+      </strow>
+
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="strow:2;13:166">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="stentry:3;14:174"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="b:2;14:329">Value Range</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="stentry:4;16:174">0x01- 0x3F</stentry>
+      </strow>
+    </simpletable>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\error_handling\trident_error_handling_cts2_timeout_multiple2.xml" xtrc="p:1;20:152">This field indicates the CTS TS2 Completion Timeout Value Multiple for
+    all TLP transactions.</p>
+  </body>
+</topic>

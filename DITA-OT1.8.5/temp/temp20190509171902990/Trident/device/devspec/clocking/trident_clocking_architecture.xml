@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\clocking?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/clocking/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_clocking_architecture" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:1;14:26">Clocking Architecture</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:1;20:21">Reference clocks (both input and output) are arranged based around a PCIe Stack (x16 lanes wide). Some stacks have a single clock synthesis unit shared between the two stacks. Other stacks have a dedicated CSU per stack.</p>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:2;23:21">Each CSU is capable of receiving up to 4 input clocks to the ports within the stack. It is important to note that not ALL host input clocks are routed to every stack. The diagrams below will illustrate the limitations.</p>
+      <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:1;27:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:3;30:24">Source Graphics: http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=435311</p>
+      </note>
+      <fig id="fig_Device_clocking_arrangement_0j6dzvhtd" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="fig:1;35:25">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:2;38:32">Device clocking arrangement</title>
+         <image href="graphics/trident_external_clock_diagram.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="image:1;44:33"/>
+      </fig>
+      <note audience="" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:2;49:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:4;52:24">The ports in Stack 6 are only available in Revision B of the switch.</p>
+      </note>
+      <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:3;56:27">
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:5;59:24">For Switchtec variants that do not contain specific stacks (where stack 2 or 3 are not used), the corresponding CSUs are also unavailable</p>
+      </note>
+      <section id="section_PCIE_REFCLK_to_PCIe_Stack_Mapping_3ia7hcm2v" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="section:1;64:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:3;67:32">Input reference clock (PCIE_REFCLK) to PCIe Stack Mapping</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:6;70:24">Not all input clocks are routed to every stack, the following table outlines the mapping of REFCLK_ input clocks to stack connections. The exact mapping of clocks to stack can be found in <xref href="#trident_clocking_architecture/table_Reference_Clock_pin_description_and_conn_2j6dzvhtd" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="xref:1;73:34"><?ditaot gentext?>#trident_clocking_architecture/table_Reference_Clock_pin_description_and_conn_2j6dzvhtd</xref>.</p>
+         <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:4;76:30">Only the local reference clock input (PCIE_REFCLK_D) is required to support SRIS or SRNS clocking modes.</note>
+      </section>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="section:2;80:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:4;83:32">Input reference clocks by variant (PCIE_REFCLK_D/PCIE_REFCLK_H/PCIE_REFCLK_M)</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:7;86:24">The following table outlines available input reference clocks broken out by variant</p>
+         <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="table:1;89:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:5;92:35">Input reference clocks by variant</title>
+            <tgroup cols="8" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="tgroup:1;96:37">
+               <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:1;101:43"/>
+               <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:2;106:43"/>
+               <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:3;111:43"/>
+               <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:4;116:43"/>
+               <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:5;121:43"/>
+               <colspec colname="col6" colnum="6" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:6;126:43"/>
+               <colspec colname="col7" colnum="7" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:7;131:43"/>
+               <colspec colname="col8" colnum="8" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:8;136:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="thead:1;139:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:1;142:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:1;146:45"/>
+                     <entry colname="col2" namest="col2" nameend="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:2;153:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:8;156:39">PCIE_REFCLK_</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:2;161:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:3;165:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:9;168:39"> Lane count</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:4;173:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:10;176:40">D</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:5;181:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:11;184:40">H0</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:6;189:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:12;192:40">H1</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:7;197:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:13;200:40">H2</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:8;205:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:14;208:40">H3</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:9;213:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:15;216:40">M0</p>
+                     </entry>
+                     <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:10;221:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:16;224:40">M1</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="tbody:1;230:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:3;233:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:11;238:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:17;241:40"> 100</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:12;247:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:18;250:40">X</p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:13;256:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:19;259:40"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:14;265:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:20;268:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:15;274:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:21;277:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:16;283:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:22;286:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:17;292:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:23;295:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:18;301:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:24;304:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:4;309:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:19;314:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:25;317:40"> 84</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:20;323:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:26;326:40">X</p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:21;332:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:27;335:40"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:22;341:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:28;344:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:23;350:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:29;353:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:24;359:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:30;362:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:25;368:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:31;371:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:26;377:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:32;380:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:5;385:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:27;390:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:33;393:40"> 68</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:28;399:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:34;402:40">X </p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:29;408:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:35;411:41"/>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:30;417:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:36;420:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:31;426:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:37;429:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:32;435:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:38;438:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:33;444:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:39;447:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:34;453:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:40;456:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:6;461:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:35;466:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:41;469:40"> 52</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:36;475:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:42;478:40">X </p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:37;484:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:43;487:41"/>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:38;493:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:44;496:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:39;502:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:45;505:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:40;511:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:46;514:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:41;520:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:47;523:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:42;529:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:48;532:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:7;537:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:43;542:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:49;545:40"> 36</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:44;551:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:50;554:40">X </p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:45;560:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:51;563:41"/>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:46;569:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:52;572:40">X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:47;578:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:53;581:40">X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:48;587:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:54;590:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:49;596:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:55;599:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:50;605:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:56;608:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:8;613:37">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:51;618:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:57;621:40"> 28</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:52;627:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:58;630:40">X</p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:53;636:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:59;639:41"/>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:54;645:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:60;648:40">X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:55;654:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:61;657:40">X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:56;663:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:62;666:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:57;672:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:63;675:40">X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:58;681:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:64;684:40">X</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="section:3;693:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:6;696:32">Output reference clocks by variant (PCIE_REFCLK_S)</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:65;699:25">The following table outlines available output reference clocks broken out by variant</p>
+         <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="table:2;702:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:7;705:35">Output reference clocks by variant</title>
+            <tgroup cols="8" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="tgroup:2;709:37">
+               <colspec colname="col1" colnum="1" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:9;714:43"/>
+               <colspec colname="col2" colnum="2" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:10;719:44"/>
+               <colspec colname="col3" colnum="3" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:11;724:44"/>
+               <colspec colname="col4" colnum="4" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:12;729:44"/>
+               <colspec colname="col5" colnum="5" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:13;734:44"/>
+               <colspec colname="col6" colnum="6" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:14;739:44"/>
+               <colspec colname="col7" colnum="7" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:15;744:44"/>
+               <colspec colname="col8" colnum="8" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="colspec:16;749:44"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="thead:2;752:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:9;755:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:59;759:46"/>
+                     <entry colname="col2" namest="col2" nameend="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:60;766:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:66;769:40">PCIE_REFCLK_</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:10;774:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:61;778:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:67;781:40"> Lane count</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:62;786:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:68;789:40">S0 </p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:63;794:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:69;797:40">S1</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:64;802:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:70;805:40">S2</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:65;810:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:71;813:40">S3</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:66;818:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:72;821:40">S4</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:67;826:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:73;829:40">S5</p>
+                     </entry>
+                     <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:68;834:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:74;837:40">S6</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="tbody:2;843:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:11;846:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:69;851:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:75;854:40"> 100</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:70;860:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:76;863:40"> X</p>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:71;869:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:77;872:40"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:72;878:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:78;881:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:73;887:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:79;890:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:74;896:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:80;899:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:75;905:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:81;908:40"> X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:76;914:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:82;917:40"> X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:12;922:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:77;927:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:83;930:40"> 84</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:78;936:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:84;939:41"/>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:79;945:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:85;948:40"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:80;954:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:86;957:40"> X</p>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:81;963:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:87;966:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:82;972:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:88;975:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:83;981:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:89;984:40"> X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:84;990:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:90;993:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:13;998:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:85;1003:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:91;1006:40"> 68</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:86;1012:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:92;1015:41"/>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:87;1021:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:93;1024:40"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:88;1030:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:94;1033:41"/>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:89;1039:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:95;1042:40"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:90;1048:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:96;1051:40"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:91;1057:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:97;1060:40"> X</p>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:92;1066:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:98;1069:40">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:14;1074:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:93;1079:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:99;1082:40"> 52</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:94;1088:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:100;1091:42"/>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:95;1097:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:101;1100:41"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:96;1106:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:102;1109:42"/>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:97;1115:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:103;1118:41"> X</p>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:98;1124:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:104;1127:41"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:99;1133:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:105;1136:42"/>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:100;1142:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:106;1145:41">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:15;1150:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:101;1155:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:107;1158:41"> 36</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:102;1164:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:108;1167:42"/>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:103;1173:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:109;1176:41"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:104;1182:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:110;1185:42"/>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:105;1191:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:111;1194:42"/>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:106;1200:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:112;1203:41"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:107;1209:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:113;1212:42"/>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:108;1218:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:114;1221:41">X</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="row:16;1226:38">
+                     <entry colname="col1" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:109;1231:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:115;1234:41"> 28</p>
+                     </entry>
+                     <entry colname="col2" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:110;1240:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:116;1243:42"/>
+                     </entry>
+                     <entry colname="col3" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:111;1249:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:117;1252:41"> X</p>
+                     </entry>
+                     <entry colname="col4" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:112;1258:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:118;1261:42"/>
+                     </entry>
+                     <entry colname="col5" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:113;1267:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:119;1270:42"/>
+                     </entry>
+                     <entry colname="col6" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:114;1276:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:120;1279:41"> X</p>
+                     </entry>
+                     <entry colname="col7" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:115;1285:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:121;1288:42"/>
+                     </entry>
+                     <entry colname="col8" align="center" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="entry:116;1294:46">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:122;1297:41">X</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section audience="MSCCInternal" id="section_Clocking_CSU_Architecture_3j6dzvhtd" class="- topic/section " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="section:4;1308:33">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:8;1311:32">Clocking CSU Architecture</title>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:123;1314:26">Each CSU in Switchtec is comprised of some multiplexers which provide the ability for individual ports in the switch to use different clocking schemes. </p>
+         <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:5;1318:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:124;1321:29">Source Graphics: http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=435312<xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=435312" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="xref:2;1325:36"><?ditaot gentext?>http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=435312</xref>
+            </p>
+         </note>
+         <fig id="fig_External_reference_clock_to_CSU_channel__1ig015tga" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="fig:2;1331:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:9;1334:35">Switchtec CSU Architecture (Stack 0/1 example)</title>
+            <image href="graphics/trident_csu_architecture_external.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="image:2;1340:36"/>
+         </fig>
+         <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:6;1345:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:125;1348:29">Source Graphics: <xref href="http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=425663" scope="external" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="xref:3;1352:36"><?ditaot usertext?>http://bby1dms01.pmc-sierra.internal/DocMgmt/fileinfo.cfm?file_id=425663 </xref>
+            </p>
+         </note>
+         <fig audience="MSCCInternal" id="fig_INTERNAL_Switchtec_CSU_Architecture_Stac_4j6dzvhtd" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="fig:3;1359:28">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="title:10;1362:36">INTERNAL Switchtec CSU Architecture (Stack 0/1 example)</title>
+            <image href="graphics/trident_csu_architecture_internal.svg" width="6in" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="image:3;1368:36"/>
+         </fig>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:126;1372:26">In <xref href="#Clocking_Architecture/fig_External_reference_clock_to_CSU_channel__1ig015tga" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="xref:4;1375:33"><?ditaot gentext?>#Clocking_Architecture/fig_External_reference_clock_to_CSU_channel__1ig015tga</xref> the CSU that controls stack 0 and 1 is illustrated. The inputs to this CSU are:</p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="ul:1;1378:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:1;1381:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:127;1384:32"> PCIE_REFCLK_D</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:2;1388:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:128;1391:32"> PCIE_REFCLK_H0</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:3;1395:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:129;1398:32"> PCIE_REFCLK_H1</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:4;1402:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:130;1405:32"> PCIE_REFCLK_H2</p>
+            </li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:131;1410:26">The CSU itself provides 3 channels of clock to the port. This means from the 4 input clocks provided to the CSU, three of them can be used to clock ports within stacks 0 and 1. This provides up to three clocking variants for all ports using stacks 0 and 1. One example use-case of picking three clocking options for the CSU is:</p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="ul:2;1413:26">
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:5;1416:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:132;1419:32">Use PCIE_REFCLK_H1 with SSC (Common SSC)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:6;1423:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:133;1426:32">Use PCIE_REFCLK_D without SSC (SRNS)</p>
+            </li>
+            <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="li:7;1430:29">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:134;1433:32">Use PCIE_REFCLK_H0 without SSC (Common noSSC)</p>
+            </li>
+         </ul>
+         <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="note:7;1438:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:135;1441:29">For SRIS applications, CSU Channel 1 is dedicated for this operation. Ports using SRIS must use CSU Channel 1 and the reference clock input for CSU Channel 1 MUST be a non-SSC clock input to the switch. PCIE_REFCLK_D is, by default, a non-SSC clock and is a good candidate for this use-case. </p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:136;1444:29">If SRIS is not used, CSU Channel 1 can be used like any other CSU Channel.</p>
+         </note>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:137;1448:26">The configuration in Switchtec allows for a high level of flexibility with which input clock can be used to source a CSU channel. For example, PCIE_REFCLK_H0 could be used to feed CSU Channel 0 which enables SSC to provide Common SSC to ports using CSU Channel 0. At the same time, PCIE_REFCLK_H0 can also be used to clock CSU Channel 1 which disables SSC to provide Common noSSC to other ports in stacks 0 and 1. </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\clocking\trident_clocking_architecture.xml" xtrc="p:138;1451:26">Output clocks are derived from the Channel CSUs and will have SSC or no SSC dependent on their configuration. </p>
+      </section>
+   </body>
+</topic>

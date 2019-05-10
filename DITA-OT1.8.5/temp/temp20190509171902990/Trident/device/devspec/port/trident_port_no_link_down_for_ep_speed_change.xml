@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\port?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/port/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="IGNORE_TS12_L2R" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " class="- topic/topic " rev="deltaxml-add" status="new" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="topic:1;2:786">
+  <title id="IGNORE_TS12_L2R" class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="title:1;3:173">No Link Down For EP Speed Change</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="body:1;5:149">
+    <simpletable class="- topic/simpletable " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="simpletable:1;6:172">
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="strow:1;7:156">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="stentry:1;8:164"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="b:1;8:309">Field Size</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="stentry:2;10:164">1b</stentry>
+      </strow>
+
+      <strow class="- topic/strow " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="strow:2;13:156">
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="stentry:3;14:164"><b class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="b:2;14:309">Value Range</b></stentry>
+
+        <stentry class="- topic/stentry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="stentry:4;16:164">0x0 - 0x1</stentry>
+      </strow>
+    </simpletable>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="p:1;20:142">When link partner(e.g., EndPoint) initiates link speed change by
+    sending TS1 or TS2 ordered sets, the port will enter Recovery from L0.
+    This will trigger an L0-&gt;Recovery interrupt to firmware, and firmware
+    may mistreat this L0-&gt;Recovery as a valid detection for NSB hot-plug
+    case. Firmware provides this field as an option to ignore this kind of
+    L0-&gt;Recovery. Any Endpoint that executes spontaneous speed changes(i.e.
+    for power savings) must have No Link down For EP Speed Change enabled or
+    the switch will declare link down on any speed change.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="p:2;29:142">1: Ignore the L0-&gt;Recovery caused by receiving TS1 or TS2 ordered
+    sets from link partner.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\port\trident_port_no_link_down_for_ep_speed_change.xml" xtrc="p:3;32:142">0: Default value.</p>
+  </body>
+</topic>

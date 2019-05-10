@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\interfaces?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/interfaces/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" id="UART_SETTINGS" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="topic:1;10:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="title:1;13:26">UART Settings Block</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="body:1;16:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:1;19:21">Switchtec supports up to 4 UART ports, each of which is defined in this settings block. A unique baud rate can be defined, as well as the default command server UART interface to use during normal operation and in case of fatal errors.</p>
+      <table audience="PMCInternal" id="UART_Setting_Block_5pibnybo8h" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="table:1;24:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="title:2;27:32">UART Setting Block</title>
+         <tgroup cols="11" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="tgroup:1;31:34">
+            <colspec colname="col1" colnum="1" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:1;38:40"/>
+            <colspec colname="col2" colnum="2" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:2;45:40"/>
+            <colspec colname="col3" colnum="3" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:3;52:40"/>
+            <colspec colname="col4" colnum="4" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:4;59:40"/>
+            <colspec colname="col5" colnum="5" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:5;66:40"/>
+            <colspec colname="col6" colnum="6" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:6;73:40"/>
+            <colspec colname="col7" colnum="7" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:7;80:40"/>
+            <colspec colname="col8" colnum="8" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:8;87:40"/>
+            <colspec colname="col9" colnum="9" align="center" colwidth="8*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:9;94:40"/>
+            <colspec colname="col10" colnum="10" align="center" colwidth="9*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:10;101:41"/>
+            <colspec colname="col11" colnum="11" align="center" colwidth="18*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="colspec:11;108:41"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="thead:1;111:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:1;114:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:1;118:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:2;121:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:1;125:39">Byte \ Bit</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:2;131:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:3;134:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:2;138:39">7</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:3;144:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:4;147:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:3;151:39">6</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:4;157:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:5;160:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:4;164:39">5</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:5;170:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:6;173:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:5;177:39">4</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:6;183:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:7;186:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:6;190:39">3</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:7;196:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:8;199:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:7;203:39">2</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col8" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:8;209:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:9;212:36"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:8;216:39">1</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:9;222:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:10;225:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:9;229:39">0</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:10;235:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:11;238:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:10;242:40">Default</b> 
+                     </p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:11;248:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:12;251:37"> 
+                        <b otherprops="bold" class="+ topic/ph hi-d/b " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="b:11;255:40">Value Range</b> 
+                     </p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="tbody:1;262:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:2;265:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:12;269:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:13;272:37">0x00</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:13;279:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:14;282:37">Reserved</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:14;289:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:15;292:37">CMDSVR UART0 Baud Rate</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:15;297:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:16;300:37">0x05</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:16;305:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:17;308:37">0 – 6</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:3;313:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:17;317:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:18;320:37">0x01</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:18;327:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:19;330:37">Reserved</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:19;337:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:20;340:37">CMDSRV UART1 Baud Rate </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:20;345:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:21;348:37">0x05</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:21;353:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:22;356:37">0 – 6</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:4;361:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:22;365:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:23;368:37">0x02</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:23;375:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:24;378:37">Reserved</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:24;385:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:25;388:37">CMDSRV UART2 Baud Rate </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:25;393:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:26;396:37">0x05</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:26;401:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:27;404:37">0 – 6</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:5;409:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:27;413:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:28;416:37">0x03</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:28;423:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:29;426:37">Reserved</p>
+                  </entry>
+                  <entry colname="col6" namest="col6" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:29;433:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:30;436:37">CMDSRV UART3 Baud Rate </p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:30;441:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:31;444:37">0x05</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:31;449:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:32;452:37">0 – 6</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:6;457:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:32;461:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:33;464:37">0x04</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:33;469:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:34;472:37">Fatal Error Handler Enable</p>
+                  </entry>
+                  <entry colname="col3" namest="col3" nameend="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:34;479:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:35;482:37">Reserved</p>
+                  </entry>
+                  <entry colname="col8" namest="col8" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:35;489:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:36;492:37">CMDSVR UART ID</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:36;497:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:37;500:37">0x00</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:37;505:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:38;508:37">CMDSVR UART ID: 0 - 3 if the variant supports 4 UART ports; or 0 - 2 if the variant supports 2 UART ports.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:7;513:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:38;517:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:39;520:37">0x05</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:39;525:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:40;528:37">Nonthreadx CMDSVR Interface</p>
+                  </entry>
+                  <entry colname="col3" namest="col3" nameend="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:40;535:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:41;538:37">Reserved</p>
+                  </entry>
+                  <entry colname="col7" namest="col7" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:41;545:42">Nonthreadx CMDSVR TWI PORT ID</entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:42;549:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:42;552:37">0x04</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:43;557:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:43;560:37">Interface: 0-1</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:44;563:37">TWI port ID: 0-11 if the variant supports 12 TWI ports, or 0-8 if the variant supports 8 TWI ports.</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:8;568:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:44;572:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:45;575:37">0x06 </p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:45;582:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:46;585:37">Nonthreadx CMDSVR TWI Slave Address</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:46;590:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:47;593:37">0x5B</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:47;598:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:48;601:37">0x00-0xFF</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="row:9;606:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:48;610:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:49;613:37"> 0x07</p>
+                  </entry>
+                  <entry colname="col2" namest="col2" nameend="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:49;620:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:50;623:37"> Fatal Error Reset Timeout Control(7:6)</p>
+                  </entry>
+                  <entry colname="col4" namest="col4" nameend="col9" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:50;630:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:51;633:37">Fatal Error Reset Timeout Value(5:0)</p>
+                  </entry>
+                  <entry colname="col10" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:51;638:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:52;641:37">0x3f</p>
+                  </entry>
+                  <entry colname="col11" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="entry:52;646:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:53;649:37">Control:0-2</p>
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\interfaces\trident_interfaces_uart_settings_block.xml" xtrc="p:54;652:37">Value:0x00-0x3f </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

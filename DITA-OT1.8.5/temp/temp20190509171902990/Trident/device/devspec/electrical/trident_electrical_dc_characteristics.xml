@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\Trident\device\devspec\electrical?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/Trident/device/devspec/electrical/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="trident_electrical_dc_characteristics" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="title:1;14:26">DC Characteristics</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="body:1;17:24">
+      <bodydiv class="- topic/bodydiv " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="bodydiv:1;20:33">
+         <note audience="MSCCInternal" class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="note:1;24:30">
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:1;27:27">Source: ESC-2171030 - (M)ABC Engineering Document 16nm 1.8V LVMCMOS, Issue 1.00</p>
+         </note>
+         <table id="table_DC_Characteristics_for_1.8V_LVCMOS_New_4hkbrjabo" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="table:1;32:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="title:2;35:35">DC Characteristics for 1.8V LVCMOS</title>
+            <tgroup cols="7" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="tgroup:1;39:37">
+               <colspec colname="col1" colnum="1" colwidth="77*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:1;45:43"/>
+               <colspec colname="col2" colnum="2" colwidth="232*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:2;51:43"/>
+               <colspec colname="col3" colnum="3" colwidth="111*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:3;57:43"/>
+               <colspec colname="col4" colnum="4" colwidth="81*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:4;63:43"/>
+               <colspec colname="col5" colnum="5" colwidth="128*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:5;69:43"/>
+               <colspec colname="col6" colnum="6" colwidth="71*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:6;75:43"/>
+               <colspec colname="col7" colnum="7" colwidth="300*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:7;81:43"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="thead:1;84:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:1;87:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:1;91:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:2;94:39">Symbol</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:2;99:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:3;102:39">Parameter</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:3;107:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:4;110:39">Min (V)</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:4;115:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:5;118:39">Typ (V)</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:5;123:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:6;126:39">Max (V)</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:6;131:44">Units</entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:7;135:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:7;138:39">Conditions</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="tbody:1;144:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:2;147:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:8;151:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:8;154:39">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:1;156:46">IH</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:9;162:44">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:9;165:39">DC Input HIGH voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:10;170:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:10;173:40">1.000</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:11;178:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:11;181:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:12;186:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:12;189:40">2.280</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:13;194:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:13;197:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:14;202:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:14;205:40">Refer to Note 1</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:3;210:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:15;214:45">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:2;216:43">IL</sub>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:16;221:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:15;224:40">DC Input LOW voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:17;229:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:16;232:40">-0.300</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:18;237:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:17;240:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:19;245:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:18;248:40">0.693</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:20;253:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:19;256:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:21;261:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:20;264:40">Refer to Note 1</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:4;269:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:22;273:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:21;276:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:3;278:46">HYST</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:23;284:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:22;287:40">Hysteresis voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:24;292:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:23;295:40">0.214*VDDO</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:25;300:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:24;303:40">0.233*VDDO</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:26;308:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:25;311:40">0.281*VDDO</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:27;316:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:26;319:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:28;324:46"/>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:5;328:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:29;332:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:27;335:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:4;337:46">OH</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:30;343:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:28;346:40">Output High Voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:31;351:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:29;354:40">VDDO - 0.450</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:32;359:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:30;362:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:33;367:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:31;370:40">—</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:34;375:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:32;378:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:35;383:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:33;386:40">Refer to Note 3 for test conditions</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:6;391:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:36;395:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:34;398:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:5;400:46">OL</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:37;406:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:35;409:40">Output Low Voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:38;414:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:36;417:40">—</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:39;422:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:37;425:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:40;430:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:38;433:40">0.450</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:41;438:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:39;441:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:42;446:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:40;449:40">Refer to Note 3 for test conditions</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:7;454:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:43;458:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:41;461:40">IOZ</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:44;466:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:42;469:40">Input leakage current</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:45;474:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:43;477:40">-1.858u</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:46;482:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:44;485:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:47;490:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:45;493:40">1.858u</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:48;498:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:46;501:40">A</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:49;506:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:47;509:40">Refer to Note 2</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:8;514:37">
+                     <entry colname="col1" namest="col1" nameend="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:50;520:45">
+                        <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="note:2;523:45">
+                           <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="ol:1;526:44">
+                              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:1;529:47">Measured voltage thresholds for Schmitt Mode</li>
+                              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:2;532:47">Measured leakage to PAD when the output is disabled &amp; 105C</li>
+                              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:3;535:47">
+                                 <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:48;538:49">VOH/VOL is measured for following conditions:</p>
+                                 <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="ul:1;541:50">
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:4;544:53">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:49;547:55"> IOH/IOL = 2mA (MODE=”00”) </p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:5;551:53">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:50;554:55"> IOH/IOL = 4mA (MODE=”01”)</p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:6;558:53">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:51;561:55"> IOH/IOL = 8mA (MODE=”10”) </p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:7;565:53">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:52;568:55"> IOH/IOL = 12mA (MODE=”11”)</p>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ol>
+                        </note>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:53;581:26"/>
+         <table id="table_DC_Characteristics_for_3.3V_Tolerant_Ope_6hkbrk75p" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="table:2;585:32">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="title:3;588:35">DC Characteristics for 3.3V Tolerant Open Drain LVCMOS</title>
+            <tgroup cols="7" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="tgroup:2;592:37">
+               <colspec colname="col1" colnum="1" colwidth="75*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:8;598:43"/>
+               <colspec colname="col2" colnum="2" colwidth="225*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:9;604:43"/>
+               <colspec colname="col3" colnum="3" colwidth="103*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:10;610:44"/>
+               <colspec colname="col4" colnum="4" colwidth="106*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:11;616:44"/>
+               <colspec colname="col5" colnum="5" colwidth="109*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:12;622:44"/>
+               <colspec colname="col6" colnum="6" colwidth="72*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:13;628:44"/>
+               <colspec colname="col7" colnum="7" colwidth="310*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="colspec:14;634:44"/>
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="thead:2;637:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:9;640:37">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:51;644:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:54;647:40">Symbol</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:52;652:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:55;655:40">Parameter</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:53;660:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:56;663:40">Min (V)</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:54;668:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:57;671:40">Typ (V)</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:55;676:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:58;679:40">Max (V)</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:56;684:45">Units</entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:57;688:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:59;691:40">Conditions</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="tbody:2;697:38">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:10;700:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:58;704:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:60;707:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:6;709:46">IH</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:59;715:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:61;718:40">DC Input HIGH voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:60;723:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:62;726:40">1.000</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:61;731:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:63;734:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:62;739:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:64;742:40">3.630</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:63;747:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:65;750:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:64;755:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:66;758:41"/>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:11;763:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:65;767:45">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:7;769:43">IL</sub>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:66;774:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:67;777:40">DC Input LOW voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:67;782:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:68;785:40">0.000</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:68;790:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:69;793:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:69;798:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:70;801:40">0.693</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:70;806:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:71;809:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:71;814:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:72;817:41"/>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:12;822:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:72;826:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:73;829:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:8;831:46">HYST</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:73;837:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:74;840:40">Schmitt trigger hysteresis voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:74;845:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:75;848:40">0.119*VDDO</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:75;853:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:76;856:40">0.138*VDDO</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:76;861:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:77;864:40">0.175*VDDO</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:77;869:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:78;872:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:78;877:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:79;880:41"/>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:13;885:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:79;889:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:80;892:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:9;894:46">OH</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:80;900:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:81;903:40">Output High Voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:81;908:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:82;911:40">VDDO-0.450</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:82;916:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:83;919:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:83;924:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:84;927:41"/>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:84;932:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:85;935:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:85;940:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:86;943:40">Refer to Note 2 for test conditions</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:14;948:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:86;952:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:87;955:40">V<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="sub:10;957:47">OL</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:87;963:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:88;966:40">Output or Bidirectional Low Voltage</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:88;971:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:89;974:40">—</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:89;979:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:90;982:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:90;987:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:91;990:40">0.450</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:91;995:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:92;998:40">V</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:92;1003:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:93;1006:40">Refer to Note 2 for test conditions</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:15;1011:38">
+                     <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:93;1015:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:94;1018:40">IOZ</p>
+                     </entry>
+                     <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:94;1023:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:95;1026:40">Input leakage current</p>
+                     </entry>
+                     <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:95;1031:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:96;1034:40">-5.789</p>
+                     </entry>
+                     <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:96;1039:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:97;1042:40">—</p>
+                     </entry>
+                     <entry colname="col5" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:97;1047:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:98;1050:40">5.789</p>
+                     </entry>
+                     <entry colname="col6" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:98;1055:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:99;1058:40">A</p>
+                     </entry>
+                     <entry colname="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:99;1063:45">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:100;1066:41">Refer to Note 1</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="row:16;1071:38">
+                     <entry colname="col1" namest="col1" nameend="col7" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="entry:100;1077:46">
+                        <note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="note:3;1080:45">
+                           <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="ol:2;1083:44">
+                              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:8;1086:47">Measured leakage to PAD when the output is disabled &amp; 105C</li>
+                              <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:9;1089:47">
+                                 <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:101;1092:50">VOH/VOL is measured for following conditions:</p>
+                                 <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="ul:2;1095:50">
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:10;1098:54">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:102;1101:56"> IOH/IOL = 2mA (MODE=”00”) </p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:11;1105:54">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:103;1108:56"> IOH/IOL = 4mA (MODE=”01”)</p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:12;1112:54">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:104;1115:56"> IOH/IOL = 8mA (MODE=”10”) </p>
+                                    </li>
+                                    <li class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="li:13;1119:54">
+                                       <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:105;1122:56"> IOH/IOL = 12mA (MODE=”11”)</p>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ol>
+                        </note>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </bodydiv>
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\Trident\device\devspec\electrical\trident_electrical_dc_characteristics.xml" xtrc="p:106;1136:24"/>
+   </body>
+</topic>

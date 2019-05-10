@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190509171902990\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190509171902990/COMMON/Appnotes/Layout_Guide/ab_sas4_pcie4/?><?path2project ..\..\..\..\out\diffed\pdf\?><?path2project-uri ../../../../out/diffed/pdf/?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.2" class="- topic/topic " xml:lang="en-US" base="base" id="xd_78ae6c8892afab6d--436b90da-15e044d3414--7fab" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)   " status="unchanged" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="topic:1;11:27">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="title:1;14:26">Differential Trace Impedance</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="body:1;17:24">
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:1;20:21">The following table shows the recommended values of the differential trace impedance.</p>
+      <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="table:1;23:29">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="title:2;26:32">Recommended Differential Trace Impedance</title>
+         <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="tgroup:1;30:34">
+            <colspec colname="col1" colnum="1" colwidth="2in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="colspec:1;36:40"/>
+            <colspec colname="col2" colnum="2" colwidth="2in" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="colspec:2;42:40"/>
+            <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="thead:1;45:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="row:1;48:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:1;52:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:2;55:36"> Data Rate (GT/s)</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:2;60:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:3;63:36">Recommended impedance</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="tbody:1;69:35">
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="row:2;72:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:3;76:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:4;79:36"> 2.5</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:4;84:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:5;87:36">85 Ω</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="row:3;92:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:5;96:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:6;99:36"> 5</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:6;104:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:7;107:36">85 Ω</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="row:4;112:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:7;116:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:8;119:36"> 8</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:8;124:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:9;127:36">85 Ω</p>
+                  </entry>
+               </row>
+               <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="row:5;132:34">
+                  <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:9;136:41">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:10;139:37">16</p>
+                  </entry>
+                  <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="entry:10;144:42">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\diffed\_b-0-file-\COMMON\Appnotes\Layout_Guide\ab_sas4_pcie4\PCIe_trace_impedance.xml" xtrc="p:11;147:37">85 Ω</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -113,12 +113,25 @@
             select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/@id"/>
         <xsl:variable name="mapTopic" select="key('map-id', $id)"/>
 
-        <xsl:if
-            test="
-                not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
-                or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
-            <xsl:attribute name="initial-page-number">1</xsl:attribute>
-        </xsl:if>
+<!-- The following change was made to what had been an IF statement in order to force any content in the frontmatter section to be in roman numerals and to NOT restart from 1. 
+        The frontmatter starts numbering from 1 with the Coverpage and continues in escalating roman numerals until it hits the start of the first chapter.-->
+
+<xsl:choose>
+    <xsl:when
+        test="$mapTopic/ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]">  
+        <xsl:attribute name="force-page-count">no-force</xsl:attribute>
+        <xsl:attribute name="format">i</xsl:attribute>
+    </xsl:when>
+    <xsl:when
+        test="
+        not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
+        or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
+        <xsl:attribute name="initial-page-number">1</xsl:attribute>
+    </xsl:when>
+</xsl:choose>
+        
+        
+       
 
     </xsl:template>
 

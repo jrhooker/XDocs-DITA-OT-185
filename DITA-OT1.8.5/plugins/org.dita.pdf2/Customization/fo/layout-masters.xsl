@@ -239,10 +239,17 @@ xsl:use-attribute-sets="frontmatter-page-master">
 <xsl:with-param name="master-name" select="'toc-sequence'"/>
 <xsl:with-param name="master-reference" select="'toc'"/>
 </xsl:call-template>
+    
+<xsl:call-template name="generate-page-sequence-master">
+<xsl:with-param name="master-name" select="'frontmatter-sequence'"/>
+<xsl:with-param name="master-reference" select="'front-matter'"/>
+</xsl:call-template>
+    
 <xsl:call-template name="generate-page-sequence-master">
 <xsl:with-param name="master-name" select="'body-sequence'"/>
 <xsl:with-param name="master-reference" select="'body'"/>
 </xsl:call-template>
+    
 <xsl:call-template name="generate-page-sequence-master">
 <xsl:with-param name="master-name" select="'legal'"/>
 <xsl:with-param name="master-reference" select="'legal'"/>

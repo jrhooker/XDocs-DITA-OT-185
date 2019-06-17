@@ -111,6 +111,10 @@
       <arg value="-${xep.formatter.output-format}"/>
       <classpath refid="xep.class.path"/>
       <sysproperty key="com.renderx.xep.CONFIG" value="${xep.config.file}"/>
+      
+      <!-- Extra system properties to correct SVG rendering issues -->
+      <sysproperty key="com.renderx.sax.entityresolver" value="org.apache.xml.resolver.tools.CatalogResolver"/>
+      <sysproperty key="xml.catalog.files" value="file:///C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/plugins/org.dita.pdf2/lib/xep/svg-catalog.xml"/>
     </java>
     <condition property="xepExitedOnError" value="true">
       <not><equals arg1="${errCode}" arg2="0"/></not>

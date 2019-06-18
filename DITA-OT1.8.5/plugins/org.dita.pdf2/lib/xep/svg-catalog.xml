@@ -1,29 +1,7 @@
 <?xml version="1.0"?>
-
-<!--<!DOCTYPE catalog
-
-   PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog V1.0//EN"
-
-   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd"> -->
-
-<catalog  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">  
-    
-    <public 
-        
-        publicId="-//W3C//DTD SVG 1.0//EN"  
-        
-        uri="file:///C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/plugins/org.dita.pdf2/lib/xep/svg/svg10.dtd"/>
-    
-    <public 
-        
-        publicId="-//W3C//DTD SVG 1.1//EN"  
-        
-        uri="svg/svg11.dtd"/>
-    
-    <system
-        
-        systemId="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"    
-        
-        uri="svg/svg11.dtd"/>
-    
+<catalog  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">     
+    <public publicId="-//W3C//DTD SVG 1.0//EN"          
+        uri="svg/svg10.dtd"/>    
+    <public publicId="-//W3C//DTD SVG 1.1//EN"          
+        uri="svg/svg11.dtd"/>           
 </catalog>

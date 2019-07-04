@@ -263,42 +263,45 @@
                         </xsl:for-each>
                     </fo:block>
 
-                    <!--<xsl:if test="$SHOWCOMMENTS = 'YES'">
-                        <fo:table border-collapse="yes">
-                            <fo:table-column column-width="1.85mm"/>
-                            <fo:table-column column-width="15cm"/>
-                            <fo:table-column column-width="1.85mm"/>
-                            <fo:table-body border-collapse="yes">
-                                
-                                <fo:table-row background-color="#fbbabd" height="1.85mm" width="1.85mm">
-                                    <fo:table-cell height="1.85mm" width="1.85mm">
-                                        <fo:block/>
-                                    </fo:table-cell>
-                                    <fo:table-cell>
-                                        <fo:block padding="1mm" font-size="7pt"><xsl:text>Location: </xsl:text><xsl:variable name="path-to-file">
+                    <xsl:variable name="XdProp_ResLblId">
+                        <xsl:variable name="tokens" select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')" />
+                        <xsl:value-of select="substring-before(., $tokens[last()])"/>
+                    </xsl:variable>
+                    <xsl:variable name="XdProp_ResLblId">
+                        <xsl:variable name="tokens" select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResLblId')[1], '/')" />
+                        <xsl:value-of select="$tokens[last()]"/>
+                    </xsl:variable>
+                    <fo:table border-collapse="yes">
+                        <fo:table-column column-width="1.85mm"/>
+                        <fo:table-column column-width="15cm"/>
+                        <fo:table-column column-width="1.85mm"/>
+                        <fo:table-body border-collapse="yes">
+                            <fo:table-row background-color="#fbbabd" height="1.85mm" width="1.85mm">
+                                <fo:table-cell height="1.85mm" width="1.85mm">
+                                    <fo:block/>
+                                </fo:table-cell>
+                                <fo:table-cell>
+                                    <fo:block padding="1mm" font-size="7pt">
+                                        <xsl:text>Location: </xsl:text>                                            
+                                        <fo:basic-link xsl:use-attribute-sets="xref">
+                                            <xsl:attribute name="external-destination">url('<xsl:value-of select="concat('xdocs://Production', $XdProp_ResLblId, $XdProp_ResLblId)"/>')</xsl:attribute>
                                             <xsl:choose>
-                                                <xsl:when test="string-length(@xtrf) &gt; 1"><xsl:value-of select="@xtrf"/></xsl:when>
-                                                <xsl:otherwise>no path</xsl:otherwise>                                                
-                                            </xsl:choose>
-                                        </xsl:variable><xsl:variable name="xdocs-target">                                                
-                                            <xsl:value-of select="concat('xdocs://Production', $path-to-file)"/>
-                                        </xsl:variable><fo:basic-link xsl:use-attribute-sets="xref">
-                                            <xsl:attribute name="external-destination">url('<xsl:value-of select="$xdocs-target"/>')</xsl:attribute>
-                                            <xsl:choose>
-                                                <xsl:when test="string-length(@xtrf) &gt; 1"><xsl:value-of select="replace(@xtrf, '/', '​/')"/></xsl:when>
-                                                <xsl:otherwise>no path</xsl:otherwise>                                                
+                                                <xsl:when test="string-length(@xtrf) &gt; 1">
+                                                    <xsl:value-of select="replace(@xtrf, '/', '​/')"/>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:value-of select="$XdProp_ResLblId"/>
+                                                </xsl:otherwise>
                                             </xsl:choose>
                                         </fo:basic-link>
-                                        </fo:block>
-                                    </fo:table-cell>
-                                    <fo:table-cell height="1.85mm" width="1.85mm">
-                                        <fo:block/>
-                                    </fo:table-cell>
-                                </fo:table-row>
-                                
-                            </fo:table-body>      
-                        </fo:table>
-                    </xsl:if>-->
+                                    </fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell height="1.85mm" width="1.85mm">
+                                    <fo:block/>
+                                </fo:table-cell>
+                            </fo:table-row>                            
+                        </fo:table-body>
+                    </fo:table>
 
                     <xsl:choose>
                         <xsl:when test="$chapterLayout = 'BASIC'">

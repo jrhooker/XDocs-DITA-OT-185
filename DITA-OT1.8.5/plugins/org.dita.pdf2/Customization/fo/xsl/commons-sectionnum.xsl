@@ -230,7 +230,7 @@
                     </fo:block>
                     
                     <xsl:if test="$SHOWCOMMENTS = 'YES'">
-                        <xsl:variable name="XdProp_ResLblId">
+                        <xsl:variable name="XdProp_ResPathId">
                             <xsl:variable name="tokens" select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')" />
                             <xsl:value-of select="substring-before(., $tokens[last()])"/>
                         </xsl:variable>
@@ -251,16 +251,9 @@
                                         <fo:block padding="1mm" font-size="7pt">
                                             <xsl:text>Location: </xsl:text>                                            
                                             <fo:basic-link xsl:use-attribute-sets="xref">
-                                                <xsl:attribute name="external-destination">url('<xsl:value-of select="concat('xdocs://Production', $XdProp_ResLblId, $XdProp_ResLblId)"/>')</xsl:attribute>
-                                                <xsl:choose>
-                                                    <xsl:when test="string-length(@xtrf) &gt; 1">
-                                                        <xsl:value-of select="replace(@xtrf, '/', '​/')"/>
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
+                                                <xsl:attribute name="external-destination">url('<xsl:value-of select="concat('xdocs://Production', $XdProp_ResPathId, $XdProp_ResLblId)"/>')</xsl:attribute>
                                                         <xsl:value-of select="$XdProp_ResLblId"/>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </fo:basic-link>
+                                           </fo:basic-link>
                                         </fo:block>
                                     </fo:table-cell>
                                     <fo:table-cell height="1.85mm" width="1.85mm">

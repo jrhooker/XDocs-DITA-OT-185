@@ -23,9 +23,7 @@
     <xsl:key name="map-id-preface"
         match="*[ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]]" use="@id"/>
 
-    <xsl:key name="map-id-appendixes"
-        match="*[contains(@class, ' bookmap/appendix ')]"
-        use="@id"/>
+    <xsl:key name="map-id-appendixes" match="*[contains(@class, ' bookmap/appendix ')]" use="@id"/>
 
     <xsl:template
         match="*[contains(@class, ' topic/tbody ')]/*[contains(@class, ' m-software-d/field ')]/*[contains(@class, ' m-software-d/field-type ')]">
@@ -113,25 +111,25 @@
             select="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/@id"/>
         <xsl:variable name="mapTopic" select="key('map-id', $id)"/>
 
-<!-- The following change was made to what had been an IF statement in order to force any content in the frontmatter section to be in roman numerals and to NOT restart from 1. 
+        <!-- The following change was made to what had been an IF statement in order to force any content in the frontmatter section to be in roman numerals and to NOT restart from 1. 
         The frontmatter starts numbering from 1 with the Coverpage and continues in escalating roman numerals until it hits the start of the first chapter.-->
 
-<xsl:choose>
-    <xsl:when
-        test="$mapTopic/ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]">  
-        <xsl:attribute name="force-page-count">no-force</xsl:attribute>
-        <xsl:attribute name="format">i</xsl:attribute>
-    </xsl:when>
-    <xsl:when
-        test="
-        not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
-        or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
-        <xsl:attribute name="initial-page-number">1</xsl:attribute>
-    </xsl:when>
-</xsl:choose>
-        
-        
-       
+        <xsl:choose>
+            <xsl:when
+                test="$mapTopic/ancestor-or-self::*[contains(@class, ' bookmap/frontmatter ')]">
+                <xsl:attribute name="force-page-count">no-force</xsl:attribute>
+                <xsl:attribute name="format">i</xsl:attribute>
+            </xsl:when>
+            <xsl:when
+                test="
+                    not(($mapTopic/preceding::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')])
+                    or ($mapTopic/ancestor::*[contains(@class, ' bookmap/chapter ') or contains(@class, ' bookmap/part ')]))">
+                <xsl:attribute name="initial-page-number">1</xsl:attribute>
+            </xsl:when>
+        </xsl:choose>
+
+
+
 
     </xsl:template>
 
@@ -190,13 +188,19 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]" mode="topicTitleNumber" priority="1">
-       <xsl:number format="1"  count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]" level="multiple"/>
-    </xsl:template>
-    
     <xsl:template
-        match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]" mode="topicTitleNumber" priority="2">
-        <xsl:number format="A.1" count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]"
+        match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]"
+        mode="topicTitleNumber" priority="1">
+        <xsl:number format="1"
+            count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][not(ancestor-or-self::*[key('map-id-appendixes', @id)])]"
+            level="multiple"/>
+    </xsl:template>
+
+    <xsl:template
+        match="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]"
+        mode="topicTitleNumber" priority="2">
+        <xsl:number format="A.1"
+            count="*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[key('map-id-preface', @id)])][ancestor-or-self::*[key('map-id-appendixes', @id)]]"
             level="multiple"/>
     </xsl:template>
 
@@ -263,38 +267,7 @@
                         </xsl:for-each>
                     </fo:block>
 
-                    <xsl:variable name="XdProp_ResPathId">
-                        <xsl:variable name="tokens" select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')" />
-                        <xsl:value-of select="substring-before(., $tokens[last()])"/>
-                    </xsl:variable>
-                    <xsl:variable name="XdProp_ResLblId">
-                        <xsl:variable name="tokens" select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResLblId')[1], '/')" />
-                        <xsl:value-of select="$tokens[last()]"/>
-                    </xsl:variable>
-                    <fo:table border-collapse="yes">
-                        <fo:table-column column-width="1.85mm"/>
-                        <fo:table-column column-width="15cm"/>
-                        <fo:table-column column-width="1.85mm"/>
-                        <fo:table-body border-collapse="yes">
-                            <fo:table-row background-color="#fbbabd" height="1.85mm" width="1.85mm">
-                                <fo:table-cell height="1.85mm" width="1.85mm">
-                                    <fo:block/>
-                                </fo:table-cell>
-                                <fo:table-cell>
-                                    <fo:block padding="1mm" font-size="7pt">
-                                        <xsl:text>Location: </xsl:text>                                            
-                                        <fo:basic-link xsl:use-attribute-sets="xref">
-                                            <xsl:attribute name="external-destination">url('<xsl:value-of select="concat('xdocs://Production', $XdProp_ResPathId, $XdProp_ResLblId)"/>')</xsl:attribute>
-                                                    <xsl:value-of select="$XdProp_ResLblId"/>
-                                        </fo:basic-link>
-                                    </fo:block>
-                                </fo:table-cell>
-                                <fo:table-cell height="1.85mm" width="1.85mm">
-                                    <fo:block/>
-                                </fo:table-cell>
-                            </fo:table-row>                            
-                        </fo:table-body>
-                    </fo:table>
+                    <xsl:call-template name="pathtotopic"/>
 
                     <xsl:choose>
                         <xsl:when test="$chapterLayout = 'BASIC'">
@@ -316,7 +289,46 @@
         </fo:page-sequence>
     </xsl:template>
 
-
+    <xsl:template name="pathtotopic">
+        <xsl:if test="$SHOWCOMMENTS-NUM = '1'">
+            <xsl:variable name="XdProp_ResPathId">
+                <xsl:variable name="tokens"
+                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')"/>
+                <xsl:value-of select="substring-before(., $tokens[last()])"/>
+            </xsl:variable>
+            <xsl:variable name="XdProp_ResLblId">
+                <xsl:variable name="tokens"
+                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResLblId')[1], '/')"/>
+                <xsl:value-of select="$tokens[last()]"/>
+            </xsl:variable>
+            <fo:table border-collapse="yes">
+                <fo:table-column column-width="1.85mm"/>
+                <fo:table-column column-width="15cm"/>
+                <fo:table-column column-width="1.85mm"/>
+                <fo:table-body border-collapse="yes">
+                    <fo:table-row background-color="#fbbabd" height="1.85mm" width="1.85mm">
+                        <fo:table-cell height="1.85mm" width="1.85mm">
+                            <fo:block/>
+                        </fo:table-cell>
+                        <fo:table-cell>
+                            <fo:block padding="1mm" font-size="7pt">
+                                <xsl:text>Location: </xsl:text>
+                                <fo:basic-link xsl:use-attribute-sets="xref">
+                                    <xsl:attribute name="external-destination">url('<xsl:value-of
+                                            select="concat('xdocs://Production', $XdProp_ResPathId, $XdProp_ResLblId)"
+                                        />')</xsl:attribute>
+                                    <xsl:value-of select="$XdProp_ResLblId"/>
+                                </fo:basic-link>
+                            </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell height="1.85mm" width="1.85mm">
+                            <fo:block/>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </xsl:if>
+    </xsl:template>
 
     <!-- Topic Notices -->
 
@@ -351,6 +363,8 @@
                             <xsl:apply-templates select="." mode="getTitle"/>
                         </xsl:for-each>
                     </fo:block>
+
+                    <xsl:call-template name="pathtotopic"/>
 
                     <xsl:choose>
                         <xsl:when test="$noticesLayout = 'BASIC'">
@@ -423,42 +437,7 @@
                         </xsl:for-each>
                     </fo:block>
 
-                    <!--<xsl:if test="$SHOWCOMMENTS = 'YES'">
-                        <fo:table border-collapse="yes">
-                            <fo:table-column column-width="1.85mm"/>
-                            <fo:table-column column-width="15cm"/>
-                            <fo:table-column column-width="1.85mm"/>
-                            <fo:table-body border-collapse="yes">
-                                
-                                <fo:table-row background-color="#fbbabd" height="1.85mm" width="1.85mm">
-                                    <fo:table-cell height="1.85mm" width="1.85mm">
-                                        <fo:block/>
-                                    </fo:table-cell>
-                                    <fo:table-cell>
-                                        <fo:block padding="1mm" font-size="7pt"><xsl:text>Location: </xsl:text><xsl:variable name="path-to-file">
-                                            <xsl:choose>
-                                                <xsl:when test="string-length(@xtrf) &gt; 1"><xsl:value-of select="@xtrf"/></xsl:when>
-                                                <xsl:otherwise>no path</xsl:otherwise>                                                
-                                            </xsl:choose>
-                                        </xsl:variable><xsl:variable name="xdocs-target">                                                
-                                            <xsl:value-of select="concat('xdocs://Production', $path-to-file)"/>
-                                        </xsl:variable><fo:basic-link xsl:use-attribute-sets="xref">
-                                            <xsl:attribute name="external-destination">url('<xsl:value-of select="$xdocs-target"/>')</xsl:attribute>
-                                            <xsl:choose>
-                                                <xsl:when test="string-length(@xtrf) &gt; 1"><xsl:value-of select="replace(@xtrf, '/', '​/')"/></xsl:when>
-                                                <xsl:otherwise>no path</xsl:otherwise>                                                
-                                            </xsl:choose>
-                                        </fo:basic-link>
-                                        </fo:block>
-                                    </fo:table-cell>
-                                    <fo:table-cell height="1.85mm" width="1.85mm">
-                                        <fo:block/>
-                                    </fo:table-cell>
-                                </fo:table-row>
-                                
-                            </fo:table-body>      
-                        </fo:table>
-                    </xsl:if>-->
+                    <xsl:call-template name="pathtotopic"/>
 
                     <xsl:choose>
                         <xsl:when test="$appendixLayout = 'BASIC'">

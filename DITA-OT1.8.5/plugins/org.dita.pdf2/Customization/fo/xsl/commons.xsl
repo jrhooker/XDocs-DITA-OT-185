@@ -289,12 +289,16 @@
         </fo:page-sequence>
     </xsl:template>
 
+    <?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Figurelist.xml?>
+    <?XdProp_ResLblId /Content/Figurelist_xi208369_1_1.xml?>
+    
+
     <xsl:template name="pathtotopic">
         <xsl:if test="$SHOWCOMMENTS-NUM = '1'">
             <xsl:variable name="XdProp_ResPathId">
                 <xsl:variable name="tokens"
                     select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')"/>
-                <xsl:value-of select="substring-before(., $tokens[last()])"/>
+                <xsl:value-of select="substring-before(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], $tokens[last()])"/>
             </xsl:variable>
             <xsl:variable name="XdProp_ResLblId">
                 <xsl:variable name="tokens"

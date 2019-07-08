@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708155306031\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708155306031/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7f16" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="topic:1;2:153">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/Titles-DiffedText.xml?>
+<?XdProp_ResLblId /Content/Titles-DiffedText_xi208401_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="title:1;5:10">Diffed Text<ph rev="deltaxml-add" status="new" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="ph:1;5:57">New</ph><ph rev="deltaxml-delete" status="deleted" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="ph:2;5:108">Delete</ph></title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="body:1;7:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:1;8:8">The Non-Transparent Endpoint (NT EP) offers access to Switchtec's
+    Non-Transparent Bridge (NTB) through mapping windows in the NT EP's Memory
+    Space. It is presented to the RC as function 0 of the upstream port when
+    the USP port mode is NT EP only, or as function 1 in the upstream port
+    when the USP port mode supports transparent switching, as well. The
+    following sections outline the details of the non-transparent
+    endpoint.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:2;16:9"/>
+
+    <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="table:1;18:12">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="title:2;19:14">Diffed Table Text<ph rev="deltaxml-add" status="new" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="ph:3;19:67">New</ph><ph rev="deltaxml-delete" status="deleted" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="ph:4;19:118">Delete</ph></title>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="tgroup:1;21:24">
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="thead:1;22:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="row:1;23:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:1;24:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:3;24:23"> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:2;26:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:4;26:23"> </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="tbody:1;30:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="row:2;31:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:3;32:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:5;32:23"> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:4;34:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:6;34:23"> </p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="row:3;37:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:5;38:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:7;38:23"> </p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="entry:6;40:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="p:8;40:23"> </p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="fig:1;46:10">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="title:3;47:14">A codeblock within a figure.</title>
+
+      <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="codeblock:1;49:18">This is a codeblock
+This is a codeblock
+This is a codeblock
+This is a codeblock</codeblock>
+    </fig>
+  </body>
+
+  <related-links class="- topic/related-links " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Titles-DiffedText.xml" xtrc="related-links:1;56:18">
+    <linklist class="- topic/linklist " collection-type="sequence" otherrole="browsesequence" xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="linklist:1;12:86">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="title:2;13:14">This is a browse sequence</title>
+
+      <link href="Tables.xml" class="- topic/link " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="link:1;15:41" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="linktext:1;16:19">Link 1</linktext></link>
+
+      <link href="Titles-DiffedText.xml" class="- topic/link " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="link:2;19:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="linktext:2;20:19">Link 2</linktext></link>
+
+      <link href="Titles-FilteringIndexEntries.xml" class="- topic/link " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="link:3;23:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\RelTables\reltable1.xml" xtrc="linktext:3;24:19">Link 3</linktext></link>
+    </linklist>
+  </related-links>
+</topic>

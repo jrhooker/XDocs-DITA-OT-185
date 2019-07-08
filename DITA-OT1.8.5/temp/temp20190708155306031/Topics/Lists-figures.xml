@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708155306031\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708155306031/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7d95" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="topic:1;2:153">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/Lists-figures.xml?>
+<?XdProp_ResLblId /Content/Lists-figures_xi208385_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:1;5:10">Figures for generating the Figure List</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="body:1;7:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="p:1;8:9"/>
+
+    <fig id="fig_FIgure_1_2j5o6d4fi" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:1;10:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:2;11:14">FIgure 1 <ph rev="deltaxml-add" status="new" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="ph:1;11:59">New</ph><ph rev="deltaxml-delete" status="deleted" class="- topic/ph " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="ph:2;11:110">Delete</ph></title>
+
+      <image href="graphics/AC_Timing__pgmrclk30.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:1;13:56"/>
+    </fig>
+
+    <fig id="fig_Figure_2_3j5o6d4fj" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:2;16:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:3;17:14">Figure 2</title>
+
+      <image href="graphics/AC_Timing__pllstatus30.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:2;19:58"/>
+    </fig>
+
+    <fig id="fig_Figure_3_4j5o6d4fj" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:3;22:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:4;23:14">Figure 3</title>
+
+      <image href="graphics/AC_Timing__pmon_sync_i.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:3;25:58"/>
+    </fig>
+
+    <fig id="fig_Figure_4_5j5o6d4fj" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:4;28:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:5;29:14">Figure 4</title>
+
+      <image href="graphics/AC_Timing__pmon_sync_o.svg" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:4;31:58"/>
+    </fig>
+
+    <fig id="fig_Figure_5_6j5o6d4fj" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:5;34:38">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:6;35:14">Figure 5</title>
+
+      <image href="graphics/LPDC_soft_decode_flow.svg" width="520" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:5;37:69"/>
+    </fig>
+
+    <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:6;40:10">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:7;41:14">Figure 6</title>
+
+      <image href="Functional_Timing__SPI_master_rd_1_1_1.svg" width="466" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:6;43:77"/>
+    </fig>
+
+    <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:7;46:10">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:8;47:14">Figure 7</title>
+
+      <image href="pm6010_digi_g5_ballmap_regioning_MSCCInternal.svg" width="262" placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:7;49:84"/>
+    </fig>
+
+    <fig class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="fig:8;52:10">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="title:9;53:15"/>
+
+      <image placement="inline" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Lists-figures.xml" xtrc="image:8;55:15"/>
+    </fig>
+  </body>
+</topic>

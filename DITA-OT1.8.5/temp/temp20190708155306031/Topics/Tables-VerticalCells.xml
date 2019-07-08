@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708155306031\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708155306031/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_c23f8a4d95f95c5f--66ce64d0-15d85b8a809--7ec1" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="topic:1;2:153">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/Tables-VerticalCells.xml?>
+<?XdProp_ResLblId /Content/Tables-VerticalCells_xi208398_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="title:1;5:10">Vertical Table Cells, Color Table Cells</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="body:1;7:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:1;8:9"/>
+
+    <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="table:1;10:12">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="title:2;11:15"/>
+
+      <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="tgroup:1;13:24">
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="thead:1;14:16">
+          <row bg_color="#7FFF00" otherprops=" rotate_text " class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="row:1;15:62">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:1;16:20"><p otherprops=" rotate_text " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:2;16:50"> Vertical</p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:3;16:66">This is
+            another paragraph.</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:2;19:20"><p otherprops=" rotate_text " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:4;19:50">Vertical </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="tbody:1;23:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="row:2;24:16">
+            <entry colname="col1" bg_color="#FF0000" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:3;25:39"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:5;25:42"> Red Cell</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:4;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:6;27:23"> </p></entry>
+          </row>
+
+          <row bg_color="#FFA500" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="row:3;30:35">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:5;31:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:7;31:23"> Orange Row</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:6;33:20"><p otherprops=" rotate_text " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:8;33:50"> Vertical Cell</p></entry>
+          </row>
+
+          <row bg_color="#8A2BE2" class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="row:4;36:35">
+            <entry colname="col1" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:7;37:33"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:9;37:37"/><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:10;37:41"/></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:8;39:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:11;39:24"/></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="row:5;42:16">
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="entry:9;43:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-VerticalCells.xml" xtrc="p:12;43:24"/></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

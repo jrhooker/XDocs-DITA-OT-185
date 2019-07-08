@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708154614730\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708154614730/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7f25" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="topic:1;2:153">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/Tables-HyphenateEntries.xml?>
+<?XdProp_ResLblId /Content/Tables-HyphenateEntries_xi208396_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="title:1;5:10">Hyphenate Table Entries</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="body:1;7:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:1;8:8"><table id="table_This_is_the_title_of_the_hyphenation_tab_1j5o4cw07" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="table:1;8:77">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="title:2;9:16">This is the title of the hyphenation table</title>
+
+        <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="tgroup:1;11:26">
+          <colspec colname="col1" colwidth="117*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:1;12:37"/>
+
+          <colspec colname="col2" colwidth="109*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:2;14:37"/>
+
+          <colspec colname="col3" colwidth="774*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="colspec:3;16:37"/>
+
+          <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="thead:1;18:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:1;19:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:1;20:22">Hyphenate</entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:2;22:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:2;22:25"> Heading</p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:3;24:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:3;24:25">Heading </p></entry>
+            </row>
+          </thead>
+
+          <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="tbody:1;28:18">
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:2;29:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:4;30:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:4;30:25">THIS_IS_1234_HARD</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:5;32:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:5;32:25">Cell </p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:6;34:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:6;34:25">Cell </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:3;37:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:7;38:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:7;38:25">THISISALONGER_PNAME</p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:8;40:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:8;40:25">Cell </p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:9;42:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:9;42:25">Cell </p><note class="- topic/note " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="note:1;42:40"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:10;42:43">This is a note in a table. This
+              makes this a notable table indeed.</p></note></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:4;46:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:10;47:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:11;47:25"> </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:11;49:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:12;49:25"> </p></entry>
+
+              <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:12;51:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:13;51:25"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:5;54:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:13;55:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:14;55:25"> </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:14;57:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:15;57:25"> </p></entry>
+
+              <entry colname="col3" morerows="1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:15;59:35"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:16;59:38"> </p><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:17;59:46"> </p></entry>
+            </row>
+
+            <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="row:6;62:18">
+              <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:16;63:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:18;63:25"> </p></entry>
+
+              <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="entry:17;65:22"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\Tables-HyphenateEntries.xml" xtrc="p:19;65:25"> </p></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p>
+  </body>
+</topic>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708154614730\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708154614730/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" base="base" id="xd_f01e89a0bb805943--7b08d30b-15d89fca58f--7fbb" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="topic:1;2:153">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/RevisionHistory.xml?>
+<?XdProp_ResLblId /Content/RevisionHistory_xi208392_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="title:1;5:10">Revision History</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="body:1;7:9">
+    <?guidance If a topic with a Revision History table is present in a ditamap project, publishing will ignore any revision information in the ditamap pmc_iso element and use the content in the pmc-revhistory
+element of the Revision HIstory table to generate the Detailed Revision history in the ISO matter and the Revision History table in the external document.?>
+
+    <table class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="table:1;11:12">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="title:2;12:14">Revision History</title>
+
+      <tgroup cols="4" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="tgroup:1;14:24">
+        <colspec colname="col1" colwidth="56*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="colspec:1;15:34"/>
+
+        <colspec colname="col2" colwidth="90*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="colspec:2;17:34"/>
+
+        <colspec colname="col3" colwidth="103*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="colspec:3;19:35"/>
+
+        <colspec colname="col4" colwidth="751*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="colspec:4;21:35"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="thead:1;23:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="row:1;24:16">
+            <entry colname="col1" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="entry:1;25:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:1;25:23">Revision</p></entry>
+
+            <entry colname="col2" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="entry:2;27:20"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:2;27:23">Date</p></entry>
+
+            <entry colname="col3" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="entry:3;29:20">Name</entry>
+
+            <entry colname="col4" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="entry:4;31:20">Description</entry>
+          </row>
+        </thead>
+
+        <pmc-revhistory class="- topic/tbody pmcrevhis-d/pmc-revhistory " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revhistory:1;35:25">
+          <pmc-revision otherprops="internal" class="- topic/row pmcrevhis-d/pmc-revision " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revision:1;36:47">
+            <pmc-rev-number colname="col1" class="- topic/entry pmcrevhis-d/pmc-rev-number " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-rev-number:1;37:29">5</pmc-rev-number>
+
+            <pmc-date colname="col2" class="- topic/entry pmcrevhis-d/pmc-date " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-date:1;39:23">August 2017</pmc-date>
+
+            <pmc-name colname="col3" class="- topic/entry pmcrevhis-d/pmc-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-name:1;41:23">Alex Cochran/Disha Bhardwaj</pmc-name>
+
+            <pmc-description colname="col4" class="- topic/entry pmcrevhis-d/pmc-description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-description:1;43:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:3;44:18">- Added "Table 22 Reference and Power Filtering Pin
+              Description" to the pin description section. Refer to the
+              hardware design guide for components and connections required
+              for the power filtering pins.</p>
+
+              <p otherprops="internal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:4;49:40">- Internal Updated "Table 84 Normal
+              Operating Voltages" with complete list of pins for the AVD_0V8,
+              AVD_1V8, and VDDO_1V8 power domains.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:5;53:18">- Added bootstrap option pins BEN, BST[1:0], CBT[2:0], MSE,
+              MSM, MSR, NEN to "Table 3 DIGI-G5 Device Interface Pin
+              Description".</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:6;57:18">- Changed software API names to reflect development 1.0.0
+              release of the DIGI-G5 Device Family Software Development Kit
+              (SDK).</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:7;61:18">- Added test point receive and transmit pins to "Table 3
+              DIGI-G5 Device Interface Pin Description".</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision class="- topic/row pmcrevhis-d/pmc-revision " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revision:2;66:25">
+            <pmc-rev-number colname="col1" class="- topic/entry pmcrevhis-d/pmc-rev-number " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-rev-number:2;67:29">4</pmc-rev-number>
+
+            <pmc-date colname="col2" class="- topic/entry pmcrevhis-d/pmc-date " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-date:2;69:23">August 2017</pmc-date>
+
+            <pmc-name colname="col3" class="- topic/entry pmcrevhis-d/pmc-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-name:2;71:23">Alex Cochran/Disha Bhardwaj</pmc-name>
+
+            <pmc-description colname="col4" class="- topic/entry pmcrevhis-d/pmc-description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-description:2;73:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:8;74:18">- Added "Table 22 Reference and Power Filtering Pin
+              Description" to the pin description section. Refer to the
+              hardware design guide for components and connections required
+              for the power filtering pins.</p>
+
+              <p otherprops="internal" class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:9;79:40">- Internal Updated "Table 84 Normal
+              Operating Voltages" with complete list of pins for the AVD_0V8,
+              AVD_1V8, and VDDO_1V8 power domains.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:10;83:18">- Added bootstrap option pins BEN, BST[1:0], CBT[2:0], MSE,
+              MSM, MSR, NEN to "Table 3 DIGI-G5 Device Interface Pin
+              Description".</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:11;87:18">- Changed software API names to reflect development 1.0.0
+              release of the DIGI-G5 Device Family Software Development Kit
+              (SDK).</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:12;91:18">- Added test point receive and transmit pins to "Table 3
+              DIGI-G5 Device Interface Pin Description".</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision class="- topic/row pmcrevhis-d/pmc-revision " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revision:3;96:25">
+            <pmc-rev-number colname="col1" class="- topic/entry pmcrevhis-d/pmc-rev-number " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-rev-number:3;97:29">3</pmc-rev-number>
+
+            <pmc-date colname="col2" class="- topic/entry pmcrevhis-d/pmc-date " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-date:3;99:23">February 2017</pmc-date>
+
+            <pmc-name colname="col3" class="- topic/entry pmcrevhis-d/pmc-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-name:3;101:23">Alex Cochran</pmc-name>
+
+            <pmc-description colname="col4" class="- topic/entry pmcrevhis-d/pmc-description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-description:3;103:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:13;104:18">- Increased number of SERDES on Bank C from 20 to 24.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:14;106:18">- Indicated lane order reversal of SERDES Bank A on Device
+              PCB Floor Planning Diagram.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:15;109:18">- Added ODUjk mux 100G Capacity Resource tables for 600G and
+              500G modes of operation.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:16;112:18">- Updated text and diagrams to show support for 24x10GE.</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision class="- topic/row pmcrevhis-d/pmc-revision " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revision:4;116:25">
+            <pmc-rev-number colname="col1" class="- topic/entry pmcrevhis-d/pmc-rev-number " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-rev-number:4;117:29">2</pmc-rev-number>
+
+            <pmc-date colname="col2" class="- topic/entry pmcrevhis-d/pmc-date " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-date:4;119:23">January 2017</pmc-date>
+
+            <pmc-name colname="col3" class="- topic/entry pmcrevhis-d/pmc-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-name:4;121:23">Alex Cochran</pmc-name>
+
+            <pmc-description colname="col4" class="- topic/entry pmcrevhis-d/pmc-description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-description:4;123:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:17;124:18">- Removed references to PM6012 and PM6013.</p>
+
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:18;126:18">- Removed support for SSPRQ, JP03A and JP03B SerDes patterns
+              to align with standards.</p>
+            </pmc-description>
+          </pmc-revision>
+
+          <pmc-revision class="- topic/row pmcrevhis-d/pmc-revision " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-revision:5;131:25">
+            <pmc-rev-number colname="col1" class="- topic/entry pmcrevhis-d/pmc-rev-number " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-rev-number:5;132:29">1</pmc-rev-number>
+
+            <pmc-date colname="col2" class="- topic/entry pmcrevhis-d/pmc-date " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-date:5;134:23">November 2016</pmc-date>
+
+            <pmc-name colname="col3" class="- topic/entry pmcrevhis-d/pmc-name " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-name:5;136:23">Alex Cochran</pmc-name>
+
+            <pmc-description colname="col4" class="- topic/entry pmcrevhis-d/pmc-description " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="pmc-description:5;138:30">
+              <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\RevisionHistory.xml" xtrc="p:19;139:18">First release.</p>
+            </pmc-description>
+          </pmc-revision>
+        </pmc-revhistory>
+      </tgroup>
+    </table>
+  </body>
+</topic>

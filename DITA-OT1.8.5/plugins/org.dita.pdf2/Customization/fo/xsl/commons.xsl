@@ -306,7 +306,7 @@
 
     <xsl:template name="pathtotopic">
         <xsl:if test="$SHOWCOMMENTS-NUM = 1">
-            <xsl:if test="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1], $tokens[last()]">
+            <xsl:if test="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1]">
             <xsl:variable name="XdProp_ResPathId">
                 <xsl:variable name="tokens"
                     select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1], '/')"/>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20190708155306031\Topics?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20190708155306031/Topics/?><?path2project ..\?><?path2project-uri ../?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="OTN_Ring_Control_Port_0gp08s9ec" status="unchanged" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                             a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="topic:1;2:273">
+<?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Topics/PrefaceTest.xml?>
+<?XdProp_ResLblId /Content/PrefaceTest_xi208391_1_1.xml?>
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="title:1;5:139">Preface
+  Test</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="body:1;8:137">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="p:1;9:133">The
+    RCP (Ring Control Port) interface has two separate RCPs:</p>
+
+    <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="ul:1;12:135">
+      <li id="d1e3137" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="li:1;13:150"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="p:2;13:278">Remote
+      Information RCP (RI_RCP)</p></li>
+
+      <li id="d1e3143" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="li:2;16:150"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="p:3;16:278">Defect
+      Information RCP (DI_RCP)</p></li>
+    </ul>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="p:4;20:133">The
+    <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="i:1;21:133">receive
+    and transmit RI_RCP</i> carries BDI/BEI/BIAE bits from the sink framers
+    and the APS/PCC bytes. The <i class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="i:2;23:160">DI_DCP</i>
+    transmits defects and alarms. RI_RCP is standard XFI running at 10.3125
+    Gbps and DI_RCP is standard SGMIIs (Serial Gigabit Media Independent
+    Interfaces) running at 1.25 Gbps. See <xref href="../Other/ODU_RCP_-_RI_RCP_DI_RCP_zgple73io.xml" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\PI\jobtemp\Topics\PrefaceTest.xml" xtrc="xref:1;26:232" type="topic"><?ditaot gentext?>ODU Ring Control Port Block (ODU_RCP)</xref></p>
+  </body>
+</topic>

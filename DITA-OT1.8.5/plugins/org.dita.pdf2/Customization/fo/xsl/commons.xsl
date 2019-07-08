@@ -292,17 +292,29 @@
     <?XdProp_ResPathId /Content/_personal/hookerje/PublishTest/Figurelist.xml?>
     <?XdProp_ResLblId /Content/Figurelist_xi208369_1_1.xml?>
     
+    <xsl:template match="*" mode="commonTopicProcessing">
+        <xsl:apply-templates select="*[contains(@class, ' topic/title ')]"/>
+        <xsl:call-template name="pathtotopic"/>
+        <xsl:apply-templates select="*[contains(@class, ' topic/prolog ')]"/>
+        <xsl:apply-templates select="*[not(contains(@class, ' topic/title ')) and
+            not(contains(@class, ' topic/prolog ')) and
+            not(contains(@class, ' topic/topic '))]"/>
+        <xsl:apply-templates select="." mode="buildRelationships"/>       
+        <xsl:apply-templates select="*[contains(@class,' topic/topic ')]"/>
+        <xsl:apply-templates select="." mode="topicEpilog"/>
+    </xsl:template>
 
     <xsl:template name="pathtotopic">
-        <xsl:if test="$SHOWCOMMENTS-NUM = '1'">
+        <xsl:if test="$SHOWCOMMENTS-NUM = 1">
+            <xsl:if test="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1], $tokens[last()]">
             <xsl:variable name="XdProp_ResPathId">
                 <xsl:variable name="tokens"
-                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], '/')"/>
-                <xsl:value-of select="substring-before(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResPathId')[1], $tokens[last()])"/>
+                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1], '/')"/>
+                <xsl:value-of select="substring-before(ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1], $tokens[last()])"/>
             </xsl:variable>
             <xsl:variable name="XdProp_ResLblId">
                 <xsl:variable name="tokens"
-                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')]/processing-instruction('XdProp_ResLblId')[1], '/')"/>
+                    select="tokenize(ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResLblId')[1], '/')"/>
                 <xsl:value-of select="$tokens[last()]"/>
             </xsl:variable>
             <fo:table border-collapse="yes">
@@ -331,6 +343,7 @@
                     </fo:table-row>
                 </fo:table-body>
             </fo:table>
+        </xsl:if>
         </xsl:if>
     </xsl:template>
 

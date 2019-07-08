@@ -10,6 +10,8 @@
     exclude-result-prefixes="opentopic exsl opentopic-index exslf opentopic-func dita2xslfo xs"
     version="2.0">
 
+
+
     <xsl:param name="topicTitle.numLevel" select="5"/>
 
     <xsl:key name="map-id" match="opentopic:map//*[@id]" use="@id"/>
@@ -67,7 +69,7 @@
             <xsl:otherwise>/SysConfig/boilerplate/graphics/watermark/watermark.svg</xsl:otherwise>
         </xsl:choose>
     </xsl:param>
-
+     
     <xsl:template match="@background-image" mode="layout-masters-processing">
         <xsl:attribute name="background-image">
             <xsl:value-of select="concat('url(xdapp://', $watermark, ')')"/>
@@ -305,7 +307,7 @@
     </xsl:template>
 
     <xsl:template name="pathtotopic">
-        <xsl:if test="$SHOWCOMMENTS-NUM = 1">
+        <xsl:if test="number($SHOWCOMMENTS-NUM) = 1">
             <xsl:if test="ancestor-or-self::*[contains(@class, ' topic/topic ')][1]/processing-instruction('XdProp_ResPathId')[1]">
             <xsl:variable name="XdProp_ResPathId">
                 <xsl:variable name="tokens"

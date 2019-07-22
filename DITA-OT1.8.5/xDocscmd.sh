@@ -21,7 +21,7 @@ if [ -f "$DITA_DIR"/tools/ant/bin/ant ] && [ ! -x "$DITA_DIR"/tools/ant/bin/ant 
   chmod +x "$DITA_DIR"/tools/ant/bin/ant
 fi
 
-export ANT_OPTS="-Xmx512m $ANT_OPTS"
+export ANT_OPTS="-Xmx2400m $ANT_OPTS"
 export ANT_OPTS="$ANT_OPTS -Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl"
 export ANT_HOME="$DITA_DIR"/tools/ant
 export PATH="$DITA_DIR"/tools/ant/bin:"$PATH"

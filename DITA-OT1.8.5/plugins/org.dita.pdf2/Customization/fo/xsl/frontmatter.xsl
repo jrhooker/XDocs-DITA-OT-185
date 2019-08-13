@@ -35,6 +35,7 @@ See the accompanying license.txt file for applicable licenses.
 
     <xsl:param name="SHOWCOMMENTS">NO</xsl:param>
     <xsl:param name="SHOWCOMMENTS-NUM" select="0"/>
+    <xsl:param name="FRONTMATTER">1</xsl:param>
     
     <!--          
                     <xsl:call-template name="createPMCFrontMatter"></xsl:call-template>
@@ -44,6 +45,7 @@ See the accompanying license.txt file for applicable licenses.
                  -->
 
     <xsl:template name="createFrontMatter_1.0">
+        <xsl:if test="number($FRONTMATTER) = 1">
         <fo:page-sequence master-reference="front-matter" format="i"
             xsl:use-attribute-sets="page-sequence.frontmatter">
             <xsl:call-template name="insertFrontMatterStaticContents"/>
@@ -58,6 +60,7 @@ See the accompanying license.txt file for applicable licenses.
                 </fo:block-container>
             </fo:flow>
         </fo:page-sequence>
+        </xsl:if>
         <fo:page-sequence master-reference="coverpage" format="i" initial-page-number="1"
             xsl:use-attribute-sets="page-sequence.cover">
             <xsl:call-template name="insertCoverStaticContents"/>

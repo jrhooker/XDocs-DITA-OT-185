@@ -3,4 +3,5 @@
     <param name="topicTitle.numLevel" expression="${Title.numLevel}" if="Title.numLevel"/>
     <param name="SHOWCOMMENTS-NUM" expression="${SHOWCOMMENTS-NUM}" if="SHOWCOMMENTS-NUM"/>
     <param name="SHOWCOMMENTS" expression="${SHOWCOMMENTS}" if="SHOWCOMMENTS"/>
+    <param name="FRONTMATTER" expression="${FRONTMATTER}" if="FRONTMATTER"/>
 </dummy>

@@ -347,6 +347,8 @@ with those set forth herein.
 <param name="SHOWCOMMENTS-NUM" expression="${SHOWCOMMENTS-NUM}" if="SHOWCOMMENTS-NUM"></param>
     
 <param name="SHOWCOMMENTS" expression="${SHOWCOMMENTS}" if="SHOWCOMMENTS"></param>
+    
+<param name="FRONTMATTER" expression="${FRONTMATTER}" if="FRONTMATTER"></param>
 
       <xmlcatalog>
         <catalogpath path="${xml.catalog.files}"></catalogpath>

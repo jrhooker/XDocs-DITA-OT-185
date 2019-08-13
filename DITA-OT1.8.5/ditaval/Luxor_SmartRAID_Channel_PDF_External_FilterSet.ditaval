@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><val>  
+    
+    <prop action="exclude" att="component"/> 
+    <prop action="exclude" att="component" val="Encryption"/> 
+    <prop action="include" att="component" val="RAID"/> 
+    <prop action="exclude" att="component" val="HBA_only"/> 
+    
+    
+    <prop action="exclude" att="audience"/> 
+    <prop action="exclude" att="audience" val="PMCInternal"/>  
+    <prop action="exclude" att="audience" val="MSCCInternal"/> 
+    <prop action="include" att="audience" val="SDK"/>
+    <prop action="include" att="audience" val="standard_customers"/>  
+    <prop action="include" att="audience" val="ROW"/>
+    <prop action="include" att="audience" val="all_customers"/>
+    
+    <prop att="status" action="flag" val="changed">
+        <startflag><alt-text>[[Start Changed&gt;</alt-text></startflag>
+        <endflag><alt-text>&lt;End Changed]]</alt-text></endflag>
+    </prop>
+    <revprop val="deltaxml-delete" action="flag" changebar="color:red;style:solid;width:1pt;offset:25mm" style="line-through" backcolor="#F78D94"/>    
+    <revprop val="deltaxml-add" action="flag" changebar="color:green;style:solid;width:1pt;offset:30mm" backcolor="#85F57F"/>
+    
+    <!-- legacy stuff -->
+    
+    <prop action="exclude" att="product"/>
+    <prop action="exclude" att="product" val="PM8043"/>
+    <prop action="exclude" att="product" val="PM8044"/>
+    <prop action="exclude" att="product" val="PM8053"/>
+    <prop action="exclude" att="product" val="PM8054"/>
+    <prop action="exclude" att="product" val="PM8055"/>
+    <prop action="exclude" att="product" val="PM8056"/>    
+    <prop action="exclude" att="product" val="PM8060"/>
+    <prop action="exclude" att="product" val="PM8061"/>
+    <prop action="exclude" att="product" val="PM8062"/>
+    <prop action="exclude" att="product" val="PM8063"/>
+    <prop action="exclude" att="product" val="PM8064"/>    
+    <prop action="exclude" att="product" val="PM8070"/>
+    <prop action="exclude" att="product" val="PM8071"/>
+    <prop action="exclude" att="product" val="PM8072"/>
+    <prop action="exclude" att="product" val="PM8073"/>    
+    <prop action="exclude" att="product" val="PM8074"/>
+    <prop action="exclude" att="product" val="PM8075"/>
+    <prop action="exclude" att="product" val="PM8076"/>
+    <prop action="exclude" att="product" val="PM8077"/>    
+    <prop action="exclude" att="product" val="PM8204"/>
+    <prop action="exclude" att="product" val="PM8205"/>    
+    <prop action="exclude" att="product" val="PM8210"/>
+    <prop action="exclude" att="product" val="PM8215"/>
+    <prop action="exclude" att="product" val="PM8216"/>
+    <prop action="exclude" att="product" val="PM8217"/>
+    <prop action="exclude" att="product" val="PM8220"/>
+    <prop action="exclude" att="product" val="PM8221"/>
+    <prop action="exclude" att="product" val="PM8222"/>
+    <prop action="exclude" att="product" val="PM8225"/>
+    <prop action="exclude" att="product" val="PM8304"/>
+    
+    <prop action="exclude" att="product" val="PM8236"/>
+    <prop action="exclude" att="product" val="PM8237"/>
+    <prop action="exclude" att="product" val="PM8238"/>
+    <prop action="exclude" att="product" val="PM8239"/>
+    <prop action="exclude" att="product" val="PM8240"/>
+    <prop action="exclude" att="product" val="PM8241"/>
+    <prop action="exclude" att="product" val="PM8242"/>
+    <prop action="exclude" att="product" val="PM8243"/>    
+    <prop action="exclude" att="product" val="PM8244"/>
+    <prop action="exclude" att="product" val="PM8245"/>   
+    <prop action="exclude" att="product" val="PM8246"/>
+    <prop action="exclude" att="product" val="PM8247"/>   
+    
+    <prop action="exclude" att="product" val="81605ZQ"/>
+    <prop action="exclude" att="product" val="8885"/>
+    <prop action="exclude" att="product" val="8805"/>
+    <prop action="exclude" att="product" val="8885E"/>
+    <prop action="exclude" att="product" val="8885Q"/>
+    <prop action="exclude" att="product" val="PM8304"/>   
+    
+   
+</val>

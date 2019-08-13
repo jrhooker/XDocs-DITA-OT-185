@@ -99,6 +99,7 @@ deltaxml:phrase-container CDATA #FIXED "true">
 <!ATTLIST field-type %univ-atts; outputclass CDATA #IMPLIED  
 xmlns:deltaxml CDATA #FIXED "http://www.deltaxml.com/ns/well-formed-delta-v1"
 deltaxml:phrase-container CDATA #FIXED "true">
+<!ATTLIST field-type sticky (yes | no) "no">
 
 <!ELEMENT  field-name (#PCDATA | ph)*  >
 <!ATTLIST field-name %univ-atts; outputclass CDATA #IMPLIED  

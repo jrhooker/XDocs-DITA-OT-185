@@ -24,9 +24,7 @@
 
   <import file="${basedir}/build.xml"/>
   
-  <import file="${basedir}/samples/ant_sample/sample_all.xml"/>
-
-	<target name="use.init">
+  	<target name="use.init">
         <available classname="net.sf.saxon.StyleSheet"
 			property="hasSaxon"/>
 		<available classname="org.apache.fop.tools.anttasks.Fop"

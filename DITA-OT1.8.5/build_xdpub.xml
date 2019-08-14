@@ -37,19 +37,7 @@
 			value="${MsHelpCompilerFN}"/>
 		<property name="clean.temp" value="true"/>
 	</target>
-
-	<target name="all" description="build all output" 
-		depends="samples">
-		<echo>Output from the demo build is in the directory
-${dita.output.dir}
-
-Previous releases also built a copy of the DITA 1.1 Language
-specification. The toolkit now fully supports DITA 1.2, but
-that specification is not included here due to its size.
-Source material and published versions of the latest DITA 1.2
-specification can be found here:
-http://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.html</echo>
-	</target>
+	
 	<!-- revise below here -->
 
 	<!-- defaults for DITA configuration required by callable targets -->

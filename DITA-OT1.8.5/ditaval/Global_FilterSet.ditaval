@@ -1,717 +1,856 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<val>
+<?xml version="1.0" encoding="UTF-8"?><val>
   <style-conflict background-conflict-color="#FFFFFF" foreground-conflict-color="black"/>
 
-  <prop action="exclude" att="pcie-lanes" val="x4">
-    <startflag >
-      <alt-text>[x4 &gt;</alt-text>
+  <prop action="flag" att="sp-version" val="VersionA">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VersionA_st.svg">
+      <alt-text>[VersionA &gt;</alt-text>
     </startflag>
     
-    <endflag>
-      <alt-text>&lt; x4]</alt-text>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VersionA_end.svg">
+      <alt-text>&lt; VersionA]</alt-text>
+    </endflag>
+  </prop>
+ 
+  <prop action="flag" att="sp-version" val="VersionB">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VersionB_st.svg">
+      <alt-text>[VersionB &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VersionB_end.svg">
+      <alt-text>&lt; VersionB]</alt-text>
     </endflag>
   </prop>
   
+  <prop action="flag" att="product" val="VSC8541-02">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8541-02_st.svg">
+      <alt-text>[VSC8541-02&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8541-02_end.svg">
+      <alt-text>&lt;VSC8541-02]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="VSC8531-02">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8531-02_st.svg">
+      <alt-text>[VSC8531-02&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8531-02_end.svg">
+      <alt-text>&lt;VSC8531-02]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="VSC8540-05">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8540-05_st.svg">
+      <alt-text>[VSC8540-05&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8540-05_end.svg">
+      <alt-text>&lt;VSC8540-05]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="VSC8530-05">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8530-05_st.svg">
+      <alt-text>[VSC8530-05&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/VSC8530-05_end.svg">
+      <alt-text>&lt;VSC8530-05]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PD69204T4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69204T4_st.svg">
+      <alt-text>[PD69204T4&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69204T4_end.svg">
+      <alt-text>&lt;PD69204T4]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="PD69208M">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69208M_st.svg">
+      <alt-text>[PD69204T4&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69208M_end.svg">
+      <alt-text>&lt;PD69208M]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="PD69208T4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69208T4_st.svg">
+      <alt-text>[PD69208T4&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PD69208T4_end.svg">
+      <alt-text>&lt;PD69208T4]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="Serval-3">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Serval-3_st.svg">
+      <alt-text>[Serval-3&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Serval-3_end.svg">
+      <alt-text>&lt;Serval-3]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="Jaguar-3">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Jaguar-3_st.svg">
+      <alt-text>[Jaguar-3&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Jaguar-3_end.svg">
+      <alt-text>&lt;Jaguar-3]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="SparX-5">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SparX-5_st.svg">
+      <alt-text>[SparX-5&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SparX-5_end.svg">
+      <alt-text>&lt;SparX-5]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="SparX-5i">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SparX-5i_st.svg">
+      <alt-text>[SparX-5i&gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SparX-5i_end.svg">
+      <alt-text>&lt;SparX-5i]</alt-text>
+    </endflag>
+  </prop>  
 
   <prop action="flag" att="product" val="ADAPTEC_SMART_HBA">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_SMART_HBA_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_SMART_HBA_st.svg">
       <alt-text>[ADAPTEC_SMART_HBA &gt;</alt-text>
     </startflag>
-
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_SMART_HBA_end.svg">
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_SMART_HBA_end.svg">
       <alt-text>&lt; ADAPTEC_SMART_HBA]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PMC_SMART_IOC">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PMC_SMART_IOC_st.svg">
-      <alt-text>[PMC_SMART_IOC &gt;</alt-text>
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PMC_SMART_IOC_st.svg">
+      <alt-text>[PMC_SMART_IOC &gt;</alt-text><prop action="exclude" att="product" val="NV1600"/>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PMC_SMART_IOC_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PMC_SMART_IOC_end.svg">
       <alt-text>&lt; PMC_SMART_IOC]</alt-text>
     </endflag>
   </prop>
+  
+  <prop action="flag" att="product" val="DELL_SMART_RAID">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DELL_SMRT_RD_st.svg">
+      <alt-text>[DELL_SMRT_RD &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DELL_SMRT_RD_end.svg">
+      <alt-text>&lt; DELL_SMRT_RD]</alt-text>
+    </endflag>
+  </prop>
+  
 
   <prop action="flag" att="product" val="ADAPTEC_SMART_IOC">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_SMART_IOC_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_SMART_IOC_st.svg">
       <alt-text>[ADAPTEC_SMART_IOC &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_SMART_IOC_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_SMART_IOC_end.svg">
       <alt-text>&lt; ADAPTEC_SMART_IOC]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM4001">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM4001_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM4001_st.svg">
       <alt-text>[PM4001 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM4001_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM4001_end.svg">
       <alt-text>&lt; PM4001]</alt-text>
     </endflag>
   </prop>
 
+  <prop action="flag" att="product" val="PM4002">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM4002_st.svg">
+      <alt-text>[PM4002 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM4002_end.svg">
+      <alt-text>&lt; PM4002]</alt-text>
+    </endflag>
+  </prop>
+
   <prop action="flag" att="product" val="PM8306">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8306_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8306_st.svg">
       <alt-text>[PM8306 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8306_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8306_end.svg">
       <alt-text>&lt; PM8306]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="81605ZQ">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/81605ZQ_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/81605ZQ_st.svg">
       <alt-text>[81605ZQ &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/81605ZQ_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/81605ZQ_end.svg">
       <alt-text>&lt; 81605ZQ]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="8885E">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/8885E_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/8885E_st.svg">
       <alt-text>[8885E &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/8885E_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/8885E_end.svg">
       <alt-text>&lt; 8885E]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="8885Q">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/8885Q_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/8885Q_st.svg">
       <alt-text>[8885Q &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/8885Q_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/8885Q_end.svg">
       <alt-text>&lt; 8885Q]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="89HF08P08CG3">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF08P08CG3_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF08P08CG3_st.svg">
       <alt-text>[89HF08P08CG3 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF08P08CG3_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF08P08CG3_end.svg">
       <alt-text>&lt; 89HF08P08CG3]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="89HF16P04CG3">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF16P04CG3_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF16P04CG3_st.svg">
       <alt-text>[89HF16P04CG3 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF16P04CG3_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF16P04CG3_end.svg">
       <alt-text>&lt; 89HF16P04CG3]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="89HF32P08CG3">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF32P08CG3_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF32P08CG3_st.svg">
       <alt-text>[89HF32P08CG3 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/89HF32P08CG3_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/89HF32P08CG3_end.svg">
       <alt-text>&lt; 89HF32P08CG3]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="Adaptec_HBA">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Adaptec_HBA_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Adaptec_HBA_st.svg">
       <alt-text>[Adaptec_HBA &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Adaptec_HBA_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Adaptec_HBA_end.svg">
       <alt-text>&lt; Adaptec_HBA]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="ADAPTEC_RAID">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_RAID_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_RAID_st.svg">
       <alt-text>[ADAPTEC_RAID &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/ADAPTEC_RAID_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ADAPTEC_RAID_end.svg">
       <alt-text>&lt; ADAPTEC_RAID]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="OEM_HBA">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_st.svg">
       <alt-text>[OEM_HBA &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_end.svg">
       <alt-text>&lt; OEM_HBA]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="OEM_HBA_FV">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_FV_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_FV_st.svg">
       <alt-text>[OEM_HBA_FV &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_FV_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_FV_end.svg">
       <alt-text>&lt; OEM_HBA_FV]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="OEM_HBA_TV">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_TV_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_TV_st.svg">
       <alt-text>[OEM_HBA_TV &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/OEM_HBA_TV_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/OEM_HBA_TV_end.svg">
       <alt-text>&lt; OEM_HBA_TV]</alt-text>
     </endflag>
   </prop>
 
 
   <prop action="flag" att="product" val="PM8043">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8043_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8043_st.svg">
       <alt-text>[PM8043 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8043_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8043_end.svg">
       <alt-text>&lt; PM8043]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8044">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8044_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8044_st.svg">
       <alt-text>[PM8044 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8044_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8044_end.svg">
       <alt-text>&lt; PM8044]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8053">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8053_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8053_st.svg">
       <alt-text>[PM8053 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8053_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8053_end.svg">
       <alt-text>&lt; PM8053]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8054">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8054_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8054_st.svg">
       <alt-text>[PM8054 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8054_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8054_end.svg">
       <alt-text>&lt; PM8054]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8055">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8055_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8055_st.svg">
       <alt-text>[PM8055 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8055_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8055_end.svg">
       <alt-text>&lt; PM8055]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8056">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8056_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8056_st.svg">
       <alt-text>[PM8056 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8056_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8056_end.svg">
       <alt-text>&lt; PM8056]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8060">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8060_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8060_st.svg">
       <alt-text>[PM8060 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8060_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8060_end.svg">
       <alt-text>&lt; PM8060]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8061">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8061_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8061_st.svg">
       <alt-text>[PM8061 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8061_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8061_end.svg">
       <alt-text>&lt; PM8061]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8062">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8062_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8062_st.svg">
       <alt-text>[PM8062 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8062_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8062_end.svg">
       <alt-text>&lt; PM8062]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8063">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8063_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8063_st.svg">
       <alt-text>[PM8063 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8063_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8063_end.svg">
       <alt-text>&lt; PM8063]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8064">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8064_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8064_st.svg">
       <alt-text>[PM8064 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8064_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8064_end.svg">
       <alt-text>&lt; PM8064]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8006">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8006_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8006_st.svg">
       <alt-text>[PM8006 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8006_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8006_end.svg">
       <alt-text>&lt; PM8006]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8070">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8070_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8070_st.svg">
       <alt-text>[PM8070 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8070_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8070_end.svg">
       <alt-text>&lt; PM8070]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8071">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8071_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8071_st.svg">
       <alt-text>[PM8071 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8071_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8071_end.svg">
       <alt-text>&lt; PM8071]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8072">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8072_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8072_st.svg">
       <alt-text>[PM8072 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8072_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8072_end.svg">
       <alt-text>&lt; PM8072]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8073">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8073_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8073_st.svg">
       <alt-text>[PM8073 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8073_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8073_end.svg">
       <alt-text>&lt; PM8073]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8074">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8074_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8074_st.svg">
       <alt-text>[PM8074 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8074_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8074_end.svg">
       <alt-text>&lt; PM8074]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8075">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8075_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8075_st.svg">
       <alt-text>[PM8075 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8075_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8075_end.svg">
       <alt-text>&lt; PM8075]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8076">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8076_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8076_st.svg">
       <alt-text>[PM8076 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8076_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8076_end.svg">
       <alt-text>&lt; PM8076]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8077">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8077_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8077_st.svg">
       <alt-text>[PM8077 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8077_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8077_end.svg">
       <alt-text>&lt; PM8077]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8202">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8202_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8202_st.svg">
       <alt-text>[PM8202 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8202_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8202_end.svg">
       <alt-text>&lt; PM8202]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8203">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8203_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8203_st.svg">
       <alt-text>[PM8203 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8203_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8203_end.svg">
       <alt-text>&lt; PM8203]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8204">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8204_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8204_st.svg">
       <alt-text>[PM8204 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8204_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8204_end.svg">
       <alt-text>&lt; PM8204]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8205">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8205_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8205_st.svg">
       <alt-text>[PM8205 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8205_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8205_end.svg">
       <alt-text>&lt; PM8205]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8207">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8207_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8207_st.svg">
       <alt-text>[PM8207 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8207_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8207_end.svg">
       <alt-text>&lt; PM8207]</alt-text>
     </endflag>
   </prop>
 
 
   <prop action="flag" att="product" val="PM8207">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8207_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8207_st.svg">
       <alt-text>[PM8207 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8207_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8207_end.svg">
       <alt-text>&lt; PM8207]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8210">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8210_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8210_st.svg">
       <alt-text>[PM8210 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8210_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8210_end.svg">
       <alt-text>&lt; PM8210]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8215">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8215_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8215_st.svg">
       <alt-text>[PM8215 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8215_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8215_end.svg">
       <alt-text>&lt; PM8215]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8216">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8216_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8216_st.svg">
       <alt-text>[PM8216 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8216_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8216_end.svg">
       <alt-text>&lt; PM8216]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8217">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8217_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8217_st.svg">
       <alt-text>[PM8217 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8217_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8217_end.svg">
       <alt-text>&lt; PM8217]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8220">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8220_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8220_st.svg">
       <alt-text>[PM8220 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8220_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8220_end.svg">
       <alt-text>&lt; PM8220]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8221">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8221_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8221_st.svg">
       <alt-text>[PM8221 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8221_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8221_end.svg">
       <alt-text>&lt; PM8221]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8222">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8222_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8222_st.svg">
       <alt-text>[PM8222 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8222_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8222_end.svg">
       <alt-text>&lt; PM8222]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8225">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8225_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8225_st.svg">
       <alt-text>[PM8225 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8225_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8225_end.svg">
       <alt-text>&lt; PM8225]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8236">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8236_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8236_st.svg">
       <alt-text>[PM8236 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8236_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8236_end.svg">
       <alt-text>&lt; PM8236]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8238">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8238_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8238_st.svg">
       <alt-text>[PM8238 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8238_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8238_end.svg">
       <alt-text>&lt; PM8238]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8240">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8240_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8240_st.svg">
       <alt-text>[PM8240 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8240_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8240_end.svg">
       <alt-text>&lt; PM8240]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8242">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8242_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8242_st.svg">
       <alt-text>[PM8242 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8242_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8242_end.svg">
       <alt-text>&lt; PM8242]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8237">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8237_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8237_st.svg">
       <alt-text>[PM8237 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8237_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8237_end.svg">
       <alt-text>&lt; PM8237]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8239">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8239_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8239_st.svg">
       <alt-text>[PM8239 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8239_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8239_end.svg">
       <alt-text>&lt; PM8239]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8241">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8241_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8241_st.svg">
       <alt-text>[PM8241 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8241_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8241_end.svg">
       <alt-text>&lt; PM8241]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8243">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8243_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8243_st.svg">
       <alt-text>[PM8243 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8243_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8243_end.svg">
       <alt-text>&lt; PM8243]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8244">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8244_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8244_st.svg">
       <alt-text>[PM8244 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8244_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8244_end.svg">
       <alt-text>&lt; PM8244]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8245">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8245_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8245_st.svg">
       <alt-text>[PM8245 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8245_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8245_end.svg">
       <alt-text>&lt; PM8245]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8246">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8246_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8246_st.svg">
       <alt-text>[PM8246 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8246_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8246_end.svg">
       <alt-text>&lt; PM8246]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8247">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8247_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8247_st.svg">
       <alt-text>[PM8247 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8247_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8247_end.svg">
       <alt-text>&lt; PM8247]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8304">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8304_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8304_st.svg">
       <alt-text>[PM8304 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8304_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8304_end.svg">
       <alt-text>&lt; PM8304]</alt-text>
     </endflag>
   </prop>
 
 
   <prop action="flag" att="product" val="PM8342">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8342_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8342_st.svg">
       <alt-text>[PM8342 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8342_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8342_end.svg">
       <alt-text>&lt; PM8342]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8343">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8343_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8343_st.svg">
       <alt-text>[PM8343 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8343_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8343_end.svg">
       <alt-text>&lt; PM8343]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8602">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8602_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8602_st.svg">
       <alt-text>[PM8602 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8602_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8602_end.svg">
       <alt-text>&lt; PM8602]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8604">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8604_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8604_st.svg">
       <alt-text>[PM8604 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8604_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8604_end.svg">
       <alt-text>&lt; PM8604]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8606">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8606_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8606_st.svg">
       <alt-text>[PM8606 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8606_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8606_end.svg">
       <alt-text>&lt; PM8606]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8342">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8342_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8342_st.svg">
       <alt-text>[PM8342 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8342_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8342_end.svg">
       <alt-text>&lt; PM8342]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8343">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8343_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8343_st.svg">
       <alt-text>[PM8343 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8343_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8343_end.svg">
       <alt-text>&lt; PM8343]</alt-text>
     </endflag>
   </prop>
@@ -719,11 +858,11 @@
 
 
   <prop action="flag" att="product" val="PM8605">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8605_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8605_st.svg">
       <alt-text>[PM8605 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8605_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8605_end.svg">
       <alt-text>&lt; PM8605]</alt-text>
     </endflag>
   </prop>
@@ -731,447 +870,1264 @@
 
 
   <prop action="flag" att="product" val="PM8607">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8607_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8607_st.svg">
       <alt-text>[PM8607 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8607_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8607_end.svg">
       <alt-text>&lt; PM8607]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8609">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8609_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8609_st.svg">
       <alt-text>[PM8609 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8609_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8609_end.svg">
       <alt-text>&lt; PM8609]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="PM8613">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8613_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8613_st.svg">
       <alt-text>[PM8613 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8613_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8613_end.svg">
       <alt-text>&lt; PM8613]</alt-text>
     </endflag>
   </prop>
 
 
   <prop action="flag" att="product" val="PM8616">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8616_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8616_st.svg">
       <alt-text>[PM8616 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8616_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8616_end.svg">
       <alt-text>&lt; PM8616]</alt-text>
     </endflag>
   </prop>
+
   <prop action="flag" att="product" val="PM8617">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8617_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8617_st.svg">
       <alt-text>[PM8617 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PM8617_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8617_end.svg">
       <alt-text>&lt; PM8617]</alt-text>
     </endflag>
   </prop>
 
+  <prop action="flag" att="product" val="PM8627">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8627_st.svg">
+      <alt-text>[PM8627 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM8627_end.svg">
+      <alt-text>&lt; PM8627]</alt-text>
+    </endflag>
+  </prop>
+
   <prop action="flag" att="product" val="PMC_RAID_806X">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/PMC_RAID_806X_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PMC_RAID_806X_st.svg">
       <alt-text>[PMC_RAID_806X &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/PMC_RAID_806X_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PMC_RAID_806X_end.svg">
       <alt-text>&lt; PMC_RAID_806X]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="WP2x">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP2x_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP2x_st.svg">
       <alt-text>[WP2x &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP2x_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP2x_end.svg">
       <alt-text>&lt; WP2x]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="WP3Bx">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3Bx_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3Bx_st.svg">
       <alt-text>[WP3Bx &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3Bx_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3Bx_end.svg">
       <alt-text>&lt; WP3Bx]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="WP3-SLx">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3-SLx_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3-SLx_st.svg">
       <alt-text>[WP3-SLx &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3-SLx_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3-SLx_end.svg">
       <alt-text>&lt; WP3-SLx]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="WP3x">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3x_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3x_st.svg">
       <alt-text>[WP3x &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP3x_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP3x_end.svg">
       <alt-text>&lt; WP3x]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="product" val="WP4x">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP4x_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP4x_st.svg">
       <alt-text>[WP4x &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/WP4x_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/WP4x_end.svg">
       <alt-text>&lt; WP4x]</alt-text>
     </endflag>
   </prop>
 
-
-  <prop action="flag" att="rev" val="4.2">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/4.2_st.svg">
+  <prop action="flag" att="rev" val="A">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/A_st.svg">
       <alt-text>[4.2 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/4.2_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/A_end.svg">
+      <alt-text>&lt; 4.2]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="3.x">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.x_st.svg">
+      <alt-text>[3.x &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.x_end.svg">
+      <alt-text>&lt; 3.x]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="3.66">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.66_st.svg">
+      <alt-text>[3.66 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.66_end.svg">
+      <alt-text>&lt; 3.66]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="3.67">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.67_st.svg">
+      <alt-text>[3.67 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/3.67_end.svg">
+      <alt-text>&lt; 3.67]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="4.x">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.x_st.svg">
+      <alt-text>[4.x &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.x_end.svg">
+      <alt-text>&lt; 4.x]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="4.2">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.2_st.svg">
+      <alt-text>[4.2 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.2_end.svg">
       <alt-text>&lt; 4.2]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="rev" val="4.3">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/4.3_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.3_st.svg">
       <alt-text>[4.3 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/4.3_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/4.3_end.svg">
       <alt-text>&lt; 4.3]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="rev" val="5.0">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/5.0_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/5.0_st.svg">
       <alt-text>[5.0 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/5.0_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/5.0_end.svg">
       <alt-text>&lt; 5.0]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="rev" val="5">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/5_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/5_st.svg">
       <alt-text>[5 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/5_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/5_end.svg">
       <alt-text>&lt; 5]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Amazon">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Amazon_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Amazon_st.svg">
       <alt-text>[Amazon &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Amazon_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Amazon_end.svg">
       <alt-text>&lt; Amazon]</alt-text>
     </endflag>
   </prop>
 
-  <prop action="exclude" att="audience" val="PMCInternal"/>
+  <prop action="flag" att="audience" val="PMCInternal">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Internal_st.svg">
+      <alt-text>[Internal &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Internal_end.svg">
+      <alt-text>&lt; Internal]</alt-text>
+    </endflag>
+  </prop>
 
   <prop action="flag" att="audience" val="Samsung">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Samsung_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Samsung_st.svg">
       <alt-text>[Samsung &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Samsung_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Samsung_end.svg">
       <alt-text>&lt; Samsung]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="standard_customers">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/StdCust_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/StdCust_st.svg">
       <alt-text>[StdCust &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/StdCust_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/StdCust_end.svg">
       <alt-text>&lt; StdCust]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="ROW">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/ROW_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ROW_st.svg">
       <alt-text>[ROW &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/ROW_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ROW_end.svg">
       <alt-text>&lt; ROW]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Lenovo">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Lenovo_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Lenovo_st.svg">
       <alt-text>[Lenovo &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Lenovo_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Lenovo_end.svg">
       <alt-text>&lt; Lenovo]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Intel">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Intel_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Intel_st.svg">
       <alt-text>[Intel &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Intel_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Intel_end.svg">
       <alt-text>&lt; Intel]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="LiteOn">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/LiteOn_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/LiteOn_st.svg">
       <alt-text>[LiteOn &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/LiteOn_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/LiteOn_end.svg">
       <alt-text>&lt; LiteOn]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Viking">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Viking_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Viking_st.svg">
       <alt-text>[Viking &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Viking_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Viking_end.svg">
       <alt-text>&lt; Viking]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Adaptec">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Adaptec_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Adaptec_st.svg">
       <alt-text>[Adaptec &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Adaptec_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Adaptec_end.svg">
       <alt-text>&lt; Adaptec]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="Cisco">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Cisco_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Cisco_st.svg">
       <alt-text>[Cisco &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Cisco_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Cisco_end.svg">
       <alt-text>&lt; Cisco]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="EMC">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/EMC_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/EMC_st.svg">
       <alt-text>[EMC &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/EMC_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/EMC_end.svg">
       <alt-text>&lt; EMC]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="HP">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/HP_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HP_st.svg">
       <alt-text>[HP &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/HP_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HP_end.svg">
       <alt-text>&lt; HP]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="all_customers">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/AllCust_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/AllCust_st.svg">
       <alt-text>[AllCust &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/AllCust_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/AllCust_end.svg">
       <alt-text>&lt; AllCust]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="ARC">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/ARC_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ARC_st.svg">
       <alt-text>[ARC &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/ARC_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ARC_end.svg">
       <alt-text>&lt; ARC]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="audience" val="SDK">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/SDK_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SDK_st.svg">
       <alt-text>[SDK &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/SDK_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SDK_end.svg">
       <alt-text>&lt; SDK]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="component" val="16x4PCIe">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/16x4PCIe_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/16x4PCIe_st.svg">
       <alt-text>[16x4PCIe &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/16x4PCIe_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/16x4PCIe_end.svg">
       <alt-text>&lt; 16x4PCIe]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="component" val="16x8PCIe">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/16x8PCIe_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/16x8PCIe_st.svg">
       <alt-text>[16x8PCIe &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/16x8PCIe_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/16x8PCIe_end.svg">
       <alt-text>&lt; 16x8PCIe]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="media" val="pdf">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/pdf_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/pdf_st.svg">
       <alt-text>[pdf &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/pdf_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/pdf_end.svg">
       <alt-text>&lt; pdf]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="media" val="web">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/web_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/web_st.svg">
       <alt-text>[web &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/web_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/web_end.svg">
       <alt-text>&lt; web]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy96">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy96_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy96_st.svg">
       <alt-text>[Phy96 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy96_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy96_end.svg">
       <alt-text>&lt; Phy96]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy80">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy80_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy80_st.svg">
       <alt-text>[Phy80 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy80_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy80_end.svg">
       <alt-text>&lt; Phy80]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy64">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy64_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy64_st.svg">
       <alt-text>[Phy64 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy64_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy64_end.svg">
       <alt-text>&lt; Phy64]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy48">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy48_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy48_st.svg">
       <alt-text>[Phy48 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy48_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy48_end.svg">
       <alt-text>&lt; Phy48]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy32">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy32_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy32_st.svg">
       <alt-text>[Phy32 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy32_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy32_end.svg">
       <alt-text>&lt; Phy32]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_phy" val="Phy24">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy24_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy24_st.svg">
       <alt-text>[Phy24 &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Phy24_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Phy24_end.svg">
       <alt-text>&lt; Phy24]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_switch" val="Fanout">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Fanout_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout_st.svg">
       <alt-text>[Fanout &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Fanout_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout_end.svg">
       <alt-text>&lt; Fanout]</alt-text>
     </endflag>
   </prop>
 
+  <prop action="flag" att="pmc_switch" val="DMA">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DMA_st.svg">
+      <alt-text>[DMA &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DMA_end.svg">
+      <alt-text>&lt; DMA]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pmc_switch" val="Fanout-LI">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-LI_st.svg">
+      <alt-text>[Fanout-LI &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-LI_end.svg">
+      <alt-text>&lt; Fanout-LI]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pmc_switch" val="Fanout-L">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-L_st.svg">
+      <alt-text>[Fanout-L&gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-L_end.svg">
+      <alt-text>&lt; Fanout-L]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pmc_switch" val="Fanout-I">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-I_st.svg">
+      <alt-text>[Fanout-I &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-I_end.svg">
+      <alt-text>&lt; Fanout-I]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pmc_switch" val="Fanout-d">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-d_st.svg">
+      <alt-text>[Fanout-d &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Fanout-d_end.svg">
+      <alt-text>&lt; Fanout-d]</alt-text>
+    </endflag>
+  </prop>
+
   <prop action="flag" att="pmc_switch" val="Encl_mgmt">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/Encl_mgmt_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encl_mgmt_st.svg">
       <alt-text>[Encl_mgmt &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/Encl_mgmt_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encl_mgmt_end.svg">
       <alt-text>&lt; Encl_mgmt]</alt-text>
     </endflag>
   </prop>
 
+  <prop action="flag" att="pmc_switch" val="Encl_mgmt-d">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encl_mgmt-d_st.svg">
+      <alt-text>[Encl_mgmt-d &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encl_mgmt-d_end.svg">
+      <alt-text>&lt; Encl_mgmt-d]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pmc_switch" val="Advanced">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Advanced_st.svg">
+      <alt-text>[Advanced &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Advanced_end.svg">
+      <alt-text>&lt; Advanced]</alt-text>
+    </endflag>
+  </prop>
+
   <prop action="flag" att="pmc_package" val="HiPort">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/HiPort_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HiPort_st.svg">
       <alt-text>[HiPort &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/HiPort_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HiPort_end.svg">
       <alt-text>&lt; HiPort]</alt-text>
     </endflag>
   </prop>
 
   <prop action="flag" att="pmc_package" val="LoPort">
-    <startflag imageref="http://xdocs-bby/icons/graphics/start_stop/LoPort_st.svg">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/LoPort_st.svg">
       <alt-text>[LoPort &gt;</alt-text>
     </startflag>
 
-    <endflag imageref="http://xdocs-bby/icons/graphics/start_stop/LoPort_end.svg">
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/LoPort_end.svg">
       <alt-text>&lt; LoPort]</alt-text>
     </endflag>
   </prop>
+
+  <!-- DIGI Start -->
+
+  <prop action="flag" att="audience" val="META_100GX">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/META_100GX_st.svg">
+      <alt-text>[META_100GX &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/META_100GX_end.svg">
+      <alt-text>&lt; META_100GX]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGI100GX_Ciena">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI100GX_Ciena_st.svg">
+      <alt-text>[DIGI100GX_Ciena &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI100GX_Ciena_end.svg">
+      <alt-text>&lt; DIGI100GX_Ciena]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGI100GX_ROW">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI100GX_ROW_st.svg">
+      <alt-text>[DIGI100GX_ROW &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI100GX_ROW_end.svg">
+      <alt-text>&lt; DIGI100GX_ROW]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="META200G_ROW">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/META200G_ROW_st.svg">
+      <alt-text>[META200G_ROW &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/META200G_ROW_end.svg">
+      <alt-text>&lt; META200G_ROW]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG4_ROW">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_ROW_st.svg">
+      <alt-text>[DIGIG4_ROW &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_ROW_end.svg">
+      <alt-text>&lt; DIGIG4_ROW]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG4_HW">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_HW_st.svg">
+      <alt-text>[DIGIG4_HW &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_HW_end.svg">
+      <alt-text>&lt; DIGIG4_HW]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG4_Ciena">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_Ciena_st.svg">
+      <alt-text>[DIGIG4_Ciena &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_Ciena_end.svg">
+      <alt-text>&lt; DIGIG4_Ciena]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG4_ALU">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_ALU_st.svg">
+      <alt-text>[DIGIG4_ALU &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG4_ALU_end.svg">
+      <alt-text>&lt; DIGIG4_ALU]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGI_Legacy">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI_Legacy_st.svg">
+      <alt-text>[DIGI_Legacy &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGI_Legacy_end.svg">
+      <alt-text>&lt; DIGI_Legacy]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG5_ROW">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_ROW_st.svg">
+      <alt-text>[DIGIG5_ROW &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_ROW_end.svg">
+      <alt-text>&lt; DIGIG5_ROW]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG5_NOKIA">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_NOKIA_st.svg">
+      <alt-text>[DIGIG5_NOKIA &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_NOKIA_end.svg">
+      <alt-text>&lt; DIGIG5_NOKIA]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="DIGIG5_CIENA">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_CIENA_st.svg">
+      <alt-text>[DIGIG5_CIENA &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DIGIG5_CIENA_end.svg">
+      <alt-text>&lt; DIGIG5_CIENA]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="META-600G">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/META-600G_st.svg">
+      <alt-text>[META-600G&gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/META-600G_end.svg">
+      <alt-text>&lt;META-600G]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="MSCCInternal">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/MSCCInternal_st.svg">
+      <alt-text>[MSCCInternal &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/MSCCInternal_end.svg">
+      <alt-text>&lt; MSCCInternal]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PM5440">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5440_st.svg">
+      <alt-text>[PM5440 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5440_end.svg">
+      <alt-text>&lt; PM5440]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PM5441">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5441_st.svg">
+      <alt-text>[PM5441 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5441_end.svg">
+      <alt-text>&lt; PM5441]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PM5442">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5442_st.svg">
+      <alt-text>[PM5442 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5442_end.svg">
+      <alt-text>&lt; PM5442]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PM5447">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5447_st.svg">
+      <alt-text>[PM5447 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5447_end.svg">
+      <alt-text>&lt; PM5447]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="PM5880">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5880_st.svg">
+      <alt-text>[PM5880 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PM5880_end.svg">
+      <alt-text>&lt; PM5880]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="Huawei">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Huawei_st.svg">
+      <alt-text>[Huawei &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Huawei_end.svg">
+      <alt-text>&lt; Huawei]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="audience" val="ALU">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/ALU_st.svg">
+      <alt-text>[ALU &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/ALU_end.svg">
+      <alt-text>&lt; ALU]</alt-text>
+    </endflag>
+  </prop>
+
+
+  <!-- DIGI Stop -->
+
+  <!--morristown start -->
+
+  <prop action="flag" att="component" val="PCIe_dual_port">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PCIe_dual_port_st.svg">
+      <alt-text>[PCIe_dual_port&gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PCIe_dual_port_end.svg">
+      <alt-text>&lt;PCIe_dual_port]</alt-text>
+    </endflag>
+  </prop>
+
+  <!--morristown stop-->
+
+  <!-- wildfire start -->
+
+  <prop action="flag" att="product" val="Macau_MCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Macau_MCM_st.svg">
+      <alt-text>[Macau_MCM &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Macau_MCM_end.svg">
+      <alt-text>&lt; Macau_MCM]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="product" val="Macau_SCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Macau_SCM_st.svg">
+      <alt-text>[Macau_SCM &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Macau_SCM_end.svg">
+      <alt-text>&lt; Macau_SCM]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="Excalibur_MCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Excalibur_MCM_st.svg">
+      <alt-text>[Excalibur_MCM &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Excalibur_MCM_end.svg">
+      <alt-text>&lt; Excalibur_MCM]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="Excalibur_SCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Excalibur_SCM_st.svg">
+      <alt-text>[Excalibur_SCM &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Excalibur_SCM_end.svg">
+      <alt-text>&lt; Excalibur_SCM]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="package" val="MCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/MCM_st.svg">
+      <alt-text>[MCM &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/MCM_end.svg">
+      <alt-text>&lt; MCM]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="sas-ports" val="SAS_x4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x4_st.svg">
+      <alt-text>[SAS_x4 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x4_end.svg">
+      <alt-text>&lt; SAS_x4]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="sas-ports" val="SAS_x8">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x8_st.svg">
+      <alt-text>[SAS_x8 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x8_end.svg">
+      <alt-text>&lt; SAS_x8]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="sas-ports" val="SAS_x16">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x16_st.svg">
+      <alt-text>[SAS_x16 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x16_end.svg">
+      <alt-text>&lt; SAS_x16]</alt-text>
+    </endflag>
+  </prop>
+
+
+  <prop action="flag" att="sas-ports" val="SAS_x32">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x32_st.svg">
+      <alt-text>[SAS_x32 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SAS_x32_end.svg">
+      <alt-text>&lt; SAS_x32]</alt-text>
+    </endflag>
+  </prop>
+
+
+  <prop action="flag" att="pcie-host-ports" val="HOST_x4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x4_st.svg">
+      <alt-text>[HOST_x4 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x4_end.svg">
+      <alt-text>&lt; HOST_x4]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-host-ports" val="HOST_x8">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x8_st.svg">
+      <alt-text>[HOST_x8 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x8_end.svg">
+      <alt-text>&lt; HOST_x8]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-host-ports" val="HOST_x16">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x16_st.svg">
+      <alt-text>[HOST_x16 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HOST_x16_end.svg">
+      <alt-text>&lt; HOST_x16]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-drive-ports" val="DRIVE_x4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x4_st.svg">
+      <alt-text>[DRIVE_x4 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x4_end.svg">
+      <alt-text>&lt; DRIVE_x4]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-drive-ports" val="DRIVE_x8">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x8_st.svg">
+      <alt-text>[DRIVE_x8 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x8_end.svg">
+      <alt-text>&lt; DRIVE_x8]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-drive-ports" val="DRIVE_x16">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x16_st.svg">
+      <alt-text>[DRIVE_x16 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x16_end.svg">
+      <alt-text>&lt; DRIVE_x16]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="pcie-drive-ports" val="DRIVE_x32">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x32_st.svg">
+      <alt-text>[DRIVE_x32 &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DRIVE_x32_end.svg">
+      <alt-text>&lt; DRIVE_x32]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="ddr-width" val="DDR_16b">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_16b_st.svg">
+      <alt-text>[DDR_16b &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_16b_end.svg">
+      <alt-text>&lt; DDR_16b]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="ddr-width" val="DDR_40b">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_40b_st.svg">
+      <alt-text>[DDR_40b &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_40b_end.svg">
+      <alt-text>&lt; DDR_40b]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="ddr-width" val="DDR_72b">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_72b_st.svg">
+      <alt-text>[DDR_72b &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_72b_end.svg">
+      <alt-text>&lt; DDR_72b]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="ddr-width" val="DDR_80b">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_80b_st.svg">
+      <alt-text>[DDR_80b &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_80b_end.svg">
+      <alt-text>&lt; DDR_80b]</alt-text>
+    </endflag>
+  </prop>
+  
+
+  <prop action="flag" att="ddr-width" val="DDR_144b">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_144b_st.svg">
+      <alt-text>[DDR_144b &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DDR_144b_end.svg">
+      <alt-text>&lt; DDR_144b]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="component" val="Encryption">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encryption_st.svg">
+      <alt-text>[Encryption &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Encryption_end.svg">
+      <alt-text>&lt; Encryption]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="component" val="Green_Backup">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Green_Backup_st.svg">
+      <alt-text>[Green_Backup &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Green_Backup_end.svg">
+      <alt-text>&lt; Green_Backup]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="component" val="PCIE_Switch">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PCIE_Switch_st.svg">
+      <alt-text>[PCIE_Switch &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PCIE_Switch_end.svg">
+      <alt-text>&lt; PCIE_Switch]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="component" val="OSSP_FCM">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/OSSP_FCM_st.svg">
+      <alt-text>[OSSP_FCM &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/OSSP_FCM_end.svg">
+      <alt-text>&lt; OSSP_FCM]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="component" val="HBA_MODE">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/HBA_MODE_st.svg">
+      <alt-text>[HBA_MODE &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/HBA_MODE_end.svg">
+      <alt-text>&lt; HBA_MODE]</alt-text>
+    </endflag>
+  </prop>
+
+
+  <prop action="flag" att="component" val="NAND_Flash">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/NAND_Flash_st.svg">
+      <alt-text>[NAND_Flash &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/NAND_Flash_end.svg">
+      <alt-text>&lt; NAND_Flash]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PX_16xG4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_16xG4_st.svg">
+      <alt-text>[RTM_PX_16xG4 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_16xG4_end.svg">
+      <alt-text>&lt; RTM_PX_16xG4]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PX_8xG4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_8xG4_st.svg">
+      <alt-text>[RTM_PX_8xG4 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_8xG4_end.svg">
+      <alt-text>&lt; RTM_PX_8xG4]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PX_4xG4">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_4xG4_st.svg">
+      <alt-text>[RTM_PX_4xG4 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PX_4xG4_end.svg">
+      <alt-text>&lt; RTM_PX_4xG4]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PCXL_16xG5">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_16xG5_st.svg">
+      <alt-text>[RTM_PCXL_16xG5 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_16xG5_end.svg">
+      <alt-text>&lt; RTM_PCXL_16xG5]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PCXL_8xG5">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_8xG5_st.svg">
+      <alt-text>[RTM_PCXL_8xG5 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_8xG5_end.svg">
+      <alt-text>&lt; RTM_PCXL_8xG5]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="component" val="RTM_PCXL_4xG5">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_4xG5_st.svg">
+      <alt-text>[RTM_PCXL_4xG5 &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTM_PCXL_4xG5_end.svg">
+      <alt-text>&lt; RTM_PCXL_4xG5]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="raid-support" val="RAID_all">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAID_all_st.svg">
+      <alt-text>[RAID_all &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAID_all_end.svg">
+      <alt-text>&lt; RAID_all]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="raid-support" val="RAID_limited">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAID_limited_st.svg">
+      <alt-text>[RAID_limited &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAID_limited_end.svg">
+      <alt-text>&lt; RAID_limited]</alt-text>
+    </endflag>
+  </prop>
+
+
+  <prop action="flag" att="fw_package" val="PBL">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/PBL_st.svg">
+      <alt-text>[PBL &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/PBL_end.svg">
+      <alt-text>&lt; PBL]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="fw_package" val="SSD_Dev_Pltfrm">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SSD_Dev_Pltfrm_st.svg">
+      <alt-text>[SSD_Dev_Pltfrm &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SSD_Dev_Pltfrm_end.svg">
+      <alt-text>&lt; SSD_Dev_Pltfrm]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="fw_package" val="SSD_Solution">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/SSD_Solution_st.svg">
+      <alt-text>[SSD_Solution &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/SSD_Solution_end.svg">
+      <alt-text>&lt; SSD_Solution]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="fw_package" val="DataPath_Val">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/DataPath_Val_st.svg">
+      <alt-text>[DataPath_Val &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/DataPath_Val_end.svg">
+      <alt-text>&lt; DataPath_Val]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="fw_package" val="Belmar_Compat">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Belmar_Compat_st.svg">
+      <alt-text>[Belmar_Compat &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Belmar_Compat_end.svg">
+      <alt-text>&lt; Belmar_Compat]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="fw_package" val="RAM_Drive">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAM_Drive_st.svg">
+      <alt-text>[RAM_Drive &gt;</alt-text>
+    </startflag>
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RAM_Drive_end.svg">
+      <alt-text>&lt; RAM_Drive]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="Early">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/Early_st.svg">
+      <alt-text>[Early &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/Early_end.svg">
+      <alt-text>&lt; Early]</alt-text>
+    </endflag>
+  </prop>
+
+  <prop action="flag" att="rev" val="RTP">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTP_st.svg">
+      <alt-text>[RTP &gt;</alt-text>
+    </startflag>
+
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/RTP_end.svg">
+      <alt-text>&lt; RTP]</alt-text>
+    </endflag>
+  </prop>
+
+  <!-- wildfire stop -->
+  
+  <!-- mt.carmel start -->
+  
+  <prop action="flag" att="product" val="NV1600">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV1600_st.svg">
+      <alt-text>[NV1600 &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV1600_end.svg">
+      <alt-text>&lt; NV1600]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="NV1604">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV1604_st.svg">
+      <alt-text>[NV1604 &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV1604_end.svg">
+      <alt-text>&lt; NV1604]</alt-text>
+    </endflag>
+  </prop>
+  
+  <prop action="flag" att="product" val="NV2800">
+    <startflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV2800_st.svg">
+      <alt-text>[NV2800 &gt;</alt-text>
+    </startflag>
+    
+    <endflag imageref="http://10.180.100.25/icons/graphics/start_stop/NV2800_end.svg">
+      <alt-text>&lt; NV2800]</alt-text>
+    </endflag>
+  </prop>
+  
+  <!-- mt.carmel stop -->
 
   <prop att="status" action="flag" val="changed">
     <startflag>
@@ -1181,9 +2137,7 @@
       <alt-text>&lt;End Changed]]</alt-text>
     </endflag>
   </prop>
-  <revprop val="deltaxml-delete" action="flag"
-    changebar="color:red;style:solid;width:1pt;offset:25mm" style="line-through" backcolor="#F78D94"/>
-  <revprop val="deltaxml-add" action="flag"
-    changebar="color:green;style:solid;width:1pt;offset:30mm" backcolor="#85F57F"/>
+  <revprop val="deltaxml-delete" action="flag" changebar="color:red;style:solid;width:1pt;offset:25mm" style="line-through" backcolor="#F78D94"/>
+  <revprop val="deltaxml-add" action="flag" changebar="color:green;style:solid;width:1pt;offset:30mm" backcolor="#85F57F"/>
 
 </val>

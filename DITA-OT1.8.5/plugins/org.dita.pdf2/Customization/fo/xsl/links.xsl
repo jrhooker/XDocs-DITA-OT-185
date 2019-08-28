@@ -24,6 +24,84 @@
         </xsl:call-template>
     </xsl:template>
     
+    <xsl:template match="*[contains(@class,' topic/xref ')]" name="topic.xref">
+        <fo:inline>
+            <xsl:call-template name="commonattributes"/>
+        </fo:inline>
+        
+        <xsl:variable name="destination" select="opentopic-func:getDestinationId(@href)"/>
+        <xsl:variable name="element" select="key('key_anchor',$destination)[1]"/>
+        
+        <!-- This variable was overridden to prevent xrefs with specific element targets from overriding the 
+        user-defined text. -->
+        
+        <xsl:variable name="referenceTitle">
+            <xsl:choose>
+                <xsl:when test="string-length(.) &gt; 1">
+                    <xsl:value-of select="."/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="." mode="insertReferenceTitle">
+                        <xsl:with-param name="href" select="@href"/>
+                        <xsl:with-param name="titlePrefix" select="''"/>
+                        <xsl:with-param name="destination" select="$destination"/>
+                        <xsl:with-param name="element" select="$element"/>
+                    </xsl:apply-templates>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+        </xsl:variable>
+        
+        <fo:basic-link xsl:use-attribute-sets="xref">
+            <xsl:call-template name="buildBasicLinkDestination">
+                <xsl:with-param name="scope" select="@scope"/>
+                <xsl:with-param name="format" select="@format"/>
+                <xsl:with-param name="href" select="@href"/>
+            </xsl:call-template>
+            
+            <xsl:choose>
+                <xsl:when test="not(@scope = 'external' or not(empty(@format) or  @format = 'dita')) and not($referenceTitle = '')">
+                    <xsl:copy-of select="$referenceTitle"/>
+                </xsl:when>
+                <xsl:when test="not(@scope = 'external' or not(empty(@format) or  @format = 'dita'))">
+                    <xsl:call-template name="insertPageNumberCitation">
+                        <xsl:with-param name="isTitleEmpty" select="'yes'"/>
+                        <xsl:with-param name="destination" select="$destination"/>
+                        <xsl:with-param name="element" select="$element"/>
+                    </xsl:call-template>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="*[not(contains(@class,' topic/desc '))] | text()">
+                            <xsl:apply-templates select="*[not(contains(@class,' topic/desc '))] | text()" />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="@href"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </fo:basic-link>
+        
+        <!--
+				Disable because of the CQ#8102 bug
+				<xsl:if test="*[contains(@class,' topic/desc ')]">
+					<xsl:call-template name="insertLinkDesc"/>
+				</xsl:if>
+		-->
+        
+        <xsl:if test="not(@scope = 'external' or not(empty(@format) or  @format = 'dita')) and not($referenceTitle = '') and not($element[contains(@class, ' topic/fn ')])">
+            <!-- SourceForge bug 1880097: should not include page number when xref includes author specified text -->
+            <xsl:if test="not(processing-instruction()[name()='ditaot'][.='usertext'])">
+                <xsl:call-template name="insertPageNumberCitation">
+                    <xsl:with-param name="destination" select="$destination"/>
+                    <xsl:with-param name="element" select="$element"/>
+                </xsl:call-template>
+            </xsl:if>
+        </xsl:if>
+        
+    </xsl:template>
+    
     <!-- The following template was put in place to ensure that xrefs to ol/li elements have the correct -->
     
     <xsl:template name="preceding-count-li-reference">

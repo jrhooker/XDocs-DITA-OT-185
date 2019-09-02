@@ -286,6 +286,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 BookMap//EN"                        -->
   %pcie-host-ports-props-d-attribute;
   %raid-support-props-d-attribute;
   %sas-ports-props-d-attribute; 
+  %revision-props-d-attribute;
   "
 >
 <!ENTITY % base-attribute-extensions   ""                            >
@@ -324,6 +325,7 @@ PUBLIC "-//OASIS//DTD DITA 1.2 BookMap//EN"                        -->
                            &pcie-host-ports-props-d-att;
                            &raid-support-props-d-att;
                            &sas-ports-props-d-att; 
+                           &revision-props-d-att;
                            &media-props-d-att;
                            &component-props-d-att;
                         ">

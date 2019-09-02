@@ -110,4 +110,12 @@
    " >
 <!ENTITY  sas-ports-props-d-att
   "a(props   sas-ports )">    
+  
+  <!ENTITY %  revision-props-d-attribute 
+   " revision 
+     CDATA 
+     #IMPLIED
+   " >
+<!ENTITY  revision-props-d-att
+  "a(props   revision )">    
  

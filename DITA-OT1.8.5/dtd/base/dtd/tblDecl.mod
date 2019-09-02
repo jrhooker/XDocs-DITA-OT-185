@@ -202,7 +202,7 @@ in useability, presentation, and possible structure information degradation.
 
 <!ENTITY % tbl.table.name       "table">
 <!ENTITY % tbl.table-titles.mdl "((%title;)?, (%desc;)?)?,">
-<!ENTITY % tbl.table-main.mdl   "(%tgroup;)+">
+<!ENTITY % tbl.table-main.mdl   "(%tgroup;|%xref;)+">
 <!ENTITY % tbl.table.mdl        "%tbl.table-titles.mdl; %tbl.table-main.mdl;">
 <!ENTITY % tbl.table.att        "
     pgwide      %yesorno;       #IMPLIED ">

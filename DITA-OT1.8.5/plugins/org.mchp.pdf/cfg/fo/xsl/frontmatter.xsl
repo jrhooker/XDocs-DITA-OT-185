@@ -35,7 +35,8 @@ See the accompanying license.txt file for applicable licenses.
 
     <xsl:param name="SHOWCOMMENTS">NO</xsl:param>
     <xsl:param name="SHOWCOMMENTS-NUM" select="0"/>
-
+    <xsl:param name="FRONTMATTER">1</xsl:param>
+    
     <!--          
                     <xsl:call-template name="createPMCFrontMatter"></xsl:call-template>
                     <xsl:call-template name="createCoverPage"/>
@@ -44,6 +45,7 @@ See the accompanying license.txt file for applicable licenses.
                  -->
 
     <xsl:template name="createFrontMatter_1.0">
+        <xsl:if test="number($FRONTMATTER) = 1">
         <fo:page-sequence master-reference="front-matter" format="i"
             xsl:use-attribute-sets="page-sequence.frontmatter">
             <xsl:call-template name="insertFrontMatterStaticContents"/>
@@ -58,6 +60,7 @@ See the accompanying license.txt file for applicable licenses.
                 </fo:block-container>
             </fo:flow>
         </fo:page-sequence>
+        </xsl:if>
         <fo:page-sequence master-reference="coverpage" format="i" initial-page-number="1"
             xsl:use-attribute-sets="page-sequence.cover">
             <xsl:call-template name="insertCoverStaticContents"/>
@@ -167,8 +170,8 @@ See the accompanying license.txt file for applicable licenses.
                             <fo:block text-align="left" font-family="{$body.font.family}"
                                 font-size="10pt">
                                 <xsl:choose>
-                                    <xsl:when test="$pmc_iso[1]/pmc_issue_date">
-                                        <xsl:value-of select="$pmc_iso[1]/pmc_issue_date"/>
+                                    <xsl:when test="$pmc_iso[1]/pmc_issue_date[1]">
+                                        <xsl:value-of select="$pmc_iso[1]/pmc_issue_date[1]"/>
                                     </xsl:when>
                                     <xsl:otherwise>No pmc_issue_date defined.</xsl:otherwise>
                                 </xsl:choose>
@@ -187,7 +190,7 @@ See the accompanying license.txt file for applicable licenses.
                             padding-bottom="2pt">
                             <fo:block text-align="left" font-family="{$body.font.family}"
                                 font-size="10pt">
-                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id"/>
+                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>
                             </fo:block>
                         </fo:table-cell>
                         <fo:table-cell padding-left="2pt" padding-right="2pt" padding-top="2pt"
@@ -237,7 +240,7 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:template name="createDetailedRevisionHistory">
         <xsl:choose>
             <xsl:when test="//pmc-revhistory[ancestor::topic]/pmc-revision">
-                <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="2pc">
+               <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="2pc">
                     <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold"
                         font-size="12pt" hyphenate="false" space-after.minimum="0.4em"
                         space-after.optimum="0.6em" space-after.maximum="0.8em"
@@ -331,8 +334,8 @@ See the accompanying license.txt file for applicable licenses.
                                         border-right-width="0.5pt" border-right-style="solid"
                                         border-right-color="{$table.rule.color}" text-align="left">
                                         <fo:block font-family="{$body.font.family}"
-                                            font-size="{$body.font.size.small}">
-                                            <xsl:value-of
+                                            font-size="{$body.font.size.small}">                                            
+                                           <xsl:value-of
                                                 select="*[contains(@class, ' pmcrevhis-d/pmc-rev-number ')]"
                                             />
                                         </fo:block>
@@ -372,7 +375,7 @@ See the accompanying license.txt file for applicable licenses.
                                         font-size="{$body.font.size.small}">
                                         <xsl:apply-templates
                                             select="*[contains(@class, ' pmcrevhis-d/pmc-description ')]/*"/>
-
+                                        
                                         <fo:block font-family="{$body.font.family}" font-size="1pt"
                                         />
                                     </fo:table-cell>
@@ -381,8 +384,8 @@ See the accompanying license.txt file for applicable licenses.
                         </fo:table-body>
                     </fo:table>
                 </fo:block>
-            </xsl:when>
-            <xsl:when test="$pmc_iso[1]/pmc_revhistory">
+            </xsl:when>            
+            <xsl:when test="$pmc_iso[1]/pmc_revhistory/pmc_revision">
                 <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="2pc">
                     <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold"
                         font-size="12pt" hyphenate="false" space-after.minimum="0.4em"
@@ -1135,7 +1138,7 @@ See the accompanying license.txt file for applicable licenses.
             </xsl:if>
 
             <xsl:if
-                test="//*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[namespace-uri() = 'http://www.idiominc.com/opentopic' and local-name() = 'map'])][descendant-or-self::*[contains(@rev, 'deltaxml-')]][not(descendant::*[contains(@class, ' topic/topic ')])]">
+                test="//*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[namespace-uri()='http://www.idiominc.com/opentopic' and local-name()='map'])][descendant-or-self::*[contains(@rev, 'deltaxml-')]][not(descendant::*[contains(@class, ' topic/topic ')])]">
                 <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="2pc">
                     <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" font-weight="bold"
                         font-size="10pt" hyphenate="false" space-after.minimum="0.4em"
@@ -1181,7 +1184,7 @@ See the accompanying license.txt file for applicable licenses.
                         </fo:table-header>
                         <fo:table-body end-indent="0pt" start-indent="0pt">
                             <xsl:for-each
-                                select="//*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[namespace-uri() = 'http://www.idiominc.com/opentopic' and local-name() = 'map'])][descendant-or-self::*[contains(@rev, 'deltaxml-')]][not(descendant::*[contains(@class, ' topic/topic ')])]">
+                                select="//*[contains(@class, ' topic/topic ')][not(ancestor-or-self::*[namespace-uri()='http://www.idiominc.com/opentopic' and local-name()='map'])][descendant-or-self::*[contains(@rev, 'deltaxml-')]][not(descendant::*[contains(@class, ' topic/topic ')])]">
                                 <fo:table-row>
                                     <fo:table-cell padding-left="2pt" padding-right="2pt"
                                         padding-top="2pt" padding-bottom="2pt"
@@ -1427,8 +1430,8 @@ See the accompanying license.txt file for applicable licenses.
                         <fo:table-body end-indent="0pt" start-indent="0pt">
                             <xsl:for-each select="$pmc_iso[1]/pmc_revhistory/pmc_revision">
                                 <xsl:choose>
-                                    <xsl:when test="@role = 'internal' or @otherprops = 'internal'"/>
-                                    <xsl:when test="@role = 'external' or @otherprops = 'external'">
+                                    <xsl:when test="@role='internal' or @otherprops='internal'"/>
+                                    <xsl:when test="@role='external' or @otherprops='external'">
                                         <fo:table-row>
                                             <fo:table-cell padding-left="2pt" padding-right="2pt"
                                                 padding-top="2pt" padding-bottom="2pt"
@@ -1472,7 +1475,7 @@ See the accompanying license.txt file for applicable licenses.
                                         </fo:table-row>
                                     </xsl:when>
                                     <xsl:when
-                                        test="descendant::*/@role = 'external' or descendant::*/@otherprops = 'external'">
+                                        test="descendant::*/@role='external' or descendant::*/@otherprops='external'">
                                         <fo:table-row>
                                             <fo:table-cell padding-left="2pt" padding-right="2pt"
                                                 padding-top="2pt" padding-bottom="2pt"

@@ -24,7 +24,7 @@
         </xsl:call-template>
     </xsl:template>
     
-    <!-- The following template was put in place to ensure that xrefs to ol/li elements have the correct -->
+    <!-- The following template was put in place to ensure that xrefs to ol/li elements have the correct. This is a change. -->
     
     <xsl:template name="preceding-count-li-reference">
         <xsl:param name="preceding-ol"/>

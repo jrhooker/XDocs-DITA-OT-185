@@ -602,6 +602,12 @@
           <font-data ttf="msmincho.ttc"/>
         </font>
       </font-family>
+      
+      <font-family name="simsun" embed="true">
+        <font>
+          <font-data ttf="simsun.ttc"/>
+        </font>
+      </font-family>
     </font-group>
 
     <font-family name="FranklinGothic-Demi">

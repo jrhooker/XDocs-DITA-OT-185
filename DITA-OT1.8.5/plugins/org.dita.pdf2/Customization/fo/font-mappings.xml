@@ -52,11 +52,11 @@ See the accompanying license.txt file for applicable licenses.
                                 <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                         </physical-font>                        
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, SourceHanSerifSC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, SourceHanSerifTC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">

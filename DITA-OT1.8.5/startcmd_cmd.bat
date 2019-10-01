@@ -72,4 +72,6 @@ REM ant -Dargs.dir.input=samples/edison -Dargs.input=samples/edison/edison.ditam
 
 REM ant -Dargs.dir.input=samples/PI -Dargs.input=samples/adaptec/adaptec.ditamap -Dtranstype=mchp-xhtml -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/test/adaptec/xhtml -Douter.control=warn -Dclean.temp=false  -DmaxJavaMemory=3200m
 
-ant -Dargs.dir.input=samples/ListNumbering -Dargs.input=samples/adaptec_1/smarthba_smartraid_releasenotes.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/adaptec_1/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -DFRONTMATTER=0
+REM ant -Dargs.dir.input=samples/links2 -Dargs.input=samples/links2/links2.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/links2/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -DFRONTMATTER=0
+
+ant -Dargs.dir.input=samples/chinese -Dargs.input=samples/chinese/chinese.ditamap  -Dtranstype=pdf -Dvalidate=false -Dpdf.formatter=xep -Doutput.dir=out/chinese/pdf -Douter.control=warn -Dclean.temp=false -Droot-chunk-override=by-topic  -DmaxJavaMemory=3200m -DFRONTMATTER=0

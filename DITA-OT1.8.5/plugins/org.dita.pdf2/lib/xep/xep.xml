@@ -507,6 +507,19 @@
     <!-- Windows TrueType fonts. -->
     <font-group label="Windows TrueType" embed="true" subset="true">
 
+      <font-family name="simsun" embed="true">
+        <font>
+          <font-data otf="simsun.ttc"/>
+        </font>   
+       
+      </font-family>
+      
+      <font-family name="simsunb" embed="true">
+        <font>
+          <font-data otf="simsunb.ttf"/>
+        </font>          
+      </font-family>
+
     <font-family name="Verdana">
         <font>
           <font-data ttf="verdana.ttf"/>
@@ -581,6 +594,8 @@
           <font-data ttf="cambriaz.ttf"/>
         </font>
       </font-family>
+      
+     
 
       <font-family name="Meiryo">
         <font>
@@ -603,11 +618,6 @@
         </font>
       </font-family>
       
-      <font-family name="simsun" embed="true">
-        <font>
-          <font-data ttf="simsun.ttc"/>
-        </font>
-      </font-family>
     </font-group>
 
     <font-family name="FranklinGothic-Demi">

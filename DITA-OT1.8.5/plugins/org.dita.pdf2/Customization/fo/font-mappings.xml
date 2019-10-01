@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!-- 
 Copyright © 2004-2006 by Idiom Technologies, Inc. All rights reserved. 
 IDIOM is a registered trademark of Idiom Technologies, Inc. and WORLDSERVER
@@ -33,7 +34,7 @@ See the accompanying license.txt file for applicable licenses.
      <font-table>
             
                 <aliases>
-                        <alias name="Helvetica">Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</alias>
+                        <alias name="Helvetica">Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</alias>
                 </aliases>
                 <aliases>
                         <alias name="Courier">Monospaced</alias>
@@ -52,11 +53,11 @@ See the accompanying license.txt file for applicable licenses.
                                 <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                         </physical-font>                        
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, SourceHanSerifSC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, SourceHanSerifTC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -85,15 +86,14 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="sans">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
-                                        Cambria</font-face>
+                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -123,14 +123,14 @@ See the accompanying license.txt file for applicable licenses.
                 <logical-font name="sans-serif">
                         <physical-font char-set="default">
                                 <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
-                                        Cambria</font-face>
+                                        Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -160,14 +160,14 @@ See the accompanying license.txt file for applicable licenses.
                 <logical-font name="sansTitle">
                         <physical-font char-set="default">
                                 <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
-                                        Cambria</font-face>
+                                        Cambria, simsun, sumsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -197,14 +197,14 @@ See the accompanying license.txt file for applicable licenses.
                 <logical-font name="DINOT-regular">
                         <physical-font char-set="default">
                                 <font-face>DINOT-regular, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
-                                        Cambria</font-face>
+                                        Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -237,11 +237,11 @@ See the accompanying license.txt file for applicable licenses.
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -274,11 +274,11 @@ See the accompanying license.txt file for applicable licenses.
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
@@ -311,8 +311,12 @@ See the accompanying license.txt file for applicable licenses.
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>MSMincho, Arial, Calibri, Courier,
-                                        Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
+                        </physical-font>
+                        <physical-font char-set="Traditional Chinese">
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
                                 <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
@@ -345,7 +349,12 @@ See the accompanying license.txt file for applicable licenses.
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>AdobeSongStd-Light</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
+                        </physical-font>
+                        <physical-font char-set="Traditional Chinese">
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
                                 <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
@@ -376,7 +385,12 @@ See the accompanying license.txt file for applicable licenses.
                                 <font-face>Courier</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>AdobeSongStd-Light</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
+                        </physical-font>
+                        <physical-font char-set="Traditional Chinese">
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
                                 <font-face> Courier, KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial,

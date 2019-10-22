@@ -109,11 +109,14 @@
   
   <public publicId="-//OASIS//DTD DITA Concept//EN" uri="technicalContent/dtd/concept.dtd"/>
   <public publicId="-//OASIS//DTD DITA 1.x Concept//EN" uri="technicalContent/dtd/concept.dtd"/>
+  <public publicId="-//OASIS//DTD DITA 1.1 Concept//EN" uri="technicalContent/dtd/concept.dtd"/>
   <public publicId="-//OASIS//DTD DITA 1.2 Concept//EN" uri="technicalContent/dtd/concept.dtd"/>
   <public publicId="-//OASIS//ELEMENTS DITA Concept//EN" uri="technicalContent/dtd/concept.mod"/>
   <public publicId="-//OASIS//ELEMENTS DITA 1.x Concept//EN" uri="technicalContent/dtd/concept.mod"/>
+  <public publicId="-//OASIS//ELEMENTS DITA 1.1 Concept//EN" uri="technicalContent/dtd/concept.mod"/>
   <public publicId="-//OASIS//ELEMENTS DITA 1.2 Concept//EN" uri="technicalContent/dtd/concept.mod"/>
   <public publicId="-//OASIS//ENTITIES DITA Concept//EN" uri="technicalContent/dtd/concept.ent"/>
+  <public publicId="-//OASIS//ENTITIES DITA 1.1 Concept//EN" uri="technicalContent/dtd/concept.ent"/>
   <public publicId="-//OASIS//ENTITIES DITA 1.x Concept//EN" uri="technicalContent/dtd/concept.ent"/>
   <public publicId="-//OASIS//ENTITIES DITA 1.2 Concept//EN" uri="technicalContent/dtd/concept.ent"/>
   

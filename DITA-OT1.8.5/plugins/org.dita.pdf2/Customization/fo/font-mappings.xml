@@ -34,7 +34,7 @@ See the accompanying license.txt file for applicable licenses.
      <font-table>
             
                 <aliases>
-                        <alias name="Helvetica">Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</alias>
+                        <alias name="Helvetica">Calibri, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</alias>
                 </aliases>
                 <aliases>
                         <alias name="Courier">Monospaced</alias>
@@ -50,35 +50,35 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="Sans">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                         </physical-font>                        
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -86,35 +86,35 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="sans">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</font-face>
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica, Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, Calibri, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, Calibri, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -122,36 +122,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="sans-serif">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -159,36 +159,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="sansTitle">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria, simsun, sumsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -196,36 +196,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="DINOT-regular">
                         <physical-font char-set="default">
-                                <font-face>DINOT-regular, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>DINOT-regular, Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria, simsun, simsunb</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-regular, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, DINOT-regular, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, DINOT-regular, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, DINOT-regular, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-regular, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-regular, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-regular, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-regular, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, DINOT-regular, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, DINOT-regular, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -233,36 +233,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="DINOT-bold">
                         <physical-font char-set="default">
-                                <font-face>DINOT-bold, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>DINOT-bold, Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-bold, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-bold, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, DINOT-bold, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, DINOT-bold, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, DINOT-bold, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-bold, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-bold, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-bold, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-bold, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, DINOT-bold, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, DINOT-bold, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -270,36 +270,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="DINOT-light">
                         <physical-font char-set="default">
-                                <font-face>DINOT-light, Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>DINOT-light, Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, DINOT-light, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, DINOT-light, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, DINOT-light, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-light, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-light, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, DINOT-light, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, DINOT-light, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, DINOT-light, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, DINOT-light, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -307,36 +307,36 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="sans serif">
                         <physical-font char-set="default">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face>AdobeMyungjoStd-Medium, MSMincho, Arial, Calibri,
+                                <font-face>AdobeMyungjoStd-Medium, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Calibri, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Calibri, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                         </physical-font>
@@ -345,19 +345,19 @@ See the accompanying license.txt file for applicable licenses.
 
                 <logical-font name="Serif">
                         <physical-font char-set="default">
-                                <font-face>Times, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Times, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial, Calibri,
+                                <font-face>KozGoPro-Regular-90ms-RKSJ-H, Arial, Calibri,
                                         Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
@@ -365,15 +365,15 @@ See the accompanying license.txt file for applicable licenses.
                                 <font-face>AdobeMyungjoStd-Medium</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SubmenuSymbol">
-                                <font-face>ZapfDingbats, MSMincho, Arial, Calibri, Courier,
+                                <font-face>ZapfDingbats, Arial, Calibri, Courier,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Times, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Times, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
                                 <override-size>smaller</override-size>
@@ -385,28 +385,28 @@ See the accompanying license.txt file for applicable licenses.
                                 <font-face>Courier</font-face>
                         </physical-font>
                         <physical-font char-set="Simplified Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifSC,KozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Traditional Chinese">
-                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, MSMincho, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
+                                <font-face>simsun, simsunb, SourceHanSerifTC, ozGoPro-Regular-90ms-RKSJ-H, DINOT-light, Arial, Calibri, Courier, Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Japanese">
-                                <font-face> Courier, KozGoPro-Regular-90ms-RKSJ-H, MSMincho, Arial,
+                                <font-face> Courier, KozGoPro-Regular-90ms-RKSJ-H, Arial,
                                         Calibri,Helvetica, Cambria</font-face>
                                 <override-size>smaller</override-size>
                         </physical-font>
                         <physical-font char-set="Korean">
-                                <font-face> Courier, AdobeMyungjoStd-Medium, MSMincho, Arial,
+                                <font-face> Courier, AdobeMyungjoStd-Medium, Arial,
                                         Calibri, Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="Symbols">
-                                <font-face>Courier, ZapfDingbats, MSMincho, Arial, Calibri,
+                                <font-face>Courier, ZapfDingbats, Arial, Calibri,
                                         Helvetica, Cambria</font-face>
                         </physical-font>
                         <physical-font char-set="SymbolsSuperscript">
-                                <font-face>Courier, MSMincho, Arial, Calibri, Courier, Helvetica,
+                                <font-face>Courier, Arial, Calibri, Courier, Helvetica,
                                         Cambria</font-face>
                                 <baseline-shift>20%</baseline-shift>
 

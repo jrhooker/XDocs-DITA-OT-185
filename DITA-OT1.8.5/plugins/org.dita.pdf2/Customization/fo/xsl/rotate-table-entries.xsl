@@ -266,8 +266,7 @@
                     <fo:block xsl:use-attribute-sets="p.tables">
                         <xsl:call-template name="rotate_p"/>
                         <xsl:call-template name="resize_font"/>
-                        <xsl:call-template name="commonattributes"/>
-                        <xsl:apply-templates/>
+                        <xsl:call-template name="commonattributes"/><xsl:apply-templates/>
                     </fo:block>
                 </fo:block-container>
             </xsl:otherwise>

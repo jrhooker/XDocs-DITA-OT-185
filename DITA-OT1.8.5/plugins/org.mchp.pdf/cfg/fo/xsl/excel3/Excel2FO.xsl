@@ -83,19 +83,39 @@
                 border-start-color="black" border-left-style="solid" border-left-width="thin"
                 border-left-color="#cccccc" border-right-style="solid" border-right-width="thin"
                 border-right-color="#cccccc">
-                <!--<xsl:call-template name="select.style">
-                    <xsl:with-param name="styleid">
-                        <xsl:text>Default</xsl:text>
-                    </xsl:with-param>
-                </xsl:call-template>-->
-                <xsl:for-each select="ss:Column">
+               <xsl:for-each select="ss:Column">
+                   <xsl:variable name="average-width">
+                       <xsl:choose>
+                           <xsl:when test="count(parent::*/ss:Column[@ss:Width]) &gt; 0">
+                               <xsl:value-of select="sum(parent::*/ss:Column/@ss:Width) div count(parent::*/ss:Column[@ss:Width])"/>
+                           </xsl:when>                          
+                           <xsl:otherwise>
+                               <xsl:value-of select="count(parent::*/ss:Column)"/>
+                           </xsl:otherwise>
+                       </xsl:choose>
+                   </xsl:variable> 
                     <fo:table-column>
                         <xsl:attribute name="column-width">
-                            <xsl:value-of
-                                select="concat('proportional-column-width(', @ss:Width, ')')"/>
-                        </xsl:attribute>
-                    </fo:table-column>
+                            <xsl:choose>
+                                <xsl:when test="@ss:Width">
+                                    <xsl:value-of
+                                        select="concat('proportional-column-width(', @ss:Width, ')')"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of
+                                        select="concat('proportional-column-width(', $average-width, ')')"/>
+                                </xsl:otherwise>
+                            </xsl:choose>                           
+                        </xsl:attribute>                       
+                    </fo:table-column>                  
                 </xsl:for-each>
+              
+                <xsl:if test="count(ss:Column) &lt; count(ss:Row[1]/ss:Cell[ss:NamedCell/@ss:Name='Print_Area'])">
+                    <xsl:comment><xsl:value-of select="count(ss:Column)"/>:<xsl:value-of select="count(ss:Row[ss:Cell/ss:NamedCell/@ss:Name='Print_Area'][following-sibling::ss:Row[child::ss:Cell/ss:NamedCell/@ss:Name='Print_Titles']])"/></xsl:comment> 
+                    <xsl:call-template name="create-missing-colspecs">
+                        <xsl:with-param name="number-missing" select="count(ss:Row[1]/ss:Cell[ss:NamedCell/@ss:Name='Print_Area']) - count(ss:Column)"/>
+                    </xsl:call-template>
+                </xsl:if>
                 <!-- TODO: Implement Table Header -->
                 <xsl:if test="ss:Row/ss:Cell/ss:NamedCell/@ss:Name='Print_Titles'">
                     <fo:table-header xsl:use-attribute-sets="tgroup.thead" hyphenate="true"
@@ -117,6 +137,34 @@
             </fo:table>
         </fo:block>
     </xsl:template>
+
+<xsl:template name="create-missing-colspecs">
+    <xsl:param name="number-missing" select="0"/>
+    <xsl:variable name="average-width">
+        <xsl:choose>
+            <xsl:when test="count(ss:Column[@ss:Width]) &gt; 0">
+                <xsl:value-of select="sum(ss:Column/@ss:Width) div count(ss:Column[@ss:Width])"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="100 div count(ss:Column)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable> 
+    <xsl:choose>
+        <xsl:when test="$number-missing = 0"></xsl:when>
+        <xsl:otherwise>
+            <fo:table-column>
+                <xsl:attribute name="column-width">
+                    <xsl:value-of
+                        select="concat('proportional-column-width(', $average-width, ')')"/>
+                </xsl:attribute>
+            </fo:table-column>
+            <xsl:call-template name="create-missing-colspecs">
+                <xsl:with-param name="number-missing" select="$number-missing - 1"></xsl:with-param>
+            </xsl:call-template>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
 
     <!-- Ignore Tables not set as the Print Area -->
     <xsl:template match="ss:Table" mode="excel"/>
@@ -445,11 +493,11 @@
                     select="/ss:Workbook/ss:Styles/ss:Style[@ss:ID=$style/@ss:Parent]"/>
             </xsl:call-template>
         </xsl:if>
-        <!--<xsl:if test="$style/ss:Interior[@ss:Color]">
+        <xsl:if test="$style/ss:Interior[@ss:Color]">
             <xsl:attribute name="background-color">
                 <xsl:value-of select="$style/ss:Interior/@ss:Color"/>
             </xsl:attribute>
-        </xsl:if>-->
+        </xsl:if>
         <!-- Right align numbers by default -->
         <xsl:if test="$style/ss:Font/@ss:Size &lt; 8">
             <xsl:attribute name="font-size">

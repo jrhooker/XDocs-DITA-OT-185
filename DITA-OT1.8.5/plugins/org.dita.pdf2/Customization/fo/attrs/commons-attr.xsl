@@ -190,6 +190,7 @@
         <xsl:attribute name="space-after">0em</xsl:attribute>
         <xsl:attribute name="font-size"><xsl:value-of select="$body.font.master * .8"/>pt</xsl:attribute>
         <xsl:attribute name="margin-bottom">3pt</xsl:attribute>
+        <xsl:attribute name="margin-left">0mm</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="p.tables.font">

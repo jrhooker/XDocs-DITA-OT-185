@@ -83,7 +83,6 @@
     </xsl:template>
 
     <xsl:template name="insertBodyOddHeader">
-
         <fo:static-content flow-name="odd-body-header">
             <fo:block xsl:use-attribute-sets="__body__odd__header">
                 <xsl:call-template name="insertVariable">
@@ -106,11 +105,9 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertBodyEvenHeader">
-
         <fo:static-content flow-name="even-body-header">
             <fo:block xsl:use-attribute-sets="__body__even__header">
                 <xsl:call-template name="insertVariable">
@@ -133,11 +130,9 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertBodyFirstHeader">
-
         <fo:static-content flow-name="first-body-header">
             <fo:block xsl:use-attribute-sets="__body__first__header">
                 <xsl:call-template name="insertVariable">
@@ -164,7 +159,6 @@
     </xsl:template>
 
     <xsl:template name="insertBodyFirstFooter">
-
         <fo:static-content flow-name="first-body-footer">
             <fo:block xsl:use-attribute-sets="__body__first__footer">
                 <xsl:call-template name="insertVariable">
@@ -184,7 +178,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertBodyLastHeader">
@@ -210,7 +203,6 @@
     </xsl:template>
 
     <xsl:template name="insertBodyOddFooter">
-
         <fo:static-content flow-name="odd-body-footer">
             <fo:block xsl:use-attribute-sets="__body__odd__footer">
                 <xsl:call-template name="insertVariable">
@@ -230,11 +222,9 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertBodyEvenFooter">
-
         <fo:static-content flow-name="even-body-footer">
             <fo:block xsl:use-attribute-sets="__body__even__footer">
                 <xsl:call-template name="insertVariable">
@@ -254,7 +244,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertTocOddHeader">
@@ -306,7 +295,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertTocOddFooter">
@@ -324,7 +312,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertTocEvenFooter">
@@ -342,7 +329,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertIndexOddHeader">
@@ -368,7 +354,6 @@
                 </xsl:call-template>
             </fo:block>
         </fo:static-content>
-
     </xsl:template>
 
     <xsl:template name="insertIndexEvenHeader">

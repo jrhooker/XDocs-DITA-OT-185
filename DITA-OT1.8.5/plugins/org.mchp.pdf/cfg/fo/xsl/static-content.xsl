@@ -424,6 +424,7 @@
          </fo:table>   
    </xsl:template>
 
+
    <xsl:template name="genericFooter">     
       <xsl:param name="caller">none</xsl:param>
       <xsl:if test="$SHOWBORDERS = 1">
@@ -446,9 +447,9 @@
                <xsl:attribute name="border-style">dashed</xsl:attribute>
                <xsl:attribute name="border-width">1pt</xsl:attribute>
             </xsl:if>
-            <fo:table-column column-width="7cm"/>
-            <fo:table-column column-width="2.5cm"/>
-            <fo:table-column column-width="7cm"/>
+            <fo:table-column column-width="5cm"/>
+            <fo:table-column column-width="6.5cm"/>
+            <fo:table-column column-width="5cm"/>
             <fo:table-body>
                <fo:table-row>
                   <fo:table-cell>
@@ -464,7 +465,7 @@
                         </xsl:call-template>                        
                      </fo:block>
                   </fo:table-cell>
-                  <fo:table-cell text-align="center" padding-before="3mm" padding-after="8mm">
+                  <fo:table-cell text-align="center" padding-before="2mm" padding-after="8mm">
                      <xsl:if test="$SHOWBORDERS = 1">
                         <xsl:attribute name="border-color">blue</xsl:attribute>
                         <xsl:attribute name="border-style">solid</xsl:attribute>
@@ -472,8 +473,12 @@
                      </xsl:if>    
                      <fo:block font-family="{$header.font.family}" font-size="{$footer.font.size}"
                         color="{$header.font.color}" hyphenate="false" text-align="center">                       
-                             <xsl:value-of select="//pmc_iso[1]/pmc_dev_status[1]/@dev_status"/>               
+                             <xsl:value-of select="//pmc_iso[1]/pmc_dev_status[1]/@dev_status"/>
+                        <xsl:if test="//pmc_iso[1]/pmc_footertext[1]">
+                           <xsl:text> / </xsl:text><xsl:value-of select="//pmc_iso[1]/pmc_footertext[1]"/><xsl:if test="//pmc_iso[1]/pmc_footertext[1]"/>
+                        </xsl:if>
                      </fo:block>
+                    
                   </fo:table-cell>
                   <fo:table-cell text-align="end" margin-left="0cm" space-before="0mm"
                      space-after="0mm" margin-right="0mm">

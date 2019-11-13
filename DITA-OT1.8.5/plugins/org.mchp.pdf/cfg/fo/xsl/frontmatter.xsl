@@ -1667,6 +1667,7 @@ See the accompanying license.txt file for applicable licenses.
                     <xsl:for-each select="$pmc_iso[1]/pmc_title">
                         <xsl:apply-templates select="."/>
                     </xsl:for-each>
+                    <xsl:text> </xsl:text>
                 </xsl:if>
                 <xsl:if
                     test="string-length(normalize-space($pmc_iso[1]/pmc_productnumber[1])) &gt; 1">

@@ -1663,6 +1663,11 @@ See the accompanying license.txt file for applicable licenses.
                 </xsl:call-template>
             </xsl:variable>
             <xsl:variable name="title">
+                <xsl:if test="string-length(normalize-space($pmc_iso[1]/pmc_title[1])) &gt; 1">
+                    <xsl:for-each select="$pmc_iso[1]/pmc_title">
+                        <xsl:apply-templates select="."/>
+                    </xsl:for-each>
+                </xsl:if>
                 <xsl:if
                     test="string-length(normalize-space($pmc_iso[1]/pmc_productnumber[1])) &gt; 1">
                     <xsl:for-each select="$pmc_iso[1]/pmc_productnumber">
@@ -1685,11 +1690,7 @@ See the accompanying license.txt file for applicable licenses.
                         <xsl:text> </xsl:text>
                     </xsl:for-each>
                 </xsl:if>
-                <xsl:if test="string-length(normalize-space($pmc_iso[1]/pmc_title[1])) &gt; 1">
-                    <xsl:for-each select="$pmc_iso[1]/pmc_title">
-                        <xsl:apply-templates select="."/>
-                    </xsl:for-each>
-                </xsl:if>
+              
             </xsl:variable>
 
             <fo:block text-align="left">

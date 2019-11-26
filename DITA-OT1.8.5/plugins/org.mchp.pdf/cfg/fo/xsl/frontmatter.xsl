@@ -1662,19 +1662,19 @@ See the accompanying license.txt file for applicable licenses.
                     <xsl:with-param name="theVariableID" select="'microchip_logo'"/>
                 </xsl:call-template>
             </xsl:variable>
-            <xsl:variable name="title">
-                <xsl:if test="string-length(normalize-space($pmc_iso[1]/pmc_title[1])) &gt; 1">
-                    <xsl:for-each select="$pmc_iso[1]/pmc_title">
-                        <xsl:apply-templates select="."/>
-                    </xsl:for-each>
-                    <xsl:text> </xsl:text>
-                </xsl:if>
+            <xsl:variable name="title">               
                 <xsl:if
                     test="string-length(normalize-space($pmc_iso[1]/pmc_productnumber[1])) &gt; 1">
                     <xsl:for-each select="$pmc_iso[1]/pmc_productnumber">
                         <xsl:value-of select="."/>
                         <xsl:text> </xsl:text>
                     </xsl:for-each>
+                </xsl:if>
+                <xsl:if test="string-length(normalize-space($pmc_iso[1]/pmc_title[1])) &gt; 1">
+                    <xsl:for-each select="$pmc_iso[1]/pmc_title">
+                        <xsl:apply-templates select="."/>
+                    </xsl:for-each>
+                    <xsl:text> </xsl:text>
                 </xsl:if>
                 <xsl:if test="string-length(normalize-space($pmc_iso[1]/pmc_doc_type[1])) &gt; 1">
                     <xsl:choose>

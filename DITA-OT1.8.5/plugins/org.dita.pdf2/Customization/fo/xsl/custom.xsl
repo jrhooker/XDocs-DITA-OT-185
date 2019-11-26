@@ -68,11 +68,9 @@
                             <fo:block text-align="center" margin-bottom="5mm">
                                 <fo:external-graphic src="url({concat($customizationDir.url, 'Branding/Microchip/Horizontal_logo_w_tagline.png')})" width="5cm" content-width="scale-to-fit" content-height="scale-to-fit"/>
                             </fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always" font-weight="bold">Microsemi Headquarters</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">One
-                                Enterprise, Aliso Viejo,</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">CA 92656
-                                USA</fo:block>
+                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always" font-weight="bold">Microchip Technology Inc.</fo:block>
+                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">2355 West Chandler Blvd.</fo:block>
+                            <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">Chandler, Arizona, USA 85224-6199</fo:block>
                             
                             <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always" padding-top="4mm">Within the USA: +1 (800) 713-4113 </fo:block>
                             <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">Outside the USA: +1 (949) 380-6100 </fo:block>
@@ -134,8 +132,7 @@
                                 storage and communication solutions; security technologies and
                                 scalable anti-tamper products; Ethernet solutions;
                                 Power-over-Ethernet ICs and midspans; as well as custom design
-                                capabilities and services. Microsemi is headquartered in Aliso
-                                Viejo, California, and has approximately 4,800 employees globally. Learn
+                                capabilities and services. Learn
                                 more at <fo:inline font-weight="bold">www.microsemi.com</fo:inline>.</fo:block>
                             <fo:block text-align="right" font-size="8.5pt" font-family="{$legal.font.family}">
                                 <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>

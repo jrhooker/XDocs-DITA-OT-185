@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="com.example.PCN-pdf">
+    <target name="dita2PCN-pdf.init">
+        <property name="customization.dir" location="plugins/org.mscc.PCN.pdf/cfg"/>
+    </target>
+    <target name="dita2PCN-pdf" depends="dita2PCN-pdf.init, dita2pdf2"/>
+</project>
+

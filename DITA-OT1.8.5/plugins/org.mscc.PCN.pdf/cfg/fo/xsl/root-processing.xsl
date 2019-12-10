@@ -43,7 +43,7 @@
                     <fo:table-row keep-with-next.within-column="always">
                         <fo:table-cell padding-left="0mm" padding-right="3mm" padding-top="0mm" padding-bottom="0mm" text-align="justify" vertical-align="top" number-rows-spanned="2" border-right-style="solid" border-right-color="{$title.font.color}" border-right-width=".5pt">
                             <fo:block text-align="center" margin-bottom="5mm">
-                                <fo:external-graphic src="url(xdapp:///SysConfig/Branding/Microsemi/docLogos/Horizontal_w_tagline.png)" width="5cm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+                                <fo:external-graphic src="url(xdapp:///SysConfig/Branding/Microchip/Horizontal_logo_w_tagline.png)" width="5cm" content-width="scale-to-fit" content-height="scale-to-fit"/>
                             </fo:block>
                             <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always" font-weight="bold">Microsemi Corporate Headquarters</fo:block>
                             <fo:block font-size="{$legal.font.size}" text-align="left" font-family="{$legal.font.family}" keep-together="always">One

@@ -532,7 +532,7 @@ Before rebuilding, please delete the output or the directory.</echo>
 		</antcall>
 	</target>
 	
-	<target name="xdpublish.PCNPDF" depends="init"
+	<target name="xdpublish.pcnpdf" depends="init"
 		description="Product Change Notice template.">
 		<antcall target="DOST.init">
 			<param name="args.input" value="${targetfn}"/>

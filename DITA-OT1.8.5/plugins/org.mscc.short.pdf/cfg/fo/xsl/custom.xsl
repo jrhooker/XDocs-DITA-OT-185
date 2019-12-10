@@ -64,7 +64,7 @@
                             border-right-color="{$title.font.color}" border-right-width=".5pt">
                             <fo:block text-align="center" margin-bottom="5mm">
                                 <fo:external-graphic
-                                    src="url({concat($customizationDir.url, 'Branding/Microsemi/docLogos/Horizontal_w_tagline.png')})"
+                                    src="url({concat($customizationDir.url, 'Branding/Microchip/Horizontal_logo_w_tagline.png')})"
                                     width="5cm" content-width="scale-to-fit"
                                     content-height="scale-to-fit"/>
                             </fo:block>

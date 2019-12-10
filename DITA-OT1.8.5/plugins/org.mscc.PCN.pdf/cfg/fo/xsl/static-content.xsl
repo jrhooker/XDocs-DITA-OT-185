@@ -48,9 +48,11 @@
                      <xsl:attribute name="border-width">1pt</xsl:attribute>
                   </xsl:if>
                   <fo:block>
-                     <fo:external-graphic
-                        src="url({concat($customizationDir.url, 'Branding/Microsemi/docLogos/Horizontal_w_tagline.png')})"
-                        height="9.5mm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+                     <fo:block>                     
+                        <fo:external-graphic
+                           src="url({concat($customizationDir.url, 'Branding/Microchip/Horizontal_logo_w_tagline.png')})"
+                           height="13mm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+                     </fo:block>
                   </fo:block>
                </fo:table-cell>
             </fo:table-row>
@@ -100,9 +102,11 @@
                      <xsl:attribute name="border-width">1pt</xsl:attribute>
                   </xsl:if>
                   <fo:block>
-                     <fo:external-graphic
-                        src="url({concat($customizationDir.url, 'Branding/Microsemi/docLogos/Horizontal_w_tagline.png')})"
-                        height="9.5mm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+                     <fo:block>                     
+                        <fo:external-graphic
+                           src="url({concat($customizationDir.url, 'Branding/Microchip/Horizontal_logo_w_tagline.png')})"
+                           height="13mm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+                     </fo:block>
                   </fo:block>
                </fo:table-cell>
             </fo:table-row>
@@ -370,7 +374,7 @@
       <fo:block text-align="end" margin-left="0cm" margin-right=".5cm" margin-bottom="3.5cm"
          space-before="0mm" space-after="0mm">
          <fo:external-graphic
-            src="url({concat($customizationDir.url, 'Branding/Microsemi/docLogos/Horizontal_w_tagline.png')})"
+            src="url({concat($customizationDir.url, 'Branding/Microchip/Horizontal_logo_w_tagline.png')})"
             height="2cm" content-width="scale-to-fit" content-height="scale-to-fit"/>
       </fo:block>
    </xsl:template>

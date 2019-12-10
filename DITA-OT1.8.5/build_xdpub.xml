@@ -532,6 +532,17 @@ Before rebuilding, please delete the output or the directory.</echo>
 		</antcall>
 	</target>
 	
+	<target name="xdpublish.PCNPDF" depends="init"
+		description="Product Change Notice template.">
+		<antcall target="DOST.init">
+			<param name="args.input" value="${targetfn}"/>
+			<param name="output.dir"  value="${outputdir}"/>			
+			<param name="pdf.formatter" value="xep"/> 
+			<param name="transtype" value="PCN-pdf"/>
+			<param name="topicTitle.numLevel" value="${topicTitle.numLevel}"/>
+		</antcall>
+	</target>
+	
 	<target name="xdpublish.mchppdf" depends="init"
 		description="Microchip Format PDF">
 		<antcall target="DOST.init">

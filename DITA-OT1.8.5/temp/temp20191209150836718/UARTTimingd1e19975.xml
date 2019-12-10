@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209150836718?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209150836718/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="UARTTimingd1e19975" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="topic:1;2:112">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="title:1;3:10">UART Timing</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:1;6:8">This section describes the UART TX and RX timing.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:2;8:8"><fig id="UARTTimingDiagramd1e19985" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="fig:1;8:44">
+        <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="title:2;9:16">UART Timing Diagram</title>
+
+        <image href="images/download/attachments/210393612/Peripheral_Timing_Diagrams_UART_TX_RX_V04.png" placement="break" width="400px" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="image:1;11:140"/>
+      </fig></p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:3;14:8">The following table is based on a load of 30 pF on each output with a
+    GPIO output drive strength of 3.</p>
+
+    <table id="UARTTimingCharacteristicsd1e20003" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="table:1;17:51">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="title:3;18:14">UART Timing Characteristics</title>
+
+      <tgroup cols="12" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="tgroup:1;20:25">
+        <colspec colname="col1" colwidth="167*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:1;21:50"/>
+
+        <colspec colname="col2" colwidth="140*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:2;23:50"/>
+
+        <colspec colname="col3" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:3;25:49"/>
+
+        <colspec colname="col4" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:4;27:49"/>
+
+        <colspec colname="col5" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:5;29:49"/>
+
+        <colspec colname="col6" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:6;31:49"/>
+
+        <colspec colname="col7" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:7;33:49"/>
+
+        <colspec colname="col8" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:8;35:49"/>
+
+        <colspec colname="col9" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:9;37:49"/>
+
+        <colspec colname="col10" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:10;39:50"/>
+
+        <colspec colname="col11" colwidth="68*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:11;41:50"/>
+
+        <colspec colname="col12" colwidth="81*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="colspec:12;43:50"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="thead:1;45:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:1;46:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:1;47:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:4;47:65"> Description
+            </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:2;50:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:5;50:65"> Symbol
+            </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:3;53:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:6;53:65">Min</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:4;55:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:7;55:65">Typ</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:5;57:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:8;57:65">Max</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:6;59:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:9;59:65">Min</p></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:7;61:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:10;61:65">Typ</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:8;63:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:11;63:65">Max</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:9;65:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:12;65:65">Min</p></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:10;67:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:13;67:67">Typ</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:11;69:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:14;69:67">Max</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:12;71:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:15;71:67">Units</p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="tbody:1;75:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:2;76:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:13;77:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:16;77:65">Supply
+            Range</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:14;80:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:17;80:65">VDDIO</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:15;82:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:18;82:65">Supply Range 1
+            (1.62 V–3.6 V)</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:16;85:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:19;85:65">Supply Range 2
+            (1.05 V–1.61 V)</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:17;88:63"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:20;88:66">Supply Range
+            3 (0.92 V–1.04 V)</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:18;91:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:21;91:67">V</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:3;94:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:19;95:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:22;95:65">TX fall
+            time<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:1;96:22">2</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:20;98:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:23;98:65">UART_TX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:1;98:79">F</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:21;100:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:24;100:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:22;102:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:25;102:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:23;104:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:26;104:65">15</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:24;106:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:27;106:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:25;108:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:28;108:66"/></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:26;110:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:29;110:65">30</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:27;112:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:30;112:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:28;114:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:31;114:68"/></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:29;116:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:32;116:67">40</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:30;118:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:33;118:67">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:4;121:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:31;122:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:34;122:65">TX rise
+            time<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:2;123:22">2</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:32;125:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:35;125:65">UART_TX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:2;125:79">R</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:33;127:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:36;127:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:34;129:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:37;129:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:35;131:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:38;131:65">15</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:36;133:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:39;133:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:37;135:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:40;135:66"/></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:38;137:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:41;137:65">30</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:39;139:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:42;139:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:40;141:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:43;141:68"/></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:41;143:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:44;143:67">40</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:42;145:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:45;145:67">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:5;148:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:43;149:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:46;149:65">RX fall
+            time<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:3;150:22">2</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:44;152:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:47;152:65">UART_RX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:3;152:79">F</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:45;154:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:48;154:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:46;156:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:49;156:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:47;158:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:50;158:65">5</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:48;160:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:51;160:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:49;162:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:52;162:66"/></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:50;164:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:53;164:65">10</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:51;166:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:54;166:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:52;168:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:55;168:68"/></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:53;170:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:56;170:67">20</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:54;172:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:57;172:67">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:6;175:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:55;176:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:58;176:65">RX rise
+            time<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:4;177:22">2</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:56;179:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:59;179:65">UART_RX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:4;179:79">R</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:57;181:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:60;181:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:58;183:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:61;183:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:59;185:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:62;185:65">5</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:60;187:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:63;187:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:61;189:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:64;189:66"/></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:62;191:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:65;191:65">10</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:63;193:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:66;193:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:64;195:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:67;195:68"/></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:65;197:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:68;197:67">20</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:66;199:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:69;199:67">ns</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:7;202:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:67;203:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:70;203:65">TX bit period
+            at 57600 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:5;204:31">1,3</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:68;206:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:71;206:65">UART_TX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:5;206:79">BP1</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:69;208:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:72;208:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:70;210:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:73;210:65">17.4</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:71;212:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:74;212:66"/></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:72;214:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:75;214:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:73;216:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:76;216:65">17.4</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:74;218:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:77;218:66"/></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:75;220:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:78;220:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:76;222:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:79;222:67">17.4</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:77;224:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:80;224:68"/></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:78;226:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:81;226:67">µs</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:8;229:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:79;230:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:82;230:65">TX bit period
+            at 115200 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:6;231:32">1,3</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:80;233:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:83;233:65">UART_TX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:6;233:79">BP2</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:81;235:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:84;235:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:82;237:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:85;237:65">8.68</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:83;239:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:86;239:66"/></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:84;241:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:87;241:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:85;243:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:88;243:65">8.68</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:86;245:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:89;245:66"/></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:87;247:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:90;247:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:88;249:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:91;249:67">8.68</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:89;251:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:92;251:68"/></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:90;253:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:93;253:67">µs</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:9;256:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:91;257:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:94;257:65">TX bit period
+            at 921600 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:7;258:32">1,3</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:92;260:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:95;260:65">UART_TX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:7;260:79">BP3</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:93;262:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:96;262:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:94;264:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:97;264:65">1.08</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:95;266:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:98;266:66"/></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:96;268:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:99;268:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:97;270:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:100;270:65">1.08</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:98;272:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:101;272:66"/></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:99;274:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:102;274:66"/></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:100;276:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:103;276:67">1.08</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:101;278:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:104;278:68"/></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:102;280:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:105;280:67">µs</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:10;283:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:103;284:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:106;284:65">RX bit period
+            at 57600 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:8;285:31">1,4</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:104;287:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:107;287:65">UART_RX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:8;287:79">BP1</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:105;289:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:108;289:65">17.0</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:106;291:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:109;291:65">17.4</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:107;293:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:110;293:65">17.7</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:108;295:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:111;295:65">17.0</p></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:109;297:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:112;297:65">17.4</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:110;299:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:113;299:65">17.7</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:111;301:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:114;301:65">17.0</p></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:112;303:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:115;303:67">17.4</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:113;305:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:116;305:67">17.7</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:114;307:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:117;307:67">µs</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:11;310:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:115;311:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:118;311:65">RX bit period
+            at 115200 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:9;312:32">1,4</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:116;314:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:119;314:65">UART_RX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:9;314:79">BP2</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:117;316:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:120;316:65">8.5</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:118;318:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:121;318:65">8.7</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:119;320:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:122;320:65">8.9</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:120;322:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:123;322:65">8.5</p></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:121;324:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:124;324:65">8.7</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:122;326:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:125;326:65">8.9</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:123;328:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:126;328:65">8.5</p></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:124;330:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:127;330:67">8.7</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:125;332:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:128;332:67">8.9</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:126;334:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:129;334:67">µs</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="row:12;337:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:127;338:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:130;338:65">RX bit period
+            at 921600 baud<sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sup:10;339:32">1,4</sup> </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:128;341:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:131;341:65">UART_RX_t<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="sub:10;341:79">BP3</sub> </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:129;343:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:132;343:65">1.06</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:130;345:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:133;345:65">1.09</p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:131;347:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:134;347:65">1.12</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:132;349:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:135;349:65">1.06</p></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:133;351:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:136;351:65">1.09</p></entry>
+
+            <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:134;353:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:137;353:65">1.11</p></entry>
+
+            <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:135;355:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:138;355:65">1.06</p></entry>
+
+            <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:136;357:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:139;357:67">1.09</p></entry>
+
+            <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:137;359:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:140;359:67">1.11</p></entry>
+
+            <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="entry:138;361:64"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:141;361:67">µs</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="ol:1;367:9">
+      <li id="d1e21001" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="li:1;368:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:142;368:28">Time measured between 50% and 50%.</p></li>
+
+      <li id="d1e21010" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="li:2;370:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:143;370:28">Time measured from 10% to 90%</p></li>
+
+      <li id="d1e21016" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="li:3;372:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:144;372:28">Bit period varies by only ±50 ppm</p></li>
+
+      <li id="d1e21022" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="li:4;374:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:145;374:28">Bit period can vary by up to ±2%</p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:146;377:9"/>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:147;379:9"/>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:148;381:9"/>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:149;383:9"/>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\UARTTimingd1e19975.xml" xtrc="p:150;385:9"/>
+  </body>
+</topic>

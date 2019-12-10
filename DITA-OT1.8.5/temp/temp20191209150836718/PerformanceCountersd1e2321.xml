@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209150836718?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209150836718/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="PerformanceCountersd1e2321" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="topic:1;2:120">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="title:1;3:11">Performance Counters</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="body:1;4:10">
+         
+
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:1;7:13">The ARC-EM11D core includes a performance-monitoring system that enables rapid optimization of the ARC-based systems. The performance-monitoring system helps to improve optimization techniques and can be used for the following:</p>
+         <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="ul:1;8:14">
+            <li id="d1e2331" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:1;9:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:2;10:19">Hot-spot analysis: Locates the functions and instructions consuming the most CPU time.</p>
+            </li>
+            <li id="d1e2337" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:2;12:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:3;13:19">Hardware-assisted statistical code profiling: Provides visibility of instruction-execution frequencies. The system can also capture micro-architecture detail, revealing the average time taken for each instruction and allowing root causes of instruction stalls and pipeline flushes to be identified. The performance monitor collects data from unmodified code with minimal impact on system performance.</p>
+            </li>
+            <li id="d1e2343" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:3;15:30">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:4;16:19">Instruction flow metrics: Identify patterns of behavior common to the whole system. An insight into the behavior of the system as a whole can be gained without requiring knowledge of any individual program block. System-level metrics are calculated from hardware counts of instruction and pipeline events. Example metrics include the following:</p>
+               <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="ul:2;17:20">
+                  <li id="d1e2350" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:4;18:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:5;19:25">Instructions per clock (IPC)</p>
+                  </li>
+                  <li id="d1e2356" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:5;21:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:6;22:25">Cache-miss rates</p>
+                  </li>
+                  <li id="d1e2362" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:6;24:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:7;25:25">Branch-prediction accuracy</p>
+                  </li>
+                  <li id="d1e2368" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:7;27:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:8;28:25">Average load-use penalty</p>
+                  </li>
+                  <li id="d1e2374" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:8;30:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:9;31:25">Breakdown of stall causes</p>
+                  </li>
+                  <li id="d1e2381" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:9;33:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:10;34:25">Instruction mix (LD, ST, branch, and so on)</p>
+                  </li>
+                  <li id="d1e2387" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:10;36:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:11;37:25">Instruction size (16 bits or 32 bits)</p>
+                  </li>
+                  <li id="d1e2393" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:11;39:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:12;40:25">Average function size</p>
+                  </li>
+                  <li id="d1e2399" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:12;42:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:13;43:25">Average instructions between branches</p>
+                  </li>
+                  <li id="d1e2405" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:13;45:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:14;46:25">Time spent in interrupt or exception handlers</p>
+                  </li>
+                  <li id="d1e2411" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="li:14;48:36">
+                     <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:15;49:25">Measurements of minimum, maximum, and average response times</p>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\PerformanceCountersd1e2321.xml" xtrc="p:16;54:13">Analysis of metrics can highlight techniques for improvement in the program code, compiler configuration, memory-subsystem design, and CPU configuration.</p>
+         
+   </body>
+</topic>

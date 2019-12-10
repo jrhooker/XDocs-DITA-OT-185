@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project name="com.example.PCN-pdf">
+    <!--this one-->
     <target name="dita2PCN-pdf.init">
         <property name="customization.dir" location="plugins/org.mscc.PCN.pdf/cfg"/>
     </target>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209150836718?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209150836718/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="ExternalComponentsd1e1502" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="topic:1;2:119">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="title:1;3:11">External Components</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="body:1;4:10">
+         
+
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:1;7:13">The following table describes the external components recommended for the HB20 device.</p>
+         <table id="ExternalComponentsd1e1510" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="table:1;8:48">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="title:2;9:17">External Components</title>
+            
+            <tgroup cols="3" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="tgroup:1;11:30">
+            
+            
+               <colspec colname="col1" colnum="1" colwidth="13%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="colspec:1;14:67"/>
+               <colspec colname="col2" colnum="2" colwidth="9%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="colspec:2;15:66"/>
+               <colspec colname="col3" colnum="3" colwidth="76%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="colspec:3;16:67"/>
+            
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="thead:1;18:23">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:1;19:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:1;20:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:2;21:28">
+                           Component
+                        </p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:2;25:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:3;26:28">
+                           Quantity
+                        </p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:3;30:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:4;31:28">
+                           Description
+                           <sup class="+ topic/ph hi-d/sup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="sup:1;33:33">1</sup>
+                        </p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="tbody:1;38:23">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:2;39:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:4;40:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:5;41:28">C1</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:5;43:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:6;44:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:6;46:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:7;47:28">CAP, SMT, 10 µF, ±10%, low ESR, low leakage (Murata X5R 0402)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:3;50:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:7;51:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:8;52:28">C2, C3</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:8;54:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:9;55:28">2</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:9;57:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:10;58:28">CAP, SMT, 68 nF, 0402, X5R, ±10%, low ESR</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:4;61:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:10;62:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:11;63:28">C4</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:11;65:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:12;66:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:12;68:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:13;69:28">CAP, SMT, 10 nF, 0402, X5R, ±10%, only needed if high-fidelity ADCs are used</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:5;72:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:13;73:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:14;74:28">C5, C10, C11</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:14;76:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:15;77:28">1 or 3</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:15;79:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:16;80:28">CAP, SMT, 1.0 µF, 0402, X5R, ±10%</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:6;83:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:16;84:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:17;85:28">C6</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:17;87:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:18;88:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:18;90:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:19;91:28">CAP, SMT, 0.1 µF, 0402, X5R, ±10%</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:7;94:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:19;95:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:20;96:28">C7</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:20;98:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:21;99:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:21;101:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:22;102:28">CAP, SMT, 27 pF, 0402, NPO/COG, ±10%</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:8;105:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:22;106:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:23;107:28">C8</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:23;109:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:24;110:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:24;112:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:25;113:28">CAP, SMT, 0.5 pF, 0402, NPO/COG, ±10% (optional)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:9;116:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:25;117:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:26;118:28">C9</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:26;120:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:27;121:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:27;123:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:28;124:28">CAP, SMT, 1 pF, 0402, NPO/COG, ±10% (optional)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:10;127:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:28;128:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:29;129:28">C12, C13</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:29;131:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:30;132:28">2</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:30;134:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:31;135:28">CAP, SMT, 4.7 pF, 0402, NPO/COG, ±10% (optional)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:11;138:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:31;139:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:32;140:28">L1</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:32;142:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:33;143:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:33;145:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:34;146:28">IND, SMT, 10 µH, shielded (Coilcraft XFL2006-103MEB),
+±20%, 2.0 mm × 1.9 mm × 0.6 mm</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:12;150:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:34;151:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:35;152:28">L2</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:35;154:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:36;155:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:36;157:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:37;158:28">IND, SMT, 2.7 nH, high-Q, 0402 (optional)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:13;161:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:37;162:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:38;163:28">Y1</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:38;165:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:39;166:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:39;168:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:40;169:28">XTAL, 32 MHz, SMT, 6 pF load, 1.2 mm × 1.0 mm
+(Kyocera CX1210SB32000B0FPJC1 custom crystal)</p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="row:14;173:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:40;174:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:41;175:28">Y2</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:41;177:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:42;178:28">1</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="entry:42;180:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:43;181:28">XTAL, 32.768 kHz, SMT, 6 pF load, 1.2 mm × 2.0 mm
+(Kyocera ST2012SB32768B0HPWB4 custom crystal) (optional)</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="ol:1;188:14">
+         <li id="d1e1847" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="li:1;189:27">
+               <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:44;190:19">Capacitor (CAP). Surface-mount technology (SMT). Equivalent series resistance (ESR). Inductor (IND).</p>
+            </li>
+      </ol>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:45;193:14"/>
+         
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\ExternalComponentsd1e1502.xml" xtrc="p:46;195:11"/>
+      </body>
+</topic>

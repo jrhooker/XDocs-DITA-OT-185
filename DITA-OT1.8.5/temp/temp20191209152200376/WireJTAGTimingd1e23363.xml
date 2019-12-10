@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209152200376?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209152200376/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="WireJTAGTimingd1e23363" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="topic:1;2:116">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="title:1;3:11">2-Wire JTAG Timing</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="body:1;4:10">
+         
+
+         <p otherprops="align-left " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:1;7:38">This section describes the 2-Wire JTAG timing.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:2;8:13">
+            <fig id="WireJTAGTimingDiagramd1e23373" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="fig:1;9:53">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="title:2;10:20">2-Wire JTAG Timing Diagram</title>
+               
+               
+                  
+                     <image placement="break" width="500px" href="images/download/attachments/215520976/Peripheral_Timing_Diagrams_2-Wire_JTAG_Simple_V02.png" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="image:1;14:161"/>
+                  
+               
+            </fig>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:3;19:13">The following table is based on a load of 30 pF on each output with a GPIO output drive strength of 3 and a 100 kΩ pull-up on TMS/TDI/TDO and a 100 kΩ pull-down on TCK.</p>
+         <table id="WireJTAGTimingCharacteristicsd1e23391" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="table:1;20:60">
+         <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="title:3;21:17">2-Wire JTAG Timing Characteristics</title>
+            
+            <tgroup cols="12" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="tgroup:1;23:31">
+            
+            
+               <colspec colname="col1" colnum="1" colwidth="17%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:1;26:67"/>
+               <colspec colname="col2" colnum="2" colwidth="13%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:2;27:67"/>
+               <colspec colname="col3" colnum="3" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:3;28:66"/>
+               <colspec colname="col4" colnum="4" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:4;29:66"/>
+               <colspec colname="col5" colnum="5" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:5;30:66"/>
+               <colspec colname="col6" colnum="6" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:6;31:66"/>
+               <colspec colname="col7" colnum="7" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:7;32:66"/>
+               <colspec colname="col8" colnum="8" colwidth="7%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:8;33:66"/>
+               <colspec colname="col9" colnum="9" colwidth="6%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:9;34:66"/>
+               <colspec colname="col10" colnum="10" colwidth="7%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:10;35:68"/>
+               <colspec colname="col11" colnum="11" colwidth="7%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:11;36:68"/>
+               <colspec colname="col12" colnum="12" colwidth="8%" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="colspec:12;37:68"/>
+            
+               <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="thead:1;39:23">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="row:1;40:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:1;41:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:4;42:28">
+                           Description
+                        </p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:2;46:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:5;47:28">
+                           Symbol
+                        </p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:3;51:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:6;52:28">Min</p>
+                     </entry>
+                     <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:4;54:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:7;55:28">Typ</p>
+                     </entry>
+                     <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:5;57:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:8;58:28">Max</p>
+                     </entry>
+                     <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:6;60:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:9;61:28">Min</p>
+                     </entry>
+                     <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:7;63:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:10;64:28">Typ</p>
+                     </entry>
+                     <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:8;66:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:11;67:28">Max</p>
+                     </entry>
+                     <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:9;69:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:12;70:28">Min</p>
+                     </entry>
+                     <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:10;72:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:13;73:28">Typ</p>
+                     </entry>
+                     <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:11;75:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:14;76:28">Max</p>
+                     </entry>
+                     <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:12;78:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:15;79:28">Units</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="tbody:1;83:23">
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="row:2;84:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:13;85:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:16;86:28">Supply Range</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:14;88:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:17;89:28">VDDIO</p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:15;91:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:18;92:28">
+                           <i otherprops="strong" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="i:1;93:51">Supply Range 1 
+(1.62 V – 3.6 V)</i>
+                        </p>
+                     </entry>
+                     <entry colname="col6" namest="col6" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:16;97:71">
+                        <p otherprops="align-center " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:19;98:55">
+                           <i otherprops="strong" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="i:2;99:51">Supply Range 2
+(1.05 V – 1.61 V)</i>
+                        </p>
+                     </entry>
+                     <entry colname="col9" namest="col9" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:17;103:72">
+                        <p otherprops="align-center " class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:20;104:55">
+                           <i otherprops="strong" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="i:3;105:51">Supply Range 3
+(0.92 V – 1.04 V)</i>
+                        </p>
+                     </entry>
+                     <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:18;109:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:21;110:28">
+                           <i otherprops="strong" class="+ topic/ph hi-d/i " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="i:4;111:51">V</i>
+                        </p>
+                     </entry>
+                  </row>
+                  <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="row:3;115:24">
+                     <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:19;116:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:22;117:28">Clock rate</p>
+                     </entry>
+                     <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:20;119:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:23;120:28">JTAG-2W_f<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="sub:1;120:42">CK</sub>
+                        </p>
+                     </entry>
+                     <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:21;123:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:24;124:29"/>
+                     </entry>
+                     <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:22;126:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:25;127:29"/>
+                     </entry>
+                     <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:23;129:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:26;130:28">4</p>
+                     </entry>
+                     <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:24;132:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:27;133:29"/>
+                     </entry>
+                     <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:25;135:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:28;136:29"/>
+                     </entry>
+                     <entry colname="col8" namest="col8" nameend="col8" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:26;138:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:29;139:28">2</p>
+                     </entry>
+                     <entry colname="col9" namest="col9" nameend="col9" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:27;141:71">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:30;142:29"/>
+                     </entry>
+                     <entry colname="col10" namest="col10" nameend="col10" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:28;144:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:31;145:29"/>
+                     </entry>
+                     <entry colname="col11" namest="col11" nameend="col11" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:29;147:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:32;148:28">1</p>
+                     </entry>
+                     <entry colname="col12" namest="col12" nameend="col12" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="entry:30;150:73">
+                        <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:33;151:28">MHz</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\WireJTAGTimingd1e23363.xml" xtrc="p:34;157:14"/>
+         
+   </body>
+</topic>

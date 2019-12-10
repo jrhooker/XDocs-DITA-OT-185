@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209152200376?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209152200376/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="InterICSoundISMasterSlaved1e2675" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="topic:1;2:126">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="title:1;3:11">Inter-IC Sound (I2S) Master/Slave</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="body:1;4:10">
+            
+
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:1;7:16">The I2S master/slave are two separate blocks. The I2S master drives serial clock (sclk) and word select (ws) out while the I2S slave receives both. The I2S bus is a simple three-wire serial bus protocol developed by Philips to transfer stereo audio data. The bus handles only the transfer of audio data; hence, control and subcoding signals need to be transferred separately using a different bus protocol (such as I2C).</p>
+            <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:2;8:16">The I2S blocks have the following features:</p>
+            <ul class="- topic/ul " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="ul:1;9:17">
+               <li id="d1e2688" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:1;10:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:3;11:22">I2S transmitter and/or receiver based on the Philips I2S serial protocol</p>
+               </li>
+               <li id="d1e2694" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:2;13:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:4;14:22">Configurable number of stereo channels (up to four) for both transmitter and receiver</p>
+               </li>
+               <li id="d1e2700" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:3;16:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:5;17:22">Full-duplex communication due to the independence of transmitter and receiver</p>
+               </li>
+               <li id="d1e2706" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:4;19:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:6;20:22">Asynchronous clocking of Advanced Peripheral Bus (APB) and I2S sclk</p>
+               </li>
+               <li id="d1e2712" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:5;22:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:7;23:22">Sample rates of 16, 24, 32, 44.1, 48, and 96 ksps supported</p>
+               </li>
+               <li id="d1e2719" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:6;25:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:8;26:22">Audio data resolutions of 12, 16, 20, 24, and 32 bits</p>
+               </li>
+               <li id="d1e2725" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:7;28:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:9;29:22">I2S clock rates of up to 6.144 MHz supported (32-bit left and right channels at 96 ksps)</p>
+               </li>
+               <li id="d1e2731" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:8;31:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:10;32:22">External sclk gating and enable signals</p>
+               </li>
+               <li id="d1e2737" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:9;34:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:11;35:22">First-in, first-out (FIFO) depth of eight words</p>
+               </li>
+               <li id="d1e2743" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:10;37:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:12;38:22">Configurable support for programmable DMA registers</p>
+               </li>
+               <li id="d1e2749" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:11;40:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:13;41:22">Programmable FIFO thresholds</p>
+               </li>
+               <li id="d1e2756" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="li:12;43:33">
+                  <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\InterICSoundISMasterSlaved1e2675.xml" xtrc="p:14;44:22">Master/slave operation
+
+                  </p>
+               </li>
+            </ul>
+         </body>
+</topic>

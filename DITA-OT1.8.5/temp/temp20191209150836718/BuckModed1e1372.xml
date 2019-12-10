@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209150836718?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209150836718/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="BuckModed1e1372" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="topic:1;2:109">
+   <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="title:1;3:11">Buck Mode</title>
+   <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="body:1;4:10">
+         
+
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:1;7:13">For battery voltages above 1.8 V and VDDIO voltages above 1.62 V, the buck mode may be implemented using the standard HB20 device HB_WS (HB20 wide-supply version).</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:2;8:13">
+            <fig id="HB_WSBuckModeImplementationd1e1382" class="- topic/fig " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="fig:1;9:58">
+            <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="title:2;10:20">HB_WS Buck Mode Implementation </title>
+               
+               
+                  
+                     <image placement="break" href="images/download/attachments/194478017/Data_Sheet_Extra_Diagrams_WS_Buck_BD.png" class="- topic/image " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="image:1;14:134"/>
+                  
+               
+            </fig>
+         </p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:3;19:13">For more information on the harmonic filter, see <xref href="ElectricalSpecificationsd1e3187.xml#ElectricalSpecificationsd1e3187/RFTXPerformanceCharacteristicsd1e5653" class="- topic/xref " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="xref:1;19:181" type="table"><?ditaot usertext?>RF TX Performance Characteristics</xref>.</p>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:4;20:14"/>
+         
+      <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:5;22:11"/>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:6;23:14"/>
+         <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\BuckModed1e1372.xml" xtrc="p:7;24:14"/>
+      </body>
+</topic>

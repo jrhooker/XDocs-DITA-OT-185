@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\temp\temp20191209150836718?><?workdir-uri file:/C:/Git/XDocs-DITA-OT-185/XDocs-DITA-OT-185/XDocs-DITA-OT-185/DITA-OT1.8.5/temp/temp20191209150836718/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="SystemDeepSleepModeCurrentConsumptiond1e13213" xml:lang="en-US" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic struct-d)                            (topic firmware-d)                            (topic pmcrevhis-d)                            a(props  pcie-lanes)                            a(props  sp-version)                            a(props  pmc_switch)                            a(props   pmc_package)                            a(props   pmc_phy)                            a(props   ddr-width)                            a(props   package)                            a(props   fw_package)                            a(props   pcie-drive-ports )                            a(props   pcie-host-ports)                            a(props   raid-support )                            a(props   sas-ports )                              a(props   revision )                            a(props   media)                            a(props   component)   " class="- topic/topic " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="topic:1;2:139">
+  <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="title:1;3:10">System Deep-Sleep Mode Current Consumption</title>
+
+  <body class="- topic/body " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="body:1;5:9">
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:1;6:8">System deep-sleep mode is used by the HB20 device to save power between
+    advertising events. In deep-sleep mode, the core LDOs and retention RAM
+    are powered off while the registers in the always-on section are left
+    powered up. Up to 25 bytes of always-on registers are available for use
+    during deep-sleep mode. A low-power RC oscillator/crystal oscillator or
+    external oscillator may be used to wake up the HB20 device for advertising
+    events. The HB20 device may also be woken up from deep sleep by toggling
+    the wake-up enable pin (WUP_EN) without the need for internal clocks
+    running.</p>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:2;16:8">Total current consumption is measured on VBATT and VDDIO.</p>
+
+    <table id="SystemDeepSleepModeCurrentConsumptionCharacteristicsd1e13224" class="- topic/table " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="table:1;18:78">
+      <title class="- topic/title " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="title:2;19:14">System Deep-Sleep Mode Current Consumption
+      Characteristics</title>
+
+      <tgroup cols="7" class="- topic/tgroup " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="tgroup:1;22:24">
+        <colspec colname="col1" colwidth="252*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:1;23:50"/>
+
+        <colspec colname="col2" colwidth="215*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:2;25:50"/>
+
+        <colspec colname="col3" colwidth="149*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:3;27:50"/>
+
+        <colspec colname="col4" colwidth="90*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:4;29:49"/>
+
+        <colspec colname="col5" colwidth="101*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:5;31:50"/>
+
+        <colspec colname="col6" colwidth="85*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:6;33:49"/>
+
+        <colspec colname="col7" colwidth="108*" class="- topic/colspec " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="colspec:7;35:50"/>
+
+        <thead class="- topic/thead " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="thead:1;37:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:1;38:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:1;39:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:3;39:65"> Description
+            </p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:2;42:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:4;42:65"> Symbol
+            </p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:3;45:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:5;45:65"> Conditions
+            </p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:4;48:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:6;48:65"> Min
+            </p></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:5;51:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:7;51:65"> Typ
+            </p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:6;54:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:8;54:65"> Max
+            </p></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:7;57:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:9;57:65"> Units
+            </p></entry>
+          </row>
+        </thead>
+
+        <tbody class="- topic/tbody " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="tbody:1;62:16">
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:2;63:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:8;64:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:10;64:65">Deep sleep
+            with internal 32.768 kHz RCO and timer and WS device buck
+            mode</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:9;68:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:11;68:65">WSB_DSleep_IDD_In32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:10;70:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:12;70:65">Note
+            1</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:11;73:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:13;73:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:12;75:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:14;75:65">280</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:13;77:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:15;77:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:14;79:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:16;79:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:3;82:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:15;83:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:17;83:65">Deep sleep
+            with external 32.768 kHz clock and timer and WS device buck
+            mode</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:16;87:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:18;87:65">WSB_DSleep_IDD_Ex32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:17;89:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:19;89:65">Note
+            1</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:18;92:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:20;92:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:19;94:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:21;94:65">185</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:20;96:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:22;96:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:21;98:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:23;98:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:4;101:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:22;102:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:24;102:65">Deep sleep
+            with internal 32.768 kHz crystal oscillator and timer and WS
+            device buck mode</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:23;106:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:25;106:65">WSB_DSleep_IDD_XO32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:24;108:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:26;108:65">Note
+            1</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:25;111:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:27;111:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:26;113:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:28;113:65">360</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:27;115:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:29;115:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:28;117:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:30;117:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:5;120:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:29;121:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:31;121:65">Deep sleep
+            mode with no clocks running (wake up through WUP_EN pin) and WS
+            device buck mode</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:30;125:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:32;125:65">WSB_DSleep_IDD_NoClock</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:31;127:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:33;127:65">Note
+            1</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:32;130:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:34;130:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:33;132:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:35;132:65">48</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:34;134:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:36;134:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:35;136:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:37;136:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:6;139:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:36;140:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:38;140:65">Deep sleep
+            with internal 32.768 kHz RCO and timer and LS device</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:37;143:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:39;143:65">LS_DSleep_IDD_In32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:38;145:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:40;145:65">Note
+            2</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:39;148:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:41;148:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:40;150:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:42;150:65">182</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:41;152:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:43;152:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:42;154:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:44;154:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:7;157:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:43;158:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:45;158:65">Deep sleep
+            with external 32.768 kHz clock and timer and LS device</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:44;161:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:46;161:65">LS_DSleep_IDD_Ex32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:45;163:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:47;163:65">Note
+            2</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:46;166:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:48;166:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:47;168:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:49;168:65">70</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:48;170:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:50;170:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:49;172:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:51;172:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:8;175:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:50;176:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:52;176:65">Deep sleep
+            with internal 32.768 kHz crystal oscillator and timer and LS
+            device</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:51;180:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:53;180:65">LS_DSleep_IDD_XO32K</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:52;182:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:54;182:65">Note
+            2</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:53;185:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:55;185:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:54;187:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:56;187:65">230</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:55;189:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:57;189:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:56;191:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:58;191:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:9;194:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:57;195:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:59;195:65">Deep sleep
+            mode with no clocks running (wake up through WUP_EN pin) and LS
+            device</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:58;199:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:60;199:65">LS_DSleep_IDD_NoClock</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:59;201:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:61;201:65">Note
+            2</p></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:60;204:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:62;204:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:61;206:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:63;206:65">23</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:62;208:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:64;208:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:63;210:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:65;210:65">nA</p></entry>
+          </row>
+
+          <row class="- topic/row " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="row:10;213:16">
+            <entry colname="col1" namest="col1" nameend="col1" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:64;214:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:66;214:65">Number of
+            always-on memory bytes available</p></entry>
+
+            <entry colname="col2" namest="col2" nameend="col2" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:65;217:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:67;217:65">DSleep_N_Bytes</p></entry>
+
+            <entry colname="col3" namest="col3" nameend="col3" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:66;219:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:68;219:66"/></entry>
+
+            <entry colname="col4" namest="col4" nameend="col4" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:67;221:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:69;221:66"/></entry>
+
+            <entry colname="col5" namest="col5" nameend="col5" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:68;223:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:70;223:65">25</p></entry>
+
+            <entry colname="col6" namest="col6" nameend="col6" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:69;225:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:71;225:66"/></entry>
+
+            <entry colname="col7" namest="col7" nameend="col7" morerows="0" class="- topic/entry " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="entry:70;227:62"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:72;227:65">bytes</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <ol class="- topic/ol " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="ol:1;233:9">
+      <li id="d1e13719" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="li:1;234:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:73;234:28">Cores powered down, VBATT = 3.0 V, VDDIO = 1.8 V,
+      WS device with buck mode and current measured on I<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="sub:1;235:62">VBATT</sub> +
+      I<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="sub:2;236:13">VDDIO.</sub> </p></li>
+
+      <li id="d1e13731" class="- topic/li " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="li:2;238:25"><p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:74;238:28">Cores powered down, VBATT = 1.2 V, VDDIO = 1.2 V,
+      LS device and current measured on I<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="sub:3;239:47">VBATT</sub> + I<sub class="+ topic/ph hi-d/sub " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="sub:4;239:67">VDDIO.</sub>
+      </p></li>
+    </ol>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:75;243:9"/>
+
+    <p class="- topic/p " xtrf="C:\Git\XDocs-DITA-OT-185\XDocs-DITA-OT-185\XDocs-DITA-OT-185\DITA-OT1.8.5\samples\HB20Datasheet\SystemDeepSleepModeCurrentConsumptiond1e13213.xml" xtrc="p:76;245:9"/>
+  </body>
+</topic>

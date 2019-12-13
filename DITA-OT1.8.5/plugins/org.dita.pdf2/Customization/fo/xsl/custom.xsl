@@ -90,7 +90,7 @@
                                 AZ</fo:block>
                             <fo:block font-size="{$legal.font.size}" text-align="left"
                                 font-family="{$legal.font.family}" keep-together="always">Chandler,
-                                85224 USA </fo:block>
+                                AZ 85224 USA </fo:block>
 
                             <fo:block font-size="{$legal.font.size}" text-align="left"
                                 font-family="{$legal.font.family}" keep-together="always"
@@ -98,21 +98,7 @@
                             <fo:block font-size="{$legal.font.size}" text-align="left"
                                 font-family="{$legal.font.family}" keep-together="always">Fax: +1
                                 (480) 792-7277</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left"
-                                font-family="{$legal.font.family}" keep-together="always">Sales: +1
-                                (949) 380-6136</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left"
-                                font-family="{$legal.font.family}" keep-together="always">Fax: +1
-                                (949) 215-4996</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left"
-                                font-family="{$legal.font.family}" keep-together="always">Email:
-                                    <fo:inline color="{$title.font.color}"
-                                    >sales.support@microsemi.com</fo:inline></fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left"
-                                font-family="{$legal.font.family}" keep-together="always">
-                                <fo:inline color="{$title.font.color}">www.microsemi.com</fo:inline>
-                            </fo:block>
-
+                            
                             <fo:block space-before.optimum="1em" space-before.minimum="0.8em"
                                 space-before.maximum="1.2em" font-size="8pt"
                                 font-family="{$legal.font.family}">

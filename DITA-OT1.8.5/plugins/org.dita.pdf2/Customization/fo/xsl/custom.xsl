@@ -84,10 +84,7 @@
                                 font-weight="bold">Microsemi</fo:block>
                             <fo:block font-size="{$legal.font.size}" text-align="left"
                                 font-family="{$legal.font.family}" keep-together="always">2355 W.
-                                Chandler Blvd.</fo:block>
-                            <fo:block font-size="{$legal.font.size}" text-align="left"
-                                font-family="{$legal.font.family}" keep-together="always">Chandler,
-                                AZ</fo:block>
+                                Chandler Blvd.</fo:block>                           
                             <fo:block font-size="{$legal.font.size}" text-align="left"
                                 font-family="{$legal.font.family}" keep-together="always">Chandler,
                                 AZ 85224 USA </fo:block>

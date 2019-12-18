@@ -47,7 +47,7 @@
 
     <xsl:template name="createLegal">
         <fo:block xmlns:fo="http://www.w3.org/1999/XSL/Format" margin-top="11.5cm"
-            margin-left="-2.5cm" space-before.optimum="1em" space-before.maximum="2em"
+            margin-left="-0.5cm" space-before.optimum="1em" space-before.maximum="2em"
             space-after.minimum="0.5em" space-after.optimum="1em" space-after.maximum="2em"
             keep-together.within-column="always" break-before="page" hyphenate="false">
             
@@ -149,10 +149,10 @@
                                 defense, communications and computing markets. Headquartered in
                                 Chandler, Arizona, the company offers outstanding technical support
                                 along with dependable delivery and quality. Learn more at <fo:inline
-                                    font-weight="bold">www.microsemi.com</fo:inline>.</fo:block>
+                                    font-weight="bold">www.microsemi.com</fo:inline>.</fo:block>                           
                             <fo:block text-align="right" font-size="8.5pt"
                                 font-family="{$legal.font.family}">
-                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>
+                                MSC-F-0004 Rev 6
                             </fo:block>
                             
                             <!--<xsl:choose>

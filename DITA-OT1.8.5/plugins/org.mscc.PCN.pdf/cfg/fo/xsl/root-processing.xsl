@@ -157,7 +157,7 @@
                                     font-weight="bold">www.microsemi.com</fo:inline>.</fo:block>
                             <fo:block text-align="right" font-size="8.5pt"
                                 font-family="{$legal.font.family}">
-                                <xsl:value-of select="$pmc_iso[1]/pmc_document_id[1]"/>
+                                MSC-F-0004 Rev 6
                             </fo:block>
                             
                             <!--<xsl:choose>

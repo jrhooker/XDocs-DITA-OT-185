@@ -103,6 +103,7 @@
 		-->
     
 		<public publicId="-//OASIS//DTD DITA Concept//EN" uri="concept.dtd" xml:base="dtd/technicalContent/dtd/"></public>
+  <public publicId="-//OASIS//DTD DITA 1.1 Concept//EN" xml:base="dtd/technicalContent/dtd/" uri="concept.dtd"/>
 		<public publicId="-//OASIS//DTD DITA 1.x Concept//EN" uri="concept.dtd" xml:base="dtd/technicalContent/dtd/"></public>
 		<public publicId="-//OASIS//DTD DITA 1.2 Concept//EN" uri="concept.dtd" xml:base="dtd/technicalContent/dtd/"></public>
 		<public publicId="-//OASIS//ELEMENTS DITA Concept//EN" uri="concept.mod" xml:base="dtd/technicalContent/dtd/"></public>
@@ -1309,7 +1310,7 @@
 	<!-- DITA 1.1 DTDs -->
 	<!-- For backward compatibility -->
 	
-<public publicId="-//OASIS//DTD DITA 1.1 Concept//EN" xml:base="plugins/org.dita.specialization.dita11/dtd/" uri="concept.dtd"/>
+<!--<public publicId="-//OASIS//DTD DITA 1.1 Concept//EN" xml:base="plugins/org.dita.specialization.dita11/dtd/" uri="concept.dtd"/>-->
 	
 <public publicId="-//OASIS//ELEMENTS DITA 1.1 Concept//EN" xml:base="plugins/org.dita.specialization.dita11/dtd/" uri="concept.mod"/>
 	
